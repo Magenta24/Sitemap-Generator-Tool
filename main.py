@@ -1,6 +1,7 @@
-import requests
-from bs4 import BeautifulSoup
-import re
+
+import pprint
+import datetime
+from SiteScraper import SiteScraper
 
 """
 TO-DO:
@@ -13,27 +14,36 @@ TO-DO:
 3. Going down the website 3 levels and registering all the links without duplicates
 """
 
-nodes = []
-edges = []
-level = 0
 
-website_source = requests.get("http://web.pzjudo.pl/").text
-print(website_source)
+website = "http://web.pzjudo.pl/"
 
-# soup of the website
-soup = BeautifulSoup(website_source, 'html.parser') # html.parser is a default parser
+# links = SiteScraper.simple_bfs_scraper(base_url=website)
+links = SiteScraper.bfs_scraper_paths_only(website)
 
-# extracting all links <a> tags
-links = soup.find_all('a')
+# print(SiteScraper.is_email("mailto:pzjudo@pzjudo.pl"))
+# print(SiteScraper.is_email("pzjudo@pzjudo.pl"))
+# print(SiteScraper.is_email("pzjudo.pl"))
 
-# getting actual links (after href)
-for link in links:
-    url = link.get('href')
-    print(url)
-    nodes.append({link:url, level:levels, parent:None, children:[]})
+pprint.pprint(links)
 
-# going 3 levels down the page
-while level < 3:
-    level += 1
-    pass
 
+current_time = datetime.datetime.now()
+print(current_time.date())
+print(current_time.time().hour)
+print(current_time.time().minute)
+
+filename = "records/website_links-"
+filename += str(current_time.date())
+filename += "-"
+filename += str(current_time.time().hour)
+filename += "-"
+filename += str(current_time.time().minute)
+filename += ".txt"
+print(filename)
+
+fp = open(filename, "w")
+
+for x in links:
+    fp.write(x + '\n')
+
+fp.close()
