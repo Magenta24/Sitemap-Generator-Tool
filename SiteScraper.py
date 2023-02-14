@@ -1,5 +1,3 @@
-import urllib.parse
-
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -10,13 +8,18 @@ from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
 
 
 class SiteScraper:
-
     _visited_counter = 0
 
-    def __init__(self, url, max_nodes = None):
+    def __init__(self, url, max_nodes=None, mode=None):
+        """
+        :param url: root URL
+        :param max_nodes: maximum number of nodes to crawl
+        :param mode: might be img , pdf or None (registering images, pdf documents or everything respectively)
+        """
         self._base_url = url
         self._base_url_parsed = urlsplit(url)._asdict()
         self._max_nodes_visited = max_nodes
+        self.mode = mode
 
     def simple_bfs_scraper(self):
         visited = []
@@ -83,7 +86,7 @@ class SiteScraper:
     def bfs_scraper_paths_only(self):
         """
         Registers only URLs without any additional information like level or children
-        :param base_url: root URL
+
         :return: set of crawled URL of the website
         """
         # preventing duplicates and loops
@@ -99,42 +102,49 @@ class SiteScraper:
             while len(queue) >= 0:
 
                 # making request
-                website_source = requests.get(current_node).text
-                print("Checked link: ", current_node)
+                website_req_result = requests.get(current_node)
+                website_source = website_req_result.text
+                website_headers = website_req_result.headers
+                # website_req_result.raise_for_status()  # raising exception for error code 4xx or 5xx
 
-                # soup of the website
-                # soup = BeautifulSoup(website_source, 'html.parser')  # html.parser is a default parser
-                soup = BeautifulSoup(website_source, 'lxml-xml')  # faster than html.parser
+                # checking for image and pdf
+                if not (self.is_image(website_headers) and self.is_pdf(website_headers)):
+                    # soup of the website
+                    soup = BeautifulSoup(website_source, 'lxml-xml')  # faster than html.parser
+                    # soup = BeautifulSoup(website_source, 'html.parser')  # html.parser is a default parser
 
-                # extracting all links <a> tags
-                links = soup.find_all('a')
+                    # extracting all links <a> tags
+                    links = soup.find_all('a')
 
-                for link in links:
-                    url = link.get('href')
+                    for link in links:
+                        url = link.get('href')
 
-                    url_prepared = self.sanitize_url(url)
+                        url_prepared = self.sanitize_url(url)
 
-                    # register all subpages of the website (omitting externals like twitter)
-                    if url_prepared is not None:
-                        # check if the URL is already in the visited or queue set
-                        if url_prepared not in visited.union(queue):
-                            print("added to queue: ", url_prepared)
-                            queue.add(self.add_url_to_base(url_prepared))
-                            print("Queue counter: ", len(queue))
-                            print("Visited counter: ", len(visited))
+                        # register all subpages of the website (omitting externals like twitter)
+                        if url_prepared is not None:
+                            # check if the URL is already in the visited or queue set
+                            if url_prepared not in visited.union(queue):
+                                print("added to queue: ", url_prepared)
+                                queue.add(self.add_url_to_base(url_prepared))
+                                print("Queue counter: ", len(queue))
+                                print("Visited counter: ", len(visited))
 
                 print("node visited: ", current_node)
-                visited.add(current_node)
-                self._visited_counter += 1
+
+                if (self.is_image(website_headers) and self.mode == 'img') or \
+                        (self.is_pdf(website_headers) and self.mode == 'pdf') or \
+                        (self.mode is None):
+                    visited.add(current_node)
 
                 if len(visited) == self._max_nodes_visited:
                     break
 
                 current_node = queue.pop()
 
-            print("Visited counter: ", len(visited))
+            print("Final Visited counter: ", len(visited))
 
-            return visited
+            # return visited
         except Exception as e:
             print(e)
         finally:
@@ -143,11 +153,36 @@ class SiteScraper:
     def dfs_scraper(self):
         pass
 
-    def scrap_pdf(self):
+    def bfs_image_scraper(self):
         pass
 
-    def scrap_images(self):
-        pass
+    def is_pdf(self, headers):
+        """
+        Checking if the resource is PDF file
+        :param headers: website page headers
+        :return: True if pdf file, False otherwise
+        """
+        content_type = headers.get('content-type')
+
+        if content_type.endswith("pdf"):
+            return True
+
+        return False
+
+    def is_image(self, headers):
+        """
+        Checking if the resource is image (file format jpg, jpeg, gif, png)
+
+        :param headers: website page headers
+        :return: True if an image, False otherwise
+        """
+
+        content_type = headers.get('content-type')
+
+        if content_type.startswith("image/"):
+            return True
+
+        return False
 
     @classmethod
     def is_email(cls, url):
@@ -165,7 +200,6 @@ class SiteScraper:
     def is_file(cls, url):
         """
         Checking if resource pointed by URL is a file
-
         :param url: Resource location
         :return: True if resource is file, False otherwise
         """
@@ -180,7 +214,6 @@ class SiteScraper:
     def check_url(url):
         """
         Extracting scheme, domain, path, query and anchors from the url
-
         :param url: Url to be checked
         :return: Void
         """
@@ -199,9 +232,7 @@ class SiteScraper:
         Checking if net location matches the one in base url.
         Checking scheme whether it is http or https
         Removing parameters.
-
         :param url: url to sanitize
-        :param base_netloc: the root URL
         :return: Sanitized URL. If URL cannot be sanitized returns None.
         """
         # extracting domain, url and scheme from the base url
@@ -229,7 +260,5 @@ class SiteScraper:
         url_parsed['query'] = ''
         url_parsed['fragment'] = ''
         sanitized_url = urljoin(self._base_url, urlunsplit(url_parsed.values()))
-        print(sanitized_url)
 
         return sanitized_url
-
