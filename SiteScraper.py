@@ -4,22 +4,28 @@ import re
 from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
 
 
-# import pprint
-
-
 class SiteScraper:
     _visited_counter = 0
 
-    def __init__(self, url, max_nodes=None, mode=None):
+    def __init__(self, url, max_nodes=None, mode=None, parser='html'):
         """
         :param url: root URL
         :param max_nodes: maximum number of nodes to crawl
         :param mode: might be img , pdf or None (registering images, pdf documents or everything respectively)
+        :param parser: type of parser used by crawler
         """
         self._base_url = url
         self._base_url_parsed = urlsplit(url)._asdict()
         self._max_nodes_visited = max_nodes
         self.mode = mode
+
+        if parser == 'html':
+            self.parser = 'html.parser'
+        elif parser == 'lxml':
+            self.parser = 'lxml-xml'
+        else:
+            print("Provide correct parser like xml or html")
+            exit(-1)
 
     def simple_bfs_scraper(self):
         visited = []
@@ -94,7 +100,7 @@ class SiteScraper:
         visited = set()
 
         current_node = self._base_url
-        print("Current node: ", current_node)
+        print("Start node: ", current_node)
 
         try:
 
@@ -110,8 +116,7 @@ class SiteScraper:
                 # checking for image and pdf
                 if not (self.is_image(website_headers) and self.is_pdf(website_headers)):
                     # soup of the website
-                    soup = BeautifulSoup(website_source, 'lxml-xml')  # faster than html.parser
-                    # soup = BeautifulSoup(website_source, 'html.parser')  # html.parser is a default parser
+                    soup = BeautifulSoup(website_source, self.parser)  # faster than html.parser
 
                     # extracting all links <a> tags
                     links = soup.find_all('a')
@@ -126,7 +131,7 @@ class SiteScraper:
                             # check if the URL is already in the visited or queue set
                             if url_prepared not in visited.union(queue):
                                 print("added to queue: ", url_prepared)
-                                queue.add(self.add_url_to_base(url_prepared))
+                                queue.add(url_prepared)
                                 print("Queue counter: ", len(queue))
                                 print("Visited counter: ", len(visited))
 
@@ -140,7 +145,7 @@ class SiteScraper:
                 if len(visited) == self._max_nodes_visited:
                     break
 
-                current_node = queue.pop()
+                current_node = queue.pop(0)
 
             print("Final Visited counter: ", len(visited))
 
@@ -151,7 +156,67 @@ class SiteScraper:
             return visited
 
     def dfs_scraper(self):
-        pass
+        visited = set()
+        stack = []
+
+        current_node = self._base_url
+        print("Start node: ", current_node)
+
+        try:
+
+            # crawling through the website till queue is not empty
+            while len(stack) >= 0:
+
+                # making request
+                website_req_result = requests.get(current_node)
+                website_source = website_req_result.text
+                website_headers = website_req_result.headers
+                # website_req_result.raise_for_status()  # raising exception for error code 4xx or 5xx
+
+                # checking for image and pdf
+                if not (self.is_image(website_headers) and self.is_pdf(website_headers)):
+                    # soup of the website
+                    soup = BeautifulSoup(website_source, self.parser)  # faster than html.parser
+
+                    # extracting all links <a> tags
+                    links = soup.find_all('a')
+
+                    for link in links:
+                        url = link.get('href')
+
+                        url_prepared = self.sanitize_url(url)
+
+                        # register all subpages of the website (omitting externals like twitter)
+                        if url_prepared is not None:
+                            # check if the URL is already in the visited or queue set
+                            if url_prepared not in visited.union(stack):
+                                print("added to queue: ", url_prepared)
+                                stack.append(url_prepared)
+                                print("Queue counter: ", len(stack))
+                                print("Visited counter: ", len(visited))
+
+                print("node visited: ", current_node)
+
+                if (self.is_image(website_headers) and self.mode == 'img') or \
+                        (self.is_pdf(website_headers) and self.mode == 'pdf') or \
+                        (self.mode is None):
+                    visited.add(current_node)
+
+                if len(visited) == self._max_nodes_visited:
+                    break
+
+                # getting last most recent element
+                current_node = stack.pop()
+
+            print("Final Visited counter: ", len(visited))
+
+            # return visited
+        except Exception as e:
+            print(e)
+        finally:
+            return visited
+
+
 
     def bfs_image_scraper(self):
         pass

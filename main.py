@@ -8,7 +8,8 @@ website = "http://web.pzjudo.pl/"
 
 # creating instance of sitescraper
 ss1 = SiteScraper(website, 10, 'img')
-links = ss1.bfs_scraper_paths_only()
+# links = ss1.bfs_scraper_paths_only()
+links = ss1.dfs_scraper()
 
 # pprint.pprint(links)
 
