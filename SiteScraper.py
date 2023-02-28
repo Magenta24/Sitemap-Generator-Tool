@@ -157,6 +157,7 @@ class SiteScraper:
 
     def dfs_scraper(self):
         visited = set()
+        collected = set()
         stack = []
 
         current_node = self._base_url
@@ -189,18 +190,20 @@ class SiteScraper:
                         # register all subpages of the website (omitting externals like twitter)
                         if url_prepared is not None:
                             # check if the URL is already in the visited or queue set
-                            if url_prepared not in visited.union(stack):
+                            if url_prepared not in visited.union(set(stack)):
                                 print("added to queue: ", url_prepared)
                                 stack.append(url_prepared)
                                 print("Queue counter: ", len(stack))
                                 print("Visited counter: ", len(visited))
+                                print("Collected counter: ", len(collected))
 
                 print("node visited: ", current_node)
+                visited.add(current_node)
 
                 if (self.is_image(website_headers) and self.mode == 'img') or \
                         (self.is_pdf(website_headers) and self.mode == 'pdf') or \
                         (self.mode is None):
-                    visited.add(current_node)
+                    collected.add(current_node)
 
                 if len(visited) == self._max_nodes_visited:
                     break
@@ -214,7 +217,7 @@ class SiteScraper:
         except Exception as e:
             print(e)
         finally:
-            return visited
+            return collected
 
 
 
