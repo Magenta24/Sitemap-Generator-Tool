@@ -96,16 +96,22 @@ class SiteScraper:
         :return: set of crawled URL of the website
         """
         # preventing duplicates and loops
-        queue = set()
-        visited = set()
+        queue = []  # URLs to be crawled
+        visited = set()  # URLs visited
+        collected = set()  # URLs to be returned to the user
+        counter_queue = 0
 
-        current_node = self._base_url
-        print("Start node: ", current_node)
+        current_node = self.sanitize_url(self._base_url)
+        print("START NODE: ", current_node)
 
         try:
 
             # crawling through the website till queue is not empty
             while len(queue) >= 0:
+
+                # marking crawled URL as VISITED
+                visited.add(current_node)
+                print("NODE VISITED: ", len(visited), ' ', current_node)
 
                 # making request
                 website_req_result = requests.get(current_node)
@@ -115,8 +121,9 @@ class SiteScraper:
 
                 # checking for image and pdf
                 if not (self.is_image(website_headers) and self.is_pdf(website_headers)):
+
                     # soup of the website
-                    soup = BeautifulSoup(website_source, self.parser)  # faster than html.parser
+                    soup = BeautifulSoup(website_source, self.parser)
 
                     # extracting all links <a> tags
                     links = soup.find_all('a')
@@ -124,32 +131,39 @@ class SiteScraper:
                     for link in links:
                         url = link.get('href')
 
+                        # print('not parsed url: ', url)
                         url_prepared = self.sanitize_url(url)
+                        # print('parsed: ', url_prepared)
 
-                        # register all subpages of the website (omitting externals like twitter)
+                        # register all subpages of the website (omitting externals (ex. twitter, instagram etc.))
                         if url_prepared is not None:
                             # check if the URL is already in the visited or queue set
                             if url_prepared not in visited.union(queue):
-                                print("added to queue: ", url_prepared)
-                                queue.add(url_prepared)
-                                print("Queue counter: ", len(queue))
-                                print("Visited counter: ", len(visited))
+                                # print("added to queue: ", url_prepared)
+                                # adding URL to the queue
+                                queue.append(url_prepared)
+                                print(counter_queue, ' ', url_prepared)
+                                counter_queue += 1
+                                # print(queue)
+                                # print("Queue counter: ", len(queue))
+                                # print("Visited counter: ", len(visited))
 
-                print("node visited: ", current_node)
 
                 if (self.is_image(website_headers) and self.mode == 'img') or \
                         (self.is_pdf(website_headers) and self.mode == 'pdf') or \
                         (self.mode is None):
-                    visited.add(current_node)
+                    collected.add(current_node)
 
                 if len(visited) == self._max_nodes_visited:
                     break
 
+                # updating the node to crawl
                 current_node = queue.pop(0)
 
             print("Final Visited counter: ", len(visited))
+            print("Final Collected counter: ", len(collected))
+            print("Final Queued counter: ", len(queue))
 
-            # return visited
         except Exception as e:
             print(e)
         finally:
@@ -197,7 +211,7 @@ class SiteScraper:
                                 print("Visited counter: ", len(visited))
                                 print("Collected counter: ", len(collected))
 
-                print("node visited: ", current_node)
+                print("NODE VISITED: ", len(visited) + 1, ' ', current_node)
                 visited.add(current_node)
 
                 if (self.is_image(website_headers) and self.mode == 'img') or \
@@ -219,8 +233,6 @@ class SiteScraper:
         finally:
             print(collected)
             return list(collected)
-
-
 
     def bfs_image_scraper(self):
         pass
@@ -296,6 +308,8 @@ class SiteScraper:
         print('\tfragment (anchor): ', base_url_parsed.fragment)
         print()
 
+        return base_url_parsed._asdict()
+
     def sanitize_url(self, url):
         """
         Checking if net location matches the one in base url.
@@ -328,6 +342,11 @@ class SiteScraper:
         # remove any parameters or queries
         url_parsed['query'] = ''
         url_parsed['fragment'] = ''
+
+        # canonicalization of URLs, so that all of them ends with backslash
+        if ((url_parsed['path'] == '') or (url_parsed['path'][-1] != '/')) and not (self.is_file(url)):
+            url_parsed['path'] += '/'
+
         sanitized_url = urljoin(self._base_url, urlunsplit(url_parsed.values()))
 
         return sanitized_url
