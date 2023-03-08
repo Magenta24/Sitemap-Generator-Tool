@@ -29,7 +29,10 @@ def main(request):
             return render(request, 'sitemap.html', {'links': links})
 
 def check_url(request):
-    xd = SiteScraper.check_url('http://web.pzjudo.pl/')
+    url = request.GET.get('url')
+    print(url)
+
+    xd = SiteScraper.check_url(url)
     res = ''
     res += ('scheme :' + xd['scheme'] + '<br>')
     res += ('netloc :' + xd['netloc'] + '<br>')
@@ -40,7 +43,8 @@ def check_url(request):
     return HttpResponse(res)
 
 def sanitize_url(request):
-    ss1 = SiteScraper('http://web.pzjudo.pl/', 10)
-    xd = ss1.sanitize_url('')
+    url = request.GET.get('url')
+    ss1 = SiteScraper(url, 10)
+    xd = ss1.sanitize_url(url)
 
     return HttpResponse(xd)
