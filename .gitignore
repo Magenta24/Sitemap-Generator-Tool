@@ -5,3 +5,5 @@ Stack.py
 .idea/
 __pycache__/
 website_links-*.txt
+finalprojectvenv/
+report/
