@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 from .forms import SitemapForm
+from django.conf import settings as django_settings
+import os
 
 from .SiteScraper import SiteScraper
 import datetime
@@ -25,6 +27,8 @@ def main(request):
             ss1 = SiteScraper(root_url, 10)
             # links = ss1.simple_bfs_scraper()
             links = ss1.bfs_scraper_paths_only()
+            # sitemap_path = os.path.join(django_settings.STATIC_URL, f'sitemap.xml')
+            ss1.save_XML_sitemap(links, 'sitemap.xml')
 
             return render(request, 'sitemap.html', {'links': links})
 

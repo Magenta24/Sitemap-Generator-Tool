@@ -2,10 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
 
 
 class SiteScraper:
     _visited_counter = 0
+    _collected = []
 
     def __init__(self, url, max_nodes=None, mode=None, parser='html'):
         """
@@ -167,6 +170,7 @@ class SiteScraper:
         except Exception as e:
             print(e)
         finally:
+            self._collected = collected
             return collected
 
     def dfs_scraper(self):
@@ -234,8 +238,42 @@ class SiteScraper:
             print(collected)
             return list(collected)
 
-    def bfs_image_scraper(self):
-        pass
+    def save_XML_sitemap(self, collected, path):
+        """
+        Saving collected to hyperlinks to XML sitemap.
+
+        :param collected: hyperlinks
+        :param path: location of XML sitemap
+        :return: None
+        """
+
+        ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
+        root = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}urlset')
+
+        for link in collected:
+            url = ET.SubElement(root,'url')
+            loc = ET.SubElement(url, 'loc')
+            loc.text = link
+            lastmod = ET.SubElement(url, 'lastmod')
+            priority = ET.SubElement(url, 'priority')
+
+        tree = ET.ElementTree(root)
+
+        try:
+            # tree.write('sitemap.xml',
+            #            xml_declaration=True,
+            #            encoding='utf-8',
+            #            method='xml')
+
+            xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
+            with open(path, "w") as f:
+                f.write(xmlstr)
+        except Exception as e:
+            print('Przypas')
+            print(e)
+
+
+
 
     def is_pdf(self, headers):
         """
