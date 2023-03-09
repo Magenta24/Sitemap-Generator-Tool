@@ -7,16 +7,35 @@
     <title>Sitemap generator tool</title>
 </head>
 <body>
-    <div class="container" style="width:100%">
-        <div style="width:50%;margin:auto">
-            <h1>Sitemap generator tool</h1>
-            <form action="/" method="POST">
-                {% csrf_token %}
-                {{ form }}
-                <input type="submit" value="Get sitemap">
-            </form>
-        </div>
+<div class="container" style="width:100%">
+    <div style="width:50%;margin:auto">
+        <h1>Sitemap generator tool</h1>
+        <form action="/" method="POST">
+            {% csrf_token %}
+            <table border="1">
+                <tr>
+                    <th>{{ form.url.label_tag }}</th>
+                    <td>
+                        {{ form.url.errors }}
+                        {{ form.url }}
+                    </td>
+                </tr>
+                <tr>
+                    <th>{{ form.max_pages.label_tag }}</th>
+                    <td>
+                        {{ form.max_pages.errors }}
+                        {{ form.max_pages }}
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="submit" value="Get sitemap"></td>
+                </tr>
+            </table>
+
+        </form>
     </div>
+</div>
 
 
 </body>

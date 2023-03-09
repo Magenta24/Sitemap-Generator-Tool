@@ -22,10 +22,10 @@ def main(request):
 
         if form.is_valid():
             root_url = form.cleaned_data['url']
+            max_pages = form.cleaned_data['max_pages']
 
             # creating instance of sitescraper
-            ss1 = SiteScraper(root_url, 10)
-            # links = ss1.simple_bfs_scraper()
+            ss1 = SiteScraper(root_url, max_pages)
             links = ss1.bfs_scraper_paths_only()
             # sitemap_path = os.path.join(django_settings.STATIC_URL, f'sitemap.xml')
             ss1.save_XML_sitemap(links, 'sitemap.xml')
