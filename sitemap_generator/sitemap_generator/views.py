@@ -12,12 +12,14 @@ import json
 # Create your views here.
 def main(request):
 
-    form = SitemapForm()
+    # specifying for to render and initial value for radio button
+    sitemap_settings_form = SitemapForm(initial={'sitemap_type':'1'})
 
     if request.method == 'GET':
-        return render(request, "index.html", {'form': form})
+        return render(request, "index.html", {'form': sitemap_settings_form})
 
     if request.method == 'POST':
+
         form = SitemapForm(request.POST)
 
         if form.is_valid():

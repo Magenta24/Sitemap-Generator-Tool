@@ -28,6 +28,20 @@
                     </td>
                 </tr>
                 <tr>
+                    <th>{{ form.max_depth.label_tag }}</th>
+                    <td>
+                        {{ form.max_depth.errors }}
+                        {{ form.max_depth }}
+                    </td>
+                </tr>
+                <tr>
+                    <th>{{ form.sitemap_type.label_tag }}</th>
+                    <td>
+                        {{ form.sitemap_type.errors }}
+                        {{ form.sitemap_type }}
+                    </td>
+                </tr>
+                <tr>
                     <th></th>
                     <td><input type="submit" value="Get sitemap"></td>
                 </tr>

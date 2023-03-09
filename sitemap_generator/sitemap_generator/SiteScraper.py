@@ -269,7 +269,7 @@ class SiteScraper:
             with open(path, "w") as f:
                 f.write(xmlstr)
         except Exception as e:
-            print('Przypas')
+            print('Przyps')
             print(e)
 
 
