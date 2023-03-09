@@ -99,9 +99,9 @@ class SiteScraper:
         :return: set of crawled URL of the website
         """
         # preventing duplicates and loops
-        queue = []          # URLs to be crawled
-        visited = set()     # URLs visited
-        collected = []      # URLs to be returned to the user
+        queue = []  # URLs to be crawled
+        visited = set()  # URLs visited
+        collected = []  # URLs to be returned to the user
         counter_queue = 0
 
         current_node = self.sanitize_url(self._base_url)
@@ -150,7 +150,6 @@ class SiteScraper:
                                 # print(queue)
                                 # print("Queue counter: ", len(queue))
                                 # print("Visited counter: ", len(visited))
-
 
                 if (self.is_image(website_headers) and self.mode == 'img') or \
                         (self.is_pdf(website_headers) and self.mode == 'pdf') or \
@@ -238,9 +237,9 @@ class SiteScraper:
             print(collected)
             return list(collected)
 
-    def save_XML_sitemap(self, collected, path):
+    def save_xml_sitemap(self, collected, path):
         """
-        Saving collected to hyperlinks to XML sitemap.
+        Saving collected hyperlinks to XML sitemap.
 
         :param collected: hyperlinks
         :param path: location of XML sitemap
@@ -251,7 +250,7 @@ class SiteScraper:
         root = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}urlset')
 
         for link in collected:
-            url = ET.SubElement(root,'url')
+            url = ET.SubElement(root, 'url')
             loc = ET.SubElement(url, 'loc')
             loc.text = link
             lastmod = ET.SubElement(url, 'lastmod')
@@ -271,9 +270,6 @@ class SiteScraper:
         except Exception as e:
             print('Przyps')
             print(e)
-
-
-
 
     def is_pdf(self, headers):
         """
