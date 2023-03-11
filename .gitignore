@@ -7,3 +7,4 @@ finalprojectvenv/
 report/
 migrations/
 sitemap.xml
+sitemap_generator/main.py

@@ -4,11 +4,13 @@ import re
 from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
+import urllib.error
 
 
 class SiteScraper:
-    _visited_counter = 0
     _collected = []
+    _visited = set()
+    _queue = []
 
     def __init__(self, url, max_nodes=None, mode=None, parser='html'):
         """
@@ -29,6 +31,8 @@ class SiteScraper:
         else:
             print("Provide correct parser like xml or html")
             exit(-1)
+
+        print('INIT SUCCCESSFUL')
 
     def simple_bfs_scraper(self):
         visited = []
@@ -87,6 +91,7 @@ class SiteScraper:
                 current_node = queue.pop(0)
 
             return visited
+
         except Exception as e:
             print(e)
         finally:
@@ -98,13 +103,14 @@ class SiteScraper:
 
         :return: set of crawled URL of the website
         """
-        # preventing duplicates and loops
-        queue = []  # URLs to be crawled
-        visited = set()  # URLs visited
-        collected = []  # URLs to be returned to the user
+
+        queue = []          # URLs to be crawled
+        queue_set = set()          # URLs to be crawled
+        visited = set()     # URLs visited
+        collected = []      # URLs to be returned to the user
         counter_queue = 0
 
-        current_node = self.sanitize_url(self._base_url)
+        current_node = {'url': self.sanitize_url(self._base_url), 'level': 0}
         print("START NODE: ", current_node)
 
         try:
@@ -113,14 +119,13 @@ class SiteScraper:
             while len(queue) >= 0:
 
                 # marking crawled URL as VISITED
-                visited.add(current_node)
-                print("NODE VISITED: ", len(visited), ' ', current_node)
+                visited.add(current_node['url'])
+                print("NODE VISITED: ", len(visited), ' ', current_node['url'])
 
                 # making request
-                website_req_result = requests.get(current_node)
+                website_req_result = requests.get(current_node['url'])
                 website_source = website_req_result.text
                 website_headers = website_req_result.headers
-                # website_req_result.raise_for_status()  # raising exception for error code 4xx or 5xx
 
                 # checking for image and pdf
                 if not (self.is_image(website_headers) and self.is_pdf(website_headers)):
@@ -132,40 +137,46 @@ class SiteScraper:
                     links = soup.find_all('a')
 
                     for link in links:
-                        url = link.get('href')
 
-                        # print('not parsed url: ', url)
-                        url_prepared = self.sanitize_url(url)
-                        # print('parsed: ', url_prepared)
+                        # extracting URL and sanitizing it
+                        url_prepared = self.sanitize_url(link.get('href'))
 
-                        # register all subpages of the website (omitting externals (ex. twitter, instagram etc.))
-                        if url_prepared is not None:
-                            # check if the URL is already in the visited or queue set
-                            if url_prepared not in visited.union(queue):
+                        if url_prepared is not None:    # register all subpages of the website (omitting externals (ex. twitter, instagram etc.))
+                            if url_prepared not in visited.union(queue_set):    # check if the URL is already in the visited or queue set
                                 # print("added to queue: ", url_prepared)
                                 # adding URL to the queue
-                                queue.append(url_prepared)
+                                queue.append({'url': url_prepared, 'level': (current_node['level'] + 1)})
+                                queue_set.add(url_prepared)
                                 print(counter_queue, ' ', url_prepared)
                                 counter_queue += 1
                                 # print(queue)
                                 # print("Queue counter: ", len(queue))
                                 # print("Visited counter: ", len(visited))
 
+                # deciding whether include given URL in the sitemap
                 if (self.is_image(website_headers) and self.mode == 'img') or \
-                        (self.is_pdf(website_headers) and self.mode == 'pdf') or \
-                        (self.mode is None):
+                   (self.is_pdf(website_headers) and self.mode == 'pdf') or \
+                   (self.mode is None):
                     collected.append(current_node)
 
+                # terminating crawling if max_nodes value is reached
                 if len(visited) == self._max_nodes_visited:
                     break
 
-                # updating the node to crawl
+                # getting next to be crawled
                 current_node = queue.pop(0)
 
             print("Final Visited counter: ", len(visited))
             print("Final Collected counter: ", len(collected))
             print("Final Queued counter: ", len(queue))
 
+        # handling errors
+        except urllib.error.HTTPError as e:
+            print('HTTP error occurred. Might resource not found or smth else.')
+            print(e)
+        except urllib.error.URLError as e:
+            print('URL error occurred. Might be server couldnt be found or some typo in URL')
+            print(e)
         except Exception as e:
             print(e)
         finally:
@@ -252,9 +263,10 @@ class SiteScraper:
         for link in collected:
             url = ET.SubElement(root, 'url')
             loc = ET.SubElement(url, 'loc')
-            loc.text = link
+            loc.text = link['url']
             lastmod = ET.SubElement(url, 'lastmod')
-            priority = ET.SubElement(url, 'priority')
+            depth = ET.SubElement(url, 'depth')
+            depth.text = link['level']
 
         tree = ET.ElementTree(root)
 

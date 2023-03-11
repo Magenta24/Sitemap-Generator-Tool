@@ -6,9 +6,9 @@ class SitemapForm(forms.Form):
     url = forms.CharField(label='Provide URL', required=True)
     max_pages = forms.IntegerField(label='Maximum number of pages bot will crawl', initial=10)
     max_depth = forms.IntegerField(label='Maximum depth', initial=10)
-    img_sitemaps = forms.BooleanField()
-    pdf_sitemaps = forms.BooleanField()
-    all_sitemaps = forms.BooleanField()
+    # img_sitemaps = forms.BooleanField()
+    # pdf_sitemaps = forms.BooleanField()
+    # all_sitemaps = forms.BooleanField()
 
     sitemap_choices = [
         ('1', 'Everythig sitemap'),

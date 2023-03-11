@@ -11,7 +11,7 @@
             <h1>Sitemap generator tool</h1>
             <h2>Download your sitemap: <a href="">click</a></h2>
             {% for link in links %}
-            <p><a href={{ link }}>{{ link }}</a></p>
+                <p><a href={{ link.url }}>{{ link.url }}</a> level: {{ link.level }}</p>
             {% endfor %}
         </div>
     </body>

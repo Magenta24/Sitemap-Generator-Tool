@@ -21,6 +21,7 @@ def main(request):
     if request.method == 'POST':
 
         form = SitemapForm(request.POST)
+        print(form.errors)
 
         if form.is_valid():
             root_url = form.cleaned_data['url']
@@ -29,10 +30,13 @@ def main(request):
             # creating instance of sitescraper
             ss1 = SiteScraper(root_url, max_pages)
             links = ss1.bfs_scraper_paths_only()
+            print(links)
             # sitemap_path = os.path.join(django_settings.STATIC_URL, f'sitemap.xml')
-            ss1.save_XML_sitemap(links, 'sitemap.xml')
+            ss1.save_xml_sitemap(links, 'sitemap.xml')
 
             return render(request, 'sitemap.html', {'links': links})
+
+    # return HttpResponse('xdd')
 
 def check_url(request):
     url = request.GET.get('url')
