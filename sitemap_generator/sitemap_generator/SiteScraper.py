@@ -6,11 +6,15 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import urllib.error
 
+from treelib import Node, Tree
+import graphviz
+
 
 class SiteScraper:
     _collected = []
     _visited = set()
     _queue = []
+    _url_tree = None
 
     def __init__(self, url, max_nodes=None, mode=None, parser='html'):
         """
@@ -34,69 +38,6 @@ class SiteScraper:
 
         print('INIT SUCCCESSFUL')
 
-    def simple_bfs_scraper(self):
-        visited = []
-        # preventing duplicates and loops by using sets instead of arrays
-        queue = []
-        queue_set = set()
-        visited_set = set()
-
-        # extracting domain, url and scheme from the base url
-        base_url_parsed = urlparse(self._base_url)
-        base_scheme = base_url_parsed.scheme
-        base_url_address = base_url_parsed.netloc
-        base_path = base_url_parsed.path
-        print('URL DATA: ')
-        print('\tscheme: ', base_scheme)
-        print('\tnetloc: ', base_url_address)
-        print('\tpath: ', base_path)
-        print()
-
-        current_node = {"url": self._base_url, "level": 0}
-        print("Current node: ", current_node["url"])
-
-        try:
-            # crawling through the website till queue is not empty
-            while len(queue) >= 0:
-
-                # making request
-                website_source = requests.get(current_node["url"]).text
-                print("Checked link: ", current_node)
-
-                # soup of the website
-                soup = BeautifulSoup(website_source, 'html.parser')  # html.parser is a default parser
-
-                # extracting all links <a> tags
-                links = soup.find_all('a')
-
-                for link in links:
-                    url = link.get('href')
-                    # print(url)
-                    # register all subpages of the website (omitting externals like twitter)
-                    if ((urlparse(url).netloc == base_url_address) or (
-                            urlparse(url).netloc == '' and urlparse(url).path != '' and urlparse(
-                        url).path != '/')) and not SiteScraper.is_email(url):
-
-                        # check if the URL is already in the visited set
-                        if url not in visited_set.union(queue_set):
-                            print("added to queue: ", url)
-                            queue_set.add(url)
-                            queue.append({"url": self.add_url_to_base(url),
-                                          "level": current_node["level"] + 1,
-                                          "parent": current_node["url"]})
-
-                visited.append(current_node)
-                print("node visited: ", current_node["url"])
-                visited_set.add(current_node["url"])
-                current_node = queue.pop(0)
-
-            return visited
-
-        except Exception as e:
-            print(e)
-        finally:
-            return visited
-
     def bfs_scraper_paths_only(self):
         """
         Registers only URLs without any additional information like level or children
@@ -104,13 +45,16 @@ class SiteScraper:
         :return: set of crawled URL of the website
         """
 
-        queue = []          # URLs to be crawled
-        queue_set = set()          # URLs to be crawled
-        visited = set()     # URLs visited
-        collected = []      # URLs to be returned to the user
+        queue = []  # URLs to be crawled
+        queue_set = set()  # URLs to be crawled
+        visited = set()  # URLs visited
+        collected = []  # URLs to be returned to the user
+        self._url_tree = Tree()  # tree storing all the URLs and related metadata
         counter_queue = 0
 
         current_node = {'url': self.sanitize_url(self._base_url), 'level': 0}
+        # add root to the tree
+        self._url_tree.create_node(current_node['url'], current_node['url'], data=current_node)
         print("START NODE: ", current_node)
 
         try:
@@ -141,12 +85,16 @@ class SiteScraper:
                         # extracting URL and sanitizing it
                         url_prepared = self.sanitize_url(link.get('href'))
 
-                        if url_prepared is not None:    # register all subpages of the website (omitting externals (ex. twitter, instagram etc.))
-                            if url_prepared not in visited.union(queue_set):    # check if the URL is already in the visited or queue set
+                        if url_prepared is not None:  # register all subpages of the website (omitting externals (ex. twitter, instagram etc.))
+                            if url_prepared not in visited.union(
+                                    queue_set):  # check if the URL is already in the visited or queue set
                                 # print("added to queue: ", url_prepared)
                                 # adding URL to the queue
-                                queue.append({'url': url_prepared, 'level': (current_node['level'] + 1)})
+                                child_node = {'url': url_prepared, 'level': (current_node['level'] + 1)}
+                                queue.append(child_node)
                                 queue_set.add(url_prepared)
+                                self._url_tree.create_node(url_prepared, url_prepared, parent=current_node['url'],
+                                                           data=child_node)
                                 print(counter_queue, ' ', url_prepared)
                                 counter_queue += 1
                                 # print(queue)
@@ -155,8 +103,8 @@ class SiteScraper:
 
                 # deciding whether include given URL in the sitemap
                 if (self.is_image(website_headers) and self.mode == 'img') or \
-                   (self.is_pdf(website_headers) and self.mode == 'pdf') or \
-                   (self.mode is None):
+                        (self.is_pdf(website_headers) and self.mode == 'pdf') or \
+                        (self.mode is None):
                     collected.append(current_node)
 
                 # terminating crawling if max_nodes value is reached
@@ -181,6 +129,9 @@ class SiteScraper:
             print(e)
         finally:
             self._collected = collected
+            self._url_tree.save2file('cool-tree.txt')
+            self.tree_to_graphviz()
+            self._url_tree.show()
             return collected
 
     def dfs_scraper(self):
@@ -248,6 +199,23 @@ class SiteScraper:
             print(collected)
             return list(collected)
 
+    def save_url_tree_to_file(self):
+        filename = 'url_tree.txt'
+        self._url_tree.save2file(filename)
+
+    def tree_to_diagram(self):
+        return self._url_tree.show(stdout=False)
+
+    def tree_to_json(self):
+        return self._url_tree.to_json()
+
+    def tree_to_graphviz(self):
+        return self._url_tree.to_graphviz('tree-graph.gv')
+
+    def tree_to_svg(self):
+        dot = graphviz.Source.from_file('tree-graph.gv')
+        dot.render('graphviz-output/output', format='svg')
+
     def save_xml_sitemap(self, collected, path):
         """
         Saving collected hyperlinks to XML sitemap.
@@ -262,11 +230,14 @@ class SiteScraper:
 
         for link in collected:
             url = ET.SubElement(root, 'url')
+
             loc = ET.SubElement(url, 'loc')
             loc.text = link['url']
+
             lastmod = ET.SubElement(url, 'lastmod')
+
             depth = ET.SubElement(url, 'depth')
-            depth.text = link['level']
+            # depth.text = link['level']
 
         tree = ET.ElementTree(root)
 

@@ -13,7 +13,7 @@ import json
 def main(request):
 
     # specifying for to render and initial value for radio button
-    sitemap_settings_form = SitemapForm(initial={'sitemap_type':'1'})
+    sitemap_settings_form = SitemapForm(initial={'sitemap_type': '1', 'xml_format': '2'})
 
     if request.method == 'GET':
         return render(request, "index.html", {'form': sitemap_settings_form})
@@ -33,8 +33,15 @@ def main(request):
             print(links)
             # sitemap_path = os.path.join(django_settings.STATIC_URL, f'sitemap.xml')
             ss1.save_xml_sitemap(links, 'sitemap.xml')
+            # tree_json = ss1.tree_to_diagram()
+            ss1.tree_to_svg()
 
-            return render(request, 'sitemap.html', {'links': links})
+            # reading file with URL tree structure
+            f = open('cool-tree.txt', 'r', encoding='utf-8')
+            file_content = f.read()
+            f.close()
+
+            return render(request, 'sitemap.html', {'links': links, 'url_tree_structure': file_content})
 
     # return HttpResponse('xdd')
 
