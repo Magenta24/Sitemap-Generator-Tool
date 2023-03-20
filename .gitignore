@@ -7,6 +7,7 @@ finalprojectvenv/
 report/
 migrations/
 main.py
-tree-graph.gv
-diagram
-diagram.svg
+graphviz-output/tree-graph.gv
+static/tree_structure/url_tree.txt
+static/images/diagram
+static/images/diagram.svg
