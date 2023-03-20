@@ -11,6 +11,12 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+import os
+
+import mimetypes
+
+mimetypes.add_type("image/svg+xml", ".svg", True)
+mimetypes.add_type("image/svg+xml", ".svgz", True)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent
@@ -110,9 +116,23 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "sitemap_generator/static/"
+MEDIA_URL = "images/"
+XML_URL = "xml/"
+GRAPHVIZ_URL = "sitemap_generator/graphviz-output/"
+
+STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL)
+MEDIA_ROOT = os.path.join(BASE_DIR, STATIC_URL, MEDIA_URL)
+XML_ROOT = os.path.join(BASE_DIR, STATIC_URL, XML_URL)
+GRAPHVIZ_ROOT = os.path.join(BASE_DIR, GRAPHVIZ_URL)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+    }
+}

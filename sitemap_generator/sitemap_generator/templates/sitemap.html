@@ -1,24 +1,40 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="{% static 'style.css' %}">
-        <title>Sitemap generator tool</title>
-    </head>
-    <body>
-        <div class="container" style="width:100%">
-            <h1>Sitemap generator tool</h1>
-            <h2>URL tree structure</h2>
-            <div>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Sitemap generator tool</title>
+</head>
+<body>
+<div class="container" style="width:100%">
+    <div style="width:100%;">
+        <p style="justify-content:start;">
+            <a href="/">[Go back]</a>
+        </p>
+    </div>
+    <h1>Sitemap generator tool</h1>
+    {% if to_include_sitemap_img == True %}
+    <h2>URL diagram</h2>
+    <div>
+        <embed src="{% static 'images/diagram.svg' %}" width="40000">
+    </div>
+    {% endif %}
+    <h2>URL tree structure</h2>
+    <div style="overflow:scroll; height:400px;">
                 <span style="white-space: pre-wrap;">
                     {{ url_tree_structure }}
                 </span>
-            </div>
-            <h2>Download your sitemap: <a href="">click</a></h2>
-            {% for link in links %}
-                <p><a href={{ link.url }}>{{ link.url }}</a> level: {{ link.level }}</p>
-            {% endfor %}
-        </div>
-    </body>
+    </div>
+    <h2>Download your sitemap: <a href="/download_xml_sitemap">click</a></h2>
+    <h2>Download your sitemap diagram: <a href="/download_diagram_sitemap">click</a></h2>
+
+    <h2>URLs visited</h2>
+    <div style="overflow:scroll; height:400px;">
+        {% for link in links %}
+        <p><a href={{ link.url }}>{{ link.url }}</a></p>
+        {% endfor %}
+    </div>
+</div>
+</body>
 </html>

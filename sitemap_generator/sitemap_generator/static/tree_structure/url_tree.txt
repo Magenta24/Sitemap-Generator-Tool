@@ -1,0 +1,186 @@
+https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna
+├── https://pl.wikipedia.org/
+├── https://pl.wikipedia.org/w/index.php
+├── https://pl.wikipedia.org/wiki/1393/
+├── https://pl.wikipedia.org/wiki/1673/
+├── https://pl.wikipedia.org/wiki/1848/
+├── https://pl.wikipedia.org/wiki/1943/
+├── https://pl.wikipedia.org/wiki/1963/
+├── https://pl.wikipedia.org/wiki/19_marca/
+├── https://pl.wikipedia.org/wiki/2003/
+├── https://pl.wikipedia.org/wiki/20_marca/
+├── https://pl.wikipedia.org/wiki/21_marca/
+├── https://pl.wikipedia.org/wiki/43_p.n.e.
+├── https://pl.wikipedia.org/wiki/95._ceremonia_wr%C4%99czenia_Oscar%C3%B3w
+├── https://pl.wikipedia.org/wiki/Adam_Sandauer/
+├── https://pl.wikipedia.org/wiki/Aleksandra/
+├── https://pl.wikipedia.org/wiki/Alissa_Johnson/
+├── https://pl.wikipedia.org/wiki/Anastoechus/
+├── https://pl.wikipedia.org/wiki/Anette_Sagen/
+├── https://pl.wikipedia.org/wiki/Anthony_Edwards_(aktor)/
+├── https://pl.wikipedia.org/wiki/Augustyn_Kordecki/
+├── https://pl.wikipedia.org/wiki/Austria/
+├── https://pl.wikipedia.org/wiki/Baiersbronn/
+├── https://pl.wikipedia.org/wiki/Bakuriani/
+├── https://pl.wikipedia.org/wiki/Beli_(ksi%C4%99%C5%BCyc)/
+├── https://pl.wikipedia.org/wiki/Berlin/
+├── https://pl.wikipedia.org/wiki/Berlin_(zesp%C3%B3%C5%82_muzyczny)/
+├── https://pl.wikipedia.org/wiki/Breitenberg_(Bawaria)/
+├── https://pl.wikipedia.org/wiki/Chaim_Topol/
+├── https://pl.wikipedia.org/wiki/Daniela_Iraschko-Stolz/
+├── https://pl.wikipedia.org/wiki/Dick_Fosbury/
+├── https://pl.wikipedia.org/wiki/Dominik_Kuta/
+├── https://pl.wikipedia.org/wiki/Dubravka_Ugre%C5%A1i%C4%87/
+├── https://pl.wikipedia.org/wiki/Dyskusja_Wikipedii:Strona_g%C5%82%C3%B3wna/
+├── https://pl.wikipedia.org/wiki/Encyklopedia/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Linkuj%C4%85ce/Encyklopedia/
+│   └── https://pl.wikipedia.org/wiki/Specjalna:Szukaj/Encyklopedia/
+├── https://pl.wikipedia.org/wiki/Eufemia_(imi%C4%99)/
+├── https://pl.wikipedia.org/wiki/FIS_Ladies_Grand_Prix_2003/
+├── https://pl.wikipedia.org/wiki/FIS_Ladies_Winter_Tournee/
+├── https://pl.wikipedia.org/wiki/Film_akcji/
+├── https://pl.wikipedia.org/wiki/Gustaw_Potworowski_(polityk)/
+├── https://pl.wikipedia.org/wiki/Halowe_Mistrzostwa_Europy_w_Lekkoatletyce_2023/
+├── https://pl.wikipedia.org/wiki/II_wojna_w_Zatoce_Perskiej/
+├── https://pl.wikipedia.org/wiki/Imieniny/
+├── https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99/
+├── https://pl.wikipedia.org/wiki/Jan_Nepomucen/
+├── https://pl.wikipedia.org/wiki/Janusz_Weiss/
+├── https://pl.wikipedia.org/wiki/Jasna_G%C3%B3ra/
+├── https://pl.wikipedia.org/wiki/Jessica_Jerome/
+├── https://pl.wikipedia.org/wiki/Kalendarium_II_wojny_w_Zatoce_Perskiej/
+├── https://pl.wikipedia.org/wiki/Kalendarium_dzie%C5%84_po_dniu/
+├── https://pl.wikipedia.org/wiki/Karla_Keck/
+├── https://pl.wikipedia.org/wiki/Kategoria:Strona_g%C5%82%C3%B3wna/
+├── https://pl.wikipedia.org/wiki/Kelly_McGillis/
+├── https://pl.wikipedia.org/wiki/Klaudia/
+├── https://pl.wikipedia.org/wiki/Komitet_Narodowy_Polski_w_Poznaniu/
+├── https://pl.wikipedia.org/wiki/Komunistyczna_Partia_Chin/
+├── https://pl.wikipedia.org/wiki/Lance_Reddick/
+├── https://pl.wikipedia.org/wiki/Lepilemur_samotny/
+├── https://pl.wikipedia.org/wiki/Lindsey_Van/
+├── https://pl.wikipedia.org/wiki/Love_Me_Do/
+├── https://pl.wikipedia.org/wiki/Ludwik_I_Wittelsbach/
+├── https://pl.wikipedia.org/wiki/Ludwik_Mieros%C5%82awski/
+├── https://pl.wikipedia.org/wiki/Mao_Zedong/
+├── https://pl.wikipedia.org/wiki/Marek_Kopelent/
+├── https://pl.wikipedia.org/wiki/Marzec_2023/
+├── https://pl.wikipedia.org/wiki/Mistrzostwa_%C5%9Awiata_w_Narciarstwie_Dowolnym_i_Snowboardingu_2023/
+├── https://pl.wikipedia.org/wiki/Moabit/
+├── https://pl.wikipedia.org/wiki/Nagroda_Akademii_Filmowej/
+├── https://pl.wikipedia.org/wiki/Niemcy/
+├── https://pl.wikipedia.org/wiki/Oscar_za_najlepszy_film/
+├── https://pl.wikipedia.org/wiki/Owidiusz/
+├── https://pl.wikipedia.org/wiki/Paulini/
+├── https://pl.wikipedia.org/wiki/Paw_indyjski/
+├── https://pl.wikipedia.org/wiki/Piotr_Kaczkowski/
+├── https://pl.wikipedia.org/wiki/Plik:Anastoechus_P1520064a.jpg
+├── https://pl.wikipedia.org/wiki/Plik:Daniela_Iraschko_169.JPG
+├── https://pl.wikipedia.org/wiki/Plik:Die_Gartenlaube_(1888)_b_404.jpg
+├── https://pl.wikipedia.org/wiki/Plik:Filming_of_Top_Gun_movie_(01)_1985.jpg
+├── https://pl.wikipedia.org/wiki/Plik:Janusz_Weiss.JPG
+├── https://pl.wikipedia.org/wiki/Plik:Paw_1.JPG
+├── https://pl.wikipedia.org/wiki/Plik:Szlak_Jury_Wielu%C5%84skiej_drogowskaz_zbli%C5%BCenie.jpg
+├── https://pl.wikipedia.org/wiki/Pomoc:FAQ/
+├── https://pl.wikipedia.org/wiki/Pomoc:Ilustrowanie/
+├── https://pl.wikipedia.org/wiki/Pomoc:Jak_napisa%C4%87_doskona%C5%82y_artyku%C5%82/
+├── https://pl.wikipedia.org/wiki/Pomoc:Jak_napisa%C4%87_nowy_artyku%C5%82/
+├── https://pl.wikipedia.org/wiki/Pomoc:Pierwsze_kroki/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Linkuj%C4%85ce/Pomoc:Pierwsze_kroki/
+│   └── https://pl.wikipedia.org/wiki/Specjalna:Szukaj/Pierwsze_kroki/
+├── https://pl.wikipedia.org/wiki/Pomoc:Przewodnicy/
+├── https://pl.wikipedia.org/wiki/Pomoc:Spis_tre%C5%9Bci/
+├── https://pl.wikipedia.org/wiki/Pomoc:Styl_%E2%80%93_poradnik_dla_autor%C3%B3w/
+├── https://pl.wikipedia.org/wiki/Portal:Aktualno%C5%9Bci/
+├── https://pl.wikipedia.org/wiki/Portal:Geografia/
+├── https://pl.wikipedia.org/wiki/Portal:Historia/
+├── https://pl.wikipedia.org/wiki/Portal:Kategorie_G%C5%82%C3%B3wne/
+├── https://pl.wikipedia.org/wiki/Portal:Kultura/
+├── https://pl.wikipedia.org/wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze/
+│   ├── https://pl.wikipedia.org/wiki/Portal:Nauki_ścisłe_i_przyrodnicze/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Linkuj%C4%85ce/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze/
+│   └── https://pl.wikipedia.org/wiki/Specjalna:Szukaj/Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze/
+├── https://pl.wikipedia.org/wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne/
+│   ├── https://pl.wikipedia.org/wiki/Portal:Nauki_społeczne_i_humanistyczne/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Linkuj%C4%85ce/Portal:Nauki_spo%C5%82eczne_i_humanistyczne/
+│   └── https://pl.wikipedia.org/wiki/Specjalna:Szukaj/Nauki_spo%C5%82eczne_i_humanistyczne/
+├── https://pl.wikipedia.org/wiki/Portal:Polska/
+├── https://pl.wikipedia.org/wiki/Portal:Portale/
+├── https://pl.wikipedia.org/wiki/Portal:Religioznawstwo/
+├── https://pl.wikipedia.org/wiki/Portal:Spo%C5%82ecze%C5%84stwo/
+├── https://pl.wikipedia.org/wiki/Portal:Sport/
+├── https://pl.wikipedia.org/wiki/Portal:Technika/
+├── https://pl.wikipedia.org/wiki/Pozna%C5%84/
+├── https://pl.wikipedia.org/wiki/Protesty_w_Iranie_(od_2022)/
+├── https://pl.wikipedia.org/wiki/Raymond_Moore_(geolog)/
+├── https://pl.wikipedia.org/wiki/Reprezentacja_Stan%C3%B3w_Zjednoczonych_w_skokach_narciarskich/
+├── https://pl.wikipedia.org/wiki/Robert_Blake_(aktor)/
+├── https://pl.wikipedia.org/wiki/Rozg%C5%82o%C5%9Bnia_Harcerska/
+├── https://pl.wikipedia.org/wiki/Saalfelden_am_Steinernen_Meer/
+├── https://pl.wikipedia.org/wiki/San_Diego/
+├── https://pl.wikipedia.org/wiki/Sch%C3%B6nwald_im_Schwarzwald/
+├── https://pl.wikipedia.org/wiki/Specjalna:Linkuj%C4%85ce/Wikipedia:Strona_g%C5%82%C3%B3wna/
+├── https://pl.wikipedia.org/wiki/Specjalna:Losowa_strona/
+├── https://pl.wikipedia.org/wiki/Specjalna:M%C3%B3j_wk%C5%82ad/
+├── https://pl.wikipedia.org/wiki/Specjalna:Moja_dyskusja/
+├── https://pl.wikipedia.org/wiki/Specjalna:Nowe_strony/
+├── https://pl.wikipedia.org/wiki/Specjalna:Ostatnie_zmiany/
+├── https://pl.wikipedia.org/wiki/Specjalna:Strony_specjalne/
+├── https://pl.wikipedia.org/wiki/Specjalna:Zmiany_w_linkowanych/Wikipedia:Strona_g%C5%82%C3%B3wna/
+├── https://pl.wikipedia.org/wiki/Stany_Zjednoczone/
+├── https://pl.wikipedia.org/wiki/Szlak_Jury_Wielu%C5%84skiej/
+├── https://pl.wikipedia.org/wiki/Take_My_Breath_Away/
+├── https://pl.wikipedia.org/wiki/The_Beatles/
+├── https://pl.wikipedia.org/wiki/Tom_Cruise/
+├── https://pl.wikipedia.org/wiki/Tom_Skerritt/
+├── https://pl.wikipedia.org/wiki/Tony_Scott/
+├── https://pl.wikipedia.org/wiki/Top_Gun_(film)/
+├── https://pl.wikipedia.org/wiki/Towarzystwo_Linneuszowskie_w_Lyonie/
+├── https://pl.wikipedia.org/wiki/USS_Enterprise_(CVN-65)/
+├── https://pl.wikipedia.org/wiki/United_States_Navy/
+├── https://pl.wikipedia.org/wiki/Val_Kilmer/
+├── https://pl.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Findeisen/
+├── https://pl.wikipedia.org/wiki/Wac%C5%82aw_IV_Luksemburski/
+├── https://pl.wikipedia.org/wiki/We%C5%82tawa/
+├── https://pl.wikipedia.org/wiki/Wikipedia/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Linkuj%C4%85ce/Wikipedia/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Lista_projekt%C3%B3w/
+│   └── https://pl.wikipedia.org/wiki/Specjalna:Szukaj/Wikipedia/
+├── https://pl.wikipedia.org/wiki/Wikipedia:(Nie)znane_kobiety_Wikipedii_2023/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Administratorzy/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Artyku%C5%82y_na_Medal/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Dobre_Artyku%C5%82y/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Ilustracje_na_Medal/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Indeks_hase%C5%82/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Kontakt_z_wikipedystami/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Korzystasz_z_Wikipedii_tylko_na_w%C5%82asn%C4%85_odpowiedzialno%C5%9B%C4%87/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Linkuj%C4%85ce/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Szukaj/Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii/
+│   └── https://pl.wikipedia.org/wiki/Wikipedia:Liczba_artykułów_w_polskojęzycznej_Wikipedii/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Listy_na_Medal/
+├── https://pl.wikipedia.org/wiki/Wikipedia:O_Wikipedii/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Portal_wikipedyst%C3%B3w/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Prześlij_plik
+├── https://pl.wikipedia.org/wiki/Wikipedia:Spo%C5%82eczno%C5%9B%C4%87_wikipedyst%C3%B3w/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna/Dokumentacja/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna/Jutro/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna/Wczoraj/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Tablica_og%C5%82osze%C5%84/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Linkuj%C4%85ce/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Szukaj/Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii/
+│   └── https://pl.wikipedia.org/wiki/Wikipedia:Wyróżniona_zawartość_Wikipedii/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Zasady/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Zg%C5%82o%C5%9B_b%C5%82%C4%85d_w_artykule/
+├── https://pl.wikipedia.org/wiki/Wikipedia:Zg%C5%82oszone_grafiki/
+├── https://pl.wikipedia.org/wiki/Wikiprojekt:Czy_wiesz/propozycje/
+├── https://pl.wikipedia.org/wiki/Wiosna_Lud%C3%B3w/
+├── https://pl.wikipedia.org/wiki/Wolna_tre%C5%9B%C4%87/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Linkuj%C4%85ce/Wolna_tre%C5%9B%C4%87/
+│   ├── https://pl.wikipedia.org/wiki/Specjalna:Szukaj/Wolna_tre%C5%9B%C4%87/
+│   └── https://pl.wikipedia.org/wiki/Wolna_treść/
+├── https://pl.wikipedia.org/wiki/Wszystko_wsz%C4%99dzie_naraz/
+├── https://pl.wikipedia.org/wiki/Z%C5%82oty_Glob/
+└── https://pl.wikipedia.org/wiki/Zmarli_w_marcu_2023/

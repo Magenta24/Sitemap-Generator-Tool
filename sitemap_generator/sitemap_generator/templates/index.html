@@ -21,6 +21,13 @@
                     </td>
                 </tr>
                 <tr>
+                    <th>{{ form.thing_to_search.label_tag }}</th>
+                    <td>
+                        {{ form.thing_to_search.errors }}
+                        {{ form.thing_to_search }}
+                    </td>
+                </tr>
+                <tr>
                     <th>{{ form.max_pages.label_tag }}</th>
                     <td>
                         {{ form.max_pages.errors }}
@@ -46,6 +53,13 @@
                     <td>
                         {{ form.xml_format.errors }}
                         {{ form.xml_format }}
+                    </td>
+                </tr>
+                <tr>
+                    <th>{{ form.include_visual_sitemap.label_tag }}</th>
+                    <td>
+                        {{ form.include_visual_sitemap.errors }}
+                        {{ form.include_visual_sitemap }}
                     </td>
                 </tr>
                 <tr>

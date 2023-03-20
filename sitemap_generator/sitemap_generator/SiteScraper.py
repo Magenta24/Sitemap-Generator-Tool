@@ -8,6 +8,9 @@ import urllib.error
 
 from treelib import Node, Tree
 import graphviz
+import os
+
+from django.conf import settings as django_settings
 
 
 class SiteScraper:
@@ -129,9 +132,9 @@ class SiteScraper:
             print(e)
         finally:
             self._collected = collected
-            self._url_tree.save2file('cool-tree.txt')
+            self.save_url_tree_to_file()
             self.tree_to_graphviz()
-            self._url_tree.show()
+            # self._url_tree.show()
             return collected
 
     def dfs_scraper(self):
@@ -201,7 +204,13 @@ class SiteScraper:
 
     def save_url_tree_to_file(self):
         filename = 'url_tree.txt'
-        self._url_tree.save2file(filename)
+        filepath = os.path.join(django_settings.STATIC_ROOT, 'tree_structure', filename).replace("\\", "/")
+
+        # if tree file already exist - delete
+        if os.path.exists(filepath):
+            os.remove(filepath)
+
+        self._url_tree.save2file(filepath)
 
     def tree_to_diagram(self):
         return self._url_tree.show(stdout=False)
@@ -210,13 +219,28 @@ class SiteScraper:
         return self._url_tree.to_json()
 
     def tree_to_graphviz(self):
-        return self._url_tree.to_graphviz('tree-graph.gv')
+        filepath = os.path.join(django_settings.GRAPHVIZ_ROOT, 'tree-graph.gv').replace("\\", "/")
+
+        # if gv file already exist - delete
+        if os.path.exists(filepath):
+            os.remove(filepath)
+
+        # self._url_tree.to_graphviz('tree-graph.gv', shape='plaintext')
+        self._url_tree.to_graphviz(filepath, shape='egg')
 
     def tree_to_svg(self):
-        dot = graphviz.Source.from_file('tree-graph.gv')
-        dot.render('graphviz-output/output', format='svg')
+        filepath = os.path.join(django_settings.GRAPHVIZ_ROOT, 'tree-graph.gv').replace("\\", "/")
+        img_path = os.path.join(django_settings.MEDIA_ROOT, 'diagram').replace("\\", "/")
 
-    def save_xml_sitemap(self, collected, path):
+        # if image already exist - delete
+        if os.path.exists(img_path):
+            os.remove(img_path)
+            os.remove(img_path + '.svg')
+
+        dot = graphviz.Source.from_file(filepath)
+        dot.render('diagram', format='svg', directory=django_settings.MEDIA_ROOT)
+
+    def save_xml_sitemap(self):
         """
         Saving collected hyperlinks to XML sitemap.
 
@@ -228,7 +252,7 @@ class SiteScraper:
         ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
         root = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}urlset')
 
-        for link in collected:
+        for link in self._collected:
             url = ET.SubElement(root, 'url')
 
             loc = ET.SubElement(url, 'loc')
@@ -242,12 +266,9 @@ class SiteScraper:
         tree = ET.ElementTree(root)
 
         try:
-            # tree.write('sitemap.xml',
-            #            xml_declaration=True,
-            #            encoding='utf-8',
-            #            method='xml')
-
             xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
+            path = os.path.join(django_settings.XML_ROOT, 'sitemap.xml')
+
             with open(path, "w") as f:
                 f.write(xmlstr)
         except Exception as e:

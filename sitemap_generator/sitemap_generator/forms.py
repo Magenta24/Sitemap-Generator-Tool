@@ -3,13 +3,14 @@ from django import forms
 
 class SitemapForm(forms.Form):
     url = forms.CharField(label='Provide URL', required=True)
+    thing_to_search = forms.CharField(label='Provide what you would like to search for', required=False)
     max_pages = forms.IntegerField(label='Maximum number of pages bot will crawl', initial=10)
     max_depth = forms.IntegerField(label='Maximum depth', initial=10)
 
     sitemap_choices = [
-        ('1', 'Everything sitemap'),
-        ('2', 'Image sitemap'),
-        ('3', 'PDF sitemap')
+        ('None', 'Everything sitemap'),
+        ('img', 'Image sitemap'),
+        ('pdf', 'PDF sitemap')
     ]
     sitemap_type = forms.ChoiceField(label='Sitemap type', widget=forms.RadioSelect, choices=sitemap_choices,
                                      required=True)
@@ -20,3 +21,5 @@ class SitemapForm(forms.Form):
     ]
     xml_format = forms.ChoiceField(label='XML format', widget=forms.RadioSelect, choices=xml_format_choices,
                                    required=True)
+
+    include_visual_sitemap = forms.BooleanField(label='Include visual sitemap?', required=False)

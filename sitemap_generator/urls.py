@@ -21,5 +21,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.main, name="main"),
     path("check_url/", views.check_url, name="check_url"),
-    path("sanitize/", views.sanitize_url, name="sanitize")
+    path("sanitize/", views.sanitize_url, name="sanitize"),
+    path("download_xml_sitemap/", views.download_xml_sitemap, name="download_xml_sitemap"),
+    path("download_diagram_sitemap/", views.download_diagram_sitemap, name="download_diagram_sitemap")
 ]
