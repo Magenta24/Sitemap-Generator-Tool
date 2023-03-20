@@ -66,7 +66,7 @@ def main(request):
 
 
 def download_xml_sitemap(request):
-    file_path = os.path.join(django_settings.XML_ROOT, 'sitemap.xml')
+    file_path = os.path.join(django_settings.XML_SITEMAP_ROOT, 'sitemap.xml')
 
     if os.path.exists(file_path):
         with open(file_path, 'rb') as fh:

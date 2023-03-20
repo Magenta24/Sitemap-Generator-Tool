@@ -118,12 +118,12 @@ USE_TZ = True
 
 STATIC_URL = "sitemap_generator/static/"
 MEDIA_URL = "images/"
-XML_URL = "xml/"
+XML_SITEMAP_URL = "xml_sitemaps/"
 GRAPHVIZ_URL = "sitemap_generator/graphviz-output/"
 
 STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL)
 MEDIA_ROOT = os.path.join(BASE_DIR, STATIC_URL, MEDIA_URL)
-XML_ROOT = os.path.join(BASE_DIR, STATIC_URL, XML_URL)
+XML_SITEMAP_ROOT = os.path.join(BASE_DIR, STATIC_URL, XML_SITEMAP_URL)
 GRAPHVIZ_ROOT = os.path.join(BASE_DIR, GRAPHVIZ_URL)
 
 # Default primary key field type

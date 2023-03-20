@@ -8,3 +8,5 @@ report/
 migrations/
 sitemap.xml
 sitemap_generator/main.py
+tree-graph.gv
+diagram*

@@ -267,7 +267,7 @@ class SiteScraper:
 
         try:
             xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
-            path = os.path.join(django_settings.XML_ROOT, 'sitemap.xml')
+            path = os.path.join(django_settings.XML_SITEMAP_ROOT, 'sitemap.xml')
 
             with open(path, "w") as f:
                 f.write(xmlstr)
