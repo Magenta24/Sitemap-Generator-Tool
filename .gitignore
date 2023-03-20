@@ -6,7 +6,7 @@ website_links-*.txt
 finalprojectvenv/
 report/
 migrations/
-sitemap.xml
-sitemap_generator/main.py
+main.py
 tree-graph.gv
-diagram*
+diagram
+diagram.svg
