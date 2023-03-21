@@ -2,15 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
-import xml.etree.ElementTree as ET
-from xml.dom import minidom
 import urllib.error
-
-from treelib import Node, Tree
-import graphviz
-import os
-
-from django.conf import settings as django_settings
+from URLTree import URLTree
 
 
 class SiteScraper:
@@ -19,7 +12,7 @@ class SiteScraper:
     _queue = []
     _url_tree = None
 
-    def __init__(self, url, max_nodes=None, mode=None, parser='html'):
+    def __init__(self, url, max_nodes=None, mode='None', sitemap_type='structured', parser='html'):
         """
         :param url: root URL
         :param max_nodes: maximum number of nodes to crawl
@@ -29,7 +22,14 @@ class SiteScraper:
         self._base_url = url
         self._base_url_parsed = urlsplit(url)._asdict()
         self._max_nodes_visited = max_nodes
-        self.mode = mode
+        self._mode = mode
+        self._sitemap_type = sitemap_type
+
+        if sitemap_type in ['flat', 'structured']:
+            self._sitemap_type = sitemap_type
+        else:
+            print('Incorrect sitemap type! You can choose flat or structured type')
+            exit(-1)
 
         if parser == 'html':
             self.parser = 'html.parser'
@@ -39,9 +39,9 @@ class SiteScraper:
             print("Provide correct parser like xml or html")
             exit(-1)
 
-        print('INIT SUCCCESSFUL')
+        print('INIT SUCCESSFUL')
 
-    def bfs_scraper_paths_only(self):
+    def bfs_scraper(self):
         """
         Registers only URLs without any additional information like level or children
 
@@ -52,10 +52,11 @@ class SiteScraper:
         queue_set = set()  # URLs to be crawled
         visited = set()  # URLs visited
         collected = []  # URLs to be returned to the user
-        self._url_tree = Tree()  # tree storing all the URLs and related metadata
+        self._url_tree = URLTree()  # tree storing all the URLs and related metadata
         counter_queue = 0
 
         current_node = {'url': self.sanitize_url(self._base_url), 'level': 0}
+
         # add root to the tree
         self._url_tree.create_node(current_node['url'], current_node['url'], data=current_node)
         print("START NODE: ", current_node)
@@ -85,6 +86,9 @@ class SiteScraper:
 
                     for link in links:
 
+                        if (len(visited) + len(queue)) >= self._max_nodes_visited:
+                            break
+
                         # extracting URL and sanitizing it
                         url_prepared = self.sanitize_url(link.get('href'))
 
@@ -105,9 +109,9 @@ class SiteScraper:
                                 # print("Visited counter: ", len(visited))
 
                 # deciding whether include given URL in the sitemap
-                if (self.is_image(website_headers) and self.mode == 'img') or \
-                        (self.is_pdf(website_headers) and self.mode == 'pdf') or \
-                        (self.mode is None):
+                if (self.is_image(website_headers) and self._mode == 'img') or \
+                        (self.is_pdf(website_headers) and self._mode == 'pdf') or \
+                        (self._mode == 'None'):
                     collected.append(current_node)
 
                 # terminating crawling if max_nodes value is reached
@@ -132,9 +136,15 @@ class SiteScraper:
             print(e)
         finally:
             self._collected = collected
-            self.save_url_tree_to_file()
-            self.tree_to_graphviz()
-            # self._url_tree.show()
+            self._url_tree.tree_structure_to_file()
+            self._url_tree.tree_to_graphviz()
+            self._url_tree.save_xml_sitemap(self._sitemap_type)
+            self._url_tree.tree_to_svg()
+            self._url_tree.show()
+
+            print('ALL NODES FROM TREE')
+            for node in self._url_tree.all_nodes():
+                print(node.data['level'])
             return collected
 
     def dfs_scraper(self):
@@ -201,79 +211,6 @@ class SiteScraper:
         finally:
             print(collected)
             return list(collected)
-
-    def save_url_tree_to_file(self):
-        filename = 'url_tree.txt'
-        filepath = os.path.join(django_settings.STATIC_ROOT, 'tree_structure', filename).replace("\\", "/")
-
-        # if tree file already exist - delete
-        if os.path.exists(filepath):
-            os.remove(filepath)
-
-        self._url_tree.save2file(filepath)
-
-    def tree_to_diagram(self):
-        return self._url_tree.show(stdout=False)
-
-    def tree_to_json(self):
-        return self._url_tree.to_json()
-
-    def tree_to_graphviz(self):
-        filepath = os.path.join(django_settings.GRAPHVIZ_ROOT, 'tree-graph.gv').replace("\\", "/")
-
-        # if gv file already exist - delete
-        if os.path.exists(filepath):
-            os.remove(filepath)
-
-        # self._url_tree.to_graphviz('tree-graph.gv', shape='plaintext')
-        self._url_tree.to_graphviz(filepath, shape='egg')
-
-    def tree_to_svg(self):
-        filepath = os.path.join(django_settings.GRAPHVIZ_ROOT, 'tree-graph.gv').replace("\\", "/")
-        img_path = os.path.join(django_settings.MEDIA_ROOT, 'diagram').replace("\\", "/")
-
-        # if image already exist - delete
-        if os.path.exists(img_path):
-            os.remove(img_path)
-            os.remove(img_path + '.svg')
-
-        dot = graphviz.Source.from_file(filepath)
-        dot.render('diagram', format='svg', directory=django_settings.MEDIA_ROOT)
-
-    def save_xml_sitemap(self):
-        """
-        Saving collected hyperlinks to XML sitemap.
-
-        :param collected: hyperlinks
-        :param path: location of XML sitemap
-        :return: None
-        """
-
-        ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
-        root = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}urlset')
-
-        for link in self._collected:
-            url = ET.SubElement(root, 'url')
-
-            loc = ET.SubElement(url, 'loc')
-            loc.text = link['url']
-
-            lastmod = ET.SubElement(url, 'lastmod')
-
-            depth = ET.SubElement(url, 'depth')
-            # depth.text = link['level']
-
-        tree = ET.ElementTree(root)
-
-        try:
-            xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
-            path = os.path.join(django_settings.XML_SITEMAP_ROOT, 'sitemap.xml')
-
-            with open(path, "w") as f:
-                f.write(xmlstr)
-        except Exception as e:
-            print('Przyps')
-            print(e)
 
     def is_pdf(self, headers):
         """

@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    <!-- start OPENSEADRAGON - for zooming in large pictures -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script>
+    <!-- end OPENSEADRAGON -->
     <title>Sitemap generator tool</title>
 </head>
 <body>
@@ -15,9 +19,10 @@
     </div>
     <h1>Sitemap generator tool</h1>
     {% if to_include_sitemap_img == True %}
+    <div id="openseadragon1" style="width: 100%; height: 500px;"></div>
     <h2>URL diagram</h2>
     <div>
-        <embed src="{% static 'images/diagram.svg' %}" width="40000">
+        <embed src="{% static 'images/diagram.svg' %}" width="10000">
     </div>
     {% endif %}
     <h2>URL tree structure</h2>
@@ -36,5 +41,13 @@
         {% endfor %}
     </div>
 </div>
+<script>
+      var viewer = OpenSeadragon({
+        id: "openseadragon1",
+        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/",
+        tileSources: "../static/images/diagram.svg"
+      });
+
+</script>
 </body>
 </html>

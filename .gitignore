@@ -7,7 +7,8 @@ finalprojectvenv/
 report/
 migrations/
 main.py
-graphviz-output/tree-graph.gv
+graphviz-output/*
 static/tree_structure/url_tree.txt
 static/images/diagram
 static/images/diagram.svg
+sitemap.xml

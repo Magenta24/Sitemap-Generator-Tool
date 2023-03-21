@@ -27,16 +27,14 @@ def main(request):
             root_url = form.cleaned_data['url']
             max_pages = form.cleaned_data['max_pages']
             sitemap_mode = form.cleaned_data['sitemap_type']
+            sitemap_type = form.cleaned_data['xml_format']
             include_visual_sitemap = form.cleaned_data['include_visual_sitemap']
-            print('CHOICE OF MODE ', sitemap_mode)
 
             # creating instance of sitescraper
-            # ss1 = SiteScraper(root_url, max_pages, mode='pdf')
-            ss1 = SiteScraper(root_url, max_pages)
-            links = ss1.bfs_scraper_paths_only()
-            print(links)
-            ss1.save_xml_sitemap()
-            ss1.tree_to_svg()
+            ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type)
+            links = ss1.bfs_scraper()
+            print('COLLECTED LINKS (NUMBER)')
+            print(len(links))
 
             # reading file with URL tree structure
             url_tree_path = os.path.join(django_settings.STATIC_ROOT, 'tree_structure', 'url_tree.txt').replace("\\", "/")

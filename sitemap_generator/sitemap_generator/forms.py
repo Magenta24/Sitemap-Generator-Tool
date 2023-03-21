@@ -16,8 +16,8 @@ class SitemapForm(forms.Form):
                                      required=True)
 
     xml_format_choices = [
-        ('1', 'Flat'),
-        ('2', 'Structured')
+        ('flat', 'Flat'),
+        ('structured', 'Structured')
     ]
     xml_format = forms.ChoiceField(label='XML format', widget=forms.RadioSelect, choices=xml_format_choices,
                                    required=True)
