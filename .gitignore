@@ -10,7 +10,6 @@ migrations/
 main.py
 graphviz-output/*
 static/tree_structure/url_tree.txt
-sitemap.xml
 tree-graph.gv
 doctest-output
 static/images/
