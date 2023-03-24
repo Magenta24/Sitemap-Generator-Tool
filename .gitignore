@@ -4,11 +4,14 @@ Stack.py
 __pycache__/
 website_links-*.txt
 finalprojectvenv/
+fyp3-11-env/
 report/
 migrations/
 main.py
 graphviz-output/*
 static/tree_structure/url_tree.txt
-static/images/diagram
-static/images/diagram.svg
 sitemap.xml
+tree-graph.gv
+doctest-output
+static/images/
+static/tree_structure/

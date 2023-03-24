@@ -13,7 +13,7 @@ import json
 def main(request):
 
     # specifying for to render and initial value for radio button
-    sitemap_settings_form = SitemapForm(initial={'sitemap_type': 'None', 'xml_format': '2'})
+    sitemap_settings_form = SitemapForm(initial={'sitemap_type': 'None', 'xml_format': 'structured'})
 
     if request.method == 'GET':
         return render(request, "index.html", {'form': sitemap_settings_form})
@@ -50,8 +50,8 @@ def main(request):
                 sitemap_image = FileResponse(f)
 
             # Set the content type of the response to 'image/png' (or the appropriate type)
-            # sitemap_image['Content-Type'] = 'image/svg+xml'
-            sitemap_image['Content-Type'] = 'image/png'
+            sitemap_image['Content-Type'] = 'image/svg+xml'
+            # sitemap_image['Content-Type'] = 'image/png'
 
             return render(request,
                           'sitemap.html',

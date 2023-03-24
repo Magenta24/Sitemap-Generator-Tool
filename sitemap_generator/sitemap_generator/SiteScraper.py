@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
 import urllib.error
-from URLTree import URLTree
+from .URLTree import URLTree
 
 
 class SiteScraper:
