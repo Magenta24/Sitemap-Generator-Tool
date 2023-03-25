@@ -148,23 +148,45 @@ class SiteScraper:
             return collected
 
     def dfs_scraper(self):
-        visited = set()
-        collected = set()
-        stack = []
 
-        current_node = self._base_url
-        print("Start node: ", current_node)
+        stack = []  # URLs to be crawled
+        stack_set = set()  # URLs to be crawled
+        visited = set()  # URLs visited
+        collected = []  # URLs to be returned to the user
+        self._url_tree = URLTree()  # tree storing all the URLs and related metadata
+        counter_queue = 0
+        current_depth = 0
 
-        try:
+        # add root to the tree
+        root_node = {'url': self.sanitize_url(self._base_url), 'level': 0}
+        # add root to the tree
+        self._url_tree.create_node(root_node['url'], root_node['url'], data=root_node)
+        print("START NODE: ", root_node)
 
-            # crawling through the website till queue is not empty
-            while len(stack) >= 0:
+        def perform_dfs(url, depth):
+            nonlocal counter_queue
+            nonlocal current_depth
 
+            # stop crawling if maximum depth is reached
+            if depth > 5:
+                return
+
+            # terminating crawling if max_nodes value is reached
+            if len(visited) == self._max_nodes_visited:
+                return
+
+            current_node = {'url': url, 'level': depth}
+
+            # marking crawled URL as VISITED
+            print("NODE VISITED: ", len(visited), ' ', current_node['url'])
+            visited.add(current_node['url'])
+            collected.append(current_node)
+
+            try:
                 # making request
-                website_req_result = requests.get(current_node)
+                website_req_result = requests.get(current_node['url'])
                 website_source = website_req_result.text
                 website_headers = website_req_result.headers
-                # website_req_result.raise_for_status()  # raising exception for error code 4xx or 5xx
 
                 # checking for image and pdf
                 if not (self.is_image(website_headers) and self.is_pdf(website_headers)):
@@ -174,43 +196,77 @@ class SiteScraper:
                     # extracting all links <a> tags
                     links = soup.find_all('a')
 
+                    current_depth += 1
+                    print('current depth: ', current_depth)
                     for link in links:
-                        url = link.get('href')
 
+                        url = link.get('href')
                         url_prepared = self.sanitize_url(url)
 
                         # register all subpages of the website (omitting externals like twitter)
                         if url_prepared is not None:
                             # check if the URL is already in the visited or queue set
-                            if url_prepared not in visited.union(set(stack)):
-                                print("added to queue: ", url_prepared)
-                                stack.append(url_prepared)
-                                print("Queue counter: ", len(stack))
-                                print("Visited counter: ", len(visited))
-                                print("Collected counter: ", len(collected))
+                            if url_prepared not in visited.union(stack_set):
+                                child_node = {'url': url_prepared, 'level': (current_node['level'] + 1)}
+                                stack.append(child_node)
+                                stack_set.add(url_prepared)
+                                self._url_tree.create_node(url_prepared, url_prepared, parent=current_node['url'],
+                                                           data=child_node)
 
-                print("NODE VISITED: ", len(visited) + 1, ' ', current_node)
-                visited.add(current_node)
+                                print(counter_queue, ' ', url_prepared)
+                                counter_queue += 1
+                                # recursively crawl the link
+                                perform_dfs(url_prepared, current_depth)
+                            else:
+                                continue
+                        else:
+                            continue
 
-                if (self.is_image(website_headers) and self.mode == 'img') or \
-                        (self.is_pdf(website_headers) and self.mode == 'pdf') or \
-                        (self.mode is None):
-                    collected.add(current_node)
+                else:
+                    return
 
-                if len(visited) == self._max_nodes_visited:
-                    break
+                # deciding whether include given URL in the sitemap
+                # if (self.is_image(website_headers) and self._mode == 'img') or \
+                #         (self.is_pdf(website_headers) and self._mode == 'pdf') or \
+                #         (self._mode == 'None'):
+                #     self.collected.append(current_node)
 
-                # getting last most recent element
-                current_node = stack.pop()
+                current_depth -= 1
 
-            print("Final Visited counter: ", len(visited))
+                # # getting last most recent element
+                # current_node = self.stack.pop()
 
-            # return visited
+                print("Final Visited counter: ", len(visited))
+
+            # handling errors
+            except urllib.error.HTTPError as e:
+                print('HTTP error occurred. Might resource not found or smth else.')
+                print(e)
+                return e
+
+            except urllib.error.URLError as e:
+                print('URL error occurred. Might be server couldnt be found or some typo in URL')
+                print(e)
+                return e
+
+            except Exception as e:
+                print(e)
+                return e
+
+        try:
+            perform_dfs(root_node['url'], 0)
         except Exception as e:
             print(e)
+            return e
         finally:
-            print(collected)
-            return list(collected)
+            self._collected = collected
+            self._url_tree.tree_structure_to_file()
+            self._url_tree.tree_to_graphviz()
+            self._url_tree.save_xml_sitemap(self._sitemap_type)
+            self._url_tree.tree_to_svg()
+            self._url_tree.show()
+
+            return self._collected
 
     def is_pdf(self, headers):
         """

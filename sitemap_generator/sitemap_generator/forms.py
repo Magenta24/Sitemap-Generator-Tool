@@ -23,3 +23,10 @@ class SitemapForm(forms.Form):
                                    required=True)
 
     include_visual_sitemap = forms.BooleanField(label='Include visual sitemap?', required=False)
+
+    scraper_algo_choices = [
+        ('dfs', 'DFS'),
+        ('bfs', 'BFS')
+    ]
+    scraper_algo = forms.ChoiceField(label='Scraper algorithm', widget=forms.RadioSelect, choices=scraper_algo_choices,
+                                   required=True)

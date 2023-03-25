@@ -13,7 +13,7 @@ import json
 def main(request):
 
     # specifying for to render and initial value for radio button
-    sitemap_settings_form = SitemapForm(initial={'sitemap_type': 'None', 'xml_format': 'structured'})
+    sitemap_settings_form = SitemapForm(initial={'sitemap_type': 'None', 'xml_format': 'structured', 'scraper_algo': 'bfs'})
 
     if request.method == 'GET':
         return render(request, "index.html", {'form': sitemap_settings_form})
@@ -29,10 +29,17 @@ def main(request):
             sitemap_mode = form.cleaned_data['sitemap_type']
             sitemap_type = form.cleaned_data['xml_format']
             include_visual_sitemap = form.cleaned_data['include_visual_sitemap']
+            scraper_algo = form.cleaned_data['scraper_algo']
 
             # creating instance of sitescraper
             ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type)
-            links = ss1.bfs_scraper()
+
+            # choosing algorithm for scraper
+            if scraper_algo == 'bfs':
+                links = ss1.bfs_scraper()
+            elif scraper_algo == 'dfs':
+                links = ss1.dfs_scraper()
+
             print('COLLECTED LINKS (NUMBER)')
             print(len(links))
 
@@ -58,7 +65,8 @@ def main(request):
                           {'links': links,
                            'url_tree_structure': file_content,
                            'sitemap_image': sitemap_image,
-                           'to_include_sitemap_img': include_visual_sitemap})
+                           'to_include_sitemap_img': include_visual_sitemap}
+                          )
 
     # return HttpResponse('xdd')
 
@@ -80,6 +88,7 @@ def download_diagram_sitemap(request):
         with open(file_path, 'rb') as fh:
             response = HttpResponse(fh.read(), content_type="image/svg+xml")
             response['Content-Disposition'] = 'attachment; filename=' + os.path.basename(file_path)
+
             return response
     raise Http404
 
