@@ -163,7 +163,7 @@ class SiteScraper:
         self._url_tree.create_node(root_node['url'], root_node['url'], data=root_node)
         print("START NODE: ", root_node)
 
-        def perform_dfs(url, depth):
+        def perform_dfs(node, depth, parent=None):
             nonlocal counter_queue
             nonlocal current_depth
 
@@ -175,16 +175,19 @@ class SiteScraper:
             if len(visited) == self._max_nodes_visited:
                 return
 
-            current_node = {'url': url, 'level': depth}
+            current_node = {'url': node['url'], 'level': depth}
 
             # marking crawled URL as VISITED
-            print("NODE VISITED: ", len(visited), ' ', current_node['url'])
-            visited.add(current_node['url'])
-            collected.append(current_node)
+            print("NODE VISITED: ", len(visited), ' ', node['url'])
+            visited.add(node['url'])
+            collected.append(node)
+
+            if parent is not None:
+                self._url_tree.create_node(node['url'], node['url'], data=node, parent=parent['url'])
 
             try:
                 # making request
-                website_req_result = requests.get(current_node['url'])
+                website_req_result = requests.get(node['url'])
                 website_source = website_req_result.text
                 website_headers = website_req_result.headers
 
@@ -209,14 +212,13 @@ class SiteScraper:
                             if url_prepared not in visited.union(stack_set):
                                 child_node = {'url': url_prepared, 'level': (current_node['level'] + 1)}
                                 stack.append(child_node)
+                                print(len(stack), "NODE ADDED: ", child_node)
                                 stack_set.add(url_prepared)
-                                self._url_tree.create_node(url_prepared, url_prepared, parent=current_node['url'],
-                                                           data=child_node)
 
                                 print(counter_queue, ' ', url_prepared)
                                 counter_queue += 1
                                 # recursively crawl the link
-                                perform_dfs(url_prepared, current_depth)
+                                perform_dfs(child_node, current_depth, node)
                             else:
                                 continue
                         else:
@@ -254,7 +256,7 @@ class SiteScraper:
                 return e
 
         try:
-            perform_dfs(root_node['url'], 0)
+            perform_dfs(root_node, 0)
         except Exception as e:
             print(e)
             return e
