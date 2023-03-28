@@ -14,3 +14,7 @@ doctest-output
 static/images/*
 static/tree_structure/*
 static/xml_sitemaps/*
+/sitemap_generator/sitemap_generator/static/images/diagram
+/sitemap_generator/sitemap_generator/static/images/diagram.svg
+/sitemap_generator/sitemap_generator/static/tree_structure/url_tree.txt
+/sitemap_generator/sitemap_generator/static/xml_sitemaps/sitemap.xml
