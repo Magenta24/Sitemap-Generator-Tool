@@ -1,0 +1,23 @@
+.containerX {
+    width: 100%;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+.upper_menu {
+    width: 100%;
+    justify-content:start;
+}
+
+.content {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+.content_frame {
+    width: 100%;
+}
+
+#my-iframe {
+    width: 100%;
+}
