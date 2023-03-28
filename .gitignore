@@ -8,9 +8,9 @@ fyp3-11-env/
 report/
 migrations/
 main.py
-graphviz-output/*
-static/tree_structure/url_tree.txt
+static/graphviz-output/*
 tree-graph.gv
 doctest-output
-static/images/
-static/tree_structure/
+static/images/*
+static/tree_structure/*
+static/xml_sitemaps/*

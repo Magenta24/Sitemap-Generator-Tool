@@ -119,7 +119,7 @@ USE_TZ = True
 STATIC_URL = "sitemap_generator/static/"
 MEDIA_URL = "images/"
 XML_SITEMAP_URL = "xml_sitemaps/"
-GRAPHVIZ_URL = "sitemap_generator/graphviz-output/"
+GRAPHVIZ_URL = "sitemap_generator/static/graphviz-output/"
 
 STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL)
 MEDIA_ROOT = os.path.join(BASE_DIR, STATIC_URL, MEDIA_URL)

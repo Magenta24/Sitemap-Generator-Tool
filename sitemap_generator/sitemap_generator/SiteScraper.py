@@ -140,7 +140,6 @@ class SiteScraper:
             self._url_tree.tree_to_graphviz()
             self._url_tree.save_xml_sitemap(self._sitemap_type)
             self._url_tree.tree_to_svg()
-            self._url_tree.generate_dzi_image()
             self._url_tree.show()
 
             print('ALL NODES FROM TREE')

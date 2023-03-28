@@ -9,11 +9,12 @@ from .SiteScraper import SiteScraper
 import datetime
 import json
 
+
 # Create your views here.
 def main(request):
-
     # specifying for to render and initial value for radio button
-    sitemap_settings_form = SitemapForm(initial={'sitemap_type': 'None', 'xml_format': 'structured', 'scraper_algo': 'bfs'})
+    sitemap_settings_form = SitemapForm(
+        initial={'sitemap_type': 'None', 'xml_format': 'structured', 'scraper_algo': 'bfs'})
 
     if request.method == 'GET':
         return render(request, "index.html", {'form': sitemap_settings_form})
@@ -44,27 +45,16 @@ def main(request):
             print(len(links))
 
             # reading file with URL tree structure
-            url_tree_path = os.path.join(django_settings.STATIC_ROOT, 'tree_structure', 'url_tree.txt').replace("\\", "/")
+            url_tree_path = os.path.join(django_settings.STATIC_ROOT, 'tree_structure', 'url_tree.txt').replace("\\",
+                                                                                                                "/")
             f = open(url_tree_path, 'r', encoding='utf-8')
             file_content = f.read()
             f.close()
-
-            # read the sitemap image
-            image_path = os.path.join(django_settings.MEDIA_ROOT, 'plotka.PNG')
-
-            # Open the image file and create a FileResponse object
-            with open(image_path, 'rb') as f:
-                sitemap_image = FileResponse(f)
-
-            # Set the content type of the response to 'image/png' (or the appropriate type)
-            sitemap_image['Content-Type'] = 'image/svg+xml'
-            # sitemap_image['Content-Type'] = 'image/png'
 
             return render(request,
                           'sitemap.html',
                           {'links': links,
                            'url_tree_structure': file_content,
-                           'sitemap_image': sitemap_image,
                            'to_include_sitemap_img': include_visual_sitemap}
                           )
 
@@ -81,6 +71,7 @@ def download_xml_sitemap(request):
             return response
     raise Http404
 
+
 def download_diagram_sitemap(request):
     file_path = os.path.join(django_settings.MEDIA_ROOT, 'diagram.svg')
 
@@ -91,6 +82,7 @@ def download_diagram_sitemap(request):
 
             return response
     raise Http404
+
 
 def check_url(request):
     url = request.GET.get('url')
@@ -105,6 +97,7 @@ def check_url(request):
     res += ('fragment :' + xd['fragment'] + '<br>')
 
     return HttpResponse(res)
+
 
 def sanitize_url(request):
     url = request.GET.get('url')
