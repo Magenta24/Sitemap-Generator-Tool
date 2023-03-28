@@ -161,6 +161,7 @@ class SiteScraper:
         root_node = {'url': self.sanitize_url(self._base_url), 'level': 0}
         # add root to the tree
         self._url_tree.create_node(root_node['url'], root_node['url'], data=root_node)
+        visited.add(root_node['url'])
         print("START NODE: ", root_node)
 
         def perform_dfs(node, depth, parent=None):
@@ -168,14 +169,14 @@ class SiteScraper:
             nonlocal current_depth
 
             # stop crawling if maximum depth is reached
-            if depth > 5:
+            if current_depth > 5:
                 return
 
             # terminating crawling if max_nodes value is reached
             if len(visited) == self._max_nodes_visited:
                 return
 
-            current_node = {'url': node['url'], 'level': depth}
+            current_node = {'url': node['url'], 'level': current_depth}
 
             # marking crawled URL as VISITED
             print("NODE VISITED: ", len(visited), ' ', node['url'])
@@ -183,6 +184,7 @@ class SiteScraper:
             collected.append(node)
 
             if parent is not None:
+                print("NODE ", len(visited),": ", node['url'], ", PARENT: ", parent['url'])
                 self._url_tree.create_node(node['url'], node['url'], data=node, parent=parent['url'])
 
             try:
@@ -235,11 +237,6 @@ class SiteScraper:
 
                 current_depth -= 1
 
-                # # getting last most recent element
-                # current_node = self.stack.pop()
-
-                print("Final Visited counter: ", len(visited))
-
             # handling errors
             except urllib.error.HTTPError as e:
                 print('HTTP error occurred. Might resource not found or smth else.')
@@ -261,12 +258,14 @@ class SiteScraper:
             print(e)
             return e
         finally:
+            print("Final Visited counter: ", len(visited))
+            print("Final collected counter: ", len(collected))
+
             self._collected = collected
             self._url_tree.tree_structure_to_file()
             self._url_tree.tree_to_graphviz()
             self._url_tree.save_xml_sitemap(self._sitemap_type)
             self._url_tree.tree_to_svg()
-            self._url_tree.generate_dzi_image()
             self._url_tree.show()
 
             return self._collected
