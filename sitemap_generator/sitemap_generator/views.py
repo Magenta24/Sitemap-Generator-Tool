@@ -33,7 +33,7 @@ def main(request):
             scraper_algo = form.cleaned_data['scraper_algo']
 
             # creating instance of sitescraper
-            ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type)
+            ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type, parser='html')
 
             # choosing algorithm for scraper
             if scraper_algo == 'bfs':

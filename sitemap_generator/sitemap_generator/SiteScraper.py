@@ -34,7 +34,8 @@ class SiteScraper:
         if parser == 'html':
             self.parser = 'html.parser'
         elif parser == 'lxml':
-            self.parser = 'lxml-xml'
+            # self.parser = 'lxml-xml'
+            self.parser = 'xml'
         else:
             print("Provide correct parser like xml or html")
             exit(-1)
