@@ -7,12 +7,13 @@ from .URLTree import URLTree
 
 
 class SiteScraper:
-    _collected = []
-    _visited = set()
-    _queue = []
-    _url_tree = None
+    _collected = []  # all collected (e.g. includes only images in img mode)
+    _visited = set()  # all visited URLs
+    _queue = []  # queue list
+    _url_tree = None  # tree to keep the structure of the website
+    _search_results = []  # stores the locations of the provided word/phrase
 
-    def __init__(self, url, max_nodes=None, mode='None', sitemap_type='structured', parser='html'):
+    def __init__(self, url, max_nodes=None, mode='None', sitemap_type='structured', parser='html', to_search=None):
         """
         :param url: root URL
         :param max_nodes: maximum number of nodes to crawl
@@ -24,21 +25,29 @@ class SiteScraper:
         self._max_nodes_visited = max_nodes
         self._mode = mode
         self._sitemap_type = sitemap_type
+        self._to_search = to_search
+        self.search_results = {'locations': [], 'occurrences': 0, 'to_search': to_search}
 
+        # checking sitemap type
         if sitemap_type in ['flat', 'structured']:
             self._sitemap_type = sitemap_type
         else:
             print('Incorrect sitemap type! You can choose flat or structured type')
             exit(-1)
 
+        # checking parser
         if parser == 'html':
             self.parser = 'html.parser'
         elif parser == 'lxml':
             # self.parser = 'lxml-xml'
-            self.parser = 'xml'
+            self.parser = 'lxml'
         else:
             print("Provide correct parser like xml or html")
             exit(-1)
+
+        # checking thing to search
+        if to_search == "":
+            self._to_search = None
 
         print('INIT SUCCESSFUL')
 
@@ -50,7 +59,7 @@ class SiteScraper:
         """
 
         queue = []  # URLs to be crawled
-        queue_set = set()  # URLs to be crawled
+        queue_set = set()  # URLs to be crawled set to prevent duplicates
         visited = set()  # URLs visited
         collected = []  # URLs to be returned to the user
         self._url_tree = URLTree()  # tree storing all the URLs and related metadata
@@ -63,7 +72,6 @@ class SiteScraper:
         print("START NODE: ", current_node)
 
         try:
-
             # crawling through the website till queue is not empty
             while len(queue) >= 0:
 
@@ -82,6 +90,15 @@ class SiteScraper:
                     # soup of the website
                     soup = BeautifulSoup(website_source, self.parser)
 
+                    # looking for thing to search
+                    if self._to_search is not None:
+                        search_results = soup.body.find_all(string=re.compile('.*{0}.*'.format(self._to_search)),
+                                                            recursive=True)
+                        print(current_node['url'], ': ', search_results)
+                        if len(search_results) > 0:
+                            self.search_results['locations'].append(current_node['url'])
+                            self.search_results['occurrences'] += len(search_results)
+
                     # extracting all links <a> tags
                     links = soup.find_all('a')
 
@@ -96,8 +113,6 @@ class SiteScraper:
                         if url_prepared is not None:  # register all subpages of the website (omitting externals (ex. twitter, instagram etc.))
                             if url_prepared not in visited.union(
                                     queue_set):  # check if the URL is already in the visited or queue set
-                                # print("added to queue: ", url_prepared)
-                                # adding URL to the queue
                                 child_node = {'url': url_prepared, 'level': (current_node['level'] + 1)}
                                 queue.append(child_node)
                                 queue_set.add(url_prepared)
@@ -105,9 +120,6 @@ class SiteScraper:
                                                            data=child_node)
                                 print(counter_queue, ' ', url_prepared)
                                 counter_queue += 1
-                                # print(queue)
-                                # print("Queue counter: ", len(queue))
-                                # print("Visited counter: ", len(visited))
 
                 # deciding whether include given URL in the sitemap
                 if (self.is_image(website_headers) and self._mode == 'img') or \
@@ -143,9 +155,6 @@ class SiteScraper:
             self._url_tree.tree_to_svg()
             self._url_tree.show()
 
-            print('ALL NODES FROM TREE')
-            for node in self._url_tree.all_nodes():
-                print(node.data['level'])
             return collected
 
     def dfs_scraper(self):
@@ -185,7 +194,7 @@ class SiteScraper:
             collected.append(node)
 
             if parent is not None:
-                print("NODE ", len(visited),": ", node['url'], ", PARENT: ", parent['url'])
+                print("NODE ", len(visited), ": ", node['url'], ", PARENT: ", parent['url'])
                 self._url_tree.create_node(node['url'], node['url'], data=node, parent=parent['url'])
 
             try:

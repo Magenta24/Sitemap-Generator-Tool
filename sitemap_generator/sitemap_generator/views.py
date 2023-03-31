@@ -31,15 +31,18 @@ def main(request):
             sitemap_type = form.cleaned_data['xml_format']
             include_visual_sitemap = form.cleaned_data['include_visual_sitemap']
             scraper_algo = form.cleaned_data['scraper_algo']
+            thing_to_search = form.cleaned_data['thing_to_search']
 
             # creating instance of sitescraper
-            ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type, parser='html')
+            ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type, parser='html', to_search=thing_to_search)
 
             # choosing algorithm for scraper
             if scraper_algo == 'bfs':
                 links = ss1.bfs_scraper()
             elif scraper_algo == 'dfs':
                 links = ss1.dfs_scraper()
+
+            search_results = ss1.search_results
 
             print('COLLECTED LINKS (NUMBER)')
             print(len(links))
@@ -55,7 +58,8 @@ def main(request):
                           'sitemap.html',
                           {'links': links,
                            'url_tree_structure': file_content,
-                           'to_include_sitemap_img': include_visual_sitemap}
+                           'to_include_sitemap_img': include_visual_sitemap,
+                           'search_results': search_results}
                           )
 
     # return HttpResponse('xdd')

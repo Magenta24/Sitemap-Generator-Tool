@@ -92,15 +92,34 @@
                     </tr>
                     {% endfor %}
                     </tbody>
-
                 </table>
-
             </div>
         </div>
 
         <div class="search-engine">
             <h2 class="text-4xl font-extrabold">Search Engine results</h2>
             <div class="ml-2 mt-5" style="overflow:scroll; height:400px;">
+                <p><span class="font-extrabold">The searched word:</span> {{ search_results.to_search }}</p>
+                <p><span class="font-extrabold">Number of occurrences:</span> {{ search_results.occurrences }}</p>
+                <br>
+                <br>
+                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50"
+                    <tr>
+                        <th>No.</th>
+                        <th>Location</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% for loc in search_results.locations %}
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 text-center">{{ forloop.counter0 }}</td>
+                            <td class="px-6 py-4"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                                                     href={{ loc }}>{{ loc }}</a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -191,12 +210,18 @@
 
 
 
+
+
+
 </script>
 
 <script>
 function changeFrame(url) {
   document.getElementById("my-iframe").src = url;
 }
+
+
+
 
 
 
