@@ -69,6 +69,7 @@
 
 <script headers="Cache-Control: no-cache">
 var svgUrl = "{% static 'images/diagram.svg' %}";
+svgUrl += "?cachebuster='+Math.floor(Math.random()*100 +1)";
 var dzcOutputUrl = "{% static 'images/' %}";
 var dzcOutputFilename = 'diagram_dzi.dzi';
 
