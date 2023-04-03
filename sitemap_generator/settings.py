@@ -120,11 +120,13 @@ STATIC_URL = "sitemap_generator/static/"
 MEDIA_URL = "images/"
 XML_SITEMAP_URL = "xml_sitemaps/"
 GRAPHVIZ_URL = "sitemap_generator/static/graphviz-output/"
+LOGS_URL = "logs/"
 
 STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL)
 MEDIA_ROOT = os.path.join(BASE_DIR, STATIC_URL, MEDIA_URL)
 XML_SITEMAP_ROOT = os.path.join(BASE_DIR, STATIC_URL, XML_SITEMAP_URL)
 GRAPHVIZ_ROOT = os.path.join(BASE_DIR, GRAPHVIZ_URL)
+LOGS_ROOT = os.path.join(BASE_DIR, STATIC_URL, LOGS_URL)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
