@@ -2,10 +2,12 @@ from django import forms
 
 
 class SitemapForm(forms.Form):
-    url = forms.CharField(label='Provide URL', required=True)
-    thing_to_search = forms.CharField(label='Provide what you would like to search for', required=False)
-    max_pages = forms.IntegerField(label='Maximum number of pages bot will crawl', initial=10)
-    max_depth = forms.IntegerField(label='Maximum depth', initial=10)
+    url = forms.CharField(label='Provide URL', required=True, widget= forms.TextInput
+                           (attrs={'class':'bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5'}))
+    thing_to_search = forms.CharField(label='Provide what you would like to search for', required=False, widget= forms.TextInput
+                           (attrs={'class':'bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5'}))
+    max_pages = forms.IntegerField(label='Maximum number of URLs to visit', initial=10, widget=forms.NumberInput(attrs={'class': 'rounded border py-2 px-3'}))
+    max_depth = forms.IntegerField(label='Maximum depth', initial=10, widget=forms.NumberInput(attrs={'class': 'rounded border py-2 px-3'}))
 
     sitemap_choices = [
         ('None', 'Everything sitemap'),

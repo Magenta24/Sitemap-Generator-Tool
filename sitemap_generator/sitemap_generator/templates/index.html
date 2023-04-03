@@ -3,78 +3,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- TAILWINDCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- end TAILWINDCSS -->
     <link rel="stylesheet" href="{% static 'style.css' %}">
     <title>Sitemap generator tool</title>
 </head>
-<body>
-<div class="container" style="width:100%">
-    <div style="width:50%;margin:auto">
-        <h1>Sitemap generator tool</h1>
+<body style="background-color: ;">
+<div class="container m-auto" style="width:100%">
+    <div class="m-auto" style="width:70%;">
+        <h1 class="text-4xl font-extrabold m-20">Sitemap generator tool</h1>
         <form action="/" method="POST">
             {% csrf_token %}
-            <table border="1">
-                <tr>
-                    <th>{{ form.url.label_tag }}</th>
-                    <td>
+            <table class="m-auto" class="text-sm text-left text-zinc-900">
+                <tbody>
+                <tr class="bg-gray border hover:bg-gray-50">
+                    <td class="px-5">{{ form.url.label_tag }}</td>
+                    <td class="px-6 py-4">
                         {{ form.url.errors }}
                         {{ form.url }}
                     </td>
                 </tr>
-                <tr>
-                    <th>{{ form.thing_to_search.label_tag }}</th>
-                    <td>
+                <tr class="bg-white border hover:bg-gray-50">
+                    <td>{{ form.thing_to_search.label_tag }}</td>
+                    <td class="px-6 py-4">
                         {{ form.thing_to_search.errors }}
                         {{ form.thing_to_search }}
                     </td>
                 </tr>
-                <tr>
-                    <th>{{ form.max_pages.label_tag }}</th>
-                    <td>
+                <tr class="bg-white border hover:bg-gray-50">
+                    <td>{{ form.max_pages.label_tag }}</td>
+                    <td class="px-6 py-4">
                         {{ form.max_pages.errors }}
                         {{ form.max_pages }}
                     </td>
                 </tr>
-                <tr>
-                    <th>{{ form.max_depth.label_tag }}</th>
-                    <td>
+                <tr class="bg-white border hover:bg-gray-50">
+                    <td>{{ form.max_depth.label_tag }}</td>
+                    <td class="px-6 py-4">
                         {{ form.max_depth.errors }}
                         {{ form.max_depth }}
                     </td>
                 </tr>
-                <tr>
-                    <th>{{ form.sitemap_type.label_tag }}</th>
-                    <td>
+                <tr class="bg-white border hover:bg-gray-50">
+                    <td>{{ form.sitemap_type.label_tag }}</td>
+                    <td class="px-6 py-4">
                         {{ form.sitemap_type.errors }}
                         {{ form.sitemap_type }}
                     </td>
                 </tr>
-                <tr>
-                    <th>{{ form.xml_format.label_tag }}</th>
-                    <td>
+                <tr class="bg-white border hover:bg-gray-50">
+                    <td>{{ form.xml_format.label_tag }}</td>
+                    <td class="px-6 py-4">
                         {{ form.xml_format.errors }}
                         {{ form.xml_format }}
                     </td>
                 </tr>
-                <tr>
-                    <th>{{ form.scraper_algo.label_tag }}</th>
-                    <td>
+                <tr class="bg-white border hover:bg-gray-50">
+                    <td>{{ form.scraper_algo.label_tag }}</td>
+                    <td class="px-6 py-4">
                         {{ form.scraper_algo.errors }}
                         {{ form.scraper_algo }}
                     </td>
                 </tr>
-                <tr>
-                    <th>{{ form.include_visual_sitemap.label_tag }}</th>
-                    <td>
+                <tr class="bg-white border hover:bg-gray-50">
+                    <td>{{ form.include_visual_sitemap.label_tag }}</td>
+                    <td class="px-6 py-4">
                         {{ form.include_visual_sitemap.errors }}
                         {{ form.include_visual_sitemap }}
                     </td>
                 </tr>
-                <tr>
-                    <th></th>
-                    <td><input type="submit" value="Get sitemap"></td>
-                </tr>
-            </table>
+                <tr class="bg-white border">
+                    <td colspan="2">
+                        <div>
 
+                            <input class="shadow bg-gray-500 hover:bg-gray-700 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" value="Get sitemap">
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+
+            </table>
         </form>
     </div>
 </div>

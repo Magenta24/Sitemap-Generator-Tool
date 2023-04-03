@@ -2,6 +2,7 @@
     width: 100%;
     justify-content: center;
     background-color: cornflowerblue;
+
 }
 
 .upper_menu {
@@ -13,6 +14,7 @@
     width: 70%;
     margin: auto;
     background-color: white;
+    border-radius: 10px;
 }
 .content_frame {
     width: 100%;
@@ -20,4 +22,9 @@
 
 #my-iframe {
     width: 100%;
+}
+
+.box {
+    border-top: thin dotted gray;
+    margin: 20px;
 }

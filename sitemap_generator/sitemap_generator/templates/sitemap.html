@@ -20,51 +20,111 @@
 <body>
 <div class="containerX">
     <div class="upper_menu">
-        <p class="back_button">
-            <a href="/">[Go back]</a>
+        <p>
+            <a class="text-white bg-zinc-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 m-10"
+               href="/">Go back</a>
         </p>
     </div>
-    <h1>Sitemap generator tool</h1>
+    <h1 class="text-4xl font-extrabold m-20">Sitemap generator tool</h1>
     <div class="content">
-        <div class="content_frame">
-            <div class="menu">
-                <div><a href="#" onclick="{% static 'images/diagram.svg' %}">Diagram</a></div>
-                <div><a href="#" onclick="https://pis.org.pl/">Tree structure</a></div>
-                <div><a>Downloads</a></div>
-                <div><a>Visited links list</a></div>
-            </div>
-            <iframe id="my-iframe" src="{% static 'images/diagram.svg' %}"></iframe>
-        </div>
+
+        <!--        <div class="content_frame">-->
+        <!--            <div class="menu">-->
+        <!--                <div><a href="#" onclick="{% static 'images/diagram.svg' %}">Diagram</a></div>-->
+        <!--                <div><a href="#" onclick="https://pis.org.pl/">Tree structure</a></div>-->
+        <!--                <div><a>Downloads</a></div>-->
+        <!--                <div><a>Visited links list</a></div>-->
+        <!--            </div>-->
+        <!--            <iframe id="my-iframe" src="{% static 'images/diagram.svg' %}"></iframe>-->
+        <!--        </div>-->
         {% if to_include_sitemap_img == True %}
-        <h2>URL diagram</h2>
+        <h2 class="text-4xl font-extrabold">Zoomable URL diagram</h2>
         <div id="myViewer" style="width: 100%; height: 600px;"></div>
-        <div style="overflow:scroll; height:400px;">
-        <span style="white-space: pre-wrap;">
-            <embed src="{% static 'images/diagram.svg' %}" width="10000">
-        </span>
+
+        <div class="box">
+            <h2 class="text-4xl font-extrabold">URL diagram</h2>
+            <div style="overflow:scroll; height:400px;">
+            <span style="white-space: pre-wrap;">
+                <embed src="{% static 'images/diagram.svg' %}" width="10000">
+            </span>
+            </div>
         </div>
         {% endif %}
+
+        <div class="tree-structure box">
+            <h2 class="text-4xl font-extrabold">URL tree structure</h2>
+            <div style="overflow:scroll; height:400px;">
+                <span style="white-space: pre-wrap;">
+                    {{ url_tree_structure }}
+                </span>
+            </div>
+        </div>
+
+        <div class="downloads box">
+            <h2 class="text-4xl font-extrabold">Downlods</h2>
+            <div class="m-10">
+                <a class="m-10 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                   href="/download_xml_sitemap">Download XML sitemap</a>
+                <a class="m-10 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                   href="/download_diagram_sitemap">Download sitemap diagram</a>
+            </div>
+
+        </div>
+
+        <div class="list box">
+            <h2 class="text-4xl font-extrabold">URLs visited</h2>
+            <div class="ml-2 mt-5" style="overflow:scroll; height:400px;">
+                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50"
+                    <tr>
+                        <th>No.</th>
+                        <th>URL</th>
+                        <th>Depth Level</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for link in links %}
+                    <tr class="bg-white border-b hover:bg-gray-50">
+                        <td class="px-6 py-4 text-center">{{ forloop.counter0 }}</td>
+                        <td class="px-6 py-4"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                                                 href={{ link.url }}>{{ link.url }}</a></td>
+                        <td class="px-6 py-4 text-center">{{ link.level }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="search-engine">
+            <h2 class="text-4xl font-extrabold">Search Engine results</h2>
+            <div class="ml-2 mt-5" style="overflow:scroll; height:400px;">
+                <p><span class="font-extrabold">The searched word:</span> {{ search_results.to_search }}</p>
+                <p><span class="font-extrabold">Number of occurrences:</span> {{ search_results.occurrences }}</p>
+                <br>
+                <br>
+                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50"
+                    <tr>
+                        <th>No.</th>
+                        <th>Location</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% for loc in search_results.locations %}
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 text-center">{{ forloop.counter0 }}</td>
+                            <td class="px-6 py-4"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                                                     href={{ loc }}>{{ loc }}</a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 
 
-
-
-
-    <h2>URL tree structure</h2>
-    <div style="overflow:scroll; height:400px;">
-        <span style="white-space: pre-wrap;">
-            {{ url_tree_structure }}
-        </span>
-    </div>
-    <h2>Download your sitemap: <a href="/download_xml_sitemap">click</a></h2>
-    <h2>Download your sitemap diagram: <a href="/download_diagram_sitemap">click</a></h2>
-
-    <h2>URLs visited</h2>
-    <div style="overflow:scroll; height:400px;">
-        {% for link in links %}
-        <p><a href={{ link.url }}>{{ link.url }}</a></p>
-        {% endfor %}
-    </div>
 </div>
 
 <script headers="Cache-Control: no-cache">
@@ -73,74 +133,85 @@ svgUrl += "?cachebuster='+Math.floor(Math.random()*100 +1)";
 var dzcOutputUrl = "{% static 'images/' %}";
 var dzcOutputFilename = 'diagram_dzi.dzi';
 
-// Get the aspect ratio of the SVG image
-var svgAspectRatio = 0;
-var svgImage = new Image();
-svgImage.src = svgUrl;
+    // Get the aspect ratio of the SVG image
+    var svgAspectRatio = 0;
+    var svgImage = new Image();
+    svgImage.src = svgUrl;
 
 
-svgImage.onload = function() {
-  svgAspectRatio = svgImage.width / svgImage.height;
+    svgImage.onload = function() {
+      svgAspectRatio = svgImage.width / svgImage.height;
 
-    var viewer = OpenSeadragon({
-        id: "myViewer",
-        prefixUrl: "{% static 'openseadragon-bin-4.0.0/images/' %}",
-        tileSources: {
-            type: 'legacy-image-pyramid',
-            levels: [{
-                url: svgUrl,
-                width: 10000 * svgAspectRatio, // Set the width to match the SVG aspect ratio
-                height: 10000,
-            }]
-        }
-    });
-
-    viewer.viewport
-
-    viewer.addHandler("zoom", function() {
-        console.log("Zoom level: " + viewer.viewport.getZoom(true));
-    });
-
-    viewer.addHandler("pan", function() {
-        console.log("Center coordinates: " + viewer.viewport.getCenter(true));
-    });
-
-
-    viewer.addHandler('open', function() {
-
-        // Get the SVG element
-        var svg = viewer.world.getItemAt(0).content.firstChild;
-
-        // Get the bounding box of the image and set the viewBox attribute
-        var bbox = svg.getBBox();
-        svg.setAttribute('viewBox', bbox.x + ' ' + bbox.y + ' ' + bbox.width + ' ' + bbox.height);
-
-        OpenSeadragon.Utils.getDZI({
-            tileSource: viewer.world.getTileSource(),
-            callback: function(dzi) {
-                dzi.dziUri({
-                    callback: function(dziUri) {
-                        var dzcJson = {
-                            Image: {
-                                xmlns: 'http://schemas.microsoft.com/deepzoom/2008',
-                                Url: dziUri.replace('.dzi', '_files'),
-                                Format: 'png',
-                                Overlap: '0',
-                                TileSize: '128',
-                                Size: {
-                                    Width: dzi.width,
-                                    Height: dzi.height
-                                }
-                            }
-                        };
-                        var dzcOutput = OpenSeadragonDzc.createDzc(dzcJson);
-                        OpenSeadragonDzc.saveDzc(dzcOutput, dzcOutputUrl, dzcOutputFilename);
-                    }
-                });
+        var viewer = OpenSeadragon({
+            id: "myViewer",
+            prefixUrl: "{% static 'openseadragon-bin-4.0.0/images/' %}",
+            tileSources: {
+                type: 'legacy-image-pyramid',
+                levels: [{
+                    url: svgUrl,
+                    width: 10000 * svgAspectRatio, // Set the width to match the SVG aspect ratio
+                    height: 10000,
+                }]
             }
         });
-    });
-};
+
+        viewer.viewport
+
+        viewer.addHandler("zoom", function() {
+            console.log("Zoom level: " + viewer.viewport.getZoom(true));
+        });
+
+        viewer.addHandler("pan", function() {
+            console.log("Center coordinates: " + viewer.viewport.getCenter(true));
+        });
+
+
+        viewer.addHandler('open', function() {
+
+            // Get the SVG element
+            var svg = viewer.world.getItemAt(0).content.firstChild;
+
+            // Get the bounding box of the image and set the viewBox attribute
+            var bbox = svg.getBBox();
+            svg.setAttribute('viewBox', bbox.x + ' ' + bbox.y + ' ' + bbox.width + ' ' + bbox.height);
+
+            OpenSeadragon.Utils.getDZI({
+                tileSource: viewer.world.getTileSource(),
+                callback: function(dzi) {
+                    dzi.dziUri({
+                        callback: function(dziUri) {
+                            var dzcJson = {
+                                Image: {
+                                    xmlns: 'http://schemas.microsoft.com/deepzoom/2008',
+                                    Url: dziUri.replace('.dzi', '_files'),
+                                    Format: 'png',
+                                    Overlap: '0',
+                                    TileSize: '128',
+                                    Size: {
+                                        Width: dzi.width,
+                                        Height: dzi.height
+                                    }
+                                }
+                            };
+                            var dzcOutput = OpenSeadragonDzc.createDzc(dzcJson);
+                            OpenSeadragonDzc.saveDzc(dzcOutput, dzcOutputUrl, dzcOutputFilename);
+                        }
+                    });
+                }
+            });
+        });
+    };
+
+
+
+
+
+
+
+
+
+
+
 
 
 </script>
@@ -149,6 +220,17 @@ svgImage.onload = function() {
 function changeFrame(url) {
   document.getElementById("my-iframe").src = url;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 </script>
 

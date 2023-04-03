@@ -10,12 +10,13 @@ from .URLSanitizer import URLSanitizer
 
 
 class SiteScraper:
-    _collected = []
-    _visited = set()
-    _queue = []
-    _url_tree = None
+    _collected = []  # all collected (e.g. includes only images in img mode)
+    _visited = set()  # all visited URLs
+    _queue = []  # queue list
+    _url_tree = None  # tree to keep the structure of the website
+    _search_results = []  # stores the locations of the provided word/phrase
 
-    def __init__(self, url, max_nodes=None, mode='None', sitemap_type='structured', parser='html'):
+    def __init__(self, url, max_nodes=None, mode='None', sitemap_type='structured', parser='html', to_search=None):
         """
         :param url: root URL
         :param max_nodes: maximum number of nodes to crawl
@@ -30,6 +31,8 @@ class SiteScraper:
         self.pages_visited_no = 0
         self.pages_queued_no = 0
         self.pages_collected_no = 0
+        self._to_search = to_search
+        self.search_results = {'locations': [], 'occurrences': 0, 'to_search': to_search}
 
         logs = Logging()
 
@@ -53,19 +56,26 @@ class SiteScraper:
         # using session to increase performance
         # self.session = requests.Session()
 
+        # checking sitemap type
         if sitemap_type in ['flat', 'structured']:
             self._sitemap_type = sitemap_type
         else:
             print('Incorrect sitemap type! You can choose flat or structured type')
             exit(-1)
 
+        # checking parser
         if parser == 'html':
             self.parser = 'html.parser'
         elif parser == 'lxml':
-            self.parser = 'lxml-xml'
+            # self.parser = 'lxml-xml'
+            self.parser = 'lxml'
         else:
             print("Provide correct parser like xml or html")
             exit(-1)
+
+        # checking thing to search
+        if to_search == "":
+            self._to_search = None
 
         print('INIT SUCCESSFUL')
 
@@ -77,7 +87,7 @@ class SiteScraper:
         """
 
         queue = []  # URLs to be crawled
-        queue_set = set()  # URLs to be crawled
+        queue_set = set()  # URLs to be crawled set to prevent duplicates
         visited = set()  # URLs visited
         self._url_tree = URLTree()  # tree storing all the URLs and related metadata
 
@@ -88,7 +98,6 @@ class SiteScraper:
         print("START NODE: ", current_node)
 
         try:
-
             # crawling through the website till queue is not empty
             while len(queue) >= 0:
 
