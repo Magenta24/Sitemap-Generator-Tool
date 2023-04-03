@@ -55,7 +55,8 @@ def main(request):
                           'sitemap.html',
                           {'links': links,
                            'url_tree_structure': file_content,
-                           'to_include_sitemap_img': include_visual_sitemap}
+                           'to_include_sitemap_img': include_visual_sitemap,
+                           'collected_no': ss1.pages_collected_no}
                           )
 
     # return HttpResponse('xdd')
