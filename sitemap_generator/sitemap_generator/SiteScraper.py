@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
 import urllib.error
+import re
 
 from .RobotsHandler import RobotsHandler
 from .Logging import Logging
@@ -86,6 +87,7 @@ class SiteScraper:
         :return: set of crawled URL of the website
         """
 
+        self._collected.clear()
         queue = []  # URLs to be crawled
         queue_set = set()  # URLs to be crawled set to prevent duplicates
         visited = set()  # URLs visited
@@ -124,6 +126,15 @@ class SiteScraper:
                 # parsing the website
                 soup = BeautifulSoup(website_source, self.parser)
 
+                # looking for thing to search
+                if self._to_search is not None:
+                    search_results = soup.body.find_all(string=re.compile('.*{0}.*'.format(self._to_search)),
+                                                        recursive=True)
+                    # print(current_node['url'], ': ', search_results)
+                    if len(search_results) > 0:
+                        self.search_results['locations'].append(current_node['url'])
+                        self.search_results['occurrences'] += len(search_results)
+
                 # extracting all links within <a> tags
                 links = soup.find_all('a')
                 if len(links) == 0:  # in case link is not an HTML page
@@ -142,10 +153,7 @@ class SiteScraper:
                         continue
 
                     # extracting URL and sanitizing it
-                    print('xddd')
-                    print("XDD: ", link)
                     url_prepared = URLSanitizer.sanitize_url(link.get('href'), self._base_url)
-                    print('xddd1')
 
                     if url_prepared is not None:  # register all subpages of the website (omitting externals (ex. twitter, instagram etc.))
                         if url_prepared not in visited.union(

@@ -61,7 +61,7 @@
         </div>
 
         <div class="downloads box">
-            <h2 class="text-4xl font-extrabold">Downlods</h2>
+            <h2 class="text-4xl font-extrabold">Downloads</h2>
             <div class="m-10">
                 <a class="m-10 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                    href="/download_xml_sitemap">Download XML sitemap</a>
@@ -73,6 +73,8 @@
 
         <div class="list box">
             <h2 class="text-4xl font-extrabold">URLs visited</h2>
+            <p>Execution time: <b>{{ execution_time }}</b></p>
+            <p>Number of visited pages: <b>{{ collected_no }}</b></p>
             <div class="ml-2 mt-5" style="overflow:scroll; height:400px;">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50"

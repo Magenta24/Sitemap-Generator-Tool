@@ -4,6 +4,7 @@ from django.template import loader
 from .forms import SitemapForm
 from django.conf import settings as django_settings
 import os
+import time
 
 from .SiteScraper import SiteScraper
 import datetime
@@ -36,11 +37,15 @@ def main(request):
             # creating instance of sitescraper
             ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type, parser='html', to_search=thing_to_search)
 
+            st = time.time()
             # choosing algorithm for scraper
             if scraper_algo == 'bfs':
                 links = ss1.bfs_scraper()
             elif scraper_algo == 'dfs':
                 links = ss1.dfs_scraper()
+
+            et = time.time()
+            execution_time = round((et - st), 2)
 
             search_results = ss1.search_results
 
@@ -60,7 +65,8 @@ def main(request):
                            'url_tree_structure': file_content,
                            'to_include_sitemap_img': include_visual_sitemap,
                            'collected_no': ss1.pages_collected_no,
-                           'search_results': search_results}
+                           'search_results': search_results,
+                           'execution_time': execution_time}
                           )
 
     # return HttpResponse('xdd')
