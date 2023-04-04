@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
 import urllib.error
 import re
+import time
+from random import randint
 
 from .RobotsHandler import RobotsHandler
 from .Logging import Logging
@@ -17,7 +19,7 @@ class SiteScraper:
     _url_tree = None  # tree to keep the structure of the website
     _search_results = []  # stores the locations of the provided word/phrase
 
-    def __init__(self, url, max_nodes=None, mode='None', sitemap_type='structured', parser='html', to_search=None):
+    def __init__(self, url, max_nodes=None, mode='None', sitemap_type='structured', parser='html', to_search=None, crawl_delay=False):
         """
         :param url: root URL
         :param max_nodes: maximum number of nodes to crawl
@@ -33,6 +35,7 @@ class SiteScraper:
         self.pages_queued_no = 0
         self.pages_collected_no = 0
         self._to_search = to_search
+        self._craw_delay = crawl_delay
         self.search_results = {'locations': [], 'occurrences': 0, 'to_search': to_search}
 
         logs = Logging()
@@ -41,9 +44,9 @@ class SiteScraper:
         try:
             source = requests.get(url, allow_redirects=True)
             print('INIT::STATUS CODE: ', source.status_code)
-            #print('INIT::SOURCE: ', source.text)
+            # print('INIT::SOURCE: ', source.text)
             print('INIT::HISTORY: ', source.history)
-            #print('INIT::HEADERS: ', source.headers)
+            # print('INIT::HEADERS: ', source.headers)
             print('INIT::URL: ', source.url)
         except Exception as e:
             print("COULDNT PERFORM REQUEST TO URL: ", url)
@@ -109,6 +112,11 @@ class SiteScraper:
 
                 # making request and reading website source and headers
                 # website_req_result = requests.get(current_node['url'])
+                # setting random value of the crawl delay if set craw_delay set to True
+                if self._craw_delay:
+                    seconds = randint(1, 5)
+                    print('SECONDS: ', seconds)
+                    time.sleep(seconds)
                 website_req_result = requests.get(current_node['url'], allow_redirects=True)
                 website_source = website_req_result.text
                 website_headers = website_req_result.headers

@@ -35,7 +35,7 @@ def main(request):
             thing_to_search = form.cleaned_data['thing_to_search']
 
             # creating instance of sitescraper
-            ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type, parser='html', to_search=thing_to_search)
+            ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type, parser='html', to_search=thing_to_search, crawl_delay=True)
 
             st = time.time()
             # choosing algorithm for scraper
