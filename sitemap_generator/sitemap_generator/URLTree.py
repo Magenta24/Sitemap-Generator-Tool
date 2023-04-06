@@ -3,14 +3,15 @@ import graphviz
 import os
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
+from urllib.parse import urlsplit
 
 from django.conf import settings as django_settings
 
 
 class URLTree(Tree):
 
-    def tree_structure_to_file(self):
-        filename = 'url_tree.txt'
+    def tree_structure_to_file(self, filepath_base=""):
+        filename = filepath_base + '-url_tree.txt'
         filepath = os.path.join(django_settings.STATIC_ROOT, 'tree_structure', filename).replace("\\", "/")
 
         # if tree file already exist - delete
@@ -25,8 +26,8 @@ class URLTree(Tree):
     def tree_to_json(self):
         return self.to_json()
 
-    def tree_to_graphviz(self):
-        filepath = os.path.join(django_settings.GRAPHVIZ_ROOT, 'tree-graph.gv').replace("\\", "/")
+    def tree_to_graphviz(self, filepath_base=""):
+        filepath = os.path.join(django_settings.GRAPHVIZ_ROOT, (filepath_base + '-tree-graph.gv')).replace("\\", "/")
 
         # if gv file already exist - delete
         if os.path.exists(filepath):
@@ -35,9 +36,9 @@ class URLTree(Tree):
         # self.to_graphviz('tree-graph.gv', shape='plaintext')
         self.to_graphviz(filepath, shape='egg')
 
-    def tree_to_svg(self):
-        filepath = os.path.join(django_settings.GRAPHVIZ_ROOT, 'tree-graph.gv').replace("\\", "/")
-        img_path = os.path.join(django_settings.MEDIA_ROOT, 'diagram').replace("\\", "/")
+    def tree_to_svg(self, filepath_base=""):
+        filepath = os.path.join(django_settings.GRAPHVIZ_ROOT, (filepath_base + '-tree-graph.gv')).replace("\\", "/")
+        img_path = os.path.join(django_settings.MEDIA_ROOT, (filepath_base + '-diagram')).replace("\\", "/")
 
         # if image already exist - delete
         if os.path.exists(img_path):
@@ -45,13 +46,13 @@ class URLTree(Tree):
             os.remove(img_path + '.svg')
 
         dot = graphviz.Source.from_file(filepath)
-        dot.render('diagram', format='svg', directory=django_settings.MEDIA_ROOT)
+        dot.render((filepath_base + '-diagram'), format='svg', directory=django_settings.MEDIA_ROOT)
 
-    def save_xml_sitemap(self, sitemap_type='structured'):
+    def save_xml_sitemap(self, filepath_base="", sitemap_type='structured'):
         """
         Saving collected hyperlinks to XML sitemap.
 
-        :param type: might be 'structured' showing hierarchy or 'flat' listing hyperlinks
+        :param sitemap_type: might be 'structured' showing hierarchy or 'flat' listing hyperlinks
         :return: None
         """
 
@@ -91,7 +92,7 @@ class URLTree(Tree):
 
         try:
             xml_str = minidom.parseString(ET.tostring(xml_root)).toprettyxml(indent="   ")
-            path = os.path.join(django_settings.XML_SITEMAP_ROOT, 'sitemap.xml')
+            path = os.path.join(django_settings.XML_SITEMAP_ROOT, (filepath_base + '-sitemap.xml'))
 
             with open(path, "w") as f:
                 f.write(xml_str)

@@ -130,7 +130,7 @@
 </div>
 
 <script headers="Cache-Control: no-cache">
-var svgUrl = "{% static 'images/diagram.svg' %}";
+var svgUrl = "{% static 'images/' %}" + "{{ base_filepath }}" + "-diagram.svg";
 svgUrl += "?cachebuster='+Math.floor(Math.random()*100 +1)";
 var dzcOutputUrl = "{% static 'images/' %}";
 var dzcOutputFilename = 'diagram_dzi.dzi';

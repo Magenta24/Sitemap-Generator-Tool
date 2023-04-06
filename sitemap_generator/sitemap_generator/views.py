@@ -5,6 +5,7 @@ from .forms import SitemapForm
 from django.conf import settings as django_settings
 import os
 import time
+import asyncio
 
 from .SiteScraper import SiteScraper
 import datetime
@@ -20,6 +21,10 @@ def main(request):
     if request.method == 'GET':
         return render(request, "index.html", {'form': sitemap_settings_form})
 
+    # return HttpResponse('xdd')
+
+
+def scrap(request):
     if request.method == 'POST':
 
         form = SitemapForm(request.POST)
@@ -35,9 +40,11 @@ def main(request):
             thing_to_search = form.cleaned_data['thing_to_search']
 
             # creating instance of sitescraper
-            ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type, parser='html', to_search=thing_to_search, crawl_delay=True)
+            ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type, parser='html',
+                              to_search=thing_to_search, crawl_delay=False)
 
             st = time.time()
+
             # choosing algorithm for scraper
             if scraper_algo == 'bfs':
                 links = ss1.bfs_scraper()
@@ -53,8 +60,8 @@ def main(request):
             print(len(links))
 
             # reading file with URL tree structure
-            url_tree_path = os.path.join(django_settings.STATIC_ROOT, 'tree_structure', 'url_tree.txt').replace("\\",
-                                                                                                                "/")
+            url_tree_path = os.path.join(django_settings.STATIC_ROOT, 'tree_structure',
+                                         (ss1.base_filepath + '-url_tree.txt')).replace("\\", "/")
             f = open(url_tree_path, 'r', encoding='utf-8')
             file_content = f.read()
             f.close()
@@ -66,10 +73,9 @@ def main(request):
                            'to_include_sitemap_img': include_visual_sitemap,
                            'collected_no': ss1.pages_collected_no,
                            'search_results': search_results,
-                           'execution_time': execution_time}
+                           'execution_time': execution_time,
+                           'base_filepath': ss1.base_filepath}
                           )
-
-    # return HttpResponse('xdd')
 
 
 def download_xml_sitemap(request):
@@ -93,6 +99,13 @@ def download_diagram_sitemap(request):
 
             return response
     raise Http404
+
+
+async def loading_screen(request):
+    return render(request, "loading.html")
+
+
+
 
 
 def check_url(request):

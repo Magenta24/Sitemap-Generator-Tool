@@ -1,27 +1,54 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--  <title>Loading Screen</title>-->
+<!--  <style>-->
+<!--    .loader {-->
+<!--      border: 16px solid #f3f3f3;-->
+<!--      border-top: 16px solid #3498db;-->
+<!--      border-radius: 50%;-->
+<!--      width: 120px;-->
+<!--      height: 120px;-->
+<!--      animation: spin 2s linear infinite;-->
+<!--      margin: auto;-->
+<!--      position: absolute;-->
+<!--      top: 0; left: 0; bottom: 0; right: 0;-->
+<!--    }-->
+
+<!--    @keyframes spin {-->
+<!--      0% { transform: rotate(0deg); }-->
+<!--      100% { transform: rotate(360deg); }-->
+<!--    }-->
+<!--  </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--  <div class="container" style="width: 70%;margin:auto; text-align:center;">-->
+<!--    <h2 style="">Your sitemap is generating. Please wait.</h2>-->
+<!--    <div class="loader"></div>-->
+<!--  </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!-- waiting_screen.html -->
 <html>
 <head>
-  <title>Loading Screen</title>
-  <style>
-    .loader {
-      border: 16px solid #f3f3f3;
-      border-top: 16px solid #3498db;
-      border-radius: 50%;
-      width: 120px;
-      height: 120px;
-      animation: spin 2s linear infinite;
-      margin: auto;
-      position: absolute;
-      top: 0; left: 0; bottom: 0; right: 0;
-    }
-
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-  </style>
+  <title>Waiting Screen</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#waiting-screen').show();  // Display the waiting screen
+      $.get('/long_running_task/')
+        .done(function(data) {
+          $('#waiting-screen').hide();  // Hide the waiting screen
+          $('#result').text(data.result);  // Display the result
+        });
+    });
+  </script>
 </head>
 <body>
-  <div class="loader"></div>
+  <div id="waiting-screen" style="display: none;">
+    <p>Please wait while we process your request...</p>
+  </div>
+  <div id="result"></div>
 </body>
 </html>

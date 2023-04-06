@@ -4,6 +4,7 @@ from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
 import urllib.error
 import re
 import time
+from datetime import datetime
 from random import randint
 
 from .RobotsHandler import RobotsHandler
@@ -13,13 +14,9 @@ from .URLSanitizer import URLSanitizer
 
 
 class SiteScraper:
-    _collected = []  # all collected (e.g. includes only images in img mode)
-    _visited = set()  # all visited URLs
-    _queue = []  # queue list
-    _url_tree = None  # tree to keep the structure of the website
-    _search_results = []  # stores the locations of the provided word/phrase
 
-    def __init__(self, url, max_nodes=None, mode='None', sitemap_type='structured', parser='html', to_search=None, crawl_delay=False):
+    def __init__(self, url, max_nodes=None, mode='None', sitemap_type='structured', parser='html', to_search=None,
+                 crawl_delay=False):
         """
         :param url: root URL
         :param max_nodes: maximum number of nodes to crawl
@@ -37,8 +34,15 @@ class SiteScraper:
         self._to_search = to_search
         self._craw_delay = crawl_delay
         self.search_results = {'locations': [], 'occurrences': 0, 'to_search': to_search}
+        self._collected = []  # all collected (e.g. includes only images in img mode)
+        self._visited = set()  # all visited URLs
+        self._queue = []  # queue list
+        self._url_tree = None  # tree to keep the structure of the website
+        self._search_results = []  # stores the locations of the provided word/phrase
 
-        logs = Logging()
+        now = datetime.now()
+        self.base_filepath = self._base_url_parsed['netloc'].split(".")[0] + now.strftime("%d%m%Y%H%M%S")
+        self._logs = Logging()
 
         # checking if it is possible to make a request to URL provided by user
         try:
@@ -101,6 +105,7 @@ class SiteScraper:
         # add root to the tree
         self._url_tree.create_node(current_node['url'], current_node['url'], data=current_node)
         print("START NODE: ", current_node)
+        print("ROOT: ", self._url_tree.root)
 
         try:
             # crawling through the website till queue is not empty
@@ -114,7 +119,7 @@ class SiteScraper:
                 # website_req_result = requests.get(current_node['url'])
                 # setting random value of the crawl delay if set craw_delay set to True
                 if self._craw_delay:
-                    seconds = randint(1, 5)
+                    seconds = randint(1, 3)
                     print('SECONDS: ', seconds)
                     time.sleep(seconds)
                 website_req_result = requests.get(current_node['url'], allow_redirects=True)
@@ -134,6 +139,13 @@ class SiteScraper:
                 # parsing the website
                 soup = BeautifulSoup(website_source, self.parser)
 
+                # extracting all links within <a> tags
+                links = soup.find_all('a')
+                if len(links) == 0:  # in case link is not an HTML page
+                    print("No new links extracted")
+                    current_node = queue.pop(0)  # getting next to be crawled
+                    continue
+
                 # looking for thing to search
                 if self._to_search is not None:
                     search_results = soup.body.find_all(string=re.compile('.*{0}.*'.format(self._to_search)),
@@ -142,13 +154,6 @@ class SiteScraper:
                     if len(search_results) > 0:
                         self.search_results['locations'].append(current_node['url'])
                         self.search_results['occurrences'] += len(search_results)
-
-                # extracting all links within <a> tags
-                links = soup.find_all('a')
-                if len(links) == 0:  # in case link is not an HTML page
-                    print("No new links extracted")
-                    current_node = queue.pop(0)  # getting next to be crawled
-                    continue
 
                 for link in links:
 
@@ -166,7 +171,8 @@ class SiteScraper:
                     if url_prepared is not None:  # register all subpages of the website (omitting externals (ex. twitter, instagram etc.))
                         if url_prepared not in visited.union(
                                 queue_set):  # check if the URL is already in the visited or queue set
-                            if self._robotstxt_parser.can_fetch("*", url_prepared):  # check if the page is allowed to be crawled
+                            if self._robotstxt_parser.can_fetch("*",
+                                                                url_prepared):  # check if the page is allowed to be crawled
                                 print("added to queue: ", url_prepared)
                                 # adding child URL to the queue, queue set and tree
                                 child_node = {'url': url_prepared, 'level': (current_node['level'] + 1)}
@@ -189,21 +195,24 @@ class SiteScraper:
         # handling errors
         except urllib.error.HTTPError as e:
             print('HTTP error occurred. Might resource not found or smth else.')
+            # self._logs.log_exception(e)
             print(e)
         except urllib.error.URLError as e:
             print('URL error occurred. Might be server couldnt be found or some typo in URL')
+            # self._logs.log_exception(e)
             print(e)
         except Exception as e:
+            # self._logs.log_exception(e)
             print(e)
         finally:
             self.pages_visited_no = len(visited)
             self.pages_collected_no = len(self._collected)
             self.pages_queued_no = len(queue_set)
 
-            self._url_tree.tree_structure_to_file()
-            self._url_tree.tree_to_graphviz()
-            self._url_tree.save_xml_sitemap(self._sitemap_type)
-            self._url_tree.tree_to_svg()
+            self._url_tree.tree_structure_to_file(self.base_filepath)
+            self._url_tree.tree_to_graphviz(self.base_filepath)
+            self._url_tree.save_xml_sitemap(self.base_filepath, self._sitemap_type)
+            self._url_tree.tree_to_svg(self.base_filepath)
             self._url_tree.show()
 
             return self._collected
