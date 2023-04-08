@@ -5,8 +5,11 @@ import urllib.error
 
 class URLSanitizer:
 
-    @staticmethod
-    def is_pdf(headers):
+    docs_extensions = ['.pdf', '.docx', '.doc', '.xls', '.ppt', '.txt', '.zip']
+    image_extensions = ['.jpg', '.jpeg', '.gif', '.png', '.svg']
+
+    @classmethod
+    def is_doc_by_header(cls, headers):
         """
         Checking if the resource is PDF file
         :param headers: website page headers
@@ -14,13 +17,29 @@ class URLSanitizer:
         """
         content_type = headers.get('content-type')
 
-        if content_type.endswith("pdf"):
-            return True
+        # if content_type.endswith("pdf"):
+        for ext in cls.docs_extensions:
+            if content_type.endswith(ext):
+                return True
+
+        return False
+
+    @classmethod
+    def is_doc_by_extension(cls, url):
+        """
+        Checking if the resource is PDF file
+        :type url: url to check
+        :return: True if pdf file, False otherwise
+        """
+
+        for ext in cls.docs_extensions:
+            if url.endswith(ext):
+                return True
 
         return False
 
     @staticmethod
-    def is_image(headers):
+    def is_image_by_header(headers):
         """
         Checking if the resource is image (file format jpg, jpeg, gif, png)
 
@@ -32,6 +51,22 @@ class URLSanitizer:
 
         if content_type.startswith("image/"):
             return True
+
+        return False
+
+    @classmethod
+    def is_image_by_extension(cls, url):
+        """
+        Checking if the resource is image (file format jpg, jpeg, gif, png)
+
+        :param url: url to check
+        :return: True if an image, False otherwise
+        """
+
+        # if content_type.endswith("pdf"):
+        for ext in cls.image_extensions:
+            if url.endswith(ext):
+                return True
 
         return False
 

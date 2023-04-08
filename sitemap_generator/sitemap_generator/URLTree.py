@@ -97,5 +97,5 @@ class URLTree(Tree):
             with open(path, "w") as f:
                 f.write(xml_str)
         except Exception as e:
-            print('Przyps')
+            print('XML SITEMAP SAVING ERROR!')
             print(e)

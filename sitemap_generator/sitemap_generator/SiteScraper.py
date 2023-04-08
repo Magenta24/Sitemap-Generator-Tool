@@ -6,11 +6,14 @@ import re
 import time
 from datetime import datetime
 from random import randint
+import os
 
 from .RobotsHandler import RobotsHandler
 from .Logging import Logging
 from .URLTree import URLTree
 from .URLSanitizer import URLSanitizer
+
+from django.conf import settings as django_settings
 
 
 class SiteScraper:
@@ -34,7 +37,9 @@ class SiteScraper:
         self._to_search = to_search
         self._craw_delay = crawl_delay
         self.search_results = {'locations': [], 'occurrences': 0, 'to_search': to_search}
-        self._collected = []  # all collected (e.g. includes only images in img mode)
+        self._collected = []  # all collected URLs
+        self.images = []  # all collected images
+        self.docs = []  # all collected documents
         self._visited = set()  # all visited URLs
         self._queue = []  # queue list
         self._url_tree = None  # tree to keep the structure of the website
@@ -115,6 +120,10 @@ class SiteScraper:
                 visited.add(current_node['url'])
                 print("NODE VISITED: ", len(visited), ' ', current_node['url'])
 
+                # terminating crawling if max_nodes value is reached
+                if len(self._collected) == self._max_nodes_visited:
+                    break
+
                 # making request and reading website source and headers
                 # website_req_result = requests.get(current_node['url'])
                 # setting random value of the crawl delay if set craw_delay set to True
@@ -122,19 +131,28 @@ class SiteScraper:
                     seconds = randint(1, 3)
                     print('SECONDS: ', seconds)
                     time.sleep(seconds)
+
+                # make request
                 website_req_result = requests.get(current_node['url'], allow_redirects=True)
-                website_source = website_req_result.text
-                website_headers = website_req_result.headers
+                website_source = website_req_result.text  # web source code
+                website_headers = website_req_result.headers  # headers to check for images or docs
 
-                # deciding whether include given URL in the sitemap given mode
-                if (URLSanitizer.is_image(website_headers) and self._mode == 'img') or \
-                        (URLSanitizer.is_pdf(website_headers) and self._mode == 'pdf') or \
-                        (self._mode == 'None'):
+                # check if URL is image or document
+                if URLSanitizer.is_image_by_header(website_headers) or \
+                        URLSanitizer.is_image_by_extension(current_node['url']):
+                    print('IMAGE')
+                    self.images.append(current_node['url'])
+                    current_node = queue.pop(0)
+                    continue
+                elif URLSanitizer.is_doc_by_header(website_headers) or \
+                        URLSanitizer.is_doc_by_extension(current_node['url']):
+                    print('DOCS')
+                    self.docs.append(current_node['url'])
+                    current_node = queue.pop(0)
+                    continue
+                else:
+                    # adding the URL to collected
                     self._collected.append(current_node)
-
-                # terminating crawling if max_nodes value is reached
-                if len(visited) == self._max_nodes_visited:
-                    break
 
                 # parsing the website
                 soup = BeautifulSoup(website_source, self.parser)
@@ -209,6 +227,7 @@ class SiteScraper:
             self.pages_collected_no = len(self._collected)
             self.pages_queued_no = len(queue_set)
 
+            self._create_report()
             self._url_tree.tree_structure_to_file(self.base_filepath)
             self._url_tree.tree_to_graphviz(self.base_filepath)
             self._url_tree.save_xml_sitemap(self.base_filepath, self._sitemap_type)
@@ -360,16 +379,26 @@ class SiteScraper:
 
         # handling errors
         except urllib.error.HTTPError as e:
-            print('HTTP error occurred. Might resource not found or smth else.')
+            print('HTTP ERROR. Might resource not found or smth else.')
             print(e)
 
             return e
 
         except urllib.error.URLError as e:
-            print('URL error occurred. Might be server couldnt be found or some typo in URL')
+            print('URL ERROR. Might be server couldnt be found or some typo in URL')
             print(e)
 
             return e
 
         except Exception as e:
+            print(e)
+
+    def _create_report(self):
+        filepath = os.path.join(django_settings.REPORTS_ROOT, (self.base_filepath + '-report.txt'))
+        try:
+            with open(filepath, "w") as fp:
+                for link in self._collected:
+                    fp.write(str(link) + '\n')
+        except Exception as e:
+            print('CREATE REPORT ERROR!')
             print(e)

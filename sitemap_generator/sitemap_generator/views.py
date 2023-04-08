@@ -74,7 +74,9 @@ def scrap(request):
                            'collected_no': ss1.pages_collected_no,
                            'search_results': search_results,
                            'execution_time': execution_time,
-                           'base_filepath': ss1.base_filepath}
+                           'base_filepath': ss1.base_filepath,
+                           'images': ss1.images,
+                           'docs': ss1.docs}
                           )
 
 

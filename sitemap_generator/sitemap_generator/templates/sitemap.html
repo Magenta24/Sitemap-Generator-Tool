@@ -45,7 +45,7 @@
             <h2 class="text-4xl font-extrabold">URL diagram</h2>
             <div style="overflow:scroll; height:400px;">
             <span style="white-space: pre-wrap;">
-                <embed src="{% static 'images/diagram.svg' %}" width="10000">
+                <embed src="{% static 'images/' %}{{base_filepath}}{{'-diagram.svg' }}" width="10000">
             </span>
             </div>
         </div>
@@ -77,7 +77,7 @@
             <p>Number of visited pages: <b>{{ collected_no }}</b></p>
             <div class="ml-2 mt-5" style="overflow:scroll; height:400px;">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                    <thead class="text-xs text-gray-700 uppercase bg-gray-50"
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50">
                     <tr>
                         <th>No.</th>
                         <th>URL</th>
@@ -106,20 +106,72 @@
                 <br>
                 <br>
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                    <thead class="text-xs text-gray-700 uppercase bg-gray-50"
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50">
                     <tr>
                         <th>No.</th>
                         <th>Location</th>
                     </tr>
                     </thead>
                     <tbody>
-                        {% for loc in search_results.locations %}
-                        <tr class="bg-white border-b hover:bg-gray-50">
-                            <td class="px-6 py-4 text-center">{{ forloop.counter0 }}</td>
-                            <td class="px-6 py-4"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-                                                     href={{ loc }}>{{ loc }}</a></td>
-                        </tr>
-                        {% endfor %}
+                    {% for loc in search_results.locations %}
+                    <tr class="bg-white border-b hover:bg-gray-50">
+                        <td class="px-6 py-4 text-center">{{ forloop.counter0 }}</td>
+                        <td class="px-6 py-4"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                                                 href={{ loc }}>{{ loc }}</a></td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="scraped-images">
+            <h2 class="text-4xl font-extrabold">Found images</h2>
+            <div class="ml-2 mt-5" style="overflow:scroll; height:400px;">
+                <p><span class="font-extrabold">Number of images:</span></p>
+                <br>
+                <br>
+                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+                    <tr>
+                        <th>No.</th>
+                        <th>Location</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for loc in images %}
+                    <tr class="bg-white border-b hover:bg-gray-50">
+                        <td class="px-6 py-4 text-center">{{ forloop.counter0 }}</td>
+                        <td class="px-6 py-4"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                                                 href={{ loc }}>{{ loc }}</a></td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="scraped-docs">
+            <h2 class="text-4xl font-extrabold">Found documents</h2>
+            <div class="ml-2 mt-5" style="overflow:scroll; height:400px;">
+                <p><span class="font-extrabold">Number of docs:</span></p>
+                <br>
+                <br>
+                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+                    <tr>
+                        <th>No.</th>
+                        <th>Location</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for loc in docs %}
+                    <tr class="bg-white border-b hover:bg-gray-50">
+                        <td class="px-6 py-4 text-center">{{ forloop.counter0 }}</td>
+                        <td class="px-6 py-4"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                                                 href={{ loc }}>{{ loc }}</a></td>
+                    </tr>
+                    {% endfor %}
                     </tbody>
                 </table>
             </div>
@@ -216,12 +268,16 @@ var dzcOutputFilename = 'diagram_dzi.dzi';
 
 
 
+
+
 </script>
 
 <script>
 function changeFrame(url) {
   document.getElementById("my-iframe").src = url;
 }
+
+
 
 
 
