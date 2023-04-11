@@ -81,7 +81,8 @@ def scrap(request):
 
 
 def download_xml_sitemap(request):
-    file_path = os.path.join(django_settings.XML_SITEMAP_ROOT, 'sitemap.xml')
+    base_path = request.GET.get('base_filepath')
+    file_path = os.path.join(django_settings.XML_SITEMAP_ROOT, (base_path + '-sitemap.xml'))
 
     if os.path.exists(file_path):
         with open(file_path, 'rb') as fh:
@@ -92,7 +93,8 @@ def download_xml_sitemap(request):
 
 
 def download_diagram_sitemap(request):
-    file_path = os.path.join(django_settings.MEDIA_ROOT, 'diagram.svg')
+    base_path = request.GET.get('base_filepath')
+    file_path = os.path.join(django_settings.MEDIA_ROOT, (base_path + '-diagram.svg'))
 
     if os.path.exists(file_path):
         with open(file_path, 'rb') as fh:
@@ -105,9 +107,6 @@ def download_diagram_sitemap(request):
 
 async def loading_screen(request):
     return render(request, "loading.html")
-
-
-
 
 
 def check_url(request):
