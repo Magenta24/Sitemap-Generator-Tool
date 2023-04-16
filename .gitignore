@@ -10,7 +10,7 @@ migrations/
 main.py
 static/graphviz-output/*
 tree-graph.gv
-logs.log
+logs/*
 doctest-output
 static/images/*
 static/tree_structure/*

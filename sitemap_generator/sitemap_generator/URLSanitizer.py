@@ -156,7 +156,8 @@ class URLSanitizer:
             return None
 
         # remove any parameters or queries
-        url_parsed['query'] = ''
+        print("QUERY: ", url_parsed['query'])
+        print("FRAGMENT: ", url_parsed['fragment'])
         url_parsed['fragment'] = ''
 
         # canonicalization of URLs, so that all of them ends with backslash

@@ -47,7 +47,7 @@ class SiteScraper:
 
         now = datetime.now()
         self.base_filepath = self._base_url_parsed['netloc'].split(".")[0] + now.strftime("%d%m%Y%H%M%S")
-        self._logs = Logging()
+        self._logs = Logging(self.base_filepath)
 
         # checking if it is possible to make a request to URL provided by user
         try:
@@ -116,6 +116,8 @@ class SiteScraper:
             # crawling through the website till queue is not empty
             while len(queue) >= 0:
 
+                iteration_st = time.time()
+
                 # marking crawled URL as VISITED
                 visited.add(current_node['url'])
                 print("NODE VISITED: ", len(visited), ' ', current_node['url'])
@@ -133,7 +135,13 @@ class SiteScraper:
                     time.sleep(seconds)
 
                 # make request
+                req_stime = time.time()
                 website_req_result = requests.get(current_node['url'], allow_redirects=True)
+                req_etime = time.time()
+                # log request time
+                print('REQUEST TIME: ', str(round((req_etime-req_stime), 2)))
+                self._logs.log_info(('REQUEST TIME: ' + str(round((req_etime - req_stime), 2))))
+
                 website_source = website_req_result.text  # web source code
                 website_headers = website_req_result.headers  # headers to check for images or docs
 
@@ -205,6 +213,10 @@ class SiteScraper:
 
                 # getting next to be crawled
                 current_node = queue.pop(0)
+
+                iteration_et = time.time()
+                self._logs.log_info(('SINGLE ITERATION TIME: ' + str(round((iteration_et-iteration_st), 2))))
+
 
             print("Final Visited counter: ", len(visited))
             print("Final Collected counter: ", len(self._collected))
