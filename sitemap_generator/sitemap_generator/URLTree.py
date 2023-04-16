@@ -6,6 +6,10 @@ from xml.dom import minidom
 from urllib.parse import urlsplit
 
 from django.conf import settings as django_settings
+import sys
+
+# increasing the recursion limit from 1000 to 10^6
+sys.setrecursionlimit(10**6)
 
 
 class URLTree(Tree):
