@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{% static 'style.css' %}">
     <title>Sitemap generator tool</title>
 </head>
-<body style="background-color: ;">
+<body style="background-color: cornflowerblue;">
     <div class="container m-auto" style="width:100%">
         <div class="m-auto" style="width:70%;">
             <h1 class="text-4xl font-extrabold m-20">Sitemap generator tool</h1>
@@ -17,63 +17,63 @@
                 {% csrf_token %}
                 <table class="m-auto" class="text-sm text-left text-zinc-900">
                     <tbody>
-                        <tr class="bg-gray border hover:bg-gray-50">
+                        <tr class="border border-sky-500 bg-blue-300 hover:bg-neutral-300">
                             <td class="px-5">{{ form.url.label_tag }}</td>
                             <td class="px-6 py-4">
                                 {{ form.url.errors }}
                                 {{ form.url }}
                             </td>
                         </tr>
-                        <tr class="bg-white border hover:bg-gray-50">
+                        <tr class="border border-sky-500 bg-blue-300 hover:bg-neutral-300">
                             <td>{{ form.thing_to_search.label_tag }}</td>
                             <td class="px-6 py-4">
                                 {{ form.thing_to_search.errors }}
                                 {{ form.thing_to_search }}
                             </td>
                         </tr>
-                        <tr class="bg-white border hover:bg-gray-50">
+                        <tr class="border border-sky-500 bg-blue-300 hover:bg-neutral-300">
                             <td>{{ form.max_pages.label_tag }}</td>
                             <td class="px-6 py-4">
                                 {{ form.max_pages.errors }}
                                 {{ form.max_pages }}
                             </td>
                         </tr>
-                        <tr class="bg-white border hover:bg-gray-50">
+                        <tr class="border border-sky-500 bg-blue-300 hover:bg-neutral-300">
                             <td>{{ form.max_depth.label_tag }}</td>
                             <td class="px-6 py-4">
                                 {{ form.max_depth.errors }}
                                 {{ form.max_depth }}
                             </td>
                         </tr>
-                        <tr class="bg-white border hover:bg-gray-50">
+                        <tr class="border border-sky-500 bg-blue-300 hover:bg-neutral-300">
                             <td>{{ form.sitemap_type.label_tag }}</td>
                             <td class="px-6 py-4">
                                 {{ form.sitemap_type.errors }}
                                 {{ form.sitemap_type }}
                             </td>
                         </tr>
-                        <tr class="bg-white border hover:bg-gray-50">
+                        <tr class="border border-sky-500 bg-blue-300 hover:bg-neutral-300">
                             <td>{{ form.xml_format.label_tag }}</td>
                             <td class="px-6 py-4">
                                 {{ form.xml_format.errors }}
                                 {{ form.xml_format }}
                             </td>
                         </tr>
-                        <tr class="bg-white border hover:bg-gray-50">
+                        <tr class="border border-sky-500 bg-blue-300 hover:bg-neutral-300">
                             <td>{{ form.scraper_algo.label_tag }}</td>
                             <td class="px-6 py-4">
                                 {{ form.scraper_algo.errors }}
                                 {{ form.scraper_algo }}
                             </td>
                         </tr>
-                        <tr class="bg-white border hover:bg-gray-50">
+                        <tr class="border border-sky-500 bg-blue-300 hover:bg-neutral-300">
                             <td>{{ form.include_visual_sitemap.label_tag }}</td>
                             <td class="px-6 py-4">
                                 {{ form.include_visual_sitemap.errors }}
                                 {{ form.include_visual_sitemap }}
                             </td>
                         </tr>
-                        <tr class="bg-white border">
+                        <tr class="bg-blue-300">
                             <td colspan="2">
                                 <div>
                                     <input class="shadow bg-gray-500 hover:bg-gray-700 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" value="Get sitemap">
