@@ -14,8 +14,8 @@ class Logging:
             format='%(asctime)s %(levelname)s:%(message)s')
         self.logger = logging.getLogger('exceptions')
 
-    def log_exception(self, *args, **kwargs):
-        self.logger.exception('EXCEPTION: ', args, kwargs)
+    def log_exception(self, msg):
+        self.logger.exception(msg)
 
     def log_info(self, msg):
         self.logger.info(msg)
