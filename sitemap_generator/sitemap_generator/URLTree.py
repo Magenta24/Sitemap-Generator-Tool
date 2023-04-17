@@ -98,8 +98,8 @@ class URLTree(Tree):
             xml_str = minidom.parseString(ET.tostring(xml_root)).toprettyxml(indent="   ")
             path = os.path.join(django_settings.XML_SITEMAP_ROOT, (filepath_base + '-sitemap.xml'))
 
-            with open(path, "w") as f:
-                f.write(xml_str)
+            with open(path, "w", encoding="utf-8") as fp:
+                fp.write(xml_str)
         except Exception as e:
             print('XML SITEMAP SAVING ERROR!')
             print(e)
