@@ -1,10 +1,9 @@
 import re
-from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
+from urllib.parse import urlparse, urlunparse, urlunsplit, urlsplit, urljoin
 import urllib.error
 
 
 class URLSanitizer:
-
     docs_extensions = ['.pdf', '.docx', '.doc', '.xls', '.ppt', '.txt', '.zip']
     image_extensions = ['.jpg', '.jpeg', '.gif', '.png', '.svg']
 
@@ -15,7 +14,11 @@ class URLSanitizer:
         :param headers: website page headers
         :return: True if pdf file, False otherwise
         """
+
         content_type = headers.get('content-type')
+
+        if content_type is None:
+            return False
 
         # if content_type.endswith("pdf"):
         for ext in cls.docs_extensions:
@@ -49,6 +52,9 @@ class URLSanitizer:
 
         content_type = headers.get('content-type')
 
+        if content_type is None:
+            return False
+
         if content_type.startswith("image/"):
             return True
 
@@ -78,10 +84,6 @@ class URLSanitizer:
             return True
 
         return False
-
-    @staticmethod
-    def add_url_to_base(self, url):
-        return urljoin(self._base_url, url)
 
     @staticmethod
     def is_file(url):
@@ -127,12 +129,6 @@ class URLSanitizer:
         :return: Sanitized URL. If URL cannot be sanitized returns None.
         """
 
-        # if the URL is root URL
-        if base_url is None:
-            pass
-            # check if the scheme is present
-            # check if making request is possible
-
         # extracting domain, url and scheme from the base url
         url_parsed = urlsplit(url.strip())._asdict()
         base_url_parsed = urlsplit(base_url)._asdict()
@@ -146,23 +142,28 @@ class URLSanitizer:
             # print("Scheme not allowed")
             return None
 
-        # check if netloc is the same in url and base url
+        # check if the url is internal or external URL
         if url_parsed['netloc'] not in allowed_netloc:
             # print("Netloc different from the base one")
             return None
 
+        # check for emails
         if URLSanitizer.is_email(url):
             # print("It is email.")
             return None
 
-        # remove any parameters or queries
-        print("QUERY: ", url_parsed['query'])
-        print("FRAGMENT: ", url_parsed['fragment'])
-        url_parsed['fragment'] = ''
+        # checking for consecutive backslashes
 
-        # canonicalization of URLs, so that all of them ends with backslash
-        # if ((url_parsed['path'] == '') or (url_parsed['path'][-1] != '/')) and not (URLSanitizer.is_file(url)):
-        #     url_parsed['path'] += '/'
+        # CANONICALIZATION
+        # all URLs starts with HTTPS
+        url_parsed['scheme'] = 'https'
+
+        # removing the trailing backslash if present
+        if (len(url_parsed['path']) > 1) and (url_parsed['path'][-1] == '/'):
+            url_parsed['path'] = url_parsed['path'][:-1]
+
+        # remove parts that come after '#'
+        url_parsed['fragment'] = ''
 
         sanitized_url = urljoin(base_url, urlunsplit(url_parsed.values()))
 
