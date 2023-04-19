@@ -26,7 +26,7 @@
         </p>
     </div>
     <h1 class="text-4xl font-extrabold m-20">Sitemap generator tool</h1>
-    <div class="content">
+    <div class="content bg-neutral-300">
 
         <!--        <div class="content_frame">-->
         <!--            <div class="menu">-->
@@ -78,13 +78,15 @@
 
         <!-- LIST OF VISITED URLS -->
         <div class="list box">
-            <h2 class="text-4xl font-extrabold">URLs visited</h2>
+            <h2 class="text-4xl font-extrabold">URLs collected</h2>
             <p>Execution time: <b>{{ execution_time }}</b></p>
+            <p>Number of collected pages: <b>{{ links|length }}</b></p>
             <p>Number of visited pages: <b>{{ collected_no }}</b></p>
+            <p>Number of scanned pages: <b>{{ collected_no }}</b></p>
             <div class="ml-2 mt-5" style="overflow:scroll; height:400px;">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50">
-                    <tr>
+                    <tr class="border border-sky-500 bg-blue-300">
                         <th>No.</th>
                         <th>URL</th>
                         <th>Depth Level</th>
@@ -92,7 +94,7 @@
                     </thead>
                     <tbody>
                     {% for link in links %}
-                    <tr class="bg-white border-b hover:bg-gray-50">
+                    <tr class="border border-sky-500 bg-white hover:bg-blue-300">
                         <td class="px-6 py-4 text-center">{{ forloop.counter0 }}</td>
                         <td class="px-6 py-4"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
                                                  href={{ link.url }}>{{ link.url }}</a></td>
@@ -114,14 +116,14 @@
                 <br>
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50">
-                    <tr>
+                    <tr class="border border-sky-500 bg-blue-300">
                         <th>No.</th>
                         <th>Location</th>
                     </tr>
                     </thead>
                     <tbody>
                     {% for loc in search_results.locations %}
-                    <tr class="bg-white border-b hover:bg-gray-50">
+                    <tr class="border border-sky-500 bg-white hover:bg-blue-300">
                         <td class="px-6 py-4 text-center">{{ forloop.counter0 }}</td>
                         <td class="px-6 py-4"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
                                                  href={{ loc }}>{{ loc }}</a></td>
@@ -136,19 +138,19 @@
         <div class="scraped-images">
             <h2 class="text-4xl font-extrabold">Found images</h2>
             <div class="ml-2 mt-5" style="overflow:scroll; height:400px;">
-                <p><span class="font-extrabold">Number of images:</span></p>
+                <p><span class="font-extrabold">Number of images:</span> {{ images|length }}</p>
                 <br>
                 <br>
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50">
-                    <tr>
+                    <tr class="border border-sky-500 bg-blue-300">
                         <th>No.</th>
                         <th>Location</th>
                     </tr>
                     </thead>
                     <tbody>
                     {% for loc in images %}
-                    <tr class="bg-white border-b hover:bg-gray-50">
+                    <tr class="border border-sky-500 bg-white hover:bg-blue-300">
                         <td class="px-6 py-4 text-center">{{ forloop.counter0 }}</td>
                         <td class="px-6 py-4"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
                                                  href={{ loc }}>{{ loc }}</a></td>
@@ -163,19 +165,19 @@
         <div class="scraped-docs">
             <h2 class="text-4xl font-extrabold">Found documents</h2>
             <div class="ml-2 mt-5" style="overflow:scroll; height:400px;">
-                <p><span class="font-extrabold">Number of docs:</span></p>
+                <p><span class="font-extrabold">Number of docs:</span> {{ docs|length }}</p>
                 <br>
                 <br>
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50">
-                    <tr>
+                    <tr class="border border-sky-500 bg-blue-300">
                         <th>No.</th>
                         <th>Location</th>
                     </tr>
                     </thead>
                     <tbody>
                     {% for loc in docs %}
-                    <tr class="bg-white border-b hover:bg-gray-50">
+                    <tr class="border border-sky-500 bg-white hover:bg-blue-300">
                         <td class="px-6 py-4 text-center">{{ forloop.counter0 }}</td>
                         <td class="px-6 py-4"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
                                                  href={{ loc }}>{{ loc }}</a></td>
