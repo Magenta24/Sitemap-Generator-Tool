@@ -1,15 +1,13 @@
 from django.shortcuts import render
-from django.http import HttpResponse, FileResponse, Http404
-from django.template import loader
+from django.http import HttpResponse, Http404, HttpResponseRedirect
+from django.urls import reverse
 from .forms import SitemapForm
 from django.conf import settings as django_settings
 import os
 import time
-import asyncio
 
 from .SiteScraper import SiteScraper
 import datetime
-import json
 
 
 # Create your views here.
@@ -19,12 +17,16 @@ def main(request):
         initial={'sitemap_type': 'None', 'xml_format': 'structured', 'scraper_algo': 'bfs'})
 
     if request.method == 'GET':
-        return render(request, "index.html", {'form': sitemap_settings_form})
-
-    # return HttpResponse('xdd')
+        return render(request,
+                      "index.html",
+                      {'form': sitemap_settings_form, 'msg': ''})
 
 
 def scrap(request):
+
+    if request.method == 'GET':
+        return HttpResponseRedirect(reverse("main"))
+
     if request.method == 'POST':
 
         form = SitemapForm(request.POST)
@@ -33,15 +35,34 @@ def scrap(request):
         if form.is_valid():
             root_url = form.cleaned_data['url']
             max_pages = form.cleaned_data['max_pages']
-            sitemap_mode = form.cleaned_data['sitemap_type']
+            max_depth = form.cleaned_data['max_depth']
             sitemap_type = form.cleaned_data['xml_format']
             include_visual_sitemap = form.cleaned_data['include_visual_sitemap']
             scraper_algo = form.cleaned_data['scraper_algo']
             thing_to_search = form.cleaned_data['thing_to_search']
 
-            # creating instance of sitescraper
-            ss1 = SiteScraper(url=root_url, max_nodes=max_pages, mode='None', sitemap_type=sitemap_type, parser='html',
-                              to_search=thing_to_search, crawl_delay=False)
+            if int(max_depth) == 0:
+                max_depth = None
+
+            if int(max_pages) == 0:
+                max_pages = None
+
+            # creating instance of sitescraper (redirection to main view if cannot make request)
+            try:
+                ss1 = SiteScraper(url=root_url,
+                                  max_nodes=max_pages,
+                                  max_depth=max_depth,
+                                  sitemap_type=sitemap_type,
+                                  parser='html',
+                                  to_search=thing_to_search,
+                                  crawl_delay=False)
+            except ValueError as ve:
+                print(ve)
+                # return HttpResponseRedirect(reverse("main"))
+                sitemap_settings_form = SitemapForm(initial={'sitemap_type': 'None', 'xml_format': 'structured', 'scraper_algo': 'bfs'})
+                return render(request,
+                              "index.html",
+                              {'form': sitemap_settings_form, 'msg': 'Could not connect to provided URL. Check for mistakes or type another one!'})
 
             st = time.time()
 
@@ -60,8 +81,10 @@ def scrap(request):
             print(len(links))
 
             # reading file with URL tree structure
-            url_tree_path = os.path.join(django_settings.STATIC_ROOT, 'tree_structure',
-                                         (ss1.base_filepath + '-url_tree.txt')).replace("\\", "/")
+            url_tree_path = os.path.join(django_settings.STATIC_ROOT,
+                                         'tree_structure',
+                                         (ss1.base_filepath + '-url_tree.txt')
+                                         ).replace("\\", "/")
             f = open(url_tree_path, 'r', encoding='utf-8')
             file_content = f.read()
             f.close()
@@ -78,7 +101,11 @@ def scrap(request):
                            'images': ss1.images,
                            'docs': ss1.docs}
                           )
-
+        sitemap_settings_form = SitemapForm(initial={'sitemap_type': 'None', 'xml_format': 'structured', 'scraper_algo': 'bfs'})
+        return render(request,
+                      "index.html",
+                      {'form': sitemap_settings_form,
+                       'msg': 'Could not connect to provided URL. Check for mistakes or type another one!'})
 
 def download_xml_sitemap(request):
     base_path = request.GET.get('base_filepath')
