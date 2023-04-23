@@ -86,7 +86,7 @@ class URLTree(Tree):
                 lastmod = ET.SubElement(url, 'lastmod')
 
                 depth = ET.SubElement(url, 'depth')
-                depth.text = link.data['level']
+                depth.text = str(link.data['level'])
 
         elif sitemap_type == 'structured':
             root_node = self.all_nodes()[0]
@@ -95,10 +95,10 @@ class URLTree(Tree):
         tree = ET.ElementTree(xml_root)
 
         try:
-            xml_str = minidom.parseString(ET.tostring(xml_root)).toprettyxml(indent="   ")
+            xml_str = minidom.parseString(ET.tostring(xml_root)).toprettyxml(indent="   ", encoding="utf-8")
             path = os.path.join(django_settings.XML_SITEMAP_ROOT, (filepath_base + '-sitemap.xml'))
 
-            with open(path, "w", encoding="utf-8") as fp:
+            with open(path, "wb") as fp:
                 fp.write(xml_str)
         except Exception as e:
             print('XML SITEMAP SAVING ERROR!')
