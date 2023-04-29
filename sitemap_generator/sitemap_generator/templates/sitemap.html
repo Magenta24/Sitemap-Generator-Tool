@@ -27,19 +27,24 @@
     </div>
     <h1 class="text-4xl font-extrabold m-20">Sitemap generator tool</h1>
     <div class="content bg-neutral-300">
+        <div class="p-10 bg-zinc-700 border-white border-b-4 border-dashed">
+            <h2 class="text-4xl font-extrabold text-white">Sitemap for: <a class="link" href={{ ss1.base_url }}>{{ ss1.base_url }}</a></h2>
+        </div>
         <!-- MENU -->
         <div class="text-center h-45 grid grid-cols-3 gap-2 content-around bg-zinc-700">
             <h2 class="text-4xl font-extrabold text-white">Menu</h2>
             {% if to_include_sitemap_img == True %}
             <div class="p-2 hover:bg-neutral-300">
-                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#zoomable-img">Zoomable image</a>
+                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#zoomable-img">Zoomable
+                    image</a>
             </div>
             <div class="p-2 hover:bg-neutral-300">
                 <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#diagram">URL diagram</a>
             </div>
             {% endif %}
             <div class="p-2 hover:bg-neutral-300">
-                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#tree-structure">URL tree structure</a></div>
+                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#tree-structure">URL tree
+                    structure</a></div>
             <div class="p-2 hover:bg-neutral-300">
                 <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#downloads">Downloads</a>
             </div>
@@ -47,29 +52,41 @@
                 <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#url-list">URL list</a>
             </div>
             <div class="p-2 hover:bg-neutral-300">
-                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#search-engine">Search engine results</a>
+                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#search-engine">Search
+                    engine results</a>
             </div>
             <div class="p-2 hover:bg-neutral-300">
-                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#collected-img">Collected images</a>
+                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#collected-img">Collected
+                    images</a>
             </div>
             <div class="p-2 hover:bg-neutral-300">
-                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#collected-docs">Collected documents</a>
+                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="#collected-docs">Collected
+                    documents</a>
             </div>
+        </div>
+
+        <!-- STATISTICS -->
+        <div class="box">
+            <h2 id="statistics" class="text-4xl font-extrabold">Statistics</h2>
+            <p>Execution time: <b>{{ execution_time }}</b> seconds</p>
+            <p>Number of collected pages: <b>{{ links|length }}</b></p>
+            <p>Number of excluded pages (robots.txt): <b>{{ excluded_no }}</b></p>
+            <p>Number of scanned pages: <b>{{ ss1.no_pages_scanned }}</b></p>
         </div>
 
         {% if to_include_sitemap_img == True %}
         <!-- ZOOMABLE DIAGRAM -->
-        <h2 id="zoomable-img" class="text-4xl font-extrabold">Zoomable URL diagram</h2>
-        <div id="myViewer" style="width: 100%; height: 600px;"></div>
+        <h2 id="zoomable-img" class="box text-4xl font-extrabold">Zoomable URL diagram</h2>
+        <div id="myViewer" style="width: 100%; height: 300px;"></div>
 
         <!-- SVG DIAGRAM -->
         <div id="diagram" class="box">
             <h2 class="text-4xl font-extrabold">URL diagram</h2>
-<!--            <div style="overflow:scroll; height:400px;">-->
+            <div style="overflow:scroll; height:400px;">
             <span style="white-space: pre-wrap;">
-                <embed src="{% static 'images/' %}{{base_filepath}}{{'-diagram.svg' }}" width="100%">
+                <embed src="{% static 'images/' %}{{base_filepath}}{{'-diagram.svg' }}" width="5000">
             </span>
-<!--            </div>-->
+            </div>
         </div>
         {% endif %}
 
@@ -98,10 +115,6 @@
         <!-- LIST OF VISITED URLS -->
         <div id="url-list" class="list box">
             <h2 class="text-4xl font-extrabold">URLs collected</h2>
-            <p>Execution time: <b>{{ execution_time }}</b></p>
-            <p>Number of collected pages: <b>{{ links|length }}</b></p>
-            <p>Number of visited pages: <b>{{ collected_no }}</b></p>
-            <p>Number of scanned pages: <b>{{ collected_no }}</b></p>
             <div class="ml-2 mt-5" style="overflow:scroll; height:400px;">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50">
@@ -210,7 +223,7 @@
 </div>
 <script headers="Cache-Control: no-cache">
 var svgUrl = "{% static 'images/' %}" + "{{ base_filepath }}" + "-diagram.svg";
-svgUrl += "?cachebuster='+Math.floor(Math.random()*100 +1)";
+//svgUrl += "?cachebuster='+Math.floor(Math.random()*100 +1)";
 var dzcOutputUrl = "{% static 'images/' %}";
 var dzcOutputFilename = 'diagram_dzi.dzi';
 
@@ -245,54 +258,7 @@ var dzcOutputFilename = 'diagram_dzi.dzi';
         viewer.addHandler("pan", function() {
             console.log("Center coordinates: " + viewer.viewport.getCenter(true));
         });
-
-
-        viewer.addHandler('open', function() {
-
-            // Get the SVG element
-            var svg = viewer.world.getItemAt(0).content.firstChild;
-
-            // Get the bounding box of the image and set the viewBox attribute
-            var bbox = svg.getBBox();
-            svg.setAttribute('viewBox', bbox.x + ' ' + bbox.y + ' ' + bbox.width + ' ' + bbox.height);
-
-            OpenSeadragon.Utils.getDZI({
-                tileSource: viewer.world.getTileSource(),
-                callback: function(dzi) {
-                    dzi.dziUri({
-                        callback: function(dziUri) {
-                            var dzcJson = {
-                                Image: {
-                                    xmlns: 'http://schemas.microsoft.com/deepzoom/2008',
-                                    Url: dziUri.replace('.dzi', '_files'),
-                                    Format: 'png',
-                                    Overlap: '0',
-                                    TileSize: '128',
-                                    Size: {
-                                        Width: dzi.width,
-                                        Height: dzi.height
-                                    }
-                                }
-                            };
-                            var dzcOutput = OpenSeadragonDzc.createDzc(dzcJson);
-                            OpenSeadragonDzc.saveDzc(dzcOutput, dzcOutputUrl, dzcOutputFilename);
-                        }
-                    });
-                }
-            });
-        });
     };
-
-
-
-</script>
-<script>
-function changeFrame(url) {
-  document.getElementById("my-iframe").src = url;
-}
-
-
-
 </script>
 </body>
 </html>

@@ -14,7 +14,7 @@ import datetime
 def main(request):
     # specifying for to render and initial value for radio button
     sitemap_settings_form = SitemapForm(
-        initial={'sitemap_type': 'None', 'xml_format': 'structured', 'scraper_algo': 'bfs'})
+        initial={'sitemap_type': 'None', 'xml_format': 'flat', 'scraper_algo': 'bfs', 'include_visual_sitemap': 'True'})
 
     if request.method == 'GET':
         return render(request,
@@ -92,14 +92,16 @@ def scrap(request):
             return render(request,
                           'sitemap.html',
                           {'links': links,
+                           'base_url': ss1.base_url,
                            'url_tree_structure': file_content,
                            'to_include_sitemap_img': include_visual_sitemap,
-                           'collected_no': ss1.pages_collected_no,
+                           'excluded_no': ss1.no_pages_excluded,
                            'search_results': search_results,
                            'execution_time': execution_time,
                            'base_filepath': ss1.base_filepath,
-                           'images': ss1.images,
-                           'docs': ss1.docs}
+                           'images': ss1.collected_images,
+                           'docs': ss1.collected_docs,
+                           'ss1': ss1}
                           )
         sitemap_settings_form = SitemapForm(initial={'sitemap_type': 'None', 'xml_format': 'structured', 'scraper_algo': 'bfs'})
         return render(request,

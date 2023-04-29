@@ -137,26 +137,17 @@ class URLSanitizer:
         allowed_schemes = ['http', 'https', '']
         allowed_netloc = [base_url_parsed['netloc'], '']
 
-        # check the scheme if there is one, or it is http or https
+        # check the scheme
         if url_parsed['scheme'] not in allowed_schemes:
-            # print("Scheme not allowed")
             return None
 
         # check if the url is internal or external URL
         if url_parsed['netloc'] not in allowed_netloc:
-            # print("Netloc different from the base one")
             return None
 
         # check for emails
         if URLSanitizer.is_email(url):
-            # print("It is email.")
             return None
-
-        # checking for consecutive backslashes
-
-        # CANONICALIZATION
-        # all URLs starts with HTTPS
-        url_parsed['scheme'] = 'https'
 
         # removing the trailing backslash if present
         if (len(url_parsed['path']) > 1) and (url_parsed['path'][-1] == '/'):
@@ -165,6 +156,8 @@ class URLSanitizer:
         # remove parts that come after '#'
         url_parsed['fragment'] = ''
 
-        sanitized_url = urljoin(base_url, urlunsplit(url_parsed.values()))
+        if url == '/':
+            return base_url
 
+        sanitized_url = urljoin(base_url, urlunsplit(url_parsed.values()))
         return sanitized_url

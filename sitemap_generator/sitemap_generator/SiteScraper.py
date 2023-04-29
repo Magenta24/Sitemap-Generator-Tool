@@ -35,23 +35,20 @@ class SiteScraper:
         self._max_nodes_visited = max_nodes
         self._max_depth = max_depth
         self._sitemap_type = sitemap_type
-        self.pages_visited_no = 0
-        self.pages_queued_no = 0
-        self.pages_collected_no = 0
+        self._pages_scanned_no = 0
+        self._no_pages_excluded = 0
         self._to_search = to_search
         self._craw_delay = crawl_delay
-        self.search_results = {'locations': [], 'occurrences': 0, 'to_search': to_search}
+        self._search_results = {'locations': [], 'occurrences': 0, 'to_search': to_search}
         self._collected = []  # all collected URLs
-        self.images = []  # all collected images
-        self.docs = []  # all collected documents
+        self._images = []  # all collected images
+        self._docs = []  # all collected documents
         self._visited = set()  # all visited URLs
-        self._queue = []  # queue list
         self._url_tree = None  # tree to keep the structure of the website
-        self._search_results = []  # stores the locations of the provided word/phrase
 
         # creating base filepath, unique for every crawling
-        self.base_filepath = self._base_url_parsed['netloc'].split(".")[0] + datetime.now().strftime("%d%m%Y%H%M%S")
-        self._logs = Logging(self.base_filepath)
+        self._base_filepath = self._base_url_parsed['netloc'].split(".")[0] + datetime.now().strftime("%d%m%Y%H%M%S")
+        self._logs = Logging(self._base_filepath)
 
         # creating new session
         self._crawling_session = requests.Session()
@@ -138,6 +135,7 @@ class SiteScraper:
             # crawling through the website till queue is not empty
             while len(queue) >= 0:
 
+                # register iteration time
                 iteration_st = time.time()
 
                 # marking crawled URL as VISITED
@@ -148,53 +146,25 @@ class SiteScraper:
                 if len(self._collected) == self._max_nodes_visited:
                     break
 
-                # setting random value of the crawl delay if set craw_delay set to True
-                if self._craw_delay:
-                    seconds = randint(1, 3)
-                    print('SECONDS: ', seconds)
-                    time.sleep(seconds)
-
-                # make request
-                req_stime = time.time()
-                try:
-                    website_req_result = self._crawling_session.get(current_node['url'],
-                                                                    allow_redirects=True,
-                                                                    timeout=5)
-
-                except requests.exceptions.Timeout:
-                    self._logs.log_exception(("TIMEOUT: " + current_node['url']))
+                # making request
+                website_source, website_headers = self.make_request(current_node['url'])
+                if website_source is None:
                     current_node = queue.pop(0)
                     continue
 
-                except requests.exceptions.TooManyRedirects:
-                    self._logs.log_exception(("TOO MANY REDIRECTS: " + current_node['url']))
-                    current_node = queue.pop(0)
-                    continue
-
-                req_etime = time.time()
-
-                # log request time
-                print('REQUEST TIME: ', str(round((req_etime - req_stime), 2)))
-                self._logs.log_info(('REQUEST TIME: ' + str(round((req_etime - req_stime), 2))))
-
-                website_source = website_req_result.text  # web source code
-                website_headers = website_req_result.headers  # headers to check for images or docs
-
-                # check if URL is image or document
+                # check if URL is image
                 if URLSanitizer.is_image_by_header(website_headers) or \
                         URLSanitizer.is_image_by_extension(current_node['url']):
-                    print('IMAGE')
-                    self.images.append(current_node['url'])
+                    self._images.append(current_node['url'])
                     current_node = queue.pop(0)
                     continue
 
+                # check if URL is document
                 elif URLSanitizer.is_doc_by_header(website_headers) or \
                         URLSanitizer.is_doc_by_extension(current_node['url']):
-                    print('DOCS')
-                    self.docs.append(current_node['url'])
+                    self._docs.append(current_node['url'])
                     current_node = queue.pop(0)
                     continue
-
                 else:
                     # adding the URL to collected
                     self._collected.append(current_node)
@@ -203,31 +173,44 @@ class SiteScraper:
                 soup = BeautifulSoup(website_source, self.parser)
 
                 # searching for the word/phrase specified by user
-                if self._to_search is not None:
-                    search_results = soup.body.find_all(string=re.compile('.*{0}.*'.format(self._to_search)),
-                                                        recursive=True)
-                    if len(search_results) > 0:
-                        self.search_results['locations'].append(current_node['url'])
-                        self.search_results['occurrences'] += len(search_results)
+                self.mini_search_engine(soup, current_node)
 
-                if current_node['level'] == self._max_depth:  # if the depth level of current is node is max depth
-                    self._logs.log_info(('MAX LEVEL: ' + str(self._max_depth) + ' REACHED.'))
-                    current_node = queue.pop(0)  # getting next to be crawled
-                    continue
+                # if the depth level of current is node is max depth
+                if self._max_depth is not None:
+                    if current_node['level'] == self._max_depth:
+                        self._logs.log_info(('MAX LEVEL: ' + str(self._max_depth) + ' REACHED.'))
+                        current_node = queue.pop(0)  # getting next to be crawled
+                        continue
+
+                # stop discovering new links if visited+queue is already equal to specified max_nodes
+                elif self._max_nodes_visited is not None:
+                    if (len(self._visited) + len(queue)) >= self._max_nodes_visited * 1.1:
+                        current_node = queue.pop(0)  # getting next to be crawled
+                        continue
 
                 # extracting all links within <a> tags
                 links = soup.find_all('a')
-                if len(links) == 0:  # in case link is not an HTML page
+
+                # if no links extracted
+                if len(links) == 0:
                     print("No new links extracted")
                     current_node = queue.pop(0)  # getting next to be crawled
                     continue
 
                 for link in links:
+                    # stop discovering new links if max depth is reached
+                    if self._max_depth is not None:
+                        if current_node['level'] == self._max_depth:
+                            self._logs.log_info(('MAX LEVEL: ' + str(self._max_depth) + ' REACHED.'))
+                            break
 
                     # stop discovering new links if visited+queue is already equal to specified max_nodes
                     if self._max_nodes_visited is not None:
-                        if (len(self._visited) + len(queue)) >= self._max_nodes_visited:
+                        if (len(self._visited) + len(queue)) >= self._max_nodes_visited * 1.1:
+                            self._logs.log_info(('MAX NUMBER OF NODES: ' + str(self._max_depth) + ' REACHED.'))
                             break
+
+                    self._pages_scanned_no += 1
 
                     if link.get('href') is None:
                         continue
@@ -235,12 +218,11 @@ class SiteScraper:
                     # extracting URL and sanitizing it
                     url_prepared = URLSanitizer.sanitize_url(link.get('href'), self._base_url)
 
-                    if url_prepared is not None:  # register all subpages of the website (omitting externals (ex. twitter, instagram etc.))
-                        if url_prepared not in self._visited.union(
-                                queue_set):  # check if the URL is already in the visited or queue set
-                            if self._robotstxt_parser.can_fetch("*",
-                                                                url_prepared):  # check if the page is allowed to be crawled
-                                print("added to queue: ", url_prepared)
+                    # checking the URLs for already being visited and robots.txt
+                    if url_prepared is not None:    # if sanitized correctly
+                        if url_prepared not in self._visited.union(queue_set):  # duplicates
+                            if self._robotstxt_parser.can_fetch("*", url_prepared):     # robots.txt
+
                                 # adding child URL to the queue, queue set and tree
                                 child_node = {'url': url_prepared, 'level': (current_node['level'] + 1)}
                                 queue.append(child_node)
@@ -249,18 +231,18 @@ class SiteScraper:
                                                            url_prepared,
                                                            parent=current_node['url'],
                                                            data=child_node)
-                                print(len(queue_set), ' ', url_prepared)
+                                print("ADDED LINK: ", len(queue_set), ' ', url_prepared)
+                                self._logs.log_info(("URL NO." + str(len(queue_set)) + "ADDED: " + url_prepared))
                             else:
-                                excluded_no += 1
-                                print("ROBOT EXCLUDED: ", url_prepared)
+                                self._no_pages_excluded += 1
+                                self._logs.log_info(("ROBOT EXCLUDED: " + url_prepared))
+                                #print("ROBOT EXCLUDED: ", url_prepared)
 
-                # getting next to be crawled
+                # getting next URL from the queue
                 current_node = queue.pop(0)
 
                 iteration_et = time.time()
                 self._logs.log_info(('SINGLE ITERATION TIME: ' + str(round((iteration_et - iteration_st), 2))))
-
-
 
         # handling errors
         except urllib.error.HTTPError as e:
@@ -275,20 +257,15 @@ class SiteScraper:
             print(e)
             self._logs.log_exception(e)
         finally:
-            self.pages_visited_no = len(self._visited)
-            self.pages_collected_no = len(self._collected)
-            self.pages_queued_no = len(queue_set)
-
             self._logs.log_info(("VISITED LINKS: " + str(len(self._visited))))
             self._logs.log_info(("COLLECTED LINKS: " + str(len(self._collected))))
             self._logs.log_info(("QUEUED LINKS: " + str(len(queue_set))))
 
             self._create_report()
-            self._url_tree.tree_structure_to_file(self.base_filepath)
-            self._url_tree.tree_to_graphviz(self.base_filepath)
-            self._url_tree.save_xml_sitemap(self.base_filepath, self._sitemap_type)
-            self._url_tree.tree_to_svg(self.base_filepath)
-            # self._url_tree.show()
+            self._url_tree.tree_structure_to_file(self._base_filepath)
+            self._url_tree.tree_to_graphviz(self._base_filepath)
+            self._url_tree.save_xml_sitemap(self._base_filepath, self._sitemap_type)
+            self._url_tree.tree_to_svg(self._base_filepath)
             self._logs.log_info(("ROBOT.TXT EXLUDED LINKS NO: " + str(excluded_no)))
 
             return self._collected
@@ -301,8 +278,6 @@ class SiteScraper:
         """
         stack = []  # URLs to be crawled
         stack_set = set()  # URLs to be crawled
-        visited = set()  # URLs visited
-        collected = []  # URLs to be returned to the user
         self._url_tree = URLTree()  # tree storing all the URLs and related metadata
         counter_queue = 0
         current_depth = 0
@@ -311,7 +286,7 @@ class SiteScraper:
         root_node = {'url': self._base_url, 'level': 0}
         # add root to the tree
         self._url_tree.create_node(root_node['url'], root_node['url'], data=root_node)
-        visited.add(root_node['url'])
+        self._visited.add(root_node['url'])
         print("START NODE: ", root_node)
 
         def perform_dfs(node, depth, parent=None):
@@ -319,22 +294,21 @@ class SiteScraper:
             nonlocal current_depth
 
             # stop crawling if maximum depth is reached
-            if current_depth > 5:
+            if current_depth > self._max_depth:
                 return
 
             # terminating crawling if max_nodes value is reached
-            if len(visited) == self._max_nodes_visited:
+            if len(self._visited) == self._max_nodes_visited:
                 return
 
             current_node = {'url': node['url'], 'level': current_depth}
 
             # marking crawled URL as VISITED
-            print("NODE VISITED: ", len(visited), ' ', node['url'])
-            visited.add(node['url'])
-            collected.append(node)
+            print("NODE VISITED: ", len(self._visited), ' ', node['url'])
+            self._visited.add(node['url'])
+            self._collected.append(node)
 
             if parent is not None:
-                print("NODE ", len(visited), ": ", node['url'], ", PARENT: ", parent['url'])
                 self._url_tree.create_node(node['url'], node['url'], data=node, parent=parent['url'])
 
             try:
@@ -343,10 +317,27 @@ class SiteScraper:
                 website_source = website_req_result.text
                 website_headers = website_req_result.headers
 
-                # checking for image and pdf
-                if not (URLSanitizer.is_image(website_headers) and URLSanitizer.is_pdf(website_headers)):
+                # check if URL is image or document
+                if URLSanitizer.is_image_by_header(website_headers) or \
+                        URLSanitizer.is_image_by_extension(current_node['url']):
+                    self._images.append(current_node['url'])
+                    return
+
+                elif URLSanitizer.is_doc_by_header(website_headers) or \
+                        URLSanitizer.is_doc_by_extension(current_node['url']):
+                    self._docs.append(current_node['url'])
+                    return
+
+                else:
+                    # adding the URL to collected
+                    print("CURRENT NODE:", current_node['url'])
+                    self._collected.append(current_node)
+
                     # soup of the website
-                    soup = BeautifulSoup(website_source, self.parser)  # faster than html.parser
+                    soup = BeautifulSoup(website_source, self.parser)
+
+                    # search for a specified word/phrase
+                    self.mini_search_engine(soup, current_node)
 
                     # extracting all links <a> tags
                     links = soup.find_all('a')
@@ -355,29 +346,31 @@ class SiteScraper:
                     print('current depth: ', current_depth)
                     for link in links:
 
+                        self._pages_scanned_no += 1
+
                         url = link.get('href')
-                        url_prepared = URLSanitizer.sanitize_url(url)
-
-                        # register all subpages of the website (omitting externals like twitter)
-                        if url_prepared is not None:
-                            # check if the URL is already in the visited or queue set
-                            if url_prepared not in visited.union(stack_set):
-                                child_node = {'url': url_prepared, 'level': (current_node['level'] + 1)}
-                                stack.append(child_node)
-                                print(len(stack), "NODE ADDED: ", child_node)
-                                stack_set.add(url_prepared)
-
-                                print(counter_queue, ' ', url_prepared)
-                                counter_queue += 1
-                                # recursively crawl the link
-                                perform_dfs(child_node, current_depth, node)
-                            else:
-                                continue
+                        if url is not None:
+                            url_prepared = URLSanitizer.sanitize_url(url, self._base_url)
                         else:
                             continue
 
-                else:
-                    return
+                        # checking the URLs for already being visited and robots.txt
+                        if url_prepared is not None:    # if sanitized correctly
+                            if url_prepared not in self._visited:   # if already visited
+                                if self._robotstxt_parser.can_fetch("*", url_prepared):     # robots.txt
+                                    child_node = {'url': url_prepared, 'level': (current_node['level'] + 1)}
+
+                                    try:
+                                        perform_dfs(child_node, current_depth, node)
+                                    except Exception as e:
+                                        continue
+                                else:
+                                    self._no_pages_excluded += 1
+                                    self._logs.log_info(("ROBOT EXCLUDED: " + url_prepared))
+                            else:   # URL already visited
+                                continue
+                        else:   # URL could not be sanitized
+                            continue
 
                 current_depth -= 1
 
@@ -402,17 +395,101 @@ class SiteScraper:
             print(e)
             return e
         finally:
-            print("Final Visited counter: ", len(visited))
-            print("Final collected counter: ", len(collected))
+            self._logs.log_info(("VISITED LINKS: " + str(len(self._visited))))
+            self._logs.log_info(("COLLECTED LINKS: " + str(len(self._collected))))
+            # self._logs.log_info(("QUEUED LINKS: " + str(len(queue_set))))
 
-            self._collected = collected
-            self._url_tree.tree_structure_to_file()
-            self._url_tree.tree_to_graphviz()
-            self._url_tree.save_xml_sitemap(self._sitemap_type)
-            self._url_tree.tree_to_svg()
-            self._url_tree.show()
+            self._create_report()
+            self._url_tree.tree_structure_to_file(self._base_filepath)
+            self._url_tree.tree_to_graphviz(self._base_filepath)
+            self._url_tree.save_xml_sitemap(self._base_filepath, self._sitemap_type)
+            self._url_tree.tree_to_svg(self._base_filepath)
+            # self._logs.log_info(("ROBOT.TXT EXLUDED LINKS NO: " + str(excluded_no)))
 
             return self._collected
+
+    @property
+    def base_url(self):
+        return self._base_url
+
+    @property
+    def collected_images(self):
+        return self._images
+
+    @property
+    def base_filepath(self):
+        return self._base_filepath
+
+    @property
+    def collected_docs(self):
+        return self._docs
+
+    @property
+    def search_results(self):
+        return self._search_results
+
+    @property
+    def no_pages_excluded(self):
+        return self._no_pages_excluded
+
+    @property
+    def no_pages_scanned(self):
+        return self._pages_scanned_no
+
+    def make_request(self, url):
+
+        # setting random value of the crawl delay if set craw_delay set to True
+        if self._craw_delay:
+            seconds = randint(1, 3)
+            time.sleep(seconds)
+
+        # make request
+        req_stime = time.time()  # register time of the request
+        try:
+            website_req_result = self._crawling_session.get(url,
+                                                            allow_redirects=True,
+                                                            timeout=5)
+            # check returned status code
+            try:
+                if (int(website_req_result.status_code) >= 200) and (int(website_req_result.status_code) < 400):
+                    return website_req_result.text, website_req_result.headers
+                else:
+                    return None, None
+            except Exception as e:
+                self._logs.log_exception(e)
+                print(e)
+                return None, None
+
+        except requests.exceptions.Timeout:
+            self._logs.log_exception(("TIMEOUT: " + url))
+            return None, None
+        except requests.exceptions.TooManyRedirects:
+            self._logs.log_exception(("TOO MANY REDIRECTS: " + url))
+            return None, None
+        except Exception as e:
+            self._logs.log_exception(e)
+            return None, None
+
+        req_etime = time.time()  # register time of the request
+
+        # log request time
+        self._logs.log_info(('REQUEST TIME: ' + str(round((req_etime - req_stime), 2))))
+
+    def mini_search_engine(self, soup, node):
+        """
+
+        :param soup:
+        :param node:
+        :return:
+        """
+        # searching for the word/phrase specified by user
+        if self._to_search is not None:
+            search_results = soup.body.find_all(string=re.compile('.*{0}.*'.format(self._to_search)),
+                                                recursive=True)
+            if len(search_results) > 0:
+                self.search_results['locations'].append(node['url'])
+                self.search_results['occurrences'] += len(search_results)
+
 
     def _create_report(self):
         """
@@ -421,11 +498,11 @@ class SiteScraper:
 
         :return:
         """
-        filepath = os.path.join(django_settings.REPORTS_ROOT, (self.base_filepath + '-report.txt'))
+        filepath = os.path.join(django_settings.REPORTS_ROOT, (self._base_filepath + '-report.txt'))
         try:
             with open(filepath, "w", encoding="utf-8") as fp:
                 for link in self._collected:
-                    fp.write(str(link) + '\n')
+                    fp.write(str(link['url']) + ',' + str(link['level']) + '\n')
         except Exception as e:
             print('CREATE REPORT ERROR!')
             print(e)

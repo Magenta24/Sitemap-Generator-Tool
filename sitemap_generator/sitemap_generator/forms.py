@@ -5,7 +5,7 @@ class SitemapForm(forms.Form):
     url = forms.CharField(label='Provide URL', required=True, widget=forms.TextInput
     (attrs={
         'class': 'bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5'}))
-    thing_to_search = forms.CharField(label='Provide what you would like to search for', required=False,
+    thing_to_search = forms.CharField(label='Provide a word/phrase you would like to search for', required=False,
                                       widget=forms.TextInput
                                       (attrs={
                                           'class': 'bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5'}))
@@ -22,6 +22,7 @@ class SitemapForm(forms.Form):
                                    required=True)
 
     include_visual_sitemap = forms.BooleanField(label='Include visual sitemap?', required=False)
+    apply_crawl_delay = forms.BooleanField(label='Apply crawl delay?', required=False)
 
     scraper_algo_choices = [
         ('dfs', 'DFS'),

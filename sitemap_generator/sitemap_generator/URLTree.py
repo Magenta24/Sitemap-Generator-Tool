@@ -3,7 +3,6 @@ import graphviz
 import os
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
-from urllib.parse import urlsplit
 
 from django.conf import settings as django_settings
 import sys
