@@ -20,8 +20,13 @@ git branch -M main
 git push -uf origin main
 ```
 
-## Screenshots
-lorem ipsum
+## Screenshots from the application
+
+<img src="https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/form.PNG" width="500">
+<img src="https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/initial-view-results.PNG" width="500">
+<img src="https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/statistics.PNG" width="500">
+<img src="https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/zoomable_pic.PNG" width="500">
+<img src="https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/tree-structure.PNG" width="500">
 
 ## License
 lorem ipsum
