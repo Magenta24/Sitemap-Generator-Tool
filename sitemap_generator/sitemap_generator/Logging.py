@@ -20,3 +20,9 @@ class Logging:
     def log_info(self, msg):
         self.logger.info(msg)
 
+    def log_warning(self, msg):
+        self.logger.warning(msg)
+
+    def log_error(self, msg):
+        self.logger.error(msg)
+

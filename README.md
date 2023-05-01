@@ -10,23 +10,21 @@ To run the software following need to be installed first
 
 ## Installation
 ### Creating Python environment
-#### Requirements 
-The requirements are listed in the *requirements.txt* file
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/Calanthe/final-project-site-map-generator-tool.git
-git branch -M main
-git push -uf origin main
+python -m venv /path/to/new/virtual/environment (venv is the name of the environment)
+
+./path/to/new/virtual/environment/bin/activate (activate the environment)
+
+pip install -r requirements.txt
 ```
 
 ## Screenshots from the application
-
-<img src="https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/form.PNG" width="500">
-<img src="https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/initial-view-results.PNG" width="500">
-<img src="https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/statistics.PNG" width="500">
-<img src="https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/zoomable_pic.PNG" width="500">
-<img src="https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/tree-structure.PNG" width="500">
+![The form](https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/form.PNG)
+![Results](https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/initial-view-results.PNG)
+![Statistics](https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/statistics.PNG)
+![Zoomable diagram](https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/zoomable_pic.PNG)
+![Tree structure](https://gitlab.com/Calanthe/final-project-site-map-generator-tool/blob/main/screenshots/tree-structure.PNG)
 
 ## License
 lorem ipsum

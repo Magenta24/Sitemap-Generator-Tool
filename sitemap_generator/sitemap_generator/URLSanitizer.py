@@ -1,9 +1,22 @@
 import re
-from urllib.parse import urlparse, urlunparse, urlunsplit, urlsplit, urljoin
-import urllib.error
+from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
 
 
 class URLSanitizer:
+    """
+    This class is responsible for canonicalization of URLs.
+    It implements following methods:
+        - is_doc_by_header - checking passed headers for documents
+        - is_doc_by_extension - checking extension of passed URL for documents
+        - is_image_by_header - checking passed headers for images
+        - is_image_by_extension - checking extension of passed URL for images
+        - is_email - checks if the passed link is an email
+        - is_file - checks if the passed link is a file
+        - check_url - printing and returning parsed URL
+        - sanitize_url - canonicalizating passed URL
+
+    """
+
     docs_extensions = ['.pdf', '.docx', '.doc', '.xls', '.ppt', '.txt', '.zip']
     image_extensions = ['.jpg', '.jpeg', '.gif', '.png', '.svg']
 
@@ -78,6 +91,12 @@ class URLSanitizer:
 
     @staticmethod
     def is_email(url):
+        """
+        Check whether the passed URL is an email.
+
+        :param url: URL to check
+        :return: True if email, False otherwise
+        """
         checker = re.compile("^.+[@].+[.][a-z]{2,3}$")
 
         if checker.search(url) is not None:
@@ -89,6 +108,7 @@ class URLSanitizer:
     def is_file(url):
         """
         Checking if resource pointed by URL is a file
+
         :param url: Resource location
         :return: True if resource is file, False otherwise
         """
@@ -103,8 +123,9 @@ class URLSanitizer:
     def check_url(url):
         """
         Extracting scheme, domain, path, query and anchors from the url
+
         :param url: Url to be checked
-        :return: Void
+        :return: parsed URL as dictionary
         """
         base_url_parsed = urlparse(url)
 
@@ -121,9 +142,8 @@ class URLSanitizer:
     @staticmethod
     def sanitize_url(url, base_url=None):
         """
-        Checking if net location matches the one in base url.
-        Checking scheme whether it is http or https
-        Removing parameters.
+        Canonicalization of the passed URL.
+
         :param url: url to sanitize
         :param base_url: base  of the url
         :return: Sanitized URL. If URL cannot be sanitized returns None.

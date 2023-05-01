@@ -12,8 +12,24 @@ sys.setrecursionlimit(10**6)
 
 
 class URLTree(Tree):
+    """
+    This function inherits from Tree class from treelib library.
+    Additional methods are as follows:
+        - tree_structure_to_file - saving the tree structure to a txt file
+        - tree_to_diagram - printing the tree structure to the console
+        - tree_to_json - tree structure to JSON
+        - tree_to_graphviz - saving the tree structure DOT file
+        - tree_to_svg - saving the tree structure as an SVG image
+        - save_xml_sitemap - creating a flat or hierarchical XML sitemap
+    """
 
     def tree_structure_to_file(self, filepath_base=""):
+        """
+        Saving the visual URL tree structure to a file.
+
+        :param filepath_base: contains base URL name and datetime
+        :return: None
+        """
         filename = filepath_base + '-url_tree.txt'
         filepath = os.path.join(django_settings.STATIC_ROOT, 'tree_structure', filename).replace("\\", "/")
 
@@ -24,12 +40,23 @@ class URLTree(Tree):
         self.save2file(filepath)
 
     def tree_to_diagram(self):
+        """
+        Producing the URL tree structure that can be print in the console.
+
+        :return: Visual URL tree structure.
+        """
         return self.show(stdout=False)
 
     def tree_to_json(self):
         return self.to_json()
 
     def tree_to_graphviz(self, filepath_base=""):
+        """
+        Saving the URL tree structure to the DOT file.
+
+        :param filepath_base: contains base URL name and datetime
+        :return: None
+        """
         filepath = os.path.join(django_settings.GRAPHVIZ_ROOT, (filepath_base + '-tree-graph.gv')).replace("\\", "/")
 
         # if gv file already exist - delete
@@ -40,6 +67,12 @@ class URLTree(Tree):
         self.to_graphviz(filepath, shape='egg')
 
     def tree_to_svg(self, filepath_base=""):
+        """
+        Saving the tree structure as an SVG graph-like diagram.
+
+        :param filepath_base: contains base URL name and datetime
+        :return: None
+        """
         filepath = os.path.join(django_settings.GRAPHVIZ_ROOT, (filepath_base + '-tree-graph.gv')).replace("\\", "/")
         img_path = os.path.join(django_settings.MEDIA_ROOT, (filepath_base + '-diagram')).replace("\\", "/")
 
@@ -55,6 +88,7 @@ class URLTree(Tree):
         """
         Saving collected hyperlinks to XML sitemap.
 
+        :param filepath_base: contains base URL name and datetime
         :param sitemap_type: might be 'structured' showing hierarchy or 'flat' listing hyperlinks
         :return: None
         """

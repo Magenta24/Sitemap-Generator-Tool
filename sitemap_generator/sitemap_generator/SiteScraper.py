@@ -17,6 +17,15 @@ from django.conf import settings as django_settings
 
 
 class SiteScraper:
+    """
+    This class implements the crawler for Sitemap Generator Tool.
+    It consists of following methods:
+        - bfs_scraper - implementation of BFS web traversal
+        - dfs_scraper - implementation of DFS web traversal
+        - make_request - helper function to perform requests
+        - mini_search_engine - finding the word/phrase specified by user
+        - create_report - saves all the visited links to a txt file
+    """
 
     def __init__(self, url, max_nodes=None, max_depth=None, sitemap_type='structured', parser='html', to_search=None,
                  crawl_delay=False):
@@ -173,7 +182,7 @@ class SiteScraper:
                 soup = BeautifulSoup(website_source, self.parser)
 
                 # searching for the word/phrase specified by user
-                self.mini_search_engine(soup, current_node)
+                self.mini_search_engine(soup, current_node['url'])
 
                 # if the depth level of current is node is max depth
                 if self._max_depth is not None:
@@ -273,8 +282,9 @@ class SiteScraper:
     # TODO: refactoring and checking
     def dfs_scraper(self):
         """
-        Traversing the website with DFS approach. Alternative for BFS.
-        :return:
+        Traversing the website in DFS manner. Alternative for BFS.
+
+        :return: None
         """
         stack = []  # URLs to be crawled
         stack_set = set()  # URLs to be crawled
@@ -284,12 +294,21 @@ class SiteScraper:
 
         # add root to the tree
         root_node = {'url': self._base_url, 'level': 0}
+
         # add root to the tree
         self._url_tree.create_node(root_node['url'], root_node['url'], data=root_node)
         self._visited.add(root_node['url'])
         print("START NODE: ", root_node)
 
-        def perform_dfs(node, depth, parent=None):
+        def perform_dfs(node, parent=None):
+            """
+            Helper function that invoked recursively to perform DFS web traversal.
+
+            :param node: The node to be visited
+            :param parent: Parent of the node to be visited
+            :return: None
+            """
+
             nonlocal counter_queue
             nonlocal current_depth
 
@@ -337,7 +356,7 @@ class SiteScraper:
                     soup = BeautifulSoup(website_source, self.parser)
 
                     # search for a specified word/phrase
-                    self.mini_search_engine(soup, current_node)
+                    self.mini_search_engine(soup, current_node['url'])
 
                     # extracting all links <a> tags
                     links = soup.find_all('a')
@@ -437,6 +456,14 @@ class SiteScraper:
         return self._pages_scanned_no
 
     def make_request(self, url):
+        """
+        Performing request to the specified URL.
+        It also applies crawl delay if crawl_delay is set to True.
+
+        :param url: the URL to be make request to
+        :return: If the request was successful, page source code and headers are returned.
+        Otherwise, None is returned.
+        """
 
         # setting random value of the crawl delay if set craw_delay set to True
         if self._craw_delay:
@@ -475,28 +502,32 @@ class SiteScraper:
         # log request time
         self._logs.log_info(('REQUEST TIME: ' + str(round((req_etime - req_stime), 2))))
 
-    def mini_search_engine(self, soup, node):
+    def mini_search_engine(self, soup, url):
         """
+        Looking for a word/phrase specified by user.
+        If the word/phrase is found, it is added to dictionary 'search_results'
+        that contains locations and number of occurrences.
 
-        :param soup:
-        :param node:
+        :param soup: parsed HTML file content
+        :param url: URL under which the HTML content is accessible
         :return:
         """
+
         # searching for the word/phrase specified by user
         if self._to_search is not None:
             search_results = soup.body.find_all(string=re.compile('.*{0}.*'.format(self._to_search)),
                                                 recursive=True)
             if len(search_results) > 0:
-                self.search_results['locations'].append(node['url'])
+                self.search_results['locations'].append(url)
                 self.search_results['occurrences'] += len(search_results)
 
 
     def _create_report(self):
         """
-        Create report with all collected links (backup in case bot crashing),
+        Create report with all collected links (backup in case of bot crash),
         Report is saved in plain txt file.
 
-        :return:
+        :return: None
         """
         filepath = os.path.join(django_settings.REPORTS_ROOT, (self._base_filepath + '-report.txt'))
         try:
@@ -505,4 +536,5 @@ class SiteScraper:
                     fp.write(str(link['url']) + ',' + str(link['level']) + '\n')
         except Exception as e:
             print('CREATE REPORT ERROR!')
+            self._logs.log_exception(e)
             print(e)
