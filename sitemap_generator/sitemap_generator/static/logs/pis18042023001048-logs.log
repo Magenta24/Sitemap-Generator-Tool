@@ -1,0 +1,221 @@
+2023-04-18 00:10:48,466 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:10:48,767 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:10:49,151 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:10:49,194 INFO:REQUEST TIME: 0.22
+2023-04-18 00:10:49,239 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-18 00:10:49,396 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:10:49,488 INFO:REQUEST TIME: 0.25
+2023-04-18 00:10:49,536 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-18 00:10:49,686 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:10:49,704 INFO:REQUEST TIME: 0.17
+2023-04-18 00:10:49,725 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-18 00:10:50,500 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:10:50,646 INFO:REQUEST TIME: 0.92
+2023-04-18 00:10:50,682 INFO:SINGLE ITERATION TIME: 0.96
+2023-04-18 00:10:50,788 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:10:50,913 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:10:50,926 INFO:REQUEST TIME: 0.24
+2023-04-18 00:10:50,951 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-18 00:10:51,133 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:10:51,147 INFO:REQUEST TIME: 0.2
+2023-04-18 00:10:51,177 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-18 00:10:51,309 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:10:51,319 INFO:REQUEST TIME: 0.14
+2023-04-18 00:10:51,347 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-18 00:10:51,469 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:10:51,480 INFO:REQUEST TIME: 0.13
+2023-04-18 00:10:51,504 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-18 00:10:51,681 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:10:51,700 INFO:REQUEST TIME: 0.2
+2023-04-18 00:10:51,735 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-18 00:10:51,947 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:10:51,963 INFO:REQUEST TIME: 0.23
+2023-04-18 00:10:51,997 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:10:52,028 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023001048-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:10:52,028 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023001048-tree-graph.gv')
+2023-04-18 00:10:52,029 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:10:52,029 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023001048-diagram'
+2023-04-18 00:10:52,030 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023001048-diagram']
+2023-04-18 00:10:52,101 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:11:16,119 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:11:16,391 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:11:16,777 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:11:16,820 INFO:REQUEST TIME: 0.22
+2023-04-18 00:11:16,944 INFO:SINGLE ITERATION TIME: 0.34
+2023-04-18 00:11:17,105 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:11:17,306 INFO:REQUEST TIME: 0.36
+2023-04-18 00:11:17,358 INFO:SINGLE ITERATION TIME: 0.41
+2023-04-18 00:11:17,486 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:11:17,498 INFO:REQUEST TIME: 0.14
+2023-04-18 00:11:17,518 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-18 00:11:18,334 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:11:18,516 INFO:REQUEST TIME: 1.0
+2023-04-18 00:11:18,550 INFO:SINGLE ITERATION TIME: 1.03
+2023-04-18 00:11:18,660 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:11:18,815 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:11:18,825 INFO:REQUEST TIME: 0.27
+2023-04-18 00:11:18,857 INFO:SINGLE ITERATION TIME: 0.31
+2023-04-18 00:11:19,064 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:11:19,073 INFO:REQUEST TIME: 0.22
+2023-04-18 00:11:19,104 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-18 00:11:19,242 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:11:19,253 INFO:REQUEST TIME: 0.15
+2023-04-18 00:11:19,278 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-18 00:11:19,435 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:11:19,448 INFO:REQUEST TIME: 0.17
+2023-04-18 00:11:19,469 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-18 00:11:19,658 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:11:19,673 INFO:REQUEST TIME: 0.2
+2023-04-18 00:11:19,708 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-18 00:11:19,885 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:11:19,901 INFO:REQUEST TIME: 0.19
+2023-04-18 00:11:19,941 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:11:19,953 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023001116-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:11:19,954 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023001116-tree-graph.gv')
+2023-04-18 00:11:19,954 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:11:19,954 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023001116-diagram'
+2023-04-18 00:11:19,955 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023001116-diagram']
+2023-04-18 00:11:20,020 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:12:48,574 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:12:48,886 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:12:49,271 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:12:49,315 INFO:REQUEST TIME: 0.21
+2023-04-18 00:12:49,434 INFO:SINGLE ITERATION TIME: 0.33
+2023-04-18 00:12:49,585 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:12:49,715 INFO:REQUEST TIME: 0.28
+2023-04-18 00:12:49,795 INFO:SINGLE ITERATION TIME: 0.36
+2023-04-18 00:12:49,918 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:12:49,922 INFO:REQUEST TIME: 0.13
+2023-04-18 00:12:49,943 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:12:50,749 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:12:50,909 INFO:REQUEST TIME: 0.96
+2023-04-18 00:12:50,941 INFO:SINGLE ITERATION TIME: 1.0
+2023-04-18 00:12:51,045 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:12:51,183 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:12:51,192 INFO:REQUEST TIME: 0.25
+2023-04-18 00:12:51,221 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-18 00:12:51,405 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:12:51,417 INFO:REQUEST TIME: 0.2
+2023-04-18 00:12:51,448 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-18 00:12:51,585 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:12:51,600 INFO:REQUEST TIME: 0.15
+2023-04-18 00:12:51,625 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-18 00:12:51,777 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:12:51,785 INFO:REQUEST TIME: 0.16
+2023-04-18 00:12:51,809 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-18 00:12:51,983 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:12:51,990 INFO:REQUEST TIME: 0.18
+2023-04-18 00:12:52,026 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-18 00:12:52,205 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:12:52,215 INFO:REQUEST TIME: 0.19
+2023-04-18 00:12:52,317 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:12:52,328 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023001248-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:12:52,329 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023001248-tree-graph.gv')
+2023-04-18 00:12:52,329 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:12:52,330 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023001248-diagram'
+2023-04-18 00:12:52,331 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023001248-diagram']
+2023-04-18 00:12:52,388 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:13:39,181 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:13:39,494 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:13:39,987 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:13:40,029 INFO:REQUEST TIME: 0.21
+2023-04-18 00:13:40,072 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-18 00:13:40,206 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:13:40,298 INFO:REQUEST TIME: 0.22
+2023-04-18 00:13:40,356 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-18 00:13:40,481 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:13:40,487 INFO:REQUEST TIME: 0.13
+2023-04-18 00:13:40,508 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:13:41,252 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:13:41,360 INFO:REQUEST TIME: 0.85
+2023-04-18 00:13:41,396 INFO:SINGLE ITERATION TIME: 0.89
+2023-04-18 00:13:41,512 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:13:41,643 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:13:41,646 INFO:REQUEST TIME: 0.25
+2023-04-18 00:13:41,672 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-18 00:13:41,840 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:13:41,845 INFO:REQUEST TIME: 0.17
+2023-04-18 00:13:41,884 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-18 00:13:42,013 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:13:42,020 INFO:REQUEST TIME: 0.14
+2023-04-18 00:13:42,044 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-18 00:13:42,175 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:13:42,190 INFO:REQUEST TIME: 0.15
+2023-04-18 00:13:42,212 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-18 00:13:42,379 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:13:42,390 INFO:REQUEST TIME: 0.18
+2023-04-18 00:13:42,428 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-18 00:13:42,602 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:13:42,612 INFO:REQUEST TIME: 0.18
+2023-04-18 00:13:42,652 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:13:42,662 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023001339-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:13:42,663 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023001339-tree-graph.gv')
+2023-04-18 00:13:42,663 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:13:42,663 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023001339-diagram'
+2023-04-18 00:13:42,664 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023001339-diagram']
+2023-04-18 00:13:42,735 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:14:20,374 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:14:20,724 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:14:21,087 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:14:21,129 INFO:REQUEST TIME: 0.2
+2023-04-18 00:14:21,169 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-18 00:14:21,313 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:14:21,405 INFO:REQUEST TIME: 0.24
+2023-04-18 00:14:21,451 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-18 00:14:21,578 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:14:21,584 INFO:REQUEST TIME: 0.13
+2023-04-18 00:14:21,606 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:14:22,301 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:14:22,407 INFO:REQUEST TIME: 0.8
+2023-04-18 00:14:22,441 INFO:SINGLE ITERATION TIME: 0.83
+2023-04-18 00:14:22,534 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:14:22,660 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:14:22,667 INFO:REQUEST TIME: 0.23
+2023-04-18 00:14:22,692 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-18 00:14:22,867 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:14:22,873 INFO:REQUEST TIME: 0.18
+2023-04-18 00:14:22,902 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-18 00:14:23,035 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:14:23,042 INFO:REQUEST TIME: 0.14
+2023-04-18 00:14:23,066 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-18 00:14:23,208 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:14:23,215 INFO:REQUEST TIME: 0.15
+2023-04-18 00:14:23,235 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-18 00:14:23,410 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:14:23,422 INFO:REQUEST TIME: 0.19
+2023-04-18 00:14:23,550 INFO:SINGLE ITERATION TIME: 0.31
+2023-04-18 00:14:23,714 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:14:23,721 INFO:REQUEST TIME: 0.17
+2023-04-18 00:14:23,759 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:14:23,770 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023001420-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:14:23,770 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023001420-tree-graph.gv')
+2023-04-18 00:14:23,770 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:14:23,771 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023001420-diagram'
+2023-04-18 00:14:23,772 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023001420-diagram']
+2023-04-18 00:14:23,843 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:21:40,947 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py changed, reloading.

@@ -1,0 +1,4 @@
+https://www.wp.pl/,0
+https://www.wp.pl/static.html,1
+https://www.wp.pl/?_device=mobile,2
+https://www.wp.pl/?_device=desktop,3

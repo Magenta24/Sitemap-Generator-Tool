@@ -1,0 +1,46 @@
+2023-04-12 17:27:32,014 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:27:32,165 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20270
+2023-04-12 17:27:32,402 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:27:32,517 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20270
+2023-04-12 17:27:32,541 INFO:REQUEST TIME: 0.14
+2023-04-12 17:27:32,578 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-12 17:27:32,579 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:27:32,691 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 84562
+2023-04-12 17:27:32,752 INFO:REQUEST TIME: 0.17
+2023-04-12 17:27:32,926 INFO:SINGLE ITERATION TIME: 0.35
+2023-04-12 17:27:32,928 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:27:33,043 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wolna_tre%C5%9B%C4%87 HTTP/1.1" 200 29830
+2023-04-12 17:27:33,080 INFO:REQUEST TIME: 0.15
+2023-04-12 17:27:33,134 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-12 17:27:33,135 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:27:33,277 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Encyklopedia HTTP/1.1" 200 26926
+2023-04-12 17:27:33,305 INFO:REQUEST TIME: 0.17
+2023-04-12 17:27:33,345 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-12 17:27:33,348 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:27:33,464 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Pierwsze_kroki HTTP/1.1" 200 15094
+2023-04-12 17:27:33,488 INFO:REQUEST TIME: 0.14
+2023-04-12 17:27:33,543 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-12 17:27:33,544 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:27:33,662 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii HTTP/1.1" 200 29844
+2023-04-12 17:27:33,694 INFO:REQUEST TIME: 0.15
+2023-04-12 17:27:33,786 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-12 17:27:33,788 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:27:33,901 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii HTTP/1.1" 200 13031
+2023-04-12 17:27:33,904 INFO:REQUEST TIME: 0.12
+2023-04-12 17:27:33,920 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-12 17:27:33,922 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:27:34,036 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze HTTP/1.1" 200 38642
+2023-04-12 17:27:34,070 INFO:REQUEST TIME: 0.15
+2023-04-12 17:27:34,178 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-12 17:27:34,180 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:27:34,306 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne HTTP/1.1" 200 20176
+2023-04-12 17:27:34,329 INFO:REQUEST TIME: 0.15
+2023-04-12 17:27:34,379 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-12 17:27:34,380 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:27:34,498 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Technika HTTP/1.1" 200 31576
+2023-04-12 17:27:34,530 INFO:REQUEST TIME: 0.15
+2023-04-12 17:27:34,613 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl12042023172732-tree-graph.gv' with encoding 'utf-8'
+2023-04-12 17:27:34,614 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl12042023172732-tree-graph.gv')
+2023-04-12 17:27:34,614 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-12 17:27:34,614 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl12042023172732-diagram'
+2023-04-12 17:27:34,615 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl12042023172732-diagram']

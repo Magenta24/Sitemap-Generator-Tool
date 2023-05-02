@@ -1,0 +1,3 @@
+digraph tree {
+	"https://www.thewitcher.com/gb/pl/" [label="https://www.thewitcher.com/gb/pl/", shape=egg]
+}

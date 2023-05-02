@@ -1,0 +1,38 @@
+2023-04-16 20:58:56,997 ERROR:Internal Server Error: /scrap/
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 57, in __init__
+    source = requests.get(url, allow_redirects=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'xd': No scheme supplied. Perhaps you meant https://xd?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py", line 49, in scrap
+    ss1 = SiteScraper(url=root_url,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 71, in __init__
+    raise ValueError("COULDNT PERFORM REQUEST TO URL: ", url)
+ValueError: ('COULDNT PERFORM REQUEST TO URL: ', 'xd')
+2023-04-16 20:59:45,968 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py changed, reloading.

@@ -1,0 +1,37 @@
+2023-04-17 19:33:23,598 DEBUG:Starting new HTTPS connection (1): crawler-test.com:443
+2023-04-17 19:33:24,062 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 None
+2023-04-17 19:33:24,796 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 8130
+2023-04-17 19:33:24,798 INFO:REQUEST TIME: 0.15
+2023-04-17 19:33:24,838 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-17 19:33:24,951 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop HTTP/1.1" 200 1161
+2023-04-17 19:33:24,952 INFO:REQUEST TIME: 0.11
+2023-04-17 19:33:24,954 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 19:33:25,066 DEBUG:https://crawler-test.com:443 "GET /mobile/desktop_with_AMP_as_mobile HTTP/1.1" 200 1136
+2023-04-17 19:33:25,067 INFO:REQUEST TIME: 0.11
+2023-04-17 19:33:25,069 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 19:33:25,181 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_different_h1 HTTP/1.1" 200 1135
+2023-04-17 19:33:25,182 INFO:REQUEST TIME: 0.11
+2023-04-17 19:33:25,184 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 19:33:25,296 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_different_title HTTP/1.1" 200 1129
+2023-04-17 19:33:25,297 INFO:REQUEST TIME: 0.11
+2023-04-17 19:33:25,300 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 19:33:25,413 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_different_wordcount HTTP/1.1" 200 1067
+2023-04-17 19:33:25,414 INFO:REQUEST TIME: 0.11
+2023-04-17 19:33:25,416 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 19:33:25,529 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_different_links_in HTTP/1.1" 200 1139
+2023-04-17 19:33:25,530 INFO:REQUEST TIME: 0.11
+2023-04-17 19:33:25,532 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 19:33:25,644 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_different_links_out HTTP/1.1" 200 1056
+2023-04-17 19:33:25,645 INFO:REQUEST TIME: 0.11
+2023-04-17 19:33:25,648 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 19:33:25,765 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_mobile_not_subdomain HTTP/1.1" 200 1133
+2023-04-17 19:33:25,766 INFO:REQUEST TIME: 0.12
+2023-04-17 19:33:25,768 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 19:33:25,880 DEBUG:https://crawler-test.com:443 "GET /mobile/desktop_with_self_canonical_mobile_and_amp HTTP/1.1" 200 1164
+2023-04-17 19:33:25,881 INFO:REQUEST TIME: 0.11
+2023-04-17 19:33:25,899 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023193323-tree-graph.gv' with encoding 'utf-8'
+2023-04-17 19:33:25,900 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023193323-tree-graph.gv')
+2023-04-17 19:33:25,900 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-17 19:33:25,901 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/crawler-test17042023193323-diagram'
+2023-04-17 19:33:25,902 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'crawler-test17042023193323-diagram']
+2023-04-17 19:35:13,929 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

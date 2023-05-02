@@ -1,0 +1,22 @@
+digraph tree {
+	"https://witcher.fandom.com/wiki/Witcher_Wiki" [label="https://witcher.fandom.com/wiki/Witcher_Wiki", shape=egg]
+	"https://witcher.fandom.com" [label="https://witcher.fandom.com", shape=egg]
+	"https://witcher.fandom.com/f" [label="https://witcher.fandom.com/f", shape=egg]
+	"http://witcher.fandom.com/wiki/Witcher_Wiki" [label="http://witcher.fandom.com/wiki/Witcher_Wiki", shape=egg]
+	"https://witcher.fandom.com/wiki/Special:AllMaps" [label="https://witcher.fandom.com/wiki/Special:AllMaps", shape=egg]
+	"https://witcher.fandom.com/Blog:Recent_posts" [label="https://witcher.fandom.com/Blog:Recent_posts", shape=egg]
+	"https://witcher.fandom.com/wiki/Category:Games" [label="https://witcher.fandom.com/wiki/Category:Games", shape=egg]
+	"https://witcher.fandom.com/wiki/The_Witcher_(game)" [label="https://witcher.fandom.com/wiki/The_Witcher_(game)", shape=egg]
+	"https://witcher.fandom.com/wiki/The_Witcher_2:_Assassins_of_Kings" [label="https://witcher.fandom.com/wiki/The_Witcher_2:_Assassins_of_Kings", shape=egg]
+	"https://witcher.fandom.com/wiki/The_Witcher_3:_Wild_Hunt" [label="https://witcher.fandom.com/wiki/The_Witcher_3:_Wild_Hunt", shape=egg]
+
+	"https://witcher.fandom.com/wiki/Witcher_Wiki" -> "https://witcher.fandom.com"
+	"https://witcher.fandom.com" -> "https://witcher.fandom.com/f"
+	"https://witcher.fandom.com/f" -> "http://witcher.fandom.com/wiki/Witcher_Wiki"
+	"http://witcher.fandom.com/wiki/Witcher_Wiki" -> "https://witcher.fandom.com/wiki/Special:AllMaps"
+	"https://witcher.fandom.com/wiki/Special:AllMaps" -> "https://witcher.fandom.com/Blog:Recent_posts"
+	"https://witcher.fandom.com/Blog:Recent_posts" -> "https://witcher.fandom.com/wiki/Category:Games"
+	"https://witcher.fandom.com/wiki/Category:Games" -> "https://witcher.fandom.com/wiki/The_Witcher_(game)"
+	"https://witcher.fandom.com/wiki/The_Witcher_(game)" -> "https://witcher.fandom.com/wiki/The_Witcher_2:_Assassins_of_Kings"
+	"https://witcher.fandom.com/wiki/The_Witcher_2:_Assassins_of_Kings" -> "https://witcher.fandom.com/wiki/The_Witcher_3:_Wild_Hunt"
+}

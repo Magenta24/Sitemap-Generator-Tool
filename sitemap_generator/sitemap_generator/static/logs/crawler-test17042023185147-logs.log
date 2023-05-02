@@ -1,0 +1,21 @@
+2023-04-17 18:51:47,334 DEBUG:Starting new HTTPS connection (1): crawler-test.com:443
+2023-04-17 18:51:47,792 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 8130
+2023-04-17 18:51:48,522 DEBUG:Starting new HTTPS connection (1): crawler-test.com:443
+2023-04-17 18:51:48,992 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 8131
+2023-04-17 18:51:48,995 INFO:REQUEST TIME: 0.48
+2023-04-17 18:51:49,367 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023185147-tree-graph.gv' with encoding 'utf-8'
+2023-04-17 18:51:49,368 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023185147-tree-graph.gv')
+2023-04-17 18:51:49,369 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-17 18:51:49,369 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/crawler-test17042023185147-diagram'
+2023-04-17 18:51:49,371 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'crawler-test17042023185147-diagram']
+2023-04-17 18:52:08,174 DEBUG:Starting new HTTPS connection (1): crawler-test.com:443
+2023-04-17 18:52:08,597 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 8132
+2023-04-17 18:52:09,264 DEBUG:Starting new HTTPS connection (1): crawler-test.com:443
+2023-04-17 18:52:09,666 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 8129
+2023-04-17 18:52:09,668 INFO:REQUEST TIME: 0.41
+2023-04-17 18:52:09,998 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023185208-tree-graph.gv' with encoding 'utf-8'
+2023-04-17 18:52:09,998 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023185208-tree-graph.gv')
+2023-04-17 18:52:09,999 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-17 18:52:09,999 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/crawler-test17042023185208-diagram'
+2023-04-17 18:52:10,000 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'crawler-test17042023185208-diagram']
+2023-04-17 18:52:53,169 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\URLSanitizer.py changed, reloading.

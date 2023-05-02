@@ -1,0 +1,467 @@
+2023-04-23 05:41:47,202 DEBUG:Starting new HTTPS connection (1): www.geeksforgeeks.org:443
+2023-04-23 05:41:47,276 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:41:47,373 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:41:47,375 INFO:REQUEST TIME: 0.03
+2023-04-23 05:41:47,426 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:41:47,436 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial HTTP/1.1" 301 0
+2023-04-23 05:41:47,457 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial/ HTTP/1.1" 200 35884
+2023-04-23 05:41:47,460 INFO:REQUEST TIME: 0.03
+2023-04-23 05:41:47,543 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-23 05:41:47,553 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure HTTP/1.1" 301 0
+2023-04-23 05:41:47,572 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure/ HTTP/1.1" 200 26085
+2023-04-23 05:41:47,573 INFO:REQUEST TIME: 0.03
+2023-04-23 05:41:47,629 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:41:47,639 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list HTTP/1.1" 301 0
+2023-04-23 05:41:47,656 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list/ HTTP/1.1" 200 25468
+2023-04-23 05:41:47,657 INFO:REQUEST TIME: 0.03
+2023-04-23 05:41:47,712 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-23 05:41:47,721 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure HTTP/1.1" 301 0
+2023-04-23 05:41:47,741 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure/ HTTP/1.1" 200 26390
+2023-04-23 05:41:47,742 INFO:REQUEST TIME: 0.03
+2023-04-23 05:41:47,807 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-23 05:41:47,817 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure HTTP/1.1" 301 0
+2023-04-23 05:41:47,834 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure/ HTTP/1.1" 200 26363
+2023-04-23 05:41:47,835 INFO:REQUEST TIME: 0.03
+2023-04-23 05:41:47,900 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:41:47,911 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:41:47,937 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure/ HTTP/1.1" 200 26342
+2023-04-23 05:41:47,942 INFO:REQUEST TIME: 0.04
+2023-04-23 05:41:48,040 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-23 05:41:48,050 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:41:48,068 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure/ HTTP/1.1" 200 25717
+2023-04-23 05:41:48,069 INFO:REQUEST TIME: 0.03
+2023-04-23 05:41:48,128 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:41:48,136 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure HTTP/1.1" 301 0
+2023-04-23 05:41:48,153 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure/ HTTP/1.1" 200 25526
+2023-04-23 05:41:48,154 INFO:REQUEST TIME: 0.03
+2023-04-23 05:41:48,212 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-23 05:41:48,228 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure HTTP/1.1" 301 0
+2023-04-23 05:41:48,247 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure/ HTTP/1.1" 200 25959
+2023-04-23 05:41:48,249 INFO:REQUEST TIME: 0.03
+2023-04-23 05:41:48,309 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 257, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 05:41:48,310 INFO:VISITED LINKS: 10
+2023-04-23 05:41:48,310 INFO:COLLECTED LINKS: 10
+2023-04-23 05:41:48,310 INFO:QUEUED LINKS: 9
+2023-04-23 05:41:48,325 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023054147-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 05:41:48,326 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023054147-tree-graph.gv')
+2023-04-23 05:41:48,326 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 05:41:48,326 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www23042023054147-diagram'
+2023-04-23 05:41:48,327 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www23042023054147-diagram']
+2023-04-23 05:41:48,378 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 05:41:48,737 WARNING:Not Found: /favicon.ico
+2023-04-23 05:46:22,191 DEBUG:Starting new HTTPS connection (1): www.geeksforgeeks.org:443
+2023-04-23 05:46:22,281 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:46:22,358 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:46:22,360 INFO:REQUEST TIME: 0.02
+2023-04-23 05:46:22,407 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-23 05:46:22,486 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial HTTP/1.1" 301 0
+2023-04-23 05:46:22,504 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial/ HTTP/1.1" 200 35884
+2023-04-23 05:46:22,506 INFO:REQUEST TIME: 0.04
+2023-04-23 05:46:22,596 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-23 05:46:22,606 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure HTTP/1.1" 301 0
+2023-04-23 05:46:22,623 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure/ HTTP/1.1" 200 26085
+2023-04-23 05:46:22,625 INFO:REQUEST TIME: 0.03
+2023-04-23 05:46:22,701 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-23 05:46:22,714 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list HTTP/1.1" 301 0
+2023-04-23 05:46:22,735 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list/ HTTP/1.1" 200 25468
+2023-04-23 05:46:22,736 INFO:REQUEST TIME: 0.03
+2023-04-23 05:46:22,802 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-23 05:46:22,822 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure HTTP/1.1" 301 0
+2023-04-23 05:46:22,840 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure/ HTTP/1.1" 200 26390
+2023-04-23 05:46:22,843 INFO:REQUEST TIME: 0.04
+2023-04-23 05:46:22,973 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-23 05:46:22,984 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure HTTP/1.1" 301 0
+2023-04-23 05:46:23,012 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure/ HTTP/1.1" 200 26363
+2023-04-23 05:46:23,016 INFO:REQUEST TIME: 0.04
+2023-04-23 05:46:23,075 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-23 05:46:23,085 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:46:23,102 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure/ HTTP/1.1" 200 26342
+2023-04-23 05:46:23,104 INFO:REQUEST TIME: 0.03
+2023-04-23 05:46:23,164 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:46:23,174 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:46:23,190 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure/ HTTP/1.1" 200 25717
+2023-04-23 05:46:23,192 INFO:REQUEST TIME: 0.03
+2023-04-23 05:46:23,252 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:46:23,263 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure HTTP/1.1" 301 0
+2023-04-23 05:46:23,279 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure/ HTTP/1.1" 200 25526
+2023-04-23 05:46:23,280 INFO:REQUEST TIME: 0.03
+2023-04-23 05:46:23,338 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:46:23,347 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure HTTP/1.1" 301 0
+2023-04-23 05:46:23,365 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure/ HTTP/1.1" 200 25959
+2023-04-23 05:46:23,366 INFO:REQUEST TIME: 0.03
+2023-04-23 05:46:23,421 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 257, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 05:46:23,422 INFO:VISITED LINKS: 10
+2023-04-23 05:46:23,422 INFO:COLLECTED LINKS: 10
+2023-04-23 05:46:23,422 INFO:QUEUED LINKS: 9
+2023-04-23 05:46:23,432 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023054622-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 05:46:23,432 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023054622-tree-graph.gv')
+2023-04-23 05:46:23,432 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 05:46:23,433 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www23042023054622-diagram'
+2023-04-23 05:46:23,433 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www23042023054622-diagram']
+2023-04-23 05:46:23,492 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 05:47:36,389 DEBUG:Starting new HTTPS connection (1): www.geeksforgeeks.org:443
+2023-04-23 05:47:36,476 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:47:36,569 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:47:36,571 INFO:REQUEST TIME: 0.02
+2023-04-23 05:47:36,629 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-23 05:47:36,641 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial HTTP/1.1" 301 0
+2023-04-23 05:47:36,661 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial/ HTTP/1.1" 200 35884
+2023-04-23 05:47:36,663 INFO:REQUEST TIME: 0.03
+2023-04-23 05:47:36,744 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-23 05:47:36,755 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure HTTP/1.1" 301 0
+2023-04-23 05:47:36,773 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure/ HTTP/1.1" 200 26085
+2023-04-23 05:47:36,774 INFO:REQUEST TIME: 0.03
+2023-04-23 05:47:36,834 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:47:36,843 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list HTTP/1.1" 301 0
+2023-04-23 05:47:36,860 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list/ HTTP/1.1" 200 25468
+2023-04-23 05:47:36,861 INFO:REQUEST TIME: 0.03
+2023-04-23 05:47:36,984 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-23 05:47:36,994 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure HTTP/1.1" 301 0
+2023-04-23 05:47:37,017 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure/ HTTP/1.1" 200 26390
+2023-04-23 05:47:37,020 INFO:REQUEST TIME: 0.04
+2023-04-23 05:47:37,082 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-23 05:47:37,092 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure HTTP/1.1" 301 0
+2023-04-23 05:47:37,110 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure/ HTTP/1.1" 200 26363
+2023-04-23 05:47:37,112 INFO:REQUEST TIME: 0.03
+2023-04-23 05:47:37,173 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:47:37,183 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:47:37,199 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure/ HTTP/1.1" 200 26342
+2023-04-23 05:47:37,200 INFO:REQUEST TIME: 0.03
+2023-04-23 05:47:37,261 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:47:37,270 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:47:37,285 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure/ HTTP/1.1" 200 25717
+2023-04-23 05:47:37,287 INFO:REQUEST TIME: 0.03
+2023-04-23 05:47:37,358 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-23 05:47:37,367 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure HTTP/1.1" 301 0
+2023-04-23 05:47:37,383 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure/ HTTP/1.1" 200 25526
+2023-04-23 05:47:37,384 INFO:REQUEST TIME: 0.03
+2023-04-23 05:47:37,440 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-23 05:47:37,450 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure HTTP/1.1" 301 0
+2023-04-23 05:47:37,466 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure/ HTTP/1.1" 200 25959
+2023-04-23 05:47:37,467 INFO:REQUEST TIME: 0.03
+2023-04-23 05:47:37,523 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 257, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 05:47:37,524 INFO:VISITED LINKS: 10
+2023-04-23 05:47:37,524 INFO:COLLECTED LINKS: 10
+2023-04-23 05:47:37,524 INFO:QUEUED LINKS: 9
+2023-04-23 05:47:37,532 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023054736-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 05:47:37,533 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023054736-tree-graph.gv')
+2023-04-23 05:47:37,533 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 05:47:37,533 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www23042023054736-diagram'
+2023-04-23 05:47:37,534 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www23042023054736-diagram']
+2023-04-23 05:47:37,592 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 05:50:04,570 DEBUG:Starting new HTTPS connection (1): www.geeksforgeeks.org:443
+2023-04-23 05:50:04,634 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:50:04,713 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:50:04,714 INFO:REQUEST TIME: 0.02
+2023-04-23 05:50:04,765 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-23 05:50:04,775 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial HTTP/1.1" 301 0
+2023-04-23 05:50:04,794 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial/ HTTP/1.1" 200 35884
+2023-04-23 05:50:04,796 INFO:REQUEST TIME: 0.03
+2023-04-23 05:50:04,891 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-23 05:50:04,900 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure HTTP/1.1" 301 0
+2023-04-23 05:50:04,917 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure/ HTTP/1.1" 200 26085
+2023-04-23 05:50:04,919 INFO:REQUEST TIME: 0.03
+2023-04-23 05:50:05,053 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-23 05:50:05,064 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list HTTP/1.1" 301 0
+2023-04-23 05:50:05,080 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list/ HTTP/1.1" 200 25468
+2023-04-23 05:50:05,082 INFO:REQUEST TIME: 0.03
+2023-04-23 05:50:05,142 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:50:05,152 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure HTTP/1.1" 301 0
+2023-04-23 05:50:05,168 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure/ HTTP/1.1" 200 26390
+2023-04-23 05:50:05,170 INFO:REQUEST TIME: 0.03
+2023-04-23 05:50:05,234 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:50:05,243 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure HTTP/1.1" 301 0
+2023-04-23 05:50:05,259 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure/ HTTP/1.1" 200 26363
+2023-04-23 05:50:05,260 INFO:REQUEST TIME: 0.03
+2023-04-23 05:50:05,332 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-23 05:50:05,343 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:50:05,358 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure/ HTTP/1.1" 200 26342
+2023-04-23 05:50:05,359 INFO:REQUEST TIME: 0.03
+2023-04-23 05:50:05,419 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:50:05,428 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:50:05,444 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure/ HTTP/1.1" 200 25717
+2023-04-23 05:50:05,446 INFO:REQUEST TIME: 0.03
+2023-04-23 05:50:05,503 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-23 05:50:05,513 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure HTTP/1.1" 301 0
+2023-04-23 05:50:05,528 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure/ HTTP/1.1" 200 25526
+2023-04-23 05:50:05,529 INFO:REQUEST TIME: 0.03
+2023-04-23 05:50:05,588 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:50:05,597 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure HTTP/1.1" 301 0
+2023-04-23 05:50:05,613 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure/ HTTP/1.1" 200 25959
+2023-04-23 05:50:05,614 INFO:REQUEST TIME: 0.03
+2023-04-23 05:50:05,678 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 257, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 05:50:05,678 INFO:VISITED LINKS: 10
+2023-04-23 05:50:05,678 INFO:COLLECTED LINKS: 10
+2023-04-23 05:50:05,678 INFO:QUEUED LINKS: 9
+2023-04-23 05:50:05,688 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023055004-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 05:50:05,689 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023055004-tree-graph.gv')
+2023-04-23 05:50:05,689 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 05:50:05,689 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www23042023055004-diagram'
+2023-04-23 05:50:05,690 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www23042023055004-diagram']
+2023-04-23 05:50:05,740 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 05:50:06,068 WARNING:Not Found: /favicon.ico
+2023-04-23 05:54:29,137 DEBUG:Starting new HTTPS connection (1): www.geeksforgeeks.org:443
+2023-04-23 05:54:29,239 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:54:29,323 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:54:29,325 INFO:REQUEST TIME: 0.02
+2023-04-23 05:54:29,376 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-23 05:54:29,385 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial HTTP/1.1" 301 0
+2023-04-23 05:54:29,405 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial/ HTTP/1.1" 200 35884
+2023-04-23 05:54:29,407 INFO:REQUEST TIME: 0.03
+2023-04-23 05:54:29,562 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-23 05:54:29,572 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure HTTP/1.1" 301 0
+2023-04-23 05:54:29,588 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure/ HTTP/1.1" 200 26085
+2023-04-23 05:54:29,590 INFO:REQUEST TIME: 0.03
+2023-04-23 05:54:29,646 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-23 05:54:29,654 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list HTTP/1.1" 301 0
+2023-04-23 05:54:29,669 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list/ HTTP/1.1" 200 25468
+2023-04-23 05:54:29,670 INFO:REQUEST TIME: 0.02
+2023-04-23 05:54:29,729 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-23 05:54:29,738 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure HTTP/1.1" 301 0
+2023-04-23 05:54:29,753 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure/ HTTP/1.1" 200 26390
+2023-04-23 05:54:29,755 INFO:REQUEST TIME: 0.03
+2023-04-23 05:54:29,815 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:54:29,824 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure HTTP/1.1" 301 0
+2023-04-23 05:54:29,840 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure/ HTTP/1.1" 200 26363
+2023-04-23 05:54:29,841 INFO:REQUEST TIME: 0.03
+2023-04-23 05:54:29,899 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-23 05:54:29,909 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:54:29,924 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure/ HTTP/1.1" 200 26342
+2023-04-23 05:54:29,926 INFO:REQUEST TIME: 0.03
+2023-04-23 05:54:29,985 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:54:29,994 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:54:30,009 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure/ HTTP/1.1" 200 25717
+2023-04-23 05:54:30,010 INFO:REQUEST TIME: 0.02
+2023-04-23 05:54:30,065 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-23 05:54:30,074 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure HTTP/1.1" 301 0
+2023-04-23 05:54:30,089 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure/ HTTP/1.1" 200 25526
+2023-04-23 05:54:30,091 INFO:REQUEST TIME: 0.03
+2023-04-23 05:54:30,147 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-23 05:54:30,156 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure HTTP/1.1" 301 0
+2023-04-23 05:54:30,172 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure/ HTTP/1.1" 200 25959
+2023-04-23 05:54:30,174 INFO:REQUEST TIME: 0.03
+2023-04-23 05:54:30,228 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 257, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 05:54:30,229 INFO:VISITED LINKS: 10
+2023-04-23 05:54:30,229 INFO:COLLECTED LINKS: 10
+2023-04-23 05:54:30,229 INFO:QUEUED LINKS: 9
+2023-04-23 05:54:30,237 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023055429-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 05:54:30,238 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023055429-tree-graph.gv')
+2023-04-23 05:54:30,238 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 05:54:30,238 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www23042023055429-diagram'
+2023-04-23 05:54:30,239 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www23042023055429-diagram']
+2023-04-23 05:54:30,290 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 05:54:30,606 WARNING:Not Found: /favicon.ico
+2023-04-23 05:55:38,287 DEBUG:Starting new HTTPS connection (1): en.wikipedia.org:443
+2023-04-23 05:55:38,385 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Main_Page HTTP/1.1" 200 21942
+2023-04-23 05:55:38,922 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Main_Page HTTP/1.1" 200 21942
+2023-04-23 05:55:38,925 INFO:REQUEST TIME: 0.03
+2023-04-23 05:55:39,068 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-23 05:55:39,103 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Contents HTTP/1.1" 200 73034
+2023-04-23 05:55:39,121 INFO:REQUEST TIME: 0.05
+2023-04-23 05:55:39,315 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-23 05:55:39,338 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Portal:Current_events HTTP/1.1" 200 54672
+2023-04-23 05:55:39,344 INFO:REQUEST TIME: 0.03
+2023-04-23 05:55:39,463 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-23 05:55:39,598 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:Random HTTP/1.1" 302 0
+2023-04-23 05:55:39,897 DEBUG:https://en.wikipedia.org:443 "GET /wiki/New_Lebanon_Local_School_District HTTP/1.1" 200 None
+2023-04-23 05:55:39,981 INFO:REQUEST TIME: 0.52
+2023-04-23 05:55:39,998 INFO:SINGLE ITERATION TIME: 0.53
+2023-04-23 05:55:40,026 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:About HTTP/1.1" 200 36704
+2023-04-23 05:55:40,028 INFO:REQUEST TIME: 0.03
+2023-04-23 05:55:40,110 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-23 05:55:40,135 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Contact_us HTTP/1.1" 200 16713
+2023-04-23 05:55:40,137 INFO:REQUEST TIME: 0.03
+2023-04-23 05:55:40,225 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-23 05:55:40,248 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Help:Contents HTTP/1.1" 200 33428
+2023-04-23 05:55:40,252 INFO:REQUEST TIME: 0.03
+2023-04-23 05:55:40,310 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-23 05:55:40,334 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Help:Introduction HTTP/1.1" 200 21104
+2023-04-23 05:55:40,335 INFO:REQUEST TIME: 0.02
+2023-04-23 05:55:40,363 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-23 05:55:40,387 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Community_portal HTTP/1.1" 200 90416
+2023-04-23 05:55:40,396 INFO:REQUEST TIME: 0.03
+2023-04-23 05:55:40,610 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-23 05:55:40,633 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:RecentChanges HTTP/1.1" 200 26793
+2023-04-23 05:55:40,635 INFO:REQUEST TIME: 0.02
+2023-04-23 05:55:40,708 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-23 05:55:40,732 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:File_upload_wizard HTTP/1.1" 200 30410
+2023-04-23 05:55:40,733 INFO:REQUEST TIME: 0.02
+2023-04-23 05:55:40,795 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:55:41,065 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:Search HTTP/1.1" 200 None
+2023-04-23 05:55:41,137 INFO:REQUEST TIME: 0.34
+2023-04-23 05:55:41,150 INFO:SINGLE ITERATION TIME: 0.35
+2023-04-23 05:55:41,358 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Special:CreateAccount&returnto=Main+Page HTTP/1.1" 200 None
+2023-04-23 05:55:41,359 INFO:REQUEST TIME: 0.21
+2023-04-23 05:55:41,370 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-23 05:55:41,643 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Special:UserLogin&returnto=Main+Page HTTP/1.1" 200 None
+2023-04-23 05:55:41,644 INFO:REQUEST TIME: 0.27
+2023-04-23 05:55:41,718 INFO:SINGLE ITERATION TIME: 0.35
+2023-04-23 05:55:42,779 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:MyContributions HTTP/1.1" 200 None
+2023-04-23 05:55:42,956 INFO:REQUEST TIME: 1.24
+2023-04-23 05:55:43,008 INFO:SINGLE ITERATION TIME: 1.29
+2023-04-23 05:55:43,286 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:MyTalk HTTP/1.1" 200 None
+2023-04-23 05:55:43,288 INFO:REQUEST TIME: 0.28
+2023-04-23 05:55:43,303 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-23 05:55:43,514 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Talk:Main_Page HTTP/1.1" 200 None
+2023-04-23 05:55:43,603 INFO:REQUEST TIME: 0.3
+2023-04-23 05:55:43,669 INFO:SINGLE ITERATION TIME: 0.37
+2023-04-23 05:55:44,112 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Main_Page&action=edit HTTP/1.1" 200 None
+2023-04-23 05:55:44,114 INFO:REQUEST TIME: 0.44
+2023-04-23 05:55:44,136 INFO:SINGLE ITERATION TIME: 0.47
+2023-04-23 05:55:45,067 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Main_Page&action=history HTTP/1.1" 200 None
+2023-04-23 05:55:45,232 INFO:REQUEST TIME: 1.09
+2023-04-23 05:55:45,298 INFO:SINGLE ITERATION TIME: 1.16
+2023-04-23 05:55:45,845 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:WhatLinksHere/Main_Page HTTP/1.1" 200 None
+2023-04-23 05:55:46,099 INFO:REQUEST TIME: 0.8
+2023-04-23 05:55:46,237 INFO:SINGLE ITERATION TIME: 0.94
+2023-04-23 05:55:47,677 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:RecentChangesLinked/Main_Page HTTP/1.1" 200 None
+2023-04-23 05:55:47,930 INFO:REQUEST TIME: 1.69
+2023-04-23 05:55:48,006 INFO:SINGLE ITERATION TIME: 1.77
+2023-04-23 05:55:48,317 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:File_Upload_Wizard HTTP/1.1" 200 None
+2023-04-23 05:55:48,415 INFO:REQUEST TIME: 0.41
+2023-04-23 05:55:48,524 INFO:SINGLE ITERATION TIME: 0.52
+2023-04-23 05:55:48,859 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:SpecialPages HTTP/1.1" 200 None
+2023-04-23 05:55:48,941 INFO:REQUEST TIME: 0.42
+2023-04-23 05:55:48,964 INFO:SINGLE ITERATION TIME: 0.44
+2023-04-23 05:55:49,223 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Main_Page&oldid=1114291180 HTTP/1.1" 200 None
+2023-04-23 05:55:49,309 INFO:REQUEST TIME: 0.34
+2023-04-23 05:55:49,347 INFO:SINGLE ITERATION TIME: 0.38
+2023-04-23 05:55:54,349 ERROR:TIMEOUT: https://en.wikipedia.org/w/index.php?title=Main_Page&action=info
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 157, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'],
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=5)
+2023-04-23 05:55:54,365 DEBUG:Starting new HTTPS connection (2): en.wikipedia.org:443
+2023-04-23 05:55:54,801 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Special:CiteThisPage&page=Main_Page&id=1114291180&wpFormIdentifier=titleform HTTP/1.1" 200 None
+2023-04-23 05:55:54,803 INFO:REQUEST TIME: 0.44
+2023-04-23 05:55:54,826 INFO:SINGLE ITERATION TIME: 0.46
+2023-04-23 05:55:55,018 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Special:DownloadAsPdf&page=Main_Page&action=show-download-screen HTTP/1.1" 200 None
+2023-04-23 05:55:55,019 INFO:REQUEST TIME: 0.19
+2023-04-23 05:55:55,041 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-23 05:55:55,342 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Main_Page&printable=yes HTTP/1.1" 200 None
+2023-04-23 05:55:55,433 INFO:REQUEST TIME: 0.39
+2023-04-23 05:55:55,489 INFO:SINGLE ITERATION TIME: 0.45
+2023-04-23 05:55:55,881 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 None
+2023-04-23 05:55:56,340 INFO:REQUEST TIME: 0.85
+2023-04-23 05:55:56,897 INFO:SINGLE ITERATION TIME: 1.41
+2023-04-23 05:55:57,219 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Free_content HTTP/1.1" 200 None
+2023-04-23 05:55:57,519 INFO:REQUEST TIME: 0.62
+2023-04-23 05:55:57,612 INFO:SINGLE ITERATION TIME: 0.71
+2023-04-23 05:55:57,886 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Encyclopedia HTTP/1.1" 200 None
+2023-04-23 05:55:58,131 INFO:REQUEST TIME: 0.52
+2023-04-23 05:55:58,225 INFO:SINGLE ITERATION TIME: 0.61
+2023-04-23 05:55:58,508 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Help:Introduction_to_Wikipedia HTTP/1.1" 200 None
+2023-04-23 05:55:58,592 INFO:REQUEST TIME: 0.37
+2023-04-23 05:55:58,614 INFO:SINGLE ITERATION TIME: 0.39
+2023-04-23 05:55:59,018 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:Statistics HTTP/1.1" 200 None
+2023-04-23 05:55:59,101 INFO:REQUEST TIME: 0.49
+2023-04-23 05:55:59,123 INFO:SINGLE ITERATION TIME: 0.51
+2023-04-23 05:55:59,507 DEBUG:https://en.wikipedia.org:443 "GET /wiki/English_language HTTP/1.1" 200 None
+2023-04-23 05:55:59,921 INFO:REQUEST TIME: 0.8
+2023-04-23 05:56:00,412 INFO:SINGLE ITERATION TIME: 1.29
+2023-04-23 05:56:00,856 DEBUG:https://en.wikipedia.org:443 "GET /wiki/File:Angel_Locsin_at_the_premiere_of_Love_Me_Again_in_LA,_December_2008.jpg HTTP/1.1" 200 None
+2023-04-23 05:56:00,941 INFO:REQUEST TIME: 0.53
+2023-04-23 05:56:00,942 ERROR:'SiteScraper' object has no attribute 'images'
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 184, in bfs_scraper
+    self.images.append(current_node['url'])
+    ^^^^^^^^^^^
+AttributeError: 'SiteScraper' object has no attribute 'images'
+2023-04-23 05:56:00,942 INFO:VISITED LINKS: 35
+2023-04-23 05:56:00,942 INFO:COLLECTED LINKS: 33
+2023-04-23 05:56:00,942 INFO:QUEUED LINKS: 99
+2023-04-23 05:56:01,034 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/en23042023055538-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 05:56:01,034 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/en23042023055538-tree-graph.gv')
+2023-04-23 05:56:01,034 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 05:56:01,035 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/en23042023055538-diagram'
+2023-04-23 05:56:01,036 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'en23042023055538-diagram']
+2023-04-23 05:56:01,121 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 05:57:02,087 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

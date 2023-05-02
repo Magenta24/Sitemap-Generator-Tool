@@ -1,0 +1,10 @@
+digraph tree {
+	"https://www.wp.pl/" [label="https://www.wp.pl/", shape=egg]
+	"https://www.wp.pl/static.html" [label="https://www.wp.pl/static.html", shape=egg]
+	"https://www.wp.pl/?_device=mobile" [label="https://www.wp.pl/?_device=mobile", shape=egg]
+	"https://www.wp.pl/?_device=desktop" [label="https://www.wp.pl/?_device=desktop", shape=egg]
+
+	"https://www.wp.pl/" -> "https://www.wp.pl/static.html"
+	"https://www.wp.pl/static.html" -> "https://www.wp.pl/?_device=mobile"
+	"https://www.wp.pl/?_device=mobile" -> "https://www.wp.pl/?_device=desktop"
+}

@@ -1,0 +1,93 @@
+2023-04-25 18:03:35,560 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-25 18:03:35,679 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20665
+2023-04-25 18:03:36,337 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20665
+2023-04-25 18:03:36,496 INFO:URL NO.1ADDED: https://pl.wikipedia.org/wiki/Wikipedia
+2023-04-25 18:03:36,539 INFO:URL NO.2ADDED: https://pl.wikipedia.org/wiki/Wolna_tre%C5%9B%C4%87
+2023-04-25 18:03:36,539 INFO:URL NO.3ADDED: https://pl.wikipedia.org/wiki/Encyklopedia
+2023-04-25 18:03:36,547 INFO:URL NO.4ADDED: https://pl.wikipedia.org/wiki/Pomoc:Pierwsze_kroki
+2023-04-25 18:03:36,547 INFO:URL NO.5ADDED: https://pl.wikipedia.org/wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii
+2023-04-25 18:03:36,549 INFO:URL NO.6ADDED: https://pl.wikipedia.org/wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii
+2023-04-25 18:03:36,549 INFO:URL NO.7ADDED: https://pl.wikipedia.org/wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze
+2023-04-25 18:03:36,549 INFO:URL NO.8ADDED: https://pl.wikipedia.org/wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne
+2023-04-25 18:03:36,549 INFO:URL NO.9ADDED: https://pl.wikipedia.org/wiki/Portal:Technika
+2023-04-25 18:03:36,549 INFO:URL NO.10ADDED: https://pl.wikipedia.org/wiki/Portal:Geografia
+2023-04-25 18:03:36,549 INFO:URL NO.11ADDED: https://pl.wikipedia.org/wiki/Portal:Historia
+2023-04-25 18:03:36,549 INFO:URL NO.12ADDED: https://pl.wikipedia.org/wiki/Portal:Kultura
+2023-04-25 18:03:36,549 INFO:URL NO.13ADDED: https://pl.wikipedia.org/wiki/Portal:Spo%C5%82ecze%C5%84stwo
+2023-04-25 18:03:36,549 INFO:URL NO.14ADDED: https://pl.wikipedia.org/wiki/Portal:Sport
+2023-04-25 18:03:36,549 INFO:URL NO.15ADDED: https://pl.wikipedia.org/wiki/Portal:Religioznawstwo
+2023-04-25 18:03:36,549 INFO:URL NO.16ADDED: https://pl.wikipedia.org/wiki/Portal:Polska
+2023-04-25 18:03:36,549 INFO:URL NO.17ADDED: https://pl.wikipedia.org/wiki/Portal:Portale
+2023-04-25 18:03:36,557 INFO:URL NO.18ADDED: https://pl.wikipedia.org/wiki/Wikipedia:Indeks_hase%C5%82
+2023-04-25 18:03:36,557 INFO:URL NO.19ADDED: https://pl.wikipedia.org/wiki/Portal:Kategorie_G%C5%82%C3%B3wne
+2023-04-25 18:03:36,557 INFO:URL NO.20ADDED: https://pl.wikipedia.org/wiki/Wikipedia:CEE_Spring_2023
+2023-04-25 18:03:36,587 INFO:URL NO.21ADDED: https://pl.wikipedia.org/wiki/Specjalna:Nowe_strony
+2023-04-25 18:03:36,587 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:36,587 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-25 18:03:36,619 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 84778
+2023-04-25 18:03:37,123 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:37,123 INFO:SINGLE ITERATION TIME: 0.53
+2023-04-25 18:03:37,141 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wolna_tre%C5%9B%C4%87 HTTP/1.1" 200 29812
+2023-04-25 18:03:37,242 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:37,242 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-25 18:03:37,273 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Encyklopedia HTTP/1.1" 200 26909
+2023-04-25 18:03:37,342 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:37,342 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-25 18:03:37,357 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Pierwsze_kroki HTTP/1.1" 200 15067
+2023-04-25 18:03:37,442 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:37,442 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-25 18:03:37,473 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii HTTP/1.1" 200 29835
+2023-04-25 18:03:37,643 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:37,643 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-25 18:03:37,658 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii HTTP/1.1" 200 12976
+2023-04-25 18:03:37,721 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:37,721 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-25 18:03:37,743 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze HTTP/1.1" 200 39177
+2023-04-25 18:03:37,937 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:37,937 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-25 18:03:37,959 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne HTTP/1.1" 200 20172
+2023-04-25 18:03:38,037 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:38,037 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-25 18:03:38,075 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Technika HTTP/1.1" 200 31549
+2023-04-25 18:03:38,160 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:38,160 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-25 18:03:38,191 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Geografia HTTP/1.1" 200 321115
+2023-04-25 18:03:40,551 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:40,551 INFO:SINGLE ITERATION TIME: 2.39
+2023-04-25 18:03:40,566 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Historia HTTP/1.1" 200 21861
+2023-04-25 18:03:40,613 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:40,613 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-25 18:03:40,651 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kultura HTTP/1.1" 200 35168
+2023-04-25 18:03:40,798 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:40,798 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-25 18:03:40,829 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Spo%C5%82ecze%C5%84stwo HTTP/1.1" 200 35479
+2023-04-25 18:03:40,967 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:40,967 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-25 18:03:40,983 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Sport HTTP/1.1" 200 20077
+2023-04-25 18:03:41,045 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:41,045 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-25 18:03:41,068 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Religioznawstwo HTTP/1.1" 200 32404
+2023-04-25 18:03:41,152 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:41,152 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-25 18:03:41,183 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Polska HTTP/1.1" 200 37670
+2023-04-25 18:03:41,331 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:41,331 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-25 18:03:41,353 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Portale HTTP/1.1" 200 20032
+2023-04-25 18:03:41,400 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:41,400 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-25 18:03:41,431 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Indeks_hase%C5%82 HTTP/1.1" 200 18763
+2023-04-25 18:03:41,569 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:41,569 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-25 18:03:41,616 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kategorie_G%C5%82%C3%B3wne HTTP/1.1" 200 20934
+2023-04-25 18:03:41,901 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-04-25 18:03:41,901 INFO:SINGLE ITERATION TIME: 0.33
+2023-04-25 18:03:41,901 INFO:VISITED LINKS: 21
+2023-04-25 18:03:41,901 INFO:COLLECTED LINKS: 20
+2023-04-25 18:03:41,901 INFO:QUEUED LINKS: 21
+2023-04-25 18:03:41,932 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl25042023180335-tree-graph.gv' with encoding 'utf-8'
+2023-04-25 18:03:41,932 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl25042023180335-tree-graph.gv')
+2023-04-25 18:03:41,932 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-25 18:03:41,932 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl25042023180335-diagram'
+2023-04-25 18:03:41,932 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl25042023180335-diagram']
+2023-04-25 18:03:42,001 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-25 18:04:31,167 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

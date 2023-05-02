@@ -1,0 +1,69 @@
+2023-04-23 05:39:18,007 DEBUG:Starting new HTTPS connection (1): www.geeksforgeeks.org:443
+2023-04-23 05:39:18,112 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:39:18,194 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:39:18,196 INFO:REQUEST TIME: 0.02
+2023-04-23 05:39:18,243 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-23 05:39:18,252 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial HTTP/1.1" 301 0
+2023-04-23 05:39:18,271 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial/ HTTP/1.1" 200 35884
+2023-04-23 05:39:18,285 INFO:REQUEST TIME: 0.04
+2023-04-23 05:39:18,370 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-23 05:39:18,380 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure HTTP/1.1" 301 0
+2023-04-23 05:39:18,398 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure/ HTTP/1.1" 200 26085
+2023-04-23 05:39:18,399 INFO:REQUEST TIME: 0.03
+2023-04-23 05:39:18,460 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:39:18,471 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list HTTP/1.1" 301 0
+2023-04-23 05:39:18,488 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list/ HTTP/1.1" 200 25468
+2023-04-23 05:39:18,489 INFO:REQUEST TIME: 0.03
+2023-04-23 05:39:18,549 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:39:18,558 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure HTTP/1.1" 301 0
+2023-04-23 05:39:18,576 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure/ HTTP/1.1" 200 26390
+2023-04-23 05:39:18,578 INFO:REQUEST TIME: 0.03
+2023-04-23 05:39:18,648 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-23 05:39:18,658 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure HTTP/1.1" 301 0
+2023-04-23 05:39:18,674 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure/ HTTP/1.1" 200 26363
+2023-04-23 05:39:18,676 INFO:REQUEST TIME: 0.03
+2023-04-23 05:39:18,749 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-23 05:39:18,759 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:39:18,775 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure/ HTTP/1.1" 200 26342
+2023-04-23 05:39:18,776 INFO:REQUEST TIME: 0.03
+2023-04-23 05:39:18,909 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-23 05:39:18,925 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:39:18,955 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure/ HTTP/1.1" 200 25717
+2023-04-23 05:39:18,958 INFO:REQUEST TIME: 0.05
+2023-04-23 05:39:19,064 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-23 05:39:19,074 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure HTTP/1.1" 301 0
+2023-04-23 05:39:19,090 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure/ HTTP/1.1" 200 25526
+2023-04-23 05:39:19,092 INFO:REQUEST TIME: 0.03
+2023-04-23 05:39:19,153 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:39:19,162 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure HTTP/1.1" 301 0
+2023-04-23 05:39:19,191 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure/ HTTP/1.1" 200 25959
+2023-04-23 05:39:19,192 INFO:REQUEST TIME: 0.04
+2023-04-23 05:39:19,249 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 257, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 05:39:19,250 INFO:VISITED LINKS: 10
+2023-04-23 05:39:19,250 INFO:COLLECTED LINKS: 10
+2023-04-23 05:39:19,251 INFO:QUEUED LINKS: 9
+2023-04-23 05:39:19,270 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023053918-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 05:39:19,271 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023053918-tree-graph.gv')
+2023-04-23 05:39:19,271 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 05:39:19,272 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www23042023053918-diagram'
+2023-04-23 05:39:19,273 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www23042023053918-diagram']
+2023-04-23 05:39:19,339 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 05:39:19,423 ERROR:Internal Server Error: /scrap/
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py", line 102, in scrap
+    'images': ss1.images,
+              ^^^^^^^^^^
+AttributeError: 'SiteScraper' object has no attribute 'images'
+2023-04-23 05:39:19,555 WARNING:Not Found: /favicon.ico
+2023-04-23 05:39:45,111 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py changed, reloading.

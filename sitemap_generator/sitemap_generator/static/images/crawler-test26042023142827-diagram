@@ -1,0 +1,3 @@
+digraph tree {
+	"https://crawler-test.com/" [label="https://crawler-test.com/", shape=egg]
+}

@@ -1,0 +1,718 @@
+2023-04-18 00:22:24,021 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:22:24,300 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:22:24,688 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:22:24,731 INFO:REQUEST TIME: 0.22
+2023-04-18 00:22:24,779 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-18 00:22:24,921 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:22:25,024 INFO:REQUEST TIME: 0.24
+2023-04-18 00:22:25,074 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-18 00:22:25,205 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:22:25,210 INFO:REQUEST TIME: 0.14
+2023-04-18 00:22:25,232 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-18 00:22:26,038 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:22:26,175 INFO:REQUEST TIME: 0.94
+2023-04-18 00:22:26,208 INFO:SINGLE ITERATION TIME: 0.98
+2023-04-18 00:22:26,306 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:22:26,438 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:22:26,447 INFO:REQUEST TIME: 0.24
+2023-04-18 00:22:26,474 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-18 00:22:26,647 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:22:26,664 INFO:REQUEST TIME: 0.19
+2023-04-18 00:22:26,694 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-18 00:22:26,834 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:22:26,844 INFO:REQUEST TIME: 0.15
+2023-04-18 00:22:26,869 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-18 00:22:27,020 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:22:27,030 INFO:REQUEST TIME: 0.16
+2023-04-18 00:22:27,050 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-18 00:22:27,228 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:22:27,241 INFO:REQUEST TIME: 0.19
+2023-04-18 00:22:27,278 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-18 00:22:27,462 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:22:27,472 INFO:REQUEST TIME: 0.19
+2023-04-18 00:22:27,505 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:22:27,523 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002224-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:22:27,524 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002224-tree-graph.gv')
+2023-04-18 00:22:27,524 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:22:27,524 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023002224-diagram'
+2023-04-18 00:22:27,525 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023002224-diagram']
+2023-04-18 00:22:27,587 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:23:10,737 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:23:11,012 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:23:11,430 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:23:11,474 INFO:REQUEST TIME: 0.21
+2023-04-18 00:23:11,566 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-18 00:23:11,702 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:23:12,256 INFO:REQUEST TIME: 0.69
+2023-04-18 00:23:12,311 INFO:SINGLE ITERATION TIME: 0.75
+2023-04-18 00:23:12,456 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:23:12,469 INFO:REQUEST TIME: 0.16
+2023-04-18 00:23:12,488 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-18 00:23:13,220 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:23:13,315 INFO:REQUEST TIME: 0.83
+2023-04-18 00:23:13,358 INFO:SINGLE ITERATION TIME: 0.87
+2023-04-18 00:23:13,454 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:23:13,595 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:23:13,609 INFO:REQUEST TIME: 0.25
+2023-04-18 00:23:13,633 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-18 00:23:13,807 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:23:13,813 INFO:REQUEST TIME: 0.18
+2023-04-18 00:23:13,841 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-18 00:23:13,969 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:23:13,977 INFO:REQUEST TIME: 0.13
+2023-04-18 00:23:14,000 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-18 00:23:14,128 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:23:14,134 INFO:REQUEST TIME: 0.13
+2023-04-18 00:23:14,154 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:23:14,334 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:23:14,351 INFO:REQUEST TIME: 0.19
+2023-04-18 00:23:14,385 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-18 00:23:14,550 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:23:14,559 INFO:REQUEST TIME: 0.17
+2023-04-18 00:23:14,593 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:23:14,603 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002310-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:23:14,604 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002310-tree-graph.gv')
+2023-04-18 00:23:14,604 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:23:14,604 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023002310-diagram'
+2023-04-18 00:23:14,606 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023002310-diagram']
+2023-04-18 00:23:14,669 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:26:24,850 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:26:25,108 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:26:25,480 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:26:25,524 INFO:REQUEST TIME: 0.21
+2023-04-18 00:26:25,566 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-18 00:26:25,701 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:26:25,799 INFO:REQUEST TIME: 0.23
+2023-04-18 00:26:25,848 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-18 00:26:25,977 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:26:25,987 INFO:REQUEST TIME: 0.14
+2023-04-18 00:26:26,008 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-18 00:26:26,712 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:26:26,808 INFO:REQUEST TIME: 0.8
+2023-04-18 00:26:26,843 INFO:SINGLE ITERATION TIME: 0.84
+2023-04-18 00:26:26,940 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:26:27,072 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:26:27,085 INFO:REQUEST TIME: 0.24
+2023-04-18 00:26:27,114 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-18 00:26:27,293 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:26:27,298 INFO:REQUEST TIME: 0.18
+2023-04-18 00:26:27,329 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-18 00:26:27,460 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:26:27,468 INFO:REQUEST TIME: 0.14
+2023-04-18 00:26:27,494 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-18 00:26:27,619 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:26:27,625 INFO:REQUEST TIME: 0.13
+2023-04-18 00:26:27,647 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:26:27,818 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:26:27,825 INFO:REQUEST TIME: 0.18
+2023-04-18 00:26:27,860 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-18 00:26:28,038 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:26:28,049 INFO:REQUEST TIME: 0.19
+2023-04-18 00:26:28,174 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:26:28,185 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002624-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:26:28,186 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002624-tree-graph.gv')
+2023-04-18 00:26:28,186 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:26:28,186 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023002624-diagram'
+2023-04-18 00:26:28,187 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023002624-diagram']
+2023-04-18 00:26:28,250 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:27:49,318 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:27:49,579 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:27:49,933 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:27:49,975 INFO:REQUEST TIME: 0.19
+2023-04-18 00:27:50,017 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-18 00:27:50,157 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:27:50,249 INFO:REQUEST TIME: 0.23
+2023-04-18 00:27:50,299 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-18 00:27:50,425 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:27:50,431 INFO:REQUEST TIME: 0.13
+2023-04-18 00:27:50,452 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:27:51,179 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:27:51,294 INFO:REQUEST TIME: 0.84
+2023-04-18 00:27:51,326 INFO:SINGLE ITERATION TIME: 0.87
+2023-04-18 00:27:51,426 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:27:51,571 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:27:51,584 INFO:REQUEST TIME: 0.26
+2023-04-18 00:27:51,612 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-18 00:27:51,828 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:27:51,842 INFO:REQUEST TIME: 0.23
+2023-04-18 00:27:51,875 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-18 00:27:52,022 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:27:52,030 INFO:REQUEST TIME: 0.15
+2023-04-18 00:27:52,056 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-18 00:27:52,194 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:27:52,206 INFO:REQUEST TIME: 0.15
+2023-04-18 00:27:52,226 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-18 00:27:52,402 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:27:52,445 INFO:REQUEST TIME: 0.22
+2023-04-18 00:27:52,481 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-18 00:27:52,676 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:27:52,719 INFO:REQUEST TIME: 0.24
+2023-04-18 00:27:52,756 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:27:52,767 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002749-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:27:52,768 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002749-tree-graph.gv')
+2023-04-18 00:27:52,768 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:27:52,768 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023002749-diagram'
+2023-04-18 00:27:52,769 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023002749-diagram']
+2023-04-18 00:27:52,837 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:28:42,926 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:28:43,223 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:28:43,594 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:28:43,637 INFO:REQUEST TIME: 0.2
+2023-04-18 00:28:43,683 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-18 00:28:43,820 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:28:43,913 INFO:REQUEST TIME: 0.23
+2023-04-18 00:28:43,967 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-18 00:28:44,094 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:28:44,100 INFO:REQUEST TIME: 0.13
+2023-04-18 00:28:44,121 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:28:44,800 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:28:44,889 INFO:REQUEST TIME: 0.77
+2023-04-18 00:28:44,922 INFO:SINGLE ITERATION TIME: 0.8
+2023-04-18 00:28:45,030 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:28:45,157 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:28:45,163 INFO:REQUEST TIME: 0.24
+2023-04-18 00:28:45,195 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-18 00:28:45,366 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:28:45,372 INFO:REQUEST TIME: 0.18
+2023-04-18 00:28:45,402 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-18 00:28:45,538 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:28:45,545 INFO:REQUEST TIME: 0.14
+2023-04-18 00:28:45,576 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-18 00:28:45,709 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:28:45,719 INFO:REQUEST TIME: 0.14
+2023-04-18 00:28:45,740 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-18 00:28:45,909 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:28:45,917 INFO:REQUEST TIME: 0.18
+2023-04-18 00:28:46,048 INFO:SINGLE ITERATION TIME: 0.31
+2023-04-18 00:28:46,217 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:28:46,226 INFO:REQUEST TIME: 0.18
+2023-04-18 00:28:46,257 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:28:46,268 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002842-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:28:46,268 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002842-tree-graph.gv')
+2023-04-18 00:28:46,269 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:28:46,269 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023002842-diagram'
+2023-04-18 00:28:46,270 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023002842-diagram']
+2023-04-18 00:28:46,329 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:29:17,608 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:29:17,942 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:29:18,348 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:29:18,392 INFO:REQUEST TIME: 0.2
+2023-04-18 00:29:18,436 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-18 00:29:18,579 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:29:18,671 INFO:REQUEST TIME: 0.23
+2023-04-18 00:29:18,723 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-18 00:29:18,846 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:29:18,852 INFO:REQUEST TIME: 0.13
+2023-04-18 00:29:18,872 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:29:19,557 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:29:19,654 INFO:REQUEST TIME: 0.78
+2023-04-18 00:29:19,688 INFO:SINGLE ITERATION TIME: 0.82
+2023-04-18 00:29:19,787 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:29:19,915 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:29:19,921 INFO:REQUEST TIME: 0.23
+2023-04-18 00:29:19,945 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-18 00:29:20,123 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:29:20,129 INFO:REQUEST TIME: 0.18
+2023-04-18 00:29:20,159 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-18 00:29:20,287 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:29:20,293 INFO:REQUEST TIME: 0.13
+2023-04-18 00:29:20,318 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-18 00:29:20,440 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:29:20,447 INFO:REQUEST TIME: 0.13
+2023-04-18 00:29:20,469 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:29:20,633 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:29:20,641 INFO:REQUEST TIME: 0.17
+2023-04-18 00:29:20,676 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-18 00:29:20,837 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:29:20,843 INFO:REQUEST TIME: 0.17
+2023-04-18 00:29:20,886 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:29:20,896 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002917-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:29:20,896 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023002917-tree-graph.gv')
+2023-04-18 00:29:20,897 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:29:20,897 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023002917-diagram'
+2023-04-18 00:29:20,898 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023002917-diagram']
+2023-04-18 00:29:20,956 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:31:20,569 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-18 00:31:20,854 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:31:21,215 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-18 00:31:21,260 INFO:REQUEST TIME: 0.2
+2023-04-18 00:31:21,307 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-18 00:31:21,441 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-18 00:31:21,534 INFO:REQUEST TIME: 0.23
+2023-04-18 00:31:21,588 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-18 00:31:21,713 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-18 00:31:21,718 INFO:REQUEST TIME: 0.13
+2023-04-18 00:31:21,738 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:31:22,565 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-18 00:31:22,910 INFO:REQUEST TIME: 1.17
+2023-04-18 00:31:22,943 INFO:SINGLE ITERATION TIME: 1.21
+2023-04-18 00:31:23,044 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-18 00:31:23,177 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-18 00:31:23,185 INFO:REQUEST TIME: 0.24
+2023-04-18 00:31:23,210 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-18 00:31:23,388 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-18 00:31:23,400 INFO:REQUEST TIME: 0.19
+2023-04-18 00:31:23,428 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-18 00:31:23,571 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-18 00:31:23,577 INFO:REQUEST TIME: 0.15
+2023-04-18 00:31:23,602 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-18 00:31:23,742 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-18 00:31:23,759 INFO:REQUEST TIME: 0.16
+2023-04-18 00:31:23,858 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-18 00:31:24,025 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-18 00:31:24,069 INFO:REQUEST TIME: 0.21
+2023-04-18 00:31:24,103 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-18 00:31:24,269 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-18 00:31:24,283 INFO:REQUEST TIME: 0.18
+2023-04-18 00:31:24,318 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:31:24,328 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023003120-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:31:24,329 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis18042023003120-tree-graph.gv')
+2023-04-18 00:31:24,329 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:31:24,329 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis18042023003120-diagram'
+2023-04-18 00:31:24,330 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis18042023003120-diagram']
+2023-04-18 00:31:24,389 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:31:45,293 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-18 00:31:45,400 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20328
+2023-04-18 00:31:45,702 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20328
+2023-04-18 00:31:45,704 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:45,782 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-18 00:31:45,807 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 84565
+2023-04-18 00:31:45,832 INFO:REQUEST TIME: 0.05
+2023-04-18 00:31:46,070 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-18 00:31:46,096 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wolna_tre%C5%9B%C4%87 HTTP/1.1" 200 None
+2023-04-18 00:31:46,105 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:46,172 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-18 00:31:46,196 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Encyklopedia HTTP/1.1" 200 26914
+2023-04-18 00:31:46,198 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:46,248 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-18 00:31:46,272 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Pierwsze_kroki HTTP/1.1" 200 15067
+2023-04-18 00:31:46,274 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:46,292 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-18 00:31:46,317 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii HTTP/1.1" 200 None
+2023-04-18 00:31:46,326 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:46,518 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-18 00:31:46,540 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii HTTP/1.1" 200 12976
+2023-04-18 00:31:46,541 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:46,561 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-18 00:31:46,584 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze HTTP/1.1" 200 38885
+2023-04-18 00:31:46,588 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:46,722 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-18 00:31:46,948 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne HTTP/1.1" 200 None
+2023-04-18 00:31:47,033 INFO:REQUEST TIME: 0.31
+2023-04-18 00:31:47,098 INFO:SINGLE ITERATION TIME: 0.38
+2023-04-18 00:31:47,121 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Technika HTTP/1.1" 200 None
+2023-04-18 00:31:47,132 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:47,217 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-18 00:31:47,262 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Geografia HTTP/1.1" 200 321385
+2023-04-18 00:31:47,318 INFO:REQUEST TIME: 0.1
+2023-04-18 00:31:49,363 INFO:SINGLE ITERATION TIME: 2.15
+2023-04-18 00:31:49,387 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Historia HTTP/1.1" 200 None
+2023-04-18 00:31:49,392 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:49,599 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-18 00:31:49,622 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kultura HTTP/1.1" 200 None
+2023-04-18 00:31:49,632 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:49,736 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-18 00:31:49,758 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Spo%C5%82ecze%C5%84stwo HTTP/1.1" 200 35449
+2023-04-18 00:31:49,760 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:49,860 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-18 00:31:49,883 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Sport HTTP/1.1" 200 20061
+2023-04-18 00:31:49,884 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:49,925 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-18 00:31:49,949 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Religioznawstwo HTTP/1.1" 200 32406
+2023-04-18 00:31:49,951 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:50,015 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-18 00:31:50,037 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Polska HTTP/1.1" 200 37673
+2023-04-18 00:31:50,039 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:50,128 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-18 00:31:50,150 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Portale HTTP/1.1" 200 20044
+2023-04-18 00:31:50,151 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:50,191 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:31:50,222 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Indeks_hase%C5%82 HTTP/1.1" 200 18759
+2023-04-18 00:31:50,223 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:50,306 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-18 00:31:50,331 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kategorie_G%C5%82%C3%B3wne HTTP/1.1" 200 20945
+2023-04-18 00:31:50,333 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:50,382 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-18 00:31:50,406 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikiprojekt:Tygodnie_tematyczne/Tydzie%C5%84_Artyku%C5%82u_Gibraltarskiego HTTP/1.1" 200 None
+2023-04-18 00:31:50,414 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:50,499 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-18 00:31:50,997 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Nowe_strony HTTP/1.1" 200 None
+2023-04-18 00:31:51,165 INFO:REQUEST TIME: 0.66
+2023-04-18 00:31:51,619 INFO:SINGLE ITERATION TIME: 1.12
+2023-04-18 00:31:51,644 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Swobnica_-_panoramio_(1).jpg HTTP/1.1" 200 17747
+2023-04-18 00:31:51,645 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:51,669 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:2022-07_Katowice_-_Ligota-Panewniki_064.jpg HTTP/1.1" 200 None
+2023-04-18 00:31:51,672 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:51,694 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zamek_w_Swobnicy HTTP/1.1" 200 19744
+2023-04-18 00:31:51,696 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:51,740 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-18 00:31:51,878 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Ommatotriton_ophryticus HTTP/1.1" 200 16591
+2023-04-18 00:31:51,880 INFO:REQUEST TIME: 0.14
+2023-04-18 00:31:51,914 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-18 00:31:51,936 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Marga_wolooczna HTTP/1.1" 200 14864
+2023-04-18 00:31:51,938 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:51,969 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:31:51,992 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Alexander_Gadjiev HTTP/1.1" 200 16642
+2023-04-18 00:31:51,994 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:52,030 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:31:52,053 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Rosemary_Eames HTTP/1.1" 200 14347
+2023-04-18 00:31:52,054 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:52,081 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:31:52,104 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kolonia_urz%C4%99dnicza_w_Katowicach-Ligocie HTTP/1.1" 200 27575
+2023-04-18 00:31:52,106 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:52,167 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-18 00:31:52,192 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikiprojekt:Czy_wiesz/propozycje HTTP/1.1" 200 None
+2023-04-18 00:31:52,249 INFO:REQUEST TIME: 0.08
+2023-04-18 00:31:53,070 INFO:SINGLE ITERATION TIME: 0.9
+2023-04-18 00:31:53,096 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Jak_napisa%C4%87_nowy_artyku%C5%82 HTTP/1.1" 200 19338
+2023-04-18 00:31:53,098 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:53,124 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:31:53,147 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Inwazja_Rosji_na_Ukrain%C4%99 HTTP/1.1" 200 162855
+2023-04-18 00:31:53,155 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:53,626 INFO:SINGLE ITERATION TIME: 0.5
+2023-04-18 00:31:53,650 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Protesty_w_Iranie_(od_2022) HTTP/1.1" 200 39033
+2023-04-18 00:31:53,652 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:53,734 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-18 00:31:53,758 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Dana_N%C4%9Bmcov%C3%A1_(2020).jpg HTTP/1.1" 200 None
+2023-04-18 00:31:53,762 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:53,785 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Dana_N%C4%9Bmcov%C3%A1 HTTP/1.1" 200 13339
+2023-04-18 00:31:53,786 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:53,813 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:31:53,835 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Guja%C5%84skie_Centrum_Kosmiczne HTTP/1.1" 200 25258
+2023-04-18 00:31:53,837 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:53,886 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-18 00:31:53,908 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jupiter_Icy_Moon_Explorer HTTP/1.1" 200 23665
+2023-04-18 00:31:53,910 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:53,962 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-18 00:31:53,984 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jowisz HTTP/1.1" 200 89559
+2023-04-18 00:31:53,988 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:54,289 INFO:SINGLE ITERATION TIME: 0.33
+2023-04-18 00:31:54,312 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Ganimedes_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 30408
+2023-04-18 00:31:54,314 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:54,391 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-18 00:31:54,413 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kallisto_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 29557
+2023-04-18 00:31:54,415 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:54,482 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-18 00:31:54,504 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Europa_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 30389
+2023-04-18 00:31:54,506 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:54,571 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-18 00:31:54,594 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kwiecie%C5%84_2023 HTTP/1.1" 200 19678
+2023-04-18 00:31:54,595 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:54,652 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-18 00:31:54,675 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Finlandia HTTP/1.1" 200 79672
+2023-04-18 00:31:54,679 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:54,905 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-18 00:31:54,927 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/NATO HTTP/1.1" 200 57763
+2023-04-18 00:31:54,930 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:55,151 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-18 00:31:55,173 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Mi%C4%99dzynarodowy_Trybuna%C5%82_Karny HTTP/1.1" 200 35482
+2023-04-18 00:31:55,175 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:55,239 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-18 00:31:55,267 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/W%C5%82adimir_Putin HTTP/1.1" 200 76884
+2023-04-18 00:31:55,270 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:55,448 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-18 00:31:55,475 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Marija_Lwowa-Bie%C5%82owa HTTP/1.1" 200 21969
+2023-04-18 00:31:55,476 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:55,521 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-18 00:31:55,543 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Marzec_2023 HTTP/1.1" 200 28013
+2023-04-18 00:31:55,545 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:55,638 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-18 00:31:55,660 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zmarli_w_kwietniu_2023 HTTP/1.1" 200 33216
+2023-04-18 00:31:55,663 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:55,751 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-18 00:31:55,773 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Ahmad_Jamal HTTP/1.1" 200 21195
+2023-04-18 00:31:55,774 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:55,936 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-18 00:31:55,960 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Mary_Quant HTTP/1.1" 200 None
+2023-04-18 00:31:55,963 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:55,997 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:31:56,018 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Anne_Perry HTTP/1.1" 200 16585
+2023-04-18 00:31:56,019 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:56,060 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:31:56,083 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jaros%C5%82aw_Br%C4%99k HTTP/1.1" 200 21994
+2023-04-18 00:31:56,084 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:56,132 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-18 00:31:56,154 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Michael_Lerner HTTP/1.1" 200 15620
+2023-04-18 00:31:56,155 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:56,188 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:31:56,212 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Maciej_Prus HTTP/1.1" 200 17218
+2023-04-18 00:31:56,212 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:56,245 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:31:56,267 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Benjamin_Ferencz HTTP/1.1" 200 19269
+2023-04-18 00:31:56,268 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:56,304 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:31:56,326 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Aktualno%C5%9Bci HTTP/1.1" 200 28773
+2023-04-18 00:31:56,329 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:56,397 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-18 00:31:56,420 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/17_kwietnia HTTP/1.1" 200 71291
+2023-04-18 00:31:56,423 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:56,620 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-18 00:31:56,643 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Imieniny HTTP/1.1" 200 60174
+2023-04-18 00:31:56,646 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:57,066 INFO:SINGLE ITERATION TIME: 0.45
+2023-04-18 00:31:57,090 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Aniceta HTTP/1.1" 200 None
+2023-04-18 00:31:57,091 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:57,106 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-18 00:31:57,128 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Eliasz_(imi%C4%99) HTTP/1.1" 200 13612
+2023-04-18 00:31:57,129 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:57,153 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:31:57,175 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Robert_(imi%C4%99) HTTP/1.1" 200 20472
+2023-04-18 00:31:57,176 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:57,226 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-18 00:31:57,249 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Galeria_Gankowa.jpg HTTP/1.1" 200 13869
+2023-04-18 00:31:57,250 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:57,274 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Atomium_at_night.jpg HTTP/1.1" 200 14831
+2023-04-18 00:31:57,275 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:57,298 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1433 HTTP/1.1" 200 21462
+2023-04-18 00:31:57,300 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:57,363 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-18 00:31:57,385 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Husytyzm HTTP/1.1" 200 19088
+2023-04-18 00:31:57,386 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:57,422 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:31:57,446 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Bolko_V_Husyta HTTP/1.1" 200 19405
+2023-04-18 00:31:57,447 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:57,507 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-18 00:31:57,530 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Obl%C4%99%C5%BCenie_%C5%BBor_(1433) HTTP/1.1" 200 16697
+2023-04-18 00:31:57,531 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:57,557 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:31:57,581 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1888 HTTP/1.1" 200 None
+2023-04-18 00:31:57,598 INFO:REQUEST TIME: 0.04
+2023-04-18 00:31:57,866 INFO:SINGLE ITERATION TIME: 0.31
+2023-04-18 00:31:57,889 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Johann_Palisa HTTP/1.1" 200 20026
+2023-04-18 00:31:57,891 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:57,940 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-18 00:31:57,994 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/(276)_Adelheid HTTP/1.1" 200 12160
+2023-04-18 00:31:57,995 INFO:REQUEST TIME: 0.05
+2023-04-18 00:31:58,017 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-18 00:31:58,040 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1913 HTTP/1.1" 200 54884
+2023-04-18 00:31:58,042 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:58,240 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-18 00:31:58,262 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Micha%C5%82_Klepfisz HTTP/1.1" 200 14204
+2023-04-18 00:31:58,263 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:58,287 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:31:58,311 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Bund_(partia) HTTP/1.1" 200 32627
+2023-04-18 00:31:58,312 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:58,377 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-18 00:31:58,399 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/%C5%BBydowska_Organizacja_Bojowa HTTP/1.1" 200 17832
+2023-04-18 00:31:58,400 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:58,428 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:31:58,450 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Powstanie_w_getcie_warszawskim HTTP/1.1" 200 61109
+2023-04-18 00:31:58,453 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:58,647 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-18 00:31:58,670 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1933 HTTP/1.1" 200 84374
+2023-04-18 00:31:58,674 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:58,989 INFO:SINGLE ITERATION TIME: 0.34
+2023-04-18 00:31:59,017 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Galeria_Gankowa HTTP/1.1" 200 13046
+2023-04-18 00:31:59,018 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:59,040 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:31:59,063 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Rysy HTTP/1.1" 200 42804
+2023-04-18 00:31:59,065 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:59,161 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-18 00:31:59,183 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Tatry_Wysokie HTTP/1.1" 200 28610
+2023-04-18 00:31:59,185 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:59,315 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:31:59,337 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wincenty_Birkenmajer HTTP/1.1" 200 14259
+2023-04-18 00:31:59,338 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:59,363 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:31:59,385 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1958 HTTP/1.1" 200 107726
+2023-04-18 00:31:59,392 INFO:REQUEST TIME: 0.03
+2023-04-18 00:31:59,783 INFO:SINGLE ITERATION TIME: 0.42
+2023-04-18 00:31:59,806 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wystawa_%C5%9Awiatowa_w_Brukseli_w_1958_roku HTTP/1.1" 200 13370
+2023-04-18 00:31:59,807 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:59,834 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:31:59,856 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Atomium HTTP/1.1" 200 17363
+2023-04-18 00:31:59,857 INFO:REQUEST TIME: 0.02
+2023-04-18 00:31:59,886 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:31:59,910 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/2003 HTTP/1.1" 200 None
+2023-04-18 00:31:59,934 INFO:REQUEST TIME: 0.05
+2023-04-18 00:32:00,367 INFO:SINGLE ITERATION TIME: 0.48
+2023-04-18 00:32:00,389 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Partia_Centrum_(Finlandia) HTTP/1.1" 200 17528
+2023-04-18 00:32:00,390 INFO:REQUEST TIME: 0.02
+2023-04-18 00:32:00,423 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:32:00,445 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Anneli_J%C3%A4%C3%A4tteenm%C3%A4ki HTTP/1.1" 200 17452
+2023-04-18 00:32:00,446 INFO:REQUEST TIME: 0.02
+2023-04-18 00:32:00,478 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:32:00,502 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/2013 HTTP/1.1" 200 None
+2023-04-18 00:32:00,531 INFO:REQUEST TIME: 0.05
+2023-04-18 00:32:01,007 INFO:SINGLE ITERATION TIME: 0.53
+2023-04-18 00:32:01,031 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Felix,_Net_i_Nika HTTP/1.1" 200 16022
+2023-04-18 00:32:01,032 INFO:REQUEST TIME: 0.02
+2023-04-18 00:32:01,066 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:32:01,089 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Felix,_Net_i_Nika_oraz_Nadprogramowe_Historie HTTP/1.1" 200 12604
+2023-04-18 00:32:01,090 INFO:REQUEST TIME: 0.02
+2023-04-18 00:32:01,112 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:32:01,135 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/16_kwietnia HTTP/1.1" 200 70006
+2023-04-18 00:32:01,138 INFO:REQUEST TIME: 0.02
+2023-04-18 00:32:01,322 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-18 00:32:01,344 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kalendarium_dzie%C5%84_po_dniu HTTP/1.1" 200 71695
+2023-04-18 00:32:01,348 INFO:REQUEST TIME: 0.03
+2023-04-18 00:32:01,635 INFO:SINGLE ITERATION TIME: 0.31
+2023-04-18 00:32:01,657 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/18_kwietnia HTTP/1.1" 200 72692
+2023-04-18 00:32:01,661 INFO:REQUEST TIME: 0.03
+2023-04-18 00:32:01,863 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-18 00:32:01,886 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Daniela_Iraschko_169.JPG HTTP/1.1" 200 None
+2023-04-18 00:32:01,890 INFO:REQUEST TIME: 0.03
+2023-04-18 00:32:01,919 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:32:01,942 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/FIS_Ladies_Grand_Prix_2003 HTTP/1.1" 200 37709
+2023-04-18 00:32:01,944 INFO:REQUEST TIME: 0.03
+2023-04-18 00:32:02,129 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-18 00:32:02,153 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/FIS_Ladies_Winter_Tournee HTTP/1.1" 200 None
+2023-04-18 00:32:02,168 INFO:REQUEST TIME: 0.04
+2023-04-18 00:32:02,487 INFO:SINGLE ITERATION TIME: 0.36
+2023-04-18 00:32:02,511 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Niemcy HTTP/1.1" 200 160955
+2023-04-18 00:32:02,518 INFO:REQUEST TIME: 0.03
+2023-04-18 00:32:02,994 INFO:SINGLE ITERATION TIME: 0.51
+2023-04-18 00:32:03,016 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Austria HTTP/1.1" 200 66508
+2023-04-18 00:32:03,020 INFO:REQUEST TIME: 0.03
+2023-04-18 00:32:03,213 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-18 00:32:03,235 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Breitenberg_(Bawaria) HTTP/1.1" 200 16187
+2023-04-18 00:32:03,236 INFO:REQUEST TIME: 0.02
+2023-04-18 00:32:03,268 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:32:03,329 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl18042023003145-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:32:03,330 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl18042023003145-tree-graph.gv')
+2023-04-18 00:32:03,330 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:32:03,330 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl18042023003145-diagram'
+2023-04-18 00:32:03,331 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl18042023003145-diagram']
+2023-04-18 00:32:03,414 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:35:20,478 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-18 00:35:20,576 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20328
+2023-04-18 00:35:20,714 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20328
+2023-04-18 00:35:20,718 INFO:REQUEST TIME: 0.03
+2023-04-18 00:35:20,944 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-18 00:35:20,973 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 84565
+2023-04-18 00:35:20,998 INFO:REQUEST TIME: 0.05
+2023-04-18 00:35:21,238 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-18 00:35:21,295 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wolna_tre%C5%9B%C4%87 HTTP/1.1" 200 29819
+2023-04-18 00:35:21,297 INFO:REQUEST TIME: 0.06
+2023-04-18 00:35:21,368 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-18 00:35:21,390 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Encyklopedia HTTP/1.1" 200 26914
+2023-04-18 00:35:21,392 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:21,574 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-18 00:35:21,597 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Pierwsze_kroki HTTP/1.1" 200 15067
+2023-04-18 00:35:21,598 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:21,616 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-18 00:35:21,640 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii HTTP/1.1" 200 29825
+2023-04-18 00:35:21,642 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:21,759 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-18 00:35:21,780 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii HTTP/1.1" 200 12976
+2023-04-18 00:35:21,781 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:21,799 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-18 00:35:21,821 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze HTTP/1.1" 200 38885
+2023-04-18 00:35:21,825 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:21,952 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-18 00:35:22,004 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne HTTP/1.1" 200 20177
+2023-04-18 00:35:22,079 INFO:REQUEST TIME: 0.05
+2023-04-18 00:35:22,157 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-18 00:35:22,178 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Technika HTTP/1.1" 200 31549
+2023-04-18 00:35:22,181 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:22,259 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-18 00:35:22,281 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Geografia HTTP/1.1" 200 321385
+2023-04-18 00:35:22,334 INFO:REQUEST TIME: 0.07
+2023-04-18 00:35:24,447 INFO:SINGLE ITERATION TIME: 2.19
+2023-04-18 00:35:24,468 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Historia HTTP/1.1" 200 21383
+2023-04-18 00:35:24,469 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:24,514 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-18 00:35:24,535 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kultura HTTP/1.1" 200 35111
+2023-04-18 00:35:24,537 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:24,636 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-18 00:35:24,661 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Spo%C5%82ecze%C5%84stwo HTTP/1.1" 200 35449
+2023-04-18 00:35:24,663 INFO:REQUEST TIME: 0.03
+2023-04-18 00:35:24,755 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-18 00:35:24,776 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Sport HTTP/1.1" 200 20061
+2023-04-18 00:35:24,777 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:24,816 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:35:24,838 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Religioznawstwo HTTP/1.1" 200 32406
+2023-04-18 00:35:24,839 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:24,913 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-18 00:35:24,935 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Polska HTTP/1.1" 200 37673
+2023-04-18 00:35:24,937 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:25,025 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-18 00:35:25,047 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Portale HTTP/1.1" 200 20044
+2023-04-18 00:35:25,048 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:25,086 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:35:25,108 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Indeks_hase%C5%82 HTTP/1.1" 200 18759
+2023-04-18 00:35:25,110 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:25,191 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-18 00:35:25,214 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kategorie_G%C5%82%C3%B3wne HTTP/1.1" 200 20945
+2023-04-18 00:35:25,215 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:25,471 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-18 00:35:25,492 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikiprojekt:Tygodnie_tematyczne/Tydzie%C5%84_Artyku%C5%82u_Gibraltarskiego HTTP/1.1" 200 31671
+2023-04-18 00:35:25,494 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:25,578 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-18 00:35:26,080 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Nowe_strony HTTP/1.1" 200 None
+2023-04-18 00:35:26,250 INFO:REQUEST TIME: 0.67
+2023-04-18 00:35:26,309 INFO:SINGLE ITERATION TIME: 0.73
+2023-04-18 00:35:26,331 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Swobnica_-_panoramio_(1).jpg HTTP/1.1" 200 17747
+2023-04-18 00:35:26,333 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:26,356 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:2022-07_Katowice_-_Ligota-Panewniki_064.jpg HTTP/1.1" 200 15754
+2023-04-18 00:35:26,357 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:26,379 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zamek_w_Swobnicy HTTP/1.1" 200 19744
+2023-04-18 00:35:26,381 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:26,424 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-18 00:35:26,445 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Ommatotriton_ophryticus HTTP/1.1" 200 16591
+2023-04-18 00:35:26,446 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:26,477 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:35:26,499 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Marga_wolooczna HTTP/1.1" 200 14864
+2023-04-18 00:35:26,500 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:26,534 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:35:26,555 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Alexander_Gadjiev HTTP/1.1" 200 16642
+2023-04-18 00:35:26,557 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:26,589 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-18 00:35:26,611 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Rosemary_Eames HTTP/1.1" 200 14347
+2023-04-18 00:35:26,612 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:26,639 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-18 00:35:26,662 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kolonia_urz%C4%99dnicza_w_Katowicach-Ligocie HTTP/1.1" 200 27575
+2023-04-18 00:35:26,664 INFO:REQUEST TIME: 0.02
+2023-04-18 00:35:26,729 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-18 00:35:26,750 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl18042023003520-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:35:26,750 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl18042023003520-tree-graph.gv')
+2023-04-18 00:35:26,751 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:35:26,751 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl18042023003520-diagram'
+2023-04-18 00:35:26,752 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl18042023003520-diagram']
+2023-04-18 00:35:26,810 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:39:04,806 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

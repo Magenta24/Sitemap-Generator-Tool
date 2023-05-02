@@ -1,0 +1,15 @@
+2023-04-17 19:12:24,061 DEBUG:Starting new HTTPS connection (1): crawler-test.com:443
+2023-04-17 19:12:24,460 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 None
+2023-04-17 19:12:25,064 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023191224-tree-graph.gv' with encoding 'utf-8'
+2023-04-17 19:12:25,065 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023191224-tree-graph.gv')
+2023-04-17 19:12:25,066 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-17 19:12:25,066 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/crawler-test17042023191224-diagram'
+2023-04-17 19:12:25,067 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'crawler-test17042023191224-diagram']
+2023-04-17 19:18:05,397 DEBUG:Starting new HTTPS connection (1): crawler-test.com:443
+2023-04-17 19:18:05,827 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 8131
+2023-04-17 19:18:06,417 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023191805-tree-graph.gv' with encoding 'utf-8'
+2023-04-17 19:18:06,417 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023191805-tree-graph.gv')
+2023-04-17 19:18:06,417 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-17 19:18:06,418 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/crawler-test17042023191805-diagram'
+2023-04-17 19:18:06,418 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'crawler-test17042023191805-diagram']
+2023-04-17 19:18:22,895 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

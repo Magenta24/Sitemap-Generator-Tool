@@ -1,0 +1,33 @@
+https://www.bdz.bg/en
+├── https://www.bdz.bg/bg
+├── https://www.bdz.bg/bg/a/prava-i-zadlzheniya-na-ptnitsite
+├── https://www.bdz.bg/en/a/bdz-information-center
+├── https://www.bdz.bg/en/a/cookies-policy
+├── https://www.bdz.bg/en/a/deklaratsiya-za-politikata-po-kachestvo-na-rkovodstvoto-na-bdzh-ptnicheski-prevozi-eood
+├── https://www.bdz.bg/en/a/eco-passenger
+├── https://www.bdz.bg/en/a/next-batch-siemens-smartron-locomotives-in-operation
+├── https://www.bdz.bg/en/a/privacy-policy
+├── https://www.bdz.bg/en/a/real-time-traffic-data-passenger-trains
+├── https://www.bdz.bg/en/a/stations
+├── https://www.bdz.bg/en/a/the-managements-of-bdz-and-cer-discussed-the-priorities-in-the-development-of-the-railway-transport
+├── https://www.bdz.bg/en/c/buyer-profile
+├── https://www.bdz.bg/en/c/information-and-contacts
+│   ├── https://www.bdz.bg/bg/c/za-nas
+│   ├── https://www.bdz.bg/en/live-updates
+│   ├── https://www.bdz.bg/en/live-updates/29-04-2023/24225
+│   ├── https://www.bdz.bg/en/live-updates/29-04-2023/24226
+│   ├── https://www.bdz.bg/en/live-updates/29-04-2023/30156
+│   └── https://www.bdz.bg/en/signal
+├── https://www.bdz.bg/en/c/international-rail
+├── https://www.bdz.bg/en/c/leadership
+├── https://www.bdz.bg/en/c/live-updates
+├── https://www.bdz.bg/en/c/news
+├── https://www.bdz.bg/en/c/offers
+├── https://www.bdz.bg/en/c/other-services
+├── https://www.bdz.bg/en/c/read-on-the-train
+├── https://www.bdz.bg/en/c/tickets-and-cards
+├── https://www.bdz.bg/en/c/tourist-trains
+├── https://www.bdz.bg/en/c/useful-information
+├── https://www.bdz.bg/en/contact-form
+├── https://www.bdz.bg/en/stats
+└── https://www.bdz.bg/ena/stations

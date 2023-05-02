@@ -1,0 +1,62 @@
+2023-04-23 05:27:48,941 DEBUG:Starting new HTTPS connection (1): www.geeksforgeeks.org:443
+2023-04-23 05:27:49,039 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:27:49,124 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:27:49,125 INFO:REQUEST TIME: 0.02
+2023-04-23 05:27:49,174 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-23 05:27:49,185 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial HTTP/1.1" 301 0
+2023-04-23 05:27:49,210 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial/ HTTP/1.1" 200 35884
+2023-04-23 05:27:49,212 INFO:REQUEST TIME: 0.04
+2023-04-23 05:27:49,293 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-23 05:27:49,304 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure HTTP/1.1" 301 0
+2023-04-23 05:27:49,323 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure/ HTTP/1.1" 200 26085
+2023-04-23 05:27:49,325 INFO:REQUEST TIME: 0.03
+2023-04-23 05:27:49,384 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:27:49,394 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list HTTP/1.1" 301 0
+2023-04-23 05:27:49,415 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list/ HTTP/1.1" 200 25468
+2023-04-23 05:27:49,417 INFO:REQUEST TIME: 0.03
+2023-04-23 05:27:49,472 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:27:49,481 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure HTTP/1.1" 301 0
+2023-04-23 05:27:49,500 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure/ HTTP/1.1" 200 26390
+2023-04-23 05:27:49,501 INFO:REQUEST TIME: 0.03
+2023-04-23 05:27:49,568 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-23 05:27:49,578 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure HTTP/1.1" 301 0
+2023-04-23 05:27:49,596 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure/ HTTP/1.1" 200 26363
+2023-04-23 05:27:49,598 INFO:REQUEST TIME: 0.03
+2023-04-23 05:27:49,694 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-23 05:27:49,704 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:27:49,724 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure/ HTTP/1.1" 200 26342
+2023-04-23 05:27:49,725 INFO:REQUEST TIME: 0.03
+2023-04-23 05:27:49,784 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:27:49,794 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:27:49,813 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure/ HTTP/1.1" 200 25717
+2023-04-23 05:27:49,814 INFO:REQUEST TIME: 0.03
+2023-04-23 05:27:49,872 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:27:49,882 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure HTTP/1.1" 301 0
+2023-04-23 05:27:49,901 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure/ HTTP/1.1" 200 25526
+2023-04-23 05:27:49,912 INFO:REQUEST TIME: 0.04
+2023-04-23 05:27:49,970 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-23 05:27:49,980 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure HTTP/1.1" 301 0
+2023-04-23 05:27:50,001 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure/ HTTP/1.1" 200 25959
+2023-04-23 05:27:50,002 INFO:REQUEST TIME: 0.03
+2023-04-23 05:27:50,058 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 05:27:50,139 ERROR:Internal Server Error: /scrap/
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py", line 71, in scrap
+    links = ss1.bfs_scraper()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 279, in bfs_scraper
+    self.pages_collected_no = len(self._collected)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: property 'pages_collected_no' of 'SiteScraper' object has no setter
+2023-04-23 05:37:22,204 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

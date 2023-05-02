@@ -1,0 +1,433 @@
+2023-04-23 06:19:24,794 DEBUG:Starting new HTTPS connection (1): en.wikipedia.org:443
+2023-04-23 06:19:24,875 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Main_Page HTTP/1.1" 200 21942
+2023-04-23 06:19:25,028 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Main_Page HTTP/1.1" 200 21942
+2023-04-23 06:19:25,031 INFO:REQUEST TIME: 0.03
+2023-04-23 06:19:25,128 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-23 06:19:25,152 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Contents HTTP/1.1" 200 73034
+2023-04-23 06:19:25,171 INFO:REQUEST TIME: 0.04
+2023-04-23 06:19:25,907 INFO:SINGLE ITERATION TIME: 0.78
+2023-04-23 06:19:25,930 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Portal:Current_events HTTP/1.1" 200 54672
+2023-04-23 06:19:25,935 INFO:REQUEST TIME: 0.03
+2023-04-23 06:19:26,549 INFO:SINGLE ITERATION TIME: 0.64
+2023-04-23 06:19:26,679 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:Random HTTP/1.1" 302 0
+2023-04-23 06:19:26,888 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Jure_Poto%C4%8Dnik HTTP/1.1" 200 None
+2023-04-23 06:19:26,893 INFO:REQUEST TIME: 0.34
+2023-04-23 06:19:26,941 INFO:SINGLE ITERATION TIME: 0.39
+2023-04-23 06:19:26,962 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:About HTTP/1.1" 200 36704
+2023-04-23 06:19:26,965 INFO:REQUEST TIME: 0.02
+2023-04-23 06:19:27,181 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 06:19:27,206 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Contact_us HTTP/1.1" 200 16713
+2023-04-23 06:19:27,207 INFO:REQUEST TIME: 0.03
+2023-04-23 06:19:27,247 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-23 06:19:27,267 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Help:Contents HTTP/1.1" 200 33428
+2023-04-23 06:19:27,270 INFO:REQUEST TIME: 0.02
+2023-04-23 06:19:27,390 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-23 06:19:27,411 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Help:Introduction HTTP/1.1" 200 21104
+2023-04-23 06:19:27,412 INFO:REQUEST TIME: 0.02
+2023-04-23 06:19:27,464 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-23 06:19:27,484 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Community_portal HTTP/1.1" 200 90449
+2023-04-23 06:19:27,493 INFO:REQUEST TIME: 0.03
+2023-04-23 06:19:28,233 INFO:SINGLE ITERATION TIME: 0.77
+2023-04-23 06:19:28,257 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:RecentChanges HTTP/1.1" 200 26716
+2023-04-23 06:19:28,258 INFO:REQUEST TIME: 0.02
+2023-04-23 06:19:28,500 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-23 06:19:28,522 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:File_upload_wizard HTTP/1.1" 200 30410
+2023-04-23 06:19:28,523 INFO:REQUEST TIME: 0.02
+2023-04-23 06:19:28,624 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-23 06:19:29,108 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:Search HTTP/1.1" 200 None
+2023-04-23 06:19:29,188 INFO:REQUEST TIME: 0.56
+2023-04-23 06:19:29,206 INFO:SINGLE ITERATION TIME: 0.58
+2023-04-23 06:19:29,493 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Special:CreateAccount&returnto=Main+Page HTTP/1.1" 200 None
+2023-04-23 06:19:29,494 INFO:REQUEST TIME: 0.29
+2023-04-23 06:19:29,510 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-23 06:19:29,698 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Special:UserLogin&returnto=Main+Page HTTP/1.1" 200 None
+2023-04-23 06:19:29,699 INFO:REQUEST TIME: 0.19
+2023-04-23 06:19:29,714 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-23 06:19:30,692 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:MyContributions HTTP/1.1" 200 None
+2023-04-23 06:19:30,859 INFO:REQUEST TIME: 1.14
+2023-04-23 06:19:31,009 INFO:SINGLE ITERATION TIME: 1.29
+2023-04-23 06:19:31,396 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:MyTalk HTTP/1.1" 200 None
+2023-04-23 06:19:31,400 INFO:REQUEST TIME: 0.39
+2023-04-23 06:19:31,435 INFO:SINGLE ITERATION TIME: 0.42
+2023-04-23 06:19:31,730 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Talk:Main_Page HTTP/1.1" 200 None
+2023-04-23 06:19:31,977 INFO:REQUEST TIME: 0.54
+2023-04-23 06:19:32,270 INFO:SINGLE ITERATION TIME: 0.83
+2023-04-23 06:19:32,736 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Main_Page&action=edit HTTP/1.1" 200 None
+2023-04-23 06:19:32,741 INFO:REQUEST TIME: 0.47
+2023-04-23 06:19:32,867 INFO:SINGLE ITERATION TIME: 0.6
+2023-04-23 06:19:33,785 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Main_Page&action=history HTTP/1.1" 200 None
+2023-04-23 06:19:33,951 INFO:REQUEST TIME: 1.08
+2023-04-23 06:19:34,218 INFO:SINGLE ITERATION TIME: 1.35
+2023-04-23 06:19:34,815 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:WhatLinksHere/Main_Page HTTP/1.1" 200 None
+2023-04-23 06:19:35,066 INFO:REQUEST TIME: 0.85
+2023-04-23 06:19:36,230 INFO:SINGLE ITERATION TIME: 2.01
+2023-04-23 06:19:37,488 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:RecentChangesLinked/Main_Page HTTP/1.1" 200 None
+2023-04-23 06:19:37,733 INFO:REQUEST TIME: 1.5
+2023-04-23 06:19:38,079 INFO:SINGLE ITERATION TIME: 1.85
+2023-04-23 06:19:38,284 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:File_Upload_Wizard HTTP/1.1" 200 None
+2023-04-23 06:19:38,371 INFO:REQUEST TIME: 0.29
+2023-04-23 06:19:38,475 INFO:SINGLE ITERATION TIME: 0.4
+2023-04-23 06:19:38,776 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:SpecialPages HTTP/1.1" 200 None
+2023-04-23 06:19:38,858 INFO:REQUEST TIME: 0.38
+2023-04-23 06:19:38,974 INFO:SINGLE ITERATION TIME: 0.5
+2023-04-23 06:19:39,305 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Main_Page&oldid=1114291180 HTTP/1.1" 200 None
+2023-04-23 06:19:39,390 INFO:REQUEST TIME: 0.42
+2023-04-23 06:19:39,488 INFO:SINGLE ITERATION TIME: 0.51
+2023-04-23 06:19:44,504 ERROR:TIMEOUT: https://en.wikipedia.org/w/index.php?title=Main_Page&action=info
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 158, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'],
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=5)
+2023-04-23 06:19:44,512 DEBUG:Starting new HTTPS connection (2): en.wikipedia.org:443
+2023-04-23 06:19:44,882 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Special:CiteThisPage&page=Main_Page&id=1114291180&wpFormIdentifier=titleform HTTP/1.1" 200 None
+2023-04-23 06:19:44,884 INFO:REQUEST TIME: 0.37
+2023-04-23 06:19:44,933 INFO:SINGLE ITERATION TIME: 0.42
+2023-04-23 06:19:45,121 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Special:DownloadAsPdf&page=Main_Page&action=show-download-screen HTTP/1.1" 200 None
+2023-04-23 06:19:45,121 INFO:REQUEST TIME: 0.19
+2023-04-23 06:19:45,143 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-23 06:19:45,450 DEBUG:https://en.wikipedia.org:443 "GET /w/index.php?title=Main_Page&printable=yes HTTP/1.1" 200 None
+2023-04-23 06:19:45,539 INFO:REQUEST TIME: 0.4
+2023-04-23 06:19:45,635 INFO:SINGLE ITERATION TIME: 0.49
+2023-04-23 06:19:45,962 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 None
+2023-04-23 06:19:46,305 INFO:REQUEST TIME: 0.67
+2023-04-23 06:19:48,245 INFO:SINGLE ITERATION TIME: 2.61
+2023-04-23 06:19:48,597 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Free_content HTTP/1.1" 200 None
+2023-04-23 06:19:48,849 INFO:REQUEST TIME: 0.6
+2023-04-23 06:19:49,272 INFO:SINGLE ITERATION TIME: 1.03
+2023-04-23 06:19:49,522 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Encyclopedia HTTP/1.1" 200 None
+2023-04-23 06:19:49,539 INFO:REQUEST TIME: 0.27
+2023-04-23 06:19:50,016 INFO:SINGLE ITERATION TIME: 0.74
+2023-04-23 06:19:50,240 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Help:Introduction_to_Wikipedia HTTP/1.1" 200 None
+2023-04-23 06:19:50,322 INFO:REQUEST TIME: 0.3
+2023-04-23 06:19:50,388 INFO:SINGLE ITERATION TIME: 0.37
+2023-04-23 06:19:50,782 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Special:Statistics HTTP/1.1" 200 None
+2023-04-23 06:19:50,864 INFO:REQUEST TIME: 0.48
+2023-04-23 06:19:50,938 INFO:SINGLE ITERATION TIME: 0.55
+2023-04-23 06:19:51,306 DEBUG:https://en.wikipedia.org:443 "GET /wiki/English_language HTTP/1.1" 200 None
+2023-04-23 06:19:51,722 INFO:REQUEST TIME: 0.78
+2023-04-23 06:19:53,890 INFO:SINGLE ITERATION TIME: 2.95
+2023-04-23 06:19:54,373 DEBUG:https://en.wikipedia.org:443 "GET /wiki/File:Angel_Locsin_at_the_premiere_of_Love_Me_Again_in_LA,_December_2008.jpg HTTP/1.1" 200 None
+2023-04-23 06:19:54,456 INFO:REQUEST TIME: 0.57
+2023-04-23 06:19:54,787 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Angel_Locsin HTTP/1.1" 200 None
+2023-04-23 06:19:55,039 INFO:REQUEST TIME: 0.58
+2023-04-23 06:19:55,844 INFO:SINGLE ITERATION TIME: 1.39
+2023-04-23 06:19:56,153 DEBUG:https://en.wikipedia.org:443 "GET /wiki/PMPC_Star_Awards_for_Movies HTTP/1.1" 200 None
+2023-04-23 06:19:56,236 INFO:REQUEST TIME: 0.39
+2023-04-23 06:19:56,419 INFO:SINGLE ITERATION TIME: 0.57
+2023-04-23 06:19:56,723 DEBUG:https://en.wikipedia.org:443 "GET /wiki/FAMAS_Award HTTP/1.1" 200 None
+2023-04-23 06:19:56,907 INFO:REQUEST TIME: 0.49
+2023-04-23 06:19:57,358 INFO:SINGLE ITERATION TIME: 0.94
+2023-04-23 06:19:57,684 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Box_Office_Entertainment_Awards HTTP/1.1" 200 None
+2023-04-23 06:19:57,768 INFO:REQUEST TIME: 0.41
+2023-04-23 06:19:58,105 INFO:SINGLE ITERATION TIME: 0.75
+2023-04-23 06:19:58,321 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Luna_Award HTTP/1.1" 200 None
+2023-04-23 06:19:58,327 INFO:REQUEST TIME: 0.22
+2023-04-23 06:19:58,554 INFO:SINGLE ITERATION TIME: 0.45
+2023-04-23 06:19:58,802 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Forbes HTTP/1.1" 200 None
+2023-04-23 06:19:58,814 INFO:REQUEST TIME: 0.26
+2023-04-23 06:19:59,076 INFO:SINGLE ITERATION TIME: 0.52
+2023-04-23 06:19:59,311 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Tatler HTTP/1.1" 200 None
+2023-04-23 06:19:59,319 INFO:REQUEST TIME: 0.24
+2023-04-23 06:19:59,583 INFO:SINGLE ITERATION TIME: 0.51
+2023-04-23 06:19:59,833 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Mulawin HTTP/1.1" 200 None
+2023-04-23 06:19:59,838 INFO:REQUEST TIME: 0.26
+2023-04-23 06:19:59,987 INFO:SINGLE ITERATION TIME: 0.4
+2023-04-23 06:20:00,354 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Darna HTTP/1.1" 200 None
+2023-04-23 06:20:00,611 INFO:REQUEST TIME: 0.62
+2023-04-23 06:20:01,699 INFO:SINGLE ITERATION TIME: 1.71
+2023-04-23 06:20:01,924 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Mars_Ravelo HTTP/1.1" 200 None
+2023-04-23 06:20:02,010 INFO:REQUEST TIME: 0.31
+2023-04-23 06:20:02,379 INFO:SINGLE ITERATION TIME: 0.68
+2023-04-23 06:20:02,698 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Darna_(2005_TV_series) HTTP/1.1" 200 None
+2023-04-23 06:20:02,769 INFO:REQUEST TIME: 0.39
+2023-04-23 06:20:02,902 INFO:SINGLE ITERATION TIME: 0.52
+2023-04-23 06:20:03,145 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Werewolf HTTP/1.1" 200 None
+2023-04-23 06:20:03,315 INFO:REQUEST TIME: 0.41
+2023-04-23 06:20:04,397 INFO:SINGLE ITERATION TIME: 1.5
+2023-04-23 06:20:04,617 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Lobo_(TV_series) HTTP/1.1" 200 None
+2023-04-23 06:20:04,782 INFO:REQUEST TIME: 0.38
+2023-04-23 06:20:05,027 INFO:SINGLE ITERATION TIME: 0.63
+2023-04-23 06:20:05,345 DEBUG:https://en.wikipedia.org:443 "GET /wiki/International_Emmy_Awards HTTP/1.1" 200 None
+2023-04-23 06:20:05,417 INFO:REQUEST TIME: 0.39
+2023-04-23 06:20:05,917 INFO:SINGLE ITERATION TIME: 0.89
+2023-04-23 06:20:06,151 DEBUG:https://en.wikipedia.org:443 "GET /wiki/International_Emmy_Award_for_Best_Actress HTTP/1.1" 200 None
+2023-04-23 06:20:06,316 INFO:REQUEST TIME: 0.4
+2023-04-23 06:20:06,716 INFO:SINGLE ITERATION TIME: 0.8
+2023-04-23 06:20:06,945 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Love_Me_Again_(Land_Down_Under) HTTP/1.1" 200 None
+2023-04-23 06:20:07,028 INFO:REQUEST TIME: 0.31
+2023-04-23 06:20:07,166 INFO:SINGLE ITERATION TIME: 0.45
+2023-04-23 06:20:07,847 DEBUG:https://en.wikipedia.org:443 "GET /wiki/In_the_Name_of_Love_(2011_film) HTTP/1.1" 200 None
+2023-04-23 06:20:07,930 INFO:REQUEST TIME: 0.76
+2023-04-23 06:20:08,084 INFO:SINGLE ITERATION TIME: 0.92
+2023-04-23 06:20:08,304 DEBUG:https://en.wikipedia.org:443 "GET /wiki/One_More_Try_(film) HTTP/1.1" 200 None
+2023-04-23 06:20:08,388 INFO:REQUEST TIME: 0.3
+2023-04-23 06:20:08,709 INFO:SINGLE ITERATION TIME: 0.63
+2023-04-23 06:20:09,027 DEBUG:https://en.wikipedia.org:443 "GET /wiki/33rd_PMPC_Star_Awards_for_Television HTTP/1.1" 200 None
+2023-04-23 06:20:09,120 INFO:REQUEST TIME: 0.41
+2023-04-23 06:20:09,592 INFO:SINGLE ITERATION TIME: 0.88
+2023-04-23 06:20:09,813 DEBUG:https://en.wikipedia.org:443 "GET /wiki/The_General%27s_Daughter_(TV_series) HTTP/1.1" 200 None
+2023-04-23 06:20:09,899 INFO:REQUEST TIME: 0.31
+2023-04-23 06:20:10,207 INFO:SINGLE ITERATION TIME: 0.61
+2023-04-23 06:20:10,527 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Featured_topics HTTP/1.1" 200 None
+2023-04-23 06:20:10,875 INFO:REQUEST TIME: 0.67
+2023-04-23 06:20:13,762 INFO:SINGLE ITERATION TIME: 3.55
+2023-04-23 06:20:13,965 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Featured_topics/Overview_of_Angel_Locsin HTTP/1.1" 200 None
+2023-04-23 06:20:13,970 INFO:REQUEST TIME: 0.21
+2023-04-23 06:20:14,028 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-23 06:20:14,260 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Renewable_energy_in_Scotland HTTP/1.1" 200 None
+2023-04-23 06:20:14,426 INFO:REQUEST TIME: 0.4
+2023-04-23 06:20:15,946 INFO:SINGLE ITERATION TIME: 1.92
+2023-04-23 06:20:16,277 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Fabula_Nova_Crystallis_Final_Fantasy HTTP/1.1" 200 None
+2023-04-23 06:20:16,607 INFO:REQUEST TIME: 0.66
+2023-04-23 06:20:17,929 INFO:SINGLE ITERATION TIME: 1.98
+2023-04-23 06:20:18,149 DEBUG:https://en.wikipedia.org:443 "GET /wiki/59th_(Staffordshire)_Infantry_Division HTTP/1.1" 200 None
+2023-04-23 06:20:18,395 INFO:REQUEST TIME: 0.47
+2023-04-23 06:20:19,615 INFO:SINGLE ITERATION TIME: 1.69
+2023-04-23 06:20:19,898 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Today%27s_featured_article/April_2023 HTTP/1.1" 200 None
+2023-04-23 06:20:20,151 INFO:REQUEST TIME: 0.54
+2023-04-23 06:20:21,371 INFO:SINGLE ITERATION TIME: 1.76
+2023-04-23 06:20:21,711 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Featured_articles HTTP/1.1" 200 None
+2023-04-23 06:20:22,135 INFO:REQUEST TIME: 0.76
+2023-04-23 06:20:30,325 INFO:SINGLE ITERATION TIME: 8.95
+2023-04-23 06:20:30,610 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:About_Today%27s_featured_article HTTP/1.1" 200 None
+2023-04-23 06:20:30,612 INFO:REQUEST TIME: 0.29
+2023-04-23 06:20:30,692 INFO:SINGLE ITERATION TIME: 0.37
+2023-04-23 06:20:31,095 DEBUG:https://en.wikipedia.org:443 "GET /wiki/File:%C5%A0ventasis_Kazimieras,_1594_cropped.jpg HTTP/1.1" 200 None
+2023-04-23 06:20:31,097 INFO:REQUEST TIME: 0.41
+2023-04-23 06:20:31,323 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Saint_Casimir HTTP/1.1" 200 None
+2023-04-23 06:20:31,412 INFO:REQUEST TIME: 0.31
+2023-04-23 06:20:32,461 INFO:SINGLE ITERATION TIME: 1.36
+2023-04-23 06:20:32,771 DEBUG:https://en.wikipedia.org:443 "GET /wiki/List_of_Lithuanian_monarchs HTTP/1.1" 200 None
+2023-04-23 06:20:32,942 INFO:REQUEST TIME: 0.48
+2023-04-23 06:20:33,981 INFO:SINGLE ITERATION TIME: 1.52
+2023-04-23 06:20:34,196 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Gediminas%27_Cap HTTP/1.1" 200 None
+2023-04-23 06:20:34,364 INFO:REQUEST TIME: 0.38
+2023-04-23 06:20:35,978 INFO:SINGLE ITERATION TIME: 2.0
+2023-04-23 06:20:36,278 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Bishop_of_Vilnius HTTP/1.1" 200 None
+2023-04-23 06:20:36,363 INFO:REQUEST TIME: 0.39
+2023-04-23 06:20:36,680 INFO:SINGLE ITERATION TIME: 0.7
+2023-04-23 06:20:36,991 DEBUG:https://en.wikipedia.org:443 "GET /wiki/The_Day_of_Books_and_Roses HTTP/1.1" 200 None
+2023-04-23 06:20:37,077 INFO:REQUEST TIME: 0.4
+2023-04-23 06:20:37,462 INFO:SINGLE ITERATION TIME: 0.78
+2023-04-23 06:20:37,802 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Barcelona HTTP/1.1" 200 None
+2023-04-23 06:20:38,148 INFO:REQUEST TIME: 0.68
+2023-04-23 06:20:42,875 INFO:SINGLE ITERATION TIME: 5.41
+2023-04-23 06:20:43,168 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Jeff_Wrana HTTP/1.1" 200 None
+2023-04-23 06:20:43,332 INFO:REQUEST TIME: 0.46
+2023-04-23 06:20:43,640 INFO:SINGLE ITERATION TIME: 0.77
+2023-04-23 06:20:43,881 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Systems_biology HTTP/1.1" 200 None
+2023-04-23 06:20:43,976 INFO:REQUEST TIME: 0.33
+2023-04-23 06:20:45,753 INFO:SINGLE ITERATION TIME: 2.11
+2023-04-23 06:20:46,105 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Breast_cancer HTTP/1.1" 200 None
+2023-04-23 06:20:46,467 INFO:REQUEST TIME: 0.71
+2023-04-23 06:20:49,421 INFO:SINGLE ITERATION TIME: 3.67
+2023-04-23 06:20:49,633 DEBUG:https://en.wikipedia.org:443 "GET /wiki/2023_London_Marathon HTTP/1.1" 200 None
+2023-04-23 06:20:49,719 INFO:REQUEST TIME: 0.3
+2023-04-23 06:20:50,582 INFO:SINGLE ITERATION TIME: 1.16
+2023-04-23 06:20:50,795 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Embassy_of_the_Philippines,_Manama HTTP/1.1" 200 None
+2023-04-23 06:20:50,885 INFO:REQUEST TIME: 0.3
+2023-04-23 06:20:51,332 INFO:SINGLE ITERATION TIME: 0.75
+2023-04-23 06:20:51,686 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Philippine_consulate_bombing_in_Jakarta HTTP/1.1" 200 None
+2023-04-23 06:20:51,769 INFO:REQUEST TIME: 0.44
+2023-04-23 06:20:52,351 INFO:SINGLE ITERATION TIME: 1.02
+2023-04-23 06:20:52,668 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Northern_Illinois_University HTTP/1.1" 200 None
+2023-04-23 06:20:52,918 INFO:REQUEST TIME: 0.57
+2023-04-23 06:20:54,256 INFO:SINGLE ITERATION TIME: 1.9
+2023-04-23 06:20:54,580 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Write-in_candidate HTTP/1.1" 200 None
+2023-04-23 06:20:54,761 INFO:REQUEST TIME: 0.5
+2023-04-23 06:20:56,410 INFO:SINGLE ITERATION TIME: 2.15
+2023-04-23 06:20:56,710 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Matt_Hicks_(basketball) HTTP/1.1" 200 None
+2023-04-23 06:20:56,877 INFO:REQUEST TIME: 0.47
+2023-04-23 06:20:57,304 INFO:SINGLE ITERATION TIME: 0.89
+2023-04-23 06:20:57,556 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Pizza_Hut HTTP/1.1" 200 None
+2023-04-23 06:20:57,649 INFO:REQUEST TIME: 0.35
+2023-04-23 06:21:00,554 INFO:SINGLE ITERATION TIME: 3.25
+2023-04-23 06:21:00,847 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Leeds_Convention HTTP/1.1" 200 None
+2023-04-23 06:21:00,930 INFO:REQUEST TIME: 0.38
+2023-04-23 06:21:01,190 INFO:SINGLE ITERATION TIME: 0.64
+2023-04-23 06:21:01,515 DEBUG:https://en.wikipedia.org:443 "GET /wiki/February_Revolution HTTP/1.1" 200 None
+2023-04-23 06:21:01,759 INFO:REQUEST TIME: 0.57
+2023-04-23 06:21:04,034 INFO:SINGLE ITERATION TIME: 2.84
+2023-04-23 06:21:04,377 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Starrett%E2%80%93Lehigh_Building HTTP/1.1" 200 None
+2023-04-23 06:21:04,623 INFO:REQUEST TIME: 0.59
+2023-04-23 06:21:06,468 INFO:SINGLE ITERATION TIME: 2.43
+2023-04-23 06:21:06,757 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Recent_additions HTTP/1.1" 200 None
+2023-04-23 06:21:07,005 INFO:REQUEST TIME: 0.54
+2023-04-23 06:21:08,720 INFO:SINGLE ITERATION TIME: 2.25
+2023-04-23 06:21:09,535 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Help:Your_first_article HTTP/1.1" 200 None
+2023-04-23 06:21:09,674 INFO:REQUEST TIME: 0.95
+2023-04-23 06:21:10,690 INFO:SINGLE ITERATION TIME: 1.97
+2023-04-23 06:21:11,107 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Template_talk:Did_you_know HTTP/1.1" 200 None
+2023-04-23 06:21:11,297 INFO:REQUEST TIME: 0.61
+2023-04-23 06:21:19,013 INFO:SINGLE ITERATION TIME: 8.32
+2023-04-23 06:21:19,433 DEBUG:https://en.wikipedia.org:443 "GET /wiki/File:StarshipLaunch_(crop_2-3).jpg HTTP/1.1" 200 None
+2023-04-23 06:21:19,517 INFO:REQUEST TIME: 0.5
+2023-04-23 06:21:19,759 DEBUG:https://en.wikipedia.org:443 "GET /wiki/SpaceX_Starship HTTP/1.1" 200 None
+2023-04-23 06:21:19,933 INFO:REQUEST TIME: 0.42
+2023-04-23 06:21:24,962 INFO:SINGLE ITERATION TIME: 5.44
+2023-04-23 06:21:25,265 DEBUG:https://en.wikipedia.org:443 "GET /wiki/SpaceX_Starship_orbital_test_flight HTTP/1.1" 200 None
+2023-04-23 06:21:25,433 INFO:REQUEST TIME: 0.47
+2023-04-23 06:21:26,930 INFO:SINGLE ITERATION TIME: 1.97
+2023-04-23 06:21:27,141 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Sanaa_crowd_crush HTTP/1.1" 200 None
+2023-04-23 06:21:27,225 INFO:REQUEST TIME: 0.29
+2023-04-23 06:21:28,065 INFO:SINGLE ITERATION TIME: 1.13
+2023-04-23 06:21:28,413 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Sanaa HTTP/1.1" 200 None
+2023-04-23 06:21:28,746 INFO:REQUEST TIME: 0.68
+2023-04-23 06:21:35,400 INFO:SINGLE ITERATION TIME: 7.33
+2023-04-23 06:21:35,705 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Dominion_Voting_Systems HTTP/1.1" 200 None
+2023-04-23 06:21:35,951 INFO:REQUEST TIME: 0.55
+2023-04-23 06:21:37,590 INFO:SINGLE ITERATION TIME: 2.19
+2023-04-23 06:21:37,811 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Dominion_Voting_Systems_v._Fox_News_Network HTTP/1.1" 200 None
+2023-04-23 06:21:37,900 INFO:REQUEST TIME: 0.31
+2023-04-23 06:21:40,741 INFO:SINGLE ITERATION TIME: 3.15
+2023-04-23 06:21:41,000 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Fox_News HTTP/1.1" 200 None
+2023-04-23 06:21:41,270 INFO:REQUEST TIME: 0.53
+2023-04-23 06:21:53,057 INFO:SINGLE ITERATION TIME: 12.32
+2023-04-23 06:21:53,410 DEBUG:https://en.wikipedia.org:443 "GET /wiki/2020_United_States_presidential_election HTTP/1.1" 200 None
+2023-04-23 06:21:53,852 INFO:REQUEST TIME: 0.79
+2023-04-23 06:22:11,021 INFO:SINGLE ITERATION TIME: 17.96
+2023-04-23 06:22:11,335 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Olkiluoto_Nuclear_Power_Plant HTTP/1.1" 200 None
+2023-04-23 06:22:11,584 INFO:REQUEST TIME: 0.56
+2023-04-23 06:22:13,774 INFO:SINGLE ITERATION TIME: 2.75
+2023-04-23 06:22:14,105 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Nuclear_reactor HTTP/1.1" 200 None
+2023-04-23 06:22:14,356 INFO:REQUEST TIME: 0.58
+2023-04-23 06:22:19,077 INFO:SINGLE ITERATION TIME: 5.3
+2023-04-23 06:22:19,327 DEBUG:https://en.wikipedia.org:443 "GET /wiki/2023_Israeli_judicial_reform_protests HTTP/1.1" 200 None
+2023-04-23 06:22:19,500 INFO:REQUEST TIME: 0.42
+2023-04-23 06:22:22,053 INFO:SINGLE ITERATION TIME: 2.98
+2023-04-23 06:22:22,429 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Russian_invasion_of_Ukraine HTTP/1.1" 200 None
+2023-04-23 06:22:22,790 INFO:REQUEST TIME: 0.74
+2023-04-23 06:22:40,231 INFO:SINGLE ITERATION TIME: 18.18
+2023-04-23 06:22:40,473 DEBUG:https://en.wikipedia.org:443 "GET /wiki/2023_Sudan_conflict HTTP/1.1" 200 None
+2023-04-23 06:22:40,722 INFO:REQUEST TIME: 0.49
+2023-04-23 06:22:46,452 INFO:SINGLE ITERATION TIME: 6.22
+2023-04-23 06:22:46,759 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Deaths_in_2023 HTTP/1.1" 200 None
+2023-04-23 06:22:47,012 INFO:REQUEST TIME: 0.56
+2023-04-23 06:22:56,824 INFO:SINGLE ITERATION TIME: 10.37
+2023-04-23 06:22:57,044 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Irma_Blank HTTP/1.1" 200 None
+2023-04-23 06:22:57,131 INFO:REQUEST TIME: 0.31
+2023-04-23 06:22:57,888 INFO:SINGLE ITERATION TIME: 1.06
+2023-04-23 06:22:58,123 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Oleh_Barna HTTP/1.1" 200 None
+2023-04-23 06:22:58,205 INFO:REQUEST TIME: 0.32
+2023-04-23 06:22:59,104 INFO:SINGLE ITERATION TIME: 1.21
+2023-04-23 06:22:59,408 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Ed_Koren HTTP/1.1" 200 None
+2023-04-23 06:22:59,491 INFO:REQUEST TIME: 0.39
+2023-04-23 06:23:00,306 INFO:SINGLE ITERATION TIME: 1.2
+2023-04-23 06:23:00,539 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Faith_Thomas HTTP/1.1" 200 None
+2023-04-23 06:23:00,623 INFO:REQUEST TIME: 0.32
+2023-04-23 06:23:01,592 INFO:SINGLE ITERATION TIME: 1.29
+2023-04-23 06:23:01,897 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Thubten_Zopa_Rinpoche HTTP/1.1" 200 None
+2023-04-23 06:23:02,066 INFO:REQUEST TIME: 0.47
+2023-04-23 06:23:05,402 INFO:SINGLE ITERATION TIME: 3.81
+2023-04-23 06:23:05,701 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Albert_del_Rosario HTTP/1.1" 200 None
+2023-04-23 06:23:05,865 INFO:REQUEST TIME: 0.46
+2023-04-23 06:23:07,163 INFO:SINGLE ITERATION TIME: 1.76
+2023-04-23 06:23:07,744 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:In_the_news/Candidates HTTP/1.1" 200 None
+2023-04-23 06:23:08,233 INFO:REQUEST TIME: 1.07
+2023-04-23 06:23:24,110 INFO:SINGLE ITERATION TIME: 16.95
+2023-04-23 06:23:24,455 DEBUG:https://en.wikipedia.org:443 "GET /wiki/April_23 HTTP/1.1" 200 None
+2023-04-23 06:23:24,704 INFO:REQUEST TIME: 0.59
+2023-04-23 06:23:30,780 INFO:SINGLE ITERATION TIME: 6.67
+2023-04-23 06:23:31,005 DEBUG:https://en.wikipedia.org:443 "GET /wiki/National_Sovereignty_and_Children%27s_Day HTTP/1.1" 200 None
+2023-04-23 06:23:31,009 INFO:REQUEST TIME: 0.23
+2023-04-23 06:23:31,692 INFO:SINGLE ITERATION TIME: 0.91
+2023-04-23 06:23:32,047 DEBUG:https://en.wikipedia.org:443 "GET /wiki/1920 HTTP/1.1" 200 None
+2023-04-23 06:23:32,377 INFO:REQUEST TIME: 0.69
+2023-04-23 06:23:46,431 INFO:SINGLE ITERATION TIME: 14.74
+2023-04-23 06:23:46,813 DEBUG:https://en.wikipedia.org:443 "GET /wiki/File:Liberation_of_Flossenb%C3%BCrg.jpg HTTP/1.1" 200 None
+2023-04-23 06:23:46,817 INFO:REQUEST TIME: 0.39
+2023-04-23 06:23:47,069 DEBUG:https://en.wikipedia.org:443 "GET /wiki/1467 HTTP/1.1" 200 None
+2023-04-23 06:23:47,153 INFO:REQUEST TIME: 0.34
+2023-04-23 06:23:48,624 INFO:SINGLE ITERATION TIME: 1.81
+2023-04-23 06:23:48,949 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Ottoman_wars_in_Europe HTTP/1.1" 200 None
+2023-04-23 06:23:49,200 INFO:REQUEST TIME: 0.58
+2023-04-23 06:23:55,239 INFO:SINGLE ITERATION TIME: 6.61
+2023-04-23 06:23:55,502 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Skanderbeg HTTP/1.1" 200 None
+2023-04-23 06:23:55,757 INFO:REQUEST TIME: 0.52
+2023-04-23 06:24:05,001 INFO:SINGLE ITERATION TIME: 9.76
+2023-04-23 06:24:05,366 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Ottoman_Empire HTTP/1.1" 200 None
+2023-04-23 06:24:05,789 INFO:REQUEST TIME: 0.79
+2023-04-23 06:24:27,214 INFO:SINGLE ITERATION TIME: 22.21
+2023-04-23 06:24:27,453 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Ballaban_Badera HTTP/1.1" 200 None
+2023-04-23 06:24:27,525 INFO:REQUEST TIME: 0.31
+2023-04-23 06:24:28,401 INFO:SINGLE ITERATION TIME: 1.19
+2023-04-23 06:24:28,719 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Siege_of_Kruj%C3%AB_(1466%E2%80%931467) HTTP/1.1" 200 None
+2023-04-23 06:24:28,887 INFO:REQUEST TIME: 0.49
+2023-04-23 06:24:32,474 INFO:SINGLE ITERATION TIME: 4.07
+2023-04-23 06:24:32,751 DEBUG:https://en.wikipedia.org:443 "GET /wiki/1945 HTTP/1.1" 200 None
+2023-04-23 06:24:33,081 INFO:REQUEST TIME: 0.61
+2023-04-23 06:24:52,894 INFO:SINGLE ITERATION TIME: 20.42
+2023-04-23 06:24:53,259 DEBUG:https://en.wikipedia.org:443 "GET /wiki/World_War_II HTTP/1.1" 200 None
+2023-04-23 06:24:53,669 INFO:REQUEST TIME: 0.77
+2023-04-23 06:25:15,599 INFO:SINGLE ITERATION TIME: 22.71
+2023-04-23 06:25:15,830 DEBUG:https://en.wikipedia.org:443 "GET /wiki/90th_Infantry_Division_(United_States) HTTP/1.1" 200 None
+2023-04-23 06:25:15,916 INFO:REQUEST TIME: 0.32
+2023-04-23 06:25:17,656 INFO:SINGLE ITERATION TIME: 2.06
+2023-04-23 06:25:17,908 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Flossenb%C3%BCrg_concentration_camp HTTP/1.1" 200 None
+2023-04-23 06:25:17,995 INFO:REQUEST TIME: 0.34
+2023-04-23 06:25:23,683 INFO:SINGLE ITERATION TIME: 6.03
+2023-04-23 06:25:23,946 DEBUG:https://en.wikipedia.org:443 "GET /wiki/1976 HTTP/1.1" 200 None
+2023-04-23 06:25:24,213 INFO:REQUEST TIME: 0.53

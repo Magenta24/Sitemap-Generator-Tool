@@ -1,0 +1,1864 @@
+2023-04-17 21:39:32,702 DEBUG:Starting new HTTPS connection (1): crawler-test.com:443
+2023-04-17 21:39:33,167 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 8132
+2023-04-17 21:39:33,692 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 None
+2023-04-17 21:39:33,693 INFO:REQUEST TIME: 0.13
+2023-04-17 21:39:34,057 INFO:SINGLE ITERATION TIME: 0.5
+2023-04-17 21:39:34,167 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop HTTP/1.1" 200 1161
+2023-04-17 21:39:34,168 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:34,171 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:34,280 DEBUG:https://crawler-test.com:443 "GET /mobile/desktop_with_AMP_as_mobile HTTP/1.1" 200 1136
+2023-04-17 21:39:34,281 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:34,283 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:34,394 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_different_h1 HTTP/1.1" 200 1135
+2023-04-17 21:39:34,395 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:34,397 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:34,505 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_different_title HTTP/1.1" 200 1129
+2023-04-17 21:39:34,506 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:34,509 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:34,618 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_different_wordcount HTTP/1.1" 200 1067
+2023-04-17 21:39:34,619 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:34,621 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:34,730 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_different_links_in HTTP/1.1" 200 1139
+2023-04-17 21:39:34,731 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:34,733 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:34,842 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_different_links_out HTTP/1.1" 200 1056
+2023-04-17 21:39:34,843 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:34,848 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:34,959 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_with_mobile_not_subdomain HTTP/1.1" 200 1133
+2023-04-17 21:39:34,960 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:34,962 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:35,070 DEBUG:https://crawler-test.com:443 "GET /mobile/desktop_with_self_canonical_mobile_and_amp HTTP/1.1" 200 1164
+2023-04-17 21:39:35,071 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:35,073 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:35,184 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_mobile_with_mobile_not_subdomain HTTP/1.1" 200 1091
+2023-04-17 21:39:35,185 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:35,187 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:35,298 DEBUG:https://crawler-test.com:443 "GET /mobile/dynamic HTTP/1.1" 200 1090
+2023-04-17 21:39:35,299 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:35,301 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:35,411 DEBUG:https://crawler-test.com:443 "GET /mobile/responsive HTTP/1.1" 200 1059
+2023-04-17 21:39:35,412 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:35,414 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:35,523 DEBUG:https://crawler-test.com:443 "GET /mobile/no_mobile_configuration HTTP/1.1" 200 1023
+2023-04-17 21:39:35,524 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:35,526 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:35,636 DEBUG:https://crawler-test.com:443 "GET /mobile/other_desktop_that_links_to_the_same_mobile_pages HTTP/1.1" 200 1137
+2023-04-17 21:39:35,637 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:35,639 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:35,741 DEBUG:https://crawler-test.com:443 "GET /mobile/amp_with_separate_mobile HTTP/1.1" 200 375
+2023-04-17 21:39:35,742 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:35,852 DEBUG:https://crawler-test.com:443 "GET /mobile/responsive_with_amp HTTP/1.1" 200 1128
+2023-04-17 21:39:35,853 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:35,855 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:35,957 DEBUG:https://crawler-test.com:443 "GET /mobile/amp_with_responsive HTTP/1.1" 200 318
+2023-04-17 21:39:35,958 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:36,069 DEBUG:https://crawler-test.com:443 "GET /mobile/no_mobile_with_amp HTTP/1.1" 200 1084
+2023-04-17 21:39:36,070 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:36,073 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:36,175 DEBUG:https://crawler-test.com:443 "GET /mobile/amp_with_no_mobile HTTP/1.1" 200 214
+2023-04-17 21:39:36,176 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:36,286 DEBUG:https://crawler-test.com:443 "GET /mobile/amp_no_references HTTP/1.1" 200 1059
+2023-04-17 21:39:36,287 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:36,290 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:36,392 DEBUG:https://crawler-test.com:443 "GET /mobile/amp_as_desktop_amp_and_mobile HTTP/1.1" 200 378
+2023-04-17 21:39:36,393 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:36,499 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_amp_with_self_canonical HTTP/1.1" 200 342
+2023-04-17 21:39:36,500 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:36,610 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_irregular_media HTTP/1.1" 200 1096
+2023-04-17 21:39:36,611 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:36,613 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:36,724 DEBUG:https://crawler-test.com:443 "GET /mobile/separate_desktop_response_header_alt HTTP/1.1" 200 1017
+2023-04-17 21:39:36,725 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:36,727 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:36,835 DEBUG:https://crawler-test.com:443 "GET /description_tags/description_with_whitespace HTTP/1.1" 200 886
+2023-04-17 21:39:36,836 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:36,839 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:36,951 DEBUG:https://crawler-test.com:443 "GET /description_tags/missing_description HTTP/1.1" 200 849
+2023-04-17 21:39:36,952 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:36,954 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:37,062 DEBUG:https://crawler-test.com:443 "GET /description_tags/no_description_nosnippet HTTP/1.1" 200 881
+2023-04-17 21:39:37,064 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:37,066 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:37,175 DEBUG:https://crawler-test.com:443 "GET /description_tags/duplicate_description HTTP/1.1" 200 855
+2023-04-17 21:39:37,176 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:37,178 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:37,287 DEBUG:https://crawler-test.com:443 "GET /description_tags/duplicate_description/foo HTTP/1.1" 200 859
+2023-04-17 21:39:37,287 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:37,290 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:37,400 DEBUG:https://crawler-test.com:443 "GET /description_tags/duplicate_description_and_noindex HTTP/1.1" 200 873
+2023-04-17 21:39:37,401 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:37,403 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:37,513 DEBUG:https://crawler-test.com:443 "GET /description_tags/duplicate_description_and_noindex/foo HTTP/1.1" 200 872
+2023-04-17 21:39:37,514 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:37,516 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:37,628 DEBUG:https://crawler-test.com:443 "GET /description_tags/description_over_max HTTP/1.1" 200 859
+2023-04-17 21:39:37,629 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:37,631 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:37,739 DEBUG:https://crawler-test.com:443 "GET /description_tags/short_meta_description HTTP/1.1" 200 854
+2023-04-17 21:39:37,741 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:37,743 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:37,854 DEBUG:https://crawler-test.com:443 "GET /description_tags/description_http_equiv HTTP/1.1" 200 857
+2023-04-17 21:39:37,855 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:37,857 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:37,966 DEBUG:https://crawler-test.com:443 "GET /encoding/page_titles_character_encoded HTTP/1.1" 200 887
+2023-04-17 21:39:37,967 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:37,975 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:38,085 DEBUG:https://crawler-test.com:443 "GET /encoding/url_with_foreign_characters/%D7%91%D7%9C%D7%94%D7%91%D7%9C%D7%94 HTTP/1.1" 200 889
+2023-04-17 21:39:38,086 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:38,089 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:38,199 DEBUG:https://crawler-test.com:443 "GET /encoding/url_with_foreign_characters/%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E5%8D%98%E8%AA%9E%E3%81%8C%E9%AB%98%E6%A0%A1%E7%A8%8B%E5%BA%A6%E3%81%AE%E8%BE%9E%E6%9B%B8%E3%81%AB%E8%BC%89%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B HTTP/1.1" 200 965
+2023-04-17 21:39:38,200 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:38,202 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:38,312 DEBUG:https://crawler-test.com:443 "GET /encoding/url_with_foreign_characters/pchn%C4%85%C4%87-w-t%C4%99-%C5%82%C3%B3d%C5%BA-je%C5%BCa-lub-o%C5%9Bm-skrzy%C5%84-fig HTTP/1.1" 200 932
+2023-04-17 21:39:38,312 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:38,315 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:38,425 DEBUG:https://crawler-test.com:443 "GET /encoding/url_with_foreign_characters/%D0%A8%D0%B5%D1%84-%D0%B2%D0%B7%D1%8A%D1%8F%D1%80%D1%91%D0%BD-%D1%82%D1%87%D0%BA-%D1%89%D0%B8%D0%BF%D1%86%D1%8B-%D1%81-%D1%8D%D1%85%D0%BE%D0%BC-%D0%B3%D1%83%D0%B4%D0%B1%D0%B0%D0%B9-%D0%96%D1%8E%D0%BB%D1%8C HTTP/1.1" 200 972
+2023-04-17 21:39:38,426 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:38,428 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:38,538 DEBUG:https://crawler-test.com:443 "GET /encoding/url_with_foreign_characters/Zw%C3%B6lf-gro%C3%9Fe-Boxk%C3%A4mpfer-jagen-Viktor-quer-%C3%BCber-den-Sylter-Deich HTTP/1.1" 200 933
+2023-04-17 21:39:38,539 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:38,541 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:38,653 DEBUG:https://crawler-test.com:443 "GET /encoding/url_with_foreign_characters/Fabio-me-exige-sin-tapujos-que-a%C3%B1ada-cerveza-al-whisky HTTP/1.1" 200 916
+2023-04-17 21:39:38,654 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:38,658 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:38,768 DEBUG:https://crawler-test.com:443 "GET /encoding/url_with_foreign_characters/%EF%B4%BF%D9%85%D8%AD%D9%85%D8%AF-%D8%B1%D8%B3%D9%88%D9%84-%D8%A7%D9%84%D9%84%D9%87-%D9%88%D8%A7%D9%84%D8%B0%D9%8A%D9%86-%D9%85%D8%B9%D9%87-%D8%A3%D8%B4%D8%AF%D8%A7%D8%A1 HTTP/1.1" 200 950
+2023-04-17 21:39:38,769 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:38,771 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:38,885 DEBUG:https://crawler-test.com:443 "GET /encoding/url_with_foreign_characters/%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CE%B9%CF%83%CF%80%CE%B1%CE%BD%CE%B9%CE%BA%CE%BF%CF%8D-%CE%B1%CE%BB%CF%86%CE%B1%CE%B2%CE%AE%CF%84%CE%BF%CF%85-%CE%BA%CE%B1%CE%B8%CF%8E%CF%82 HTTP/1.1" 200 953
+2023-04-17 21:39:38,886 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:38,888 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:38,997 DEBUG:https://crawler-test.com:443 "GET /encoding/url_with_foreign_characters/as%C3%B8d-%C3%A6ada-%C3%A5djghf-g%C3%A4gfd-as%C3%B6dsads HTTP/1.1" 200 911
+2023-04-17 21:39:38,998 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:39,000 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:39,109 DEBUG:https://crawler-test.com:443 "GET /encoding/double_encoded_url/Zw%25C3%25B6lf-gro%25C3%259Fe-Boxk%25C3%25A4mpfer-jagen-Viktor-quer-%25C3%25BCber-den-Sylter-Deich HTTP/1.1" 200 925
+2023-04-17 21:39:39,110 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:39,112 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:39,221 DEBUG:https://crawler-test.com:443 "GET /encoding/inconsistent_character_encoding HTTP/1.1" 200 206
+2023-04-17 21:39:39,222 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:39,336 DEBUG:https://crawler-test.com:443 "GET /encoding/url/encoded_hashbang%23abc HTTP/1.1" 200 863
+2023-04-17 21:39:39,337 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:39,339 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:39,449 DEBUG:https://crawler-test.com:443 "GET /titles/title_with_whitespace HTTP/1.1" 200 882
+2023-04-17 21:39:39,450 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:39,452 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:39,562 DEBUG:https://crawler-test.com:443 "GET /titles/empty_title HTTP/1.1" 200 848
+2023-04-17 21:39:39,563 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:39,564 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:39,675 DEBUG:https://crawler-test.com:443 "GET /titles/missing_title HTTP/1.1" 200 849
+2023-04-17 21:39:39,676 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:39,677 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:39,790 DEBUG:https://crawler-test.com:443 "GET /titles/duplicate_title HTTP/1.1" 200 858
+2023-04-17 21:39:39,791 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:39,792 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:39,905 DEBUG:https://crawler-test.com:443 "GET /titles/duplicate_title/foo HTTP/1.1" 200 861
+2023-04-17 21:39:39,905 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:39,907 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:40,019 DEBUG:https://crawler-test.com:443 "GET /titles/duplicate_title/bar HTTP/1.1" 200 858
+2023-04-17 21:39:40,020 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:40,022 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:40,133 DEBUG:https://crawler-test.com:443 "GET /titles/duplicate_title/baz HTTP/1.1" 200 858
+2023-04-17 21:39:40,133 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:40,136 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:40,246 DEBUG:https://crawler-test.com:443 "GET /titles/duplicate_title_and_noindex/bat HTTP/1.1" 200 875
+2023-04-17 21:39:40,247 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:40,250 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:40,362 DEBUG:https://crawler-test.com:443 "GET /titles/duplicate_title_and_noindex/bak HTTP/1.1" 200 874
+2023-04-17 21:39:40,363 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:40,365 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:40,477 DEBUG:https://crawler-test.com:443 "GET /titles/title_over_max HTTP/1.1" 200 854
+2023-04-17 21:39:40,477 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:40,479 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:40,660 DEBUG:https://crawler-test.com:443 "GET /titles/title_warning HTTP/1.1" 200 890
+2023-04-17 21:39:40,661 INFO:REQUEST TIME: 0.18
+2023-04-17 21:39:40,664 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-17 21:39:40,781 DEBUG:https://crawler-test.com:443 "GET /titles/page_title_length_n HTTP/1.1" 200 1100
+2023-04-17 21:39:40,782 INFO:REQUEST TIME: 0.12
+2023-04-17 21:39:40,804 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-17 21:39:40,913 DEBUG:https://crawler-test.com:443 "GET /titles/page_title_width_n HTTP/1.1" 200 964
+2023-04-17 21:39:40,914 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:40,926 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:41,036 DEBUG:https://crawler-test.com:443 "GET /titles/page_title_leading_trailing_spaces HTTP/1.1" 200 884
+2023-04-17 21:39:41,037 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:41,040 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:41,150 DEBUG:https://crawler-test.com:443 "GET /titles/double_triple_quadruple_spaces HTTP/1.1" 200 872
+2023-04-17 21:39:41,151 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:41,153 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:41,262 DEBUG:https://crawler-test.com:443 "GET /titles/svg_title HTTP/1.1" 200 1227
+2023-04-17 21:39:41,263 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:41,265 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:41,375 DEBUG:https://crawler-test.com:443 "GET /titles/forced_double_triple_quadruple_spaces HTTP/1.1" 200 890
+2023-04-17 21:39:41,376 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:41,378 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:41,488 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/robots_excluded HTTP/1.1" 200 914
+2023-04-17 21:39:41,489 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:41,494 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:41,606 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/deepcrawl_excluded HTTP/1.1" 200 892
+2023-04-17 21:39:41,607 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:41,610 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:41,721 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/robots_excluded_meta_noindex HTTP/1.1" 200 893
+2023-04-17 21:39:41,721 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:41,724 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:41,826 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/deepcrawl_ua_disallow/foo HTTP/1.1" 404 20
+2023-04-17 21:39:41,827 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:41,939 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/user_excluded HTTP/1.1" 200 907
+2023-04-17 21:39:41,940 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:41,944 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:42,054 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/meta_nofollow HTTP/1.1" 200 911
+2023-04-17 21:39:42,054 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:42,057 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:42,167 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/meta_noarchive HTTP/1.1" 200 874
+2023-04-17 21:39:42,168 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:42,172 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:42,284 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/meta_noindex HTTP/1.1" 200 870
+2023-04-17 21:39:42,285 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:42,287 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:42,395 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/meta_noindex_uppercase HTTP/1.1" 200 897
+2023-04-17 21:39:42,396 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:42,398 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:42,508 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/x_robots_tag_noindex HTTP/1.1" 200 862
+2023-04-17 21:39:42,509 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:42,511 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:42,621 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/page_allowed_with_robots HTTP/1.1" 200 867
+2023-04-17 21:39:42,622 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:42,624 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:42,740 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/robots_noindexed HTTP/1.1" 200 860
+2023-04-17 21:39:42,741 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:42,743 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:42,852 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/robots_noindex_conflict HTTP/1.1" 200 877
+2023-04-17 21:39:42,854 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:42,856 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:42,968 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/allowed_same_length HTTP/1.1" 200 863
+2023-04-17 21:39:42,968 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:42,971 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:43,081 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/allowed_longer HTTP/1.1" 200 860
+2023-04-17 21:39:43,082 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:43,084 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:43,194 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/meta_robots_and_x_robots_conflict HTTP/1.1" 200 879
+2023-04-17 21:39:43,195 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:43,197 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:43,308 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/robots_meta_none HTTP/1.1" 200 872
+2023-04-17 21:39:43,309 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:43,312 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:43,422 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/robots_meta_noodp_noydir_none_noindex HTTP/1.1" 200 897
+2023-04-17 21:39:43,423 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:43,425 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:43,536 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/robots_meta_multiple_tags_noindex_nofollow HTTP/1.1" 200 926
+2023-04-17 21:39:43,537 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:43,539 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:43,650 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/x_robots_multiple_directives HTTP/1.1" 200 872
+2023-04-17 21:39:43,651 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:43,653 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:43,762 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/multiple_robots_directive_meta_tag HTTP/1.1" 200 915
+2023-04-17 21:39:43,763 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:43,765 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:43,875 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/multiple_googlebot_directive_meta_tag HTTP/1.1" 200 914
+2023-04-17 21:39:43,876 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:43,878 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:43,980 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/non_200_with_noindex HTTP/1.1" 404 122
+2023-04-17 21:39:43,981 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:44,092 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/canonicalised_with_noindex HTTP/1.1" 200 907
+2023-04-17 21:39:44,093 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:44,095 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:44,197 DEBUG:https://crawler-test.com:443 "GET /robots_protocol/canonicalised_with_non_200 HTTP/1.1" 404 140
+2023-04-17 21:39:44,198 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:44,301 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_1 HTTP/1.1" 301 20
+2023-04-17 21:39:44,412 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_target HTTP/1.1" 200 859
+2023-04-17 21:39:44,413 INFO:REQUEST TIME: 0.21
+2023-04-17 21:39:44,415 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-17 21:39:44,517 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_2 HTTP/1.1" 301 20
+2023-04-17 21:39:44,620 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_1 HTTP/1.1" 301 20
+2023-04-17 21:39:44,730 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_target HTTP/1.1" 200 859
+2023-04-17 21:39:44,731 INFO:REQUEST TIME: 0.32
+2023-04-17 21:39:44,733 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-17 21:39:44,835 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_3_302 HTTP/1.1" 302 20
+2023-04-17 21:39:44,938 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_2 HTTP/1.1" 301 20
+2023-04-17 21:39:45,041 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_1 HTTP/1.1" 301 20
+2023-04-17 21:39:45,151 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_target HTTP/1.1" 200 859
+2023-04-17 21:39:45,152 INFO:REQUEST TIME: 0.42
+2023-04-17 21:39:45,155 INFO:SINGLE ITERATION TIME: 0.42
+2023-04-17 21:39:45,257 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_4_307 HTTP/1.1" 307 20
+2023-04-17 21:39:45,366 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_target HTTP/1.1" 200 859
+2023-04-17 21:39:45,367 INFO:REQUEST TIME: 0.21
+2023-04-17 21:39:45,369 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-17 21:39:45,472 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_chain_allowed HTTP/1.1" 301 20
+2023-04-17 21:39:45,574 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_chain_disallowed HTTP/1.1" 301 20
+2023-04-17 21:39:45,684 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_target HTTP/1.1" 200 859
+2023-04-17 21:39:45,685 INFO:REQUEST TIME: 0.32
+2023-04-17 21:39:45,687 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-17 21:39:45,789 DEBUG:https://crawler-test.com:443 "GET /redirects/infinite_redirect HTTP/1.1" 302 20
+2023-04-17 21:39:45,892 DEBUG:https://crawler-test.com:443 "GET /redirects/infinite_redirect HTTP/1.1" 302 20
+2023-04-17 21:39:45,996 DEBUG:https://crawler-test.com:443 "GET /redirects/infinite_redirect HTTP/1.1" 302 20
+2023-04-17 21:39:46,100 DEBUG:https://crawler-test.com:443 "GET /redirects/infinite_redirect HTTP/1.1" 302 20
+2023-04-17 21:39:46,101 ERROR:TOO MANY REDIRECTS: https://crawler-test.com/redirects/infinite_redirect
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 169, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'], allow_redirects=True, timeout=5)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 191, in resolve_redirects
+    raise TooManyRedirects(
+requests.exceptions.TooManyRedirects: Exceeded 3 redirects.
+2023-04-17 21:39:46,211 DEBUG:https://crawler-test.com:443 "GET /redirects/two_step_redirect_loop_1 HTTP/1.1" 301 20
+2023-04-17 21:39:46,315 DEBUG:https://crawler-test.com:443 "GET /redirects/two_step_redirect_loop_2 HTTP/1.1" 301 20
+2023-04-17 21:39:46,418 DEBUG:https://crawler-test.com:443 "GET /redirects/two_step_redirect_loop_3 HTTP/1.1" 301 20
+2023-04-17 21:39:46,524 DEBUG:https://crawler-test.com:443 "GET /redirects/two_step_redirect_loop_1 HTTP/1.1" 301 20
+2023-04-17 21:39:46,526 ERROR:TOO MANY REDIRECTS: https://crawler-test.com/redirects/two_step_redirect_loop_1
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 169, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'], allow_redirects=True, timeout=5)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 191, in resolve_redirects
+    raise TooManyRedirects(
+requests.exceptions.TooManyRedirects: Exceeded 3 redirects.
+2023-04-17 21:39:46,630 DEBUG:https://crawler-test.com:443 "GET /redirects/external_redirect HTTP/1.1" 302 20
+2023-04-17 21:39:46,631 DEBUG:Starting new HTTP connection (1): www.deepcrawl.com:80
+2023-04-17 21:39:46,694 DEBUG:http://www.deepcrawl.com:80 "GET / HTTP/1.1" 301 162
+2023-04-17 21:39:46,697 DEBUG:Starting new HTTPS connection (1): www.deepcrawl.com:443
+2023-04-17 21:39:46,783 DEBUG:https://www.deepcrawl.com:443 "GET / HTTP/1.1" 301 0
+2023-04-17 21:39:46,786 DEBUG:Starting new HTTPS connection (1): www.lumar.io:443
+2023-04-17 21:39:47,429 DEBUG:https://www.lumar.io:443 "GET / HTTP/1.1" 200 None
+2023-04-17 21:39:47,451 INFO:REQUEST TIME: 0.92
+2023-04-17 21:39:47,547 INFO:SINGLE ITERATION TIME: 1.02
+2023-04-17 21:39:47,650 DEBUG:https://crawler-test.com:443 "GET /redirects/invalid_redirect HTTP/1.1" 303 20
+2023-04-17 21:39:47,755 DEBUG:https://crawler-test.com:443 "GET /images/foo.jpg HTTP/1.1" 404 20
+2023-04-17 21:39:47,755 INFO:REQUEST TIME: 0.21
+2023-04-17 21:39:47,868 DEBUG:https://crawler-test.com:443 "GET /redirects/meta_redirect_1 HTTP/1.1" 200 896
+2023-04-17 21:39:47,869 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:47,872 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:47,981 DEBUG:https://crawler-test.com:443 "GET /redirects/meta_redirect_2 HTTP/1.1" 200 898
+2023-04-17 21:39:47,982 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:47,984 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:48,095 DEBUG:https://crawler-test.com:443 "GET /redirects/meta_redirect_3 HTTP/1.1" 200 897
+2023-04-17 21:39:48,095 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:48,097 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:48,207 DEBUG:https://crawler-test.com:443 "GET /redirects/infinite_meta_redirect HTTP/1.1" 200 903
+2023-04-17 21:39:48,208 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:48,210 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:48,320 DEBUG:https://crawler-test.com:443 "GET /redirects/external_meta_redirect HTTP/1.1" 200 900
+2023-04-17 21:39:48,321 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:48,323 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:48,433 DEBUG:https://crawler-test.com:443 "GET /redirects/invalid_meta_redirect HTTP/1.1" 200 893
+2023-04-17 21:39:48,434 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:48,437 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:48,546 DEBUG:https://crawler-test.com:443 "GET /redirects/header_refresh_redirect HTTP/1.1" 200 867
+2023-04-17 21:39:48,547 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:48,549 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:48,653 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_to_404 HTTP/1.1" 302 20
+2023-04-17 21:39:48,763 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_to_404_target HTTP/1.1" 404 20
+2023-04-17 21:39:48,764 INFO:REQUEST TIME: 0.22
+2023-04-17 21:39:48,874 DEBUG:https://crawler-test.com:443 "GET /redirects/url_redirect_chains HTTP/1.1" 200 911
+2023-04-17 21:39:48,875 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:48,879 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:48,982 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_content HTTP/1.1" 301 74
+2023-04-17 21:39:49,116 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 None
+2023-04-17 21:39:49,117 INFO:REQUEST TIME: 0.24
+2023-04-17 21:39:49,241 INFO:SINGLE ITERATION TIME: 0.36
+2023-04-17 21:39:49,345 DEBUG:https://crawler-test.com:443 "GET /redirects/external_redirect_chain1 HTTP/1.1" 301 20
+2023-04-17 21:39:49,451 DEBUG:https://crawler-test.com:443 "GET /redirects/external_redirect_chain2 HTTP/1.1" 301 20
+2023-04-17 21:39:49,463 DEBUG:https://www.deepcrawl.com:443 "GET / HTTP/1.1" 301 0
+2023-04-17 21:39:50,062 DEBUG:https://www.lumar.io:443 "GET / HTTP/1.1" 200 None
+2023-04-17 21:39:50,065 INFO:REQUEST TIME: 0.82
+2023-04-17 21:39:50,141 INFO:SINGLE ITERATION TIME: 0.9
+2023-04-17 21:39:50,243 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_300 HTTP/1.1" 300 20
+2023-04-17 21:39:50,244 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:50,347 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_303 HTTP/1.1" 303 20
+2023-04-17 21:39:50,459 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_target HTTP/1.1" 200 859
+2023-04-17 21:39:50,460 INFO:REQUEST TIME: 0.22
+2023-04-17 21:39:50,462 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-17 21:39:50,564 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_304 HTTP/1.1" 304 0
+2023-04-17 21:39:50,565 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:50,668 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_305 HTTP/1.1" 305 20
+2023-04-17 21:39:50,668 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:50,775 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_306 HTTP/1.1" 306 20
+2023-04-17 21:39:50,776 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:50,878 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_308 HTTP/1.1" 308 20
+2023-04-17 21:39:50,988 DEBUG:https://crawler-test.com:443 "GET /redirects/redirect_target HTTP/1.1" 200 859
+2023-04-17 21:39:50,989 INFO:REQUEST TIME: 0.21
+2023-04-17 21:39:50,991 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-17 21:39:51,094 DEBUG:https://crawler-test.com:443 "GET /javascript/window-location-internal HTTP/1.1" 200 148
+2023-04-17 21:39:51,095 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:51,198 DEBUG:https://crawler-test.com:443 "GET /javascript/window-location-external HTTP/1.1" 200 142
+2023-04-17 21:39:51,199 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:51,303 DEBUG:https://crawler-test.com:443 "GET /javascript/window-location-function-absolute HTTP/1.1" 200 215
+2023-04-17 21:39:51,304 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:51,407 DEBUG:https://crawler-test.com:443 "GET /javascript/window-location-function-relative HTTP/1.1" 200 198
+2023-04-17 21:39:51,408 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:51,519 DEBUG:https://crawler-test.com:443 "GET /links/broken_links_internal HTTP/1.1" 200 925
+2023-04-17 21:39:51,520 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:51,526 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:51,635 DEBUG:https://crawler-test.com:443 "GET /links/broken_links_external HTTP/1.1" 200 928
+2023-04-17 21:39:51,636 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:51,639 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:51,749 DEBUG:https://crawler-test.com:443 "GET /links/max_external_links HTTP/1.1" 200 1043
+2023-04-17 21:39:51,750 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:51,754 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:51,864 DEBUG:https://crawler-test.com:443 "GET /links/page_with_external_links HTTP/1.1" 200 936
+2023-04-17 21:39:51,865 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:51,867 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:51,976 DEBUG:https://crawler-test.com:443 "GET /links/nofollowed_page HTTP/1.1" 200 896
+2023-04-17 21:39:51,977 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:51,981 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:52,089 DEBUG:https://crawler-test.com:443 "GET /links/nofollow_link_with_nofollowed_backlinks HTTP/1.1" 200 925
+2023-04-17 21:39:52,090 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:52,094 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:52,204 DEBUG:https://crawler-test.com:443 "GET /links/relative_link/a/b HTTP/1.1" 200 958
+2023-04-17 21:39:52,205 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:52,209 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:52,319 DEBUG:https://crawler-test.com:443 "GET /links/relative_link_with_base/a/b HTTP/1.1" 200 986
+2023-04-17 21:39:52,320 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:52,329 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:52,437 DEBUG:https://crawler-test.com:443 "GET /links/image_links HTTP/1.1" 200 962
+2023-04-17 21:39:52,438 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:52,442 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:52,552 DEBUG:https://crawler-test.com:443 "GET /links/non_default_language HTTP/1.1" 200 859
+2023-04-17 21:39:52,553 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:52,556 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:52,665 DEBUG:https://crawler-test.com:443 "GET /links/meta_refresh HTTP/1.1" 200 874
+2023-04-17 21:39:52,666 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:52,668 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:52,778 DEBUG:https://crawler-test.com:443 "GET /links/header_refresh HTTP/1.1" 200 860
+2023-04-17 21:39:52,779 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:52,781 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:52,890 DEBUG:https://crawler-test.com:443 "GET /links/external_links_to_disallwed_urls HTTP/1.1" 200 988
+2023-04-17 21:39:52,891 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:52,893 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:53,006 DEBUG:https://crawler-test.com:443 "GET /links/non_standard_links HTTP/1.1" 200 1293
+2023-04-17 21:39:53,007 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:53,011 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:53,120 DEBUG:https://crawler-test.com:443 "GET /links/repeated_external_links HTTP/1.1" 200 905
+2023-04-17 21:39:53,121 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:53,123 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:53,268 DEBUG:https://crawler-test.com:443 "GET /links/repeated_internal_links HTTP/1.1" 200 909
+2023-04-17 21:39:53,269 INFO:REQUEST TIME: 0.15
+2023-04-17 21:39:53,271 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-17 21:39:53,385 DEBUG:https://crawler-test.com:443 "GET /links/links_with_quote_variations HTTP/1.1" 200 954
+2023-04-17 21:39:53,386 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:53,388 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:53,497 DEBUG:https://crawler-test.com:443 "GET /links/whitespace_in_links HTTP/1.1" 200 942
+2023-04-17 21:39:53,498 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:53,500 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:53,610 DEBUG:https://crawler-test.com:443 "GET /links/comma_separated_attributes HTTP/1.1" 200 875
+2023-04-17 21:39:53,611 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:53,612 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:53,724 DEBUG:https://crawler-test.com:443 "GET /links/nofollow_and_follow_link HTTP/1.1" 200 911
+2023-04-17 21:39:53,725 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:53,728 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:53,840 DEBUG:https://crawler-test.com:443 "GET /links/relative_protocol_page HTTP/1.1" 200 866
+2023-04-17 21:39:53,841 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:53,843 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:53,947 DEBUG:https://crawler-test.com:443 "GET /javascript/window-location-onchange HTTP/1.1" 200 286
+2023-04-17 21:39:53,948 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:54,052 DEBUG:https://crawler-test.com:443 "GET /javascript/window-open HTTP/1.1" 200 228
+2023-04-17 21:39:54,053 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:54,054 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:54,157 DEBUG:https://crawler-test.com:443 "GET /javascript/onmousedown HTTP/1.1" 200 211
+2023-04-17 21:39:54,158 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:54,158 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:39:54,260 DEBUG:https://crawler-test.com:443 "GET /javascript/concatenatedlink HTTP/1.1" 200 236
+2023-04-17 21:39:54,261 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:54,261 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:39:54,364 DEBUG:https://crawler-test.com:443 "GET /javascript/data-hreflink HTTP/1.1" 200 248
+2023-04-17 21:39:54,365 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:54,365 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:39:54,469 DEBUG:https://crawler-test.com:443 "GET /javascript/push_state HTTP/1.1" 200 276
+2023-04-17 21:39:54,470 INFO:REQUEST TIME: 0.1
+2023-04-17 21:39:54,582 DEBUG:https://crawler-test.com:443 "GET /urls/double_slash//one HTTP/1.1" 200 861
+2023-04-17 21:39:54,583 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:54,586 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:54,693 DEBUG:https://crawler-test.com:443 "GET /urls/double_slash////two HTTP/1.1" 200 862
+2023-04-17 21:39:54,694 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:54,696 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:54,806 DEBUG:https://crawler-test.com:443 "GET /urls/double_slash//////three HTTP/1.1" 200 862
+2023-04-17 21:39:54,807 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:54,809 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:54,921 DEBUG:https://crawler-test.com:443 "GET /urls/double_slash//////four/ HTTP/1.1" 200 864
+2023-04-17 21:39:54,922 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:54,924 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:55,034 DEBUG:https://crawler-test.com:443 "GET /urls/parameter_1_1?parameter_1=foo HTTP/1.1" 200 860
+2023-04-17 21:39:55,035 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:55,037 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:55,146 DEBUG:https://crawler-test.com:443 "GET /urls/parameter_1_2?parameter_x=x%C2%B6meter_1=foo HTTP/1.1" 200 859
+2023-04-17 21:39:55,147 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:55,149 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:55,260 DEBUG:https://crawler-test.com:443 "GET /urls/parameter_1_3?parameter_x=x%C2%B6meter_1=foo%C2%B6meter_y=y HTTP/1.1" 200 858
+2023-04-17 21:39:55,261 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:55,263 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:55,373 DEBUG:https://crawler-test.com:443 "GET /urls/parameter_2_1?parameter_1=foo HTTP/1.1" 200 857
+2023-04-17 21:39:55,374 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:55,376 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:55,486 DEBUG:https://crawler-test.com:443 "GET /urls/parameter_2_2?parameter_x=x%C2%B6meter_1=foo HTTP/1.1" 200 859
+2023-04-17 21:39:55,487 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:55,489 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:55,598 DEBUG:https://crawler-test.com:443 "GET /urls/parameter_2_3?parameter_x=x%C2%B6meter_1=foo%C2%B6meter_y=y HTTP/1.1" 200 857
+2023-04-17 21:39:55,599 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:55,601 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:55,712 DEBUG:https://crawler-test.com:443 "GET /urls/parameter?parameter_1=foo%C2%B6meter_1=bar HTTP/1.1" 200 876
+2023-04-17 21:39:55,712 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:55,714 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:55,826 DEBUG:https://crawler-test.com:443 "GET /urls/parameter?parameter_1=foo%C2%B6meter_1=foo HTTP/1.1" 200 871
+2023-04-17 21:39:55,827 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:55,829 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:55,938 DEBUG:https://crawler-test.com:443 "GET /urls/url_with_spaces/URL%20with%20spaces HTTP/1.1" 200 860
+2023-04-17 21:39:55,939 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:55,941 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:56,053 DEBUG:https://crawler-test.com:443 "GET /urls/url_with_trailing_space/%20 HTTP/1.1" 200 865
+2023-04-17 21:39:56,053 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:56,055 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:56,165 DEBUG:https://crawler-test.com:443 "GET /urls/url_with_encoded_trailing_space HTTP/1.1" 200 874
+2023-04-17 21:39:56,166 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:56,168 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:56,277 DEBUG:https://crawler-test.com:443 "GET /urls/duplication_types HTTP/1.1" 200 842
+2023-04-17 21:39:56,278 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:56,279 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:56,389 DEBUG:https://crawler-test.com:443 "GET /urls/duplication_types?tracking=yes HTTP/1.1" 200 842
+2023-04-17 21:39:56,390 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:56,391 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:56,499 DEBUG:https://crawler-test.com:443 "GET /urls/duplication_types/index.html HTTP/1.1" 200 842
+2023-04-17 21:39:56,500 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:56,502 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:56,612 DEBUG:https://crawler-test.com:443 "GET /urls/duplication_types/duplication_types HTTP/1.1" 200 842
+2023-04-17 21:39:56,613 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:56,615 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:56,726 DEBUG:https://crawler-test.com:443 "GET /urls/DUPLICATION_TYPES HTTP/1.1" 200 842
+2023-04-17 21:39:56,727 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:56,729 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:56,838 DEBUG:https://crawler-test.com:443 "GET /urls/links_to_malformed_urls HTTP/1.1" 200 918
+2023-04-17 21:39:56,839 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:56,841 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:56,951 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_page HTTP/1.1" 200 927
+2023-04-17 21:39:56,952 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:56,959 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:57,068 DEBUG:https://crawler-test.com:443 "GET /urls/unlinked_paginated_page HTTP/1.1" 200 890
+2023-04-17 21:39:57,069 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:57,071 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:57,181 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_and_noindex_page HTTP/1.1" 200 958
+2023-04-17 21:39:57,182 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:57,190 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:57,301 DEBUG:https://crawler-test.com:443 "GET /urls/links_to_non_html_filetypes HTTP/1.1" 200 977
+2023-04-17 21:39:57,301 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:57,308 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:57,419 DEBUG:https://crawler-test.com:443 "GET /urls/pages_with_hreflang HTTP/1.1" 200 940
+2023-04-17 21:39:57,420 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:57,426 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:57,534 DEBUG:https://crawler-test.com:443 "GET /urls/page_with_hreflang_header_ok HTTP/1.1" 200 929
+2023-04-17 21:39:57,535 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:57,538 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:57,649 DEBUG:https://crawler-test.com:443 "GET /urls/page_with_hreflang_header_not_ok HTTP/1.1" 200 938
+2023-04-17 21:39:57,650 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:57,652 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:57,762 DEBUG:https://crawler-test.com:443 "GET /urls/duplicate_page HTTP/1.1" 200 872
+2023-04-17 21:39:57,763 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:57,765 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:57,875 DEBUG:https://crawler-test.com:443 "GET /urls/duplicate_page/foo HTTP/1.1" 200 872
+2023-04-17 21:39:57,876 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:57,878 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:57,986 DEBUG:https://crawler-test.com:443 "GET /urls/duplicate_page/bar HTTP/1.1" 200 872
+2023-04-17 21:39:57,987 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:57,989 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:58,098 DEBUG:https://crawler-test.com:443 "GET /urls/duplicate_page/baz HTTP/1.1" 200 872
+2023-04-17 21:39:58,099 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:58,101 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:58,215 DEBUG:https://crawler-test.com:443 "GET /urls/with_session_id?sessionID=uNbTb3RfLKClCe8HepPF HTTP/1.1" 200 865
+2023-04-17 21:39:58,216 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:58,218 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:39:58,328 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length_n HTTP/1.1" 200 1146
+2023-04-17 21:39:58,329 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:58,394 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-17 21:39:58,503 DEBUG:https://crawler-test.com:443 "GET /urls/url_with_fragment HTTP/1.1" 200 864
+2023-04-17 21:39:58,504 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:58,506 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:58,617 DEBUG:https://crawler-test.com:443 "GET /url/URL%2C_with_encoded_reserved_character HTTP/1.1" 200 873
+2023-04-17 21:39:58,618 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:58,620 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:58,730 DEBUG:https://crawler-test.com:443 "GET /url/URL_with_encoded_unreserved_character HTTP/1.1" 200 875
+2023-04-17 21:39:58,731 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:58,733 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:58,843 DEBUG:https://crawler-test.com:443 "GET /url/with_encoded_space HTTP/1.1" 200 864
+2023-04-17 21:39:58,843 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:58,846 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:58,955 DEBUG:https://crawler-test.com:443 "GET /url/with_encoded_%C3%B3_character HTTP/1.1" 200 873
+2023-04-17 21:39:58,956 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:58,958 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:59,068 DEBUG:https://crawler-test.com:443 "GET /urls/directory_index HTTP/1.1" 200 862
+2023-04-17 21:39:59,069 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:59,071 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:59,180 DEBUG:https://crawler-test.com:443 "GET /urls/directory_index/index.htm HTTP/1.1" 200 865
+2023-04-17 21:39:59,181 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:59,184 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:59,294 DEBUG:https://crawler-test.com:443 "GET /urls/directory_index/default.htm HTTP/1.1" 200 866
+2023-04-17 21:39:59,295 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:59,297 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:59,407 DEBUG:https://crawler-test.com:443 "GET /urls/directory_index/index.html HTTP/1.1" 200 865
+2023-04-17 21:39:59,408 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:59,410 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:59,519 DEBUG:https://crawler-test.com:443 "GET /urls/directory_index/index HTTP/1.1" 200 865
+2023-04-17 21:39:59,520 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:59,522 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:59,631 DEBUG:https://crawler-test.com:443 "GET /relative_base_source HTTP/1.1" 200 901
+2023-04-17 21:39:59,632 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:59,635 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:59,746 DEBUG:https://crawler-test.com:443 "GET /one/two/three/four HTTP/1.1" 200 857
+2023-04-17 21:39:59,747 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:59,749 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:59,859 DEBUG:https://crawler-test.com:443 "GET /one/two/three/four/five HTTP/1.1" 200 858
+2023-04-17 21:39:59,860 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:59,862 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:39:59,973 DEBUG:https://crawler-test.com:443 "GET /one/two/three/four/five/six HTTP/1.1" 200 856
+2023-04-17 21:39:59,974 INFO:REQUEST TIME: 0.11
+2023-04-17 21:39:59,976 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:00,086 DEBUG:https://crawler-test.com:443 "GET /one/two/three/four/five/six/seven HTTP/1.1" 200 858
+2023-04-17 21:40:00,087 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:00,089 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:00,198 DEBUG:https://crawler-test.com:443 "GET /path/1/path/2 HTTP/1.1" 200 853
+2023-04-17 21:40:00,199 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:00,202 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:00,312 DEBUG:https://crawler-test.com:443 "GET /path/1/path/2/path/3 HTTP/1.1" 200 856
+2023-04-17 21:40:00,313 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:00,316 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:00,418 DEBUG:https://crawler-test.com:443 "GET /urls/multiple_slashes///200_404 HTTP/1.1" 200 55
+2023-04-17 21:40:00,419 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:00,522 DEBUG:https://crawler-test.com:443 "GET /urls/multiple_slashes///404_200 HTTP/1.1" 404 20
+2023-04-17 21:40:00,523 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:00,634 DEBUG:https://crawler-test.com:443 "GET //urls/double_slash/disallowed_start HTTP/1.1" 200 869
+2023-04-17 21:40:00,634 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:00,637 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:00,746 DEBUG:https://crawler-test.com:443 "GET /urls/double_slash//disallowed_middle HTTP/1.1" 200 871
+2023-04-17 21:40:00,747 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:00,749 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:00,859 DEBUG:https://crawler-test.com:443 "GET /urls/double_slash/disallowed_end/ HTTP/1.1" 200 871
+2023-04-17 21:40:00,860 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:00,862 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:00,995 DEBUG:https://crawler-test.com:443 "GET /?parameter-on-hostname-root=parameter-value HTTP/1.1" 200 8128
+2023-04-17 21:40:00,996 INFO:REQUEST TIME: 0.13
+2023-04-17 21:40:01,124 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-17 21:40:01,242 DEBUG:https://crawler-test.com:443 "GET /?removed_parameter=1&retained_parameter=1 HTTP/1.1" 200 8127
+2023-04-17 21:40:01,243 INFO:REQUEST TIME: 0.12
+2023-04-17 21:40:01,375 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-17 21:40:01,486 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/relative_root_canonical_tag HTTP/1.1" 200 885
+2023-04-17 21:40:01,487 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:01,489 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:01,601 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/relative_canonical_tag HTTP/1.1" 200 886
+2023-04-17 21:40:01,601 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:01,603 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:01,717 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag HTTP/1.1" 200 880
+2023-04-17 21:40:01,718 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:01,720 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:40:01,830 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag_uppercase HTTP/1.1" 200 893
+2023-04-17 21:40:01,831 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:01,833 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:01,946 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/2 HTTP/1.1" 200 881
+2023-04-17 21:40:01,947 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:01,949 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:02,058 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/3 HTTP/1.1" 200 883
+2023-04-17 21:40:02,059 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:02,061 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:02,171 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/4 HTTP/1.1" 200 883
+2023-04-17 21:40:02,173 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:02,175 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:02,284 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/5 HTTP/1.1" 200 881
+2023-04-17 21:40:02,285 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:02,287 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:02,399 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/6 HTTP/1.1" 200 880
+2023-04-17 21:40:02,400 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:02,402 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:40:02,511 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/7 HTTP/1.1" 200 882
+2023-04-17 21:40:02,512 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:02,516 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:02,625 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/8 HTTP/1.1" 200 881
+2023-04-17 21:40:02,627 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:02,629 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:02,738 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/9 HTTP/1.1" 200 882
+2023-04-17 21:40:02,739 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:02,741 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:02,852 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/10 HTTP/1.1" 200 883
+2023-04-17 21:40:02,853 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:02,855 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:02,965 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/11 HTTP/1.1" 200 882
+2023-04-17 21:40:02,966 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:02,968 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:03,078 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/12 HTTP/1.1" 200 882
+2023-04-17 21:40:03,079 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:03,081 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:03,189 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/13 HTTP/1.1" 200 882
+2023-04-17 21:40:03,190 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:03,192 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:03,306 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/14 HTTP/1.1" 200 883
+2023-04-17 21:40:03,307 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:03,309 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:40:03,419 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/15 HTTP/1.1" 200 882
+2023-04-17 21:40:03,420 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:03,422 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:03,535 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/16 HTTP/1.1" 200 882
+2023-04-17 21:40:03,535 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:03,538 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:40:03,650 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/17 HTTP/1.1" 200 883
+2023-04-17 21:40:03,651 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:03,653 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:03,764 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/18 HTTP/1.1" 200 882
+2023-04-17 21:40:03,764 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:03,767 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:03,878 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/19 HTTP/1.1" 200 884
+2023-04-17 21:40:03,878 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:03,880 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:03,993 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/20 HTTP/1.1" 200 883
+2023-04-17 21:40:03,994 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:03,996 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:40:04,106 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/21 HTTP/1.1" 200 883
+2023-04-17 21:40:04,107 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:04,109 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:04,218 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/22 HTTP/1.1" 200 881
+2023-04-17 21:40:04,219 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:04,221 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:04,332 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/23 HTTP/1.1" 200 882
+2023-04-17 21:40:04,333 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:04,335 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:04,443 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/24 HTTP/1.1" 200 884
+2023-04-17 21:40:04,444 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:04,446 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:04,556 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag/25 HTTP/1.1" 200 883
+2023-04-17 21:40:04,557 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:04,559 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:04,669 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag_like_page HTTP/1.1" 200 901
+2023-04-17 21:40:04,669 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:04,673 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:04,783 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_duplicate_description HTTP/1.1" 200 894
+2023-04-17 21:40:04,783 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:04,786 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:04,895 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag_in_header HTTP/1.1" 200 865
+2023-04-17 21:40:04,896 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:04,899 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:05,009 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag_outside_head HTTP/1.1" 200 897
+2023-04-17 21:40:05,010 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:05,012 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:05,123 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag_html_header_conflict HTTP/1.1" 200 902
+2023-04-17 21:40:05,124 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:05,126 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:05,235 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag_html_conflict HTTP/1.1" 200 905
+2023-04-17 21:40:05,236 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:05,238 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:05,348 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/page_with_external_canonical HTTP/1.1" 200 894
+2023-04-17 21:40:05,349 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:05,351 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:05,461 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/page_without_canonical_tag HTTP/1.1" 200 868
+2023-04-17 21:40:05,462 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:05,464 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:05,575 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/unlinked_canonical HTTP/1.1" 200 899
+2023-04-17 21:40:05,576 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:05,580 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:05,689 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag_og_url_conflict HTTP/1.1" 200 947
+2023-04-17 21:40:05,690 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:05,692 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:05,803 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_tag_with_self_reference HTTP/1.1" 200 900
+2023-04-17 21:40:05,803 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:05,806 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:05,917 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonicalised_to_disallowed_url HTTP/1.1" 200 910
+2023-04-17 21:40:05,918 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:05,920 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:06,029 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/unlinked_canonical_header HTTP/1.1" 200 868
+2023-04-17 21:40:06,030 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:06,033 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:06,143 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/non_head_canonical HTTP/1.1" 200 914
+2023-04-17 21:40:06,144 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:06,146 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:06,272 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/non_head_canonical_link HTTP/1.1" 200 941
+2023-04-17 21:40:06,273 INFO:REQUEST TIME: 0.13
+2023-04-17 21:40:06,275 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-17 21:40:06,386 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/non_head_canonical_link_2 HTTP/1.1" 200 945
+2023-04-17 21:40:06,387 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:06,389 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:06,503 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_port_80 HTTP/1.1" 200 908
+2023-04-17 21:40:06,504 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:06,506 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:40:06,617 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_port_443 HTTP/1.1" 200 909
+2023-04-17 21:40:06,618 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:06,620 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:06,731 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_port_8080 HTTP/1.1" 200 912
+2023-04-17 21:40:06,732 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:06,734 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:06,846 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_url_encoded_vs_non_encoded/caf%C3%A9 HTTP/1.1" 200 927
+2023-04-17 21:40:06,846 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:06,849 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:06,958 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_url_encoded_vs_non_encoded/%F0%9F%8D%BA/ist HTTP/1.1" 200 935
+2023-04-17 21:40:06,959 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:06,961 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:07,071 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_prameter_key_is_case_sensitive?key=value HTTP/1.1" 200 931
+2023-04-17 21:40:07,072 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:07,074 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:07,188 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_prameter_value_is_case_sensitive?key=value HTTP/1.1" 200 930
+2023-04-17 21:40:07,189 INFO:REQUEST TIME: 0.12
+2023-04-17 21:40:07,191 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:40:07,303 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_url_fragments HTTP/1.1" 200 910
+2023-04-17 21:40:07,304 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:07,306 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:07,417 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_different_parameter_order?key2=value2&key=value HTTP/1.1" 200 934
+2023-04-17 21:40:07,418 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:07,421 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:07,529 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_hostname_case_insensitive HTTP/1.1" 200 923
+2023-04-17 21:40:07,530 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:07,533 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:07,647 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_protocol_case_insensitive HTTP/1.1" 200 918
+2023-04-17 21:40:07,648 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:07,650 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:40:07,759 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_path_is_case_sensitive HTTP/1.1" 200 914
+2023-04-17 21:40:07,761 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:07,763 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:07,874 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_url_with_slash HTTP/1.1" 200 919
+2023-04-17 21:40:07,875 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:07,877 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:07,985 DEBUG:https://crawler-test.com:443 "GET /canonical_tags/canonical_trailing_dot HTTP/1.1" 200 931
+2023-04-17 21:40:07,986 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:07,989 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:13,003 ERROR:TIMEOUT: https://crawler-test.com/status_codes/status_100
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='crawler-test.com', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 169, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'], allow_redirects=True, timeout=5)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='crawler-test.com', port=443): Read timed out. (read timeout=5)
+2023-04-17 21:40:13,024 DEBUG:Starting new HTTPS connection (2): crawler-test.com:443
+2023-04-17 21:40:18,364 ERROR:TIMEOUT: https://crawler-test.com/status_codes/status_101
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='crawler-test.com', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 169, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'], allow_redirects=True, timeout=5)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='crawler-test.com', port=443): Read timed out. (read timeout=5)
+2023-04-17 21:40:18,372 DEBUG:Starting new HTTPS connection (3): crawler-test.com:443
+2023-04-17 21:40:23,665 ERROR:TIMEOUT: https://crawler-test.com/status_codes/status_102
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='crawler-test.com', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 169, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'], allow_redirects=True, timeout=5)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='crawler-test.com', port=443): Read timed out. (read timeout=5)
+2023-04-17 21:40:23,670 DEBUG:Starting new HTTPS connection (4): crawler-test.com:443
+2023-04-17 21:40:24,045 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_200 HTTP/1.1" 200 46
+2023-04-17 21:40:24,046 INFO:REQUEST TIME: 0.38
+2023-04-17 21:40:24,145 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_201 HTTP/1.1" 201 46
+2023-04-17 21:40:24,146 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:24,244 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_202 HTTP/1.1" 202 46
+2023-04-17 21:40:24,245 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:24,345 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_203 HTTP/1.1" 203 46
+2023-04-17 21:40:24,345 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:24,443 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_204 HTTP/1.1" 204 0
+2023-04-17 21:40:24,444 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:24,540 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_205 HTTP/1.1" 205 0
+2023-04-17 21:40:24,541 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:24,639 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_206 HTTP/1.1" 206 46
+2023-04-17 21:40:24,640 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:24,740 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_207 HTTP/1.1" 207 46
+2023-04-17 21:40:24,741 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:24,838 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_226 HTTP/1.1" 226 46
+2023-04-17 21:40:24,839 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:24,936 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_400 HTTP/1.1" 400 46
+2023-04-17 21:40:24,937 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:25,036 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_401 HTTP/1.1" 401 46
+2023-04-17 21:40:25,037 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:25,136 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_402 HTTP/1.1" 402 46
+2023-04-17 21:40:25,137 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:25,236 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_403 HTTP/1.1" 403 46
+2023-04-17 21:40:25,237 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:25,338 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_404 HTTP/1.1" 404 20
+2023-04-17 21:40:25,339 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:25,436 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_405 HTTP/1.1" 405 46
+2023-04-17 21:40:25,437 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:25,535 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_406 HTTP/1.1" 406 46
+2023-04-17 21:40:25,536 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:25,633 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_407 HTTP/1.1" 407 46
+2023-04-17 21:40:25,634 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:25,732 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_408 HTTP/1.1" 408 46
+2023-04-17 21:40:25,733 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:25,835 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_409 HTTP/1.1" 409 46
+2023-04-17 21:40:25,836 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:25,937 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_410 HTTP/1.1" 410 46
+2023-04-17 21:40:25,938 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:26,035 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_411 HTTP/1.1" 411 46
+2023-04-17 21:40:26,036 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:26,134 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_412 HTTP/1.1" 412 46
+2023-04-17 21:40:26,134 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:26,233 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_413 HTTP/1.1" 413 46
+2023-04-17 21:40:26,234 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:26,335 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_414 HTTP/1.1" 414 46
+2023-04-17 21:40:26,336 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:26,434 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_415 HTTP/1.1" 415 46
+2023-04-17 21:40:26,435 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:26,534 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_416 HTTP/1.1" 416 46
+2023-04-17 21:40:26,536 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:26,637 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_417 HTTP/1.1" 417 46
+2023-04-17 21:40:26,638 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:26,736 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_418 HTTP/1.1" 418 46
+2023-04-17 21:40:26,737 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:26,836 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_419 HTTP/1.1" 419 46
+2023-04-17 21:40:26,837 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:26,936 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_420 HTTP/1.1" 420 46
+2023-04-17 21:40:26,937 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:27,036 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_421 HTTP/1.1" 421 46
+2023-04-17 21:40:27,037 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:27,137 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_422 HTTP/1.1" 422 46
+2023-04-17 21:40:27,138 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:27,238 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_423 HTTP/1.1" 423 46
+2023-04-17 21:40:27,239 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:27,337 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_424 HTTP/1.1" 424 46
+2023-04-17 21:40:27,337 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:27,437 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_426 HTTP/1.1" 426 46
+2023-04-17 21:40:27,437 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:27,538 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_428 HTTP/1.1" 428 46
+2023-04-17 21:40:27,539 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:27,639 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_429 HTTP/1.1" 429 46
+2023-04-17 21:40:27,640 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:27,755 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_431 HTTP/1.1" 431 46
+2023-04-17 21:40:27,756 INFO:REQUEST TIME: 0.12
+2023-04-17 21:40:27,858 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_440 HTTP/1.1" 440 46
+2023-04-17 21:40:27,859 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:27,960 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_444 HTTP/1.1" 444 46
+2023-04-17 21:40:27,961 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:28,061 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_449 HTTP/1.1" 449 46
+2023-04-17 21:40:28,062 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:28,160 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_450 HTTP/1.1" 450 46
+2023-04-17 21:40:28,161 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:28,261 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_451 HTTP/1.1" 451 46
+2023-04-17 21:40:28,261 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:28,360 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_494 HTTP/1.1" 494 46
+2023-04-17 21:40:28,361 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:28,460 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_495 HTTP/1.1" 495 46
+2023-04-17 21:40:28,461 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:28,559 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_496 HTTP/1.1" 496 46
+2023-04-17 21:40:28,560 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:28,659 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_497 HTTP/1.1" 497 46
+2023-04-17 21:40:28,660 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:28,761 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_498 HTTP/1.1" 498 46
+2023-04-17 21:40:28,762 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:28,865 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_499 HTTP/1.1" 499 46
+2023-04-17 21:40:28,866 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:28,965 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_500 HTTP/1.1" 500 46
+2023-04-17 21:40:28,966 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:29,066 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_501 HTTP/1.1" 501 46
+2023-04-17 21:40:29,067 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:29,167 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_502 HTTP/1.1" 502 46
+2023-04-17 21:40:29,168 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:29,268 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_503 HTTP/1.1" 503 46
+2023-04-17 21:40:29,269 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:29,371 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_504 HTTP/1.1" 504 46
+2023-04-17 21:40:29,372 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:29,471 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_505 HTTP/1.1" 505 46
+2023-04-17 21:40:29,472 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:29,575 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_506 HTTP/1.1" 506 46
+2023-04-17 21:40:29,577 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:29,677 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_507 HTTP/1.1" 507 46
+2023-04-17 21:40:29,678 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:29,778 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_508 HTTP/1.1" 508 46
+2023-04-17 21:40:29,778 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:29,875 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_509 HTTP/1.1" 509 46
+2023-04-17 21:40:29,877 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:29,975 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_510 HTTP/1.1" 510 46
+2023-04-17 21:40:29,977 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:30,076 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_511 HTTP/1.1" 511 46
+2023-04-17 21:40:30,077 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:30,179 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_520 HTTP/1.1" 520 46
+2023-04-17 21:40:30,180 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:30,279 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_598 HTTP/1.1" 598 46
+2023-04-17 21:40:30,280 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:30,379 DEBUG:https://crawler-test.com:443 "GET /status_codes/status_599 HTTP/1.1" 599 46
+2023-04-17 21:40:30,380 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:30,479 DEBUG:https://crawler-test.com:443 "GET /social_tags/open_graph_tags HTTP/1.1" 200 1084
+2023-04-17 21:40:30,480 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:30,483 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:30,582 DEBUG:https://crawler-test.com:443 "GET /social_tags/twitter_card_page/1 HTTP/1.1" 200 1107
+2023-04-17 21:40:30,583 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:30,585 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:30,686 DEBUG:https://crawler-test.com:443 "GET /social_tags/twitter_card_page/2 HTTP/1.1" 200 1124
+2023-04-17 21:40:30,687 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:30,690 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:30,791 DEBUG:https://crawler-test.com:443 "GET /social_tags/og_no_twitter HTTP/1.1" 200 1040
+2023-04-17 21:40:30,792 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:30,794 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:30,893 DEBUG:https://crawler-test.com:443 "GET /social_tags/max_twitter_card_description_length HTTP/1.1" 200 1031
+2023-04-17 21:40:30,894 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:30,896 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:30,996 DEBUG:https://crawler-test.com:443 "GET /content/custom_text HTTP/1.1" 200 870
+2023-04-17 21:40:30,997 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:30,999 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:31,097 DEBUG:https://crawler-test.com:443 "GET /content/error_page HTTP/1.1" 500 46
+2023-04-17 21:40:31,098 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:31,199 DEBUG:https://crawler-test.com:443 "GET /content/above_min_content_volume HTTP/1.1" 200 889
+2023-04-17 21:40:31,200 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:31,202 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:31,309 DEBUG:https://crawler-test.com:443 "GET /content/no_h1 HTTP/1.1" 200 849
+2023-04-17 21:40:31,310 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:31,312 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:31,413 DEBUG:https://crawler-test.com:443 "GET /content/h1_in_img HTTP/1.1" 200 919
+2023-04-17 21:40:31,414 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:31,416 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:31,512 DEBUG:https://crawler-test.com:443 "GET /content/mult_h1 HTTP/1.1" 200 869
+2023-04-17 21:40:31,513 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:31,515 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:31,612 DEBUG:https://crawler-test.com:443 "GET /content/page_html_size_n HTTP/1.1" 200 943
+2023-04-17 21:40:31,613 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:31,619 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:31,716 DEBUG:https://crawler-test.com:443 "GET /content/page_content_size_n HTTP/1.1" 200 943
+2023-04-17 21:40:31,717 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:31,723 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:31,824 DEBUG:https://crawler-test.com:443 "GET /content/meta_content_type_text_html HTTP/1.1" 200 892
+2023-04-17 21:40:31,825 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:31,827 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:31,924 DEBUG:https://crawler-test.com:443 "GET /content/meta_content_type_malformed HTTP/1.1" 200 895
+2023-04-17 21:40:31,925 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:31,927 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:32,026 DEBUG:https://crawler-test.com:443 "GET /content/word_count_100_words HTTP/1.1" 200 1053
+2023-04-17 21:40:32,027 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:32,132 DEBUG:https://crawler-test.com:443 "GET /content/word_count_number HTTP/1.1" 200 720
+2023-04-17 21:40:32,133 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:32,233 DEBUG:https://crawler-test.com:443 "GET /content/word_count_hyphenated HTTP/1.1" 200 715
+2023-04-17 21:40:32,234 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:32,333 DEBUG:https://crawler-test.com:443 "GET /content/word_count_symbols HTTP/1.1" 200 740
+2023-04-17 21:40:32,334 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:32,433 DEBUG:https://crawler-test.com:443 "GET /content/word_count_script HTTP/1.1" 200 735
+2023-04-17 21:40:32,433 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:32,534 DEBUG:https://crawler-test.com:443 "GET /content/custom_extraction_text HTTP/1.1" 200 3064
+2023-04-17 21:40:32,535 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:32,537 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:32,635 DEBUG:https://crawler-test.com:443 "GET /content/multiple_titles_and_descriptions HTTP/1.1" 200 876
+2023-04-17 21:40:32,636 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:32,638 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:32,737 DEBUG:https://crawler-test.com:443 "GET /content/title_with_newline_quote_doublequote_and_comma_characters HTTP/1.1" 200 873
+2023-04-17 21:40:32,738 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:32,740 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:32,838 DEBUG:https://crawler-test.com:443 "GET /content/header_content_type_malformed HTTP/1.1" 200 867
+2023-04-17 21:40:32,839 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:32,841 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:32,932 DEBUG:https://crawler-test.com:443 "GET /javascript/window-location-onclick HTTP/1.1" 200 195
+2023-04-17 21:40:32,933 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:32,933 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-17 21:40:33,025 DEBUG:https://crawler-test.com:443 "GET /javascript/onclick-reveals-element-programmatically-added-onclick HTTP/1.1" 200 351
+2023-04-17 21:40:33,026 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:33,026 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-17 21:40:33,116 DEBUG:https://crawler-test.com:443 "GET /javascript/ajax-return-data HTTP/1.1" 200 361
+2023-04-17 21:40:33,117 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:33,209 DEBUG:https://crawler-test.com:443 "GET /javascript/dynamically-inserted-text HTTP/1.1" 200 397
+2023-04-17 21:40:33,210 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:33,301 DEBUG:https://crawler-test.com:443 "GET /javascript/dynamically-inserted-text-meta-data HTTP/1.1" 200 230
+2023-04-17 21:40:33,302 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:33,393 DEBUG:https://crawler-test.com:443 "GET /javascript/dynamically-inserted-nofollow HTTP/1.1" 200 247
+2023-04-17 21:40:33,394 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:33,485 DEBUG:https://crawler-test.com:443 "GET /javascript/onload-added-title HTTP/1.1" 200 222
+2023-04-17 21:40:33,486 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:33,577 DEBUG:https://crawler-test.com:443 "GET /javascript/onload-inserted-canonical HTTP/1.1" 200 248
+2023-04-17 21:40:33,577 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:33,668 DEBUG:https://crawler-test.com:443 "GET /javascript/dialog_window HTTP/1.1" 200 143
+2023-04-17 21:40:33,669 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:33,761 DEBUG:https://crawler-test.com:443 "GET /javascript/alert_box HTTP/1.1" 200 139
+2023-04-17 21:40:33,761 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:33,857 DEBUG:https://crawler-test.com:443 "GET /javascript/ad_script HTTP/1.1" 200 146
+2023-04-17 21:40:33,858 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:33,949 DEBUG:https://crawler-test.com:443 "GET /javascript/analytics_script HTTP/1.1" 200 154
+2023-04-17 21:40:33,950 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:34,041 DEBUG:https://crawler-test.com:443 "GET /javascript/renderer_timeout/1 HTTP/1.1" 200 490
+2023-04-17 21:40:34,042 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:34,136 DEBUG:https://crawler-test.com:443 "GET /javascript/renderer_timeout/2 HTTP/1.1" 200 489
+2023-04-17 21:40:34,137 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:34,229 DEBUG:https://crawler-test.com:443 "GET /javascript/renderer_timeout/3 HTTP/1.1" 200 489
+2023-04-17 21:40:34,230 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:34,321 DEBUG:https://crawler-test.com:443 "GET /javascript/renderer_timeout/4 HTTP/1.1" 200 489
+2023-04-17 21:40:34,322 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:34,416 DEBUG:https://crawler-test.com:443 "GET /javascript/renderer_timeout/5 HTTP/1.1" 200 490
+2023-04-17 21:40:34,417 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:34,516 DEBUG:https://crawler-test.com:443 "GET /content/non_secure_form_fields_text HTTP/1.1" 200 896
+2023-04-17 21:40:34,517 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:34,519 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:34,616 DEBUG:https://crawler-test.com:443 "GET /content/non_secure_form_fields_email HTTP/1.1" 200 901
+2023-04-17 21:40:34,617 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:34,619 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:34,717 DEBUG:https://crawler-test.com:443 "GET /content/non_secure_form_fields_search HTTP/1.1" 200 902
+2023-04-17 21:40:34,718 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:34,720 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:34,819 DEBUG:https://crawler-test.com:443 "GET /content/non_secure_form_fields_number HTTP/1.1" 200 901
+2023-04-17 21:40:34,820 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:34,822 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:34,919 DEBUG:https://crawler-test.com:443 "GET /content/non_secure_form_fields_tel HTTP/1.1" 200 897
+2023-04-17 21:40:34,920 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:34,923 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:35,021 DEBUG:https://crawler-test.com:443 "GET /content/non_secure_form_fields_url HTTP/1.1" 200 902
+2023-04-17 21:40:35,022 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:35,024 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:35,123 DEBUG:https://crawler-test.com:443 "GET /content/non_secure_form_fields_textarea HTTP/1.1" 200 901
+2023-04-17 21:40:35,124 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:35,126 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:35,224 DEBUG:https://crawler-test.com:443 "GET /content/non_secure_form_fields_password_and_cc HTTP/1.1" 200 1088
+2023-04-17 21:40:35,225 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:35,229 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:35,328 DEBUG:https://crawler-test.com:443 "GET /other/crawler_user_agent HTTP/1.1" 200 867
+2023-04-17 21:40:35,329 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:35,331 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:35,429 DEBUG:https://crawler-test.com:443 "GET /other/crawler_ip_address HTTP/1.1" 200 862
+2023-04-17 21:40:35,430 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:35,432 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:35,530 DEBUG:https://crawler-test.com:443 "GET /other/conflicting_language_tags HTTP/1.1" 200 865
+2023-04-17 21:40:35,531 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:35,533 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:35,623 DEBUG:https://crawler-test.com:443 "GET /other/page_load_time_n HTTP/1.1" 404 41
+2023-04-17 21:40:35,625 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:35,726 DEBUG:https://crawler-test.com:443 "GET /other/crawler_request_headers HTTP/1.1" 200 1216
+2023-04-17 21:40:35,728 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:35,732 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:35,831 DEBUG:https://crawler-test.com:443 "GET /other/expiring_page_for_removed_test/1681763973.5433567 HTTP/1.1" 200 893
+2023-04-17 21:40:35,832 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:35,834 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:35,934 DEBUG:https://crawler-test.com:443 "GET /other/duplicated_body_content_1 HTTP/1.1" 200 None
+2023-04-17 21:40:35,935 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:36,041 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-17 21:40:36,143 DEBUG:https://crawler-test.com:443 "GET /other/duplicated_body_content_2 HTTP/1.1" 200 None
+2023-04-17 21:40:36,144 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:36,226 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-17 21:40:36,325 DEBUG:https://crawler-test.com:443 "GET /other/string_width/512/string HTTP/1.1" 200 1153
+2023-04-17 21:40:36,326 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:36,328 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:36,427 DEBUG:https://crawler-test.com:443 "GET /other/script_tag_contents HTTP/1.1" 200 935
+2023-04-17 21:40:36,428 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:36,430 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:36,529 DEBUG:https://crawler-test.com:443 "GET /other/noodp_noydir_tags HTTP/1.1" 200 886
+2023-04-17 21:40:36,529 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:36,532 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:36,631 DEBUG:https://crawler-test.com:443 "GET /other/page_with_hsts_headers HTTP/1.1" 200 867
+2023-04-17 21:40:36,632 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:36,634 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:36,753 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 8129
+2023-04-17 21:40:36,754 INFO:REQUEST TIME: 0.12
+2023-04-17 21:40:36,895 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-17 21:40:36,994 DEBUG:https://crawler-test.com:443 "GET /other/in_web_linking HTTP/1.1" 200 884
+2023-04-17 21:40:36,994 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:36,997 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:37,094 DEBUG:https://crawler-test.com:443 "GET /other/in_web_linked HTTP/1.1" 200 858
+2023-04-17 21:40:37,095 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:37,097 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:37,195 DEBUG:https://crawler-test.com:443 "GET /other/typo_in_head HTTP/1.1" 200 896
+2023-04-17 21:40:37,196 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:37,199 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:37,296 DEBUG:https://crawler-test.com:443 "GET /other/unfinished_tag_in_head HTTP/1.1" 200 910
+2023-04-17 21:40:37,297 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:37,299 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:37,397 DEBUG:https://crawler-test.com:443 "GET /other/non_head_tag_in_head HTTP/1.1" 200 923
+2023-04-17 21:40:37,398 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:37,400 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:37,498 DEBUG:https://crawler-test.com:443 "GET /other/link_tag_in_body HTTP/1.1" 200 892
+2023-04-17 21:40:37,499 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:37,501 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:37,590 DEBUG:https://crawler-test.com:443 "GET /other/basic_auth HTTP/1.1" 401 195
+2023-04-17 21:40:37,591 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:37,683 DEBUG:https://crawler-test.com:443 "GET /page_title_length/1 HTTP/1.1" 404 20
+2023-04-17 21:40:37,684 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:37,775 DEBUG:https://crawler-test.com:443 "GET /page_title_length/2 HTTP/1.1" 404 20
+2023-04-17 21:40:37,776 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:37,866 DEBUG:https://crawler-test.com:443 "GET /page_title_length/3 HTTP/1.1" 404 20
+2023-04-17 21:40:37,867 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:37,958 DEBUG:https://crawler-test.com:443 "GET /page_title_length/4 HTTP/1.1" 404 20
+2023-04-17 21:40:37,959 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:38,050 DEBUG:https://crawler-test.com:443 "GET /page_title_length/5 HTTP/1.1" 404 20
+2023-04-17 21:40:38,051 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:38,144 DEBUG:https://crawler-test.com:443 "GET /page_title_length/10 HTTP/1.1" 404 20
+2023-04-17 21:40:38,145 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:38,239 DEBUG:https://crawler-test.com:443 "GET /page_title_length/20 HTTP/1.1" 404 20
+2023-04-17 21:40:38,240 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:38,331 DEBUG:https://crawler-test.com:443 "GET /page_title_length/30 HTTP/1.1" 404 20
+2023-04-17 21:40:38,332 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:38,424 DEBUG:https://crawler-test.com:443 "GET /page_title_length/40 HTTP/1.1" 404 20
+2023-04-17 21:40:38,425 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:38,515 DEBUG:https://crawler-test.com:443 "GET /page_title_length/50 HTTP/1.1" 404 20
+2023-04-17 21:40:38,517 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:38,618 DEBUG:https://crawler-test.com:443 "GET /page_title_length/60 HTTP/1.1" 404 20
+2023-04-17 21:40:38,619 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:38,711 DEBUG:https://crawler-test.com:443 "GET /page_title_length/70 HTTP/1.1" 404 20
+2023-04-17 21:40:38,711 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:38,803 DEBUG:https://crawler-test.com:443 "GET /page_title_length/80 HTTP/1.1" 404 20
+2023-04-17 21:40:38,803 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:38,900 DEBUG:https://crawler-test.com:443 "GET /page_title_length/90 HTTP/1.1" 404 20
+2023-04-17 21:40:38,902 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:38,993 DEBUG:https://crawler-test.com:443 "GET /page_title_length/100 HTTP/1.1" 404 20
+2023-04-17 21:40:38,994 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:39,085 DEBUG:https://crawler-test.com:443 "GET /page_title_length/110 HTTP/1.1" 404 20
+2023-04-17 21:40:39,086 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:39,176 DEBUG:https://crawler-test.com:443 "GET /page_title_length/120 HTTP/1.1" 404 20
+2023-04-17 21:40:39,177 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:39,269 DEBUG:https://crawler-test.com:443 "GET /page_title_length/130 HTTP/1.1" 404 20
+2023-04-17 21:40:39,270 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:39,361 DEBUG:https://crawler-test.com:443 "GET /page_title_length/140 HTTP/1.1" 404 20
+2023-04-17 21:40:39,362 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:39,453 DEBUG:https://crawler-test.com:443 "GET /page_title_length/150 HTTP/1.1" 404 20
+2023-04-17 21:40:39,454 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:39,545 DEBUG:https://crawler-test.com:443 "GET /page_title_length/160 HTTP/1.1" 404 20
+2023-04-17 21:40:39,546 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:39,636 DEBUG:https://crawler-test.com:443 "GET /page_title_length/170 HTTP/1.1" 404 20
+2023-04-17 21:40:39,637 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:39,729 DEBUG:https://crawler-test.com:443 "GET /page_title_length/180 HTTP/1.1" 404 20
+2023-04-17 21:40:39,730 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:39,821 DEBUG:https://crawler-test.com:443 "GET /page_title_length/190 HTTP/1.1" 404 20
+2023-04-17 21:40:39,822 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:39,914 DEBUG:https://crawler-test.com:443 "GET /page_title_length/200 HTTP/1.1" 404 20
+2023-04-17 21:40:39,915 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:40,006 DEBUG:https://crawler-test.com:443 "GET /page_title_length/210 HTTP/1.1" 404 20
+2023-04-17 21:40:40,007 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:40,098 DEBUG:https://crawler-test.com:443 "GET /page_title_length/220 HTTP/1.1" 404 20
+2023-04-17 21:40:40,099 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:40,191 DEBUG:https://crawler-test.com:443 "GET /page_title_length/230 HTTP/1.1" 404 20
+2023-04-17 21:40:40,192 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:40,284 DEBUG:https://crawler-test.com:443 "GET /page_title_length/240 HTTP/1.1" 404 20
+2023-04-17 21:40:40,285 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:40,377 DEBUG:https://crawler-test.com:443 "GET /page_title_length/250 HTTP/1.1" 404 20
+2023-04-17 21:40:40,378 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:40,470 DEBUG:https://crawler-test.com:443 "GET /page_title_length/256 HTTP/1.1" 404 20
+2023-04-17 21:40:40,471 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:40,562 DEBUG:https://crawler-test.com:443 "GET /page_title_width/500 HTTP/1.1" 404 20
+2023-04-17 21:40:40,563 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:40,654 DEBUG:https://crawler-test.com:443 "GET /page_title_width/501 HTTP/1.1" 404 20
+2023-04-17 21:40:40,655 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:40,746 DEBUG:https://crawler-test.com:443 "GET /page_title_width/502 HTTP/1.1" 404 20
+2023-04-17 21:40:40,747 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:40,838 DEBUG:https://crawler-test.com:443 "GET /page_title_width/503 HTTP/1.1" 404 20
+2023-04-17 21:40:40,839 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:40,929 DEBUG:https://crawler-test.com:443 "GET /page_title_width/504 HTTP/1.1" 404 20
+2023-04-17 21:40:40,930 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:41,021 DEBUG:https://crawler-test.com:443 "GET /page_title_width/505 HTTP/1.1" 404 20
+2023-04-17 21:40:41,022 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:41,114 DEBUG:https://crawler-test.com:443 "GET /page_title_width/506 HTTP/1.1" 404 20
+2023-04-17 21:40:41,115 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:41,207 DEBUG:https://crawler-test.com:443 "GET /page_title_width/507 HTTP/1.1" 404 20
+2023-04-17 21:40:41,208 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:41,298 DEBUG:https://crawler-test.com:443 "GET /page_title_width/508 HTTP/1.1" 404 20
+2023-04-17 21:40:41,299 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:41,390 DEBUG:https://crawler-test.com:443 "GET /page_title_width/509 HTTP/1.1" 404 20
+2023-04-17 21:40:41,391 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:41,483 DEBUG:https://crawler-test.com:443 "GET /page_title_width/510 HTTP/1.1" 404 20
+2023-04-17 21:40:41,484 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:41,575 DEBUG:https://crawler-test.com:443 "GET /page_title_width/511 HTTP/1.1" 404 20
+2023-04-17 21:40:41,576 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:41,669 DEBUG:https://crawler-test.com:443 "GET /page_title_width/512 HTTP/1.1" 404 20
+2023-04-17 21:40:41,670 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:41,763 DEBUG:https://crawler-test.com:443 "GET /page_title_width/513 HTTP/1.1" 404 20
+2023-04-17 21:40:41,764 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:41,857 DEBUG:https://crawler-test.com:443 "GET /robots_excluded_1/bar/baz HTTP/1.1" 404 20
+2023-04-17 21:40:41,858 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:41,949 DEBUG:https://crawler-test.com:443 "GET /robots_excluded_2/foo HTTP/1.1" 404 20
+2023-04-17 21:40:41,950 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:42,041 DEBUG:https://crawler-test.com:443 "GET /robots_excluded_3 HTTP/1.1" 404 20
+2023-04-17 21:40:42,042 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:42,134 DEBUG:https://crawler-test.com:443 "GET /link_on_deepcrawl_excluded HTTP/1.1" 404 20
+2023-04-17 21:40:42,135 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:42,229 DEBUG:https://crawler-test.com:443 "GET /user_excluded_1/bar/baz HTTP/1.1" 404 20
+2023-04-17 21:40:42,229 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:42,321 DEBUG:https://crawler-test.com:443 "GET /user_excluded_2/foo HTTP/1.1" 404 20
+2023-04-17 21:40:42,322 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:42,413 DEBUG:https://crawler-test.com:443 "GET /user_excluded_3 HTTP/1.1" 404 20
+2023-04-17 21:40:42,414 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:42,505 DEBUG:https://crawler-test.com:443 "GET /link_on_page_with_meta_nofollow HTTP/1.1" 404 20
+2023-04-17 21:40:42,506 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:42,598 DEBUG:https://crawler-test.com:443 "GET /blog/company-news/deepcrawl-is-now-lumar HTTP/1.1" 404 20
+2023-04-17 21:40:42,598 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:42,690 DEBUG:https://crawler-test.com:443 "GET /ja/blog/company-news/deepcrawl-is-now-lumar HTTP/1.1" 404 20
+2023-04-17 21:40:42,691 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:42,785 DEBUG:https://crawler-test.com:443 "GET /platform HTTP/1.1" 404 20
+2023-04-17 21:40:42,786 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:42,879 DEBUG:https://crawler-test.com:443 "GET /website-intelligence HTTP/1.1" 404 20
+2023-04-17 21:40:42,880 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:42,972 DEBUG:https://crawler-test.com:443 "GET /platform/analyze HTTP/1.1" 404 20
+2023-04-17 21:40:42,973 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:43,064 DEBUG:https://crawler-test.com:443 "GET /platform/impact HTTP/1.1" 404 20
+2023-04-17 21:40:43,064 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:43,158 DEBUG:https://crawler-test.com:443 "GET /platform/website-crawler HTTP/1.1" 404 20
+2023-04-17 21:40:43,159 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:43,250 DEBUG:https://crawler-test.com:443 "GET /professional-services HTTP/1.1" 404 20
+2023-04-17 21:40:43,251 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:43,342 DEBUG:https://crawler-test.com:443 "GET /platform/monitor HTTP/1.1" 404 20
+2023-04-17 21:40:43,343 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:43,434 DEBUG:https://crawler-test.com:443 "GET /platform/protect HTTP/1.1" 404 20
+2023-04-17 21:40:43,435 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:43,526 DEBUG:https://crawler-test.com:443 "GET /platform/integrations HTTP/1.1" 404 20
+2023-04-17 21:40:43,527 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:43,618 DEBUG:https://crawler-test.com:443 "GET /case-studies HTTP/1.1" 404 20
+2023-04-17 21:40:43,619 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:43,710 DEBUG:https://crawler-test.com:443 "GET /use-case/website-audits HTTP/1.1" 404 20
+2023-04-17 21:40:43,711 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:43,802 DEBUG:https://crawler-test.com:443 "GET /use-case/website-monitoring HTTP/1.1" 404 20
+2023-04-17 21:40:43,803 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:43,894 DEBUG:https://crawler-test.com:443 "GET /use-case/seo-qa-testing HTTP/1.1" 404 20
+2023-04-17 21:40:43,895 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:43,987 DEBUG:https://crawler-test.com:443 "GET /use-case/site-migrations HTTP/1.1" 404 20
+2023-04-17 21:40:43,988 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:44,079 DEBUG:https://crawler-test.com:443 "GET /use-case/seo-organic-search-strategy HTTP/1.1" 404 20
+2023-04-17 21:40:44,080 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:44,172 DEBUG:https://crawler-test.com:443 "GET /by-team/for-seo-teams HTTP/1.1" 404 20
+2023-04-17 21:40:44,173 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:44,264 DEBUG:https://crawler-test.com:443 "GET /by-team/for-marketing-teams HTTP/1.1" 404 20
+2023-04-17 21:40:44,264 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:44,355 DEBUG:https://crawler-test.com:443 "GET /by-team/for-developers HTTP/1.1" 404 20
+2023-04-17 21:40:44,356 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:44,449 DEBUG:https://crawler-test.com:443 "GET /by-team/for-digital-operations HTTP/1.1" 404 20
+2023-04-17 21:40:44,450 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:44,541 DEBUG:https://crawler-test.com:443 "GET /industry/lumar-for-ecommerce HTTP/1.1" 404 20
+2023-04-17 21:40:44,542 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:44,635 DEBUG:https://crawler-test.com:443 "GET /industry/lumar-for-publishers-news-website HTTP/1.1" 404 20
+2023-04-17 21:40:44,636 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:44,726 DEBUG:https://crawler-test.com:443 "GET /industry/lumar-for-enterprise HTTP/1.1" 404 20
+2023-04-17 21:40:44,728 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:44,823 DEBUG:https://crawler-test.com:443 "GET /industry/lumar-for-agencies HTTP/1.1" 404 20
+2023-04-17 21:40:44,824 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:44,917 DEBUG:https://crawler-test.com:443 "GET /faq HTTP/1.1" 404 20
+2023-04-17 21:40:44,918 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:45,010 DEBUG:https://crawler-test.com:443 "GET /academy HTTP/1.1" 404 20
+2023-04-17 21:40:45,011 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:45,103 DEBUG:https://crawler-test.com:443 "GET /ebooks HTTP/1.1" 404 20
+2023-04-17 21:40:45,104 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:45,196 DEBUG:https://crawler-test.com:443 "GET /webinars-events HTTP/1.1" 404 20
+2023-04-17 21:40:45,197 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:45,290 DEBUG:https://crawler-test.com:443 "GET /blog HTTP/1.1" 404 20
+2023-04-17 21:40:45,291 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:45,382 DEBUG:https://crawler-test.com:443 "GET /office-hours HTTP/1.1" 404 20
+2023-04-17 21:40:45,382 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:45,476 DEBUG:https://crawler-test.com:443 "GET /product-guides HTTP/1.1" 404 20
+2023-04-17 21:40:45,477 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:45,570 DEBUG:https://crawler-test.com:443 "GET /api HTTP/1.1" 404 20
+2023-04-17 21:40:45,570 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:45,662 DEBUG:https://crawler-test.com:443 "GET /pricing HTTP/1.1" 404 20
+2023-04-17 21:40:45,663 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:45,754 DEBUG:https://crawler-test.com:443 "GET /about HTTP/1.1" 404 20
+2023-04-17 21:40:45,755 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:45,847 DEBUG:https://crawler-test.com:443 "GET /careers HTTP/1.1" 404 20
+2023-04-17 21:40:45,848 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:45,939 DEBUG:https://crawler-test.com:443 "GET /partnerships HTTP/1.1" 404 20
+2023-04-17 21:40:45,940 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:46,032 DEBUG:https://crawler-test.com:443 "GET /meet-lumar-our-new-brand HTTP/1.1" 404 20
+2023-04-17 21:40:46,033 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:46,130 DEBUG:https://crawler-test.com:443 "GET /press-room HTTP/1.1" 404 20
+2023-04-17 21:40:46,131 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:46,222 DEBUG:https://crawler-test.com:443 "GET /contact HTTP/1.1" 404 20
+2023-04-17 21:40:46,223 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:46,314 DEBUG:https://crawler-test.com:443 "GET /request-demo HTTP/1.1" 404 20
+2023-04-17 21:40:46,315 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:46,407 DEBUG:https://crawler-test.com:443 "GET /privacy-policy HTTP/1.1" 404 20
+2023-04-17 21:40:46,408 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:46,501 DEBUG:https://crawler-test.com:443 "GET /terms-of-use HTTP/1.1" 404 20
+2023-04-17 21:40:46,502 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:46,602 DEBUG:https://crawler-test.com:443 "GET /cookie-policy HTTP/1.1" 404 20
+2023-04-17 21:40:46,602 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:46,701 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/4 HTTP/1.1" 301 20
+2023-04-17 21:40:46,795 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/3 HTTP/1.1" 301 20
+2023-04-17 21:40:46,891 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/2 HTTP/1.1" 301 20
+2023-04-17 21:40:46,987 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/1 HTTP/1.1" 301 20
+2023-04-17 21:40:46,990 ERROR:TOO MANY REDIRECTS: https://crawler-test.com/redirects/reverse_redirect/4
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 169, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'], allow_redirects=True, timeout=5)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 191, in resolve_redirects
+    raise TooManyRedirects(
+requests.exceptions.TooManyRedirects: Exceeded 3 redirects.
+2023-04-17 21:40:47,087 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/9 HTTP/1.1" 301 20
+2023-04-17 21:40:47,179 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/8 HTTP/1.1" 301 20
+2023-04-17 21:40:47,276 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/7 HTTP/1.1" 301 20
+2023-04-17 21:40:47,368 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/6 HTTP/1.1" 301 20
+2023-04-17 21:40:47,370 ERROR:TOO MANY REDIRECTS: https://crawler-test.com/redirects/reverse_redirect/9
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 169, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'], allow_redirects=True, timeout=5)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 191, in resolve_redirects
+    raise TooManyRedirects(
+requests.exceptions.TooManyRedirects: Exceeded 3 redirects.
+2023-04-17 21:40:47,461 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/14 HTTP/1.1" 301 20
+2023-04-17 21:40:47,553 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/13 HTTP/1.1" 301 20
+2023-04-17 21:40:47,649 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/12 HTTP/1.1" 301 20
+2023-04-17 21:40:47,741 DEBUG:https://crawler-test.com:443 "GET /redirects/reverse_redirect/11 HTTP/1.1" 301 20
+2023-04-17 21:40:47,743 ERROR:TOO MANY REDIRECTS: https://crawler-test.com/redirects/reverse_redirect/14
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 169, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'], allow_redirects=True, timeout=5)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 191, in resolve_redirects
+    raise TooManyRedirects(
+requests.exceptions.TooManyRedirects: Exceeded 3 redirects.
+2023-04-17 21:40:47,842 DEBUG:https://crawler-test.com:443 "GET /urls/with_session_id?sessionID=SJ0olvW9HWt666xuUSe9 HTTP/1.1" 200 864
+2023-04-17 21:40:47,842 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:47,846 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:47,949 DEBUG:https://crawler-test.com:443 "GET /other/expiring_page_for_removed_test/1681763988.9687 HTTP/1.1" 200 888
+2023-04-17 21:40:47,950 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:47,951 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:48,044 DEBUG:https://crawler-test.com:443 "GET /links/not_found/foo1 HTTP/1.1" 404 20
+2023-04-17 21:40:48,045 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:48,138 DEBUG:https://crawler-test.com:443 "GET /links/not_found/foo2 HTTP/1.1" 404 20
+2023-04-17 21:40:48,139 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:48,231 DEBUG:https://crawler-test.com:443 "GET /links/not_found/foo3 HTTP/1.1" 404 20
+2023-04-17 21:40:48,232 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:48,326 DEBUG:https://crawler-test.com:443 "GET /links/not_found/foo4 HTTP/1.1" 404 20
+2023-04-17 21:40:48,326 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:48,418 DEBUG:https://crawler-test.com:443 "GET /links/not_found/foo5 HTTP/1.1" 404 20
+2023-04-17 21:40:48,418 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:48,510 DEBUG:https://crawler-test.com:443 "GET /link_on_nofollowed_1 HTTP/1.1" 404 20
+2023-04-17 21:40:48,511 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:48,604 DEBUG:https://crawler-test.com:443 "GET /link_on_nofollowed_2 HTTP/1.1" 404 20
+2023-04-17 21:40:48,605 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:48,697 DEBUG:https://crawler-test.com:443 "GET /nofollowed_backlink_1 HTTP/1.1" 404 20
+2023-04-17 21:40:48,698 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:48,789 DEBUG:https://crawler-test.com:443 "GET /nofollowed_backlink_2 HTTP/1.1" 404 20
+2023-04-17 21:40:48,790 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:48,881 DEBUG:https://crawler-test.com:443 "GET /y/z HTTP/1.1" 404 20
+2023-04-17 21:40:48,882 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:48,981 DEBUG:https://crawler-test.com:443 "GET /content/custom_text/relative_link_with_a_slash_at_the_beginning_target HTTP/1.1" 200 898
+2023-04-17 21:40:48,982 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:48,985 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:49,102 DEBUG:https://crawler-test.com:443 "GET /?parameter_only_link=1 HTTP/1.1" 200 8130
+2023-04-17 21:40:49,103 INFO:REQUEST TIME: 0.12
+2023-04-17 21:40:49,253 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-17 21:40:49,345 DEBUG:https://crawler-test.com:443 "GET /subdir/relative-link-2 HTTP/1.1" 404 20
+2023-04-17 21:40:49,345 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:49,445 DEBUG:https://crawler-test.com:443 "GET /subdir/relative-link-3 HTTP/1.1" 404 20
+2023-04-17 21:40:49,446 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:49,538 DEBUG:https://crawler-test.com:443 "GET /subdir/relative-link-4 HTTP/1.1" 404 20
+2023-04-17 21:40:49,539 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:49,632 DEBUG:https://crawler-test.com:443 "GET /subdir/relative-link-5 HTTP/1.1" 404 20
+2023-04-17 21:40:49,633 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:49,724 DEBUG:https://crawler-test.com:443 "GET /subdir/relative-link-6 HTTP/1.1" 404 20
+2023-04-17 21:40:49,725 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:49,817 DEBUG:https://crawler-test.com:443 "GET /a/c/relative-link-7 HTTP/1.1" 404 20
+2023-04-17 21:40:49,818 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:49,914 DEBUG:https://crawler-test.com:443 "GET /image_link.png HTTP/1.1" 200 758
+2023-04-17 21:40:49,919 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:50,389 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-17 21:40:50,493 DEBUG:https://crawler-test.com:443 "GET /links/nofollow_and_follow_link_target HTTP/1.1" 200 865
+2023-04-17 21:40:50,494 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:50,496 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:50,594 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_page?page=1 HTTP/1.1" 200 925
+2023-04-17 21:40:50,595 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:50,598 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:50,711 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_page?page=2 HTTP/1.1" 200 937
+2023-04-17 21:40:50,713 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:50,717 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:40:50,815 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_page?page=3 HTTP/1.1" 200 937
+2023-04-17 21:40:50,815 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:50,819 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:50,920 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_page?page=4 HTTP/1.1" 200 938
+2023-04-17 21:40:50,921 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:50,925 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:51,023 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_page?page=5 HTTP/1.1" 200 927
+2023-04-17 21:40:51,024 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:51,027 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:51,125 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_and_noindex_page?page=1 HTTP/1.1" 200 960
+2023-04-17 21:40:51,126 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:51,129 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:51,551 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_and_noindex_page?page=2 HTTP/1.1" 200 967
+2023-04-17 21:40:51,552 INFO:REQUEST TIME: 0.42
+2023-04-17 21:40:51,557 INFO:SINGLE ITERATION TIME: 0.43
+2023-04-17 21:40:51,656 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_and_noindex_page?page=3 HTTP/1.1" 200 970
+2023-04-17 21:40:51,657 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:51,660 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:51,758 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_and_noindex_page?page=4 HTTP/1.1" 200 970
+2023-04-17 21:40:51,759 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:51,762 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:51,861 DEBUG:https://crawler-test.com:443 "GET /urls/paginated_and_noindex_page?page=5 HTTP/1.1" 200 960
+2023-04-17 21:40:51,862 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:51,866 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:51,957 DEBUG:https://crawler-test.com:443 "GET /images/logo_small.jpg HTTP/1.1" 404 20
+2023-04-17 21:40:51,957 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:52,054 DEBUG:https://crawler-test.com:443 "GET /images/logo_small.JPG HTTP/1.1" 200 2408
+2023-04-17 21:40:52,062 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:52,070 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-17 21:40:52,177 DEBUG:https://crawler-test.com:443 "GET /pdf_open_parameters.pdf HTTP/1.1" 200 None
+2023-04-17 21:40:52,551 INFO:REQUEST TIME: 0.48
+2023-04-17 21:40:52,608 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-17 21:40:52,702 DEBUG:https://crawler-test.com:443 "GET /pdf_open_parameters.PDF HTTP/1.1" 404 20
+2023-04-17 21:40:52,702 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:52,794 DEBUG:https://crawler-test.com:443 "GET /Dashboard/Charts/FCF_Column2D.swf HTTP/1.1" 404 20
+2023-04-17 21:40:52,794 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:52,887 DEBUG:https://crawler-test.com:443 "GET /Dashboard/Charts/FCF_Column2D.SWF HTTP/1.1" 200 None
+2023-04-17 21:40:52,972 INFO:REQUEST TIME: 0.18
+2023-04-17 21:40:52,982 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-17 21:40:53,085 DEBUG:https://crawler-test.com:443 "GET /urls/page_with_hreflang/0 HTTP/1.1" 200 904
+2023-04-17 21:40:53,086 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:53,088 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:53,186 DEBUG:https://crawler-test.com:443 "GET /urls/page_with_hreflang/1 HTTP/1.1" 200 902
+2023-04-17 21:40:53,186 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:53,188 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:53,287 DEBUG:https://crawler-test.com:443 "GET /urls/page_with_hreflang/2 HTTP/1.1" 200 902
+2023-04-17 21:40:53,287 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:53,290 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:53,387 DEBUG:https://crawler-test.com:443 "GET /urls/page_with_hreflang/multiple HTTP/1.1" 200 917
+2023-04-17 21:40:53,388 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:53,390 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:53,488 DEBUG:https://crawler-test.com:443 "GET /urls/page_with_broken_hreflang HTTP/1.1" 200 902
+2023-04-17 21:40:53,489 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:53,491 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:53,590 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 871
+2023-04-17 21:40:53,591 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:53,593 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:53,691 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 874
+2023-04-17 21:40:53,692 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:53,697 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:53,796 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 875
+2023-04-17 21:40:53,796 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:53,798 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:53,896 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 874
+2023-04-17 21:40:53,898 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:53,900 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:54,007 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 875
+2023-04-17 21:40:54,008 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:54,065 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-17 21:40:54,165 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 877
+2023-04-17 21:40:54,166 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:54,168 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:54,272 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 874
+2023-04-17 21:40:54,273 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:54,275 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:54,374 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 874
+2023-04-17 21:40:54,375 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:54,377 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:54,478 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 874
+2023-04-17 21:40:54,479 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:54,481 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:54,582 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 876
+2023-04-17 21:40:54,583 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:54,585 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:54,684 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 876
+2023-04-17 21:40:54,685 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:54,689 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:54,789 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 875
+2023-04-17 21:40:54,790 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:54,792 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:54,894 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 875
+2023-04-17 21:40:54,895 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:54,897 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:54,998 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 874
+2023-04-17 21:40:54,999 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:55,001 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:55,106 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 875
+2023-04-17 21:40:55,106 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:55,108 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:55,212 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 873
+2023-04-17 21:40:55,213 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:55,215 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:55,317 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 874
+2023-04-17 21:40:55,318 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:55,320 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:55,428 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 876
+2023-04-17 21:40:55,429 INFO:REQUEST TIME: 0.11
+2023-04-17 21:40:55,431 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:55,535 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 875
+2023-04-17 21:40:55,536 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:55,539 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:55,640 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 200 875
+2023-04-17 21:40:55,641 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:55,643 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:55,739 DEBUG:https://crawler-test.com:443 "GET /urls/page_url_length/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HTTP/1.1" 400 0
+2023-04-17 21:40:55,740 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:55,830 DEBUG:https://crawler-test.com:443 "GET /relative_base_target HTTP/1.1" 404 20
+2023-04-17 21:40:55,831 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:55,930 DEBUG:https://crawler-test.com:443 "GET /urls/with_session_id?sessionID=aAD2CFjn981HhGGikeT5 HTTP/1.1" 200 864
+2023-04-17 21:40:55,931 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:55,933 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:56,032 DEBUG:https://crawler-test.com:443 "GET /other/expiring_page_for_removed_test/1681764000.837205 HTTP/1.1" 200 890
+2023-04-17 21:40:56,034 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:56,038 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-17 21:40:56,135 DEBUG:https://crawler-test.com:443 "GET /urls/with_session_id?sessionID=XGACCwysYCwy8UXe72dF HTTP/1.1" 200 863
+2023-04-17 21:40:56,136 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:56,139 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:40:56,232 DEBUG:https://crawler-test.com:443 "GET /other/expiring_page_for_removed_test/1681764001.1002626 HTTP/1.1" 404 41
+2023-04-17 21:40:56,233 INFO:REQUEST TIME: 0.09
+2023-04-17 21:40:56,333 DEBUG:https://crawler-test.com:443 "GET /content/page_html_size/5 HTTP/1.1" 200 925
+2023-04-17 21:40:56,334 INFO:REQUEST TIME: 0.1
+2023-04-17 21:40:56,349 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-17 21:40:56,456 DEBUG:https://crawler-test.com:443 "GET /content/page_html_size/1030 HTTP/1.1" 200 4930
+2023-04-17 21:40:56,459 INFO:REQUEST TIME: 0.11
+2023-04-17 21:41:00,746 INFO:SINGLE ITERATION TIME: 4.4
+2023-04-17 21:41:00,884 DEBUG:https://crawler-test.com:443 "GET /content/page_html_size/2055 HTTP/1.1" 200 8641
+2023-04-17 21:41:00,900 INFO:REQUEST TIME: 0.15
+2023-04-17 21:41:08,041 INFO:SINGLE ITERATION TIME: 7.29
+2023-04-17 21:41:08,197 DEBUG:https://crawler-test.com:443 "GET /content/page_html_size/3080 HTTP/1.1" 200 12359
+2023-04-17 21:41:08,218 INFO:REQUEST TIME: 0.18
+2023-04-17 21:41:19,990 INFO:SINGLE ITERATION TIME: 11.95
+2023-04-17 21:41:20,121 DEBUG:https://crawler-test.com:443 "GET /content/page_html_size/4105 HTTP/1.1" 200 None
+2023-04-17 21:41:20,152 INFO:REQUEST TIME: 0.15
+2023-04-17 21:41:33,823 INFO:SINGLE ITERATION TIME: 13.83
+2023-04-17 21:41:33,994 DEBUG:https://crawler-test.com:443 "GET /content/page_html_size/5130 HTTP/1.1" 200 None
+2023-04-17 21:41:34,019 INFO:REQUEST TIME: 0.19
+2023-04-17 21:41:47,087 INFO:SINGLE ITERATION TIME: 13.26
+2023-04-17 21:41:47,187 DEBUG:https://crawler-test.com:443 "GET /content/page_content_size/5 HTTP/1.1" 200 None
+2023-04-17 21:41:47,188 INFO:REQUEST TIME: 0.1
+2023-04-17 21:41:47,191 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:41:47,314 DEBUG:https://crawler-test.com:443 "GET /content/page_content_size/1030 HTTP/1.1" 200 10524
+2023-04-17 21:41:47,318 INFO:REQUEST TIME: 0.13
+2023-04-17 21:41:47,328 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-17 21:41:47,447 DEBUG:https://crawler-test.com:443 "GET /content/page_content_size/2055 HTTP/1.1" 200 None
+2023-04-17 21:41:47,453 INFO:REQUEST TIME: 0.13
+2023-04-17 21:41:47,472 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-17 21:41:47,649 DEBUG:https://crawler-test.com:443 "GET /content/page_content_size/3080 HTTP/1.1" 200 None
+2023-04-17 21:41:47,739 INFO:REQUEST TIME: 0.27
+2023-04-17 21:41:47,766 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-17 21:41:47,932 DEBUG:https://crawler-test.com:443 "GET /content/page_content_size/4105 HTTP/1.1" 200 None
+2023-04-17 21:41:48,028 INFO:REQUEST TIME: 0.26
+2023-04-17 21:41:48,064 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-17 21:41:48,280 DEBUG:https://crawler-test.com:443 "GET /content/page_content_size/5130 HTTP/1.1" 200 None
+2023-04-17 21:41:48,381 INFO:REQUEST TIME: 0.32
+2023-04-17 21:41:48,425 INFO:SINGLE ITERATION TIME: 0.36
+2023-04-17 21:41:48,524 DEBUG:https://crawler-test.com:443 "GET /urls/with_session_id?sessionID=liI9erYWl6oNVabUmHrZ HTTP/1.1" 200 863
+2023-04-17 21:41:48,525 INFO:REQUEST TIME: 0.1
+2023-04-17 21:41:48,528 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:41:48,627 DEBUG:https://crawler-test.com:443 "GET /other/expiring_page_for_removed_test/1681764036.5991697 HTTP/1.1" 200 891
+2023-04-17 21:41:48,628 INFO:REQUEST TIME: 0.1
+2023-04-17 21:41:48,631 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:41:48,728 DEBUG:https://crawler-test.com:443 "GET /urls/with_session_id?sessionID=elYbE6xXXstLOBjyOZ7q HTTP/1.1" 200 865
+2023-04-17 21:41:48,729 INFO:REQUEST TIME: 0.1
+2023-04-17 21:41:48,731 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-17 21:41:48,830 DEBUG:https://crawler-test.com:443 "GET /other/expiring_page_for_removed_test/1681764048.956879 HTTP/1.1" 200 890
+2023-04-17 21:41:48,830 INFO:REQUEST TIME: 0.1
+2023-04-17 21:41:48,833 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 266, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-17 21:41:50,307 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023213932-tree-graph.gv' with encoding 'utf-8'
+2023-04-17 21:41:50,308 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test17042023213932-tree-graph.gv')
+2023-04-17 21:41:50,309 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-17 21:41:50,309 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/crawler-test17042023213932-diagram'
+2023-04-17 21:41:50,312 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'crawler-test17042023213932-diagram']
+2023-04-17 21:41:50,660 INFO:ROBOT.TXT EXLUDED LINKS NO: 48
+2023-04-17 21:41:51,664 WARNING:Not Found: /favicon.ico
+2023-04-17 22:47:27,835 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\URLSanitizer.py changed, reloading.

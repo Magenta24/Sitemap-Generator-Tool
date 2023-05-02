@@ -1,0 +1,22 @@
+digraph tree {
+	"https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" [label="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna", shape=egg]
+	"https://pl.wikipedia.org/wiki/Encyklopedia" [label="https://pl.wikipedia.org/wiki/Encyklopedia", shape=egg]
+	"https://pl.wikipedia.org/wiki/Pomoc:Pierwsze_kroki" [label="https://pl.wikipedia.org/wiki/Pomoc:Pierwsze_kroki", shape=egg]
+	"https://pl.wikipedia.org/wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze" [label="https://pl.wikipedia.org/wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze", shape=egg]
+	"https://pl.wikipedia.org/wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne" [label="https://pl.wikipedia.org/wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne", shape=egg]
+	"https://pl.wikipedia.org/wiki/Portal:Technika" [label="https://pl.wikipedia.org/wiki/Portal:Technika", shape=egg]
+	"https://pl.wikipedia.org/wiki/Wikipedia" [label="https://pl.wikipedia.org/wiki/Wikipedia", shape=egg]
+	"https://pl.wikipedia.org/wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii" [label="https://pl.wikipedia.org/wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii", shape=egg]
+	"https://pl.wikipedia.org/wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii" [label="https://pl.wikipedia.org/wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii", shape=egg]
+	"https://pl.wikipedia.org/wiki/Wolna_tre%C5%9B%C4%87" [label="https://pl.wikipedia.org/wiki/Wolna_tre%C5%9B%C4%87", shape=egg]
+
+	"https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" -> "https://pl.wikipedia.org/wiki/Wikipedia"
+	"https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" -> "https://pl.wikipedia.org/wiki/Wolna_tre%C5%9B%C4%87"
+	"https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" -> "https://pl.wikipedia.org/wiki/Encyklopedia"
+	"https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" -> "https://pl.wikipedia.org/wiki/Pomoc:Pierwsze_kroki"
+	"https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" -> "https://pl.wikipedia.org/wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii"
+	"https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" -> "https://pl.wikipedia.org/wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii"
+	"https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" -> "https://pl.wikipedia.org/wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze"
+	"https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" -> "https://pl.wikipedia.org/wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne"
+	"https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" -> "https://pl.wikipedia.org/wiki/Portal:Technika"
+}

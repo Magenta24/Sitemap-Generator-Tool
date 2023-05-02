@@ -1,0 +1,22 @@
+digraph tree {
+	"https://www.gradescope.com/" [label="https://www.gradescope.com/", shape=egg]
+	"https://www.gradescope.com/get-a-demo" [label="https://www.gradescope.com/get-a-demo", shape=egg]
+	"https://www.gradescope.com/get_started" [label="https://www.gradescope.com/get_started", shape=egg]
+	"https://www.gradescope.com/pricing" [label="https://www.gradescope.com/pricing", shape=egg]
+	"https://www.gradescope.com/privacy" [label="https://www.gradescope.com/privacy", shape=egg]
+	"https://www.gradescope.com/reset_password" [label="https://www.gradescope.com/reset_password", shape=egg]
+	"https://www.gradescope.com/roadmap" [label="https://www.gradescope.com/roadmap", shape=egg]
+	"https://www.gradescope.com/saml" [label="https://www.gradescope.com/saml", shape=egg]
+	"https://www.gradescope.com/tos" [label="https://www.gradescope.com/tos", shape=egg]
+	"https://www.gradescope.com/?utm_campaign=Gradescope%20Pricing%20Page&utm_source=hubspot-pricing-page" [label="https://www.gradescope.com/?utm_campaign=Gradescope%20Pricing%20Page&utm_source=hubspot-pricing-page", shape=egg]
+
+	"https://www.gradescope.com/" -> "https://www.gradescope.com/reset_password"
+	"https://www.gradescope.com/" -> "https://www.gradescope.com/saml"
+	"https://www.gradescope.com/" -> "https://www.gradescope.com/pricing"
+	"https://www.gradescope.com/" -> "https://www.gradescope.com/get-a-demo"
+	"https://www.gradescope.com/" -> "https://www.gradescope.com/get_started"
+	"https://www.gradescope.com/" -> "https://www.gradescope.com/roadmap"
+	"https://www.gradescope.com/" -> "https://www.gradescope.com/tos"
+	"https://www.gradescope.com/" -> "https://www.gradescope.com/privacy"
+	"https://www.gradescope.com/pricing" -> "https://www.gradescope.com/?utm_campaign=Gradescope%20Pricing%20Page&utm_source=hubspot-pricing-page"
+}

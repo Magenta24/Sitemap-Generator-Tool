@@ -21,17 +21,27 @@ class TestURLSanitizer(unittest.TestCase):
         self.assertTrue(URLSanitizer.is_email("pzjudo@pzjudo.pl"))
         self.assertFalse(URLSanitizer.is_email("/not_mail"))
 
-    # def test_is_image_by_extension(self):
-    #     pass
-    #
+
     def test_is_image_by_header(self):
-        pass
-    #
-    # def test_is_doc_by_extension(self):
-    #     pass
-    #
+        self.assertTrue(URLSanitizer.is_image_by_header({'content-type':'image/gif'}))
+        self.assertTrue(URLSanitizer.is_image_by_header({'content-type':'image/jpeg'}))
+        self.assertTrue(URLSanitizer.is_image_by_header({'content-type':'image/png'}))
+        self.assertTrue(URLSanitizer.is_image_by_header({'content-type':'image/jpg'}))
+        self.assertTrue(URLSanitizer.is_image_by_header({'content-type':'image/webp'}))
+        self.assertTrue(URLSanitizer.is_image_by_header({'content-type':'image/svg+xml'}))
+        self.assertTrue(URLSanitizer.is_image_by_header({'content-type':'image/bmp'}))
+        self.assertFalse(URLSanitizer.is_image_by_header({'content-type':'application/pdf'}))
+        self.assertFalse(URLSanitizer.is_image_by_header({'Quote':'It is hard to light a candle, easy to curse the dark instead.'}))
+
     def test_is_doc_by_header(self):
-        pass
+        self.assertTrue(URLSanitizer.is_doc_by_header({'content-type':'application/pptx'}))
+        self.assertTrue(URLSanitizer.is_doc_by_header({'content-type':'application/msword'}))
+        self.assertTrue(URLSanitizer.is_doc_by_header({'content-type':'application/ppt'}))
+        self.assertTrue(URLSanitizer.is_doc_by_header({'content-type':'application/xls'}))
+        self.assertTrue(URLSanitizer.is_doc_by_header({'content-type':'application/txt'}))
+        self.assertTrue(URLSanitizer.is_doc_by_header({'content-type':'application/zip'}))
+        self.assertFalse(URLSanitizer.is_doc_by_header({'content-type':'image/gif'}))
+        self.assertFalse(URLSanitizer.is_doc_by_header({'Quote':'Und der Haifisch der hat Tranen'}))
 
 class TestRobotsHandler(unittest.TestCase):
     def test_join_robots_txt(self):

@@ -1,0 +1,22 @@
+digraph tree {
+	"https://pis.org.pl/" [label="https://pis.org.pl/", shape=egg]
+	"https://pis.org.pl/aktualnosci" [label="https://pis.org.pl/aktualnosci", shape=egg]
+	"https://pis.org.pl/aktualnosci/program-obchodow-xiii-rocznicy-katastrofy-smolenskiej" [label="https://pis.org.pl/aktualnosci/program-obchodow-xiii-rocznicy-katastrofy-smolenskiej", shape=egg]
+	"https://pis.org.pl/aktualnosci/sila-polskiej-wsi" [label="https://pis.org.pl/aktualnosci/sila-polskiej-wsi", shape=egg]
+	"https://pis.org.pl/dokumenty" [label="https://pis.org.pl/dokumenty", shape=egg]
+	"https://pis.org.pl/kontakt" [label="https://pis.org.pl/kontakt", shape=egg]
+	"https://pis.org.pl/multimedia" [label="https://pis.org.pl/multimedia", shape=egg]
+	"https://pis.org.pl/partia" [label="https://pis.org.pl/partia", shape=egg]
+	"https://pis.org.pl/partia/partia-europejskich-konserwatystow-i-reformatorow-ecr" [label="https://pis.org.pl/partia/partia-europejskich-konserwatystow-i-reformatorow-ecr", shape=egg]
+	"https://pis.org.pl/partia/wstap-do-pis" [label="https://pis.org.pl/partia/wstap-do-pis", shape=egg]
+
+	"https://pis.org.pl/" -> "https://pis.org.pl/partia/wstap-do-pis"
+	"https://pis.org.pl/" -> "https://pis.org.pl/partia/partia-europejskich-konserwatystow-i-reformatorow-ecr"
+	"https://pis.org.pl/" -> "https://pis.org.pl/aktualnosci"
+	"https://pis.org.pl/" -> "https://pis.org.pl/partia"
+	"https://pis.org.pl/" -> "https://pis.org.pl/multimedia"
+	"https://pis.org.pl/" -> "https://pis.org.pl/dokumenty"
+	"https://pis.org.pl/" -> "https://pis.org.pl/kontakt"
+	"https://pis.org.pl/" -> "https://pis.org.pl/aktualnosci/program-obchodow-xiii-rocznicy-katastrofy-smolenskiej"
+	"https://pis.org.pl/" -> "https://pis.org.pl/aktualnosci/sila-polskiej-wsi"
+}

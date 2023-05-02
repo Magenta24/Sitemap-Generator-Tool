@@ -1,0 +1,833 @@
+2023-04-27 18:49:45,613 DEBUG:Starting new HTTPS connection (1): en.wikipedia.org:443
+2023-04-27 18:49:45,747 DEBUG:https://en.wikipedia.org:443 "GET / HTTP/1.1" 301 0
+2023-04-27 18:49:45,782 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Main_Page HTTP/1.1" 200 21496
+2023-04-27 18:49:45,950 DEBUG:https://en.wikipedia.org:443 "GET / HTTP/1.1" 301 0
+2023-04-27 18:49:45,977 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Main_Page HTTP/1.1" 200 21496
+2023-04-27 18:49:46,044 INFO:URL NO.1ADDED: https://en.wikipedia.org/wiki/Main_Page
+2023-04-27 18:49:46,044 INFO:URL NO.2ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents
+2023-04-27 18:49:46,045 INFO:URL NO.3ADDED: https://en.wikipedia.org/wiki/Portal:Current_events
+2023-04-27 18:49:46,046 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:Random
+2023-04-27 18:49:46,047 INFO:URL NO.4ADDED: https://en.wikipedia.org/wiki/Wikipedia:About
+2023-04-27 18:49:46,048 INFO:URL NO.5ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contact_us
+2023-04-27 18:49:46,048 INFO:URL NO.6ADDED: https://en.wikipedia.org/wiki/Help:Contents
+2023-04-27 18:49:46,049 INFO:URL NO.7ADDED: https://en.wikipedia.org/wiki/Help:Introduction
+2023-04-27 18:49:46,050 INFO:URL NO.8ADDED: https://en.wikipedia.org/wiki/Wikipedia:Community_portal
+2023-04-27 18:49:46,050 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:RecentChanges
+2023-04-27 18:49:46,051 INFO:URL NO.9ADDED: https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard
+2023-04-27 18:49:46,051 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:Search
+2023-04-27 18:49:46,051 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page
+2023-04-27 18:49:46,052 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Main+Page
+2023-04-27 18:49:46,053 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page
+2023-04-27 18:49:46,053 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Main+Page
+2023-04-27 18:49:46,054 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:MyContributions
+2023-04-27 18:49:46,055 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:MyTalk
+2023-04-27 18:49:46,056 INFO:URL NO.10ADDED: https://en.wikipedia.org/wiki/Talk:Main_Page
+2023-04-27 18:49:46,056 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&action=edit
+2023-04-27 18:49:46,057 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&action=history
+2023-04-27 18:49:46,057 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&action=edit
+2023-04-27 18:49:46,058 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&action=history
+2023-04-27 18:49:46,058 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:WhatLinksHere/Main_Page
+2023-04-27 18:49:46,059 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Main_Page
+2023-04-27 18:49:46,060 INFO:URL NO.11ADDED: https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard
+2023-04-27 18:49:46,060 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:SpecialPages
+2023-04-27 18:49:46,061 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&oldid=1114291180
+2023-04-27 18:49:46,062 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&action=info
+2023-04-27 18:49:46,063 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=Main_Page&id=1114291180&wpFormIdentifier=titleform
+2023-04-27 18:49:46,063 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&page=Main_Page&action=show-download-screen
+2023-04-27 18:49:46,064 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&printable=yes
+2023-04-27 18:49:46,065 INFO:URL NO.12ADDED: https://en.wikipedia.org/wiki/Wikipedia
+2023-04-27 18:49:46,065 INFO:URL NO.13ADDED: https://en.wikipedia.org/wiki/Free_content
+2023-04-27 18:49:46,065 INFO:URL NO.14ADDED: https://en.wikipedia.org/wiki/Encyclopedia
+2023-04-27 18:49:46,067 INFO:URL NO.15ADDED: https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia
+2023-04-27 18:49:46,067 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:Statistics
+2023-04-27 18:49:46,068 INFO:URL NO.16ADDED: https://en.wikipedia.org/wiki/English_language
+2023-04-27 18:49:46,068 INFO:URL NO.17ADDED: https://en.wikipedia.org/wiki/File:EscherichiaColi_NIAID.jpg
+2023-04-27 18:49:46,069 INFO:URL NO.18ADDED: https://en.wikipedia.org/wiki/Scanning_electron_microscope
+2023-04-27 18:49:46,070 INFO:URL NO.19ADDED: https://en.wikipedia.org/wiki/Bacillus_(shape)
+2023-04-27 18:49:46,071 INFO:URL NO.20ADDED: https://en.wikipedia.org/wiki/Escherichia_coli
+2023-04-27 18:49:46,072 INFO:URL NO.21ADDED: https://en.wikipedia.org/wiki/Bacteria
+2023-04-27 18:49:46,072 INFO:URL NO.22ADDED: https://en.wikipedia.org/wiki/Microorganism
+2023-04-27 18:49:46,074 INFO:URL NO.23ADDED: https://en.wikipedia.org/wiki/Cell_(biology)
+2023-04-27 18:49:46,075 INFO:URL NO.24ADDED: https://en.wikipedia.org/wiki/Domain_(biology)
+2023-04-27 18:49:46,075 INFO:URL NO.25ADDED: https://en.wikipedia.org/wiki/Prokaryote
+2023-04-27 18:49:46,076 INFO:URL NO.26ADDED: https://en.wikipedia.org/wiki/Earth
+2023-04-27 18:49:46,076 INFO:URL NO.27ADDED: https://en.wikipedia.org/wiki/Habitat
+2023-04-27 18:49:46,077 INFO:URL NO.28ADDED: https://en.wikipedia.org/wiki/Nutrient_cycle
+2023-04-27 18:49:46,078 INFO:URL NO.29ADDED: https://en.wikipedia.org/wiki/Bacteriology
+2023-04-27 18:49:46,079 INFO:URL NO.30ADDED: https://en.wikipedia.org/wiki/Microbiology
+2023-04-27 18:49:46,080 INFO:URL NO.31ADDED: https://en.wikipedia.org/wiki/Immune_system
+2023-04-27 18:49:46,080 INFO:URL NO.32ADDED: https://en.wikipedia.org/wiki/Probiotic
+2023-04-27 18:49:46,081 INFO:URL NO.33ADDED: https://en.wikipedia.org/wiki/Pathogenic_bacteria
+2023-04-27 18:49:46,081 INFO:URL NO.34ADDED: https://en.wikipedia.org/wiki/Infection
+2023-04-27 18:49:46,082 INFO:URL NO.35ADDED: https://en.wikipedia.org/wiki/Antibiotic
+2023-04-27 18:49:46,082 INFO:URL NO.36ADDED: https://en.wikipedia.org/wiki/Antimicrobial_resistance
+2023-04-27 18:49:46,083 INFO:URL NO.37ADDED: https://en.wikipedia.org/wiki/Cell_nucleus
+2023-04-27 18:49:46,083 INFO:URL NO.38ADDED: https://en.wikipedia.org/wiki/Cell_membrane
+2023-04-27 18:49:46,083 INFO:URL NO.39ADDED: https://en.wikipedia.org/wiki/Organelle
+2023-04-27 18:49:46,084 INFO:URL NO.40ADDED: https://en.wikipedia.org/wiki/Taxonomy
+2023-04-27 18:49:46,084 INFO:URL NO.41ADDED: https://en.wikipedia.org/wiki/Evolution
+2023-04-27 18:49:46,085 INFO:URL NO.42ADDED: https://en.wikipedia.org/wiki/Last_universal_common_ancestor
+2023-04-27 18:49:46,085 INFO:URL NO.43ADDED: https://en.wikipedia.org/wiki/When_Megan_Went_Away
+2023-04-27 18:49:46,086 INFO:URL NO.44ADDED: https://en.wikipedia.org/wiki/Alfred_Shout
+2023-04-27 18:49:46,087 INFO:URL NO.45ADDED: https://en.wikipedia.org/wiki/Armenian_genocide_denial
+2023-04-27 18:49:46,088 INFO:URL NO.46ADDED: https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/April_2023
+2023-04-27 18:49:46,089 INFO:URL NO.47ADDED: https://en.wikipedia.org/wiki/Wikipedia:Featured_articles
+2023-04-27 18:49:46,089 INFO:URL NO.48ADDED: https://en.wikipedia.org/wiki/Wikipedia:About_Today%27s_featured_article
+2023-04-27 18:49:46,090 INFO:URL NO.49ADDED: https://en.wikipedia.org/wiki/File:Court_mantua_dress_at_Tullie_House_Museum_A_(23).JPG
+2023-04-27 18:49:46,090 INFO:URL NO.50ADDED: https://en.wikipedia.org/wiki/Carlisle
+2023-04-27 18:49:46,091 INFO:URL NO.51ADDED: https://en.wikipedia.org/wiki/Margery_Jackson
+2023-04-27 18:49:46,091 INFO:URL NO.52ADDED: https://en.wikipedia.org/wiki/Pauperism
+2023-04-27 18:49:46,092 INFO:URL NO.53ADDED: https://en.wikipedia.org/wiki/Mantua_(clothing)
+2023-04-27 18:49:46,093 INFO:URL NO.54ADDED: https://en.wikipedia.org/wiki/The_Steranko_History_of_Comics
+2023-04-27 18:49:46,094 INFO:URL NO.55ADDED: https://en.wikipedia.org/wiki/Heinz_Schwarz
+2023-04-27 18:49:46,096 INFO:URL NO.56ADDED: https://en.wikipedia.org/wiki/Christian_Democratic_Union_of_Germany
+2023-04-27 18:49:46,096 INFO:URL NO.57ADDED: https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition
+2023-04-27 18:49:46,096 INFO:URL NO.58ADDED: https://en.wikipedia.org/wiki/Ionia_Volcano
+2023-04-27 18:49:46,097 INFO:URL NO.59ADDED: https://en.wikipedia.org/wiki/Lineman_(gridiron_football)
+2023-04-27 18:49:46,098 INFO:URL NO.60ADDED: https://en.wikipedia.org/wiki/Jake_Witt
+2023-04-27 18:49:46,098 INFO:URL NO.61ADDED: https://en.wikipedia.org/wiki/N53_road_(Ireland)
+2023-04-27 18:49:46,099 INFO:URL NO.62ADDED: https://en.wikipedia.org/wiki/Dundalk
+2023-04-27 18:49:46,099 INFO:URL NO.63ADDED: https://en.wikipedia.org/wiki/Castleblayney
+2023-04-27 18:49:46,100 INFO:URL NO.64ADDED: https://en.wikipedia.org/wiki/Northern_Ireland
+2023-04-27 18:49:46,100 INFO:URL NO.65ADDED: https://en.wikipedia.org/wiki/Karmalink
+2023-04-27 18:49:46,101 INFO:URL NO.66ADDED: https://en.wikipedia.org/wiki/Karma_in_Buddhism
+2023-04-27 18:49:46,101 INFO:URL NO.67ADDED: https://en.wikipedia.org/wiki/%C3%89mile_Aubrun
+2023-04-27 18:49:46,102 INFO:URL NO.68ADDED: https://en.wikipedia.org/wiki/The_Golden_Virgin
+2023-04-27 18:49:46,102 INFO:URL NO.69ADDED: https://en.wikipedia.org/wiki/Wikipedia:Recent_additions
+2023-04-27 18:49:46,104 INFO:URL NO.70ADDED: https://en.wikipedia.org/wiki/Help:Your_first_article
+2023-04-27 18:49:46,105 INFO:URL NO.71ADDED: https://en.wikipedia.org/wiki/Template_talk:Did_you_know
+2023-04-27 18:49:46,105 INFO:URL NO.72ADDED: https://en.wikipedia.org/wiki/File:Kelvin_Kiptum_(KEN)_2023.jpg
+2023-04-27 18:49:46,106 INFO:URL NO.73ADDED: https://en.wikipedia.org/wiki/2023_London_Marathon
+2023-04-27 18:49:46,106 INFO:URL NO.74ADDED: https://en.wikipedia.org/wiki/Sifan_Hassan
+2023-04-27 18:49:46,107 INFO:URL NO.75ADDED: https://en.wikipedia.org/wiki/Kelvin_Kiptum
+2023-04-27 18:49:46,108 INFO:URL NO.76ADDED: https://en.wikipedia.org/wiki/Montevideo_Maru
+2023-04-27 18:49:46,109 INFO:URL NO.77ADDED: https://en.wikipedia.org/wiki/South_China_Sea
+2023-04-27 18:49:46,111 INFO:URL NO.78ADDED: https://en.wikipedia.org/wiki/SpaceX_Starship
+2023-04-27 18:49:46,111 INFO:URL NO.79ADDED: https://en.wikipedia.org/wiki/SpaceX_Starship_orbital_test_flight
+2023-04-27 18:49:46,112 INFO:URL NO.80ADDED: https://en.wikipedia.org/wiki/2023_Israeli_judicial_reform_protests
+2023-04-27 18:49:46,112 INFO:URL NO.81ADDED: https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine
+2023-04-27 18:49:46,113 INFO:URL NO.82ADDED: https://en.wikipedia.org/wiki/2023_Sudan_conflict
+2023-04-27 18:49:46,113 INFO:URL NO.83ADDED: https://en.wikipedia.org/wiki/Deaths_in_2023
+2023-04-27 18:49:46,114 INFO:URL NO.84ADDED: https://en.wikipedia.org/wiki/Harry_Belafonte
+2023-04-27 18:49:46,114 INFO:URL NO.85ADDED: https://en.wikipedia.org/wiki/Larry_LeGrande
+2023-04-27 18:49:46,115 INFO:URL NO.86ADDED: https://en.wikipedia.org/wiki/Todd_Haimes
+2023-04-27 18:49:46,115 INFO:URL NO.87ADDED: https://en.wikipedia.org/wiki/Bob_Berry_(American_football)
+2023-04-27 18:49:46,116 INFO:URL NO.88ADDED: https://en.wikipedia.org/wiki/Martin_Petzold
+2023-04-27 18:49:46,116 INFO:URL NO.89ADDED: https://en.wikipedia.org/wiki/Len_Goodman
+2023-04-27 18:49:46,117 INFO:URL NO.90ADDED: https://en.wikipedia.org/wiki/Wikipedia:In_the_news/Candidates
+2023-04-27 18:49:46,117 INFO:URL NO.91ADDED: https://en.wikipedia.org/wiki/April_27
+2023-04-27 18:49:46,118 INFO:URL NO.92ADDED: https://en.wikipedia.org/wiki/Koningsdag
+2023-04-27 18:49:46,119 INFO:URL NO.93ADDED: https://en.wikipedia.org/wiki/File:Kolmen_valtakunnan_rajapyykki_27.4.1945.png
+2023-04-27 18:49:46,120 INFO:URL NO.94ADDED: https://en.wikipedia.org/wiki/629
+2023-04-27 18:49:46,120 INFO:URL NO.95ADDED: https://en.wikipedia.org/wiki/Shahrbaraz
+2023-04-27 18:49:46,121 INFO:URL NO.96ADDED: https://en.wikipedia.org/wiki/Sasanian_Empire
+2023-04-27 18:49:46,122 INFO:URL NO.97ADDED: https://en.wikipedia.org/wiki/Ardashir_III
+2023-04-27 18:49:46,122 INFO:URL NO.98ADDED: https://en.wikipedia.org/wiki/1650
+2023-04-27 18:49:46,123 INFO:URL NO.99ADDED: https://en.wikipedia.org/wiki/Wars_of_the_Three_Kingdoms
+2023-04-27 18:49:46,125 INFO:URL NO.100ADDED: https://en.wikipedia.org/wiki/Covenanters
+2023-04-27 18:49:46,125 INFO:URL NO.101ADDED: https://en.wikipedia.org/wiki/Cavalier
+2023-04-27 18:49:46,126 INFO:URL NO.102ADDED: https://en.wikipedia.org/wiki/Battle_of_Carbisdale
+2023-04-27 18:49:46,126 INFO:URL NO.103ADDED: https://en.wikipedia.org/wiki/Culrain
+2023-04-27 18:49:46,127 INFO:URL NO.104ADDED: https://en.wikipedia.org/wiki/1945
+2023-04-27 18:49:46,127 INFO:URL NO.105ADDED: https://en.wikipedia.org/wiki/World_War_II
+2023-04-27 18:49:46,128 INFO:URL NO.106ADDED: https://en.wikipedia.org/wiki/Raising_the_Flag_on_the_Three-Country_Cairn
+2023-04-27 18:49:46,129 INFO:URL NO.107ADDED: https://en.wikipedia.org/wiki/Lapland_War
+2023-04-27 18:49:46,129 INFO:URL NO.108ADDED: https://en.wikipedia.org/wiki/1965
+2023-04-27 18:49:46,130 INFO:URL NO.109ADDED: https://en.wikipedia.org/wiki/Indonesia%E2%80%93Malaysia_confrontation
+2023-04-27 18:49:46,131 INFO:URL NO.110ADDED: https://en.wikipedia.org/wiki/Battle_of_Plaman_Mapu
+2023-04-27 18:49:46,132 INFO:URL NO.111ADDED: https://en.wikipedia.org/wiki/Sarawak
+2023-04-27 18:49:46,133 INFO:URL NO.112ADDED: https://en.wikipedia.org/wiki/2005
+2023-04-27 18:49:46,134 INFO:URL NO.113ADDED: https://en.wikipedia.org/wiki/Airbus_A380
+2023-04-27 18:49:46,135 INFO:URL NO.114ADDED: https://en.wikipedia.org/wiki/Airliner
+2023-04-27 18:49:46,135 INFO:URL NO.115ADDED: https://en.wikipedia.org/wiki/Toulouse
+2023-04-27 18:49:46,137 INFO:URL NO.116ADDED: https://en.wikipedia.org/wiki/Ulysses_S._Grant
+2023-04-27 18:49:46,137 INFO:URL NO.117ADDED: https://en.wikipedia.org/wiki/Sheila_Scott
+2023-04-27 18:49:46,138 INFO:URL NO.118ADDED: https://en.wikipedia.org/wiki/Olivier_Messiaen
+2023-04-27 18:49:46,139 INFO:URL NO.119ADDED: https://en.wikipedia.org/wiki/April_26
+2023-04-27 18:49:46,140 INFO:URL NO.120ADDED: https://en.wikipedia.org/wiki/April_28
+2023-04-27 18:49:46,140 INFO:URL NO.121ADDED: https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries/April
+2023-04-27 18:49:46,141 INFO:URL NO.122ADDED: https://en.wikipedia.org/wiki/List_of_days_of_the_year
+2023-04-27 18:49:46,142 INFO:URL NO.123ADDED: https://en.wikipedia.org/wiki/File:MatheranPanoramaPointDrySeasonCrop.jpg
+2023-04-27 18:49:46,143 INFO:URL NO.124ADDED: https://en.wikipedia.org/wiki/File:MatheranPanoramaPointMonsoonCrop.jpg
+2023-04-27 18:49:46,143 INFO:URL NO.125ADDED: https://en.wikipedia.org/wiki/Monsoon_of_South_Asia
+2023-04-27 18:49:46,144 INFO:URL NO.126ADDED: https://en.wikipedia.org/wiki/Monsoon
+2023-04-27 18:49:46,144 INFO:URL NO.127ADDED: https://en.wikipedia.org/wiki/Indian_subcontinent
+2023-04-27 18:49:46,145 INFO:URL NO.128ADDED: https://en.wikipedia.org/wiki/Western_Ghats
+2023-04-27 18:49:46,145 INFO:URL NO.129ADDED: https://en.wikipedia.org/wiki/Maharashtra
+2023-04-27 18:49:46,146 INFO:URL NO.130ADDED: https://en.wikipedia.org/wiki/User:Knipptang
+2023-04-27 18:49:46,147 INFO:URL NO.131ADDED: https://en.wikipedia.org/wiki/Template:POTD/2023-04-26
+2023-04-27 18:49:46,147 INFO:URL NO.132ADDED: https://en.wikipedia.org/wiki/Template:POTD/2023-04-25
+2023-04-27 18:49:46,148 INFO:URL NO.133ADDED: https://en.wikipedia.org/wiki/Template:POTD/2023-04-24
+2023-04-27 18:49:46,149 INFO:URL NO.134ADDED: https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day/Archive
+2023-04-27 18:49:46,149 INFO:URL NO.135ADDED: https://en.wikipedia.org/wiki/Wikipedia:Featured_pictures
+2023-04-27 18:49:46,150 INFO:URL NO.136ADDED: https://en.wikipedia.org/wiki/Wikipedia:Village_pump
+2023-04-27 18:49:46,150 INFO:URL NO.137ADDED: https://en.wikipedia.org/wiki/Wikipedia:News
+2023-04-27 18:49:46,151 INFO:URL NO.138ADDED: https://en.wikipedia.org/wiki/Wikipedia:Teahouse
+2023-04-27 18:49:46,152 INFO:URL NO.139ADDED: https://en.wikipedia.org/wiki/Wikipedia:Help_desk
+2023-04-27 18:49:46,153 INFO:URL NO.140ADDED: https://en.wikipedia.org/wiki/Wikipedia:Reference_desk
+2023-04-27 18:49:46,154 INFO:URL NO.141ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals
+2023-04-27 18:49:46,155 INFO:URL NO.142ADDED: https://en.wikipedia.org/wiki/Wikimedia_Foundation
+2023-04-27 18:49:46,157 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&oldid=1114291180
+2023-04-27 18:49:46,159 INFO:URL NO.143ADDED: https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+2023-04-27 18:49:46,160 INFO:URL NO.144ADDED: https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer
+2023-04-27 18:49:46,160 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-27 18:49:46,186 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Main_Page HTTP/1.1" 200 21496
+2023-04-27 18:49:46,248 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:Random
+2023-04-27 18:49:46,249 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:RecentChanges
+2023-04-27 18:49:46,250 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:Search
+2023-04-27 18:49:46,251 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page
+2023-04-27 18:49:46,251 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Main+Page
+2023-04-27 18:49:46,252 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page
+2023-04-27 18:49:46,252 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Main+Page
+2023-04-27 18:49:46,253 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:MyContributions
+2023-04-27 18:49:46,255 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:MyTalk
+2023-04-27 18:49:46,255 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&action=edit
+2023-04-27 18:49:46,256 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&action=history
+2023-04-27 18:49:46,256 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&action=edit
+2023-04-27 18:49:46,257 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&action=history
+2023-04-27 18:49:46,257 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:WhatLinksHere/Main_Page
+2023-04-27 18:49:46,258 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Main_Page
+2023-04-27 18:49:46,259 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:SpecialPages
+2023-04-27 18:49:46,259 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&oldid=1114291180
+2023-04-27 18:49:46,260 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&action=info
+2023-04-27 18:49:46,261 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=Main_Page&id=1114291180&wpFormIdentifier=titleform
+2023-04-27 18:49:46,261 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&page=Main_Page&action=show-download-screen
+2023-04-27 18:49:46,262 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&printable=yes
+2023-04-27 18:49:46,262 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:Statistics
+2023-04-27 18:49:46,267 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Main_Page&oldid=1114291180
+2023-04-27 18:49:46,268 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-27 18:49:46,291 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Contents HTTP/1.1" 200 73027
+2023-04-27 18:49:46,573 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:Random
+2023-04-27 18:49:46,575 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:RecentChanges
+2023-04-27 18:49:46,575 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:Search
+2023-04-27 18:49:46,576 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Wikipedia%3AContents
+2023-04-27 18:49:46,577 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Wikipedia%3AContents
+2023-04-27 18:49:46,577 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Wikipedia%3AContents
+2023-04-27 18:49:46,578 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Wikipedia%3AContents
+2023-04-27 18:49:46,578 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:MyContributions
+2023-04-27 18:49:46,579 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:MyTalk
+2023-04-27 18:49:46,581 INFO:URL NO.145ADDED: https://en.wikipedia.org/wiki/Wikipedia_talk:Contents
+2023-04-27 18:49:46,581 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Wikipedia:Contents&action=edit
+2023-04-27 18:49:46,581 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Wikipedia:Contents&action=history
+2023-04-27 18:49:46,582 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Wikipedia:Contents&action=edit
+2023-04-27 18:49:46,583 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Wikipedia:Contents&action=history
+2023-04-27 18:49:46,583 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:WhatLinksHere/Wikipedia:Contents
+2023-04-27 18:49:46,584 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Wikipedia:Contents
+2023-04-27 18:49:46,585 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:SpecialPages
+2023-04-27 18:49:46,586 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Wikipedia:Contents&oldid=1147194332
+2023-04-27 18:49:46,586 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Wikipedia:Contents&action=info
+2023-04-27 18:49:46,587 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&page=Wikipedia%3AContents&action=show-download-screen
+2023-04-27 18:49:46,587 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Wikipedia:Contents&printable=yes
+2023-04-27 18:49:46,589 INFO:URL NO.146ADDED: https://en.wikipedia.org/wiki/Wikipedia:Protection_policy
+2023-04-27 18:49:46,589 INFO:URL NO.147ADDED: https://en.wikipedia.org/wiki/Wikipedia:Vital_articles
+2023-04-27 18:49:46,590 INFO:URL NO.148ADDED: https://en.wikipedia.org/wiki/Wikipedia:Featured_content
+2023-04-27 18:49:46,590 INFO:URL NO.149ADDED: https://en.wikipedia.org/wiki/Wikipedia:Good_articles
+2023-04-27 18:49:46,591 INFO:URL NO.150ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Overviews
+2023-04-27 18:49:46,592 INFO:URL NO.151ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Outlines
+2023-04-27 18:49:46,593 INFO:URL NO.152ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Lists
+2023-04-27 18:49:46,594 INFO:URL NO.153ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Glossaries
+2023-04-27 18:49:46,594 INFO:URL NO.154ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories
+2023-04-27 18:49:46,595 INFO:URL NO.155ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Indices
+2023-04-27 18:49:46,595 INFO:URL NO.156ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/A%E2%80%93Z_index
+2023-04-27 18:49:46,596 INFO:URL NO.157ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Reference
+2023-04-27 18:49:46,596 INFO:URL NO.158ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Culture_and_the_arts
+2023-04-27 18:49:46,597 INFO:URL NO.159ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Geography_and_places
+2023-04-27 18:49:46,597 INFO:URL NO.160ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Health_and_fitness
+2023-04-27 18:49:46,598 INFO:URL NO.161ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/History_and_events
+2023-04-27 18:49:46,598 INFO:URL NO.162ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Human_activities
+2023-04-27 18:49:46,599 INFO:URL NO.163ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Mathematics_and_logic
+2023-04-27 18:49:46,600 INFO:URL NO.164ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Natural_and_physical_sciences
+2023-04-27 18:49:46,600 INFO:URL NO.165ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/People_and_self
+2023-04-27 18:49:46,601 INFO:URL NO.166ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Philosophy_and_thinking
+2023-04-27 18:49:46,601 INFO:URL NO.167ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Religion_and_belief_systems
+2023-04-27 18:49:46,602 INFO:URL NO.168ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Society_and_social_sciences
+2023-04-27 18:49:46,602 INFO:URL NO.169ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contents/Technology_and_applied_sciences
+2023-04-27 18:49:46,603 INFO:URL NO.170ADDED: https://en.wikipedia.org/wiki/Wikipedia:Shortcut
+2023-04-27 18:49:46,603 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Wikipedia:START&redirect=no
+2023-04-27 18:49:46,604 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Wikipedia:EXPLORE&redirect=no
+2023-04-27 18:49:46,605 INFO:URL NO.171ADDED: https://en.wikipedia.org/wiki/Wikipedia:Directories_and_indexes
+2023-04-27 18:49:46,605 INFO:URL NO.172ADDED: https://en.wikipedia.org/wiki/Compendium
+2023-04-27 18:49:46,606 INFO:URL NO.173ADDED: https://en.wikipedia.org/wiki/Knowledge
+2023-04-27 18:49:46,606 INFO:URL NO.174ADDED: https://en.wikipedia.org/wiki/Help:Searching
+2023-04-27 18:49:46,607 INFO:URL NO.175ADDED: https://en.wikipedia.org/wiki/Timelines
+2023-04-27 18:49:46,608 INFO:URL NO.176ADDED: https://en.wikipedia.org/wiki/List_of_timelines
+2023-04-27 18:49:46,608 INFO:URL NO.177ADDED: https://en.wikipedia.org/wiki/Category:Wikipedia_timelines
+2023-04-27 18:49:46,609 INFO:URL NO.178ADDED: https://en.wikipedia.org/wiki/List_of_centuries
+2023-04-27 18:49:46,609 INFO:URL NO.179ADDED: https://en.wikipedia.org/wiki/List_of_decades
+2023-04-27 18:49:46,610 INFO:URL NO.180ADDED: https://en.wikipedia.org/wiki/List_of_historical_anniversaries
+2023-04-27 18:49:46,610 INFO:URL NO.181ADDED: https://en.wikipedia.org/wiki/Category:Graphical_timelines
+2023-04-27 18:49:46,610 INFO:URL NO.182ADDED: https://en.wikipedia.org/wiki/2023
+2023-04-27 18:49:46,611 INFO:URL NO.183ADDED: https://en.wikipedia.org/wiki/2023_in_politics_and_government
+2023-04-27 18:49:46,611 INFO:URL NO.184ADDED: https://en.wikipedia.org/wiki/2023_in_science
+2023-04-27 18:49:46,612 INFO:URL NO.185ADDED: https://en.wikipedia.org/wiki/Category:2023_timelines
+2023-04-27 18:49:46,613 INFO:URL NO.186ADDED: https://en.wikipedia.org/wiki/Category:2023_by_country
+2023-04-27 18:49:46,613 INFO:URL NO.187ADDED: https://en.wikipedia.org/wiki/Category:Contemporary_history_by_country
+2023-04-27 18:49:46,614 INFO:URL NO.188ADDED: https://en.wikipedia.org/wiki/Library_of_Congress_Classification
+2023-04-27 18:49:46,615 INFO:URL NO.189ADDED: https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes
+2023-04-27 18:49:46,615 INFO:URL NO.190ADDED: https://en.wikipedia.org/wiki/Figurative_system_of_human_knowledge
+2023-04-27 18:49:46,615 INFO:URL NO.191ADDED: https://en.wikipedia.org/wiki/Encyclop%C3%A9die
+2023-04-27 18:49:46,616 INFO:URL NO.192ADDED: https://en.wikipedia.org/wiki/Prop%C3%A6dia
+2023-04-27 18:49:46,616 INFO:URL NO.193ADDED: https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Britannica
+2023-04-27 18:49:46,617 INFO:URL NO.194ADDED: https://en.wikipedia.org/wiki/Tree_of_knowledge_system
+2023-04-27 18:49:46,617 INFO:URL NO.195ADDED: https://en.wikipedia.org/wiki/Universal_Decimal_Classification
+2023-04-27 18:49:46,618 INFO:URL NO.196ADDED: https://en.wikipedia.org/wiki/Bibliographies
+2023-04-27 18:49:46,666 INFO:URL NO.197ADDED: https://en.wikipedia.org/wiki/Wikipedia:List_of_bibliographies
+2023-04-27 18:49:46,667 INFO:URL NO.198ADDED: https://en.wikipedia.org/wiki/Category:Wikipedia_bibliographies
+2023-04-27 18:49:46,668 INFO:URL NO.199ADDED: https://en.wikipedia.org/wiki/Biology
+2023-04-27 18:49:46,668 INFO:URL NO.200ADDED: https://en.wikipedia.org/wiki/Cell_biology
+2023-04-27 18:49:46,669 INFO:URL NO.201ADDED: https://en.wikipedia.org/wiki/Carl_Linnaeus
+2023-04-27 18:49:46,670 INFO:URL NO.202ADDED: https://en.wikipedia.org/wiki/Human_Genome_Project
+2023-04-27 18:49:46,671 INFO:URL NO.203ADDED: https://en.wikipedia.org/wiki/Tree_structure
+2023-04-27 18:49:46,671 INFO:URL NO.204ADDED: https://en.wikipedia.org/wiki/Outline_(list)
+2023-04-27 18:49:46,672 INFO:URL NO.205ADDED: https://en.wikipedia.org/wiki/Outline_of_academic_disciplines
+2023-04-27 18:49:46,673 INFO:URL NO.206ADDED: https://en.wikipedia.org/wiki/Outline_of_knowledge
+2023-04-27 18:49:46,673 INFO:URL NO.207ADDED: https://en.wikipedia.org/wiki/List_of_sovereign_states
+2023-04-27 18:49:46,675 INFO:URL NO.208ADDED: https://en.wikipedia.org/wiki/List_of_South_Africans
+2023-04-27 18:49:46,675 INFO:URL NO.209ADDED: https://en.wikipedia.org/wiki/Lists_of_countries_and_territories
+2023-04-27 18:49:46,675 INFO:URL NO.210ADDED: https://en.wikipedia.org/wiki/List_of_lists_of_lists
+2023-04-27 18:49:46,676 INFO:URL NO.211ADDED: https://en.wikipedia.org/wiki/Category:Lists
+2023-04-27 18:49:46,676 INFO:URL NO.212ADDED: https://en.wikipedia.org/wiki/Wikipedia:Portal
+2023-04-27 18:49:46,677 INFO:URL NO.213ADDED: https://en.wikipedia.org/wiki/Wikipedia:Featured_images
+2023-04-27 18:49:46,678 INFO:URL NO.214ADDED: https://en.wikipedia.org/wiki/Category:Portals
+2023-04-27 18:49:46,678 INFO:URL NO.215ADDED: https://en.wikipedia.org/wiki/Glossaries
+2023-04-27 18:49:46,679 INFO:URL NO.216ADDED: https://en.wikipedia.org/wiki/Category:Wikipedia_glossaries
+2023-04-27 18:49:46,679 INFO:URL NO.217ADDED: https://en.wikipedia.org/wiki/Wikipedia:Categorization
+2023-04-27 18:49:46,680 INFO:URL NO.218ADDED: https://en.wikipedia.org/wiki/Category:Main_topic_classifications
+2023-04-27 18:49:46,681 INFO:URL NO.219ADDED: https://en.wikipedia.org/wiki/Category:People
+2023-04-27 18:49:46,681 INFO:URL NO.220ADDED: https://en.wikipedia.org/wiki/Category:Contents
+2023-04-27 18:49:46,682 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:Categories
+2023-04-27 18:49:46,682 INFO:URL NO.221ADDED: https://en.wikipedia.org/wiki/File:C%C3%ADrculos_Conc%C3%A9ntricos.svg
+2023-04-27 18:49:46,682 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Wikipedia:Vital_articles
+2023-04-27 18:49:46,684 INFO:URL NO.222ADDED: https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/1
+2023-04-27 18:49:46,685 INFO:URL NO.223ADDED: https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/2
+2023-04-27 18:49:46,686 INFO:URL NO.224ADDED: https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4
+2023-04-27 18:49:46,687 INFO:URL NO.225ADDED: https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/5
+2023-04-27 18:49:46,687 INFO:URL NO.226ADDED: https://en.wikipedia.org/wiki/File:Cscr-featured.svg
+2023-04-27 18:49:46,688 INFO:URL NO.227ADDED: https://en.wikipedia.org/wiki/Wikipedia:Featured_lists
+2023-04-27 18:49:46,689 INFO:URL NO.228ADDED: https://en.wikipedia.org/wiki/Wikipedia:Featured_topics
+2023-04-27 18:49:46,690 INFO:URL NO.229ADDED: https://en.wikipedia.org/wiki/File:Symbol_support_vote.svg
+2023-04-27 18:49:46,690 INFO:URL NO.230ADDED: https://en.wikipedia.org/wiki/Wikipedia:Good_article_criteria
+2023-04-27 18:49:46,691 INFO:URL NO.231ADDED: https://en.wikipedia.org/wiki/Wikipedia:Good_article_nominations
+2023-04-27 18:49:46,692 INFO:URL NO.232ADDED: https://en.wikipedia.org/wiki/Wikipedia:V
+2023-04-27 18:49:46,692 INFO:URL NO.233ADDED: https://en.wikipedia.org/wiki/Wikipedia:NPOV
+2023-04-27 18:49:46,693 INFO:URL NO.234ADDED: https://en.wikipedia.org/wiki/Wikipedia:Images
+2023-04-27 18:49:46,693 INFO:URL NO.235ADDED: https://en.wikipedia.org/wiki/Wikipedia:Image_copyright_tags
+2023-04-27 18:49:46,694 INFO:URL NO.236ADDED: https://en.wikipedia.org/wiki/Category:Spoken_articles
+2023-04-27 18:49:46,694 INFO:URL NO.237ADDED: https://en.wikipedia.org/wiki/Wikipedia:Spoken_articles
+2023-04-27 18:49:46,695 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/wiki/Special:AllPages
+2023-04-27 18:49:46,696 INFO:URL NO.238ADDED: https://en.wikipedia.org/wiki/Category:Wikipedia_indexes
+2023-04-27 18:49:46,697 INFO:URL NO.239ADDED: https://en.wikipedia.org/wiki/List_of_decades,_centuries,_and_millennia
+2023-04-27 18:49:46,698 INFO:URL NO.240ADDED: https://en.wikipedia.org/wiki/Template:Basic_information
+2023-04-27 18:49:46,698 INFO:URL NO.241ADDED: https://en.wikipedia.org/wiki/Template_talk:Basic_information
+2023-04-27 18:49:46,699 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Template:Basic_information&action=edit
+2023-04-27 18:49:46,700 INFO:URL NO.242ADDED: https://en.wikipedia.org/wiki/Category:Wikipedia_basic_information
+2023-04-27 18:49:46,700 INFO:URL NO.243ADDED: https://en.wikipedia.org/wiki/Help:Directory
+2023-04-27 18:49:46,701 INFO:URL NO.244ADDED: https://en.wikipedia.org/wiki/Help:Menu
+2023-04-27 18:49:46,702 INFO:URL NO.245ADDED: https://en.wikipedia.org/wiki/Wikipedia:Reader%27s_index_to_Wikipedia
+2023-04-27 18:49:46,703 INFO:URL NO.246ADDED: https://en.wikipedia.org/wiki/Wikipedia:Statistics
+2023-04-27 18:49:46,703 INFO:URL NO.247ADDED: https://en.wikipedia.org/wiki/Wikipedia:Administration
+2023-04-27 18:49:46,703 INFO:URL NO.248ADDED: https://en.wikipedia.org/wiki/Wikipedia:FAQ/Index
+2023-04-27 18:49:46,704 INFO:URL NO.249ADDED: https://en.wikipedia.org/wiki/Wikipedia:Purpose
+2023-04-27 18:49:46,705 INFO:URL NO.250ADDED: https://en.wikipedia.org/wiki/Wikipedia:Who_writes_Wikipedia%3F
+2023-04-27 18:49:46,706 INFO:URL NO.251ADDED: https://en.wikipedia.org/wiki/Wikipedia:Formal_organization
+2023-04-27 18:49:46,706 INFO:URL NO.252ADDED: https://en.wikipedia.org/wiki/Help:Censorship
+2023-04-27 18:49:46,707 INFO:URL NO.253ADDED: https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_in_brief
+2023-04-27 18:49:46,707 INFO:URL NO.254ADDED: https://en.wikipedia.org/wiki/Wikipedia:FAQ/Readers
+2023-04-27 18:49:46,708 INFO:URL NO.255ADDED: https://en.wikipedia.org/wiki/Help:Student_help
+2023-04-27 18:49:46,709 INFO:URL NO.256ADDED: https://en.wikipedia.org/wiki/Help:Navigation
+2023-04-27 18:49:46,709 INFO:URL NO.257ADDED: https://en.wikipedia.org/wiki/Help:Viewing_media
+2023-04-27 18:49:46,710 INFO:URL NO.258ADDED: https://en.wikipedia.org/wiki/Help:Media
+2023-04-27 18:49:46,710 INFO:URL NO.259ADDED: https://en.wikipedia.org/wiki/Help:Mobile_access
+2023-04-27 18:49:46,711 INFO:URL NO.260ADDED: https://en.wikipedia.org/wiki/Wikipedia:Advice_for_parents
+2023-04-27 18:49:46,712 INFO:URL NO.261ADDED: https://en.wikipedia.org/wiki/Help:Other_languages
+2023-04-27 18:49:46,712 INFO:URL NO.262ADDED: https://en.wikipedia.org/wiki/Wikipedia:Researching_with_Wikipedia
+2023-04-27 18:49:46,713 INFO:URL NO.263ADDED: https://en.wikipedia.org/wiki/Wikipedia:Citing_Wikipedia
+2023-04-27 18:49:46,714 INFO:URL NO.264ADDED: https://en.wikipedia.org/wiki/Help:Copyright
+2023-04-27 18:49:46,714 INFO:URL NO.265ADDED: https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia
+2023-04-27 18:49:46,715 INFO:URL NO.266ADDED: https://en.wikipedia.org/wiki/Help:Getting_started
+2023-04-27 18:49:46,716 INFO:URL NO.267ADDED: https://en.wikipedia.org/wiki/Wikipedia:The_answer_to_life,_the_universe,_and_everything
+2023-04-27 18:49:46,716 INFO:URL NO.268ADDED: https://en.wikipedia.org/wiki/Wikipedia:Dos_and_don%27ts
+2023-04-27 18:49:46,717 INFO:URL NO.269ADDED: https://en.wikipedia.org/wiki/Wikipedia:Learning_the_ropes
+2023-04-27 18:49:46,718 INFO:URL NO.270ADDED: https://en.wikipedia.org/wiki/Wikipedia:Avoiding_common_mistakes
+2023-04-27 18:49:46,720 INFO:URL NO.271ADDED: https://en.wikipedia.org/wiki/Wikipedia:A_primer_for_newcomers
+2023-04-27 18:49:46,721 INFO:URL NO.272ADDED: https://en.wikipedia.org/wiki/Wikipedia:Simplified_ruleset
+2023-04-27 18:49:46,721 INFO:URL NO.273ADDED: https://en.wikipedia.org/wiki/Help:Wikipedia:_The_Missing_Manual
+2023-04-27 18:49:46,722 INFO:URL NO.274ADDED: https://en.wikipedia.org/wiki/Wikipedia:Article_wizard
+2023-04-27 18:49:46,723 INFO:URL NO.275ADDED: https://en.wikipedia.org/wiki/Wikipedia:Guidance_for_younger_editors
+2023-04-27 18:49:46,723 INFO:URL NO.276ADDED: https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Adventure
+2023-04-27 18:49:46,724 INFO:URL NO.277ADDED: https://en.wikipedia.org/wiki/Wikipedia:Why_create_an_account%3F
+2023-04-27 18:49:46,724 INFO:URL NO.278ADDED: https://en.wikipedia.org/wiki/Help:Logging_in
+2023-04-27 18:49:46,725 INFO:URL NO.279ADDED: https://en.wikipedia.org/wiki/Help:Email_confirmation
+2023-04-27 18:49:46,725 INFO:URL NO.280ADDED: https://en.wikipedia.org/wiki/Help:Editing
+2023-04-27 18:49:46,726 INFO:URL NO.281ADDED: https://en.wikipedia.org/wiki/Help:Edit_toolbar
+2023-04-27 18:49:46,726 INFO:URL NO.282ADDED: https://en.wikipedia.org/wiki/Help:Edit_conflict
+2023-04-27 18:49:46,727 INFO:URL NO.283ADDED: https://en.wikipedia.org/wiki/Wikipedia:VisualEditor
+2023-04-27 18:49:46,727 INFO:URL NO.284ADDED: https://en.wikipedia.org/wiki/Wikipedia:VisualEditor/User_guide
+2023-04-27 18:49:46,728 INFO:URL NO.285ADDED: https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines
+2023-04-27 18:49:46,728 INFO:URL NO.286ADDED: https://en.wikipedia.org/wiki/Wikipedia:Five_pillars
+2023-04-27 18:49:46,728 INFO:URL NO.287ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style
+2023-04-27 18:49:46,729 INFO:URL NO.288ADDED: https://en.wikipedia.org/wiki/Wikipedia:Simplified_Manual_of_Style
+2023-04-27 18:49:46,729 INFO:URL NO.289ADDED: https://en.wikipedia.org/wiki/Wikipedia:Etiquette
+2023-04-27 18:49:46,730 INFO:URL NO.290ADDED: https://en.wikipedia.org/wiki/Wikipedia:Expectations_and_norms_of_the_Wikipedia_community
+2023-04-27 18:49:46,730 INFO:URL NO.291ADDED: https://en.wikipedia.org/wiki/Wikipedia:Editorial_oversight_and_control
+2023-04-27 18:49:46,731 INFO:URL NO.292ADDED: https://en.wikipedia.org/wiki/Wikipedia:Principles
+2023-04-27 18:49:46,731 INFO:URL NO.293ADDED: https://en.wikipedia.org/wiki/Wikipedia:Ignore_all_rules
+2023-04-27 18:49:46,732 INFO:URL NO.294ADDED: https://en.wikipedia.org/wiki/Wikipedia:The_rules_are_principles
+2023-04-27 18:49:46,732 INFO:URL NO.295ADDED: https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies
+2023-04-27 18:49:46,733 INFO:URL NO.296ADDED: https://en.wikipedia.org/wiki/Wikipedia:List_of_policies_and_guidelines
+2023-04-27 18:49:46,734 INFO:URL NO.297ADDED: https://en.wikipedia.org/wiki/Wikipedia:Vandalism
+2023-04-27 18:49:46,735 INFO:URL NO.298ADDED: https://en.wikipedia.org/wiki/Wikipedia:Guide_to_appealing_blocks
+2023-04-27 18:49:46,735 INFO:URL NO.299ADDED: https://en.wikipedia.org/wiki/Wikipedia:What_Wikipedia_is_not
+2023-04-27 18:49:46,736 INFO:URL NO.300ADDED: https://en.wikipedia.org/wiki/Wikipedia:Questions
+2023-04-27 18:49:46,737 INFO:URL NO.301ADDED: https://en.wikipedia.org/wiki/Wikipedia:Reference_Desk
+2023-04-27 18:49:46,737 INFO:URL NO.302ADDED: https://en.wikipedia.org/wiki/Help:Category
+2023-04-27 18:49:46,738 INFO:URL NO.303ADDED: https://en.wikipedia.org/wiki/Wikipedia:Request_directory
+2023-04-27 18:49:46,739 INFO:URL NO.304ADDED: https://en.wikipedia.org/wiki/Wikipedia:Dispute_resolution_requests
+2023-04-27 18:49:46,740 INFO:URL NO.305ADDED: https://en.wikipedia.org/wiki/Wikipedia:IRC
+2023-04-27 18:49:46,740 INFO:URL NO.306ADDED: https://en.wikipedia.org/wiki/Wikipedia:IRC/Tutorial
+2023-04-27 18:49:46,741 INFO:URL NO.307ADDED: https://en.wikipedia.org/wiki/Wikipedia_community
+2023-04-27 18:49:46,741 INFO:URL NO.308ADDED: https://en.wikipedia.org/wiki/Wikipedia:Department_directory
+2023-04-27 18:49:46,742 INFO:URL NO.309ADDED: https://en.wikipedia.org/wiki/Wikipedia:Meetup
+2023-04-27 18:49:46,742 INFO:URL NO.310ADDED: https://en.wikipedia.org/wiki/Wikipedia:WikiProjects
+2023-04-27 18:49:46,743 INFO:URL NO.311ADDED: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Council/Guide
+2023-04-27 18:49:46,744 INFO:URL NO.312ADDED: https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2013-04-01/WikiProject_report
+2023-04-27 18:49:46,744 INFO:URL NO.313ADDED: https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(policy)
+2023-04-27 18:49:46,745 INFO:URL NO.314ADDED: https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(technical)
+2023-04-27 18:49:46,745 INFO:URL NO.315ADDED: https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(proposals)
+2023-04-27 18:49:46,745 INFO:URL NO.316ADDED: https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(idea_lab)
+2023-04-27 18:49:46,746 INFO:URL NO.317ADDED: https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(WMF)
+2023-04-27 18:49:46,746 INFO:URL NO.318ADDED: https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(miscellaneous)
+2023-04-27 18:49:46,747 INFO:URL NO.319ADDED: https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost
+2023-04-27 18:49:46,747 INFO:URL NO.320ADDED: https://en.wikipedia.org/wiki/Wikipedia:Dashboard
+2023-04-27 18:49:46,748 INFO:URL NO.321ADDED: https://en.wikipedia.org/wiki/Wikipedia:Noticeboards
+2023-04-27 18:49:46,749 INFO:URL NO.322ADDED: https://en.wikipedia.org/wiki/Wikipedia:Maintenance
+2023-04-27 18:49:46,750 INFO:URL NO.323ADDED: https://en.wikipedia.org/wiki/Wikipedia:Task_Center
+2023-04-27 18:49:46,750 INFO:URL NO.324ADDED: https://en.wikipedia.org/wiki/Wikipedia:Essays
+2023-04-27 18:49:46,751 INFO:URL NO.325ADDED: https://en.wikipedia.org/wiki/Wikipedia:Citing_sources
+2023-04-27 18:49:46,752 INFO:URL NO.326ADDED: https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources
+2023-04-27 18:49:46,752 INFO:URL NO.327ADDED: https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Library/Research_desk
+2023-04-27 18:49:46,754 INFO:URL NO.328ADDED: https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Library
+2023-04-27 18:49:46,754 INFO:URL NO.329ADDED: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Resource_Exchange/Resource_Request
+2023-04-27 18:49:46,755 INFO:URL NO.330ADDED: https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Library/Free_resources
+2023-04-27 18:49:46,756 INFO:URL NO.331ADDED: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Resource_Exchange
+2023-04-27 18:49:46,756 INFO:URL NO.332ADDED: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Resource_Exchange/Shared_Resources
+2023-04-27 18:49:46,757 INFO:URL NO.333ADDED: https://en.wikipedia.org/wiki/Help:Find_sources
+2023-04-27 18:49:46,757 INFO:URL NO.334ADDED: https://en.wikipedia.org/wiki/Wikipedia:Combining_sources
+2023-04-27 18:49:46,758 INFO:URL NO.335ADDED: https://en.wikipedia.org/wiki/Help:Referencing_for_beginners
+2023-04-27 18:49:46,758 INFO:URL NO.336ADDED: https://en.wikipedia.org/wiki/Help:Citations_quick_reference
+2023-04-27 18:49:46,759 INFO:URL NO.337ADDED: https://en.wikipedia.org/wiki/Help:Citation_Style_1
+2023-04-27 18:49:46,759 INFO:URL NO.338ADDED: https://en.wikipedia.org/wiki/Wikipedia:Citation_templates
+2023-04-27 18:49:46,760 INFO:URL NO.339ADDED: https://en.wikipedia.org/wiki/Help:Footnotes
+2023-04-27 18:49:46,760 INFO:URL NO.340ADDED: https://en.wikipedia.org/wiki/Help:References_and_page_numbers
+2023-04-27 18:49:46,761 INFO:URL NO.341ADDED: https://en.wikipedia.org/wiki/Help:Cite_errors
+2023-04-27 18:49:46,761 INFO:URL NO.342ADDED: https://en.wikipedia.org/wiki/Category:Wikipedia_how-to
+2023-04-27 18:49:46,762 INFO:URL NO.343ADDED: https://en.wikipedia.org/wiki/Category:Wikipedia_information_pages
+2023-04-27 18:49:46,762 INFO:URL NO.344ADDED: https://en.wikipedia.org/wiki/Wikipedia:Tools
+2023-04-27 18:49:46,763 INFO:URL NO.345ADDED: https://en.wikipedia.org/wiki/Help:Infobox
+2023-04-27 18:49:46,763 INFO:URL NO.346ADDED: https://en.wikipedia.org/wiki/Wikipedia:Essays_in_a_nutshell/Article_writing
+2023-04-27 18:49:46,764 INFO:URL NO.347ADDED: https://en.wikipedia.org/wiki/Wikipedia:Article_development
+2023-04-27 18:49:46,765 INFO:URL NO.348ADDED: https://en.wikipedia.org/wiki/Wikipedia:Writing_better_articles
+2023-04-27 18:49:46,765 INFO:URL NO.349ADDED: https://en.wikipedia.org/wiki/Help:Files
+2023-04-27 18:49:46,766 INFO:URL NO.350ADDED: https://en.wikipedia.org/wiki/Help:Creation_and_usage_of_media_files
+2023-04-27 18:49:46,766 INFO:URL NO.351ADDED: https://en.wikipedia.org/wiki/Wikipedia:Uploading_images
+2023-04-27 18:49:46,767 INFO:URL NO.352ADDED: https://en.wikipedia.org/wiki/Wikipedia:Guide_to_image_deletion
+2023-04-27 18:49:46,767 INFO:URL NO.353ADDED: https://en.wikipedia.org/wiki/Help:User_contributions
+2023-04-27 18:49:46,768 INFO:URL NO.354ADDED: https://en.wikipedia.org/wiki/Help:Diff
+2023-04-27 18:49:46,768 INFO:URL NO.355ADDED: https://en.wikipedia.org/wiki/Wikipedia:Namespace
+2023-04-27 18:49:46,769 INFO:URL NO.356ADDED: https://en.wikipedia.org/wiki/Wikipedia:Guide_to_deletion
+2023-04-27 18:49:46,770 INFO:URL NO.357ADDED: https://en.wikipedia.org/wiki/Wikipedia:Merging
+2023-04-27 18:49:46,771 INFO:URL NO.358ADDED: https://en.wikipedia.org/wiki/Help:How_to_move_a_page
+2023-04-27 18:49:46,771 INFO:URL NO.359ADDED: https://en.wikipedia.org/wiki/Wikipedia:Requested_moves
+2023-04-27 18:49:46,772 INFO:URL NO.360ADDED: https://en.wikipedia.org/wiki/Help:Redirect
+2023-04-27 18:49:46,773 INFO:URL NO.361ADDED: https://en.wikipedia.org/wiki/Help:Reverting
+2023-04-27 18:49:46,774 INFO:URL NO.362ADDED: https://en.wikipedia.org/wiki/Help:Simple_guide_to_vandalism_cleanup
+2023-04-27 18:49:46,774 INFO:URL NO.363ADDED: https://en.wikipedia.org/wiki/Help:Talk_pages
+2023-04-27 18:49:46,775 INFO:URL NO.364ADDED: https://en.wikipedia.org/wiki/Help:Archiving_a_talk_page
+2023-04-27 18:49:46,775 INFO:URL NO.365ADDED: https://en.wikipedia.org/wiki/Help:Wikitext
+2023-04-27 18:49:46,775 INFO:URL NO.366ADDED: https://en.wikipedia.org/wiki/Help:Cheatsheet
+2023-04-27 18:49:46,776 INFO:URL NO.367ADDED: https://en.wikipedia.org/wiki/Help:Columns
+2023-04-27 18:49:46,776 INFO:URL NO.368ADDED: https://en.wikipedia.org/wiki/Help:HTML_in_wikitext
+2023-04-27 18:49:46,777 INFO:URL NO.369ADDED: https://en.wikipedia.org/wiki/Help:List
+2023-04-27 18:49:46,777 INFO:URL NO.370ADDED: https://en.wikipedia.org/wiki/Help:Magic_words
+2023-04-27 18:49:46,777 INFO:URL NO.371ADDED: https://en.wikipedia.org/wiki/Help:Magic_words_for_beginners
+2023-04-27 18:49:46,778 INFO:URL NO.372ADDED: https://en.wikipedia.org/wiki/Help:Section
+2023-04-27 18:49:46,778 INFO:URL NO.373ADDED: https://en.wikipedia.org/wiki/Help:Sound_file_markup
+2023-04-27 18:49:46,780 INFO:URL NO.374ADDED: https://en.wikipedia.org/wiki/Help:Special_characters
+2023-04-27 18:49:46,780 INFO:URL NO.375ADDED: https://en.wikipedia.org/wiki/Help:Table
+2023-04-27 18:49:46,781 INFO:URL NO.376ADDED: https://en.wikipedia.org/wiki/Help:Template
+2023-04-27 18:49:46,782 INFO:URL NO.377ADDED: https://en.wikipedia.org/wiki/Wikipedia:Template_documentation
+2023-04-27 18:49:46,782 INFO:URL NO.378ADDED: https://en.wikipedia.org/wiki/Wikipedia:Template_index
+2023-04-27 18:49:46,784 INFO:URL NO.379ADDED: https://en.wikipedia.org/wiki/Wikipedia:Substitution
+2023-04-27 18:49:46,785 INFO:URL NO.380ADDED: https://en.wikipedia.org/wiki/Wikipedia:Transclusion
+2023-04-27 18:49:46,785 INFO:URL NO.381ADDED: https://en.wikipedia.org/wiki/Help:Visual_file_markup
+2023-04-27 18:49:46,786 INFO:URL NO.382ADDED: https://en.wikipedia.org/wiki/Help:Pictures
+2023-04-27 18:49:46,787 INFO:URL NO.383ADDED: https://en.wikipedia.org/wiki/Help:Link
+2023-04-27 18:49:46,788 INFO:URL NO.384ADDED: https://en.wikipedia.org/wiki/Category:Wikipedia_directories
+2023-04-27 18:49:46,788 INFO:URL NO.385ADDED: https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_abbreviations
+2023-04-27 18:49:46,789 INFO:URL NO.386ADDED: https://en.wikipedia.org/wiki/Wikipedia:Edit_summary_legend
+2023-04-27 18:49:46,789 INFO:URL NO.387ADDED: https://en.wikipedia.org/wiki/Wikipedia:Essay_directory
+2023-04-27 18:49:46,790 INFO:URL NO.388ADDED: https://en.wikipedia.org/wiki/Wikipedia:Glossary
+2023-04-27 18:49:46,791 INFO:URL NO.389ADDED: https://en.wikipedia.org/wiki/Wikipedia:Editor%27s_index_to_Wikipedia
+2023-04-27 18:49:46,791 INFO:URL NO.390ADDED: https://en.wikipedia.org/wiki/Wikipedia:Shortcut_index
+2023-04-27 18:49:46,792 INFO:URL NO.391ADDED: https://en.wikipedia.org/wiki/Wikipedia:Tips
+2023-04-27 18:49:46,792 INFO:URL NO.392ADDED: https://en.wikipedia.org/wiki/Template:Wikipedia_directories
+2023-04-27 18:49:46,792 INFO:URL NO.393ADDED: https://en.wikipedia.org/wiki/Template_talk:Wikipedia_directories
+2023-04-27 18:49:46,793 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Template:Wikipedia_directories&action=edit
+2023-04-27 18:49:46,794 INFO:URL NO.394ADDED: https://en.wikipedia.org/wiki/Wikipedia:ADMINP
+2023-04-27 18:49:46,794 INFO:URL NO.395ADDED: https://en.wikipedia.org/wiki/Wikipedia:List_of_policies
+2023-04-27 18:49:46,795 INFO:URL NO.396ADDED: https://en.wikipedia.org/wiki/Wikipedia:List_of_guidelines
+2023-04-27 18:49:46,796 INFO:URL NO.397ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Contents
+2023-04-27 18:49:46,796 INFO:URL NO.398ADDED: https://en.wikipedia.org/wiki/Wikipedia:FAQ
+2023-04-27 18:49:46,797 INFO:URL NO.399ADDED: https://en.wikipedia.org/wiki/Wikipedia:Styletips
+2023-04-27 18:49:46,798 INFO:URL NO.400ADDED: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Council/Directory
+2023-04-27 18:49:46,800 INFO:URL NO.401ADDED: https://en.wikipedia.org/wiki/Wikipedia:Good_topics
+2023-04-27 18:49:46,801 INFO:URL NO.402ADDED: https://en.wikipedia.org/wiki/Lists_of_sovereign_states_and_dependent_territories
+2023-04-27 18:49:46,802 INFO:URL NO.403ADDED: https://en.wikipedia.org/wiki/Template:Wikipedia_editor_navigation
+2023-04-27 18:49:46,803 INFO:URL NO.404ADDED: https://en.wikipedia.org/wiki/Template_talk:Wikipedia_editor_navigation
+2023-04-27 18:49:46,803 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Template:Wikipedia_editor_navigation&action=edit
+2023-04-27 18:49:46,805 INFO:URL NO.405ADDED: https://en.wikipedia.org/wiki/Template:Wikipedia_policies_and_guidelines
+2023-04-27 18:49:46,805 INFO:URL NO.406ADDED: https://en.wikipedia.org/wiki/Template_talk:Wikipedia_policies_and_guidelines
+2023-04-27 18:49:46,805 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Template:Wikipedia_policies_and_guidelines&action=edit
+2023-04-27 18:49:46,806 INFO:URL NO.407ADDED: https://en.wikipedia.org/wiki/Wikipedia:Verifiability
+2023-04-27 18:49:46,807 INFO:URL NO.408ADDED: https://en.wikipedia.org/wiki/Wikipedia:No_original_research
+2023-04-27 18:49:46,807 INFO:URL NO.409ADDED: https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view
+2023-04-27 18:49:46,808 INFO:URL NO.410ADDED: https://en.wikipedia.org/wiki/Wikipedia:Biographies_of_living_persons
+2023-04-27 18:49:46,808 INFO:URL NO.411ADDED: https://en.wikipedia.org/wiki/Wikipedia:Copyrights
+2023-04-27 18:49:46,809 INFO:URL NO.412ADDED: https://en.wikipedia.org/wiki/Wikipedia:Copyright_violations
+2023-04-27 18:49:46,810 INFO:URL NO.413ADDED: https://en.wikipedia.org/wiki/Wikipedia:Image_use_policy
+2023-04-27 18:49:46,810 INFO:URL NO.414ADDED: https://en.wikipedia.org/wiki/Wikipedia:Article_titles
+2023-04-27 18:49:46,811 INFO:URL NO.415ADDED: https://en.wikipedia.org/wiki/Wikipedia:Notability
+2023-04-27 18:49:46,813 INFO:URL NO.416ADDED: https://en.wikipedia.org/wiki/Wikipedia:Autobiography
+2023-04-27 18:49:46,814 INFO:URL NO.417ADDED: https://en.wikipedia.org/wiki/Wikipedia:Identifying_reliable_sources_(medicine)
+2023-04-27 18:49:46,815 INFO:URL NO.418ADDED: https://en.wikipedia.org/wiki/Wikipedia:Do_not_include_the_full_text_of_lengthy_primary_sources
+2023-04-27 18:49:46,816 INFO:URL NO.419ADDED: https://en.wikipedia.org/wiki/Wikipedia:Plagiarism
+2023-04-27 18:49:46,816 INFO:URL NO.420ADDED: https://en.wikipedia.org/wiki/Wikipedia:Do_not_create_hoaxes
+2023-04-27 18:49:46,817 INFO:URL NO.421ADDED: https://en.wikipedia.org/wiki/Wikipedia:Fringe_theories
+2023-04-27 18:49:46,817 INFO:URL NO.422ADDED: https://en.wikipedia.org/wiki/Wikipedia:Patent_nonsense
+2023-04-27 18:49:46,818 INFO:URL NO.423ADDED: https://en.wikipedia.org/wiki/Wikipedia:External_links
+2023-04-27 18:49:46,818 INFO:URL NO.424ADDED: https://en.wikipedia.org/wiki/Wikipedia:Civility
+2023-04-27 18:49:46,819 INFO:URL NO.425ADDED: https://en.wikipedia.org/wiki/Wikipedia:Consensus
+2023-04-27 18:49:46,820 INFO:URL NO.426ADDED: https://en.wikipedia.org/wiki/Wikipedia:Harassment
+2023-04-27 18:49:46,821 INFO:URL NO.427ADDED: https://en.wikipedia.org/wiki/Wikipedia:No_personal_attacks
+2023-04-27 18:49:46,821 INFO:URL NO.428ADDED: https://en.wikipedia.org/wiki/Wikipedia:Ownership_of_content
+2023-04-27 18:49:46,822 INFO:URL NO.429ADDED: https://en.wikipedia.org/wiki/Wikipedia:Edit_warring
+2023-04-27 18:49:46,822 INFO:URL NO.430ADDED: https://en.wikipedia.org/wiki/Wikipedia:Dispute_resolution
+2023-04-27 18:49:46,823 INFO:URL NO.431ADDED: https://en.wikipedia.org/wiki/Wikipedia:Sockpuppetry
+2023-04-27 18:49:46,824 INFO:URL NO.432ADDED: https://en.wikipedia.org/wiki/Wikipedia:No_legal_threats
+2023-04-27 18:49:46,825 INFO:URL NO.433ADDED: https://en.wikipedia.org/wiki/Wikipedia:Child_protection
+2023-04-27 18:49:46,825 INFO:URL NO.434ADDED: https://en.wikipedia.org/wiki/Wikipedia:Paid-contribution_disclosure
+2023-04-27 18:49:46,826 INFO:URL NO.435ADDED: https://en.wikipedia.org/wiki/Wikipedia:Assume_good_faith
+2023-04-27 18:49:46,827 INFO:URL NO.436ADDED: https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest
+2023-04-27 18:49:46,828 INFO:URL NO.437ADDED: https://en.wikipedia.org/wiki/Wikipedia:Disruptive_editing
+2023-04-27 18:49:46,828 INFO:URL NO.438ADDED: https://en.wikipedia.org/wiki/Wikipedia:Do_not_disrupt_Wikipedia_to_illustrate_a_point
+2023-04-27 18:49:46,829 INFO:URL NO.439ADDED: https://en.wikipedia.org/wiki/Wikipedia:Gaming_the_system
+2023-04-27 18:49:46,830 INFO:URL NO.440ADDED: https://en.wikipedia.org/wiki/Wikipedia:Please_do_not_bite_the_newcomers
+2023-04-27 18:49:46,830 INFO:URL NO.441ADDED: https://en.wikipedia.org/wiki/Wikipedia:Courtesy_vanishing
+2023-04-27 18:49:46,831 INFO:URL NO.442ADDED: https://en.wikipedia.org/wiki/Wikipedia:Responding_to_threats_of_harm
+2023-04-27 18:49:46,831 INFO:URL NO.443ADDED: https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines
+2023-04-27 18:49:46,832 INFO:URL NO.444ADDED: https://en.wikipedia.org/wiki/Wikipedia:Signatures
+2023-04-27 18:49:46,833 INFO:URL NO.445ADDED: https://en.wikipedia.org/wiki/Wikipedia:Deletion_policy
+2023-04-27 18:49:46,833 INFO:URL NO.446ADDED: https://en.wikipedia.org/wiki/Wikipedia:Proposed_deletion
+2023-04-27 18:49:46,833 INFO:URL NO.447ADDED: https://en.wikipedia.org/wiki/Wikipedia:Proposed_deletion_of_biographies_of_living_people
+2023-04-27 18:49:46,835 INFO:URL NO.448ADDED: https://en.wikipedia.org/wiki/Wikipedia:Criteria_for_speedy_deletion
+2023-04-27 18:49:46,835 INFO:URL NO.449ADDED: https://en.wikipedia.org/wiki/Wikipedia:Attack_page
+2023-04-27 18:49:46,835 INFO:URL NO.450ADDED: https://en.wikipedia.org/wiki/Wikipedia:Oversight
+2023-04-27 18:49:46,836 INFO:URL NO.451ADDED: https://en.wikipedia.org/wiki/Wikipedia:Revision_deletion
+2023-04-27 18:49:46,837 INFO:URL NO.452ADDED: https://en.wikipedia.org/wiki/Wikipedia:Administrators
+2023-04-27 18:49:46,838 INFO:URL NO.453ADDED: https://en.wikipedia.org/wiki/Wikipedia:Banning_policy
+2023-04-27 18:49:46,839 INFO:URL NO.454ADDED: https://en.wikipedia.org/wiki/Wikipedia:Blocking_policy
+2023-04-27 18:49:46,839 INFO:URL NO.455ADDED: https://en.wikipedia.org/wiki/Wikipedia:Editing_policy
+2023-04-27 18:49:46,840 INFO:URL NO.456ADDED: https://en.wikipedia.org/wiki/Wikipedia:Article_size
+2023-04-27 18:49:46,841 INFO:URL NO.457ADDED: https://en.wikipedia.org/wiki/Wikipedia:Summary_style
+2023-04-27 18:49:46,841 INFO:URL NO.458ADDED: https://en.wikipedia.org/wiki/Wikipedia:Be_bold
+2023-04-27 18:49:46,842 INFO:URL NO.459ADDED: https://en.wikipedia.org/wiki/Wikipedia:Disambiguation
+2023-04-27 18:49:46,844 INFO:URL NO.460ADDED: https://en.wikipedia.org/wiki/Wikipedia:Hatnote
+2023-04-27 18:49:46,845 INFO:URL NO.461ADDED: https://en.wikipedia.org/wiki/Wikipedia:Broad-concept_article
+2023-04-27 18:49:46,845 INFO:URL NO.462ADDED: https://en.wikipedia.org/wiki/Wikipedia:Make_technical_articles_understandable
+2023-04-27 18:49:46,846 INFO:URL NO.463ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Accessibility
+2023-04-27 18:49:46,847 INFO:URL NO.464ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers
+2023-04-27 18:49:46,847 INFO:URL NO.465ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Images
+2023-04-27 18:49:46,848 INFO:URL NO.466ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Layout
+2023-04-27 18:49:46,849 INFO:URL NO.467ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Lead_section
+2023-04-27 18:49:46,849 INFO:URL NO.468ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Linking
+2023-04-27 18:49:46,850 INFO:URL NO.469ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Lists
+2023-04-27 18:49:46,851 INFO:URL NO.470ADDED: https://en.wikipedia.org/wiki/Wikipedia:Categories,_lists,_and_navigation_templates
+2023-04-27 18:49:46,851 INFO:URL NO.471ADDED: https://en.wikipedia.org/wiki/Wikipedia:Template_namespace
+2023-04-27 18:49:46,852 INFO:URL NO.472ADDED: https://en.wikipedia.org/wiki/Wikipedia:Project_namespace
+2023-04-27 18:49:46,852 INFO:URL NO.473ADDED: https://en.wikipedia.org/wiki/Wikipedia:User_pages
+2023-04-27 18:49:46,853 INFO:URL NO.474ADDED: https://en.wikipedia.org/wiki/Wikipedia:Userboxes
+2023-04-27 18:49:46,854 INFO:URL NO.475ADDED: https://en.wikipedia.org/wiki/Wikipedia:Subpages
+2023-04-27 18:49:46,855 INFO:URL NO.476ADDED: https://en.wikipedia.org/wiki/Template:Manual_of_Style
+2023-04-27 18:49:46,855 INFO:URL NO.477ADDED: https://en.wikipedia.org/wiki/Template_talk:Manual_of_Style
+2023-04-27 18:49:46,856 INFO:ROBOT EXCLUDED: https://en.wikipedia.org/w/index.php?title=Template:Manual_of_Style&action=edit
+2023-04-27 18:49:46,857 INFO:URL NO.478ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Biography
+2023-04-27 18:49:46,857 INFO:URL NO.479ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Disambiguation_pages
+2023-04-27 18:49:46,858 INFO:URL NO.480ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Organizing_disambiguation_pages_by_subject_area
+2023-04-27 18:49:46,859 INFO:URL NO.481ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Gender_identity
+2023-04-27 18:49:46,860 INFO:URL NO.482ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Hidden_text
+2023-04-27 18:49:46,860 INFO:URL NO.483ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Infoboxes
+2023-04-27 18:49:46,861 INFO:URL NO.484ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Self-references_to_avoid
+2023-04-27 18:49:46,861 INFO:URL NO.485ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch
+2023-04-27 18:49:46,862 INFO:URL NO.486ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Abbreviations
+2023-04-27 18:49:46,863 INFO:URL NO.487ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Capital_letters
+2023-04-27 18:49:46,863 INFO:URL NO.488ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Pronunciation
+2023-04-27 18:49:46,864 INFO:URL NO.489ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Spelling
+2023-04-27 18:49:46,864 INFO:URL NO.490ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Text_formatting
+2023-04-27 18:49:46,865 INFO:URL NO.491ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Titles_of_works
+2023-04-27 18:49:46,866 INFO:URL NO.492ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Captions
+2023-04-27 18:49:46,866 INFO:URL NO.493ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Icons
+2023-04-27 18:49:46,867 INFO:URL NO.494ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Tables
+2023-04-27 18:49:46,868 INFO:URL NO.495ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Trivia_sections
+2023-04-27 18:49:46,868 INFO:URL NO.496ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Lists_of_works
+2023-04-27 18:49:46,869 INFO:URL NO.497ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Road_junction_lists
+2023-04-27 18:49:46,870 INFO:URL NO.498ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Stand-alone_lists
+2023-04-27 18:49:46,871 INFO:URL NO.499ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Legal
+2023-04-27 18:49:46,871 INFO:URL NO.500ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Trademarks
+2023-04-27 18:49:46,872 INFO:URL NO.501ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Anime_and_manga
+2023-04-27 18:49:46,874 INFO:URL NO.502ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Comics
+2023-04-27 18:49:46,875 INFO:URL NO.503ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Blazon
+2023-04-27 18:49:46,875 INFO:URL NO.504ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Film
+2023-04-27 18:49:46,876 INFO:URL NO.505ADDED: https://en.wikipedia.org/wiki/Wikipedia:Lyrics_and_poetry
+2023-04-27 18:49:46,876 INFO:URL NO.506ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Novels
+2023-04-27 18:49:46,877 INFO:URL NO.507ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Philosophy
+2023-04-27 18:49:46,877 INFO:URL NO.508ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Television
+2023-04-27 18:49:46,878 INFO:URL NO.509ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Video_games
+2023-04-27 18:49:46,878 INFO:URL NO.510ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Visual_arts
+2023-04-27 18:49:46,879 INFO:URL NO.511ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Writing_about_fiction
+2023-04-27 18:49:46,879 INFO:URL NO.512ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Music
+2023-04-27 18:49:46,880 INFO:URL NO.513ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Music_samples
+2023-04-27 18:49:46,881 INFO:URL NO.514ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Record_charts
+2023-04-27 18:49:46,881 INFO:URL NO.515ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Stringed_instrument_tunings
+2023-04-27 18:49:46,882 INFO:URL NO.516ADDED: https://en.wikipedia.org/wiki/Wikipedia:Naming_conventions_(geographic_names)
+2023-04-27 18:49:46,882 INFO:URL NO.517ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Canada-related_articles
+2023-04-27 18:49:46,883 INFO:URL NO.518ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/China-_and_Chinese-related_articles
+2023-04-27 18:49:46,883 INFO:URL NO.519ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/France-_and_French-related_articles
+2023-04-27 18:49:46,884 INFO:URL NO.520ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Egypt-related_articles
+2023-04-27 18:49:46,884 INFO:URL NO.521ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Hawaii-related_articles
+2023-04-27 18:49:46,885 INFO:URL NO.522ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/India-related_articles
+2023-04-27 18:49:46,886 INFO:URL NO.523ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Indonesia-related_articles
+2023-04-27 18:49:46,886 INFO:URL NO.524ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Ireland-related_articles
+2023-04-27 18:49:46,887 INFO:URL NO.525ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Japan-related_articles
+2023-04-27 18:49:46,888 INFO:URL NO.526ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Korea-related_articles
+2023-04-27 18:49:46,888 INFO:URL NO.527ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Malaysia-related_articles
+2023-04-27 18:49:46,889 INFO:URL NO.528ADDED: https://en.wikipedia.org/wiki/Wikipedia:Naming_conventions_(Macedonia)
+2023-04-27 18:49:46,889 INFO:URL NO.529ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Pakistan-related_articles
+2023-04-27 18:49:46,890 INFO:URL NO.530ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Philippines-related_articles
+2023-04-27 18:49:46,891 INFO:URL NO.531ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Poland-related_articles
+2023-04-27 18:49:46,891 INFO:URL NO.532ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Singapore-related_articles
+2023-04-27 18:49:46,892 INFO:URL NO.533ADDED: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Trinidad_and_Tobago/Style_guide
+2023-04-27 18:49:46,892 INFO:URL NO.534ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Islam-related_articles
+2023-04-27 18:49:46,893 INFO:URL NO.535ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Latter_Day_Saints
+2023-04-27 18:49:46,894 INFO:URL NO.536ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Mathematics
+2023-04-27 18:49:46,895 INFO:URL NO.537ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Medicine-related_articles
+2023-04-27 18:49:46,895 INFO:URL NO.538ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Chemistry
+2023-04-27 18:49:46,895 INFO:URL NO.539ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Chemistry/Compound_classes
+2023-04-27 18:49:46,896 INFO:URL NO.540ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Chemistry/Chemicals
+2023-04-27 18:49:46,897 INFO:URL NO.541ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Chemistry/References_and_external_links
+2023-04-27 18:49:46,897 INFO:URL NO.542ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Chemistry/Safety
+2023-04-27 18:49:46,898 INFO:URL NO.543ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Chemistry/Structure_drawing
+2023-04-27 18:49:46,898 INFO:URL NO.544ADDED: https://en.wikipedia.org/wiki/Template:Taxobox/doc
+2023-04-27 18:49:46,899 INFO:URL NO.545ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Cue_sports
+2023-04-27 18:49:46,899 INFO:URL NO.546ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Snooker
+2023-04-27 18:49:46,900 INFO:URL NO.547ADDED: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Military_history
+2023-04-27 18:49:46,901 INFO:URL NO.548ADDED: https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_sister_projects
+2023-04-27 18:49:46,902 INFO:URL NO.549ADDED: https://en.wikipedia.org/wiki/Category:Wikipedia_Manual_of_Style
+2023-04-27 18:49:46,902 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:46,903 INFO:SINGLE ITERATION TIME: 0.63
+2023-04-27 18:49:46,927 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Portal:Current_events HTTP/1.1" 200 54209
+2023-04-27 18:49:47,104 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:47,104 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-27 18:49:47,130 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:About HTTP/1.1" 200 36713
+2023-04-27 18:49:47,255 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:47,256 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-27 18:49:47,280 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Contact_us HTTP/1.1" 200 16702
+2023-04-27 18:49:47,317 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:47,317 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-27 18:49:47,340 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Help:Contents HTTP/1.1" 200 33468
+2023-04-27 18:49:47,420 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:47,421 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-27 18:49:47,443 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Help:Introduction HTTP/1.1" 200 21105
+2023-04-27 18:49:47,477 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:47,478 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-27 18:49:47,501 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Community_portal HTTP/1.1" 200 90412
+2023-04-27 18:49:47,891 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:47,892 INFO:SINGLE ITERATION TIME: 0.41
+2023-04-27 18:49:47,915 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:File_upload_wizard HTTP/1.1" 200 30410
+2023-04-27 18:49:48,006 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:48,006 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-27 18:49:48,032 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Talk:Main_Page HTTP/1.1" 200 27619
+2023-04-27 18:49:48,123 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:48,123 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-27 18:49:48,147 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:File_Upload_Wizard HTTP/1.1" 200 30483
+2023-04-27 18:49:48,247 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:48,247 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-27 18:49:48,275 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 218788
+2023-04-27 18:49:49,062 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:49,062 INFO:SINGLE ITERATION TIME: 0.81
+2023-04-27 18:49:49,083 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Free_content HTTP/1.1" 200 48439
+2023-04-27 18:49:49,304 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:49,304 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-27 18:49:49,325 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Encyclopedia HTTP/1.1" 200 56568
+2023-04-27 18:49:49,477 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:49,478 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-27 18:49:49,505 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Help:Introduction_to_Wikipedia HTTP/1.1" 200 17790
+2023-04-27 18:49:49,535 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:49,535 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-27 18:49:49,562 DEBUG:https://en.wikipedia.org:443 "GET /wiki/English_language HTTP/1.1" 200 174213
+2023-04-27 18:49:50,233 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:50,234 INFO:SINGLE ITERATION TIME: 0.7
+2023-04-27 18:49:50,256 DEBUG:https://en.wikipedia.org:443 "GET /wiki/File:EscherichiaColi_NIAID.jpg HTTP/1.1" 200 17430
+2023-04-27 18:49:50,279 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Scanning_electron_microscope HTTP/1.1" 200 61578
+2023-04-27 18:49:50,433 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:50,433 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-27 18:49:50,454 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Bacillus_(shape) HTTP/1.1" 200 18932
+2023-04-27 18:49:50,574 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:50,574 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-27 18:49:50,595 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Escherichia_coli HTTP/1.1" 200 98669
+2023-04-27 18:49:50,891 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:50,891 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-27 18:49:50,916 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Bacteria HTTP/1.1" 200 140696
+2023-04-27 18:49:51,441 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:51,442 INFO:SINGLE ITERATION TIME: 0.55
+2023-04-27 18:49:51,463 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Microorganism HTTP/1.1" 200 86213
+2023-04-27 18:49:51,759 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:51,759 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-27 18:49:51,831 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Cell_(biology) HTTP/1.1" 200 64911
+2023-04-27 18:49:51,992 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:51,992 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-27 18:49:52,014 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Domain_(biology) HTTP/1.1" 200 31725
+2023-04-27 18:49:52,097 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:52,098 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-27 18:49:52,122 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Prokaryote HTTP/1.1" 200 58048
+2023-04-27 18:49:52,425 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:52,425 INFO:SINGLE ITERATION TIME: 0.33
+2023-04-27 18:49:52,446 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Earth HTTP/1.1" 200 173257
+2023-04-27 18:49:52,950 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:52,950 INFO:SINGLE ITERATION TIME: 0.52
+2023-04-27 18:49:53,048 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Habitat HTTP/1.1" 200 65658
+2023-04-27 18:49:53,254 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:53,254 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-27 18:49:53,276 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Nutrient_cycle HTTP/1.1" 200 61842
+2023-04-27 18:49:53,460 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:53,460 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-27 18:49:53,482 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Bacteriology HTTP/1.1" 200 None
+2023-04-27 18:49:53,553 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:53,553 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-27 18:49:53,575 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Microbiology HTTP/1.1" 200 53344
+2023-04-27 18:49:53,789 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:53,790 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-27 18:49:53,814 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Immune_system HTTP/1.1" 200 111772
+2023-04-27 18:49:54,346 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:54,346 INFO:SINGLE ITERATION TIME: 0.56
+2023-04-27 18:49:54,578 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Probiotic HTTP/1.1" 200 None
+2023-04-27 18:49:54,991 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:54,991 INFO:SINGLE ITERATION TIME: 0.65
+2023-04-27 18:49:55,016 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Pathogenic_bacteria HTTP/1.1" 200 75577
+2023-04-27 18:49:55,568 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:55,568 INFO:SINGLE ITERATION TIME: 0.58
+2023-04-27 18:49:55,589 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Infection HTTP/1.1" 200 99117
+2023-04-27 18:49:55,872 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:55,872 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-27 18:49:56,115 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Antibiotic HTTP/1.1" 200 None
+2023-04-27 18:49:56,905 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:56,905 INFO:SINGLE ITERATION TIME: 1.03
+2023-04-27 18:49:56,927 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Antimicrobial_resistance HTTP/1.1" 200 139646
+2023-04-27 18:49:57,309 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:57,309 INFO:SINGLE ITERATION TIME: 0.4
+2023-04-27 18:49:57,330 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Cell_nucleus HTTP/1.1" 200 77912
+2023-04-27 18:49:57,685 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:57,685 INFO:SINGLE ITERATION TIME: 0.38
+2023-04-27 18:49:57,713 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Cell_membrane HTTP/1.1" 200 52724
+2023-04-27 18:49:57,835 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:57,835 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-27 18:49:57,856 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Organelle HTTP/1.1" 200 40065
+2023-04-27 18:49:57,958 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:57,958 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-27 18:49:57,980 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Taxonomy HTTP/1.1" 200 35438
+2023-04-27 18:49:58,063 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:58,063 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-27 18:49:58,086 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Evolution HTTP/1.1" 200 205720
+2023-04-27 18:49:58,818 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:58,818 INFO:SINGLE ITERATION TIME: 0.75
+2023-04-27 18:49:58,840 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Last_universal_common_ancestor HTTP/1.1" 200 51335
+2023-04-27 18:49:58,980 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:58,980 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-27 18:49:59,002 DEBUG:https://en.wikipedia.org:443 "GET /wiki/When_Megan_Went_Away HTTP/1.1" 200 26357
+2023-04-27 18:49:59,068 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:59,068 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-27 18:49:59,091 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Alfred_Shout HTTP/1.1" 200 36107
+2023-04-27 18:49:59,336 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:59,336 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-27 18:49:59,358 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Armenian_genocide_denial HTTP/1.1" 200 120355
+2023-04-27 18:49:59,712 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:59,712 INFO:SINGLE ITERATION TIME: 0.38
+2023-04-27 18:49:59,733 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Today%27s_featured_article/April_2023 HTTP/1.1" 200 39528
+2023-04-27 18:49:59,871 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:49:59,871 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-27 18:49:59,896 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Featured_articles HTTP/1.1" 200 171833
+2023-04-27 18:50:00,863 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:00,863 INFO:SINGLE ITERATION TIME: 0.99
+2023-04-27 18:50:00,888 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:About_Today%27s_featured_article HTTP/1.1" 200 None
+2023-04-27 18:50:00,911 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:00,912 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-27 18:50:00,935 DEBUG:https://en.wikipedia.org:443 "GET /wiki/File:Court_mantua_dress_at_Tullie_House_Museum_A_(23).JPG HTTP/1.1" 200 17589
+2023-04-27 18:50:00,987 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:00,988 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-27 18:50:01,009 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Carlisle HTTP/1.1" 200 75881
+2023-04-27 18:50:01,318 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:01,318 INFO:SINGLE ITERATION TIME: 0.33
+2023-04-27 18:50:01,339 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Margery_Jackson HTTP/1.1" 200 36150
+2023-04-27 18:50:01,469 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:01,469 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-27 18:50:01,489 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Pauperism HTTP/1.1" 200 16368
+2023-04-27 18:50:01,519 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:01,519 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-27 18:50:01,541 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Mantua_(clothing) HTTP/1.1" 200 22184
+2023-04-27 18:50:01,634 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:01,634 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-27 18:50:01,654 DEBUG:https://en.wikipedia.org:443 "GET /wiki/The_Steranko_History_of_Comics HTTP/1.1" 200 15462
+2023-04-27 18:50:01,686 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:01,686 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-27 18:50:01,708 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Heinz_Schwarz HTTP/1.1" 200 22719
+2023-04-27 18:50:01,760 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:01,760 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-27 18:50:01,782 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Christian_Democratic_Union_of_Germany HTTP/1.1" 200 None
+2023-04-27 18:50:02,229 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:02,229 INFO:SINGLE ITERATION TIME: 0.47
+2023-04-27 18:50:02,481 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Lewis_and_Clark_Expedition HTTP/1.1" 200 65860
+2023-04-27 18:50:02,646 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:02,646 INFO:SINGLE ITERATION TIME: 0.42
+2023-04-27 18:50:02,810 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Ionia_Volcano HTTP/1.1" 200 30663
+2023-04-27 18:50:02,885 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:02,885 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-27 18:50:03,087 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Lineman_(gridiron_football) HTTP/1.1" 200 19653
+2023-04-27 18:50:03,131 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:03,132 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-27 18:50:03,262 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Jake_Witt HTTP/1.1" 200 None
+2023-04-27 18:50:03,299 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:03,299 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-27 18:50:03,320 DEBUG:https://en.wikipedia.org:443 "GET /wiki/N53_road_(Ireland) HTTP/1.1" 200 30363
+2023-04-27 18:50:03,430 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:03,430 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-27 18:50:03,711 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Dundalk HTTP/1.1" 200 110498
+2023-04-27 18:50:04,158 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:04,158 INFO:SINGLE ITERATION TIME: 0.73
+2023-04-27 18:50:04,361 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Castleblayney HTTP/1.1" 200 32764
+2023-04-27 18:50:04,462 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:04,462 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-27 18:50:04,652 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Northern_Ireland HTTP/1.1" 200 146337
+2023-04-27 18:50:05,213 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:05,213 INFO:SINGLE ITERATION TIME: 0.75
+2023-04-27 18:50:05,235 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Karmalink HTTP/1.1" 200 16873
+2023-04-27 18:50:05,276 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:05,276 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-27 18:50:05,415 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Karma_in_Buddhism HTTP/1.1" 200 76903
+2023-04-27 18:50:05,841 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:05,841 INFO:SINGLE ITERATION TIME: 0.56
+2023-04-27 18:50:05,866 DEBUG:https://en.wikipedia.org:443 "GET /wiki/%C3%89mile_Aubrun HTTP/1.1" 200 17147
+2023-04-27 18:50:05,902 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:05,902 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-27 18:50:05,923 DEBUG:https://en.wikipedia.org:443 "GET /wiki/The_Golden_Virgin HTTP/1.1" 200 43676
+2023-04-27 18:50:06,052 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-27 18:50:06,052 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-27 18:50:06,076 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Recent_additions HTTP/1.1" 200 51036

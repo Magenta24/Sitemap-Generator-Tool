@@ -1,0 +1,1113 @@
+2023-04-30 05:20:15,703 DEBUG:Starting new HTTPS connection (1): www.britishjudo.org.uk:443
+2023-04-30 05:20:16,987 DEBUG:https://www.britishjudo.org.uk:443 "GET / HTTP/1.1" 200 None
+2023-04-30 05:20:19,344 DEBUG:https://www.britishjudo.org.uk:443 "GET / HTTP/1.1" 200 None
+2023-04-30 05:20:19,479 INFO:URL NO.1ADDED: https://www.britishjudo.org.uk/the-british-judo-association/safeguarding-new
+2023-04-30 05:20:19,480 INFO:URL NO.2ADDED: https://www.britishjudo.org.uk/wp-login.php
+2023-04-30 05:20:19,480 INFO:URL NO.3ADDED: https://www.britishjudo.org.uk/wp-login.php?action=register
+2023-04-30 05:20:19,481 INFO:URL NO.4ADDED: https://www.britishjudo.org.uk/my-judo/membership
+2023-04-30 05:20:19,481 INFO:URL NO.5ADDED: https://www.britishjudo.org.uk/my-judo/membership/membership-packages
+2023-04-30 05:20:19,481 INFO:URL NO.6ADDED: https://www.britishjudo.org.uk/my-judo/membership/applyrenew-online
+2023-04-30 05:20:19,482 INFO:URL NO.7ADDED: https://www.britishjudo.org.uk/my-judo/membership/benefits
+2023-04-30 05:20:19,482 INFO:URL NO.8ADDED: https://www.britishjudo.org.uk/my-judo/membership/insurance
+2023-04-30 05:20:19,482 INFO:URL NO.9ADDED: https://www.britishjudo.org.uk/clubs
+2023-04-30 05:20:19,483 INFO:URL NO.10ADDED: https://www.britishjudo.org.uk/bja-club-finder
+2023-04-30 05:20:19,483 INFO:URL NO.11ADDED: https://www.britishjudo.org.uk/clubs/apply-for-club-membership
+2023-04-30 05:20:19,483 INFO:URL NO.12ADDED: https://www.britishjudo.org.uk/clubs/marketing-your-club
+2023-04-30 05:20:19,484 INFO:URL NO.13ADDED: https://www.britishjudo.org.uk/clubs/funding
+2023-04-30 05:20:19,484 INFO:URL NO.14ADDED: https://www.britishjudo.org.uk/clubs/initiatives-and-programmes
+2023-04-30 05:20:19,484 INFO:URL NO.15ADDED: https://www.britishjudo.org.uk/clubs/starting-a-club
+2023-04-30 05:20:19,485 INFO:URL NO.16ADDED: https://www.britishjudo.org.uk/events
+2023-04-30 05:20:19,485 INFO:URL NO.17ADDED: https://www.britishjudo.org.uk/events-calendar
+2023-04-30 05:20:19,486 INFO:URL NO.18ADDED: https://www.britishjudo.org.uk/my-judo/competition-organisation
+2023-04-30 05:20:19,486 INFO:URL NO.19ADDED: https://www.britishjudo.org.uk/events/our-2023-24-events
+2023-04-30 05:20:19,486 INFO:URL NO.20ADDED: https://www.britishjudo.org.uk/my-judo/competition-organisation/rankings
+2023-04-30 05:20:19,486 INFO:URL NO.21ADDED: https://www.britishjudo.org.uk/my-judo/competition-organisation/results
+2023-04-30 05:20:19,487 INFO:URL NO.22ADDED: https://www.britishjudo.org.uk/my-judo
+2023-04-30 05:20:19,487 INFO:URL NO.23ADDED: https://www.britishjudo.org.uk/my-judo/grading
+2023-04-30 05:20:19,487 INFO:URL NO.24ADDED: https://www.britishjudo.org.uk/my-judo/grading/grades
+2023-04-30 05:20:19,488 INFO:URL NO.25ADDED: https://www.britishjudo.org.uk/my-judo/grading/grading-videos
+2023-04-30 05:20:19,488 INFO:URL NO.26ADDED: https://www.britishjudo.org.uk/online-grade-register
+2023-04-30 05:20:19,488 INFO:URL NO.27ADDED: https://www.britishjudo.org.uk/my-judo/grading/dan-grade-register
+2023-04-30 05:20:19,488 INFO:URL NO.28ADDED: https://www.britishjudo.org.uk/my-judo/grading/grading-resources
+2023-04-30 05:20:19,489 INFO:URL NO.29ADDED: https://www.britishjudo.org.uk/my-judo/kata
+2023-04-30 05:20:19,489 INFO:URL NO.30ADDED: https://www.britishjudo.org.uk/my-judo/kata/kata-exam-forms
+2023-04-30 05:20:19,489 INFO:URL NO.31ADDED: https://www.britishjudo.org.uk/my-judo/kata/editable-exam-forms
+2023-04-30 05:20:19,489 INFO:URL NO.32ADDED: https://www.britishjudo.org.uk/my-judo/kata/kata-resources
+2023-04-30 05:20:19,491 INFO:URL NO.33ADDED: https://www.britishjudo.org.uk/my-judo/kata/videos
+2023-04-30 05:20:19,491 INFO:URL NO.34ADDED: https://www.britishjudo.org.uk/my-judo/refereeing
+2023-04-30 05:20:19,491 INFO:URL NO.35ADDED: https://www.britishjudo.org.uk/wp-content/uploads/2023/04/National-Referee-Selections-and-Ranking-23Apr23.pdf
+2023-04-30 05:20:19,491 INFO:URL NO.36ADDED: https://www.britishjudo.org.uk/my-judo/refereeing/how-to-get-started-in-refereeing
+2023-04-30 05:20:19,492 INFO:URL NO.37ADDED: https://www.britishjudo.org.uk/my-judo/refereeing/courses
+2023-04-30 05:20:19,492 INFO:URL NO.38ADDED: https://www.britishjudo.org.uk/my-judo/refereeing/athlete-coach-fast-track-opportunities
+2023-04-30 05:20:19,492 INFO:URL NO.39ADDED: https://www.britishjudo.org.uk/my-judo/refereeing/contest-rules
+2023-04-30 05:20:19,493 INFO:URL NO.40ADDED: https://www.britishjudo.org.uk/my-judo/refereeing/resources
+2023-04-30 05:20:19,493 INFO:URL NO.41ADDED: https://www.britishjudo.org.uk/my-judo/refereeing/national-commission-area-refereeing-contacts
+2023-04-30 05:20:19,493 INFO:URL NO.42ADDED: https://www.britishjudo.org.uk/my-judo/officiating
+2023-04-30 05:20:19,494 INFO:URL NO.43ADDED: https://www.britishjudo.org.uk/my-judo/officiating/how-to-get-started-in-officiating
+2023-04-30 05:20:19,494 INFO:URL NO.44ADDED: https://www.britishjudo.org.uk/my-judo/officiating/roles
+2023-04-30 05:20:19,494 INFO:URL NO.45ADDED: https://www.britishjudo.org.uk/my-judo/officiating/resources
+2023-04-30 05:20:19,494 INFO:URL NO.46ADDED: https://www.britishjudo.org.uk/my-judo/coaching
+2023-04-30 05:20:19,495 INFO:URL NO.47ADDED: https://www.britishjudo.org.uk/my-judo/coaching/how-to-get-started-in-coaching
+2023-04-30 05:20:19,495 INFO:URL NO.48ADDED: https://www.britishjudo.org.uk/my-judo/coaching/qualifications
+2023-04-30 05:20:19,495 INFO:URL NO.49ADDED: https://www.britishjudo.org.uk/my-judo/coaching/courses
+2023-04-30 05:20:19,496 INFO:URL NO.50ADDED: https://www.britishjudo.org.uk/my-judo/coaching/ukcoachingcourses
+2023-04-30 05:20:19,496 INFO:URL NO.51ADDED: https://www.britishjudo.org.uk/my-judo/coaching/revalidation
+2023-04-30 05:20:19,496 INFO:URL NO.52ADDED: https://www.britishjudo.org.uk/my-judo/coaching/resources
+2023-04-30 05:20:19,497 INFO:URL NO.53ADDED: https://www.britishjudo.org.uk/my-judo/volunteering
+2023-04-30 05:20:19,497 INFO:URL NO.54ADDED: https://www.britishjudo.org.uk/my-judo/volunteering/finding-a-volunteering-role
+2023-04-30 05:20:19,497 INFO:URL NO.55ADDED: https://www.britishjudo.org.uk/my-judo/volunteering/event-volunteering
+2023-04-30 05:20:19,498 INFO:URL NO.56ADDED: https://www.britishjudo.org.uk/my-judo/volunteering/club-volunteering
+2023-04-30 05:20:19,498 INFO:URL NO.57ADDED: https://www.britishjudo.org.uk/the-british-judo-association/safeguarding-new/club-welfare-officer
+2023-04-30 05:20:19,498 INFO:URL NO.58ADDED: https://www.britishjudo.org.uk/my-judo/volunteering/volunteer-resources
+2023-04-30 05:20:19,499 INFO:URL NO.59ADDED: https://www.britishjudo.org.uk/gb-judo
+2023-04-30 05:20:19,499 INFO:URL NO.60ADDED: https://www.britishjudo.org.uk/gb-judo/gb-world-class-performance-programme
+2023-04-30 05:20:19,499 INFO:URL NO.61ADDED: https://www.britishjudo.org.uk/gb-judo/gb-world-class-performance-programme/gb-performance-pathway
+2023-04-30 05:20:19,500 INFO:URL NO.62ADDED: https://www.britishjudo.org.uk/gb-judo/gb-world-class-performance-programme/british-judo-olympic-and-paralympic-national-training-centre
+2023-04-30 05:20:19,500 INFO:URL NO.63ADDED: https://www.britishjudo.org.uk/gb-judo/gb-world-class-performance-programme/gb-olympic-and-paralympic-programme
+2023-04-30 05:20:19,500 INFO:URL NO.64ADDED: https://www.britishjudo.org.uk/gb-judo/british-judo-clean-sport-uk-anti-doping
+2023-04-30 05:20:19,501 INFO:URL NO.65ADDED: https://www.britishjudo.org.uk/gb-judo/home-nation-programmes
+2023-04-30 05:20:19,501 INFO:URL NO.66ADDED: https://www.britishjudo.org.uk/england-judo
+2023-04-30 05:20:19,501 INFO:URL NO.67ADDED: https://www.britishjudo.org.uk/gb-judo/home-nation-programmes/northern-ireland-judo-programme
+2023-04-30 05:20:19,501 INFO:URL NO.68ADDED: https://www.britishjudo.org.uk/gb-judo/home-nation-programmes/welsh-judo-programme
+2023-04-30 05:20:19,502 INFO:URL NO.69ADDED: https://www.britishjudo.org.uk/gb-judo/home-nation-programmes/judoscotland-programme
+2023-04-30 05:20:19,502 INFO:URL NO.70ADDED: https://www.britishjudo.org.uk/gb-judo/gb-masters
+2023-04-30 05:20:19,503 INFO:URL NO.71ADDED: https://www.britishjudo.org.uk/gb-judo/gb-masters/gb-masters-squad
+2023-04-30 05:20:19,503 INFO:URL NO.72ADDED: https://www.britishjudo.org.uk/gb-judo/fighters
+2023-04-30 05:20:19,503 INFO:URL NO.73ADDED: https://www.britishjudo.org.uk/gb-judo/gb-judo-policies
+2023-04-30 05:20:19,504 INFO:URL NO.74ADDED: https://www.britishjudo.org.uk/gb-judo/gb-adaptive-judo
+2023-04-30 05:20:19,504 INFO:URL NO.75ADDED: https://www.britishjudo.org.uk/gb-judo/ranking-lists
+2023-04-30 05:20:19,504 INFO:URL NO.76ADDED: https://www.britishjudo.org.uk/gb-judo/gb-world-class-performance-programme/memos
+2023-04-30 05:20:19,505 INFO:URL NO.77ADDED: https://www.britishjudo.org.uk/the-british-judo-association
+2023-04-30 05:20:19,505 INFO:URL NO.78ADDED: https://www.britishjudo.org.uk/news-hub
+2023-04-30 05:20:19,505 INFO:URL NO.79ADDED: https://www.britishjudo.org.uk/the-british-judo-association/governance/policies-and-guidelines
+2023-04-30 05:20:19,505 INFO:URL NO.80ADDED: https://www.britishjudo.org.uk/the-british-judo-association/vacancies
+2023-04-30 05:20:19,506 INFO:URL NO.81ADDED: https://www.britishjudo.org.uk/the-british-judo-association/contact
+2023-04-30 05:20:19,506 INFO:URL NO.82ADDED: https://www.britishjudo.org.uk/the-british-judo-association/our-2022-2025-strategy
+2023-04-30 05:20:19,506 INFO:URL NO.83ADDED: https://www.britishjudo.org.uk/the-british-judo-association/british-judo-trust
+2023-04-30 05:20:19,506 INFO:URL NO.84ADDED: https://www.britishjudo.org.uk/ediw_hub
+2023-04-30 05:20:19,507 INFO:URL NO.85ADDED: https://www.britishjudo.org.uk/the-british-judo-association/governance/board-of-directors
+2023-04-30 05:20:19,507 INFO:URL NO.86ADDED: https://www.britishjudo.org.uk/the-british-judo-association/governance
+2023-04-30 05:20:19,507 INFO:URL NO.87ADDED: https://www.britishjudo.org.uk/the-british-judo-association/staff-directory
+2023-04-30 05:20:19,507 INFO:URL NO.88ADDED: https://www.britishjudo.org.uk/2023-club-affiliation
+2023-04-30 05:20:19,508 INFO:URL NO.89ADDED: https://www.britishjudo.org.uk/are-you-a-potential-olympic-judoka
+2023-04-30 05:20:19,508 INFO:URL NO.90ADDED: https://www.britishjudo.org.uk/gb-judo-adaptive-team-set-for-virtus-global-games
+2023-04-30 05:20:19,508 INFO:URL NO.91ADDED: https://www.britishjudo.org.uk/british-judo-launch-coach-award-course-expression-of-interest-register
+2023-04-30 05:20:19,509 INFO:URL NO.92ADDED: https://www.britishjudo.org.uk/army-foundation-college-judo-festival-a-great-success
+2023-04-30 05:20:19,509 INFO:URL NO.93ADDED: https://www.britishjudo.org.uk/dojo-outage-membership-noticeboard
+2023-04-30 05:20:19,509 INFO:URL NO.94ADDED: https://www.britishjudo.org.uk/event/first-aid-and-safeguarding-for-judo-medway-park-judo-club
+2023-04-30 05:20:19,509 INFO:URL NO.95ADDED: https://www.britishjudo.org.uk/event/dan-grading-budokwai/2023-04-30
+2023-04-30 05:20:19,510 INFO:URL NO.96ADDED: https://www.britishjudo.org.uk/event/technical-dan-grading-course-assessment-competitive-skills-preparation-and-exam-20th-21st-may-2023
+2023-04-30 05:20:19,510 INFO:URL NO.97ADDED: https://www.britishjudo.org.uk/event/yoko-tanabe-masterclass-middlesbrough-judo-club
+2023-04-30 05:20:19,511 INFO:URL NO.98ADDED: https://www.britishjudo.org.uk/the-final-block-podcast
+2023-04-30 05:20:19,511 INFO:URL NO.99ADDED: https://www.britishjudo.org.uk/the-british-judo-association/governance/policies-and-guidelines/equality-statement
+2023-04-30 05:20:19,511 INFO:URL NO.100ADDED: https://www.britishjudo.org.uk/gb-judo/anti-doping
+2023-04-30 05:20:19,511 INFO:URL NO.101ADDED: https://www.britishjudo.org.uk/manually
+2023-04-30 05:20:19,511 INFO:URL NO.102ADDED: https://www.britishjudo.org.uk/England-judo
+2023-04-30 05:20:19,512 INFO:URL NO.103ADDED: https://www.britishjudo.org.uk/privacy-policy
+2023-04-30 05:20:19,513 INFO:URL NO.104ADDED: https://www.britishjudo.org.uk/website-terms-and-conditions
+2023-04-30 05:20:19,513 INFO:SINGLE ITERATION TIME: 1.43
+2023-04-30 05:20:20,444 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new HTTP/1.1" 301 0
+2023-04-30 05:20:21,674 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/ HTTP/1.1" 200 None
+2023-04-30 05:20:21,788 INFO:URL NO.105ADDED: https://www.britishjudo.org.uk
+2023-04-30 05:20:21,789 INFO:URL NO.106ADDED: https://www.britishjudo.org.uk/the-british-judo-association/safeguarding-new/what-is-safeguarding
+2023-04-30 05:20:21,789 INFO:URL NO.107ADDED: https://www.britishjudo.org.uk/the-british-judo-association/safeguarding-new/disclosure-and-barring-service
+2023-04-30 05:20:21,790 INFO:URL NO.108ADDED: https://www.britishjudo.org.uk/the-british-judo-association/safeguarding-new/additionally-vulnerable
+2023-04-30 05:20:21,790 INFO:URL NO.109ADDED: https://www.britishjudo.org.uk/the-british-judo-association/safeguarding-new/safelandings
+2023-04-30 05:20:21,790 INFO:URL NO.110ADDED: https://www.britishjudo.org.uk/wp-content/uploads/2018/11/BJA-Safeguarding-Adults-14th-November.pdf
+2023-04-30 05:20:21,791 INFO:URL NO.111ADDED: https://www.britishjudo.org.uk/member-wellbeing
+2023-04-30 05:20:21,791 INFO:URL NO.112ADDED: https://www.britishjudo.org.uk/wp-content/uploads/2023/02/Safeguarding-Adults-in-Sport-Framework-Introduction.pdf
+2023-04-30 05:20:21,791 INFO:URL NO.113ADDED: https://www.britishjudo.org.uk/the-british-judo-association/safeguarding-new/reporting-a-safeguarding-concern
+2023-04-30 05:20:21,793 INFO:SINGLE ITERATION TIME: 2.28
+2023-04-30 05:20:22,692 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-login.php HTTP/1.1" 200 None
+2023-04-30 05:20:22,725 INFO:URL NO.114ADDED: https://www.britishjudo.org.uk/wp-login.php?action=lostpassword
+2023-04-30 05:20:22,725 INFO:SINGLE ITERATION TIME: 0.93
+2023-04-30 05:20:23,600 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-login.php?action=register HTTP/1.1" 200 None
+2023-04-30 05:20:23,657 INFO:SINGLE ITERATION TIME: 0.93
+2023-04-30 05:20:24,562 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership HTTP/1.1" 301 0
+2023-04-30 05:20:25,782 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/ HTTP/1.1" 200 None
+2023-04-30 05:20:25,910 INFO:URL NO.115ADDED: https://www.britishjudo.org.uk/terms-and-conditions
+2023-04-30 05:20:25,910 INFO:URL NO.116ADDED: https://www.britishjudo.org.uk/jason-moore-recognised-for-sporting-achievements
+2023-04-30 05:20:25,911 INFO:URL NO.117ADDED: https://www.britishjudo.org.uk/international-promotions-for-british-judo-referees-mcbeath-and-shrimpton
+2023-04-30 05:20:25,911 INFO:URL NO.118ADDED: https://www.britishjudo.org.uk/dan-grade-promotions-march-2023
+2023-04-30 05:20:25,911 INFO:URL NO.119ADDED: https://www.britishjudo.org.uk/club-welfare-officer-update-2
+2023-04-30 05:20:25,912 INFO:URL NO.120ADDED: https://www.britishjudo.org.uk/coach-education-contribution-fund
+2023-04-30 05:20:25,912 INFO:URL NO.121ADDED: https://www.britishjudo.org.uk/sami-smithson-leaving-for-new-challenge
+2023-04-30 05:20:25,913 INFO:SINGLE ITERATION TIME: 2.26
+2023-04-30 05:20:26,821 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/membership-packages HTTP/1.1" 301 0
+2023-04-30 05:20:28,013 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/membership-packages/ HTTP/1.1" 200 None
+2023-04-30 05:20:28,131 INFO:SINGLE ITERATION TIME: 2.22
+2023-04-30 05:20:29,034 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/applyrenew-online HTTP/1.1" 301 0
+2023-04-30 05:20:30,199 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/applyrenew-online/ HTTP/1.1" 200 None
+2023-04-30 05:20:30,402 INFO:URL NO.122ADDED: https://www.britishjudo.org.uk/wp-content/uploads/2020/03/Judo-Kids-Application-form.pdf
+2023-04-30 05:20:30,402 INFO:URL NO.123ADDED: https://www.britishjudo.org.uk/wp-content/uploads/2022/06/Membership-Application-Form-Child-Dec-2019-DIGITAL.pdf
+2023-04-30 05:20:30,402 INFO:URL NO.124ADDED: https://www.britishjudo.org.uk/wp-content/uploads/2022/08/Membership-Application-Form-Adult-Dec-2019-DIGITAL.pdf
+2023-04-30 05:20:30,404 INFO:SINGLE ITERATION TIME: 2.27
+2023-04-30 05:20:31,304 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/benefits HTTP/1.1" 301 0
+2023-04-30 05:20:32,521 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/benefits/ HTTP/1.1" 200 None
+2023-04-30 05:20:32,713 INFO:URL NO.125ADDED: https://www.britishjudo.org.uk/my-judo/membership/benefits/exclusive-discounts
+2023-04-30 05:20:32,713 INFO:URL NO.126ADDED: https://www.britishjudo.org.uk/shop
+2023-04-30 05:20:32,714 INFO:URL NO.127ADDED: https://www.britishjudo.org.uk/my-judo/membership/matside-magazine
+2023-04-30 05:20:32,714 INFO:SINGLE ITERATION TIME: 2.31
+2023-04-30 05:20:33,615 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/insurance HTTP/1.1" 301 0
+2023-04-30 05:20:34,814 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/insurance/ HTTP/1.1" 200 None
+2023-04-30 05:20:34,997 INFO:SINGLE ITERATION TIME: 2.28
+2023-04-30 05:20:35,917 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs HTTP/1.1" 301 0
+2023-04-30 05:20:37,146 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/ HTTP/1.1" 200 None
+2023-04-30 05:20:37,330 INFO:SINGLE ITERATION TIME: 2.33
+2023-04-30 05:20:38,275 DEBUG:https://www.britishjudo.org.uk:443 "GET /bja-club-finder HTTP/1.1" 301 0
+2023-04-30 05:20:39,693 DEBUG:https://www.britishjudo.org.uk:443 "GET /bja-club-finder/ HTTP/1.1" 200 None
+2023-04-30 05:20:39,973 INFO:SINGLE ITERATION TIME: 2.64
+2023-04-30 05:20:40,948 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/apply-for-club-membership HTTP/1.1" 301 0
+2023-04-30 05:20:42,255 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/apply-for-club-membership/ HTTP/1.1" 200 None
+2023-04-30 05:20:42,488 INFO:URL NO.128ADDED: https://www.britishjudo.org.uk/clubs/starting-a-club/registered-venue
+2023-04-30 05:20:42,488 INFO:URL NO.129ADDED: https://www.britishjudo.org.uk/club-registration-page
+2023-04-30 05:20:42,488 INFO:URL NO.130ADDED: https://www.britishjudo.org.uk/wp-content/uploads/2019/11/direct-debit-mandate-2018-clubs.pdf
+2023-04-30 05:20:42,489 INFO:URL NO.131ADDED: https://www.britishjudo.org.uk/wp-content/uploads/2019/11/Constitution-Template-V2020-1.docx
+2023-04-30 05:20:42,489 INFO:URL NO.132ADDED: https://www.britishjudo.org.uk/wp-content/uploads/2020/10/SafeLandings-Sept-2020.pdf
+2023-04-30 05:20:42,489 INFO:URL NO.133ADDED: https://www.britishjudo.org.uk/gdpr-is-coming-is-your-club-compliant
+2023-04-30 05:20:42,490 INFO:URL NO.134ADDED: https://www.britishjudo.org.uk/the-british-judo-association/safeguarding/club-welfare-officer
+2023-04-30 05:20:42,490 INFO:URL NO.135ADDED: https://www.britishjudo.org.uk/clubs/marketing-your-club/understanding-your-customer
+2023-04-30 05:20:42,491 INFO:URL NO.136ADDED: https://www.britishjudo.org.uk/clubs/marketing-your-club/branding
+2023-04-30 05:20:42,491 INFO:URL NO.137ADDED: https://www.britishjudo.org.uk/clubs/marketing-your-club/club-marketing-portal
+2023-04-30 05:20:42,491 INFO:URL NO.138ADDED: https://www.britishjudo.org.uk/clubs/marketing-your-club/social-media
+2023-04-30 05:20:42,492 INFO:URL NO.139ADDED: https://www.britishjudo.org.uk/clubs/marketing-your-club/email
+2023-04-30 05:20:42,492 INFO:URL NO.140ADDED: https://www.britishjudo.org.uk/clubs/marketing-your-club/websites
+2023-04-30 05:20:42,492 INFO:URL NO.141ADDED: https://www.britishjudo.org.uk/clubs/initiatives-and-programmes/judotots
+2023-04-30 05:20:42,492 INFO:URL NO.142ADDED: https://www.britishjudo.org.uk/clubs/initiatives-and-programmes/judotots/judotots-club-registration
+2023-04-30 05:20:42,493 INFO:URL NO.143ADDED: https://www.britishjudo.org.uk/clubs/initiatives-and-programmes/judotots/judotots-registration
+2023-04-30 05:20:42,493 INFO:URL NO.144ADDED: https://www.britishjudo.org.uk/clubs/initiatives-and-programmes/club-matters
+2023-04-30 05:20:42,494 INFO:SINGLE ITERATION TIME: 2.52
+2023-04-30 05:20:43,435 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club HTTP/1.1" 301 0
+2023-04-30 05:20:44,725 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/ HTTP/1.1" 200 None
+2023-04-30 05:20:44,909 INFO:SINGLE ITERATION TIME: 2.42
+2023-04-30 05:20:45,872 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/funding HTTP/1.1" 301 0
+2023-04-30 05:20:47,208 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/funding/ HTTP/1.1" 200 None
+2023-04-30 05:20:47,411 INFO:SINGLE ITERATION TIME: 2.5
+2023-04-30 05:20:48,340 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes HTTP/1.1" 301 0
+2023-04-30 05:20:49,648 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes/ HTTP/1.1" 200 None
+2023-04-30 05:20:49,860 INFO:URL NO.145ADDED: https://www.britishjudo.org.uk/clubs/initiatives-and-programmes/svs/svs-university-registration-2022-23
+2023-04-30 05:20:49,861 INFO:URL NO.146ADDED: https://www.britishjudo.org.uk/getstartedclubsignup
+2023-04-30 05:20:49,862 INFO:SINGLE ITERATION TIME: 2.45
+2023-04-30 05:20:50,800 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/starting-a-club HTTP/1.1" 301 0
+2023-04-30 05:20:52,252 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/starting-a-club/ HTTP/1.1" 200 None
+2023-04-30 05:20:52,463 INFO:URL NO.147ADDED: https://www.britishjudo.org.uk/club-finder
+2023-04-30 05:20:52,463 INFO:URL NO.148ADDED: https://www.britishjudo.org.uk/the-british-judo-association/staff
+2023-04-30 05:20:52,465 INFO:SINGLE ITERATION TIME: 2.6
+2023-04-30 05:20:53,358 DEBUG:https://www.britishjudo.org.uk:443 "GET /events HTTP/1.1" 301 0
+2023-04-30 05:20:54,602 DEBUG:https://www.britishjudo.org.uk:443 "GET /events/ HTTP/1.1" 200 None
+2023-04-30 05:20:54,799 INFO:URL NO.149ADDED: https://www.britishjudo.org.uk/my-judo/competition-organisation/tournament-license-application-form?doing_wp_cron=1628863048.3154759407043457031250
+2023-04-30 05:20:54,799 INFO:URL NO.150ADDED: https://www.britishjudo.org.uk/care-system-hire
+2023-04-30 05:20:54,801 INFO:SINGLE ITERATION TIME: 2.34
+2023-04-30 05:20:55,768 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar HTTP/1.1" 301 0
+2023-04-30 05:20:57,936 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/ HTTP/1.1" 200 None
+2023-04-30 05:20:58,691 INFO:URL NO.151ADDED: https://www.britishjudo.org.uk/events-calendar/list
+2023-04-30 05:20:58,692 INFO:URL NO.152ADDED: https://www.britishjudo.org.uk/events-calendar/month
+2023-04-30 05:20:58,692 INFO:URL NO.153ADDED: https://www.britishjudo.org.uk/events-calendar/today
+2023-04-30 05:20:58,692 INFO:URL NO.154ADDED: https://www.britishjudo.org.uk/events-calendar/month/2023-03
+2023-04-30 05:20:58,693 INFO:URL NO.155ADDED: https://www.britishjudo.org.uk/events-calendar/month/2023-05
+2023-04-30 05:20:58,693 INFO:URL NO.156ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-01
+2023-04-30 05:20:58,693 INFO:URL NO.157ADDED: https://www.britishjudo.org.uk/event/this-is-judo-red-and-yellow-belt-rumble
+2023-04-30 05:20:58,694 INFO:URL NO.158ADDED: https://www.britishjudo.org.uk/event/national-dan-grading-2
+2023-04-30 05:20:58,694 INFO:URL NO.159ADDED: https://www.britishjudo.org.uk/event/coach-education-mat-side-coaching
+2023-04-30 05:20:58,694 INFO:URL NO.160ADDED: https://www.britishjudo.org.uk/event/coach-education-technical-grading-beachjudowai
+2023-04-30 05:20:58,695 INFO:URL NO.161ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-02
+2023-04-30 05:20:58,695 INFO:URL NO.162ADDED: https://www.britishjudo.org.uk/event/windsor-judo-club-red-belt-rumble-and-under-8-festival
+2023-04-30 05:20:58,695 INFO:URL NO.163ADDED: https://www.britishjudo.org.uk/event/windsor-judo-club-under-8-festival
+2023-04-30 05:20:58,696 INFO:URL NO.164ADDED: https://www.britishjudo.org.uk/event/worchester-orange-under
+2023-04-30 05:20:58,696 INFO:URL NO.165ADDED: https://www.britishjudo.org.uk/event/hampshire-u16s-closed-championships
+2023-04-30 05:20:58,696 INFO:URL NO.166ADDED: https://www.britishjudo.org.uk/event/bsjk-high-grades-championships-2023
+2023-04-30 05:20:58,697 INFO:URL NO.167ADDED: https://www.britishjudo.org.uk/event/uk-coaching-safeguarding-protecting-children-workshop-black-dog-judo-club
+2023-04-30 05:20:58,697 INFO:URL NO.168ADDED: https://www.britishjudo.org.uk/event/bja-yorkshire-and-humberside-area-excellence-sessions
+2023-04-30 05:20:58,697 INFO:URL NO.169ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-04
+2023-04-30 05:20:58,698 INFO:URL NO.170ADDED: https://www.britishjudo.org.uk/event/time-to-listen-course
+2023-04-30 05:20:58,698 INFO:URL NO.171ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-05
+2023-04-30 05:20:58,698 INFO:URL NO.172ADDED: https://www.britishjudo.org.uk/event/gb-u23-training-camp
+2023-04-30 05:20:58,699 INFO:URL NO.173ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-06
+2023-04-30 05:20:58,699 INFO:URL NO.174ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-07
+2023-04-30 05:20:58,699 INFO:URL NO.175ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-08
+2023-04-30 05:20:58,700 INFO:URL NO.176ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-12
+2023-04-30 05:20:58,700 INFO:URL NO.177ADDED: https://www.britishjudo.org.uk/event/uk-coaching-safeguarding-protecting-children-workshop-2
+2023-04-30 05:20:58,700 INFO:URL NO.178ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-15
+2023-04-30 05:20:58,701 INFO:URL NO.179ADDED: https://www.britishjudo.org.uk/event/high-wycombe-judo-club-red-belt-rumble
+2023-04-30 05:20:58,701 INFO:URL NO.180ADDED: https://www.britishjudo.org.uk/event/egh-orange-belt-kyu-grade-championships-and-dragon-display
+2023-04-30 05:20:58,701 INFO:URL NO.181ADDED: https://www.britishjudo.org.uk/event/richard-lloyd-memorial
+2023-04-30 05:20:58,702 INFO:URL NO.182ADDED: https://www.britishjudo.org.uk/event/onst-open-national-squad-event
+2023-04-30 05:20:58,702 INFO:URL NO.183ADDED: https://www.britishjudo.org.uk/event/technical-dan-grade-course
+2023-04-30 05:20:58,702 INFO:URL NO.184ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-16
+2023-04-30 05:20:58,703 INFO:URL NO.185ADDED: https://www.britishjudo.org.uk/event/west-yorkshire-judo-championships-and-under-8-festival
+2023-04-30 05:20:58,703 INFO:URL NO.186ADDED: https://www.britishjudo.org.uk/event/kent-closed
+2023-04-30 05:20:58,703 INFO:URL NO.187ADDED: https://www.britishjudo.org.uk/event/nhc-area-nage-no-kata-and-katame-no-kata-open-to-all
+2023-04-30 05:20:58,704 INFO:URL NO.188ADDED: https://www.britishjudo.org.uk/event/introductory-course-ju-no-kata-course-april2023
+2023-04-30 05:20:58,704 INFO:URL NO.189ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-19
+2023-04-30 05:20:58,704 INFO:URL NO.190ADDED: https://www.britishjudo.org.uk/event/time-to-listen-course-2
+2023-04-30 05:20:58,705 INFO:URL NO.191ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-22
+2023-04-30 05:20:58,705 INFO:URL NO.192ADDED: https://www.britishjudo.org.uk/event/northern-ireland-open-championships-2023
+2023-04-30 05:20:58,705 INFO:URL NO.193ADDED: https://www.britishjudo.org.uk/event/technical-dan-grading-course-assessment-competitive-skills-preparation-and-exam-22nd-23rd-april-2023
+2023-04-30 05:20:58,706 INFO:URL NO.194ADDED: https://www.britishjudo.org.uk/event/refereeing-education-module-2
+2023-04-30 05:20:58,706 INFO:URL NO.195ADDED: https://www.britishjudo.org.uk/event/western-area-dan-grading-and-theory
+2023-04-30 05:20:58,706 INFO:URL NO.196ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-23
+2023-04-30 05:20:58,707 INFO:URL NO.197ADDED: https://www.britishjudo.org.uk/event/coventry-mini-mon-for-boys-and-girls
+2023-04-30 05:20:58,707 INFO:URL NO.198ADDED: https://www.britishjudo.org.uk/event/goole-judo-development-competition
+2023-04-30 05:20:58,707 INFO:URL NO.199ADDED: https://www.britishjudo.org.uk/event/nottingham-cadet-senior-grade-banded-open-2023
+2023-04-30 05:20:58,708 INFO:URL NO.200ADDED: https://www.britishjudo.org.uk/event/safeguarding-workshop-emergency-sports-first-aid-japan-arts-centre
+2023-04-30 05:20:58,708 INFO:URL NO.201ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-29
+2023-04-30 05:20:58,709 INFO:URL NO.202ADDED: https://www.britishjudo.org.uk/event/samurai-boys-orange-and-under-mini-mon
+2023-04-30 05:20:58,709 INFO:URL NO.203ADDED: https://www.britishjudo.org.uk/event/ian-raine-durham-mini-mon
+2023-04-30 05:20:58,709 INFO:URL NO.204ADDED: https://www.britishjudo.org.uk/event/london-team-championships
+2023-04-30 05:20:58,710 INFO:URL NO.205ADDED: https://www.britishjudo.org.uk/event/craven-open-judo-championships-2023
+2023-04-30 05:20:58,710 INFO:URL NO.206ADDED: https://www.britishjudo.org.uk/event/coaching-education-technical-grading-level-1-croydon-judo-club
+2023-04-30 05:20:58,710 INFO:URL NO.207ADDED: https://www.britishjudo.org.uk/event/coaching-education-technical-grading-level-2-croydon-judo-club
+2023-04-30 05:20:58,710 INFO:URL NO.208ADDED: https://www.britishjudo.org.uk/events-calendar/2023-04-30
+2023-04-30 05:20:58,711 INFO:URL NO.209ADDED: https://www.britishjudo.org.uk/event/samurai-girls-orange-under-mini-mon-and-senior-kyu-grades-2023
+2023-04-30 05:20:58,711 INFO:URL NO.210ADDED: https://www.britishjudo.org.uk/event/426928
+2023-04-30 05:20:58,711 INFO:URL NO.211ADDED: https://www.britishjudo.org.uk/event/dan-grading-budokwai/all
+2023-04-30 05:20:58,713 INFO:URL NO.212ADDED: https://www.britishjudo.org.uk/events-calendar/month?ical=1
+2023-04-30 05:20:58,713 INFO:URL NO.213ADDED: https://www.britishjudo.org.uk/events-calendar/month?outlook-ical=1
+2023-04-30 05:20:58,714 INFO:SINGLE ITERATION TIME: 3.91
+2023-04-30 05:20:59,606 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/competition-organisation HTTP/1.1" 301 0
+2023-04-30 05:21:00,944 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/competition-organisation/ HTTP/1.1" 200 None
+2023-04-30 05:21:01,089 INFO:URL NO.214ADDED: https://www.britishjudo.org.uk/my-judo/competition-organisation/calendar-planning
+2023-04-30 05:21:01,089 INFO:URL NO.215ADDED: https://www.britishjudo.org.uk/my-judo/competition-organisation/competition-booking-form
+2023-04-30 05:21:01,089 INFO:URL NO.216ADDED: https://www.britishjudo.org.uk/my-judo/competition-organisation/tournament-license-application-form
+2023-04-30 05:21:01,090 INFO:URL NO.217ADDED: https://www.britishjudo.org.uk/my-judo/competition-organisation/resources-competition-organisers
+2023-04-30 05:21:01,090 INFO:URL NO.218ADDED: https://www.britishjudo.org.uk/wp-content/uploads/2021/08/Tournament-Handbook-2019-V13-Oct-21.pdf
+2023-04-30 05:21:01,091 INFO:SINGLE ITERATION TIME: 2.38
+2023-04-30 05:21:02,055 DEBUG:https://www.britishjudo.org.uk:443 "GET /events/our-2023-24-events HTTP/1.1" 301 0
+2023-04-30 05:21:03,332 DEBUG:https://www.britishjudo.org.uk:443 "GET /events/our-2023-24-events/ HTTP/1.1" 200 None
+2023-04-30 05:21:03,478 INFO:URL NO.219ADDED: https://www.britishjudo.org.uk/event/british-national-teams-2023
+2023-04-30 05:21:03,479 INFO:URL NO.220ADDED: https://www.britishjudo.org.uk/event/british-minors-championships-2023
+2023-04-30 05:21:03,479 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:03,479 INFO:SINGLE ITERATION TIME: 2.39
+2023-04-30 05:21:04,399 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/competition-organisation/rankings HTTP/1.1" 301 0
+2023-04-30 05:21:05,781 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/competition-organisation/rankings/ HTTP/1.1" 200 None
+2023-04-30 05:21:05,921 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:05,921 INFO:SINGLE ITERATION TIME: 2.44
+2023-04-30 05:21:06,938 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/competition-organisation/results HTTP/1.1" 301 0
+2023-04-30 05:21:08,603 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/competition-organisation/results/ HTTP/1.1" 200 None
+2023-04-30 05:21:09,539 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:09,539 INFO:SINGLE ITERATION TIME: 3.62
+2023-04-30 05:21:10,851 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo HTTP/1.1" 301 0
+2023-04-30 05:21:12,070 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/ HTTP/1.1" 200 None
+2023-04-30 05:21:12,209 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:12,209 INFO:SINGLE ITERATION TIME: 2.67
+2023-04-30 05:21:13,109 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/grading HTTP/1.1" 301 0
+2023-04-30 05:21:14,303 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/grading/ HTTP/1.1" 200 None
+2023-04-30 05:21:14,414 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:14,414 INFO:SINGLE ITERATION TIME: 2.21
+2023-04-30 05:21:15,300 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/grading/grades HTTP/1.1" 301 0
+2023-04-30 05:21:17,020 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/grading/grades/ HTTP/1.1" 200 None
+2023-04-30 05:21:17,149 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:17,149 INFO:SINGLE ITERATION TIME: 2.74
+2023-04-30 05:21:18,042 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/grading/grading-videos HTTP/1.1" 301 0
+2023-04-30 05:21:19,300 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/grading/grading-videos/ HTTP/1.1" 200 None
+2023-04-30 05:21:19,439 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:19,439 INFO:SINGLE ITERATION TIME: 2.29
+2023-04-30 05:21:20,345 DEBUG:https://www.britishjudo.org.uk:443 "GET /online-grade-register HTTP/1.1" 301 0
+2023-04-30 05:21:21,555 DEBUG:https://www.britishjudo.org.uk:443 "GET /online-grade-register/ HTTP/1.1" 200 None
+2023-04-30 05:21:21,806 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:21,806 INFO:SINGLE ITERATION TIME: 2.37
+2023-04-30 05:21:22,717 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/grading/dan-grade-register HTTP/1.1" 301 0
+2023-04-30 05:21:24,004 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/grading/dan-grade-register/ HTTP/1.1" 200 None
+2023-04-30 05:21:24,198 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:24,198 INFO:SINGLE ITERATION TIME: 2.39
+2023-04-30 05:21:25,095 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/grading/grading-resources HTTP/1.1" 301 0
+2023-04-30 05:21:26,320 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/grading/grading-resources/ HTTP/1.1" 200 None
+2023-04-30 05:21:26,518 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:26,518 INFO:SINGLE ITERATION TIME: 2.32
+2023-04-30 05:21:27,495 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/kata HTTP/1.1" 301 0
+2023-04-30 05:21:28,739 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/kata/ HTTP/1.1" 200 None
+2023-04-30 05:21:28,896 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:28,897 INFO:SINGLE ITERATION TIME: 2.38
+2023-04-30 05:21:29,803 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/kata/kata-exam-forms HTTP/1.1" 301 0
+2023-04-30 05:21:31,205 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/kata/kata-exam-forms/ HTTP/1.1" 200 None
+2023-04-30 05:21:31,400 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:31,400 INFO:SINGLE ITERATION TIME: 2.5
+2023-04-30 05:21:32,274 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/kata/editable-exam-forms HTTP/1.1" 301 0
+2023-04-30 05:21:33,485 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/kata/editable-exam-forms/ HTTP/1.1" 200 None
+2023-04-30 05:21:33,654 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:33,654 INFO:SINGLE ITERATION TIME: 2.25
+2023-04-30 05:21:34,548 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/kata/kata-resources HTTP/1.1" 301 0
+2023-04-30 05:21:35,798 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/kata/kata-resources/ HTTP/1.1" 200 None
+2023-04-30 05:21:35,962 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:35,962 INFO:SINGLE ITERATION TIME: 2.31
+2023-04-30 05:21:36,956 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/kata/videos HTTP/1.1" 301 0
+2023-04-30 05:21:38,183 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/kata/videos/ HTTP/1.1" 200 None
+2023-04-30 05:21:38,352 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:38,352 INFO:SINGLE ITERATION TIME: 2.39
+2023-04-30 05:21:39,231 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing HTTP/1.1" 301 0
+2023-04-30 05:21:40,500 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/ HTTP/1.1" 200 None
+2023-04-30 05:21:40,681 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:40,681 INFO:SINGLE ITERATION TIME: 2.33
+2023-04-30 05:21:40,711 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-content/uploads/2023/04/National-Referee-Selections-and-Ranking-23Apr23.pdf HTTP/1.1" 200 211455
+2023-04-30 05:21:41,346 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-30 05:21:42,229 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/how-to-get-started-in-refereeing HTTP/1.1" 301 0
+2023-04-30 05:21:43,483 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/how-to-get-started-in-refereeing/ HTTP/1.1" 200 None
+2023-04-30 05:21:43,762 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:43,763 INFO:SINGLE ITERATION TIME: 2.41
+2023-04-30 05:21:44,672 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/courses HTTP/1.1" 301 0
+2023-04-30 05:21:46,152 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/courses/ HTTP/1.1" 200 None
+2023-04-30 05:21:46,369 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:46,369 INFO:SINGLE ITERATION TIME: 2.61
+2023-04-30 05:21:47,272 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/athlete-coach-fast-track-opportunities HTTP/1.1" 301 0
+2023-04-30 05:21:48,545 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/athlete-coach-fast-track-opportunities/ HTTP/1.1" 200 None
+2023-04-30 05:21:49,048 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:49,048 INFO:SINGLE ITERATION TIME: 2.68
+2023-04-30 05:21:49,975 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/contest-rules HTTP/1.1" 301 0
+2023-04-30 05:21:50,858 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/contest-rules/ HTTP/1.1" 302 None
+2023-04-30 05:21:52,131 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/contest-rules/?doing_wp_cron=1682828511.2405149936676025390625 HTTP/1.1" 200 None
+2023-04-30 05:21:52,351 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:52,351 INFO:SINGLE ITERATION TIME: 3.3
+2023-04-30 05:21:53,262 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/resources HTTP/1.1" 301 0
+2023-04-30 05:21:54,576 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/resources/ HTTP/1.1" 200 None
+2023-04-30 05:21:54,826 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:54,826 INFO:SINGLE ITERATION TIME: 2.48
+2023-04-30 05:21:55,705 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/national-commission-area-refereeing-contacts HTTP/1.1" 301 0
+2023-04-30 05:21:57,866 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/refereeing/national-commission-area-refereeing-contacts/ HTTP/1.1" 200 None
+2023-04-30 05:21:58,119 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:21:58,119 INFO:SINGLE ITERATION TIME: 3.29
+2023-04-30 05:21:59,377 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/officiating HTTP/1.1" 301 0
+2023-04-30 05:22:00,660 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/officiating/ HTTP/1.1" 200 None
+2023-04-30 05:22:00,846 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:00,846 INFO:SINGLE ITERATION TIME: 2.73
+2023-04-30 05:22:01,807 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/officiating/how-to-get-started-in-officiating HTTP/1.1" 301 0
+2023-04-30 05:22:03,080 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/officiating/how-to-get-started-in-officiating/ HTTP/1.1" 200 None
+2023-04-30 05:22:03,310 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:03,310 INFO:SINGLE ITERATION TIME: 2.46
+2023-04-30 05:22:04,239 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/officiating/roles HTTP/1.1" 301 0
+2023-04-30 05:22:05,559 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/officiating/roles/ HTTP/1.1" 200 None
+2023-04-30 05:22:05,748 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:05,748 INFO:SINGLE ITERATION TIME: 2.44
+2023-04-30 05:22:07,756 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/officiating/resources HTTP/1.1" 301 0
+2023-04-30 05:22:09,361 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/officiating/resources/ HTTP/1.1" 200 None
+2023-04-30 05:22:09,552 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:09,552 INFO:SINGLE ITERATION TIME: 3.8
+2023-04-30 05:22:10,536 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching HTTP/1.1" 301 0
+2023-04-30 05:22:11,978 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/ HTTP/1.1" 200 None
+2023-04-30 05:22:12,141 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:12,142 INFO:SINGLE ITERATION TIME: 2.59
+2023-04-30 05:22:13,098 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/how-to-get-started-in-coaching HTTP/1.1" 301 0
+2023-04-30 05:22:14,355 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/how-to-get-started-in-coaching/ HTTP/1.1" 200 None
+2023-04-30 05:22:14,600 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:14,600 INFO:SINGLE ITERATION TIME: 2.46
+2023-04-30 05:22:15,505 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/qualifications HTTP/1.1" 301 0
+2023-04-30 05:22:16,695 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/qualifications/ HTTP/1.1" 200 None
+2023-04-30 05:22:16,900 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:16,900 INFO:SINGLE ITERATION TIME: 2.3
+2023-04-30 05:22:17,797 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/courses HTTP/1.1" 301 0
+2023-04-30 05:22:19,153 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/courses/ HTTP/1.1" 200 None
+2023-04-30 05:22:19,354 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:19,354 INFO:SINGLE ITERATION TIME: 2.45
+2023-04-30 05:22:20,283 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/ukcoachingcourses HTTP/1.1" 301 0
+2023-04-30 05:22:21,582 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/ukcoachingcourses/ HTTP/1.1" 200 None
+2023-04-30 05:22:21,768 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:21,768 INFO:SINGLE ITERATION TIME: 2.41
+2023-04-30 05:22:22,653 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/revalidation HTTP/1.1" 301 0
+2023-04-30 05:22:22,655 DEBUG:Resetting dropped connection: www.britishjudo.org.uk
+2023-04-30 05:22:24,017 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/revalidation/ HTTP/1.1" 200 None
+2023-04-30 05:22:24,141 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:24,141 INFO:SINGLE ITERATION TIME: 2.37
+2023-04-30 05:22:25,078 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/resources HTTP/1.1" 301 0
+2023-04-30 05:22:26,372 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/coaching/resources/ HTTP/1.1" 200 None
+2023-04-30 05:22:26,490 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:26,490 INFO:SINGLE ITERATION TIME: 2.35
+2023-04-30 05:22:27,474 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/volunteering HTTP/1.1" 301 0
+2023-04-30 05:22:28,707 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/volunteering/ HTTP/1.1" 200 None
+2023-04-30 05:22:28,824 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:28,824 INFO:SINGLE ITERATION TIME: 2.33
+2023-04-30 05:22:29,722 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/volunteering/finding-a-volunteering-role HTTP/1.1" 301 0
+2023-04-30 05:22:31,009 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/volunteering/finding-a-volunteering-role/ HTTP/1.1" 200 None
+2023-04-30 05:22:31,228 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:31,228 INFO:SINGLE ITERATION TIME: 2.4
+2023-04-30 05:22:32,136 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/volunteering/event-volunteering HTTP/1.1" 301 0
+2023-04-30 05:22:33,375 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/volunteering/event-volunteering/ HTTP/1.1" 200 None
+2023-04-30 05:22:33,675 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:33,675 INFO:SINGLE ITERATION TIME: 2.45
+2023-04-30 05:22:34,568 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/volunteering/club-volunteering HTTP/1.1" 301 0
+2023-04-30 05:22:35,846 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/volunteering/club-volunteering/ HTTP/1.1" 200 None
+2023-04-30 05:22:36,040 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:36,040 INFO:SINGLE ITERATION TIME: 2.37
+2023-04-30 05:22:36,956 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/club-welfare-officer HTTP/1.1" 301 0
+2023-04-30 05:22:38,236 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/club-welfare-officer/ HTTP/1.1" 200 None
+2023-04-30 05:22:38,479 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:38,479 INFO:SINGLE ITERATION TIME: 2.44
+2023-04-30 05:22:39,388 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/volunteering/volunteer-resources HTTP/1.1" 301 0
+2023-04-30 05:22:40,704 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/volunteering/volunteer-resources/ HTTP/1.1" 200 None
+2023-04-30 05:22:40,930 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:40,930 INFO:SINGLE ITERATION TIME: 2.45
+2023-04-30 05:22:41,869 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo HTTP/1.1" 301 0
+2023-04-30 05:22:43,103 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/ HTTP/1.1" 200 None
+2023-04-30 05:22:43,295 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:43,295 INFO:SINGLE ITERATION TIME: 2.37
+2023-04-30 05:22:44,254 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-world-class-performance-programme HTTP/1.1" 301 0
+2023-04-30 05:22:45,815 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-world-class-performance-programme/ HTTP/1.1" 200 None
+2023-04-30 05:22:45,998 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:45,998 INFO:SINGLE ITERATION TIME: 2.7
+2023-04-30 05:22:46,952 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-world-class-performance-programme/gb-performance-pathway HTTP/1.1" 301 0
+2023-04-30 05:22:48,692 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-world-class-performance-programme/gb-performance-pathway/ HTTP/1.1" 200 None
+2023-04-30 05:22:48,877 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:48,877 INFO:SINGLE ITERATION TIME: 2.88
+2023-04-30 05:22:49,790 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-world-class-performance-programme/british-judo-olympic-and-paralympic-national-training-centre HTTP/1.1" 301 0
+2023-04-30 05:22:51,014 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-world-class-performance-programme/british-judo-olympic-and-paralympic-national-training-centre/ HTTP/1.1" 200 None
+2023-04-30 05:22:51,178 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:51,178 INFO:SINGLE ITERATION TIME: 2.3
+2023-04-30 05:22:52,396 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-world-class-performance-programme/gb-olympic-and-paralympic-programme HTTP/1.1" 301 0
+2023-04-30 05:22:53,700 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-world-class-performance-programme/gb-olympic-and-paralympic-programme/ HTTP/1.1" 200 None
+2023-04-30 05:22:53,880 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:53,880 INFO:SINGLE ITERATION TIME: 2.7
+2023-04-30 05:22:54,830 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/british-judo-clean-sport-uk-anti-doping HTTP/1.1" 301 0
+2023-04-30 05:22:56,052 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/british-judo-clean-sport-uk-anti-doping/ HTTP/1.1" 200 None
+2023-04-30 05:22:56,219 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:56,219 INFO:SINGLE ITERATION TIME: 2.34
+2023-04-30 05:22:57,475 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/home-nation-programmes HTTP/1.1" 301 0
+2023-04-30 05:22:58,679 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/home-nation-programmes/ HTTP/1.1" 200 None
+2023-04-30 05:22:58,835 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:22:58,835 INFO:SINGLE ITERATION TIME: 2.62
+2023-04-30 05:22:59,726 DEBUG:https://www.britishjudo.org.uk:443 "GET /england-judo HTTP/1.1" 301 0
+2023-04-30 05:23:01,036 DEBUG:https://www.britishjudo.org.uk:443 "GET /england-judo/ HTTP/1.1" 200 None
+2023-04-30 05:23:01,232 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:01,233 INFO:SINGLE ITERATION TIME: 2.4
+2023-04-30 05:23:02,148 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/home-nation-programmes/northern-ireland-judo-programme HTTP/1.1" 301 0
+2023-04-30 05:23:03,405 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/home-nation-programmes/northern-ireland-judo-programme/ HTTP/1.1" 200 None
+2023-04-30 05:23:03,599 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:03,599 INFO:SINGLE ITERATION TIME: 2.37
+2023-04-30 05:23:04,497 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/home-nation-programmes/welsh-judo-programme HTTP/1.1" 301 0
+2023-04-30 05:23:05,769 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/home-nation-programmes/welsh-judo-programme/ HTTP/1.1" 200 None
+2023-04-30 05:23:05,960 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:05,961 INFO:SINGLE ITERATION TIME: 2.36
+2023-04-30 05:23:06,880 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/home-nation-programmes/judoscotland-programme HTTP/1.1" 301 0
+2023-04-30 05:23:08,150 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/home-nation-programmes/judoscotland-programme/ HTTP/1.1" 200 None
+2023-04-30 05:23:08,346 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:08,346 INFO:SINGLE ITERATION TIME: 2.39
+2023-04-30 05:23:09,282 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-masters HTTP/1.1" 301 0
+2023-04-30 05:23:10,545 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-masters/ HTTP/1.1" 200 None
+2023-04-30 05:23:10,865 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:10,866 INFO:SINGLE ITERATION TIME: 2.52
+2023-04-30 05:23:11,997 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-masters/gb-masters-squad HTTP/1.1" 301 0
+2023-04-30 05:23:13,244 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-masters/gb-masters-squad/ HTTP/1.1" 200 None
+2023-04-30 05:23:13,637 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:13,637 INFO:SINGLE ITERATION TIME: 2.77
+2023-04-30 05:23:14,564 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/fighters HTTP/1.1" 301 0
+2023-04-30 05:23:16,021 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/fighters/ HTTP/1.1" 200 None
+2023-04-30 05:23:16,381 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:16,381 INFO:SINGLE ITERATION TIME: 2.74
+2023-04-30 05:23:17,307 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-judo-policies HTTP/1.1" 301 0
+2023-04-30 05:23:18,674 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-judo-policies/ HTTP/1.1" 200 None
+2023-04-30 05:23:18,889 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:18,890 INFO:SINGLE ITERATION TIME: 2.51
+2023-04-30 05:23:19,784 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-adaptive-judo HTTP/1.1" 301 0
+2023-04-30 05:23:21,111 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-adaptive-judo/ HTTP/1.1" 200 None
+2023-04-30 05:23:21,297 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:21,297 INFO:SINGLE ITERATION TIME: 2.41
+2023-04-30 05:23:22,197 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/ranking-lists HTTP/1.1" 301 0
+2023-04-30 05:23:23,403 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/ranking-lists/ HTTP/1.1" 200 None
+2023-04-30 05:23:23,598 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:23,598 INFO:SINGLE ITERATION TIME: 2.3
+2023-04-30 05:23:24,525 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-world-class-performance-programme/memos HTTP/1.1" 301 0
+2023-04-30 05:23:25,957 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/gb-world-class-performance-programme/memos/ HTTP/1.1" 200 None
+2023-04-30 05:23:26,513 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:26,513 INFO:SINGLE ITERATION TIME: 2.91
+2023-04-30 05:23:27,487 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association HTTP/1.1" 301 0
+2023-04-30 05:23:28,741 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/ HTTP/1.1" 200 None
+2023-04-30 05:23:28,901 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:28,902 INFO:SINGLE ITERATION TIME: 2.39
+2023-04-30 05:23:30,025 DEBUG:https://www.britishjudo.org.uk:443 "GET /news-hub HTTP/1.1" 301 0
+2023-04-30 05:23:31,253 DEBUG:https://www.britishjudo.org.uk:443 "GET /news-hub/ HTTP/1.1" 200 None
+2023-04-30 05:23:31,474 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:31,475 INFO:SINGLE ITERATION TIME: 2.57
+2023-04-30 05:23:32,401 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/governance/policies-and-guidelines HTTP/1.1" 301 0
+2023-04-30 05:23:33,686 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/governance/policies-and-guidelines/ HTTP/1.1" 200 None
+2023-04-30 05:23:33,876 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:33,877 INFO:SINGLE ITERATION TIME: 2.4
+2023-04-30 05:23:35,026 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/vacancies HTTP/1.1" 301 0
+2023-04-30 05:23:36,303 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/vacancies/ HTTP/1.1" 200 None
+2023-04-30 05:23:36,499 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:36,499 INFO:SINGLE ITERATION TIME: 2.62
+2023-04-30 05:23:37,529 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/contact HTTP/1.1" 301 0
+2023-04-30 05:23:38,747 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/contact/ HTTP/1.1" 200 None
+2023-04-30 05:23:39,027 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:39,028 INFO:SINGLE ITERATION TIME: 2.53
+2023-04-30 05:23:40,062 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/our-2022-2025-strategy HTTP/1.1" 301 0
+2023-04-30 05:23:41,414 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/our-2022-2025-strategy/ HTTP/1.1" 200 None
+2023-04-30 05:23:41,576 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:41,576 INFO:SINGLE ITERATION TIME: 2.55
+2023-04-30 05:23:42,494 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/british-judo-trust HTTP/1.1" 301 0
+2023-04-30 05:23:44,063 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/british-judo-trust/ HTTP/1.1" 200 None
+2023-04-30 05:23:44,326 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:44,326 INFO:SINGLE ITERATION TIME: 2.75
+2023-04-30 05:23:45,258 DEBUG:https://www.britishjudo.org.uk:443 "GET /ediw_hub HTTP/1.1" 301 0
+2023-04-30 05:23:49,273 DEBUG:https://www.britishjudo.org.uk:443 "GET /ediw_hub/ HTTP/1.1" 200 None
+2023-04-30 05:23:49,501 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:49,501 INFO:SINGLE ITERATION TIME: 5.17
+2023-04-30 05:23:50,429 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/governance/board-of-directors HTTP/1.1" 301 0
+2023-04-30 05:23:52,146 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/governance/board-of-directors/ HTTP/1.1" 200 None
+2023-04-30 05:23:52,373 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:52,373 INFO:SINGLE ITERATION TIME: 2.87
+2023-04-30 05:23:53,297 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/governance HTTP/1.1" 301 0
+2023-04-30 05:23:54,750 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/governance/ HTTP/1.1" 200 None
+2023-04-30 05:23:54,941 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:54,941 INFO:SINGLE ITERATION TIME: 2.57
+2023-04-30 05:23:55,862 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/staff-directory HTTP/1.1" 301 0
+2023-04-30 05:23:57,415 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/staff-directory/ HTTP/1.1" 200 None
+2023-04-30 05:23:57,709 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:23:57,709 INFO:SINGLE ITERATION TIME: 2.77
+2023-04-30 05:23:58,671 DEBUG:https://www.britishjudo.org.uk:443 "GET /2023-club-affiliation HTTP/1.1" 301 0
+2023-04-30 05:24:00,174 DEBUG:https://www.britishjudo.org.uk:443 "GET /2023-club-affiliation/ HTTP/1.1" 200 None
+2023-04-30 05:24:00,689 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:00,689 INFO:SINGLE ITERATION TIME: 2.98
+2023-04-30 05:24:02,319 DEBUG:https://www.britishjudo.org.uk:443 "GET /are-you-a-potential-olympic-judoka HTTP/1.1" 301 0
+2023-04-30 05:24:03,744 DEBUG:https://www.britishjudo.org.uk:443 "GET /are-you-a-potential-olympic-judoka/ HTTP/1.1" 200 None
+2023-04-30 05:24:03,939 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:03,940 INFO:SINGLE ITERATION TIME: 3.25
+2023-04-30 05:24:05,261 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo-adaptive-team-set-for-virtus-global-games HTTP/1.1" 301 0
+2023-04-30 05:24:06,666 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo-adaptive-team-set-for-virtus-global-games/ HTTP/1.1" 200 None
+2023-04-30 05:24:06,916 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:06,916 INFO:SINGLE ITERATION TIME: 2.98
+2023-04-30 05:24:08,258 DEBUG:https://www.britishjudo.org.uk:443 "GET /british-judo-launch-coach-award-course-expression-of-interest-register HTTP/1.1" 301 0
+2023-04-30 05:24:09,520 DEBUG:https://www.britishjudo.org.uk:443 "GET /british-judo-launch-coach-award-course-expression-of-interest-register/ HTTP/1.1" 200 None
+2023-04-30 05:24:09,763 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:09,763 INFO:SINGLE ITERATION TIME: 2.85
+2023-04-30 05:24:10,673 DEBUG:https://www.britishjudo.org.uk:443 "GET /army-foundation-college-judo-festival-a-great-success HTTP/1.1" 301 0
+2023-04-30 05:24:12,006 DEBUG:https://www.britishjudo.org.uk:443 "GET /army-foundation-college-judo-festival-a-great-success/ HTTP/1.1" 200 None
+2023-04-30 05:24:12,198 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:12,198 INFO:SINGLE ITERATION TIME: 2.43
+2023-04-30 05:24:13,162 DEBUG:https://www.britishjudo.org.uk:443 "GET /dojo-outage-membership-noticeboard HTTP/1.1" 301 0
+2023-04-30 05:24:14,629 DEBUG:https://www.britishjudo.org.uk:443 "GET /dojo-outage-membership-noticeboard/ HTTP/1.1" 200 None
+2023-04-30 05:24:14,921 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:14,921 INFO:SINGLE ITERATION TIME: 2.72
+2023-04-30 05:24:15,821 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/first-aid-and-safeguarding-for-judo-medway-park-judo-club HTTP/1.1" 301 0
+2023-04-30 05:24:17,712 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/first-aid-and-safeguarding-for-judo-medway-park-judo-club/ HTTP/1.1" 200 None
+2023-04-30 05:24:17,961 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:17,961 INFO:SINGLE ITERATION TIME: 3.04
+2023-04-30 05:24:18,885 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/dan-grading-budokwai/2023-04-30 HTTP/1.1" 301 0
+2023-04-30 05:24:20,750 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/dan-grading-budokwai/2023-04-30/ HTTP/1.1" 200 None
+2023-04-30 05:24:20,950 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:20,950 INFO:SINGLE ITERATION TIME: 2.99
+2023-04-30 05:24:21,873 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/technical-dan-grading-course-assessment-competitive-skills-preparation-and-exam-20th-21st-may-2023 HTTP/1.1" 301 0
+2023-04-30 05:24:23,851 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/technical-dan-grading-course-assessment-competitive-skills-preparation-and-exam-20th-21st-may-2023/ HTTP/1.1" 200 None
+2023-04-30 05:24:24,082 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:24,082 INFO:SINGLE ITERATION TIME: 3.13
+2023-04-30 05:24:25,056 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/yoko-tanabe-masterclass-middlesbrough-judo-club HTTP/1.1" 301 0
+2023-04-30 05:24:26,887 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/yoko-tanabe-masterclass-middlesbrough-judo-club/ HTTP/1.1" 200 None
+2023-04-30 05:24:27,103 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:27,103 INFO:SINGLE ITERATION TIME: 3.02
+2023-04-30 05:24:28,035 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-final-block-podcast HTTP/1.1" 301 0
+2023-04-30 05:24:29,349 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-final-block-podcast/ HTTP/1.1" 200 None
+2023-04-30 05:24:29,598 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:29,599 INFO:SINGLE ITERATION TIME: 2.5
+2023-04-30 05:24:30,523 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/governance/policies-and-guidelines/equality-statement HTTP/1.1" 301 0
+2023-04-30 05:24:31,811 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/governance/policies-and-guidelines/equality-statement/ HTTP/1.1" 200 None
+2023-04-30 05:24:32,001 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:32,001 INFO:SINGLE ITERATION TIME: 2.4
+2023-04-30 05:24:33,171 DEBUG:https://www.britishjudo.org.uk:443 "GET /gb-judo/anti-doping HTTP/1.1" 301 0
+2023-04-30 05:24:34,452 DEBUG:https://www.britishjudo.org.uk:443 "GET /contentlibrary/anti-doping-rules/ HTTP/1.1" 200 None
+2023-04-30 05:24:34,670 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:34,670 INFO:SINGLE ITERATION TIME: 2.67
+2023-04-30 05:24:36,001 DEBUG:https://www.britishjudo.org.uk:443 "GET /manually HTTP/1.1" 404 None
+2023-04-30 05:24:37,128 DEBUG:https://www.britishjudo.org.uk:443 "GET /England-judo HTTP/1.1" 301 0
+2023-04-30 05:24:37,130 DEBUG:Resetting dropped connection: www.britishjudo.org.uk
+2023-04-30 05:24:38,505 DEBUG:https://www.britishjudo.org.uk:443 "GET /England-judo/ HTTP/1.1" 200 None
+2023-04-30 05:24:38,640 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:38,640 INFO:SINGLE ITERATION TIME: 2.45
+2023-04-30 05:24:39,530 DEBUG:https://www.britishjudo.org.uk:443 "GET /privacy-policy HTTP/1.1" 301 0
+2023-04-30 05:24:40,722 DEBUG:https://www.britishjudo.org.uk:443 "GET /privacy-policy/ HTTP/1.1" 200 None
+2023-04-30 05:24:40,844 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:40,844 INFO:SINGLE ITERATION TIME: 2.2
+2023-04-30 05:24:41,777 DEBUG:https://www.britishjudo.org.uk:443 "GET /website-terms-and-conditions HTTP/1.1" 301 0
+2023-04-30 05:24:43,158 DEBUG:https://www.britishjudo.org.uk:443 "GET /website-terms-and-conditions/ HTTP/1.1" 200 None
+2023-04-30 05:24:43,357 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:43,357 INFO:SINGLE ITERATION TIME: 2.51
+2023-04-30 05:24:44,615 DEBUG:https://www.britishjudo.org.uk:443 "GET / HTTP/1.1" 200 None
+2023-04-30 05:24:44,864 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:44,864 INFO:SINGLE ITERATION TIME: 1.51
+2023-04-30 05:24:45,757 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/what-is-safeguarding HTTP/1.1" 301 0
+2023-04-30 05:24:50,118 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/what-is-safeguarding/ HTTP/1.1" 200 None
+2023-04-30 05:24:50,356 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:50,356 INFO:SINGLE ITERATION TIME: 5.49
+2023-04-30 05:24:51,246 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/disclosure-and-barring-service HTTP/1.1" 301 0
+2023-04-30 05:24:52,494 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/disclosure-and-barring-service/ HTTP/1.1" 200 None
+2023-04-30 05:24:52,744 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:52,745 INFO:SINGLE ITERATION TIME: 2.39
+2023-04-30 05:24:53,631 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/additionally-vulnerable HTTP/1.1" 301 0
+2023-04-30 05:24:54,879 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/additionally-vulnerable/ HTTP/1.1" 200 None
+2023-04-30 05:24:55,158 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:55,158 INFO:SINGLE ITERATION TIME: 2.41
+2023-04-30 05:24:56,128 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/safelandings HTTP/1.1" 301 0
+2023-04-30 05:24:57,635 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/safelandings/ HTTP/1.1" 200 None
+2023-04-30 05:24:57,817 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:24:57,817 INFO:SINGLE ITERATION TIME: 2.66
+2023-04-30 05:24:57,848 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-content/uploads/2018/11/BJA-Safeguarding-Adults-14th-November.pdf HTTP/1.1" 200 629722
+2023-04-30 05:24:58,419 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-30 05:24:59,338 DEBUG:https://www.britishjudo.org.uk:443 "GET /member-wellbeing HTTP/1.1" 301 0
+2023-04-30 05:25:00,585 DEBUG:https://www.britishjudo.org.uk:443 "GET /member-wellbeing/ HTTP/1.1" 200 None
+2023-04-30 05:25:00,729 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:00,729 INFO:SINGLE ITERATION TIME: 2.3
+2023-04-30 05:25:00,759 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-content/uploads/2023/02/Safeguarding-Adults-in-Sport-Framework-Introduction.pdf HTTP/1.1" 200 96390
+2023-04-30 05:25:00,832 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-30 05:25:01,975 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/reporting-a-safeguarding-concern HTTP/1.1" 301 0
+2023-04-30 05:25:03,262 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding-new/reporting-a-safeguarding-concern/ HTTP/1.1" 200 None
+2023-04-30 05:25:03,544 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:03,545 INFO:SINGLE ITERATION TIME: 2.71
+2023-04-30 05:25:04,610 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-login.php?action=lostpassword HTTP/1.1" 200 None
+2023-04-30 05:25:04,638 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:04,638 INFO:SINGLE ITERATION TIME: 1.09
+2023-04-30 05:25:05,791 DEBUG:https://www.britishjudo.org.uk:443 "GET /terms-and-conditions HTTP/1.1" 301 0
+2023-04-30 05:25:07,148 DEBUG:https://www.britishjudo.org.uk:443 "GET /terms-and-conditions/ HTTP/1.1" 200 None
+2023-04-30 05:25:07,399 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:07,399 INFO:SINGLE ITERATION TIME: 2.76
+2023-04-30 05:25:08,333 DEBUG:https://www.britishjudo.org.uk:443 "GET /jason-moore-recognised-for-sporting-achievements HTTP/1.1" 301 0
+2023-04-30 05:25:09,535 DEBUG:https://www.britishjudo.org.uk:443 "GET /jason-moore-recognised-for-sporting-achievements/ HTTP/1.1" 200 None
+2023-04-30 05:25:09,741 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:09,742 INFO:SINGLE ITERATION TIME: 2.34
+2023-04-30 05:25:10,664 DEBUG:https://www.britishjudo.org.uk:443 "GET /international-promotions-for-british-judo-referees-mcbeath-and-shrimpton HTTP/1.1" 301 0
+2023-04-30 05:25:12,060 DEBUG:https://www.britishjudo.org.uk:443 "GET /international-promotions-for-british-judo-referees-mcbeath-and-shrimpton/ HTTP/1.1" 200 None
+2023-04-30 05:25:12,277 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:12,277 INFO:SINGLE ITERATION TIME: 2.53
+2023-04-30 05:25:13,175 DEBUG:https://www.britishjudo.org.uk:443 "GET /dan-grade-promotions-march-2023 HTTP/1.1" 301 0
+2023-04-30 05:25:14,516 DEBUG:https://www.britishjudo.org.uk:443 "GET /dan-grade-promotions-march-2023/ HTTP/1.1" 200 None
+2023-04-30 05:25:14,750 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:14,750 INFO:SINGLE ITERATION TIME: 2.47
+2023-04-30 05:25:15,781 DEBUG:https://www.britishjudo.org.uk:443 "GET /club-welfare-officer-update-2 HTTP/1.1" 301 0
+2023-04-30 05:25:17,098 DEBUG:https://www.britishjudo.org.uk:443 "GET /club-welfare-officer-update-2/ HTTP/1.1" 200 None
+2023-04-30 05:25:17,377 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:17,377 INFO:SINGLE ITERATION TIME: 2.63
+2023-04-30 05:25:18,459 DEBUG:https://www.britishjudo.org.uk:443 "GET /coach-education-contribution-fund HTTP/1.1" 301 0
+2023-04-30 05:25:19,695 DEBUG:https://www.britishjudo.org.uk:443 "GET /coach-education-contribution-fund/ HTTP/1.1" 200 None
+2023-04-30 05:25:19,921 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:19,921 INFO:SINGLE ITERATION TIME: 2.54
+2023-04-30 05:25:20,812 DEBUG:https://www.britishjudo.org.uk:443 "GET /sami-smithson-leaving-for-new-challenge HTTP/1.1" 301 0
+2023-04-30 05:25:22,070 DEBUG:https://www.britishjudo.org.uk:443 "GET /sami-smithson-leaving-for-new-challenge/ HTTP/1.1" 200 None
+2023-04-30 05:25:22,259 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:22,259 INFO:SINGLE ITERATION TIME: 2.34
+2023-04-30 05:25:22,287 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-content/uploads/2020/03/Judo-Kids-Application-form.pdf HTTP/1.1" 200 694440
+2023-04-30 05:25:22,918 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-30 05:25:22,956 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-content/uploads/2022/06/Membership-Application-Form-Child-Dec-2019-DIGITAL.pdf HTTP/1.1" 200 1386116
+2023-04-30 05:25:23,842 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-30 05:25:23,886 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-content/uploads/2022/08/Membership-Application-Form-Adult-Dec-2019-DIGITAL.pdf HTTP/1.1" 200 1918850
+2023-04-30 05:25:24,843 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-30 05:25:25,848 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/benefits/exclusive-discounts HTTP/1.1" 301 0
+2023-04-30 05:25:27,166 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/benefits/exclusive-discounts/ HTTP/1.1" 200 None
+2023-04-30 05:25:27,383 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:27,383 INFO:SINGLE ITERATION TIME: 2.52
+2023-04-30 05:25:28,682 DEBUG:https://www.britishjudo.org.uk:443 "GET /shop HTTP/1.1" 404 None
+2023-04-30 05:25:29,739 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/matside-magazine HTTP/1.1" 301 0
+2023-04-30 05:25:30,935 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/membership/matside-magazine/ HTTP/1.1" 200 None
+2023-04-30 05:25:31,133 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:31,133 INFO:SINGLE ITERATION TIME: 2.28
+2023-04-30 05:25:32,063 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/starting-a-club/registered-venue HTTP/1.1" 301 0
+2023-04-30 05:25:33,634 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/starting-a-club/registered-venue/ HTTP/1.1" 200 None
+2023-04-30 05:25:33,817 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:33,817 INFO:SINGLE ITERATION TIME: 2.68
+2023-04-30 05:25:35,138 DEBUG:https://www.britishjudo.org.uk:443 "GET /club-registration-page HTTP/1.1" 301 0
+2023-04-30 05:25:37,066 DEBUG:https://www.britishjudo.org.uk:443 "GET /club-registration-page/ HTTP/1.1" 200 None
+2023-04-30 05:25:37,392 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:37,393 INFO:SINGLE ITERATION TIME: 3.58
+2023-04-30 05:25:37,420 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-content/uploads/2019/11/direct-debit-mandate-2018-clubs.pdf HTTP/1.1" 200 98589
+2023-04-30 05:25:38,045 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-30 05:25:38,100 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-content/uploads/2019/11/Constitution-Template-V2020-1.docx HTTP/1.1" 200 54666
+2023-04-30 05:25:38,134 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-30 05:25:38,166 DEBUG:https://www.britishjudo.org.uk:443 "GET /wp-content/uploads/2020/10/SafeLandings-Sept-2020.pdf HTTP/1.1" 200 6445895
+2023-04-30 05:25:43,379 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-30 05:25:44,386 DEBUG:https://www.britishjudo.org.uk:443 "GET /gdpr-is-coming-is-your-club-compliant HTTP/1.1" 301 0
+2023-04-30 05:25:45,946 DEBUG:https://www.britishjudo.org.uk:443 "GET /gdpr-is-coming-is-your-club-compliant/ HTTP/1.1" 200 None
+2023-04-30 05:25:46,062 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:46,062 INFO:SINGLE ITERATION TIME: 2.63
+2023-04-30 05:25:47,932 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/safeguarding/club-welfare-officer HTTP/1.1" 404 None
+2023-04-30 05:25:49,071 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/understanding-your-customer HTTP/1.1" 301 0
+2023-04-30 05:25:50,366 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/understanding-your-customer/ HTTP/1.1" 200 None
+2023-04-30 05:25:50,576 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:50,576 INFO:SINGLE ITERATION TIME: 2.46
+2023-04-30 05:25:51,672 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/branding HTTP/1.1" 301 0
+2023-04-30 05:25:53,009 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/branding/ HTTP/1.1" 200 None
+2023-04-30 05:25:53,252 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:53,252 INFO:SINGLE ITERATION TIME: 2.68
+2023-04-30 05:25:54,167 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/club-marketing-portal HTTP/1.1" 301 0
+2023-04-30 05:25:55,406 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/club-marketing-portal/ HTTP/1.1" 200 None
+2023-04-30 05:25:55,625 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:55,625 INFO:SINGLE ITERATION TIME: 2.37
+2023-04-30 05:25:56,808 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/social-media HTTP/1.1" 301 0
+2023-04-30 05:25:58,036 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/social-media/ HTTP/1.1" 200 None
+2023-04-30 05:25:58,218 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:25:58,219 INFO:SINGLE ITERATION TIME: 2.59
+2023-04-30 05:25:59,389 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/email HTTP/1.1" 301 0
+2023-04-30 05:26:00,913 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/email/ HTTP/1.1" 200 None
+2023-04-30 05:26:01,099 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:01,099 INFO:SINGLE ITERATION TIME: 2.88
+2023-04-30 05:26:02,076 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/websites HTTP/1.1" 301 0
+2023-04-30 05:26:03,003 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/websites/ HTTP/1.1" 302 None
+2023-04-30 05:26:04,640 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/marketing-your-club/websites/?doing_wp_cron=1682828763.3896930217742919921875 HTTP/1.1" 200 None
+2023-04-30 05:26:04,865 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:04,865 INFO:SINGLE ITERATION TIME: 3.77
+2023-04-30 05:26:05,760 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes/judotots HTTP/1.1" 301 0
+2023-04-30 05:26:07,067 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes/judotots/ HTTP/1.1" 200 None
+2023-04-30 05:26:07,275 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:07,275 INFO:SINGLE ITERATION TIME: 2.41
+2023-04-30 05:26:08,196 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes/judotots/judotots-club-registration HTTP/1.1" 301 0
+2023-04-30 05:26:09,824 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes/judotots/judotots-club-registration/ HTTP/1.1" 200 None
+2023-04-30 05:26:10,006 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:10,006 INFO:SINGLE ITERATION TIME: 2.73
+2023-04-30 05:26:10,963 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes/judotots/judotots-registration HTTP/1.1" 301 0
+2023-04-30 05:26:12,311 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes/judotots/judotots-registration/ HTTP/1.1" 200 None
+2023-04-30 05:26:12,490 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:12,490 INFO:SINGLE ITERATION TIME: 2.48
+2023-04-30 05:26:13,607 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes/club-matters HTTP/1.1" 301 0
+2023-04-30 05:26:14,970 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes/club-matters/ HTTP/1.1" 200 None
+2023-04-30 05:26:15,132 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:15,132 INFO:SINGLE ITERATION TIME: 2.64
+2023-04-30 05:26:16,073 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes/svs/svs-university-registration-2022-23 HTTP/1.1" 301 0
+2023-04-30 05:26:17,433 DEBUG:https://www.britishjudo.org.uk:443 "GET /clubs/initiatives-and-programmes/svs/svs-university-registration-2022-23/ HTTP/1.1" 200 None
+2023-04-30 05:26:17,645 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:17,645 INFO:SINGLE ITERATION TIME: 2.51
+2023-04-30 05:26:18,657 DEBUG:https://www.britishjudo.org.uk:443 "GET /getstartedclubsignup HTTP/1.1" 301 0
+2023-04-30 05:26:19,929 DEBUG:https://www.britishjudo.org.uk:443 "GET /getstartedclubsignup/ HTTP/1.1" 200 None
+2023-04-30 05:26:20,238 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:20,238 INFO:SINGLE ITERATION TIME: 2.59
+2023-04-30 05:26:21,453 DEBUG:https://www.britishjudo.org.uk:443 "GET /club-finder HTTP/1.1" 404 None
+2023-04-30 05:26:22,553 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/staff HTTP/1.1" 301 0
+2023-04-30 05:26:23,751 DEBUG:https://www.britishjudo.org.uk:443 "GET /the-british-judo-association/staff-directory/ HTTP/1.1" 200 None
+2023-04-30 05:26:23,970 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:23,971 INFO:SINGLE ITERATION TIME: 2.33
+2023-04-30 05:26:24,926 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/competition-organisation/tournament-license-application-form?doing_wp_cron=1628863048.3154759407043457031250 HTTP/1.1" 301 0
+2023-04-30 05:26:26,191 DEBUG:https://www.britishjudo.org.uk:443 "GET /my-judo/competition-organisation/tournament-license-application-form/?doing_wp_cron=1628863048.3154759407043457031250 HTTP/1.1" 200 None
+2023-04-30 05:26:26,494 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:26,494 INFO:SINGLE ITERATION TIME: 2.52
+2023-04-30 05:26:27,730 DEBUG:https://www.britishjudo.org.uk:443 "GET /care-system-hire HTTP/1.1" 301 0
+2023-04-30 05:26:29,093 DEBUG:https://www.britishjudo.org.uk:443 "GET /care-system-hire/ HTTP/1.1" 200 None
+2023-04-30 05:26:29,367 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:29,367 INFO:SINGLE ITERATION TIME: 2.87
+2023-04-30 05:26:30,337 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/list HTTP/1.1" 301 0
+2023-04-30 05:26:31,242 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/list/ HTTP/1.1" 302 None
+2023-04-30 05:26:33,674 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/list/?doing_wp_cron=1682828791.6293320655822753906250 HTTP/1.1" 200 None
+2023-04-30 05:26:34,201 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:34,201 INFO:SINGLE ITERATION TIME: 4.83
+2023-04-30 05:26:35,290 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/month HTTP/1.1" 302 None
+2023-04-30 05:26:36,215 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/month?doing_wp_cron=1682828795.6770799160003662109375 HTTP/1.1" 301 0
+2023-04-30 05:26:38,961 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/month/?doing_wp_cron=1682828795.6770799160003662109375 HTTP/1.1" 200 None
+2023-04-30 05:26:39,845 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:39,845 INFO:SINGLE ITERATION TIME: 5.64
+2023-04-30 05:26:40,802 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/today HTTP/1.1" 301 0
+2023-04-30 05:26:42,704 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/today/ HTTP/1.1" 200 None
+2023-04-30 05:26:43,067 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:43,067 INFO:SINGLE ITERATION TIME: 3.22
+2023-04-30 05:26:44,137 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/month/2023-03 HTTP/1.1" 301 0
+2023-04-30 05:26:46,893 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/month/2023-03/ HTTP/1.1" 200 None
+2023-04-30 05:26:47,879 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:47,879 INFO:SINGLE ITERATION TIME: 4.81
+2023-04-30 05:26:48,787 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/month/2023-05 HTTP/1.1" 302 None
+2023-04-30 05:26:49,768 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/month/2023-05?doing_wp_cron=1682828809.1748380661010742187500 HTTP/1.1" 301 0
+2023-04-30 05:26:52,241 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/month/2023-05/?doing_wp_cron=1682828809.1748380661010742187500 HTTP/1.1" 200 None
+2023-04-30 05:26:53,098 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:53,098 INFO:SINGLE ITERATION TIME: 5.22
+2023-04-30 05:26:54,057 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-01 HTTP/1.1" 301 0
+2023-04-30 05:26:55,924 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-01/ HTTP/1.1" 200 None
+2023-04-30 05:26:56,409 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:56,409 INFO:SINGLE ITERATION TIME: 3.31
+2023-04-30 05:26:57,304 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/this-is-judo-red-and-yellow-belt-rumble HTTP/1.1" 301 0
+2023-04-30 05:26:57,307 DEBUG:Resetting dropped connection: www.britishjudo.org.uk
+2023-04-30 05:26:59,205 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/this-is-judo-red-and-yellow-belt-rumble/ HTTP/1.1" 200 None
+2023-04-30 05:26:59,321 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:26:59,321 INFO:SINGLE ITERATION TIME: 2.91
+2023-04-30 05:27:00,217 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/national-dan-grading-2 HTTP/1.1" 301 0
+2023-04-30 05:27:02,563 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/national-dan-grading-2/ HTTP/1.1" 200 None
+2023-04-30 05:27:02,683 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:02,684 INFO:SINGLE ITERATION TIME: 3.36
+2023-04-30 05:27:03,899 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/coach-education-mat-side-coaching HTTP/1.1" 301 0
+2023-04-30 05:27:06,056 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/coach-education-mat-side-coaching/ HTTP/1.1" 200 None
+2023-04-30 05:27:06,178 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:06,178 INFO:SINGLE ITERATION TIME: 3.49
+2023-04-30 05:27:07,213 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/coach-education-technical-grading-beachjudowai HTTP/1.1" 301 0
+2023-04-30 05:27:09,558 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/coach-education-technical-grading-beachjudowai/ HTTP/1.1" 200 None
+2023-04-30 05:27:09,686 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:09,686 INFO:SINGLE ITERATION TIME: 3.51
+2023-04-30 05:27:10,743 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-02 HTTP/1.1" 301 0
+2023-04-30 05:27:12,978 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-02/ HTTP/1.1" 200 None
+2023-04-30 05:27:13,485 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:13,485 INFO:SINGLE ITERATION TIME: 3.8
+2023-04-30 05:27:14,536 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/windsor-judo-club-red-belt-rumble-and-under-8-festival HTTP/1.1" 301 0
+2023-04-30 05:27:16,511 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/windsor-judo-club-red-belt-rumble-and-under-8-festival/ HTTP/1.1" 200 None
+2023-04-30 05:27:16,783 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:16,783 INFO:SINGLE ITERATION TIME: 3.3
+2023-04-30 05:27:17,736 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/windsor-judo-club-under-8-festival HTTP/1.1" 301 0
+2023-04-30 05:27:19,063 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/windsor-judo-club-under-8-festival/ HTTP/1.1" 200 None
+2023-04-30 05:27:19,265 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:19,265 INFO:SINGLE ITERATION TIME: 2.48
+2023-04-30 05:27:20,267 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/worchester-orange-under HTTP/1.1" 301 0
+2023-04-30 05:27:22,259 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/worchester-orange-under/ HTTP/1.1" 200 None
+2023-04-30 05:27:22,447 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:22,448 INFO:SINGLE ITERATION TIME: 3.18
+2023-04-30 05:27:23,532 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/hampshire-u16s-closed-championships HTTP/1.1" 301 0
+2023-04-30 05:27:25,666 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/hampshire-u16s-closed-championships/ HTTP/1.1" 200 None
+2023-04-30 05:27:25,857 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:25,857 INFO:SINGLE ITERATION TIME: 3.41
+2023-04-30 05:27:26,881 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/bsjk-high-grades-championships-2023 HTTP/1.1" 301 0
+2023-04-30 05:27:28,102 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/bsjk-high-grades-championships-2023/ HTTP/1.1" 200 None
+2023-04-30 05:27:28,346 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:28,346 INFO:SINGLE ITERATION TIME: 2.49
+2023-04-30 05:27:29,282 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/uk-coaching-safeguarding-protecting-children-workshop-black-dog-judo-club HTTP/1.1" 301 0
+2023-04-30 05:27:31,231 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/uk-coaching-safeguarding-protecting-children-workshop-black-dog-judo-club/ HTTP/1.1" 200 None
+2023-04-30 05:27:31,505 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:31,505 INFO:SINGLE ITERATION TIME: 3.16
+2023-04-30 05:27:32,427 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/bja-yorkshire-and-humberside-area-excellence-sessions HTTP/1.1" 301 0
+2023-04-30 05:27:34,467 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/bja-yorkshire-and-humberside-area-excellence-sessions/ HTTP/1.1" 200 None
+2023-04-30 05:27:34,662 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:34,663 INFO:SINGLE ITERATION TIME: 3.16
+2023-04-30 05:27:35,863 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-04 HTTP/1.1" 301 0
+2023-04-30 05:27:37,700 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-04/ HTTP/1.1" 200 None
+2023-04-30 05:27:38,074 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:38,074 INFO:SINGLE ITERATION TIME: 3.41
+2023-04-30 05:27:39,017 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/time-to-listen-course HTTP/1.1" 301 0
+2023-04-30 05:27:41,036 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/time-to-listen-course/ HTTP/1.1" 200 None
+2023-04-30 05:27:41,202 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:41,202 INFO:SINGLE ITERATION TIME: 3.13
+2023-04-30 05:27:42,213 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-05 HTTP/1.1" 301 0
+2023-04-30 05:27:44,275 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-05/ HTTP/1.1" 200 None
+2023-04-30 05:27:44,613 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:44,613 INFO:SINGLE ITERATION TIME: 3.41
+2023-04-30 05:27:45,760 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/gb-u23-training-camp HTTP/1.1" 301 0
+2023-04-30 05:27:47,737 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/gb-u23-training-camp/ HTTP/1.1" 200 None
+2023-04-30 05:27:47,899 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:47,899 INFO:SINGLE ITERATION TIME: 3.29
+2023-04-30 05:27:48,927 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-06 HTTP/1.1" 301 0
+2023-04-30 05:27:50,666 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-06/ HTTP/1.1" 200 None
+2023-04-30 05:27:51,079 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:51,079 INFO:SINGLE ITERATION TIME: 3.18
+2023-04-30 05:27:52,033 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-07 HTTP/1.1" 301 0
+2023-04-30 05:27:53,723 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-07/ HTTP/1.1" 200 None
+2023-04-30 05:27:54,027 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:54,027 INFO:SINGLE ITERATION TIME: 2.95
+2023-04-30 05:27:55,000 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-08 HTTP/1.1" 301 0
+2023-04-30 05:27:56,689 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-08/ HTTP/1.1" 200 None
+2023-04-30 05:27:57,178 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:27:57,179 INFO:SINGLE ITERATION TIME: 3.15
+2023-04-30 05:27:58,637 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-12 HTTP/1.1" 301 0
+2023-04-30 05:28:00,826 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-12/ HTTP/1.1" 200 None
+2023-04-30 05:28:01,232 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:01,232 INFO:SINGLE ITERATION TIME: 4.05
+2023-04-30 05:28:02,338 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/uk-coaching-safeguarding-protecting-children-workshop-2 HTTP/1.1" 301 0
+2023-04-30 05:28:04,211 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/uk-coaching-safeguarding-protecting-children-workshop-2/ HTTP/1.1" 200 None
+2023-04-30 05:28:04,450 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:04,450 INFO:SINGLE ITERATION TIME: 3.22
+2023-04-30 05:28:05,361 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-15 HTTP/1.1" 301 0
+2023-04-30 05:28:07,059 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-15/ HTTP/1.1" 200 None
+2023-04-30 05:28:07,519 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:07,519 INFO:SINGLE ITERATION TIME: 3.07
+2023-04-30 05:28:08,394 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/high-wycombe-judo-club-red-belt-rumble HTTP/1.1" 301 0
+2023-04-30 05:28:10,213 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/high-wycombe-judo-club-red-belt-rumble/ HTTP/1.1" 200 None
+2023-04-30 05:28:10,406 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:10,406 INFO:SINGLE ITERATION TIME: 2.89
+2023-04-30 05:28:11,346 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/egh-orange-belt-kyu-grade-championships-and-dragon-display HTTP/1.1" 301 0
+2023-04-30 05:28:13,189 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/egh-orange-belt-kyu-grade-championships-and-dragon-display/ HTTP/1.1" 200 None
+2023-04-30 05:28:13,379 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:13,379 INFO:SINGLE ITERATION TIME: 2.97
+2023-04-30 05:28:14,284 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/richard-lloyd-memorial HTTP/1.1" 301 0
+2023-04-30 05:28:16,236 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/richard-lloyd-memorial/ HTTP/1.1" 200 None
+2023-04-30 05:28:16,499 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:16,499 INFO:SINGLE ITERATION TIME: 3.12
+2023-04-30 05:28:17,426 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/onst-open-national-squad-event HTTP/1.1" 301 0
+2023-04-30 05:28:19,230 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/onst-open-national-squad-event/ HTTP/1.1" 200 None
+2023-04-30 05:28:19,489 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:19,489 INFO:SINGLE ITERATION TIME: 2.99
+2023-04-30 05:28:20,374 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/technical-dan-grade-course HTTP/1.1" 301 0
+2023-04-30 05:28:22,137 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/technical-dan-grade-course/ HTTP/1.1" 200 None
+2023-04-30 05:28:22,431 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:22,432 INFO:SINGLE ITERATION TIME: 2.94
+2023-04-30 05:28:23,313 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-16 HTTP/1.1" 301 0
+2023-04-30 05:28:25,231 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-16/ HTTP/1.1" 200 None
+2023-04-30 05:28:25,644 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:25,644 INFO:SINGLE ITERATION TIME: 3.21
+2023-04-30 05:28:26,607 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/west-yorkshire-judo-championships-and-under-8-festival HTTP/1.1" 301 0
+2023-04-30 05:28:28,436 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/west-yorkshire-judo-championships-and-under-8-festival/ HTTP/1.1" 200 None
+2023-04-30 05:28:28,603 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:28,603 INFO:SINGLE ITERATION TIME: 2.96
+2023-04-30 05:28:29,497 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/kent-closed HTTP/1.1" 301 0
+2023-04-30 05:28:31,302 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/kent-closed/ HTTP/1.1" 200 None
+2023-04-30 05:28:31,481 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:31,481 INFO:SINGLE ITERATION TIME: 2.88
+2023-04-30 05:28:32,420 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/nhc-area-nage-no-kata-and-katame-no-kata-open-to-all HTTP/1.1" 301 0
+2023-04-30 05:28:34,219 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/nhc-area-nage-no-kata-and-katame-no-kata-open-to-all/ HTTP/1.1" 200 None
+2023-04-30 05:28:34,389 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:34,389 INFO:SINGLE ITERATION TIME: 2.91
+2023-04-30 05:28:35,342 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/introductory-course-ju-no-kata-course-april2023 HTTP/1.1" 301 0
+2023-04-30 05:28:37,322 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/introductory-course-ju-no-kata-course-april2023/ HTTP/1.1" 200 None
+2023-04-30 05:28:37,544 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:37,544 INFO:SINGLE ITERATION TIME: 3.15
+2023-04-30 05:28:38,467 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-19 HTTP/1.1" 301 0
+2023-04-30 05:28:40,118 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-19/ HTTP/1.1" 200 None
+2023-04-30 05:28:40,648 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:40,648 INFO:SINGLE ITERATION TIME: 3.1
+2023-04-30 05:28:41,551 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/time-to-listen-course-2 HTTP/1.1" 301 0
+2023-04-30 05:28:43,335 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/time-to-listen-course-2/ HTTP/1.1" 200 None
+2023-04-30 05:28:43,547 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:43,547 INFO:SINGLE ITERATION TIME: 2.9
+2023-04-30 05:28:44,473 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-22 HTTP/1.1" 301 0
+2023-04-30 05:28:46,148 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-22/ HTTP/1.1" 200 None
+2023-04-30 05:28:46,540 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:46,540 INFO:SINGLE ITERATION TIME: 2.99
+2023-04-30 05:28:47,413 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/northern-ireland-open-championships-2023 HTTP/1.1" 301 0
+2023-04-30 05:28:49,308 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/northern-ireland-open-championships-2023/ HTTP/1.1" 200 None
+2023-04-30 05:28:49,480 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:49,480 INFO:SINGLE ITERATION TIME: 2.94
+2023-04-30 05:28:50,382 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/technical-dan-grading-course-assessment-competitive-skills-preparation-and-exam-22nd-23rd-april-2023 HTTP/1.1" 301 0
+2023-04-30 05:28:52,200 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/technical-dan-grading-course-assessment-competitive-skills-preparation-and-exam-22nd-23rd-april-2023/ HTTP/1.1" 200 None
+2023-04-30 05:28:52,462 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:52,462 INFO:SINGLE ITERATION TIME: 2.98
+2023-04-30 05:28:53,439 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/refereeing-education-module-2 HTTP/1.1" 301 0
+2023-04-30 05:28:55,401 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/refereeing-education-module-2/ HTTP/1.1" 200 None
+2023-04-30 05:28:55,648 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:55,648 INFO:SINGLE ITERATION TIME: 3.19
+2023-04-30 05:28:56,690 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/western-area-dan-grading-and-theory HTTP/1.1" 301 0
+2023-04-30 05:28:59,092 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/western-area-dan-grading-and-theory/ HTTP/1.1" 200 None
+2023-04-30 05:28:59,263 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:28:59,263 INFO:SINGLE ITERATION TIME: 3.61
+2023-04-30 05:29:00,380 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-23 HTTP/1.1" 301 0
+2023-04-30 05:29:02,159 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-23/ HTTP/1.1" 200 None
+2023-04-30 05:29:02,511 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:02,512 INFO:SINGLE ITERATION TIME: 3.25
+2023-04-30 05:29:03,473 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/coventry-mini-mon-for-boys-and-girls HTTP/1.1" 301 0
+2023-04-30 05:29:05,536 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/coventry-mini-mon-for-boys-and-girls/ HTTP/1.1" 200 None
+2023-04-30 05:29:05,768 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:05,768 INFO:SINGLE ITERATION TIME: 3.26
+2023-04-30 05:29:06,690 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/goole-judo-development-competition HTTP/1.1" 301 0
+2023-04-30 05:29:08,624 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/goole-judo-development-competition/ HTTP/1.1" 200 None
+2023-04-30 05:29:08,841 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:08,841 INFO:SINGLE ITERATION TIME: 3.07
+2023-04-30 05:29:09,776 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/nottingham-cadet-senior-grade-banded-open-2023 HTTP/1.1" 301 0
+2023-04-30 05:29:11,708 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/nottingham-cadet-senior-grade-banded-open-2023/ HTTP/1.1" 200 None
+2023-04-30 05:29:11,989 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:11,989 INFO:SINGLE ITERATION TIME: 3.15
+2023-04-30 05:29:12,992 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/safeguarding-workshop-emergency-sports-first-aid-japan-arts-centre HTTP/1.1" 301 0
+2023-04-30 05:29:14,956 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/safeguarding-workshop-emergency-sports-first-aid-japan-arts-centre/ HTTP/1.1" 200 None
+2023-04-30 05:29:15,198 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:15,199 INFO:SINGLE ITERATION TIME: 3.21
+2023-04-30 05:29:16,120 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-29 HTTP/1.1" 301 0
+2023-04-30 05:29:17,861 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-29/ HTTP/1.1" 200 None
+2023-04-30 05:29:18,329 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:18,329 INFO:SINGLE ITERATION TIME: 3.13
+2023-04-30 05:29:19,251 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/samurai-boys-orange-and-under-mini-mon HTTP/1.1" 301 0
+2023-04-30 05:29:21,052 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/samurai-boys-orange-and-under-mini-mon/ HTTP/1.1" 200 None
+2023-04-30 05:29:21,250 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:21,251 INFO:SINGLE ITERATION TIME: 2.92
+2023-04-30 05:29:22,196 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/ian-raine-durham-mini-mon HTTP/1.1" 301 0
+2023-04-30 05:29:24,044 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/ian-raine-durham-mini-mon/ HTTP/1.1" 200 None
+2023-04-30 05:29:24,283 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:24,283 INFO:SINGLE ITERATION TIME: 3.03
+2023-04-30 05:29:25,208 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/london-team-championships HTTP/1.1" 301 0
+2023-04-30 05:29:27,057 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/london-team-championships/ HTTP/1.1" 200 None
+2023-04-30 05:29:27,273 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:27,273 INFO:SINGLE ITERATION TIME: 2.99
+2023-04-30 05:29:28,174 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/craven-open-judo-championships-2023 HTTP/1.1" 301 0
+2023-04-30 05:29:29,980 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/craven-open-judo-championships-2023/ HTTP/1.1" 200 None
+2023-04-30 05:29:30,273 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:30,273 INFO:SINGLE ITERATION TIME: 3.0
+2023-04-30 05:29:31,212 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/coaching-education-technical-grading-level-1-croydon-judo-club HTTP/1.1" 301 0
+2023-04-30 05:29:33,404 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/coaching-education-technical-grading-level-1-croydon-judo-club/ HTTP/1.1" 200 None
+2023-04-30 05:29:33,654 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:33,654 INFO:SINGLE ITERATION TIME: 3.38
+2023-04-30 05:29:34,560 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/coaching-education-technical-grading-level-2-croydon-judo-club HTTP/1.1" 301 0
+2023-04-30 05:29:36,385 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/coaching-education-technical-grading-level-2-croydon-judo-club/ HTTP/1.1" 200 None
+2023-04-30 05:29:36,616 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:36,616 INFO:SINGLE ITERATION TIME: 2.96
+2023-04-30 05:29:36,618 DEBUG:Resetting dropped connection: www.britishjudo.org.uk
+2023-04-30 05:29:37,647 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-30 HTTP/1.1" 301 0
+2023-04-30 05:29:39,341 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/2023-04-30/ HTTP/1.1" 200 None
+2023-04-30 05:29:39,868 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:39,868 INFO:SINGLE ITERATION TIME: 3.25
+2023-04-30 05:29:40,793 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/samurai-girls-orange-under-mini-mon-and-senior-kyu-grades-2023 HTTP/1.1" 301 0
+2023-04-30 05:29:42,556 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/samurai-girls-orange-under-mini-mon-and-senior-kyu-grades-2023/ HTTP/1.1" 200 None
+2023-04-30 05:29:42,774 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:42,774 INFO:SINGLE ITERATION TIME: 2.91
+2023-04-30 05:29:43,674 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/426928 HTTP/1.1" 301 0
+2023-04-30 05:29:45,599 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/426928/ HTTP/1.1" 200 None
+2023-04-30 05:29:45,876 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:45,876 INFO:SINGLE ITERATION TIME: 3.1
+2023-04-30 05:29:46,834 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/dan-grading-budokwai/all HTTP/1.1" 301 0
+2023-04-30 05:29:48,379 DEBUG:https://www.britishjudo.org.uk:443 "GET /event/dan-grading-budokwai/all/ HTTP/1.1" 200 None
+2023-04-30 05:29:48,701 INFO:MAX NUMBER OF NODES: 20 REACHED.
+2023-04-30 05:29:48,701 INFO:SINGLE ITERATION TIME: 2.82
+2023-04-30 05:29:49,763 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/month?ical=1 HTTP/1.1" 301 0
+2023-04-30 05:29:51,024 DEBUG:https://www.britishjudo.org.uk:443 "GET /events-calendar/month/?ical=1 HTTP/1.1" 200 None
+2023-04-30 05:29:51,025 INFO:VISITED LINKS: 214
+2023-04-30 05:29:51,025 INFO:COLLECTED LINKS: 200
+2023-04-30 05:29:51,025 INFO:QUEUED LINKS: 220
+2023-04-30 05:29:51,277 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www30042023052015-tree-graph.gv' with encoding 'utf-8'
+2023-04-30 05:29:51,278 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www30042023052015-tree-graph.gv')
+2023-04-30 05:29:51,278 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-30 05:29:51,278 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www30042023052015-diagram'
+2023-04-30 05:29:51,280 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www30042023052015-diagram']
+2023-04-30 05:29:51,409 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-30 05:33:16,908 DEBUG:Starting new HTTPS connection (1): www.wp.pl:443
+2023-04-30 05:33:17,220 DEBUG:https://www.wp.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-30 05:33:17,783 DEBUG:https://www.wp.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-30 05:33:18,017 INFO:URL NO.1ADDED: https://www.wp.pl/static.html
+2023-04-30 05:33:18,017 INFO:SINGLE ITERATION TIME: 0.33
+2023-04-30 05:33:18,092 DEBUG:https://www.wp.pl:443 "GET /static.html HTTP/1.1" 200 None
+2023-04-30 05:33:18,252 INFO:URL NO.2ADDED: https://www.wp.pl/?_device=mobile
+2023-04-30 05:33:18,252 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-30 05:33:18,335 DEBUG:https://www.wp.pl:443 "GET /?_device=mobile HTTP/1.1" 200 None
+2023-04-30 05:33:18,517 INFO:URL NO.3ADDED: https://www.wp.pl/?_device=desktop
+2023-04-30 05:33:18,517 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-30 05:33:18,761 DEBUG:https://www.wp.pl:443 "GET /?_device=desktop HTTP/1.1" 200 None
+2023-04-30 05:33:18,841 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 242, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-30 05:33:18,846 INFO:VISITED LINKS: 4
+2023-04-30 05:33:18,846 INFO:COLLECTED LINKS: 4
+2023-04-30 05:33:18,846 INFO:QUEUED LINKS: 3
+2023-04-30 05:33:18,851 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www30042023053316-tree-graph.gv' with encoding 'utf-8'
+2023-04-30 05:33:18,852 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www30042023053316-tree-graph.gv')
+2023-04-30 05:33:18,852 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-30 05:33:18,852 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www30042023053316-diagram'
+2023-04-30 05:33:18,853 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www30042023053316-diagram']
+2023-04-30 05:33:18,911 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-30 05:34:08,232 DEBUG:Starting new HTTPS connection (1): www.gradescope.com:443
+2023-04-30 05:34:09,247 DEBUG:https://www.gradescope.com:443 "GET / HTTP/1.1" 200 None
+2023-04-30 05:34:10,414 DEBUG:https://www.gradescope.com:443 "GET / HTTP/1.1" 200 None
+2023-04-30 05:34:10,652 INFO:URL NO.1ADDED: https://www.gradescope.com/reset_password
+2023-04-30 05:34:10,652 INFO:URL NO.2ADDED: https://www.gradescope.com/saml
+2023-04-30 05:34:10,652 INFO:ROBOT EXCLUDED: https://www.gradescope.com/auth/google_oauth2
+2023-04-30 05:34:10,652 INFO:URL NO.3ADDED: https://www.gradescope.com/pricing
+2023-04-30 05:34:10,653 INFO:URL NO.4ADDED: https://www.gradescope.com/get-a-demo
+2023-04-30 05:34:10,653 INFO:URL NO.5ADDED: https://www.gradescope.com/get_started
+2023-04-30 05:34:10,653 INFO:URL NO.6ADDED: https://www.gradescope.com/roadmap
+2023-04-30 05:34:10,653 INFO:URL NO.7ADDED: https://www.gradescope.com/tos
+2023-04-30 05:34:10,654 INFO:URL NO.8ADDED: https://www.gradescope.com/privacy
+2023-04-30 05:34:10,654 INFO:SINGLE ITERATION TIME: 0.52
+2023-04-30 05:34:10,849 DEBUG:https://www.gradescope.com:443 "GET /reset_password HTTP/1.1" 200 2836
+2023-04-30 05:34:10,852 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-30 05:34:11,084 DEBUG:https://www.gradescope.com:443 "GET /saml HTTP/1.1" 200 6116
+2023-04-30 05:34:11,088 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-30 05:34:11,271 DEBUG:https://www.gradescope.com:443 "GET /pricing HTTP/1.1" 302 101
+2023-04-30 05:34:11,273 DEBUG:Starting new HTTPS connection (1): info.gradescope.com:443
+2023-04-30 05:34:11,436 DEBUG:https://info.gradescope.com:443 "GET /pricing HTTP/1.1" 200 None
+2023-04-30 05:34:11,454 INFO:URL NO.9ADDED: https://www.gradescope.com/?utm_campaign=Gradescope%20Pricing%20Page&utm_source=hubspot-pricing-page
+2023-04-30 05:34:11,455 INFO:SINGLE ITERATION TIME: 0.37
+2023-04-30 05:34:11,632 DEBUG:https://www.gradescope.com:443 "GET /get-a-demo HTTP/1.1" 301 104
+2023-04-30 05:34:12,119 DEBUG:https://info.gradescope.com:443 "GET /get-a-demo HTTP/1.1" 200 None
+2023-04-30 05:34:12,133 INFO:SINGLE ITERATION TIME: 0.68
+2023-04-30 05:34:12,459 DEBUG:https://www.gradescope.com:443 "GET /get_started HTTP/1.1" 200 10152
+2023-04-30 05:34:12,473 INFO:SINGLE ITERATION TIME: 0.34
+2023-04-30 05:34:12,680 DEBUG:https://www.gradescope.com:443 "GET /roadmap HTTP/1.1" 200 2560
+2023-04-30 05:34:12,683 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-30 05:34:12,996 DEBUG:https://www.gradescope.com:443 "GET /tos HTTP/1.1" 200 23832
+2023-04-30 05:34:13,008 INFO:SINGLE ITERATION TIME: 0.33
+2023-04-30 05:34:13,273 DEBUG:https://www.gradescope.com:443 "GET /privacy HTTP/1.1" 200 None
+2023-04-30 05:34:13,293 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-30 05:34:13,547 DEBUG:https://www.gradescope.com:443 "GET /?utm_campaign=Gradescope%20Pricing%20Page&utm_source=hubspot-pricing-page HTTP/1.1" 200 None
+2023-04-30 05:34:13,595 INFO:ROBOT EXCLUDED: https://www.gradescope.com/auth/google_oauth2
+2023-04-30 05:34:13,596 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 242, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-30 05:34:13,596 INFO:VISITED LINKS: 10
+2023-04-30 05:34:13,596 INFO:COLLECTED LINKS: 10
+2023-04-30 05:34:13,596 INFO:QUEUED LINKS: 9
+2023-04-30 05:34:13,605 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www30042023053408-tree-graph.gv' with encoding 'utf-8'
+2023-04-30 05:34:13,605 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www30042023053408-tree-graph.gv')
+2023-04-30 05:34:13,606 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-30 05:34:13,606 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www30042023053408-diagram'
+2023-04-30 05:34:13,607 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www30042023053408-diagram']
+2023-04-30 05:34:13,666 INFO:ROBOT.TXT EXLUDED LINKS NO: 0

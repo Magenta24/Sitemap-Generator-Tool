@@ -1,0 +1,22 @@
+2023-04-25 14:38:06,289 DEBUG:Starting new HTTPS connection (1): en.wikipedia.org:443
+2023-04-25 14:38:06,389 DEBUG:https://en.wikipedia.org:443 "GET / HTTP/1.1" 301 0
+2023-04-25 14:38:06,418 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Main_Page HTTP/1.1" 200 21015
+2023-04-25 14:38:06,521 ERROR:Internal Server Error: /scrap/
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py", line 52, in scrap
+    ss1 = SiteScraper(url=root_url,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 82, in __init__
+    rh = RobotsHandler(url)
+         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\RobotsHandler.py", line 13, in __init__
+    self.parser = robots.RobotsParser.from_uri(robots_url)
+                  ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'RobotsParser'
+2023-04-25 14:38:49,006 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\RobotsHandler.py changed, reloading.

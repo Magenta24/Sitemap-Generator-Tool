@@ -1,0 +1,1057 @@
+2023-04-25 01:40:12,913 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-25 01:40:13,448 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20615
+2023-04-25 01:40:13,674 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20615
+2023-04-25 01:40:13,677 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:13,757 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-25 01:40:13,784 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 84778
+2023-04-25 01:40:13,814 INFO:REQUEST TIME: 0.06
+2023-04-25 01:40:14,180 INFO:SINGLE ITERATION TIME: 0.42
+2023-04-25 01:40:14,391 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wolna_tre%C5%9B%C4%87 HTTP/1.1" 200 29812
+2023-04-25 01:40:14,393 INFO:REQUEST TIME: 0.21
+2023-04-25 01:40:14,700 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Encyklopedia HTTP/1.1" 200 26909
+2023-04-25 01:40:14,702 INFO:REQUEST TIME: 0.25
+2023-04-25 01:40:14,979 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Pierwsze_kroki HTTP/1.1" 200 15067
+2023-04-25 01:40:14,980 INFO:REQUEST TIME: 0.2
+2023-04-25 01:40:15,021 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii HTTP/1.1" 200 29831
+2023-04-25 01:40:15,024 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:15,311 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii HTTP/1.1" 200 12976
+2023-04-25 01:40:15,312 INFO:REQUEST TIME: 0.18
+2023-04-25 01:40:15,350 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze HTTP/1.1" 200 38825
+2023-04-25 01:40:15,582 INFO:REQUEST TIME: 0.25
+2023-04-25 01:40:15,930 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne HTTP/1.1" 200 20181
+2023-04-25 01:40:15,932 INFO:REQUEST TIME: 0.24
+2023-04-25 01:40:16,121 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Technika HTTP/1.1" 200 31549
+2023-04-25 01:40:16,123 INFO:REQUEST TIME: 0.14
+2023-04-25 01:40:16,240 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Geografia HTTP/1.1" 200 None
+2023-04-25 01:40:16,409 INFO:REQUEST TIME: 0.19
+2023-04-25 01:40:18,243 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Historia HTTP/1.1" 200 None
+2023-04-25 01:40:18,245 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:18,307 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kultura HTTP/1.1" 200 None
+2023-04-25 01:40:18,316 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:18,422 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Spo%C5%82ecze%C5%84stwo HTTP/1.1" 200 None
+2023-04-25 01:40:18,429 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:18,531 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Sport HTTP/1.1" 200 20077
+2023-04-25 01:40:18,532 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:18,642 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Religioznawstwo HTTP/1.1" 200 32403
+2023-04-25 01:40:18,643 INFO:REQUEST TIME: 0.08
+2023-04-25 01:40:18,719 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Polska HTTP/1.1" 200 None
+2023-04-25 01:40:18,728 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:18,822 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Portale HTTP/1.1" 200 20036
+2023-04-25 01:40:18,823 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:18,888 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Indeks_hase%C5%82 HTTP/1.1" 200 18763
+2023-04-25 01:40:18,889 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:18,980 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kategorie_G%C5%82%C3%B3wne HTTP/1.1" 200 20935
+2023-04-25 01:40:18,981 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:19,041 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wielkie_Wyzwanie_Wikipedii_2023 HTTP/1.1" 200 9976
+2023-04-25 01:40:19,042 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:19,797 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Nowe_strony HTTP/1.1" 200 None
+2023-04-25 01:40:19,964 INFO:REQUEST TIME: 0.71
+2023-04-25 01:40:20,047 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Terchov%C3%A1_Juraj_J%C3%A1no%C5%A1%C3%ADk_MF1.jpg HTTP/1.1" 200 None
+2023-04-25 01:40:20,050 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:20,073 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Chrotopterus_auritus_at_Sachavacyoc.jpg HTTP/1.1" 200 None
+2023-04-25 01:40:20,076 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:20,098 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomnik_Juraja_J%C3%A1no%C5%A1%C3%ADka_w_Terchovej HTTP/1.1" 200 16587
+2023-04-25 01:40:20,099 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:20,152 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Krystyna_%C5%81uczak-Sur%C3%B3wka HTTP/1.1" 200 None
+2023-04-25 01:40:20,157 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:20,241 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Caryocolum_tischeriella HTTP/1.1" 200 None
+2023-04-25 01:40:20,243 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:20,296 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Rowerowa_redukcja_ub%C3%B3stwa HTTP/1.1" 200 14004
+2023-04-25 01:40:20,297 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:20,342 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/We%C5%82nianek_uszaty HTTP/1.1" 200 25278
+2023-04-25 01:40:20,343 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:20,413 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Stanis%C5%82aw_Nowicki_(ur._1890) HTTP/1.1" 200 None
+2023-04-25 01:40:20,414 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:20,465 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikiprojekt:Czy_wiesz/propozycje HTTP/1.1" 200 None
+2023-04-25 01:40:20,530 INFO:REQUEST TIME: 0.09
+2023-04-25 01:40:21,215 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Jak_napisa%C4%87_nowy_artyku%C5%82 HTTP/1.1" 200 None
+2023-04-25 01:40:21,218 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:21,281 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Inwazja_Rosji_na_Ukrain%C4%99 HTTP/1.1" 200 163177
+2023-04-25 01:40:21,287 INFO:REQUEST TIME: 0.04
+2023-04-25 01:40:21,707 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Protesty_w_Iranie_(od_2022) HTTP/1.1" 200 39108
+2023-04-25 01:40:21,708 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:21,793 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Rebelia_RSF_w_Sudanie HTTP/1.1" 200 None
+2023-04-25 01:40:21,803 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:21,875 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Ahmad_Jamal_-Qobuz-_(cropped).jpg HTTP/1.1" 200 None
+2023-04-25 01:40:21,876 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:21,901 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Ahmad_Jamal HTTP/1.1" 200 21345
+2023-04-25 01:40:21,902 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:21,964 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Starship HTTP/1.1" 200 29473
+2023-04-25 01:40:21,965 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:22,051 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kwiecie%C5%84_2023 HTTP/1.1" 200 24282
+2023-04-25 01:40:22,052 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:22,213 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Elektrownia_j%C4%85drowa_Olkiluoto HTTP/1.1" 200 15798
+2023-04-25 01:40:22,214 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:22,262 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Europa HTTP/1.1" 200 92902
+2023-04-25 01:40:22,265 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:22,482 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Guja%C5%84skie_Centrum_Kosmiczne HTTP/1.1" 200 None
+2023-04-25 01:40:22,489 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:22,555 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jupiter_Icy_Moon_Explorer HTTP/1.1" 200 23680
+2023-04-25 01:40:22,556 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:22,626 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jowisz HTTP/1.1" 200 89563
+2023-04-25 01:40:22,630 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:22,841 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Ganimedes_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 30408
+2023-04-25 01:40:22,842 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:23,021 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kallisto_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 29559
+2023-04-25 01:40:23,022 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:23,103 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Europa_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 30387
+2023-04-25 01:40:23,105 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:23,183 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Finlandia HTTP/1.1" 200 80123
+2023-04-25 01:40:23,188 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:23,414 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/NATO HTTP/1.1" 200 57825
+2023-04-25 01:40:23,417 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:23,736 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zmarli_w_kwietniu_2023 HTTP/1.1" 200 None
+2023-04-25 01:40:23,907 INFO:REQUEST TIME: 0.39
+2023-04-25 01:40:24,120 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Herb_Douglas HTTP/1.1" 200 16866
+2023-04-25 01:40:24,122 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:24,177 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Mudar_Badran HTTP/1.1" 200 15952
+2023-04-25 01:40:24,178 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:24,224 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/L%C3%A1z%C3%A1r_Lov%C3%A1sz HTTP/1.1" 200 10728
+2023-04-25 01:40:24,225 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:24,263 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Murray_Melvin HTTP/1.1" 200 21079
+2023-04-25 01:40:24,264 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:24,436 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Mary_Quant HTTP/1.1" 200 None
+2023-04-25 01:40:24,437 INFO:REQUEST TIME: 0.14
+2023-04-25 01:40:24,484 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Aktualno%C5%9Bci HTTP/1.1" 200 33035
+2023-04-25 01:40:24,485 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:24,571 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/25_kwietnia HTTP/1.1" 200 71208
+2023-04-25 01:40:24,576 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:24,742 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Imieniny HTTP/1.1" 200 60173
+2023-04-25 01:40:24,746 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:25,117 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jaros%C5%82aw_(imi%C4%99) HTTP/1.1" 200 None
+2023-04-25 01:40:25,123 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:25,170 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kaliksta HTTP/1.1" 200 None
+2023-04-25 01:40:25,171 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:25,205 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Marek HTTP/1.1" 200 18472
+2023-04-25 01:40:25,206 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:25,260 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:DNA_double_helix_vertikal.PNG HTTP/1.1" 200 None
+2023-04-25 01:40:25,263 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:25,308 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1333 HTTP/1.1" 200 None
+2023-04-25 01:40:25,313 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:25,382 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Janis%C5%82aw HTTP/1.1" 200 None
+2023-04-25 01:40:25,384 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:25,425 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/W%C5%82adys%C5%82aw_I_%C5%81okietek HTTP/1.1" 200 58400
+2023-04-25 01:40:25,428 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:25,657 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jadwiga_Boles%C5%82aw%C3%B3wna HTTP/1.1" 200 None
+2023-04-25 01:40:25,663 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:25,725 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kazimierz_III_Wielki HTTP/1.1" 200 118283
+2023-04-25 01:40:25,730 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:25,953 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Aldona_Anna_Giedymin%C3%B3wna HTTP/1.1" 200 19460
+2023-04-25 01:40:25,954 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:26,008 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1898 HTTP/1.1" 200 42348
+2023-04-25 01:40:26,010 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:26,179 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Stany_Zjednoczone HTTP/1.1" 200 122501
+2023-04-25 01:40:26,189 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:26,517 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wojna_ameryka%C5%84sko-hiszpa%C5%84ska HTTP/1.1" 200 None
+2023-04-25 01:40:26,519 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:26,577 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Hiszpania HTTP/1.1" 200 106762
+2023-04-25 01:40:26,584 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:26,829 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1938 HTTP/1.1" 200 93789
+2023-04-25 01:40:26,833 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:27,202 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Aleksander_%C5%9Awi%C4%99tochowski HTTP/1.1" 200 19458
+2023-04-25 01:40:27,204 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:27,263 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1943 HTTP/1.1" 200 None
+2023-04-25 01:40:27,303 INFO:REQUEST TIME: 0.06
+2023-04-25 01:40:27,710 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zwi%C4%85zek_Socjalistycznych_Republik_Radzieckich HTTP/1.1" 200 155643
+2023-04-25 01:40:27,715 INFO:REQUEST TIME: 0.05
+2023-04-25 01:40:28,046 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Rz%C4%85d_Rzeczypospolitej_Polskiej_na_uchod%C5%BAstwie HTTP/1.1" 200 79578
+2023-04-25 01:40:28,052 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:28,312 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zbrodnia_katy%C5%84ska HTTP/1.1" 200 131524
+2023-04-25 01:40:28,318 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:28,561 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Uk%C5%82ad_Sikorski-Majski HTTP/1.1" 200 17076
+2023-04-25 01:40:28,562 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:28,608 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Czes%C5%82aw_Mi%C5%82osz HTTP/1.1" 200 None
+2023-04-25 01:40:28,614 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:28,754 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plac_Krasi%C5%84skich_w_Warszawie HTTP/1.1" 200 None
+2023-04-25 01:40:28,760 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:28,938 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Powstanie_w_getcie_warszawskim HTTP/1.1" 200 None
+2023-04-25 01:40:28,955 INFO:REQUEST TIME: 0.04
+2023-04-25 01:40:29,074 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zag%C5%82ada_%C5%BByd%C3%B3w HTTP/1.1" 200 58287
+2023-04-25 01:40:29,077 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:29,935 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1953 HTTP/1.1" 200 105814
+2023-04-25 01:40:29,944 INFO:REQUEST TIME: 0.78
+2023-04-25 01:40:30,341 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Nature HTTP/1.1" 200 16450
+2023-04-25 01:40:30,342 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:30,392 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Molecular_Structure_of_Nucleic_Acids HTTP/1.1" 200 None
+2023-04-25 01:40:30,396 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:30,448 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/James_Watson HTTP/1.1" 200 None
+2023-04-25 01:40:30,458 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:30,543 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Francis_Crick HTTP/1.1" 200 None
+2023-04-25 01:40:30,552 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:30,634 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Podw%C3%B3jna_helisa HTTP/1.1" 200 None
+2023-04-25 01:40:30,636 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:30,677 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kwas_deoksyrybonukleinowy HTTP/1.1" 200 35648
+2023-04-25 01:40:30,678 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:30,771 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1983 HTTP/1.1" 200 113937
+2023-04-25 01:40:30,775 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:31,251 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Republika_Federalna_Niemiec_(1949%E2%80%931990) HTTP/1.1" 200 38250
+2023-04-25 01:40:31,252 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:31,329 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Stern HTTP/1.1" 200 13101
+2023-04-25 01:40:31,330 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:31,370 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Dzienniki_Hitlera HTTP/1.1" 200 None
+2023-04-25 01:40:31,374 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:31,430 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1998 HTTP/1.1" 200 77961
+2023-04-25 01:40:31,437 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:31,830 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Konkordat_mi%C4%99dzy_Stolic%C4%85_Apostolsk%C4%85_i_Rzecz%C4%85pospolit%C4%85_Polsk%C4%85_(1993) HTTP/1.1" 200 20111
+2023-04-25 01:40:31,832 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:31,885 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/24_kwietnia HTTP/1.1" 200 69497
+2023-04-25 01:40:31,889 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:32,065 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kalendarium_dzie%C5%84_po_dniu HTTP/1.1" 200 69917
+2023-04-25 01:40:32,070 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:32,321 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/26_kwietnia HTTP/1.1" 200 None
+2023-04-25 01:40:32,345 INFO:REQUEST TIME: 0.05
+2023-04-25 01:40:32,837 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:POL_wojew%C3%B3dztwo_lubelskie_flag.svg HTTP/1.1" 200 None
+2023-04-25 01:40:32,921 INFO:REQUEST TIME: 0.43
+2023-04-25 01:40:32,944 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Flagi_gmin_w_wojew%C3%B3dztwie_lubelskim HTTP/1.1" 200 None
+2023-04-25 01:40:32,961 INFO:REQUEST TIME: 0.04
+2023-04-25 01:40:33,136 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Gmina_(Polska) HTTP/1.1" 200 21430
+2023-04-25 01:40:33,138 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:33,197 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Flaga HTTP/1.1" 200 22831
+2023-04-25 01:40:33,198 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:33,256 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wojew%C3%B3dztwo_lubelskie HTTP/1.1" 200 59760
+2023-04-25 01:40:33,264 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:33,517 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Barwa HTTP/1.1" 200 None
+2023-04-25 01:40:33,520 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:33,609 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Znaczenie HTTP/1.1" 200 None
+2023-04-25 01:40:33,612 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:33,667 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Drzewce_(sztandar) HTTP/1.1" 200 None
+2023-04-25 01:40:33,668 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:33,702 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Maszt_(architektura) HTTP/1.1" 200 13816
+2023-04-25 01:40:33,703 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:33,745 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Herb HTTP/1.1" 200 29819
+2023-04-25 01:40:33,794 INFO:REQUEST TIME: 0.07
+2023-04-25 01:40:34,141 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/God%C5%82o HTTP/1.1" 200 None
+2023-04-25 01:40:34,224 INFO:REQUEST TIME: 0.38
+2023-04-25 01:40:34,281 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Flaga_wojew%C3%B3dztwa_lubelskiego HTTP/1.1" 200 14284
+2023-04-25 01:40:34,282 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:34,331 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Artyku%C5%82y_na_Medal HTTP/1.1" 200 51517
+2023-04-25 01:40:34,333 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:34,436 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Listy_na_Medal HTTP/1.1" 200 None
+2023-04-25 01:40:34,441 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:34,504 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Jak_napisa%C4%87_doskona%C5%82y_artyku%C5%82 HTTP/1.1" 200 None
+2023-04-25 01:40:34,510 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:34,641 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Aleksander_Ford_by_B.J._Dorys_(1952).jpg HTTP/1.1" 200 None
+2023-04-25 01:40:34,643 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:34,668 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Aleksander_Ford HTTP/1.1" 200 46915
+2023-04-25 01:40:34,670 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:34,782 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/24_listopada HTTP/1.1" 200 None
+2023-04-25 01:40:34,805 INFO:REQUEST TIME: 0.05
+2023-04-25 01:40:34,973 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1908 HTTP/1.1" 200 53089
+2023-04-25 01:40:34,978 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:35,154 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kij%C3%B3w HTTP/1.1" 200 60868
+2023-04-25 01:40:35,157 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:35,376 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/4_kwietnia HTTP/1.1" 200 None
+2023-04-25 01:40:35,402 INFO:REQUEST TIME: 0.05
+2023-04-25 01:40:35,577 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1980 HTTP/1.1" 200 126270
+2023-04-25 01:40:35,586 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:36,365 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Naples HTTP/1.1" 200 None
+2023-04-25 01:40:36,449 INFO:REQUEST TIME: 0.38
+2023-04-25 01:40:36,495 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Polska HTTP/1.1" 200 219517
+2023-04-25 01:40:36,559 INFO:REQUEST TIME: 0.09
+2023-04-25 01:40:37,286 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Re%C5%BCyser_filmowy HTTP/1.1" 200 None
+2023-04-25 01:40:37,289 INFO:REQUEST TIME: 0.14
+2023-04-25 01:40:37,336 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Scenarzysta HTTP/1.1" 200 15658
+2023-04-25 01:40:37,337 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:37,395 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Historia_%C5%BByd%C3%B3w_w_Polsce HTTP/1.1" 200 131022
+2023-04-25 01:40:37,398 INFO:REQUEST TIME: 0.04
+2023-04-25 01:40:37,623 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Rosjanie HTTP/1.1" 200 44108
+2023-04-25 01:40:37,625 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:37,809 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Order_Odrodzenia_Polski HTTP/1.1" 200 58899
+2023-04-25 01:40:37,813 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:37,998 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Legion_ulicy HTTP/1.1" 200 None
+2023-04-25 01:40:38,001 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:38,062 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Droga_m%C5%82odych HTTP/1.1" 200 None
+2023-04-25 01:40:38,064 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:38,114 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Sanacja HTTP/1.1" 200 48181
+2023-04-25 01:40:38,116 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:38,213 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/II_wojna_%C5%9Bwiatowa HTTP/1.1" 200 160746
+2023-04-25 01:40:38,223 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:38,833 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1_Warszawska_Dywizja_Piechoty HTTP/1.1" 200 29891
+2023-04-25 01:40:38,834 INFO:REQUEST TIME: 0.26
+2023-04-25 01:40:38,913 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Marzec_1968 HTTP/1.1" 200 55599
+2023-04-25 01:40:38,917 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:39,034 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Dobre_Artyku%C5%82y HTTP/1.1" 200 108385
+2023-04-25 01:40:39,037 INFO:REQUEST TIME: 0.04
+2023-04-25 01:40:39,267 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Styl_%E2%80%93_poradnik_dla_autor%C3%B3w HTTP/1.1" 200 38841
+2023-04-25 01:40:39,269 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:39,739 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:2023_Dyktafon_Olympus_VN-541PC.jpg HTTP/1.1" 200 None
+2023-04-25 01:40:39,824 INFO:REQUEST TIME: 0.42
+2023-04-25 01:40:39,846 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Dyktafon HTTP/1.1" 200 12277
+2023-04-25 01:40:39,847 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:39,886 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Olympus HTTP/1.1" 200 None
+2023-04-25 01:40:39,888 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:39,934 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Ilustracje_na_Medal HTTP/1.1" 200 None
+2023-04-25 01:40:39,940 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:40,001 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Ilustrowanie HTTP/1.1" 200 None
+2023-04-25 01:40:40,010 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:40,094 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Spo%C5%82eczno%C5%9B%C4%87_wikipedyst%C3%B3w HTTP/1.1" 200 26239
+2023-04-25 01:40:40,095 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:40,152 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Przewodnicy HTTP/1.1" 200 None
+2023-04-25 01:40:40,155 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:40,197 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Administratorzy HTTP/1.1" 200 None
+2023-04-25 01:40:40,213 INFO:REQUEST TIME: 0.04
+2023-04-25 01:40:40,351 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Kontakt_z_wikipedystami HTTP/1.1" 200 15600
+2023-04-25 01:40:40,352 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:40,395 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna/Wczoraj HTTP/1.1" 200 None
+2023-04-25 01:40:40,398 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:40,450 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna/Jutro HTTP/1.1" 200 None
+2023-04-25 01:40:40,453 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:40,505 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna/Dokumentacja HTTP/1.1" 200 None
+2023-04-25 01:40:40,506 INFO:REQUEST TIME: 0.02
+2023-04-25 01:40:40,717 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Strona_g%C5%82%C3%B3wna&oldid=69306931 HTTP/1.1" 200 None
+2023-04-25 01:40:40,721 INFO:REQUEST TIME: 0.2
+2023-04-25 01:40:40,886 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kategoria:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 None
+2023-04-25 01:40:40,889 INFO:REQUEST TIME: 0.03
+2023-04-25 01:40:41,199 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Moja_dyskusja HTTP/1.1" 200 None
+2023-04-25 01:40:41,200 INFO:REQUEST TIME: 0.29
+2023-04-25 01:40:41,627 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:M%C3%B3j_wk%C5%82ad HTTP/1.1" 200 None
+2023-04-25 01:40:41,629 INFO:REQUEST TIME: 0.42
+2023-04-25 01:40:41,944 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Specjalna:Utw%C3%B3rz_konto&returnto=Wikipedia%3AStrona+g%C5%82%C3%B3wna HTTP/1.1" 200 None
+2023-04-25 01:40:41,945 INFO:REQUEST TIME: 0.29
+2023-04-25 01:40:42,151 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Specjalna:Zaloguj&returnto=Wikipedia%3AStrona+g%C5%82%C3%B3wna HTTP/1.1" 200 None
+2023-04-25 01:40:42,152 INFO:REQUEST TIME: 0.2
+2023-04-25 01:40:42,441 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Dyskusja_Wikipedii:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 None
+2023-04-25 01:40:42,523 INFO:REQUEST TIME: 0.36
+2023-04-25 01:40:42,916 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Strona_g%C5%82%C3%B3wna&action=edit HTTP/1.1" 200 None
+2023-04-25 01:40:42,917 INFO:REQUEST TIME: 0.37
+2023-04-25 01:40:43,416 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Strona_g%C5%82%C3%B3wna&action=history HTTP/1.1" 200 None
+2023-04-25 01:40:43,581 INFO:REQUEST TIME: 0.65
+2023-04-25 01:40:43,781 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Losowa_strona HTTP/1.1" 302 0
+2023-04-25 01:40:44,029 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Gmina_Roosna-Alliku HTTP/1.1" 200 None
+2023-04-25 01:40:44,033 INFO:REQUEST TIME: 0.4
+2023-04-25 01:40:44,268 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:FAQ HTTP/1.1" 200 None
+2023-04-25 01:40:44,354 INFO:REQUEST TIME: 0.3
+2023-04-25 01:40:44,602 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:O_Wikipedii HTTP/1.1" 200 None
+2023-04-25 01:40:44,606 INFO:REQUEST TIME: 0.21
+2023-04-25 01:40:45,084 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Zg%C5%82o%C5%9B_b%C5%82%C4%85d_w_artykule HTTP/1.1" 200 None
+2023-04-25 01:40:45,503 INFO:REQUEST TIME: 0.87
+2023-04-25 01:40:46,230 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Zg%C5%82oszone_grafiki HTTP/1.1" 200 None
+2023-04-25 01:40:46,568 INFO:REQUEST TIME: 0.73
+2023-04-25 01:40:47,961 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Portal_wikipedyst%C3%B3w HTTP/1.1" 200 None
+2023-04-25 01:40:48,291 INFO:REQUEST TIME: 1.43
+2023-04-25 01:40:48,796 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Tablica_og%C5%82osze%C5%84 HTTP/1.1" 200 None
+2023-04-25 01:40:48,963 INFO:REQUEST TIME: 0.4
+2023-04-25 01:40:49,271 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Zasady HTTP/1.1" 200 None
+2023-04-25 01:40:49,355 INFO:REQUEST TIME: 0.29
+2023-04-25 01:40:49,611 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Spis_tre%C5%9Bci HTTP/1.1" 200 None
+2023-04-25 01:40:49,697 INFO:REQUEST TIME: 0.3
+2023-04-25 01:40:50,586 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Ostatnie_zmiany HTTP/1.1" 200 None
+2023-04-25 01:40:50,752 INFO:REQUEST TIME: 1.02
+2023-04-25 01:40:51,349 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Linkuj%C4%85ce/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 None
+2023-04-25 01:40:51,432 INFO:REQUEST TIME: 0.61
+2023-04-25 01:40:52,095 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Zmiany_w_linkowanych/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 None
+2023-04-25 01:40:52,260 INFO:REQUEST TIME: 0.8
+2023-04-25 01:40:52,610 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Prze%C5%9Blij_plik HTTP/1.1" 200 None
+2023-04-25 01:40:52,611 INFO:REQUEST TIME: 0.28
+2023-04-25 01:40:52,996 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Strony_specjalne HTTP/1.1" 200 None
+2023-04-25 01:40:52,997 INFO:REQUEST TIME: 0.38
+2023-04-25 01:40:53,239 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Strona_g%C5%82%C3%B3wna&oldid=69306931 HTTP/1.1" 200 None
+2023-04-25 01:40:53,323 INFO:REQUEST TIME: 0.3
+2023-04-25 01:40:53,653 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Strona_g%C5%82%C3%B3wna&action=info HTTP/1.1" 200 None
+2023-04-25 01:40:53,655 INFO:REQUEST TIME: 0.3
+2023-04-25 01:40:53,857 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Specjalna:Ksi%C4%85%C5%BCka&bookcmd=book_creator&referer=Wikipedia%3AStrona+g%C5%82%C3%B3wna HTTP/1.1" 200 None
+2023-04-25 01:40:53,858 INFO:REQUEST TIME: 0.19
+2023-04-25 01:40:54,120 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Specjalna:DownloadAsPdf&page=Wikipedia%3AStrona_g%C5%82%C3%B3wna&action=show-download-screen HTTP/1.1" 200 None
+2023-04-25 01:40:54,120 INFO:REQUEST TIME: 0.25
+2023-04-25 01:40:54,343 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Strona_g%C5%82%C3%B3wna&printable=yes HTTP/1.1" 200 None
+2023-04-25 01:40:54,347 INFO:REQUEST TIME: 0.22
+2023-04-25 01:40:55,186 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Korzystasz_z_Wikipedii_tylko_na_w%C5%82asn%C4%85_odpowiedzialno%C5%9B%C4%87 HTTP/1.1" 200 None
+2023-04-25 01:40:55,254 INFO:REQUEST TIME: 0.52
+2023-04-25 01:40:55,661 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Wikipedia-logo-v2-wordmark.svg HTTP/1.1" 200 None
+2023-04-25 01:40:55,742 INFO:REQUEST TIME: 0.31
+2023-04-25 01:40:56,066 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Encyklopedia_internetowa HTTP/1.1" 200 None
+2023-04-25 01:40:56,150 INFO:REQUEST TIME: 0.41
+2023-04-25 01:40:56,427 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/15_stycznia HTTP/1.1" 200 None
+2023-04-25 01:40:56,523 INFO:REQUEST TIME: 0.35
+2023-04-25 01:40:57,053 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/2001 HTTP/1.1" 200 None
+2023-04-25 01:40:57,312 INFO:REQUEST TIME: 0.63
+2023-04-25 01:40:57,966 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jimmy_Wales HTTP/1.1" 200 None
+2023-04-25 01:40:58,132 INFO:REQUEST TIME: 0.5
+2023-04-25 01:40:58,513 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikimedia_Foundation HTTP/1.1" 200 None
+2023-04-25 01:40:58,768 INFO:REQUEST TIME: 0.59
+2023-04-25 01:40:59,082 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Otwarta_tre%C5%9B%C4%87 HTTP/1.1" 200 None
+2023-04-25 01:40:59,164 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:00,028 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/MediaWiki HTTP/1.1" 200 None
+2023-04-25 01:41:00,111 INFO:REQUEST TIME: 0.92
+2023-04-25 01:41:00,452 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/J%C4%99zyk_hawajski HTTP/1.1" 200 None
+2023-04-25 01:41:00,535 INFO:REQUEST TIME: 0.39
+2023-04-25 01:41:01,069 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/WikiWikiWeb HTTP/1.1" 200 None
+2023-04-25 01:41:01,071 INFO:REQUEST TIME: 0.51
+2023-04-25 01:41:01,320 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Neologizm HTTP/1.1" 200 None
+2023-04-25 01:41:01,324 INFO:REQUEST TIME: 0.24
+2023-04-25 01:41:01,672 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zbitka_wyrazowa HTTP/1.1" 200 None
+2023-04-25 01:41:01,673 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:01,953 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Slogan HTTP/1.1" 200 None
+2023-04-25 01:41:01,955 INFO:REQUEST TIME: 0.27
+2023-04-25 01:41:02,316 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Alexa_Internet HTTP/1.1" 200 None
+2023-04-25 01:41:02,445 INFO:REQUEST TIME: 0.47
+2023-04-25 01:41:02,770 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Nupedia HTTP/1.1" 200 None
+2023-04-25 01:41:02,863 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:03,471 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Organizacja_non-profit HTTP/1.1" 200 None
+2023-04-25 01:41:03,556 INFO:REQUEST TIME: 0.67
+2023-04-25 01:41:03,834 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Mirror HTTP/1.1" 200 None
+2023-04-25 01:41:03,835 INFO:REQUEST TIME: 0.25
+2023-04-25 01:41:04,091 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Fork HTTP/1.1" 200 None
+2023-04-25 01:41:04,171 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:04,503 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Nupedia.svg HTTP/1.1" 200 None
+2023-04-25 01:41:04,583 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:04,903 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Bomis_(sp%C3%B3%C5%82ka_internetowa) HTTP/1.1" 200 None
+2023-04-25 01:41:04,986 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:05,338 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Dyrektor_generalny HTTP/1.1" 200 None
+2023-04-25 01:41:05,339 INFO:REQUEST TIME: 0.34
+2023-04-25 01:41:05,711 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Larry_Sanger HTTP/1.1" 200 None
+2023-04-25 01:41:05,792 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:06,143 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Redakcja HTTP/1.1" 200 None
+2023-04-25 01:41:06,223 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:06,554 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/GNU_Free_Documentation_License HTTP/1.1" 200 None
+2023-04-25 01:41:06,638 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:06,996 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Richard_Stallman HTTP/1.1" 200 None
+2023-04-25 01:41:07,163 INFO:REQUEST TIME: 0.49
+2023-04-25 01:41:07,441 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Lista_dyskusyjna HTTP/1.1" 200 None
+2023-04-25 01:41:07,443 INFO:REQUEST TIME: 0.23
+2023-04-25 01:41:07,781 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wiki HTTP/1.1" 200 None
+2023-04-25 01:41:07,867 INFO:REQUEST TIME: 0.41
+2023-04-25 01:41:08,213 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/GNUPedia HTTP/1.1" 200 None
+2023-04-25 01:41:08,214 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:08,606 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:WikipediaHomePage30March2001.png HTTP/1.1" 200 None
+2023-04-25 01:41:08,689 INFO:REQUEST TIME: 0.46
+2023-04-25 01:41:09,027 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_polskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:41:09,195 INFO:REQUEST TIME: 0.5
+2023-04-25 01:41:09,504 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Krzysztof_Jasiutowicz HTTP/1.1" 200 None
+2023-04-25 01:41:09,505 INFO:REQUEST TIME: 0.25
+2023-04-25 01:41:09,834 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pawe%C5%82_Jochym HTTP/1.1" 200 None
+2023-04-25 01:41:09,835 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:10,098 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_hiszpa%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:41:10,103 INFO:REQUEST TIME: 0.25
+2023-04-25 01:41:10,409 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Enciclopedia_Libre&action=edit&redlink=1 HTTP/1.1" 200 None
+2023-04-25 01:41:10,410 INFO:REQUEST TIME: 0.27
+2023-04-25 01:41:10,682 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Jimmy_Wales_in_August_2006.jpg HTTP/1.1" 200 None
+2023-04-25 01:41:10,763 INFO:REQUEST TIME: 0.34
+2023-04-25 01:41:11,077 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Znak_towarowy HTTP/1.1" 200 None
+2023-04-25 01:41:11,165 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:11,539 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Time_(tygodnik) HTTP/1.1" 200 None
+2023-04-25 01:41:11,623 INFO:REQUEST TIME: 0.42
+2023-04-25 01:41:11,881 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Spo%C5%82eczno%C5%9B%C4%87_internetowa HTTP/1.1" 200 None
+2023-04-25 01:41:11,883 INFO:REQUEST TIME: 0.23
+2023-04-25 01:41:12,163 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Myspace HTTP/1.1" 200 None
+2023-04-25 01:41:12,243 INFO:REQUEST TIME: 0.34
+2023-04-25 01:41:12,609 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/YouTube HTTP/1.1" 200 None
+2023-04-25 01:41:12,780 INFO:REQUEST TIME: 0.51
+2023-04-25 01:41:13,191 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Cz%C5%82owiek_Roku_tygodnika_%E2%80%9ETime%E2%80%9D HTTP/1.1" 200 None
+2023-04-25 01:41:13,359 INFO:REQUEST TIME: 0.42
+2023-04-25 01:41:13,760 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Protesty_przeciwko_SOPA_i_PIPA HTTP/1.1" 200 None
+2023-04-25 01:41:13,827 INFO:REQUEST TIME: 0.38
+2023-04-25 01:41:14,167 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kongres_Stan%C3%B3w_Zjednoczonych HTTP/1.1" 200 None
+2023-04-25 01:41:14,335 INFO:REQUEST TIME: 0.49
+2023-04-25 01:41:14,622 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Stop_Online_Piracy_Act HTTP/1.1" 200 None
+2023-04-25 01:41:14,703 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:15,033 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/PROTECT_IP_Act HTTP/1.1" 200 None
+2023-04-25 01:41:15,114 INFO:REQUEST TIME: 0.38
+2023-04-25 01:41:15,355 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikiwand HTTP/1.1" 200 None
+2023-04-25 01:41:15,357 INFO:REQUEST TIME: 0.23
+2023-04-25 01:41:15,691 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Graficzny_interfejs_u%C5%BCytkownika HTTP/1.1" 200 None
+2023-04-25 01:41:15,775 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:16,038 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Google_Knowledge_Graph HTTP/1.1" 200 None
+2023-04-25 01:41:16,041 INFO:REQUEST TIME: 0.24
+2023-04-25 01:41:16,323 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Nagroda_Ksi%C4%99cia_Asturii HTTP/1.1" 200 None
+2023-04-25 01:41:16,386 INFO:REQUEST TIME: 0.33
+2023-04-25 01:41:16,748 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Licencja_(prawo) HTTP/1.1" 200 None
+2023-04-25 01:41:16,835 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:17,128 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Prawo_autorskie HTTP/1.1" 200 None
+2023-04-25 01:41:17,297 INFO:REQUEST TIME: 0.43
+2023-04-25 01:41:17,654 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Copyleft HTTP/1.1" 200 None
+2023-04-25 01:41:17,737 INFO:REQUEST TIME: 0.39
+2023-04-25 01:41:18,099 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Creative_Commons HTTP/1.1" 200 None
+2023-04-25 01:41:18,183 INFO:REQUEST TIME: 0.33
+2023-04-25 01:41:18,457 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Licencje_Creative_Commons HTTP/1.1" 200 None
+2023-04-25 01:41:18,463 INFO:REQUEST TIME: 0.25
+2023-04-25 01:41:18,750 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Parlament_Kanady HTTP/1.1" 200 None
+2023-04-25 01:41:18,754 INFO:REQUEST TIME: 0.25
+2023-04-25 01:41:19,124 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Drukowana_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:41:19,207 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:19,542 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Suplement HTTP/1.1" 200 None
+2023-04-25 01:41:19,543 INFO:REQUEST TIME: 0.31
+2023-04-25 01:41:19,903 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wsp%C3%B3%C5%82autorstwo HTTP/1.1" 200 None
+2023-04-25 01:41:19,986 INFO:REQUEST TIME: 0.43
+2023-04-25 01:41:20,471 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Otwarte_oprogramowanie HTTP/1.1" 200 None
+2023-04-25 01:41:20,472 INFO:REQUEST TIME: 0.46
+2023-04-25 01:41:21,065 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Darwinizm_spo%C5%82eczny HTTP/1.1" 200 None
+2023-04-25 01:41:21,066 INFO:REQUEST TIME: 0.56
+2023-04-25 01:41:21,534 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Dozwolony_u%C5%BCytek HTTP/1.1" 200 None
+2023-04-25 01:41:21,535 INFO:REQUEST TIME: 0.43
+2023-04-25 01:41:22,012 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_niemieckoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:41:22,263 INFO:REQUEST TIME: 0.68
+2023-04-25 01:41:22,850 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_portugalskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:41:22,851 INFO:REQUEST TIME: 0.53
+2023-04-25 01:41:23,223 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_du%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:41:23,492 INFO:REQUEST TIME: 0.6
+2023-04-25 01:41:23,832 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Piotr_Waglowski HTTP/1.1" 200 None
+2023-04-25 01:41:24,049 INFO:REQUEST TIME: 0.53
+2023-04-25 01:41:24,471 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Pi%C4%99%C4%87_filar%C3%B3w HTTP/1.1" 200 None
+2023-04-25 01:41:24,557 INFO:REQUEST TIME: 0.39
+2023-04-25 01:41:24,791 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Encyklopedyczno%C5%9B%C4%87 HTTP/1.1" 200 None
+2023-04-25 01:41:24,879 INFO:REQUEST TIME: 0.29
+2023-04-25 01:41:25,144 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Polonocentryzm HTTP/1.1" 200 None
+2023-04-25 01:41:25,234 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:25,487 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wikietykieta HTTP/1.1" 200 None
+2023-04-25 01:41:25,571 INFO:REQUEST TIME: 0.29
+2023-04-25 01:41:25,876 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Redaktorzy HTTP/1.1" 200 None
+2023-04-25 01:41:25,971 INFO:REQUEST TIME: 0.38
+2023-04-25 01:41:26,229 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kod_%C5%BAr%C3%B3d%C5%82owy HTTP/1.1" 200 None
+2023-04-25 01:41:26,314 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:26,677 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/HTML HTTP/1.1" 200 None
+2023-04-25 01:41:26,764 INFO:REQUEST TIME: 0.42
+2023-04-25 01:41:27,030 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wersje_przejrzane HTTP/1.1" 200 None
+2023-04-25 01:41:27,113 INFO:REQUEST TIME: 0.28
+2023-04-25 01:41:27,372 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Graf_skierowany HTTP/1.1" 200 None
+2023-04-25 01:41:27,374 INFO:REQUEST TIME: 0.24
+2023-04-25 01:41:27,723 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Graf_acykliczny HTTP/1.1" 200 None
+2023-04-25 01:41:27,724 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:28,071 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikimedia_Commons HTTP/1.1" 200 None
+2023-04-25 01:41:28,197 INFO:REQUEST TIME: 0.46
+2023-04-25 01:41:28,474 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Bot_(program) HTTP/1.1" 200 None
+2023-04-25 01:41:28,475 INFO:REQUEST TIME: 0.25
+2023-04-25 01:41:28,785 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:VisualEditor_-_wybieranie_pliku.png HTTP/1.1" 200 None
+2023-04-25 01:41:28,867 INFO:REQUEST TIME: 0.37
+2023-04-25 01:41:29,086 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Por%C3%B3wnywanie_edycji_-_przyk%C5%82ad.png HTTP/1.1" 200 None
+2023-04-25 01:41:29,088 INFO:REQUEST TIME: 0.22
+2023-04-25 01:41:29,395 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Ostatnie_zmiany.png HTTP/1.1" 200 None
+2023-04-25 01:41:29,477 INFO:REQUEST TIME: 0.39
+2023-04-25 01:41:29,786 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Most_popular_edition_of_Wikipedia_by_country.svg HTTP/1.1" 200 None
+2023-04-25 01:41:29,949 INFO:REQUEST TIME: 0.47
+2023-04-25 01:41:30,246 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Lista_wersji_j%C4%99zykowych HTTP/1.1" 200 None
+2023-04-25 01:41:30,473 INFO:REQUEST TIME: 0.52
+2023-04-25 01:41:30,993 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_angloj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:41:31,157 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:31,519 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_cebua%C5%84skim HTTP/1.1" 200 None
+2023-04-25 01:41:31,601 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:31,878 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Autonomia HTTP/1.1" 200 None
+2023-04-25 01:41:31,961 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:32,219 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Interwiki HTTP/1.1" 200 None
+2023-04-25 01:41:32,385 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:32,708 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikiprojekt:T%C5%82umaczenie_artyku%C5%82%C3%B3w HTTP/1.1" 200 None
+2023-04-25 01:41:32,792 INFO:REQUEST TIME: 0.29
+2023-04-25 01:41:33,072 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_chi%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:41:33,157 INFO:REQUEST TIME: 0.34
+2023-04-25 01:41:33,635 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Chi%C5%84ska_Republika_Ludowa HTTP/1.1" 200 None
+2023-04-25 01:41:33,886 INFO:REQUEST TIME: 0.61
+2023-04-25 01:41:34,259 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Direction_Centrale_du_Renseignement_Int%C3%A9rieur HTTP/1.1" 200 None
+2023-04-25 01:41:34,260 INFO:REQUEST TIME: 0.22
+2023-04-25 01:41:34,720 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Ministerstwo_Spraw_Wewn%C4%99trznych_Francji HTTP/1.1" 200 None
+2023-04-25 01:41:34,723 INFO:REQUEST TIME: 0.44
+2023-04-25 01:41:35,055 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wojskowa_stacja_radiowa_Pierre-Sur-Haute HTTP/1.1" 200 None
+2023-04-25 01:41:35,057 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:35,394 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_francuskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:41:35,556 INFO:REQUEST TIME: 0.48
+2023-04-25 01:41:35,858 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Center_for_Global_Communication_Studies&action=edit&redlink=1 HTTP/1.1" 200 None
+2023-04-25 01:41:35,859 INFO:REQUEST TIME: 0.26
+2023-04-25 01:41:36,282 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Iran HTTP/1.1" 200 None
+2023-04-25 01:41:36,538 INFO:REQUEST TIME: 0.67
+2023-04-25 01:41:36,991 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_perskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:41:36,995 INFO:REQUEST TIME: 0.31
+2023-04-25 01:41:37,313 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Turcja HTTP/1.1" 200 None
+2023-04-25 01:41:37,483 INFO:REQUEST TIME: 0.45
+2023-04-25 01:41:38,050 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Krytyka_Wikipedii HTTP/1.1" 200 None
+2023-04-25 01:41:38,296 INFO:REQUEST TIME: 0.58
+2023-04-25 01:41:38,656 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Encyklopedia_Britannica HTTP/1.1" 200 None
+2023-04-25 01:41:38,661 INFO:REQUEST TIME: 0.26
+2023-04-25 01:41:38,918 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/The_Register HTTP/1.1" 200 None
+2023-04-25 01:41:38,919 INFO:REQUEST TIME: 0.22
+2023-04-25 01:41:39,162 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pr%C3%B3ba_statystyczna HTTP/1.1" 200 None
+2023-04-25 01:41:39,243 INFO:REQUEST TIME: 0.31
+2023-04-25 01:41:39,577 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Przedzia%C5%82_ufno%C5%9Bci HTTP/1.1" 200 None
+2023-04-25 01:41:39,822 INFO:REQUEST TIME: 0.56
+2023-04-25 01:41:40,286 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Moc_testu HTTP/1.1" 200 None
+2023-04-25 01:41:40,371 INFO:REQUEST TIME: 0.44
+2023-04-25 01:41:40,663 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Fake_news HTTP/1.1" 200 None
+2023-04-25 01:41:40,834 INFO:REQUEST TIME: 0.41
+2023-04-25 01:41:41,307 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Literatura_faktu HTTP/1.1" 200 None
+2023-04-25 01:41:41,309 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:41,574 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Spam HTTP/1.1" 200 None
+2023-04-25 01:41:41,579 INFO:REQUEST TIME: 0.25
+2023-04-25 01:41:41,969 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Katherine_Maher HTTP/1.1" 200 None
+2023-04-25 01:41:42,052 INFO:REQUEST TIME: 0.44
+2023-04-25 01:41:42,412 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Stephen_Colbert HTTP/1.1" 200 None
+2023-04-25 01:41:42,416 INFO:REQUEST TIME: 0.34
+2023-04-25 01:41:42,766 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/The_Colbert_Report HTTP/1.1" 200 None
+2023-04-25 01:41:42,767 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:43,004 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Spin_(socjotechnika) HTTP/1.1" 200 None
+2023-04-25 01:41:43,085 INFO:REQUEST TIME: 0.3
+2023-04-25 01:41:43,418 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Wikipedia_Monument_in_S%C5%82ubice_-_detail.JPG HTTP/1.1" 200 None
+2023-04-25 01:41:43,565 INFO:REQUEST TIME: 0.46
+2023-04-25 01:41:43,923 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/S%C5%82ubice HTTP/1.1" 200 None
+2023-04-25 01:41:44,107 INFO:REQUEST TIME: 0.52
+2023-04-25 01:41:45,553 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Web_2.0 HTTP/1.1" 200 None
+2023-04-25 01:41:45,636 INFO:REQUEST TIME: 1.08
+2023-04-25 01:41:45,901 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/(274301)_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:41:45,902 INFO:REQUEST TIME: 0.23
+2023-04-25 01:41:46,235 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomnik_Wikipedii_w_S%C5%82ubicach HTTP/1.1" 200 None
+2023-04-25 01:41:46,318 INFO:REQUEST TIME: 0.39
+2023-04-25 01:41:46,573 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Bereszit_(sonda_kosmiczna) HTTP/1.1" 200 None
+2023-04-25 01:41:46,578 INFO:REQUEST TIME: 0.23
+2023-04-25 01:41:46,935 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Biuro_(ameryka%C5%84ski_serial_telewizyjny) HTTP/1.1" 200 None
+2023-04-25 01:41:47,018 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:47,401 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Wikimedia_Foundation_Servers-8055_13.jpg HTTP/1.1" 200 None
+2023-04-25 01:41:47,484 INFO:REQUEST TIME: 0.43
+2023-04-25 01:41:47,723 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:B-roll_of_Wikimedia_Foundation_servers_at_CyrusOne_in_Carrollton,_Texas_-_photographed_in_2015.webm HTTP/1.1" 200 None
+2023-04-25 01:41:47,795 INFO:REQUEST TIME: 0.31
+2023-04-25 01:41:48,042 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wolne_oprogramowanie HTTP/1.1" 200 None
+2023-04-25 01:41:48,044 INFO:REQUEST TIME: 0.23
+2023-04-25 01:41:49,662 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/PHP HTTP/1.1" 200 None
+2023-04-25 01:41:49,831 INFO:REQUEST TIME: 1.76
+2023-04-25 01:41:50,240 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/MySQL HTTP/1.1" 200 None
+2023-04-25 01:41:50,323 INFO:REQUEST TIME: 0.41
+2023-04-25 01:41:50,704 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Floryda HTTP/1.1" 200 None
+2023-04-25 01:41:50,873 INFO:REQUEST TIME: 0.52
+2023-04-25 01:41:51,295 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Common_Gateway_Interface HTTP/1.1" 200 None
+2023-04-25 01:41:51,378 INFO:REQUEST TIME: 0.42
+2023-04-25 01:41:51,641 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/UseModWiki HTTP/1.1" 200 None
+2023-04-25 01:41:51,642 INFO:REQUEST TIME: 0.24
+2023-04-25 01:41:52,000 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Clifford_Adams HTTP/1.1" 200 None
+2023-04-25 01:41:52,003 INFO:REQUEST TIME: 0.35
+2023-04-25 01:41:52,258 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/CamelCase HTTP/1.1" 200 None
+2023-04-25 01:41:52,341 INFO:REQUEST TIME: 0.32
+2023-04-25 01:41:52,539 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Magnus_Manske&action=edit&redlink=1 HTTP/1.1" 200 None
+2023-04-25 01:41:52,541 INFO:REQUEST TIME: 0.19
+2023-04-25 01:41:52,727 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Lee_Daniel_Crocker&action=edit&redlink=1 HTTP/1.1" 200 None
+2023-04-25 01:41:52,728 INFO:REQUEST TIME: 0.18
+2023-04-25 01:41:53,397 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/GNU_General_Public_License HTTP/1.1" 200 None
+2023-04-25 01:41:53,482 INFO:REQUEST TIME: 0.74
+2023-04-25 01:41:53,828 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Architektura_wielowarstwowa HTTP/1.1" 200 None
+2023-04-25 01:41:53,829 INFO:REQUEST TIME: 0.31
+2023-04-25 01:41:54,167 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Spo%C5%82eczno%C5%9B%C4%87_wikipedyst%C3%B3w HTTP/1.1" 200 None
+2023-04-25 01:41:54,333 INFO:REQUEST TIME: 0.49
+2023-04-25 01:41:54,722 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Zlot_Zimowy_2020_RD_040.jpg HTTP/1.1" 200 None
+2023-04-25 01:41:54,806 INFO:REQUEST TIME: 0.33
+2023-04-25 01:41:55,132 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/I%C5%82awa HTTP/1.1" 200 None
+2023-04-25 01:41:55,382 INFO:REQUEST TIME: 0.58
+2023-04-25 01:41:55,878 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/J%C4%99zyk_angielski HTTP/1.1" 200 None
+2023-04-25 01:41:56,130 INFO:REQUEST TIME: 0.64
+2023-04-25 01:41:56,616 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Oxford_English_Dictionary HTTP/1.1" 200 None
+2023-04-25 01:41:56,779 INFO:REQUEST TIME: 0.51
+2023-04-25 01:41:57,133 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Transseksualizm HTTP/1.1" 200 None
+2023-04-25 01:41:57,381 INFO:REQUEST TIME: 0.57
+2023-04-25 01:41:57,714 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikimania HTTP/1.1" 200 None
+2023-04-25 01:41:57,800 INFO:REQUEST TIME: 0.34
+2023-04-25 01:41:58,093 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wiki_Lubi_Zabytki HTTP/1.1" 200 None
+2023-04-25 01:41:58,098 INFO:REQUEST TIME: 0.25
+2023-04-25 01:41:58,541 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Europejskie_Dni_Dziedzictwa HTTP/1.1" 200 None
+2023-04-25 01:41:58,623 INFO:REQUEST TIME: 0.4
+2023-04-25 01:41:58,997 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/UNESCO HTTP/1.1" 200 None
+2023-04-25 01:41:59,163 INFO:REQUEST TIME: 0.52
+2023-04-25 01:41:59,393 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=1Lib1Ref&action=edit&redlink=1 HTTP/1.1" 200 None
+2023-04-25 01:41:59,394 INFO:REQUEST TIME: 0.18
+2023-04-25 01:41:59,595 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Women_on_Wikipedia&action=edit&redlink=1 HTTP/1.1" 200 None
+2023-04-25 01:41:59,596 INFO:REQUEST TIME: 0.19
+2023-04-25 01:41:59,968 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/%C5%9Awiatowa_Organizacja_Zdrowia HTTP/1.1" 200 None
+2023-04-25 01:42:00,140 INFO:REQUEST TIME: 0.54
+2023-04-25 01:42:00,741 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/COVID-19 HTTP/1.1" 200 None
+2023-04-25 01:42:01,069 INFO:REQUEST TIME: 0.86
+2023-04-25 01:42:01,572 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wiki%C5%BAr%C3%B3d%C5%82a HTTP/1.1" 200 None
+2023-04-25 01:42:01,655 INFO:REQUEST TIME: 0.41
+2023-04-25 01:42:01,948 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipodr%C3%B3%C5%BCe HTTP/1.1" 200 None
+2023-04-25 01:42:01,951 INFO:REQUEST TIME: 0.27
+2023-04-25 01:42:02,322 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zamach_z_11_wrze%C5%9Bnia_2001_roku HTTP/1.1" 200 None
+2023-04-25 01:42:02,549 INFO:REQUEST TIME: 0.57
+2023-04-25 01:42:03,024 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikis%C5%82ownik HTTP/1.1" 200 None
+2023-04-25 01:42:03,188 INFO:REQUEST TIME: 0.5
+2023-04-25 01:42:03,458 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikicytaty HTTP/1.1" 200 None
+2023-04-25 01:42:03,462 INFO:REQUEST TIME: 0.23
+2023-04-25 01:42:03,828 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikibooks HTTP/1.1" 200 None
+2023-04-25 01:42:03,914 INFO:REQUEST TIME: 0.43
+2023-04-25 01:42:04,263 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Repozytorium HTTP/1.1" 200 None
+2023-04-25 01:42:04,264 INFO:REQUEST TIME: 0.32
+2023-04-25 01:42:04,575 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikispecies HTTP/1.1" 200 None
+2023-04-25 01:42:04,660 INFO:REQUEST TIME: 0.38
+2023-04-25 01:42:04,930 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikinews HTTP/1.1" 200 None
+2023-04-25 01:42:04,933 INFO:REQUEST TIME: 0.25
+2023-04-25 01:42:05,298 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikiwersytet HTTP/1.1" 200 None
+2023-04-25 01:42:05,381 INFO:REQUEST TIME: 0.42
+2023-04-25 01:42:05,731 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikidane HTTP/1.1" 200 None
+2023-04-25 01:42:05,815 INFO:REQUEST TIME: 0.41
+2023-04-25 01:42:06,019 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Everything2&action=edit&redlink=1 HTTP/1.1" 200 None
+2023-04-25 01:42:06,019 INFO:REQUEST TIME: 0.17
+2023-04-25 01:42:06,212 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=H2g2&action=edit&redlink=1 HTTP/1.1" 200 None
+2023-04-25 01:42:06,213 INFO:REQUEST TIME: 0.18
+2023-04-25 01:42:06,466 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Douglas_Adams HTTP/1.1" 200 None
+2023-04-25 01:42:06,469 INFO:REQUEST TIME: 0.25
+2023-04-25 01:42:06,830 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Autostopem_przez_Galaktyk%C4%99 HTTP/1.1" 200 None
+2023-04-25 01:42:06,914 INFO:REQUEST TIME: 0.41
+2023-04-25 01:42:07,253 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Baidu_Baike HTTP/1.1" 200 None
+2023-04-25 01:42:07,333 INFO:REQUEST TIME: 0.4
+2023-04-25 01:42:07,595 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Baidu HTTP/1.1" 200 None
+2023-04-25 01:42:07,677 INFO:REQUEST TIME: 0.32
+2023-04-25 01:42:08,032 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikia HTTP/1.1" 200 None
+2023-04-25 01:42:08,115 INFO:REQUEST TIME: 0.41
+2023-04-25 01:42:08,380 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Hosting HTTP/1.1" 200 None
+2023-04-25 01:42:08,441 INFO:REQUEST TIME: 0.3
+2023-04-25 01:42:08,773 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wookieepedia HTTP/1.1" 200 None
+2023-04-25 01:42:09,188 INFO:REQUEST TIME: 0.73
+2023-04-25 01:42:09,522 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Uncyclopedia HTTP/1.1" 200 None
+2023-04-25 01:42:09,791 INFO:REQUEST TIME: 0.58
+2023-04-25 01:42:10,139 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Kategoria:Fair_use_images&action=edit&redlink=1 HTTP/1.1" 200 None
+2023-04-25 01:42:10,140 INFO:REQUEST TIME: 0.32
+2023-04-25 01:42:10,455 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Slashdot HTTP/1.1" 200 None
+2023-04-25 01:42:10,541 INFO:REQUEST TIME: 0.31
+2023-04-25 01:42:10,993 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Ksi%C4%85%C5%BCki/9781594201530 HTTP/1.1" 200 None
+2023-04-25 01:42:11,071 INFO:REQUEST TIME: 0.52
+2023-04-25 01:42:11,318 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/CBS_News HTTP/1.1" 200 None
+2023-04-25 01:42:11,395 INFO:REQUEST TIME: 0.31
+2023-04-25 01:42:11,627 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wikipedia_w_mediach HTTP/1.1" 200 None
+2023-04-25 01:42:11,812 INFO:REQUEST TIME: 0.39
+2023-04-25 01:42:12,090 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/The_New_York_Times HTTP/1.1" 200 None
+2023-04-25 01:42:12,227 INFO:REQUEST TIME: 0.37
+2023-04-25 01:42:12,583 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/International_Standard_Serial_Number HTTP/1.1" 200 None
+2023-04-25 01:42:12,717 INFO:REQUEST TIME: 0.47
+2023-04-25 01:42:13,126 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Ksi%C4%85%C5%BCki/9780300124873 HTTP/1.1" 200 None
+2023-04-25 01:42:13,242 INFO:REQUEST TIME: 0.5
+2023-04-25 01:42:13,486 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:G%C5%82osowania/Fair_use&oldid=41201058 HTTP/1.1" 200 None
+2023-04-25 01:42:13,529 INFO:REQUEST TIME: 0.27
+2023-04-25 01:42:13,902 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Dyskusja_Wikipedii:G%C5%82osowania/Fair_use&oldid=54116706 HTTP/1.1" 200 None
+2023-04-25 01:42:14,308 INFO:REQUEST TIME: 0.76
+2023-04-25 01:42:14,602 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Przyznawanie_uprawnie%C5%84 HTTP/1.1" 200 None
+2023-04-25 01:42:14,741 INFO:REQUEST TIME: 0.35
+2023-04-25 01:42:15,271 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:VisualEditor&oldid=64482177 HTTP/1.1" 200 None
+2023-04-25 01:42:15,479 INFO:REQUEST TIME: 0.71
+2023-04-25 01:42:15,951 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:O_Wikipedii&oldid=63169755 HTTP/1.1" 200 None
+2023-04-25 01:42:16,072 INFO:REQUEST TIME: 0.56
+2023-04-25 01:42:16,333 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/PC_World HTTP/1.1" 200 None
+2023-04-25 01:42:16,436 INFO:REQUEST TIME: 0.34
+2023-04-25 01:42:16,700 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/DOI_(identyfikator_cyfrowy) HTTP/1.1" 200 None
+2023-04-25 01:42:16,814 INFO:REQUEST TIME: 0.35
+2023-04-25 01:42:17,139 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/PMID HTTP/1.1" 200 None
+2023-04-25 01:42:17,156 INFO:REQUEST TIME: 0.32
+2023-04-25 01:42:17,414 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Bibcode HTTP/1.1" 200 None
+2023-04-25 01:42:17,511 INFO:REQUEST TIME: 0.34
+2023-04-25 01:42:17,846 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/The_New_Yorker HTTP/1.1" 200 None
+2023-04-25 01:42:17,950 INFO:REQUEST TIME: 0.42
+2023-04-25 01:42:18,330 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Dariusz_Jemielniak HTTP/1.1" 200 None
+2023-04-25 01:42:18,462 INFO:REQUEST TIME: 0.49
+2023-04-25 01:42:19,049 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Ksi%C4%85%C5%BCki/9780804791205 HTTP/1.1" 200 None
+2023-04-25 01:42:19,066 INFO:REQUEST TIME: 0.46
+2023-04-25 01:42:19,407 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Hoover_Institution HTTP/1.1" 200 None
+2023-04-25 01:42:19,503 INFO:REQUEST TIME: 0.42
+2023-04-25 01:42:19,737 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/C%E2%80%99t HTTP/1.1" 200 None
+2023-04-25 01:42:19,752 INFO:REQUEST TIME: 0.23
+2023-04-25 01:42:20,000 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Oxford_University_Press HTTP/1.1" 200 None
+2023-04-25 01:42:20,100 INFO:REQUEST TIME: 0.33
+2023-04-25 01:42:20,429 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Ksi%C4%85%C5%BCki/9788375612851 HTTP/1.1" 200 None
+2023-04-25 01:42:20,448 INFO:REQUEST TIME: 0.33
+2023-04-25 01:42:20,785 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Online_Computer_Library_Center HTTP/1.1" 200 None
+2023-04-25 01:42:20,896 INFO:REQUEST TIME: 0.43
+2023-04-25 01:42:21,341 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Ksi%C4%85%C5%BCki/9781593272272 HTTP/1.1" 200 None
+2023-04-25 01:42:21,437 INFO:REQUEST TIME: 0.5
+2023-04-25 01:42:21,790 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Elsevier HTTP/1.1" 200 None
+2023-04-25 01:42:21,887 INFO:REQUEST TIME: 0.43
+2023-04-25 01:42:22,121 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Projekty_siostrzane HTTP/1.1" 200 None
+2023-04-25 01:42:22,225 INFO:REQUEST TIME: 0.31
+2023-04-25 01:42:23,168 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Commons-logo.svg HTTP/1.1" 200 None
+2023-04-25 01:42:23,194 INFO:REQUEST TIME: 0.95
+2023-04-25 01:42:23,482 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Wikiquote-logo.svg HTTP/1.1" 200 None
+2023-04-25 01:42:23,505 INFO:REQUEST TIME: 0.31
+2023-04-25 01:42:23,869 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Wikinews-logo.svg HTTP/1.1" 200 None
+2023-04-25 01:42:23,975 INFO:REQUEST TIME: 0.47
+2023-04-25 01:42:24,318 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:WiktionaryPl_nodesc.svg HTTP/1.1" 200 None
+2023-04-25 01:42:24,425 INFO:REQUEST TIME: 0.45
+2023-04-25 01:42:24,787 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Wikimedia_Community_Logo.svg HTTP/1.1" 200 None
+2023-04-25 01:42:24,813 INFO:REQUEST TIME: 0.39
+2023-04-25 01:42:25,010 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Meta-Wiki HTTP/1.1" 200 None
+2023-04-25 01:42:25,029 INFO:REQUEST TIME: 0.22
+2023-04-25 01:42:25,341 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Szablon:Wikipedie HTTP/1.1" 200 None
+2023-04-25 01:42:25,468 INFO:REQUEST TIME: 0.42
+2023-04-25 01:42:25,893 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Dyskusja_szablonu:Wikipedie HTTP/1.1" 200 None
+2023-04-25 01:42:25,990 INFO:REQUEST TIME: 0.49
+2023-04-25 01:42:26,336 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Szablon:Wikipedie&action=edit HTTP/1.1" 200 None
+2023-04-25 01:42:26,350 INFO:REQUEST TIME: 0.34
+2023-04-25 01:42:26,635 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_szwedzkoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:26,753 INFO:REQUEST TIME: 0.39
+2023-04-25 01:42:27,043 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_niderlandzkoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:27,077 INFO:REQUEST TIME: 0.29
+2023-04-25 01:42:27,443 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_rosyjskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:27,645 INFO:REQUEST TIME: 0.53
+2023-04-25 01:42:28,051 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w%C5%82oskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:28,363 INFO:REQUEST TIME: 0.67
+2023-04-25 01:42:28,959 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Egipskoarabska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:28,960 INFO:REQUEST TIME: 0.56
+2023-04-25 01:42:29,569 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_japo%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:29,904 INFO:REQUEST TIME: 0.83
+2023-04-25 01:42:30,480 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_wietnamskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:30,742 INFO:REQUEST TIME: 0.8
+2023-04-25 01:42:31,134 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_warajskim HTTP/1.1" 200 None
+2023-04-25 01:42:31,383 INFO:REQUEST TIME: 0.61
+2023-04-25 01:42:31,728 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_arabskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:31,885 INFO:REQUEST TIME: 0.47
+2023-04-25 01:42:32,232 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_ukrai%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:32,349 INFO:REQUEST TIME: 0.43
+2023-04-25 01:42:32,614 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_katalo%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:32,649 INFO:REQUEST TIME: 0.27
+2023-04-25 01:42:32,930 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_serbskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:33,041 INFO:REQUEST TIME: 0.36
+2023-04-25 01:42:33,387 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_indonezyjskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:33,507 INFO:REQUEST TIME: 0.44
+2023-04-25 01:42:33,844 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_norweskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:33,955 INFO:REQUEST TIME: 0.42
+2023-04-25 01:42:34,298 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_korea%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:34,414 INFO:REQUEST TIME: 0.43
+2023-04-25 01:42:34,685 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_fi%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:34,721 INFO:REQUEST TIME: 0.28
+2023-04-25 01:42:35,074 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Czecze%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:35,185 INFO:REQUEST TIME: 0.43
+2023-04-25 01:42:35,457 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w%C4%99gierskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:35,569 INFO:REQUEST TIME: 0.35
+2023-04-25 01:42:35,859 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_czeskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:35,941 INFO:REQUEST TIME: 0.33
+2023-04-25 01:42:36,327 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_tureckoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:36,366 INFO:REQUEST TIME: 0.3
+2023-04-25 01:42:36,716 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_serbsko-chorwacka HTTP/1.1" 200 None
+2023-04-25 01:42:36,748 INFO:REQUEST TIME: 0.35
+2023-04-25 01:42:37,096 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Minna%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:37,129 INFO:REQUEST TIME: 0.35
+2023-04-25 01:42:37,396 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_rumu%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:37,430 INFO:REQUEST TIME: 0.27
+2023-04-25 01:42:37,688 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_baskijskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:37,799 INFO:REQUEST TIME: 0.34
+2023-04-25 01:42:38,056 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_malajskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:38,089 INFO:REQUEST TIME: 0.26
+2023-04-25 01:42:38,352 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Tatarska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:38,460 INFO:REQUEST TIME: 0.34
+2023-04-25 01:42:38,802 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_esperanto HTTP/1.1" 200 None
+2023-04-25 01:42:38,917 INFO:REQUEST TIME: 0.42
+2023-04-25 01:42:39,179 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_hebrajskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:39,216 INFO:REQUEST TIME: 0.27
+2023-04-25 01:42:39,589 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Ormia%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:39,699 INFO:REQUEST TIME: 0.45
+2023-04-25 01:42:39,998 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_bu%C5%82garskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:40,114 INFO:REQUEST TIME: 0.38
+2023-04-25 01:42:40,466 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Po%C5%82udniowoazerbejd%C5%BCa%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:40,579 INFO:REQUEST TIME: 0.43
+2023-04-25 01:42:40,941 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_s%C5%82owackoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:41,060 INFO:REQUEST TIME: 0.45
+2023-04-25 01:42:41,449 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_kazachskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:41,618 INFO:REQUEST TIME: 0.52
+2023-04-25 01:42:41,981 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_esto%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:42,128 INFO:REQUEST TIME: 0.47
+2023-04-25 01:42:42,564 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_bia%C5%82oruskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:42,714 INFO:REQUEST TIME: 0.46
+2023-04-25 01:42:42,997 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_chorwackoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:43,058 INFO:REQUEST TIME: 0.31
+2023-04-25 01:42:43,332 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_greckoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:43,469 INFO:REQUEST TIME: 0.38
+2023-04-25 01:42:43,807 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_litewskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:43,932 INFO:REQUEST TIME: 0.43
+2023-04-25 01:42:44,326 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_Simple_English HTTP/1.1" 200 None
+2023-04-25 01:42:44,455 INFO:REQUEST TIME: 0.49
+2023-04-25 01:42:44,738 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Uzbecka_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:44,859 INFO:REQUEST TIME: 0.37
+2023-04-25 01:42:45,206 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Walijska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:45,333 INFO:REQUEST TIME: 0.44
+2023-04-25 01:42:45,616 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Azerbejd%C5%BCa%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:45,740 INFO:REQUEST TIME: 0.37
+2023-04-25 01:42:46,095 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Galicyjska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:46,215 INFO:REQUEST TIME: 0.44
+2023-04-25 01:42:46,557 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_s%C5%82owe%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:46,679 INFO:REQUEST TIME: 0.43
+2023-04-25 01:42:47,027 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_urdu HTTP/1.1" 200 None
+2023-04-25 01:42:47,147 INFO:REQUEST TIME: 0.44
+2023-04-25 01:42:47,501 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_norweskim_(nynorsk) HTTP/1.1" 200 None
+2023-04-25 01:42:47,622 INFO:REQUEST TIME: 0.45
+2023-04-25 01:42:47,885 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Gruzi%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:48,007 INFO:REQUEST TIME: 0.35
+2023-04-25 01:42:48,278 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_hindi HTTP/1.1" 200 None
+2023-04-25 01:42:48,399 INFO:REQUEST TIME: 0.36
+2023-04-25 01:42:48,853 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Tajska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:48,976 INFO:REQUEST TIME: 0.46
+2023-04-25 01:42:49,247 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Tamilska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:49,369 INFO:REQUEST TIME: 0.36
+2023-04-25 01:42:49,634 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_%C5%82aci%C5%84skoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:49,677 INFO:REQUEST TIME: 0.28
+2023-04-25 01:42:49,971 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Macedo%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:50,092 INFO:REQUEST TIME: 0.38
+2023-04-25 01:42:50,474 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kanto%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:50,593 INFO:REQUEST TIME: 0.47
+2023-04-25 01:42:50,951 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Bengalska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:51,073 INFO:REQUEST TIME: 0.44
+2023-04-25 01:42:51,372 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_%C5%82otewskoj%C4%99zyczna HTTP/1.1" 200 None
+2023-04-25 01:42:51,492 INFO:REQUEST TIME: 0.39
+2023-04-25 01:42:51,844 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Tad%C5%BCycka_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:51,965 INFO:REQUEST TIME: 0.44
+2023-04-25 01:42:52,231 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Birma%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:52,352 INFO:REQUEST TIME: 0.35
+2023-04-25 01:42:52,622 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Afrykanerska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:52,665 INFO:REQUEST TIME: 0.29
+2023-04-25 01:42:52,945 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Bo%C5%9Bniacka_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:53,063 INFO:REQUEST TIME: 0.37
+2023-04-25 01:42:53,344 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Oksyta%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:53,462 INFO:REQUEST TIME: 0.37
+2023-04-25 01:42:53,819 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Alba%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:53,945 INFO:REQUEST TIME: 0.46
+2023-04-25 01:42:54,199 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Dolnoniemiecka_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:54,311 INFO:REQUEST TIME: 0.33
+2023-04-25 01:42:54,674 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kirgiska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:54,780 INFO:REQUEST TIME: 0.44
+2023-04-25 01:42:55,214 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_malajalam HTTP/1.1" 200 None
+2023-04-25 01:42:55,335 INFO:REQUEST TIME: 0.45
+2023-04-25 01:42:55,625 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_bia%C5%82oruskim_(taraszkiewicy) HTTP/1.1" 200 None
+2023-04-25 01:42:55,742 INFO:REQUEST TIME: 0.37
+2023-04-25 01:42:56,033 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_telugu HTTP/1.1" 200 None
+2023-04-25 01:42:56,074 INFO:REQUEST TIME: 0.3
+2023-04-25 01:42:56,357 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Newarska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:56,476 INFO:REQUEST TIME: 0.37
+2023-04-25 01:42:56,763 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Breto%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:56,804 INFO:REQUEST TIME: 0.28
+2023-04-25 01:42:57,104 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wenecka_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:57,198 INFO:REQUEST TIME: 0.36
+2023-04-25 01:42:57,593 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Suahilijska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:57,720 INFO:REQUEST TIME: 0.47
+2023-04-25 01:42:58,098 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Piemoncka_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:58,216 INFO:REQUEST TIME: 0.43
+2023-04-25 01:42:58,573 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jawajska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:58,690 INFO:REQUEST TIME: 0.44
+2023-04-25 01:42:58,954 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zachodniopend%C5%BCabska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:58,990 INFO:REQUEST TIME: 0.26
+2023-04-25 01:42:59,322 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Haita%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:59,362 INFO:REQUEST TIME: 0.35
+2023-04-25 01:42:59,709 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Sundajska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:42:59,827 INFO:REQUEST TIME: 0.44
+2023-04-25 01:43:00,183 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Baszkirska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:00,229 INFO:REQUEST TIME: 0.37
+2023-04-25 01:43:00,587 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Irlandzka_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:00,707 INFO:REQUEST TIME: 0.44
+2023-04-25 01:43:01,085 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/%C5%9Al%C4%85ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:01,206 INFO:REQUEST TIME: 0.46
+2023-04-25 01:43:01,616 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Islandzka_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:01,728 INFO:REQUEST TIME: 0.46
+2023-04-25 01:43:02,468 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Lombardzka_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:02,584 INFO:REQUEST TIME: 0.44
+2023-04-25 01:43:02,873 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Czuwaska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:02,994 INFO:REQUEST TIME: 0.38
+2023-04-25 01:43:03,366 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zachodniofryzyjska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:03,405 INFO:REQUEST TIME: 0.38
+2023-04-25 01:43:03,692 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_tagalskim HTTP/1.1" 200 None
+2023-04-25 01:43:03,813 INFO:REQUEST TIME: 0.38
+2023-04-25 01:43:04,145 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Arago%C5%84ska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:04,281 INFO:REQUEST TIME: 0.44
+2023-04-25 01:43:04,650 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_scots HTTP/1.1" 200 None
+2023-04-25 01:43:04,785 INFO:REQUEST TIME: 0.47
+2023-04-25 01:43:05,072 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pend%C5%BCabska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:05,191 INFO:REQUEST TIME: 0.36
+2023-04-25 01:43:05,539 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_joruba HTTP/1.1" 200 None
+2023-04-25 01:43:05,659 INFO:REQUEST TIME: 0.44
+2023-04-25 01:43:05,943 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Nepalska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:05,981 INFO:REQUEST TIME: 0.29
+2023-04-25 01:43:06,314 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Bawarska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:06,429 INFO:REQUEST TIME: 0.42
+2023-04-25 01:43:06,767 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_ido HTTP/1.1" 200 None
+2023-04-25 01:43:06,889 INFO:REQUEST TIME: 0.43
+2023-04-25 01:43:07,404 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Gud%C5%BAaracka_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:07,557 INFO:REQUEST TIME: 0.64
+2023-04-25 01:43:07,839 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_kannada HTTP/1.1" 200 None
+2023-04-25 01:43:07,990 INFO:REQUEST TIME: 0.4
+2023-04-25 01:43:08,337 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Sycylijska_Wikipedia HTTP/1.1" 200 None
+2023-04-25 01:43:08,483 INFO:REQUEST TIME: 0.46
+2023-04-25 01:43:08,840 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_bisznuprija-manipuri HTTP/1.1" 200 None
+2023-04-25 01:43:08,984 INFO:REQUEST TIME: 0.47
+2023-04-25 01:43:09,426 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_interlingua HTTP/1.1" 200 None
+2023-04-25 01:43:09,486 INFO:REQUEST TIME: 0.4
+2023-04-25 01:43:09,820 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia_w_j%C4%99zyku_volap%C3%BCk HTTP/1.1" 200 None
+2023-04-25 01:43:09,964 INFO:REQUEST TIME: 0.45
+2023-04-25 01:43:10,300 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Szablon:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy HTTP/1.1" 200 None
+2023-04-25 01:43:10,598 INFO:REQUEST TIME: 0.6
+2023-04-25 01:43:10,848 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Dyskusja_szablonu:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy&action=edit&redlink=1 HTTP/1.1" 404 None
+2023-04-25 01:43:10,849 INFO:REQUEST TIME: 0.21
+2023-04-25 01:43:11,258 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Szablon:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy&action=edit HTTP/1.1" 200 None
+2023-04-25 01:43:11,482 INFO:REQUEST TIME: 0.62
+2023-04-25 01:43:11,845 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Koordynacja_mi%C4%99dzyj%C4%99zykowa&oldid=33173 HTTP/1.1" 200 None
+2023-04-25 01:43:11,881 INFO:REQUEST TIME: 0.36
+2023-04-25 01:43:12,112 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Koordynacja_mi%C4%99dzyj%C4%99zykowa&oldid=41949 HTTP/1.1" 200 None
+2023-04-25 01:43:12,149 INFO:REQUEST TIME: 0.26
+2023-04-25 01:43:12,496 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Koordynacja_mi%C4%99dzyj%C4%99zykowa&oldid=110595 HTTP/1.1" 200 None
+2023-04-25 01:43:12,533 INFO:REQUEST TIME: 0.37
+2023-04-25 01:43:12,879 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Koordynacja_mi%C4%99dzyj%C4%99zykowa&oldid=172238 HTTP/1.1" 200 None
+2023-04-25 01:43:12,916 INFO:REQUEST TIME: 0.37
+2023-04-25 01:43:13,231 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Koordynacja_mi%C4%99dzyj%C4%99zykowa&oldid=249866 HTTP/1.1" 200 None
+2023-04-25 01:43:13,268 INFO:REQUEST TIME: 0.34
+2023-04-25 01:43:13,596 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Koordynacja_mi%C4%99dzyj%C4%99zykowa&oldid=268687 HTTP/1.1" 200 None
+2023-04-25 01:43:13,633 INFO:REQUEST TIME: 0.35
+2023-04-25 01:43:14,005 DEBUG:https://pl.wikipedia.org:443 "GET /w/index.php?title=Wikipedia:Koordynacja_mi%C4%99dzyj%C4%99zykowa&oldid=268917 HTTP/1.1" 200 None
+2023-04-25 01:43:14,126 INFO:REQUEST TIME: 0.48
+2023-04-25 01:43:14,424 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2004-09-01 HTTP/1.1" 200 None
+2023-04-25 01:43:14,640 INFO:REQUEST TIME: 0.49
+2023-04-25 01:43:14,974 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2004-10-01 HTTP/1.1" 200 None
+2023-04-25 01:43:15,192 INFO:REQUEST TIME: 0.5
+2023-04-25 01:43:15,524 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2004-11-01 HTTP/1.1" 200 None
+2023-04-25 01:43:15,741 INFO:REQUEST TIME: 0.5
+2023-04-25 01:43:16,068 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2004-12-01 HTTP/1.1" 200 None
+2023-04-25 01:43:16,287 INFO:REQUEST TIME: 0.49
+2023-04-25 01:43:16,710 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-01-01 HTTP/1.1" 200 None
+2023-04-25 01:43:16,929 INFO:REQUEST TIME: 0.51
+2023-04-25 01:43:17,260 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-02-01 HTTP/1.1" 200 None
+2023-04-25 01:43:17,479 INFO:REQUEST TIME: 0.5
+2023-04-25 01:43:17,731 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-03-01 HTTP/1.1" 200 None
+2023-04-25 01:43:17,869 INFO:REQUEST TIME: 0.34
+2023-04-25 01:43:18,149 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-04-01 HTTP/1.1" 200 None
+2023-04-25 01:43:18,368 INFO:REQUEST TIME: 0.44
+2023-04-25 01:43:18,701 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-05-01 HTTP/1.1" 200 None
+2023-04-25 01:43:18,930 INFO:REQUEST TIME: 0.51
+2023-04-25 01:43:19,191 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-06-01 HTTP/1.1" 200 None
+2023-04-25 01:43:19,340 INFO:REQUEST TIME: 0.35
+2023-04-25 01:43:19,673 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-07-01 HTTP/1.1" 200 None
+2023-04-25 01:43:19,902 INFO:REQUEST TIME: 0.51
+2023-04-25 01:43:20,239 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-08-01 HTTP/1.1" 200 None
+2023-04-25 01:43:20,428 INFO:REQUEST TIME: 0.47
+2023-04-25 01:43:20,868 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-09-01 HTTP/1.1" 200 None
+2023-04-25 01:43:21,096 INFO:REQUEST TIME: 0.51
+2023-04-25 01:43:21,602 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-10-01 HTTP/1.1" 200 None
+2023-04-25 01:43:21,830 INFO:REQUEST TIME: 0.67
+2023-04-25 01:43:22,104 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-11-01 HTTP/1.1" 200 None
+2023-04-25 01:43:22,331 INFO:REQUEST TIME: 0.44
+2023-04-25 01:43:22,605 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2005-12-01 HTTP/1.1" 200 None
+2023-04-25 01:43:22,755 INFO:REQUEST TIME: 0.35
+2023-04-25 01:43:23,114 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-01-01 HTTP/1.1" 200 None
+2023-04-25 01:43:23,343 INFO:REQUEST TIME: 0.53
+2023-04-25 01:43:23,691 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-02-01 HTTP/1.1" 200 None
+2023-04-25 01:43:23,920 INFO:REQUEST TIME: 0.5
+2023-04-25 01:43:24,193 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-03-01 HTTP/1.1" 200 None
+2023-04-25 01:43:24,415 INFO:REQUEST TIME: 0.43
+2023-04-25 01:43:24,768 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-04-01 HTTP/1.1" 200 None
+2023-04-25 01:43:24,991 INFO:REQUEST TIME: 0.51
+2023-04-25 01:43:25,340 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-05-01 HTTP/1.1" 200 None
+2023-04-25 01:43:25,480 INFO:REQUEST TIME: 0.35
+2023-04-25 01:43:25,839 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-06-01 HTTP/1.1" 200 None
+2023-04-25 01:43:26,064 INFO:REQUEST TIME: 0.51
+2023-04-25 01:43:26,419 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-07-01 HTTP/1.1" 200 None
+2023-04-25 01:43:26,642 INFO:REQUEST TIME: 0.52
+2023-04-25 01:43:26,987 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-08-01 HTTP/1.1" 200 None
+2023-04-25 01:43:27,209 INFO:REQUEST TIME: 0.5
+2023-04-25 01:43:27,550 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-09-01 HTTP/1.1" 200 None
+2023-04-25 01:43:27,775 INFO:REQUEST TIME: 0.5
+2023-04-25 01:43:28,134 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-10-01 HTTP/1.1" 200 None
+2023-04-25 01:43:28,358 INFO:REQUEST TIME: 0.51
+2023-04-25 01:43:28,627 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-11-01 HTTP/1.1" 200 None
+2023-04-25 01:43:28,691 INFO:REQUEST TIME: 0.27
+2023-04-25 01:43:29,104 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2006-12-01 HTTP/1.1" 200 None
+2023-04-25 01:43:29,321 INFO:REQUEST TIME: 0.5
+2023-04-25 01:43:29,591 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2007-01-01 HTTP/1.1" 200 None
+2023-04-25 01:43:29,730 INFO:REQUEST TIME: 0.34
+2023-04-25 01:43:29,985 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2007-02-01 HTTP/1.1" 200 None
+2023-04-25 01:43:30,123 INFO:REQUEST TIME: 0.33
+2023-04-25 01:43:30,471 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2007-03-01 HTTP/1.1" 200 None
+2023-04-25 01:43:30,694 INFO:REQUEST TIME: 0.5
+2023-04-25 01:43:30,983 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2007-04-01 HTTP/1.1" 200 None
+2023-04-25 01:43:31,204 INFO:REQUEST TIME: 0.44
+2023-04-25 01:43:31,594 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2007-05-01 HTTP/1.1" 200 None
+2023-04-25 01:43:31,815 INFO:REQUEST TIME: 0.55
+2023-04-25 01:43:32,164 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2007-06-01 HTTP/1.1" 200 None
+2023-04-25 01:43:32,384 INFO:REQUEST TIME: 0.51
+2023-04-25 01:43:32,803 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Podstawowy_ranking_mi%C4%99dzyj%C4%99zykowy_2007-07-01 HTTP/1.1" 200 None
+2023-04-25 01:43:33,026 INFO:REQUEST TIME: 0.5
+2023-04-25 01:43:33,102 INFO:VISITED LINKS: 522
+2023-04-25 01:43:33,103 INFO:COLLECTED LINKS: 500
+2023-04-25 01:43:33,103 INFO:QUEUED LINKS: 779
+2023-04-25 01:43:34,278 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl25042023014012-tree-graph.gv' with encoding 'utf-8'
+2023-04-25 01:43:34,279 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl25042023014012-tree-graph.gv')
+2023-04-25 01:43:34,279 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-25 01:43:34,280 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl25042023014012-diagram'
+2023-04-25 01:43:34,282 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl25042023014012-diagram']
+2023-04-25 01:43:34,635 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-25 01:51:09,529 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

@@ -1,0 +1,98 @@
+2023-04-21 23:45:22,917 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-21 23:45:23,204 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-21 23:45:23,565 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-21 23:45:23,637 INFO:REQUEST TIME: 0.23
+2023-04-21 23:45:23,672 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-21 23:45:23,812 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-21 23:45:23,908 INFO:REQUEST TIME: 0.24
+2023-04-21 23:45:23,949 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-21 23:45:24,068 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-21 23:45:24,075 INFO:REQUEST TIME: 0.13
+2023-04-21 23:45:24,092 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-21 23:45:24,878 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-21 23:45:25,021 INFO:REQUEST TIME: 0.93
+2023-04-21 23:45:25,050 INFO:SINGLE ITERATION TIME: 0.96
+2023-04-21 23:45:25,162 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-21 23:45:25,297 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-21 23:45:25,317 INFO:REQUEST TIME: 0.27
+2023-04-21 23:45:25,340 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-21 23:45:25,546 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-21 23:45:25,568 INFO:REQUEST TIME: 0.23
+2023-04-21 23:45:25,592 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-21 23:45:25,738 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-21 23:45:25,753 INFO:REQUEST TIME: 0.16
+2023-04-21 23:45:25,773 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-21 23:45:25,899 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-21 23:45:25,905 INFO:REQUEST TIME: 0.13
+2023-04-21 23:45:25,922 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-21 23:45:26,103 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-21 23:45:26,113 INFO:REQUEST TIME: 0.19
+2023-04-21 23:45:26,147 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-21 23:45:26,316 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-21 23:45:26,329 INFO:REQUEST TIME: 0.18
+2023-04-21 23:45:26,367 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-21 23:45:26,368 INFO:VISITED LINKS: 10
+2023-04-21 23:45:26,368 INFO:COLLECTED LINKS: 10
+2023-04-21 23:45:26,368 INFO:QUEUED LINKS: 9
+2023-04-21 23:45:26,381 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis21042023234522-tree-graph.gv' with encoding 'utf-8'
+2023-04-21 23:45:26,381 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis21042023234522-tree-graph.gv')
+2023-04-21 23:45:26,382 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-21 23:45:26,382 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis21042023234522-diagram'
+2023-04-21 23:45:26,383 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis21042023234522-diagram']
+2023-04-21 23:45:26,432 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-21 23:49:23,413 WARNING:Not Found: /favicon.ico
+2023-04-21 23:49:36,426 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-21 23:49:36,690 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-21 23:49:37,048 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-21 23:49:37,092 INFO:REQUEST TIME: 0.2
+2023-04-21 23:49:37,123 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-21 23:49:37,269 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-21 23:49:37,437 INFO:REQUEST TIME: 0.31
+2023-04-21 23:49:37,517 INFO:SINGLE ITERATION TIME: 0.39
+2023-04-21 23:49:37,648 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-21 23:49:37,655 INFO:REQUEST TIME: 0.14
+2023-04-21 23:49:37,671 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-21 23:49:38,351 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-21 23:49:38,453 INFO:REQUEST TIME: 0.78
+2023-04-21 23:49:38,480 INFO:SINGLE ITERATION TIME: 0.81
+2023-04-21 23:49:38,573 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-21 23:49:38,720 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-21 23:49:38,735 INFO:REQUEST TIME: 0.25
+2023-04-21 23:49:38,756 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-21 23:49:38,941 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-21 23:49:38,950 INFO:REQUEST TIME: 0.19
+2023-04-21 23:49:38,973 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-21 23:49:39,100 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-21 23:49:39,108 INFO:REQUEST TIME: 0.13
+2023-04-21 23:49:39,139 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-21 23:49:39,257 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-21 23:49:39,263 INFO:REQUEST TIME: 0.12
+2023-04-21 23:49:39,280 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-21 23:49:39,456 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-21 23:49:39,465 INFO:REQUEST TIME: 0.19
+2023-04-21 23:49:39,496 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-21 23:49:39,661 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-21 23:49:39,676 INFO:REQUEST TIME: 0.18
+2023-04-21 23:49:39,703 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-21 23:49:39,703 INFO:VISITED LINKS: 10
+2023-04-21 23:49:39,703 INFO:COLLECTED LINKS: 10
+2023-04-21 23:49:39,704 INFO:QUEUED LINKS: 9
+2023-04-21 23:49:39,711 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis21042023234936-tree-graph.gv' with encoding 'utf-8'
+2023-04-21 23:49:39,712 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis21042023234936-tree-graph.gv')
+2023-04-21 23:49:39,712 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-21 23:49:39,712 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis21042023234936-diagram'
+2023-04-21 23:49:39,713 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis21042023234936-diagram']
+2023-04-21 23:49:39,771 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-21 23:49:40,117 WARNING:Not Found: /favicon.ico
+2023-04-21 23:49:48,212 WARNING:Not Found: /download_xml_sitemap/
+2023-04-21 23:50:32,403 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\URLTree.py changed, reloading.

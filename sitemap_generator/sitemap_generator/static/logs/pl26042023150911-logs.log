@@ -1,0 +1,49 @@
+2023-04-26 15:09:11,506 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-26 15:09:11,608 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20322
+2023-04-26 15:09:11,759 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20322
+2023-04-26 15:09:11,761 ERROR:TOO MANY REDIRECTS: https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 457, in make_request
+    print("RESPONSE STATUS CODE: ", int(website_req_result.status_code))
+                                    ^^^
+NameError: name 'INT' is not defined
+2023-04-26 15:09:11,763 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 156, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-26 15:09:11,764 INFO:VISITED LINKS: 1
+2023-04-26 15:09:11,764 INFO:COLLECTED LINKS: 0
+2023-04-26 15:09:11,764 INFO:QUEUED LINKS: 0
+2023-04-26 15:09:11,773 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl26042023150911-tree-graph.gv' with encoding 'utf-8'
+2023-04-26 15:09:11,774 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl26042023150911-tree-graph.gv')
+2023-04-26 15:09:11,774 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-26 15:09:11,774 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl26042023150911-diagram'
+2023-04-26 15:09:11,775 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl26042023150911-diagram']
+2023-04-26 15:09:11,829 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-26 15:09:32,441 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-26 15:09:32,522 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20322
+2023-04-26 15:09:32,646 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20322
+2023-04-26 15:09:32,649 ERROR:TOO MANY REDIRECTS: https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 457, in make_request
+    print("RESPONSE STATUS CODE: ", int(website_req_result.status_code))
+                                    ^^^
+NameError: name 'INT' is not defined
+2023-04-26 15:09:32,649 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 156, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-26 15:09:32,650 INFO:VISITED LINKS: 1
+2023-04-26 15:09:32,650 INFO:COLLECTED LINKS: 0
+2023-04-26 15:09:32,650 INFO:QUEUED LINKS: 0
+2023-04-26 15:09:32,653 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl26042023150932-tree-graph.gv' with encoding 'utf-8'
+2023-04-26 15:09:32,653 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl26042023150932-tree-graph.gv')
+2023-04-26 15:09:32,654 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-26 15:09:32,654 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl26042023150932-diagram'
+2023-04-26 15:09:32,655 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl26042023150932-diagram']
+2023-04-26 15:09:32,705 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-26 15:12:08,570 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

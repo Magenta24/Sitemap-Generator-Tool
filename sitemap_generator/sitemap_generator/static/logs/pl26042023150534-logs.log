@@ -1,0 +1,26 @@
+2023-04-26 15:05:34,583 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-26 15:05:34,686 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20322
+2023-04-26 15:05:34,843 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20322
+2023-04-26 15:05:34,944 ERROR:int() argument must be a string, a bytes-like object or a real number, not 'Response'
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 461, in make_request
+    if (int(website_req_result.status_code) >= 200) and (int(website_req_result) < 400):
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Response'
+2023-04-26 15:05:34,945 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 156, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-26 15:05:34,946 INFO:VISITED LINKS: 1
+2023-04-26 15:05:34,946 INFO:COLLECTED LINKS: 0
+2023-04-26 15:05:34,946 INFO:QUEUED LINKS: 0
+2023-04-26 15:05:34,956 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl26042023150534-tree-graph.gv' with encoding 'utf-8'
+2023-04-26 15:05:34,957 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl26042023150534-tree-graph.gv')
+2023-04-26 15:05:34,957 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-26 15:05:34,958 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl26042023150534-diagram'
+2023-04-26 15:05:34,959 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl26042023150534-diagram']
+2023-04-26 15:05:35,019 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-26 15:05:35,592 WARNING:Not Found: /favicon.ico
+2023-04-26 15:05:56,106 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

@@ -1,0 +1,231 @@
+2023-04-24 01:56:38,714 DEBUG:Starting new HTTP connection (1): facebook.com:80
+2023-04-24 01:56:38,739 DEBUG:http://facebook.com:80 "GET / HTTP/1.1" 301 0
+2023-04-24 01:56:38,741 DEBUG:Starting new HTTPS connection (1): facebook.com:443
+2023-04-24 01:56:38,822 DEBUG:https://facebook.com:443 "GET / HTTP/1.1" 301 0
+2023-04-24 01:56:38,825 DEBUG:Starting new HTTPS connection (1): www.facebook.com:443
+2023-04-24 01:56:38,996 DEBUG:https://www.facebook.com:443 "GET / HTTP/1.1" 200 None
+2023-04-24 01:56:39,028 DEBUG:http://facebook.com:80 "GET / HTTP/1.1" 301 0
+2023-04-24 01:56:39,055 DEBUG:https://facebook.com:443 "GET / HTTP/1.1" 301 0
+2023-04-24 01:56:39,163 DEBUG:https://www.facebook.com:443 "GET / HTTP/1.1" 200 None
+2023-04-24 01:56:39,166 INFO:REQUEST TIME: 0.15
+2023-04-24 01:56:39,516 INFO:SINGLE ITERATION TIME: 0.5
+2023-04-24 01:56:39,530 DEBUG:http://facebook.com:80 "GET /pages/create?ref_type=registration_form HTTP/1.1" 301 0
+2023-04-24 01:56:39,555 DEBUG:https://facebook.com:443 "GET /pages/create?ref_type=registration_form HTTP/1.1" 301 0
+2023-04-24 01:56:39,666 DEBUG:https://www.facebook.com:443 "GET /pages/create?ref_type=registration_form HTTP/1.1" 200 None
+2023-04-24 01:56:39,669 INFO:REQUEST TIME: 0.15
+2023-04-24 01:56:40,467 INFO:SINGLE ITERATION TIME: 0.95
+2023-04-24 01:56:40,480 DEBUG:http://facebook.com:80 "GET /reg HTTP/1.1" 301 0
+2023-04-24 01:56:40,506 DEBUG:https://facebook.com:443 "GET /reg HTTP/1.1" 301 0
+2023-04-24 01:56:40,587 DEBUG:https://www.facebook.com:443 "GET /reg HTTP/1.1" 200 None
+2023-04-24 01:56:40,593 INFO:REQUEST TIME: 0.13
+2023-04-24 01:56:41,585 INFO:SINGLE ITERATION TIME: 1.12
+2023-04-24 01:56:41,598 DEBUG:http://facebook.com:80 "GET /login HTTP/1.1" 301 0
+2023-04-24 01:56:41,623 DEBUG:https://facebook.com:443 "GET /login HTTP/1.1" 301 0
+2023-04-24 01:56:41,707 DEBUG:https://www.facebook.com:443 "GET /login HTTP/1.1" 200 None
+2023-04-24 01:56:41,709 INFO:REQUEST TIME: 0.12
+2023-04-24 01:56:42,086 INFO:SINGLE ITERATION TIME: 0.5
+2023-04-24 01:56:42,099 DEBUG:http://facebook.com:80 "GET /lite HTTP/1.1" 301 0
+2023-04-24 01:56:42,125 DEBUG:https://facebook.com:443 "GET /lite HTTP/1.1" 301 0
+2023-04-24 01:56:42,211 DEBUG:https://www.facebook.com:443 "GET /lite HTTP/1.1" 200 None
+2023-04-24 01:56:42,212 INFO:REQUEST TIME: 0.13
+2023-04-24 01:56:42,716 INFO:SINGLE ITERATION TIME: 0.62
+2023-04-24 01:56:42,741 DEBUG:http://facebook.com:80 "GET /places HTTP/1.1" 301 0
+2023-04-24 01:56:42,785 DEBUG:https://facebook.com:443 "GET /places HTTP/1.1" 301 0
+2023-04-24 01:56:42,870 DEBUG:https://www.facebook.com:443 "GET /places HTTP/1.1" 200 None
+2023-04-24 01:56:42,921 INFO:REQUEST TIME: 0.2
+2023-04-24 01:56:43,563 DEBUG:http://facebook.com:80 "GET /games HTTP/1.1" 301 0
+2023-04-24 01:56:43,590 DEBUG:https://facebook.com:443 "GET /games HTTP/1.1" 301 0
+2023-04-24 01:56:43,626 DEBUG:https://www.facebook.com:443 "GET /games HTTP/1.1" 302 0
+2023-04-24 01:56:43,668 DEBUG:https://www.facebook.com:443 "GET /gaming/play/?store_visit_source=games_hub_redirect HTTP/1.1" 200 None
+2023-04-24 01:56:43,703 INFO:REQUEST TIME: 0.15
+2023-04-24 01:56:46,003 DEBUG:http://facebook.com:80 "GET /marketplace HTTP/1.1" 301 0
+2023-04-24 01:56:46,034 DEBUG:https://facebook.com:443 "GET /marketplace HTTP/1.1" 301 0
+2023-04-24 01:56:46,081 DEBUG:https://www.facebook.com:443 "GET /marketplace HTTP/1.1" 302 0
+2023-04-24 01:56:46,147 DEBUG:https://www.facebook.com:443 "GET /login/?next=%2Fmarketplace%2F HTTP/1.1" 200 None
+2023-04-24 01:56:46,149 INFO:REQUEST TIME: 0.16
+2023-04-24 01:56:46,510 INFO:SINGLE ITERATION TIME: 0.52
+2023-04-24 01:56:46,522 DEBUG:http://facebook.com:80 "GET /fundraisers HTTP/1.1" 301 0
+2023-04-24 01:56:46,549 DEBUG:https://facebook.com:443 "GET /fundraisers HTTP/1.1" 301 0
+2023-04-24 01:56:47,430 DEBUG:https://www.facebook.com:443 "GET /fundraisers HTTP/1.1" 200 None
+2023-04-24 01:56:47,577 INFO:REQUEST TIME: 1.07
+2023-04-24 01:56:50,348 INFO:SINGLE ITERATION TIME: 3.84
+2023-04-24 01:56:50,367 DEBUG:http://facebook.com:80 "GET /biz/directory HTTP/1.1" 301 0
+2023-04-24 01:56:50,395 DEBUG:https://facebook.com:443 "GET /biz/directory HTTP/1.1" 301 0
+2023-04-24 01:56:50,760 DEBUG:https://www.facebook.com:443 "GET /biz/directory HTTP/1.1" 200 None
+2023-04-24 01:56:50,766 INFO:REQUEST TIME: 0.42
+2023-04-24 01:56:51,138 INFO:SINGLE ITERATION TIME: 0.79
+2023-04-24 01:56:51,151 DEBUG:http://facebook.com:80 "GET /votinginformationcenter?entry_point=c2l0ZQ%3D%3D HTTP/1.1" 301 0
+2023-04-24 01:56:51,179 DEBUG:https://facebook.com:443 "GET /votinginformationcenter?entry_point=c2l0ZQ%3D%3D HTTP/1.1" 301 0
+2023-04-24 01:56:51,278 DEBUG:https://www.facebook.com:443 "GET /votinginformationcenter?entry_point=c2l0ZQ%3D%3D HTTP/1.1" 200 None
+2023-04-24 01:56:51,306 INFO:REQUEST TIME: 0.17
+2023-04-24 01:56:51,682 DEBUG:http://facebook.com:80 "GET /privacy/policy?entry_point=facebook_page_footer HTTP/1.1" 301 0
+2023-04-24 01:56:51,707 DEBUG:https://facebook.com:443 "GET /privacy/policy?entry_point=facebook_page_footer HTTP/1.1" 301 0
+2023-04-24 01:56:51,753 DEBUG:https://www.facebook.com:443 "GET /privacy/policy?entry_point=facebook_page_footer HTTP/1.1" 200 None
+2023-04-24 01:56:51,794 INFO:REQUEST TIME: 0.13
+2023-04-24 01:56:52,753 DEBUG:http://facebook.com:80 "GET /privacy/center?entry_point=facebook_page_footer HTTP/1.1" 301 0
+2023-04-24 01:56:52,780 DEBUG:https://facebook.com:443 "GET /privacy/center?entry_point=facebook_page_footer HTTP/1.1" 301 0
+2023-04-24 01:56:52,876 DEBUG:https://www.facebook.com:443 "GET /privacy/center?entry_point=facebook_page_footer HTTP/1.1" 200 None
+2023-04-24 01:56:52,888 INFO:REQUEST TIME: 0.15
+2023-04-24 01:56:53,260 DEBUG:http://facebook.com:80 "GET /groups/discover HTTP/1.1" 301 0
+2023-04-24 01:56:53,287 DEBUG:https://facebook.com:443 "GET /groups/discover HTTP/1.1" 301 0
+2023-04-24 01:56:53,323 DEBUG:https://www.facebook.com:443 "GET /groups/discover HTTP/1.1" 301 0
+2023-04-24 01:56:53,398 DEBUG:https://www.facebook.com:443 "GET /groups/discover/ HTTP/1.1" 200 None
+2023-04-24 01:56:53,403 INFO:REQUEST TIME: 0.16
+2023-04-24 01:56:53,760 INFO:SINGLE ITERATION TIME: 0.51
+2023-04-24 01:56:53,773 DEBUG:http://facebook.com:80 "GET /ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto HTTP/1.1" 301 0
+2023-04-24 01:56:53,804 DEBUG:https://facebook.com:443 "GET /ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto HTTP/1.1" 301 0
+2023-04-24 01:56:53,849 DEBUG:https://www.facebook.com:443 "GET /ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto HTTP/1.1" 302 0
+2023-04-24 01:56:53,852 DEBUG:Starting new HTTPS connection (1): l.facebook.com:443
+2023-04-24 01:56:53,962 DEBUG:https://l.facebook.com:443 "GET /l.php?u=https%3A%2F%2Fwww.facebook.com%2Fads%2Fcreate%2F%3Fnav_source%3Dunknown%26campaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user&h=AT1Uxz7R-OpHbE_Qp8fookXGl4wIEQMICfdzYV2AO2t5LgLVYpEOTjzBdn38R3bLx3cdg-4qJ71-R09AOFwsFjMCI4i_BVxaTMPtkqJQkjGywNGLS660GKEhbNJdvNCTFCDF2djEvLZKVPc HTTP/1.1" 302 0
+2023-04-24 01:56:53,963 ERROR:TOO MANY REDIRECTS: http://facebook.com/ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 158, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'],
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 191, in resolve_redirects
+    raise TooManyRedirects(
+requests.exceptions.TooManyRedirects: Exceeded 3 redirects.
+2023-04-24 01:56:53,977 DEBUG:http://facebook.com:80 "GET /pages/create?ref_type=site_footer HTTP/1.1" 301 0
+2023-04-24 01:56:54,006 DEBUG:https://facebook.com:443 "GET /pages/create?ref_type=site_footer HTTP/1.1" 301 0
+2023-04-24 01:56:54,112 DEBUG:https://www.facebook.com:443 "GET /pages/create?ref_type=site_footer HTTP/1.1" 200 None
+2023-04-24 01:56:54,118 INFO:REQUEST TIME: 0.15
+2023-04-24 01:56:54,874 INFO:SINGLE ITERATION TIME: 0.91
+2023-04-24 01:56:54,887 DEBUG:http://facebook.com:80 "GET /careers?ref=pf HTTP/1.1" 301 0
+2023-04-24 01:56:54,913 DEBUG:https://facebook.com:443 "GET /careers?ref=pf HTTP/1.1" 301 0
+2023-04-24 01:56:54,974 DEBUG:https://www.facebook.com:443 "GET /careers?ref=pf HTTP/1.1" 302 0
+2023-04-24 01:56:54,977 DEBUG:Starting new HTTPS connection (1): www.facebookcareers.com:443
+2023-04-24 01:56:55,043 DEBUG:https://www.facebookcareers.com:443 "GET / HTTP/1.1" 302 0
+2023-04-24 01:56:55,044 ERROR:TOO MANY REDIRECTS: http://facebook.com/careers?ref=pf
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 158, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'],
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 191, in resolve_redirects
+    raise TooManyRedirects(
+requests.exceptions.TooManyRedirects: Exceeded 3 redirects.
+2023-04-24 01:56:55,058 DEBUG:http://facebook.com:80 "GET /policies/cookies HTTP/1.1" 301 0
+2023-04-24 01:56:55,085 DEBUG:https://facebook.com:443 "GET /policies/cookies HTTP/1.1" 301 0
+2023-04-24 01:56:55,118 DEBUG:https://www.facebook.com:443 "GET /policies/cookies HTTP/1.1" 302 0
+2023-04-24 01:56:55,163 DEBUG:https://www.facebook.com:443 "GET /privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0 HTTP/1.1" 200 None
+2023-04-24 01:56:55,251 INFO:REQUEST TIME: 0.21
+2023-04-24 01:56:56,315 DEBUG:http://facebook.com:80 "GET /policies?ref=pf HTTP/1.1" 301 0
+2023-04-24 01:56:56,342 DEBUG:https://facebook.com:443 "GET /policies?ref=pf HTTP/1.1" 301 0
+2023-04-24 01:56:56,375 DEBUG:https://www.facebook.com:443 "GET /policies?ref=pf HTTP/1.1" 302 0
+2023-04-24 01:56:56,519 DEBUG:https://www.facebook.com:443 "GET /policies_center/ HTTP/1.1" 200 None
+2023-04-24 01:56:56,557 INFO:REQUEST TIME: 0.25
+2023-04-24 01:57:31,174 INFO:SINGLE ITERATION TIME: 34.87
+2023-04-24 01:57:31,186 DEBUG:http://facebook.com:80 "GET /help?ref=pf HTTP/1.1" 301 0
+2023-04-24 01:57:31,223 DEBUG:https://facebook.com:443 "GET /help?ref=pf HTTP/1.1" 301 0
+2023-04-24 01:57:31,310 DEBUG:https://www.facebook.com:443 "GET /help?ref=pf HTTP/1.1" 200 None
+2023-04-24 01:57:31,601 INFO:REQUEST TIME: 0.43
+2023-04-24 01:58:01,773 DEBUG:http://facebook.com:80 "GET /help/637205020878504 HTTP/1.1" 301 0
+2023-04-24 01:58:01,807 DEBUG:https://facebook.com:443 "GET /help/637205020878504 HTTP/1.1" 301 0
+2023-04-24 01:58:01,872 DEBUG:https://www.facebook.com:443 "GET /help/637205020878504 HTTP/1.1" 200 None
+2023-04-24 01:58:02,023 INFO:REQUEST TIME: 0.26
+2023-04-24 01:58:32,961 DEBUG:http://facebook.com:80 "GET /settings HTTP/1.1" 301 0
+2023-04-24 01:58:32,990 DEBUG:https://facebook.com:443 "GET /settings HTTP/1.1" 301 0
+2023-04-24 01:58:33,046 DEBUG:https://www.facebook.com:443 "GET /settings HTTP/1.1" 302 0
+2023-04-24 01:58:33,154 DEBUG:https://www.facebook.com:443 "GET /login.php?next=https%3A%2F%2Fwww.facebook.com%2Fsettings HTTP/1.1" 200 None
+2023-04-24 01:58:33,177 INFO:REQUEST TIME: 0.23
+2023-04-24 01:58:33,543 INFO:SINGLE ITERATION TIME: 0.6
+2023-04-24 01:58:33,556 DEBUG:http://facebook.com:80 "GET /allactivity?privacy_source=activity_log_top_menu HTTP/1.1" 301 0
+2023-04-24 01:58:33,583 DEBUG:https://facebook.com:443 "GET /allactivity?privacy_source=activity_log_top_menu HTTP/1.1" 301 0
+2023-04-24 01:58:33,657 DEBUG:https://www.facebook.com:443 "GET /allactivity?privacy_source=activity_log_top_menu HTTP/1.1" 200 None
+2023-04-24 01:58:33,682 INFO:REQUEST TIME: 0.14
+2023-04-24 01:58:34,010 INFO:SINGLE ITERATION TIME: 0.47
+2023-04-24 01:58:34,023 DEBUG:http://facebook.com:80 "GET / HTTP/1.1" 301 0
+2023-04-24 01:58:34,050 DEBUG:https://facebook.com:443 "GET / HTTP/1.1" 301 0
+2023-04-24 01:58:34,125 DEBUG:https://www.facebook.com:443 "GET / HTTP/1.1" 200 None
+2023-04-24 01:58:34,133 INFO:REQUEST TIME: 0.12
+2023-04-24 01:58:34,469 INFO:SINGLE ITERATION TIME: 0.46
+2023-04-24 01:58:34,484 DEBUG:http://facebook.com:80 "GET /reg?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjgyMjk3ODAwLCJjYWxsc2l0ZV9pZCI6MzYzOTY5MDQ0ODc4OTI4fQ%3D%3D HTTP/1.1" 301 0
+2023-04-24 01:58:34,510 DEBUG:https://facebook.com:443 "GET /reg?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjgyMjk3ODAwLCJjYWxsc2l0ZV9pZCI6MzYzOTY5MDQ0ODc4OTI4fQ%3D%3D HTTP/1.1" 301 0
+2023-04-24 01:58:34,599 DEBUG:https://www.facebook.com:443 "GET /reg?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjgyMjk3ODAwLCJjYWxsc2l0ZV9pZCI6MzYzOTY5MDQ0ODc4OTI4fQ%3D%3D HTTP/1.1" 200 None
+2023-04-24 01:58:34,605 INFO:REQUEST TIME: 0.14
+2023-04-24 01:58:35,760 INFO:SINGLE ITERATION TIME: 1.29
+2023-04-24 01:58:35,773 DEBUG:http://facebook.com:80 "GET /r.php?locale=en_GB HTTP/1.1" 301 0
+2023-04-24 01:58:35,802 DEBUG:https://facebook.com:443 "GET /r.php?locale=en_GB HTTP/1.1" 301 0
+2023-04-24 01:58:35,898 DEBUG:https://www.facebook.com:443 "GET /r.php?locale=en_GB HTTP/1.1" 200 None
+2023-04-24 01:58:35,901 INFO:REQUEST TIME: 0.14
+2023-04-24 01:58:36,896 INFO:SINGLE ITERATION TIME: 1.14
+2023-04-24 01:58:36,908 DEBUG:http://facebook.com:80 "GET /legal/terms/update HTTP/1.1" 301 0
+2023-04-24 01:58:36,934 DEBUG:https://facebook.com:443 "GET /legal/terms/update HTTP/1.1" 301 0
+2023-04-24 01:58:37,055 DEBUG:https://www.facebook.com:443 "GET /legal/terms/update HTTP/1.1" 200 None
+2023-04-24 01:58:37,063 INFO:REQUEST TIME: 0.17
+2023-04-24 01:58:37,556 INFO:SINGLE ITERATION TIME: 0.66
+2023-04-24 01:58:37,556 INFO:VISITED LINKS: 28
+2023-04-24 01:58:37,556 INFO:COLLECTED LINKS: 25
+2023-04-24 01:58:37,556 INFO:QUEUED LINKS: 27
+2023-04-24 01:58:37,585 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/facebook24042023015638-tree-graph.gv' with encoding 'utf-8'
+2023-04-24 01:58:37,585 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/facebook24042023015638-tree-graph.gv')
+2023-04-24 01:58:37,586 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-24 01:58:37,586 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/facebook24042023015638-diagram'
+2023-04-24 01:58:37,587 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'facebook24042023015638-diagram']
+2023-04-24 01:58:37,752 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-24 02:11:32,764 WARNING:Not Found: /favicon.ico
+2023-04-24 02:11:46,036 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 02:11:46,326 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-24 02:11:46,687 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-24 02:11:46,732 INFO:REQUEST TIME: 0.2
+2023-04-24 02:11:46,809 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-24 02:11:46,973 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-24 02:11:47,066 INFO:REQUEST TIME: 0.26
+2023-04-24 02:11:47,106 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-24 02:11:47,241 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-24 02:11:47,249 INFO:REQUEST TIME: 0.14
+2023-04-24 02:11:47,269 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-24 02:11:48,121 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-24 02:11:48,276 INFO:REQUEST TIME: 1.01
+2023-04-24 02:11:48,303 INFO:SINGLE ITERATION TIME: 1.03
+2023-04-24 02:11:48,420 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-24 02:11:48,562 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-24 02:11:48,575 INFO:REQUEST TIME: 0.27
+2023-04-24 02:11:48,598 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-24 02:11:48,797 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-24 02:11:48,803 INFO:REQUEST TIME: 0.21
+2023-04-24 02:11:48,828 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 02:11:48,974 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-24 02:11:48,990 INFO:REQUEST TIME: 0.16
+2023-04-24 02:11:49,013 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 02:11:49,161 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-24 02:11:49,177 INFO:REQUEST TIME: 0.16
+2023-04-24 02:11:49,194 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 02:11:49,391 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-24 02:11:49,402 INFO:REQUEST TIME: 0.21
+2023-04-24 02:11:49,434 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 02:11:49,622 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-24 02:11:49,643 INFO:REQUEST TIME: 0.21
+2023-04-24 02:11:49,673 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 02:11:49,673 INFO:VISITED LINKS: 11
+2023-04-24 02:11:49,673 INFO:COLLECTED LINKS: 10
+2023-04-24 02:11:49,673 INFO:QUEUED LINKS: 10
+2023-04-24 02:11:49,682 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis24042023021146-tree-graph.gv' with encoding 'utf-8'
+2023-04-24 02:11:49,683 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis24042023021146-tree-graph.gv')
+2023-04-24 02:11:49,683 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-24 02:11:49,683 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis24042023021146-diagram'
+2023-04-24 02:11:49,684 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis24042023021146-diagram']
+2023-04-24 02:11:49,740 INFO:ROBOT.TXT EXLUDED LINKS NO: 0

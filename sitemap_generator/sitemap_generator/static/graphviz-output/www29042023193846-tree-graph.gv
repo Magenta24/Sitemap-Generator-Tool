@@ -1,0 +1,36 @@
+digraph tree {
+	"https://www.bdz.bg/en" [label="https://www.bdz.bg/en", shape=egg]
+	"https://www.bdz.bg/bg" [label="https://www.bdz.bg/bg", shape=egg]
+	"https://www.bdz.bg/bg/a/prava-i-zadlzheniya-na-ptnitsite" [label="https://www.bdz.bg/bg/a/prava-i-zadlzheniya-na-ptnitsite", shape=egg]
+	"https://www.bdz.bg/en/a/bdz-information-center" [label="https://www.bdz.bg/en/a/bdz-information-center", shape=egg]
+	"https://www.bdz.bg/en/a/cookies-policy" [label="https://www.bdz.bg/en/a/cookies-policy", shape=egg]
+	"https://www.bdz.bg/en/a/deklaratsiya-za-politikata-po-kachestvo-na-rkovodstvoto-na-bdzh-ptnicheski-prevozi-eood" [label="https://www.bdz.bg/en/a/deklaratsiya-za-politikata-po-kachestvo-na-rkovodstvoto-na-bdzh-ptnicheski-prevozi-eood", shape=egg]
+	"https://www.bdz.bg/en/a/eco-passenger" [label="https://www.bdz.bg/en/a/eco-passenger", shape=egg]
+	"https://www.bdz.bg/en/a/next-batch-siemens-smartron-locomotives-in-operation" [label="https://www.bdz.bg/en/a/next-batch-siemens-smartron-locomotives-in-operation", shape=egg]
+	"https://www.bdz.bg/en/a/privacy-policy" [label="https://www.bdz.bg/en/a/privacy-policy", shape=egg]
+	"https://www.bdz.bg/en/a/real-time-traffic-data-passenger-trains" [label="https://www.bdz.bg/en/a/real-time-traffic-data-passenger-trains", shape=egg]
+	"https://www.bdz.bg/en/a/the-managements-of-bdz-and-cer-discussed-the-priorities-in-the-development-of-the-railway-transport" [label="https://www.bdz.bg/en/a/the-managements-of-bdz-and-cer-discussed-the-priorities-in-the-development-of-the-railway-transport", shape=egg]
+	"https://www.bdz.bg/en/c/information-and-contacts" [label="https://www.bdz.bg/en/c/information-and-contacts", shape=egg]
+	"https://www.bdz.bg/en/c/live-updates" [label="https://www.bdz.bg/en/c/live-updates", shape=egg]
+	"https://www.bdz.bg/en/c/news" [label="https://www.bdz.bg/en/c/news", shape=egg]
+	"https://www.bdz.bg/en/contact-form" [label="https://www.bdz.bg/en/contact-form", shape=egg]
+	"https://www.bdz.bg/en/stats" [label="https://www.bdz.bg/en/stats", shape=egg]
+	"https://www.bdz.bg/ena/stations" [label="https://www.bdz.bg/ena/stations", shape=egg]
+
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/stats"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/c/information-and-contacts"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/a/eco-passenger"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/bg"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/c/live-updates"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/contact-form"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/a/the-managements-of-bdz-and-cer-discussed-the-priorities-in-the-development-of-the-railway-transport"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/a/real-time-traffic-data-passenger-trains"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/a/next-batch-siemens-smartron-locomotives-in-operation"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/a/deklaratsiya-za-politikata-po-kachestvo-na-rkovodstvoto-na-bdzh-ptnicheski-prevozi-eood"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/bg/a/prava-i-zadlzheniya-na-ptnitsite"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/ena/stations"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/a/cookies-policy"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/a/privacy-policy"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/a/bdz-information-center"
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/c/news"
+}

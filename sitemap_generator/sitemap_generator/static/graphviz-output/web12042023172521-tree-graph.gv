@@ -1,0 +1,22 @@
+digraph tree {
+	"http://web.pzjudo.pl/" [label="http://web.pzjudo.pl/", shape=egg]
+	"http://web.pzjudo.pl/informacja-o-kwalifikacjach-do-oom-koszalin-2023" [label="http://web.pzjudo.pl/informacja-o-kwalifikacjach-do-oom-koszalin-2023", shape=egg]
+	"http://web.pzjudo.pl/komunikat-w-sprawie-zglaszania-zawodnikow-na-zawody-przez-system-judobase" [label="http://web.pzjudo.pl/komunikat-w-sprawie-zglaszania-zawodnikow-na-zawody-przez-system-judobase", shape=egg]
+	"http://web.pzjudo.pl/kontakt" [label="http://web.pzjudo.pl/kontakt", shape=egg]
+	"http://web.pzjudo.pl/licencje-polskiego-zwiazku-judo-2023" [label="http://web.pzjudo.pl/licencje-polskiego-zwiazku-judo-2023", shape=egg]
+	"http://web.pzjudo.pl/polacy-rozpoczeli-camp-na-wegrzech" [label="http://web.pzjudo.pl/polacy-rozpoczeli-camp-na-wegrzech", shape=egg]
+	"http://web.pzjudo.pl/pomagamy-ukrainie" [label="http://web.pzjudo.pl/pomagamy-ukrainie", shape=egg]
+	"http://web.pzjudo.pl/strefa-sedziowska" [label="http://web.pzjudo.pl/strefa-sedziowska", shape=egg]
+	"http://web.pzjudo.pl/strefa-szkoleniowa" [label="http://web.pzjudo.pl/strefa-szkoleniowa", shape=egg]
+	"http://web.pzjudo.pl/zuzanna-banaszewska-najlepszy-turniej-i-najwiekszy-sukces" [label="http://web.pzjudo.pl/zuzanna-banaszewska-najlepszy-turniej-i-najwiekszy-sukces", shape=egg]
+
+	"http://web.pzjudo.pl/" -> "http://web.pzjudo.pl/kontakt"
+	"http://web.pzjudo.pl/" -> "http://web.pzjudo.pl/strefa-sedziowska"
+	"http://web.pzjudo.pl/" -> "http://web.pzjudo.pl/strefa-szkoleniowa"
+	"http://web.pzjudo.pl/" -> "http://web.pzjudo.pl/pomagamy-ukrainie"
+	"http://web.pzjudo.pl/" -> "http://web.pzjudo.pl/informacja-o-kwalifikacjach-do-oom-koszalin-2023"
+	"http://web.pzjudo.pl/" -> "http://web.pzjudo.pl/komunikat-w-sprawie-zglaszania-zawodnikow-na-zawody-przez-system-judobase"
+	"http://web.pzjudo.pl/" -> "http://web.pzjudo.pl/licencje-polskiego-zwiazku-judo-2023"
+	"http://web.pzjudo.pl/" -> "http://web.pzjudo.pl/zuzanna-banaszewska-najlepszy-turniej-i-najwiekszy-sukces"
+	"http://web.pzjudo.pl/" -> "http://web.pzjudo.pl/polacy-rozpoczeli-camp-na-wegrzech"
+}

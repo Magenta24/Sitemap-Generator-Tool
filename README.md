@@ -11,6 +11,8 @@ The features includes:
 - listing found documents
 - listing found images
 - mini-search engine that looks for words/phrases specified by a user
+<br><br>
+**The examples of generated XML sitemaps, tree structures, images, logs can be seen in the static directory**
 
 ## Prerequisites
 To run the software following need to be installed first
@@ -29,6 +31,11 @@ python -m venv /path/to/new/virtual/environment (venv is the name of the environ
 ### Installing requirements
 ```
 pip install -r requirements.txt
+```
+
+### Run application
+```
+python3.11 .\sitemap_generator\manage.py runserver 
 ```
 
 ## Screenshots from the application

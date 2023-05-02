@@ -1,0 +1,12 @@
+2023-04-18 00:47:43,372 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-18 00:47:43,479 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20328
+2023-04-18 00:47:43,607 INFO:VISITED LINKS: 1
+2023-04-18 00:47:43,608 INFO:COLLECTED LINKS: 0
+2023-04-18 00:47:43,608 INFO:QUEUED LINKS: 0
+2023-04-18 00:47:43,621 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl18042023004743-tree-graph.gv' with encoding 'utf-8'
+2023-04-18 00:47:43,622 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl18042023004743-tree-graph.gv')
+2023-04-18 00:47:43,623 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-18 00:47:43,623 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl18042023004743-diagram'
+2023-04-18 00:47:43,624 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl18042023004743-diagram']
+2023-04-18 00:47:43,805 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-18 00:48:21,782 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

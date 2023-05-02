@@ -1,0 +1,22 @@
+2023-04-26 14:29:36,043 DEBUG:Starting new HTTPS connection (1): crawler-test.com:443
+2023-04-26 14:29:36,567 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 8131
+2023-04-26 14:29:37,103 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 8129
+2023-04-26 14:29:37,104 ERROR:int() argument must be a string, a bytes-like object or a real number, not 'Response'
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 150, in bfs_scraper
+    website_source, website_headers = self.make_request(current_node['url'])
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 455, in make_request
+    if (int(website_req_result.status_code) >= 200) and (int(website_req_result) < 400):
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Response'
+2023-04-26 14:29:37,108 INFO:VISITED LINKS: 1
+2023-04-26 14:29:37,108 INFO:COLLECTED LINKS: 0
+2023-04-26 14:29:37,108 INFO:QUEUED LINKS: 0
+2023-04-26 14:29:37,117 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test26042023142936-tree-graph.gv' with encoding 'utf-8'
+2023-04-26 14:29:37,118 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test26042023142936-tree-graph.gv')
+2023-04-26 14:29:37,118 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-26 14:29:37,119 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/crawler-test26042023142936-diagram'
+2023-04-26 14:29:37,119 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'crawler-test26042023142936-diagram']
+2023-04-26 14:29:37,283 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-26 14:30:39,405 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

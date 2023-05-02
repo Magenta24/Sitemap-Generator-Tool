@@ -1,0 +1,1437 @@
+2023-04-23 00:01:49,743 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:01:50,166 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:01:50,538 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:01:50,580 INFO:REQUEST TIME: 0.21
+2023-04-23 00:01:50,611 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:01:50,797 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:01:50,915 INFO:REQUEST TIME: 0.3
+2023-04-23 00:01:50,957 INFO:SINGLE ITERATION TIME: 0.35
+2023-04-23 00:01:51,080 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-23 00:01:51,084 INFO:REQUEST TIME: 0.13
+2023-04-23 00:01:51,102 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-23 00:01:51,754 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-23 00:01:51,847 INFO:REQUEST TIME: 0.75
+2023-04-23 00:01:51,873 INFO:SINGLE ITERATION TIME: 0.77
+2023-04-23 00:01:51,973 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-23 00:01:52,128 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-23 00:01:52,138 INFO:REQUEST TIME: 0.26
+2023-04-23 00:01:52,159 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-23 00:01:52,337 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-23 00:01:52,346 INFO:REQUEST TIME: 0.19
+2023-04-23 00:01:52,370 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-23 00:01:52,514 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-23 00:01:52,518 INFO:REQUEST TIME: 0.15
+2023-04-23 00:01:52,538 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-23 00:01:52,676 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-23 00:01:52,682 INFO:REQUEST TIME: 0.14
+2023-04-23 00:01:52,698 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-23 00:01:52,873 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-23 00:01:52,882 INFO:REQUEST TIME: 0.18
+2023-04-23 00:01:52,912 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-23 00:01:53,078 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-23 00:01:53,086 INFO:REQUEST TIME: 0.17
+2023-04-23 00:01:53,114 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:01:53,117 INFO:VISITED LINKS: 10
+2023-04-23 00:01:53,117 INFO:COLLECTED LINKS: 10
+2023-04-23 00:01:53,117 INFO:QUEUED LINKS: 9
+2023-04-23 00:01:53,148 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023000149-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:01:53,148 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023000149-tree-graph.gv')
+2023-04-23 00:01:53,149 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:01:53,149 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023000149-diagram'
+2023-04-23 00:01:53,150 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023000149-diagram']
+2023-04-23 00:01:53,230 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:05:12,159 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:05:12,504 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:05:12,883 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:05:12,926 INFO:REQUEST TIME: 0.22
+2023-04-23 00:05:12,993 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-23 00:05:13,160 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:05:13,267 INFO:REQUEST TIME: 0.27
+2023-04-23 00:05:13,306 INFO:SINGLE ITERATION TIME: 0.31
+2023-04-23 00:05:13,454 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-23 00:05:13,466 INFO:REQUEST TIME: 0.16
+2023-04-23 00:05:13,482 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-23 00:05:14,188 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-23 00:05:14,289 INFO:REQUEST TIME: 0.81
+2023-04-23 00:05:14,315 INFO:SINGLE ITERATION TIME: 0.83
+2023-04-23 00:05:14,429 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-23 00:05:14,562 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-23 00:05:14,568 INFO:REQUEST TIME: 0.25
+2023-04-23 00:05:14,589 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-23 00:05:14,774 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-23 00:05:14,790 INFO:REQUEST TIME: 0.2
+2023-04-23 00:05:14,814 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-23 00:05:14,961 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-23 00:05:14,976 INFO:REQUEST TIME: 0.16
+2023-04-23 00:05:14,995 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-23 00:05:15,119 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-23 00:05:15,125 INFO:REQUEST TIME: 0.13
+2023-04-23 00:05:15,142 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-23 00:05:15,321 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-23 00:05:15,331 INFO:REQUEST TIME: 0.19
+2023-04-23 00:05:15,360 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-23 00:05:15,540 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-23 00:05:15,546 INFO:REQUEST TIME: 0.19
+2023-04-23 00:05:15,574 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:05:15,574 INFO:VISITED LINKS: 10
+2023-04-23 00:05:15,574 INFO:COLLECTED LINKS: 10
+2023-04-23 00:05:15,574 INFO:QUEUED LINKS: 9
+2023-04-23 00:05:15,581 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023000512-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:05:15,582 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023000512-tree-graph.gv')
+2023-04-23 00:05:15,582 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:05:15,582 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023000512-diagram'
+2023-04-23 00:05:15,583 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023000512-diagram']
+2023-04-23 00:05:15,640 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:09:57,258 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:09:57,559 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:09:57,975 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:09:58,020 INFO:REQUEST TIME: 0.24
+2023-04-23 00:09:58,053 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-23 00:09:58,218 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:09:58,317 INFO:REQUEST TIME: 0.26
+2023-04-23 00:09:58,356 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-23 00:09:58,485 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-23 00:09:58,487 INFO:REQUEST TIME: 0.13
+2023-04-23 00:09:58,505 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-23 00:09:59,186 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-23 00:09:59,278 INFO:REQUEST TIME: 0.77
+2023-04-23 00:09:59,307 INFO:SINGLE ITERATION TIME: 0.8
+2023-04-23 00:09:59,468 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-23 00:09:59,875 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-23 00:09:59,911 INFO:REQUEST TIME: 0.6
+2023-04-23 00:09:59,934 INFO:SINGLE ITERATION TIME: 0.63
+2023-04-23 00:10:00,221 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-23 00:10:00,230 INFO:REQUEST TIME: 0.29
+2023-04-23 00:10:00,259 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-23 00:10:00,400 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-23 00:10:00,407 INFO:REQUEST TIME: 0.15
+2023-04-23 00:10:00,441 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-23 00:10:00,583 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-23 00:10:00,584 INFO:REQUEST TIME: 0.14
+2023-04-23 00:10:00,604 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-23 00:10:00,802 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-23 00:10:00,814 INFO:REQUEST TIME: 0.21
+2023-04-23 00:10:00,845 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:10:01,018 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-23 00:10:01,028 INFO:REQUEST TIME: 0.18
+2023-04-23 00:10:01,139 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:10:01,140 INFO:VISITED LINKS: 10
+2023-04-23 00:10:01,140 INFO:COLLECTED LINKS: 10
+2023-04-23 00:10:01,140 INFO:QUEUED LINKS: 9
+2023-04-23 00:10:01,148 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023000957-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:10:01,148 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023000957-tree-graph.gv')
+2023-04-23 00:10:01,148 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:10:01,149 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023000957-diagram'
+2023-04-23 00:10:01,149 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023000957-diagram']
+2023-04-23 00:10:01,321 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:11:10,714 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:11:11,040 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:11:11,411 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:11:11,459 INFO:REQUEST TIME: 0.22
+2023-04-23 00:11:11,490 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-23 00:11:11,646 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:11:11,739 INFO:REQUEST TIME: 0.25
+2023-04-23 00:11:11,780 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-23 00:11:11,914 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-23 00:11:11,920 INFO:REQUEST TIME: 0.14
+2023-04-23 00:11:11,936 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-23 00:11:12,620 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-23 00:11:12,724 INFO:REQUEST TIME: 0.79
+2023-04-23 00:11:12,751 INFO:SINGLE ITERATION TIME: 0.81
+2023-04-23 00:11:12,861 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-23 00:11:12,996 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-23 00:11:13,004 INFO:REQUEST TIME: 0.25
+2023-04-23 00:11:13,025 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-23 00:11:13,191 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-23 00:11:13,203 INFO:REQUEST TIME: 0.18
+2023-04-23 00:11:13,228 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-23 00:11:13,386 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-23 00:11:13,392 INFO:REQUEST TIME: 0.16
+2023-04-23 00:11:13,413 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-23 00:11:13,552 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-23 00:11:13,560 INFO:REQUEST TIME: 0.15
+2023-04-23 00:11:13,576 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-23 00:11:13,776 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-23 00:11:13,787 INFO:REQUEST TIME: 0.21
+2023-04-23 00:11:13,818 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:11:14,002 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-23 00:11:14,003 INFO:REQUEST TIME: 0.19
+2023-04-23 00:11:14,031 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:11:14,032 INFO:VISITED LINKS: 10
+2023-04-23 00:11:14,032 INFO:COLLECTED LINKS: 10
+2023-04-23 00:11:14,032 INFO:QUEUED LINKS: 9
+2023-04-23 00:11:14,039 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023001110-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:11:14,040 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023001110-tree-graph.gv')
+2023-04-23 00:11:14,040 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:11:14,040 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023001110-diagram'
+2023-04-23 00:11:14,041 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023001110-diagram']
+2023-04-23 00:11:14,102 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:16:09,752 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:16:10,084 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:16:10,444 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:16:10,486 INFO:REQUEST TIME: 0.2
+2023-04-23 00:16:10,518 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-23 00:16:10,670 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:16:10,771 INFO:REQUEST TIME: 0.25
+2023-04-23 00:16:10,810 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-23 00:16:10,934 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-23 00:16:10,940 INFO:REQUEST TIME: 0.13
+2023-04-23 00:16:10,957 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-23 00:16:11,649 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-23 00:16:11,745 INFO:REQUEST TIME: 0.79
+2023-04-23 00:16:11,777 INFO:SINGLE ITERATION TIME: 0.82
+2023-04-23 00:16:11,877 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-23 00:16:12,006 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-23 00:16:12,011 INFO:REQUEST TIME: 0.23
+2023-04-23 00:16:12,031 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-23 00:16:12,204 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-23 00:16:12,211 INFO:REQUEST TIME: 0.18
+2023-04-23 00:16:12,240 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-23 00:16:12,376 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-23 00:16:12,383 INFO:REQUEST TIME: 0.14
+2023-04-23 00:16:12,404 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-23 00:16:12,541 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-23 00:16:12,548 INFO:REQUEST TIME: 0.14
+2023-04-23 00:16:12,568 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-23 00:16:12,741 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-23 00:16:12,749 INFO:REQUEST TIME: 0.18
+2023-04-23 00:16:12,778 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-23 00:16:13,023 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-23 00:16:13,033 INFO:REQUEST TIME: 0.25
+2023-04-23 00:16:13,062 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:16:13,062 INFO:VISITED LINKS: 10
+2023-04-23 00:16:13,062 INFO:COLLECTED LINKS: 10
+2023-04-23 00:16:13,062 INFO:QUEUED LINKS: 9
+2023-04-23 00:16:13,071 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023001609-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:16:13,071 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023001609-tree-graph.gv')
+2023-04-23 00:16:13,071 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:16:13,072 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023001609-diagram'
+2023-04-23 00:16:13,072 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023001609-diagram']
+2023-04-23 00:16:13,131 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:16:13,400 WARNING:Not Found: /favicon.ico
+2023-04-23 00:19:52,414 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:19:52,715 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:19:53,083 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:19:53,127 INFO:REQUEST TIME: 0.2
+2023-04-23 00:19:53,158 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:19:53,311 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:19:53,427 INFO:REQUEST TIME: 0.27
+2023-04-23 00:19:53,465 INFO:SINGLE ITERATION TIME: 0.31
+2023-04-23 00:19:53,589 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-23 00:19:53,595 INFO:REQUEST TIME: 0.13
+2023-04-23 00:19:53,611 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-23 00:19:54,311 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-23 00:19:54,408 INFO:REQUEST TIME: 0.8
+2023-04-23 00:19:54,436 INFO:SINGLE ITERATION TIME: 0.82
+2023-04-23 00:19:54,530 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-23 00:19:54,660 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-23 00:19:54,667 INFO:REQUEST TIME: 0.23
+2023-04-23 00:19:54,687 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-23 00:19:54,854 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-23 00:19:54,861 INFO:REQUEST TIME: 0.17
+2023-04-23 00:19:54,885 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-23 00:19:55,021 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-23 00:19:55,031 INFO:REQUEST TIME: 0.14
+2023-04-23 00:19:55,051 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-23 00:19:55,196 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-23 00:19:55,204 INFO:REQUEST TIME: 0.15
+2023-04-23 00:19:55,221 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-23 00:19:55,393 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-23 00:19:55,401 INFO:REQUEST TIME: 0.18
+2023-04-23 00:19:55,430 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-23 00:19:55,594 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-23 00:19:55,602 INFO:REQUEST TIME: 0.17
+2023-04-23 00:19:55,638 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:19:55,638 INFO:VISITED LINKS: 10
+2023-04-23 00:19:55,638 INFO:COLLECTED LINKS: 10
+2023-04-23 00:19:55,638 INFO:QUEUED LINKS: 9
+2023-04-23 00:19:55,645 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023001952-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:19:55,646 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023001952-tree-graph.gv')
+2023-04-23 00:19:55,646 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:19:55,646 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023001952-diagram'
+2023-04-23 00:19:55,647 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023001952-diagram']
+2023-04-23 00:19:55,702 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:25:31,069 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:25:31,400 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:25:31,782 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:25:31,826 INFO:REQUEST TIME: 0.21
+2023-04-23 00:25:31,857 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:25:31,999 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:25:32,101 INFO:REQUEST TIME: 0.24
+2023-04-23 00:25:32,139 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-23 00:25:32,284 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-23 00:25:32,305 INFO:REQUEST TIME: 0.16
+2023-04-23 00:25:32,321 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-23 00:25:33,067 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-23 00:25:33,164 INFO:REQUEST TIME: 0.84
+2023-04-23 00:25:33,192 INFO:SINGLE ITERATION TIME: 0.87
+2023-04-23 00:25:33,314 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-23 00:25:33,461 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-23 00:25:33,466 INFO:REQUEST TIME: 0.27
+2023-04-23 00:25:33,486 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-23 00:25:33,671 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-23 00:25:33,677 INFO:REQUEST TIME: 0.19
+2023-04-23 00:25:33,704 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-23 00:25:33,842 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-23 00:25:33,849 INFO:REQUEST TIME: 0.15
+2023-04-23 00:25:33,869 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-23 00:25:33,995 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-23 00:25:34,000 INFO:REQUEST TIME: 0.13
+2023-04-23 00:25:34,016 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-23 00:25:34,197 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-23 00:25:34,211 INFO:REQUEST TIME: 0.2
+2023-04-23 00:25:34,307 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-23 00:25:34,483 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-23 00:25:34,490 INFO:REQUEST TIME: 0.18
+2023-04-23 00:25:34,520 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:25:34,520 INFO:VISITED LINKS: 10
+2023-04-23 00:25:34,520 INFO:COLLECTED LINKS: 10
+2023-04-23 00:25:34,520 INFO:QUEUED LINKS: 9
+2023-04-23 00:25:34,528 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023002531-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:25:34,529 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023002531-tree-graph.gv')
+2023-04-23 00:25:34,529 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:25:34,529 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023002531-diagram'
+2023-04-23 00:25:34,530 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023002531-diagram']
+2023-04-23 00:25:34,585 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:28:14,907 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:28:15,285 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:28:15,709 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:28:15,751 INFO:REQUEST TIME: 0.25
+2023-04-23 00:28:15,779 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:28:15,780 INFO:VISITED LINKS: 1
+2023-04-23 00:28:15,780 INFO:COLLECTED LINKS: 1
+2023-04-23 00:28:15,780 INFO:QUEUED LINKS: 0
+2023-04-23 00:28:15,783 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023002814-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:28:15,784 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023002814-tree-graph.gv')
+2023-04-23 00:28:15,784 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:28:15,784 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023002814-diagram'
+2023-04-23 00:28:15,785 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023002814-diagram']
+2023-04-23 00:28:15,831 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:28:32,165 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-23 00:28:32,303 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20272
+2023-04-23 00:28:32,691 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20272
+2023-04-23 00:28:32,693 INFO:REQUEST TIME: 0.03
+2023-04-23 00:28:32,723 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:28:32,723 INFO:VISITED LINKS: 1
+2023-04-23 00:28:32,723 INFO:COLLECTED LINKS: 1
+2023-04-23 00:28:32,723 INFO:QUEUED LINKS: 0
+2023-04-23 00:28:32,727 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl23042023002832-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:28:32,727 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl23042023002832-tree-graph.gv')
+2023-04-23 00:28:32,727 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:28:32,727 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl23042023002832-diagram'
+2023-04-23 00:28:32,728 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl23042023002832-diagram']
+2023-04-23 00:28:32,783 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:28:47,278 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:28:47,723 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:28:48,104 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:28:48,147 INFO:REQUEST TIME: 0.22
+2023-04-23 00:28:48,174 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:28:48,175 INFO:VISITED LINKS: 1
+2023-04-23 00:28:48,175 INFO:COLLECTED LINKS: 1
+2023-04-23 00:28:48,175 INFO:QUEUED LINKS: 0
+2023-04-23 00:28:48,178 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023002847-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:28:48,179 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023002847-tree-graph.gv')
+2023-04-23 00:28:48,179 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:28:48,179 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023002847-diagram'
+2023-04-23 00:28:48,180 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023002847-diagram']
+2023-04-23 00:28:48,227 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:31:42,078 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:31:42,374 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:31:42,774 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:31:42,817 INFO:REQUEST TIME: 0.23
+2023-04-23 00:31:42,845 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:31:42,846 INFO:VISITED LINKS: 1
+2023-04-23 00:31:42,846 INFO:COLLECTED LINKS: 1
+2023-04-23 00:31:42,846 INFO:QUEUED LINKS: 0
+2023-04-23 00:31:42,849 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003142-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:31:42,849 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003142-tree-graph.gv')
+2023-04-23 00:31:42,849 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:31:42,850 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003142-diagram'
+2023-04-23 00:31:42,850 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003142-diagram']
+2023-04-23 00:31:43,011 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:32:01,254 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:32:01,561 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:32:01,935 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:32:01,978 INFO:REQUEST TIME: 0.2
+2023-04-23 00:32:02,005 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:32:02,005 INFO:VISITED LINKS: 1
+2023-04-23 00:32:02,006 INFO:COLLECTED LINKS: 1
+2023-04-23 00:32:02,006 INFO:QUEUED LINKS: 0
+2023-04-23 00:32:02,009 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003201-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:32:02,010 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003201-tree-graph.gv')
+2023-04-23 00:32:02,010 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:32:02,010 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003201-diagram'
+2023-04-23 00:32:02,011 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003201-diagram']
+2023-04-23 00:32:02,063 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:32:20,293 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:32:20,592 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:32:20,974 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:32:21,016 INFO:REQUEST TIME: 0.21
+2023-04-23 00:32:21,044 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:32:21,045 INFO:VISITED LINKS: 1
+2023-04-23 00:32:21,045 INFO:COLLECTED LINKS: 1
+2023-04-23 00:32:21,045 INFO:QUEUED LINKS: 0
+2023-04-23 00:32:21,048 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003220-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:32:21,049 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003220-tree-graph.gv')
+2023-04-23 00:32:21,049 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:32:21,049 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003220-diagram'
+2023-04-23 00:32:21,050 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003220-diagram']
+2023-04-23 00:32:21,096 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:32:35,556 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:32:35,856 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:32:36,222 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:32:36,265 INFO:REQUEST TIME: 0.21
+2023-04-23 00:32:36,293 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:32:36,446 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:32:36,542 INFO:REQUEST TIME: 0.25
+2023-04-23 00:32:36,581 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:32:36,582 INFO:VISITED LINKS: 2
+2023-04-23 00:32:36,582 INFO:COLLECTED LINKS: 2
+2023-04-23 00:32:36,582 INFO:QUEUED LINKS: 1
+2023-04-23 00:32:36,586 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003235-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:32:36,586 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003235-tree-graph.gv')
+2023-04-23 00:32:36,586 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:32:36,587 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003235-diagram'
+2023-04-23 00:32:36,587 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003235-diagram']
+2023-04-23 00:32:36,632 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:33:45,098 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:33:45,373 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:33:45,750 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:33:45,796 INFO:REQUEST TIME: 0.22
+2023-04-23 00:33:45,822 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-23 00:33:45,972 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:33:46,067 INFO:REQUEST TIME: 0.24
+2023-04-23 00:33:46,106 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:33:46,107 INFO:VISITED LINKS: 2
+2023-04-23 00:33:46,107 INFO:COLLECTED LINKS: 2
+2023-04-23 00:33:46,107 INFO:QUEUED LINKS: 1
+2023-04-23 00:33:46,110 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003345-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:33:46,111 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003345-tree-graph.gv')
+2023-04-23 00:33:46,111 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:33:46,111 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003345-diagram'
+2023-04-23 00:33:46,112 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003345-diagram']
+2023-04-23 00:33:46,163 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:34:03,602 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:34:03,949 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:34:04,443 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:34:04,590 INFO:REQUEST TIME: 0.33
+2023-04-23 00:34:04,621 INFO:SINGLE ITERATION TIME: 0.36
+2023-04-23 00:34:04,801 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:34:04,935 INFO:REQUEST TIME: 0.31
+2023-04-23 00:34:04,974 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:34:04,975 INFO:VISITED LINKS: 2
+2023-04-23 00:34:04,975 INFO:COLLECTED LINKS: 2
+2023-04-23 00:34:04,975 INFO:QUEUED LINKS: 1
+2023-04-23 00:34:04,978 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003403-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:34:04,979 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003403-tree-graph.gv')
+2023-04-23 00:34:04,979 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:34:04,979 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003403-diagram'
+2023-04-23 00:34:04,980 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003403-diagram']
+2023-04-23 00:34:05,026 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:34:13,026 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:34:13,289 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:34:13,672 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:34:13,715 INFO:REQUEST TIME: 0.22
+2023-04-23 00:34:13,742 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-23 00:34:13,890 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:34:13,983 INFO:REQUEST TIME: 0.24
+2023-04-23 00:34:14,082 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:34:14,083 INFO:VISITED LINKS: 2
+2023-04-23 00:34:14,083 INFO:COLLECTED LINKS: 2
+2023-04-23 00:34:14,083 INFO:QUEUED LINKS: 1
+2023-04-23 00:34:14,087 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003413-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:34:14,087 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003413-tree-graph.gv')
+2023-04-23 00:34:14,088 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:34:14,088 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003413-diagram'
+2023-04-23 00:34:14,089 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003413-diagram']
+2023-04-23 00:34:14,139 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:34:48,687 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:34:48,981 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:34:49,344 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:34:49,386 INFO:REQUEST TIME: 0.2
+2023-04-23 00:34:49,416 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-23 00:34:49,555 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:34:49,648 INFO:REQUEST TIME: 0.23
+2023-04-23 00:34:49,687 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:34:49,687 INFO:VISITED LINKS: 2
+2023-04-23 00:34:49,687 INFO:COLLECTED LINKS: 2
+2023-04-23 00:34:49,687 INFO:QUEUED LINKS: 1
+2023-04-23 00:34:49,691 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003448-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:34:49,692 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003448-tree-graph.gv')
+2023-04-23 00:34:49,692 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:34:49,692 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003448-diagram'
+2023-04-23 00:34:49,693 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003448-diagram']
+2023-04-23 00:34:49,740 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:34:55,625 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:34:55,906 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:34:56,278 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:34:56,321 INFO:REQUEST TIME: 0.21
+2023-04-23 00:34:56,350 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:34:56,494 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:34:56,587 INFO:REQUEST TIME: 0.24
+2023-04-23 00:34:56,631 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:34:56,632 INFO:VISITED LINKS: 2
+2023-04-23 00:34:56,632 INFO:COLLECTED LINKS: 2
+2023-04-23 00:34:56,632 INFO:QUEUED LINKS: 1
+2023-04-23 00:34:56,636 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003455-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:34:56,636 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003455-tree-graph.gv')
+2023-04-23 00:34:56,637 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:34:56,637 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003455-diagram'
+2023-04-23 00:34:56,638 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003455-diagram']
+2023-04-23 00:34:56,796 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:35:37,186 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:35:37,453 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:35:37,812 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:35:37,856 INFO:REQUEST TIME: 0.2
+2023-04-23 00:35:37,883 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-23 00:35:38,030 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:35:38,125 INFO:REQUEST TIME: 0.24
+2023-04-23 00:35:38,165 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:35:38,166 INFO:VISITED LINKS: 2
+2023-04-23 00:35:38,166 INFO:COLLECTED LINKS: 2
+2023-04-23 00:35:38,166 INFO:QUEUED LINKS: 1
+2023-04-23 00:35:38,171 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003537-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:35:38,171 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003537-tree-graph.gv')
+2023-04-23 00:35:38,171 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:35:38,171 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003537-diagram'
+2023-04-23 00:35:38,172 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003537-diagram']
+2023-04-23 00:35:38,219 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:36:00,518 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:36:00,848 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:36:01,230 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:36:01,272 INFO:REQUEST TIME: 0.22
+2023-04-23 00:36:01,314 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-23 00:36:01,499 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:36:01,606 INFO:REQUEST TIME: 0.29
+2023-04-23 00:36:01,644 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:36:01,645 INFO:VISITED LINKS: 2
+2023-04-23 00:36:01,645 INFO:COLLECTED LINKS: 2
+2023-04-23 00:36:01,645 INFO:QUEUED LINKS: 1
+2023-04-23 00:36:01,649 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003600-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:36:01,649 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003600-tree-graph.gv')
+2023-04-23 00:36:01,649 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:36:01,650 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003600-diagram'
+2023-04-23 00:36:01,650 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003600-diagram']
+2023-04-23 00:36:01,701 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:36:10,809 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:36:11,080 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:36:11,453 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:36:11,495 INFO:REQUEST TIME: 0.21
+2023-04-23 00:36:11,526 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:36:11,662 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:36:11,755 INFO:REQUEST TIME: 0.23
+2023-04-23 00:36:11,796 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:36:11,797 INFO:VISITED LINKS: 2
+2023-04-23 00:36:11,797 INFO:COLLECTED LINKS: 2
+2023-04-23 00:36:11,797 INFO:QUEUED LINKS: 1
+2023-04-23 00:36:11,801 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003610-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:36:11,801 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003610-tree-graph.gv')
+2023-04-23 00:36:11,801 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:36:11,802 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003610-diagram'
+2023-04-23 00:36:11,802 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003610-diagram']
+2023-04-23 00:36:11,858 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:36:23,533 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:36:23,900 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:36:24,319 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:36:24,365 INFO:REQUEST TIME: 0.22
+2023-04-23 00:36:24,397 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-23 00:36:24,552 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:36:24,668 INFO:REQUEST TIME: 0.27
+2023-04-23 00:36:24,714 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:36:24,715 INFO:VISITED LINKS: 2
+2023-04-23 00:36:24,715 INFO:COLLECTED LINKS: 2
+2023-04-23 00:36:24,715 INFO:QUEUED LINKS: 1
+2023-04-23 00:36:24,718 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003623-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:36:24,719 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003623-tree-graph.gv')
+2023-04-23 00:36:24,719 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:36:24,719 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003623-diagram'
+2023-04-23 00:36:24,720 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003623-diagram']
+2023-04-23 00:36:24,774 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:38:37,796 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:38:38,093 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:38:38,511 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:38:38,553 INFO:REQUEST TIME: 0.21
+2023-04-23 00:38:38,580 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:38:38,728 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:38:38,824 INFO:REQUEST TIME: 0.24
+2023-04-23 00:38:38,978 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:38:38,979 INFO:VISITED LINKS: 2
+2023-04-23 00:38:38,979 INFO:COLLECTED LINKS: 2
+2023-04-23 00:38:38,979 INFO:QUEUED LINKS: 1
+2023-04-23 00:38:38,983 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003837-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:38:38,983 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003837-tree-graph.gv')
+2023-04-23 00:38:38,984 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:38:38,984 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003837-diagram'
+2023-04-23 00:38:38,985 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003837-diagram']
+2023-04-23 00:38:39,039 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:39:32,728 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:39:33,031 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:39:33,394 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:39:33,432 INFO:REQUEST TIME: 0.2
+2023-04-23 00:39:33,460 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-23 00:39:33,613 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:39:33,714 INFO:REQUEST TIME: 0.25
+2023-04-23 00:39:33,754 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:39:33,754 INFO:VISITED LINKS: 2
+2023-04-23 00:39:33,754 INFO:COLLECTED LINKS: 2
+2023-04-23 00:39:33,755 INFO:QUEUED LINKS: 1
+2023-04-23 00:39:33,758 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003932-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:39:33,759 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003932-tree-graph.gv')
+2023-04-23 00:39:33,759 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:39:33,759 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003932-diagram'
+2023-04-23 00:39:33,760 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003932-diagram']
+2023-04-23 00:39:33,813 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:39:42,217 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:39:42,482 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:39:42,849 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:39:42,893 INFO:REQUEST TIME: 0.21
+2023-04-23 00:39:42,920 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:39:43,063 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:39:43,158 INFO:REQUEST TIME: 0.24
+2023-04-23 00:39:43,197 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:39:43,197 INFO:VISITED LINKS: 2
+2023-04-23 00:39:43,197 INFO:COLLECTED LINKS: 2
+2023-04-23 00:39:43,197 INFO:QUEUED LINKS: 1
+2023-04-23 00:39:43,201 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003942-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:39:43,202 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023003942-tree-graph.gv')
+2023-04-23 00:39:43,202 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:39:43,202 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023003942-diagram'
+2023-04-23 00:39:43,203 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023003942-diagram']
+2023-04-23 00:39:43,255 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:40:13,988 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:40:14,282 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:40:14,663 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:40:14,706 INFO:REQUEST TIME: 0.21
+2023-04-23 00:40:14,734 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:40:14,885 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:40:14,983 INFO:REQUEST TIME: 0.25
+2023-04-23 00:40:15,021 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:40:15,022 INFO:VISITED LINKS: 2
+2023-04-23 00:40:15,022 INFO:COLLECTED LINKS: 2
+2023-04-23 00:40:15,022 INFO:QUEUED LINKS: 1
+2023-04-23 00:40:15,026 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004013-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:40:15,027 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004013-tree-graph.gv')
+2023-04-23 00:40:15,027 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:40:15,027 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023004013-diagram'
+2023-04-23 00:40:15,028 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023004013-diagram']
+2023-04-23 00:40:15,080 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:40:40,164 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:40:40,445 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:40:40,812 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:40:40,855 INFO:REQUEST TIME: 0.21
+2023-04-23 00:40:40,886 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:40:41,032 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:40:41,128 INFO:REQUEST TIME: 0.24
+2023-04-23 00:40:41,166 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:40:41,166 INFO:VISITED LINKS: 2
+2023-04-23 00:40:41,166 INFO:COLLECTED LINKS: 2
+2023-04-23 00:40:41,166 INFO:QUEUED LINKS: 1
+2023-04-23 00:40:41,171 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004040-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:40:41,171 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004040-tree-graph.gv')
+2023-04-23 00:40:41,171 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:40:41,171 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023004040-diagram'
+2023-04-23 00:40:41,172 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023004040-diagram']
+2023-04-23 00:40:41,225 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:40:50,572 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:40:50,985 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:40:51,455 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:40:51,500 INFO:REQUEST TIME: 0.27
+2023-04-23 00:40:51,552 INFO:SINGLE ITERATION TIME: 0.33
+2023-04-23 00:40:51,707 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:40:51,810 INFO:REQUEST TIME: 0.26
+2023-04-23 00:40:51,849 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:40:51,850 INFO:VISITED LINKS: 2
+2023-04-23 00:40:51,850 INFO:COLLECTED LINKS: 2
+2023-04-23 00:40:51,850 INFO:QUEUED LINKS: 1
+2023-04-23 00:40:51,853 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004050-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:40:51,854 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004050-tree-graph.gv')
+2023-04-23 00:40:51,854 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:40:51,854 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023004050-diagram'
+2023-04-23 00:40:51,855 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023004050-diagram']
+2023-04-23 00:40:51,906 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:40:59,828 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:41:00,119 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:41:00,487 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:41:00,527 INFO:REQUEST TIME: 0.21
+2023-04-23 00:41:00,560 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:41:00,707 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:41:00,800 INFO:REQUEST TIME: 0.24
+2023-04-23 00:41:00,840 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:41:00,841 INFO:VISITED LINKS: 2
+2023-04-23 00:41:00,841 INFO:COLLECTED LINKS: 2
+2023-04-23 00:41:00,841 INFO:QUEUED LINKS: 1
+2023-04-23 00:41:00,845 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004059-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:41:00,846 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004059-tree-graph.gv')
+2023-04-23 00:41:00,846 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:41:00,846 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023004059-diagram'
+2023-04-23 00:41:00,847 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023004059-diagram']
+2023-04-23 00:41:00,897 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:41:11,160 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:41:11,469 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:41:11,847 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:41:11,889 INFO:REQUEST TIME: 0.22
+2023-04-23 00:41:11,916 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-23 00:41:12,046 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:41:12,139 INFO:REQUEST TIME: 0.22
+2023-04-23 00:41:12,241 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:41:12,241 INFO:VISITED LINKS: 2
+2023-04-23 00:41:12,241 INFO:COLLECTED LINKS: 2
+2023-04-23 00:41:12,241 INFO:QUEUED LINKS: 1
+2023-04-23 00:41:12,245 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004111-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:41:12,245 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004111-tree-graph.gv')
+2023-04-23 00:41:12,245 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:41:12,245 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023004111-diagram'
+2023-04-23 00:41:12,246 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023004111-diagram']
+2023-04-23 00:41:12,298 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:42:01,444 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:42:06,577 ERROR:REQUEST TIMETOUT!
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='pis.org.pl', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 62, in __init__
+    source = self._crawling_session.get(url, allow_redirects=True, timeout=5)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='pis.org.pl', port=443): Read timed out. (read timeout=5)
+2023-04-23 00:42:26,491 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:42:26,778 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:42:27,133 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:42:27,175 INFO:REQUEST TIME: 0.2
+2023-04-23 00:42:27,205 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-23 00:42:27,344 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:42:27,443 INFO:REQUEST TIME: 0.24
+2023-04-23 00:42:27,481 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:42:27,482 INFO:VISITED LINKS: 2
+2023-04-23 00:42:27,482 INFO:COLLECTED LINKS: 2
+2023-04-23 00:42:27,482 INFO:QUEUED LINKS: 1
+2023-04-23 00:42:27,485 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004226-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:42:27,486 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004226-tree-graph.gv')
+2023-04-23 00:42:27,486 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:42:27,486 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023004226-diagram'
+2023-04-23 00:42:27,487 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023004226-diagram']
+2023-04-23 00:42:27,538 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:43:31,495 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:43:31,798 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:43:32,153 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:43:32,196 INFO:REQUEST TIME: 0.2
+2023-04-23 00:43:32,231 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-23 00:43:32,383 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:43:32,478 INFO:REQUEST TIME: 0.25
+2023-04-23 00:43:32,517 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:43:32,518 INFO:VISITED LINKS: 2
+2023-04-23 00:43:32,518 INFO:COLLECTED LINKS: 2
+2023-04-23 00:43:32,518 INFO:QUEUED LINKS: 1
+2023-04-23 00:43:32,522 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004331-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:43:32,523 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004331-tree-graph.gv')
+2023-04-23 00:43:32,523 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:43:32,523 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023004331-diagram'
+2023-04-23 00:43:32,524 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023004331-diagram']
+2023-04-23 00:43:32,682 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:43:56,573 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:43:56,923 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:43:57,300 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:43:57,342 INFO:REQUEST TIME: 0.2
+2023-04-23 00:43:57,369 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-23 00:43:57,561 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:43:57,653 INFO:REQUEST TIME: 0.28
+2023-04-23 00:43:57,692 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:43:57,693 INFO:VISITED LINKS: 2
+2023-04-23 00:43:57,693 INFO:COLLECTED LINKS: 2
+2023-04-23 00:43:57,693 INFO:QUEUED LINKS: 1
+2023-04-23 00:43:57,696 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004356-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:43:57,697 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004356-tree-graph.gv')
+2023-04-23 00:43:57,697 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:43:57,697 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023004356-diagram'
+2023-04-23 00:43:57,698 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023004356-diagram']
+2023-04-23 00:43:57,750 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:45:50,376 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:45:50,543 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 503 519
+2023-04-23 00:45:50,543 ERROR:can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 71, in __init__
+    self._logs.log_exception(("ERROR CODE: " + source.status_code + "."))
+                              ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "int") to str
+2023-04-23 00:46:01,916 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:46:02,065 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 503 519
+2023-04-23 00:46:02,066 ERROR:can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 71, in __init__
+    self._logs.log_exception(("ERROR CODE: " + source.status_code + "."))
+                              ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "int") to str
+2023-04-23 00:46:10,491 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:46:15,643 ERROR:REQUEST TIMETOUT!
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='pis.org.pl', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 62, in __init__
+    source = self._crawling_session.get(url, allow_redirects=True, timeout=5)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='pis.org.pl', port=443): Read timed out. (read timeout=5)
+2023-04-23 00:46:27,683 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:46:27,963 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:46:28,333 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:46:28,375 INFO:REQUEST TIME: 0.21
+2023-04-23 00:46:28,402 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-23 00:46:28,564 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:46:28,749 INFO:REQUEST TIME: 0.35
+2023-04-23 00:46:28,793 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:46:28,794 INFO:VISITED LINKS: 2
+2023-04-23 00:46:28,794 INFO:COLLECTED LINKS: 2
+2023-04-23 00:46:28,794 INFO:QUEUED LINKS: 1
+2023-04-23 00:46:28,797 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004627-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:46:28,798 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004627-tree-graph.gv')
+2023-04-23 00:46:28,798 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:46:28,798 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023004627-diagram'
+2023-04-23 00:46:28,799 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023004627-diagram']
+2023-04-23 00:46:28,844 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:48:53,838 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:48:54,126 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:48:54,533 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:48:54,573 INFO:REQUEST TIME: 0.2
+2023-04-23 00:48:54,601 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-23 00:48:54,744 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:48:54,840 INFO:REQUEST TIME: 0.24
+2023-04-23 00:48:54,880 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:48:54,881 INFO:VISITED LINKS: 2
+2023-04-23 00:48:54,881 INFO:COLLECTED LINKS: 2
+2023-04-23 00:48:54,881 INFO:QUEUED LINKS: 1
+2023-04-23 00:48:54,885 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004853-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:48:54,886 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004853-tree-graph.gv')
+2023-04-23 00:48:54,886 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:48:54,886 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023004853-diagram'
+2023-04-23 00:48:54,887 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023004853-diagram']
+2023-04-23 00:48:55,039 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:48:55,107 ERROR:Internal Server Error: /scrap/
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py", line 92, in scrap
+    return render(request,
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 73: 'endif'. Did you forget to register or load this tag?
+2023-04-23 00:49:35,169 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:49:35,523 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:49:35,878 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:49:35,920 INFO:REQUEST TIME: 0.2
+2023-04-23 00:49:35,949 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-23 00:49:36,100 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:49:36,217 INFO:REQUEST TIME: 0.27
+2023-04-23 00:49:36,254 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:49:36,255 INFO:VISITED LINKS: 2
+2023-04-23 00:49:36,255 INFO:COLLECTED LINKS: 2
+2023-04-23 00:49:36,255 INFO:QUEUED LINKS: 1
+2023-04-23 00:49:36,259 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004935-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:49:36,260 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023004935-tree-graph.gv')
+2023-04-23 00:49:36,260 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:49:36,260 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023004935-diagram'
+2023-04-23 00:49:36,261 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023004935-diagram']
+2023-04-23 00:49:36,317 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:50:44,838 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:50:45,116 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:50:45,471 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:50:45,514 INFO:REQUEST TIME: 0.2
+2023-04-23 00:50:45,614 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-23 00:50:45,762 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:50:45,858 INFO:REQUEST TIME: 0.24
+2023-04-23 00:50:45,896 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:50:45,897 INFO:VISITED LINKS: 2
+2023-04-23 00:50:45,897 INFO:COLLECTED LINKS: 2
+2023-04-23 00:50:45,897 INFO:QUEUED LINKS: 1
+2023-04-23 00:50:45,900 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023005044-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:50:45,901 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023005044-tree-graph.gv')
+2023-04-23 00:50:45,901 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:50:45,901 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023005044-diagram'
+2023-04-23 00:50:45,902 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023005044-diagram']
+2023-04-23 00:50:45,955 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:50:59,089 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:50:59,381 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:50:59,761 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:50:59,803 INFO:REQUEST TIME: 0.21
+2023-04-23 00:50:59,838 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:50:59,978 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:51:00,091 INFO:REQUEST TIME: 0.25
+2023-04-23 00:51:00,129 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:51:00,130 INFO:VISITED LINKS: 2
+2023-04-23 00:51:00,130 INFO:COLLECTED LINKS: 2
+2023-04-23 00:51:00,130 INFO:QUEUED LINKS: 1
+2023-04-23 00:51:00,133 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023005059-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:51:00,134 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023005059-tree-graph.gv')
+2023-04-23 00:51:00,134 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:51:00,134 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023005059-diagram'
+2023-04-23 00:51:00,135 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023005059-diagram']
+2023-04-23 00:51:00,186 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:51:23,641 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-23 00:51:23,937 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:51:24,305 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-23 00:51:24,347 INFO:REQUEST TIME: 0.21
+2023-04-23 00:51:24,375 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-23 00:51:24,516 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-23 00:51:24,615 INFO:REQUEST TIME: 0.24
+2023-04-23 00:51:24,654 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:51:24,654 INFO:VISITED LINKS: 2
+2023-04-23 00:51:24,654 INFO:COLLECTED LINKS: 2
+2023-04-23 00:51:24,654 INFO:QUEUED LINKS: 1
+2023-04-23 00:51:24,658 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023005123-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:51:24,658 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis23042023005123-tree-graph.gv')
+2023-04-23 00:51:24,658 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:51:24,659 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis23042023005123-diagram'
+2023-04-23 00:51:24,659 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis23042023005123-diagram']
+2023-04-23 00:51:24,702 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 00:51:54,909 DEBUG:Starting new HTTPS connection (1): crawler-test.com:443
+2023-04-23 00:52:00,245 ERROR:REQUEST TIMETOUT!
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='crawler-test.com', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 62, in __init__
+    source = self._crawling_session.get(url, allow_redirects=True, timeout=5)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='crawler-test.com', port=443): Read timed out. (read timeout=5)
+2023-04-23 00:53:03,234 ERROR:Invalid URL 'pzjudo.pl': No scheme supplied. Perhaps you meant https://pzjudo.pl?
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 62, in __init__
+    source = self._crawling_session.get(url, allow_redirects=True, timeout=5)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'pzjudo.pl': No scheme supplied. Perhaps you meant https://pzjudo.pl?
+2023-04-23 00:53:24,547 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-23 00:53:25,390 DEBUG:http://web.pzjudo.pl:80 "GET / HTTP/1.1" 200 None
+2023-04-23 00:53:26,261 DEBUG:http://web.pzjudo.pl:80 "GET / HTTP/1.1" 200 None
+2023-04-23 00:53:26,318 INFO:REQUEST TIME: 0.79
+2023-04-23 00:53:26,345 INFO:SINGLE ITERATION TIME: 0.82
+2023-04-23 00:53:27,043 DEBUG:http://web.pzjudo.pl:80 "GET /kontakt HTTP/1.1" 200 None
+2023-04-23 00:53:27,080 INFO:REQUEST TIME: 0.73
+2023-04-23 00:53:27,089 INFO:SINGLE ITERATION TIME: 0.74
+2023-04-23 00:53:28,013 DEBUG:http://web.pzjudo.pl:80 "GET /strefa-sedziowska HTTP/1.1" 200 None
+2023-04-23 00:53:28,060 INFO:REQUEST TIME: 0.97
+2023-04-23 00:53:28,082 INFO:SINGLE ITERATION TIME: 0.99
+2023-04-23 00:53:28,837 DEBUG:http://web.pzjudo.pl:80 "GET /strefa-szkoleniowa HTTP/1.1" 200 None
+2023-04-23 00:53:28,892 INFO:REQUEST TIME: 0.81
+2023-04-23 00:53:28,902 INFO:SINGLE ITERATION TIME: 0.82
+2023-04-23 00:53:29,646 DEBUG:http://web.pzjudo.pl:80 "GET /pomagamy-ukrainie HTTP/1.1" 200 None
+2023-04-23 00:53:29,693 INFO:REQUEST TIME: 0.79
+2023-04-23 00:53:29,715 INFO:SINGLE ITERATION TIME: 0.81
+2023-04-23 00:53:30,447 DEBUG:http://web.pzjudo.pl:80 "GET /informacja-o-kwalifikacjach-do-oom-koszalin-2023 HTTP/1.1" 200 None
+2023-04-23 00:53:30,450 INFO:REQUEST TIME: 0.73
+2023-04-23 00:53:30,457 INFO:SINGLE ITERATION TIME: 0.74
+2023-04-23 00:53:31,162 DEBUG:http://web.pzjudo.pl:80 "GET /komunikat-w-sprawie-zglaszania-zawodnikow-na-zawody-przez-system-judobase HTTP/1.1" 200 None
+2023-04-23 00:53:31,200 INFO:REQUEST TIME: 0.74
+2023-04-23 00:53:31,207 INFO:SINGLE ITERATION TIME: 0.75
+2023-04-23 00:53:31,996 DEBUG:http://web.pzjudo.pl:80 "GET /licencje-polskiego-zwiazku-judo-2023 HTTP/1.1" 200 None
+2023-04-23 00:53:32,041 INFO:REQUEST TIME: 0.83
+2023-04-23 00:53:32,052 INFO:SINGLE ITERATION TIME: 0.84
+2023-04-23 00:53:32,764 DEBUG:http://web.pzjudo.pl:80 "GET /ogolnopolska-olimpiada-mlodziezy-glubiak-banaszewska-i-lic-bronia-tytulow HTTP/1.1" 200 None
+2023-04-23 00:53:32,801 INFO:REQUEST TIME: 0.75
+2023-04-23 00:53:32,813 INFO:SINGLE ITERATION TIME: 0.76
+2023-04-23 00:53:33,545 DEBUG:http://web.pzjudo.pl:80 "GET /reprezentanci-polski-trenuja-w-spale-i-zakopanem HTTP/1.1" 200 None
+2023-04-23 00:53:33,589 INFO:REQUEST TIME: 0.77
+2023-04-23 00:53:33,599 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 00:53:33,600 INFO:VISITED LINKS: 10
+2023-04-23 00:53:33,600 INFO:COLLECTED LINKS: 10
+2023-04-23 00:53:33,600 INFO:QUEUED LINKS: 9
+2023-04-23 00:53:33,610 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/web23042023005324-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 00:53:33,610 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/web23042023005324-tree-graph.gv')
+2023-04-23 00:53:33,610 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 00:53:33,611 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/web23042023005324-diagram'
+2023-04-23 00:53:33,611 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'web23042023005324-diagram']
+2023-04-23 00:53:33,672 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 05:00:28,612 WARNING:Not Found: /favicon.ico
+2023-04-23 05:01:47,951 WARNING:Not Found: /favicon.ico
+2023-04-23 05:06:46,506 DEBUG:Starting new HTTPS connection (1): www.geeksforgeeks.org:443
+2023-04-23 05:06:46,632 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:06:46,727 DEBUG:https://www.geeksforgeeks.org:443 "GET / HTTP/1.1" 200 26371
+2023-04-23 05:06:46,729 INFO:REQUEST TIME: 0.02
+2023-04-23 05:06:46,803 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-23 05:06:46,832 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial HTTP/1.1" 301 0
+2023-04-23 05:06:46,883 DEBUG:https://www.geeksforgeeks.org:443 "GET /learn-data-structures-and-algorithms-dsa-tutorial/ HTTP/1.1" 200 35884
+2023-04-23 05:06:46,889 INFO:REQUEST TIME: 0.09
+2023-04-23 05:06:46,988 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-23 05:06:47,018 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure HTTP/1.1" 301 0
+2023-04-23 05:06:47,055 DEBUG:https://www.geeksforgeeks.org:443 "GET /array-data-structure/ HTTP/1.1" 200 26085
+2023-04-23 05:06:47,057 INFO:REQUEST TIME: 0.07
+2023-04-23 05:06:47,244 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-23 05:06:47,274 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list HTTP/1.1" 301 0
+2023-04-23 05:06:47,313 DEBUG:https://www.geeksforgeeks.org:443 "GET /data-structures/linked-list/ HTTP/1.1" 200 25468
+2023-04-23 05:06:47,315 INFO:REQUEST TIME: 0.07
+2023-04-23 05:06:47,405 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-23 05:06:47,435 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure HTTP/1.1" 301 0
+2023-04-23 05:06:47,476 DEBUG:https://www.geeksforgeeks.org:443 "GET /stack-data-structure/ HTTP/1.1" 200 26390
+2023-04-23 05:06:47,478 INFO:REQUEST TIME: 0.07
+2023-04-23 05:06:47,572 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-23 05:06:47,601 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure HTTP/1.1" 301 0
+2023-04-23 05:06:47,644 DEBUG:https://www.geeksforgeeks.org:443 "GET /queue-data-structure/ HTTP/1.1" 200 26363
+2023-04-23 05:06:47,646 INFO:REQUEST TIME: 0.07
+2023-04-23 05:06:47,726 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-23 05:06:47,756 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:06:47,795 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-tree-data-structure/ HTTP/1.1" 200 26342
+2023-04-23 05:06:47,799 INFO:REQUEST TIME: 0.07
+2023-04-23 05:06:47,861 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-23 05:06:47,893 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure HTTP/1.1" 301 0
+2023-04-23 05:06:47,932 DEBUG:https://www.geeksforgeeks.org:443 "GET /binary-search-tree-data-structure/ HTTP/1.1" 200 25717
+2023-04-23 05:06:47,934 INFO:REQUEST TIME: 0.07
+2023-04-23 05:06:48,004 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-23 05:06:48,040 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure HTTP/1.1" 301 0
+2023-04-23 05:06:48,084 DEBUG:https://www.geeksforgeeks.org:443 "GET /heap-data-structure/ HTTP/1.1" 200 25526
+2023-04-23 05:06:48,086 INFO:REQUEST TIME: 0.08
+2023-04-23 05:06:48,157 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-23 05:06:48,189 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure HTTP/1.1" 301 0
+2023-04-23 05:06:48,227 DEBUG:https://www.geeksforgeeks.org:443 "GET /hashing-data-structure/ HTTP/1.1" 200 25959
+2023-04-23 05:06:48,229 INFO:REQUEST TIME: 0.07
+2023-04-23 05:06:48,300 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-23 05:06:48,301 INFO:VISITED LINKS: 10
+2023-04-23 05:06:48,301 INFO:COLLECTED LINKS: 10
+2023-04-23 05:06:48,301 INFO:QUEUED LINKS: 9
+2023-04-23 05:06:48,312 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023050646-tree-graph.gv' with encoding 'utf-8'
+2023-04-23 05:06:48,312 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www23042023050646-tree-graph.gv')
+2023-04-23 05:06:48,312 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-23 05:06:48,313 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www23042023050646-diagram'
+2023-04-23 05:06:48,313 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www23042023050646-diagram']
+2023-04-23 05:06:48,389 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-23 05:13:09,490 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py changed, reloading.

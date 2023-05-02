@@ -1,0 +1,221 @@
+http://web.pzjudo.pl/
+├── http://web.pzjudo.pl/archive
+│   ├── http://web.pzjudo.pl/archive/202011
+│   ├── http://web.pzjudo.pl/archive/202012
+│   ├── http://web.pzjudo.pl/archive/202101
+│   ├── http://web.pzjudo.pl/archive/202102
+│   ├── http://web.pzjudo.pl/archive/202103
+│   ├── http://web.pzjudo.pl/archive/202104
+│   ├── http://web.pzjudo.pl/archive/202105
+│   ├── http://web.pzjudo.pl/archive/202106
+│   ├── http://web.pzjudo.pl/archive/202107
+│   ├── http://web.pzjudo.pl/archive/202108
+│   ├── http://web.pzjudo.pl/archive/202109
+│   ├── http://web.pzjudo.pl/archive/202110
+│   ├── http://web.pzjudo.pl/archive/202111
+│   ├── http://web.pzjudo.pl/archive/202112
+│   ├── http://web.pzjudo.pl/archive/202201
+│   ├── http://web.pzjudo.pl/archive/202202
+│   ├── http://web.pzjudo.pl/archive/202203
+│   ├── http://web.pzjudo.pl/archive/202204
+│   ├── http://web.pzjudo.pl/archive/202205
+│   ├── http://web.pzjudo.pl/archive/202206
+│   ├── http://web.pzjudo.pl/archive/202207
+│   ├── http://web.pzjudo.pl/archive/202208
+│   ├── http://web.pzjudo.pl/archive/202209
+│   ├── http://web.pzjudo.pl/archive/202210
+│   ├── http://web.pzjudo.pl/archive/202211
+│   ├── http://web.pzjudo.pl/archive/202212
+│   ├── http://web.pzjudo.pl/archive/202301
+│   ├── http://web.pzjudo.pl/archive/202302
+│   ├── http://web.pzjudo.pl/archive/202303
+│   ├── http://web.pzjudo.pl/archive/202304
+│   ├── http://web.pzjudo.pl/archive?page=1
+│   └── http://web.pzjudo.pl/archive?page=2
+├── http://web.pzjudo.pl/baza-klubow
+├── http://web.pzjudo.pl/biuletyn-informacji-publicznej
+│   ├── http://web.pzjudo.pl/biuletyn-informacji-publicznej-komisja-rewizyjna
+│   ├── http://web.pzjudo.pl/biuletyn-informacji-publicznej-komisja-statutowa
+│   ├── http://web.pzjudo.pl/biuletyn-informacji-publicznej-kongres
+│   ├── http://web.pzjudo.pl/biuletyn-informacji-publicznej-protokoly-z-walnego-zgromadzenia
+│   ├── http://web.pzjudo.pl/biuletyn-informacji-publicznej-protokoly-zarzadu-pzjudo
+│   ├── http://web.pzjudo.pl/biuletyn-informacji-publicznej-uchwaly-zarzadu-pzjudo
+│   ├── http://web.pzjudo.pl/biuletyn-informacji-publicznej-zamowienia-i-konkursy
+│   └── http://web.pzjudo.pl/biuletyn-informacji-publicznej-zarzad
+├── http://web.pzjudo.pl/content/historia-judo
+├── http://web.pzjudo.pl/content/historia-pzjudo
+├── http://web.pzjudo.pl/deklaracja-dostepnosci
+├── http://web.pzjudo.pl/edukacja
+├── http://web.pzjudo.pl/european-open-w-pradze-zloty-medal-arlety-podolak
+├── http://web.pzjudo.pl/european-open-w-warszawie-5-medali-polakow
+├── http://web.pzjudo.pl/european-open-w-warszawie-bartlomiej-garbacik-i-wiktor-mrowczynski-ze-srebrnymi-medalami
+├── http://web.pzjudo.pl/european-open-w-warszawie-piotr-kuczera-i-maciej-sarnacki-poznali-rywali
+├── http://web.pzjudo.pl/filmy
+├── http://web.pzjudo.pl/galeria-foto
+├── http://web.pzjudo.pl/galeriafoto/european-open-judo-men-02-03032019-warszawa
+├── http://web.pzjudo.pl/glowna-komisja-sedziowska
+├── http://web.pzjudo.pl/informacja-o-kwalifikacjach-do-oom-koszalin-2023
+│   ├── http://web.pzjudo.pl/sites/default/files/default_images/logo_pzjudo_1.png
+│   └── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/kwalifikacje_do_oom_2023_korekta_20.03.2023_0.pdf
+├── http://web.pzjudo.pl/informacje-z-zebrania-zarzadu
+├── http://web.pzjudo.pl/judo-czysty-sport-antydoping
+│   ├── http://web.pzjudo.pl/newsletter-polada-listopad
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-czerwiec-2
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-czerwiec-3
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-grudzien-3
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-kwiecien-1
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-kwiecien-2
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-lipiec-1
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-lipiec-2
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-listopad-2
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-luty-2
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-luty-3
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-maj-1
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-maj-2
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-marzec-2
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-marzec-3
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-marzec-4
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-pazdziernik-2
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-pazdziernik-3
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-sierpien-3
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-sierpien-4
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-styczen-2
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-styczen-3
+│   ├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-wrzesien-0
+│   └── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-wrzesien-1
+├── http://web.pzjudo.pl/komisja-dan
+├── http://web.pzjudo.pl/komisja-dyscyplinarna
+├── http://web.pzjudo.pl/komisja-odznaczen
+├── http://web.pzjudo.pl/komisja-rewizyjna
+├── http://web.pzjudo.pl/komunikat-w-sprawie-zglaszania-zawodnikow-na-zawody-przez-system-judobase
+│   └── http://web.pzjudo.pl/karta-ijf-waznosc-karty-do-31-12-2016-oraz-wykaz-danych-do-uzyskania-licencji-ijf
+├── http://web.pzjudo.pl/kontakt
+├── http://web.pzjudo.pl/licencje-polskiego-zwiazku-judo-2023
+│   ├── http://web.pzjudo.pl/ankieta-klubowa
+│   ├── http://web.pzjudo.pl/deklaracja-klubowa
+│   ├── http://web.pzjudo.pl/ewidencja-i-licencje-trenerow-pz-judo-na-rok-2021
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2017/regulamin_zmiany_barw_klubowych_polskiego_zwiazku_judo.pdf
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/1._informacje_dotyczace_licencji_w_2023_r.pdf
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/2._wniosek-licencja-zaw._2023.docx
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/2023-_wniosek_o_licencje_zawodnika_ozn.pdf
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/3._wniosek-licencja-zaw._2023.pdf
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/4._wniosek_o_licencje_sedziego_2023.pdf
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/5._oplaty_pz_judo_w_2023_r_0.pdf
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/6._regulamin_zmiany_barw_klubowych_polskiego_zwiazku_judo.pdf
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/7._normy_wynikowe_klas_sportowych.pdf
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/8._licencja_trenera_wniosek-2023.docx
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/9._licencja_trenera_wniosek-2023-zal.1.docx
+│   ├── http://web.pzjudo.pl/strefa-szkoleniowa/dokumenty-do-pobrania
+│   └── http://web.pzjudo.pl/wykaz-dokumentow-rejestracyjnych-klubu
+├── http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-kwiecien-3
+│   └── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/newsletter_polada_kwiecien_2023.pdf
+├── http://web.pzjudo.pl/ochrona-danych-osobowych
+├── http://web.pzjudo.pl/ogolnopolska-olimpiada-mlodziezy-glubiak-i-banaszewska-ponownie-najlepsze
+├── http://web.pzjudo.pl/ogolnopolska-olimpiada-mlodziezy-w-czwartek-i-piatek-mistrzowska-rywalizacja-w-koszalinie
+├── http://web.pzjudo.pl/polscy-medalisci-judo
+├── http://web.pzjudo.pl/pomagamy-ukrainie
+├── http://web.pzjudo.pl/powolanie-na-ec-sarajewo-20-21052023-kn-seniorek-i-u23-kobiet
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/28.04_powolanie_bp_seniorek_ec_sarajewo_20-21.05.2023.pdf
+│   ├── http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/28.04_powolanie_frkf_u23_kobiet_ec_sarajewo_20-21.05.2023_0.pdf
+│   └── http://web.pzjudo.pl/strefa-szkoleniowa/powolania-wyjazdy
+├── http://web.pzjudo.pl/puchar-europy-kadetow-tomasz-jopek-swietny-turniej-w-bielsku-bialej
+├── http://web.pzjudo.pl/puchar-europy-kadetow-tomasz-jopek-swietny-turniej-w-bielsku-bialej-0
+├── http://web.pzjudo.pl/rada-trenerow
+├── http://web.pzjudo.pl/rada-zawodnicza
+├── http://web.pzjudo.pl/rodzaj-tresci/bip-komisja-statutowa
+├── http://web.pzjudo.pl/rodzaj-tresci/inicjatywy-klubowe
+│   ├── http://web.pzjudo.pl/brother-olympic-camp-gwiazdy-igrzysk-z-lukasem-krpalek
+│   ├── http://web.pzjudo.pl/camp-judo-z-mistrzem-marianem-talajem-w-chelmie-17092022
+│   ├── http://web.pzjudo.pl/camp-treningowy-po-turnieju-w-olesnicy
+│   ├── http://web.pzjudo.pl/ii-mistrzostwa-mazowsza-w-judo-mastersow-amatorow
+│   └── http://web.pzjudo.pl/inicjatywy-klubowe
+├── http://web.pzjudo.pl/rodzaj-tresci/judo-osob-niepelnosprawnych
+├── http://web.pzjudo.pl/rodzaj-tresci/judo-weteranow
+├── http://web.pzjudo.pl/rodzaj-tresci/kata
+├── http://web.pzjudo.pl/rodzaj-tresci/ranking
+├── http://web.pzjudo.pl/rodzaj-tresci/system-sportu-mlodziezowego
+├── http://web.pzjudo.pl/stanislaw-piechota-z-roku-na-rok-widze-coraz-wiekszy-progres
+├── http://web.pzjudo.pl/strefa-sedziowska
+│   ├── http://web.pzjudo.pl/content/obsady
+│   ├── http://web.pzjudo.pl/strefasedziowska/aktualne-wymagania-dla-wyjezdzajacych-na-zawody-eju-tzw-covid-protokol
+│   ├── http://web.pzjudo.pl/strefasedziowska/egzamin-na-wyzsze-stopnie-sedziowskie-2021
+│   ├── http://web.pzjudo.pl/strefasedziowska/eju-regulations-referees-2021
+│   ├── http://web.pzjudo.pl/strefasedziowska/ijf-sport-and-organisation-rules-8-october-2019
+│   ├── http://web.pzjudo.pl/strefasedziowska/informacje-organizacyjne-mistrzostwa-swiata-weteranow
+│   ├── http://web.pzjudo.pl/strefasedziowska/komunikat-w-sprawie-organizacji-szkolen-w-okregach-w-2022-roku
+│   ├── http://web.pzjudo.pl/strefasedziowska/kurs-weryfikacyjny-dla-sedziow-szkolenia-centralnego-2021
+│   ├── http://web.pzjudo.pl/strefasedziowska/kurs-weryfikacyjny-dla-sedziow-szkolenia-centralnego-2023
+│   ├── http://web.pzjudo.pl/strefasedziowska/lista-kontaktowa-sedziow-szkolenia-centralnego-2019
+│   ├── http://web.pzjudo.pl/strefasedziowska/nominacje-na-zawody-eju
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-amp-pila-1-2042023
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-baltic-cup-4-5-62022
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-eo-warszawa
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-eo-warszawa-0
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-european-university-games
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mistrzostw-swiata-weteranow
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-juniorow-10-12032023
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-juniorow-rybnik-11-1303
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-mlodziezy
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-mlodziezy-0
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-mlodzikow-kielce
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-seniorow
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-seniorow-i-dmp-seniorow
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-weteranow
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-weteranow-0
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-wojewodztw-warszawa
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-oom
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-oom-w-bialymstoku
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-oom-w-koszalinie
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-otwarte-mp-osob-z-niepelnosprawnoscia
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pe-juniorow-poznan
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-4022023
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-i-juniorow-mlodszych-bytom
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-i-juniorow-mlodszych-olesnica-20-21112021
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-i-juniorow-mlodszych-piaseczno-5032022
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-mlodszych-27112022-olesnica
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-mlodszych-4032023-piaseczno
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-mlodszych-bytom-6112021
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-sochaczew
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-sochaczew-11092022
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-ozn
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-seniorow-nowa-wies-11062022
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-seniorow-warszawa-3092022
+│   ├── http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-turniej-nadziei-olimpijskich
+│   ├── http://web.pzjudo.pl/strefasedziowska/odszedl-od-nas-henryk-styra
+│   ├── http://web.pzjudo.pl/strefasedziowska/powolania-na-european-cup-cadets-bielsko-biala-21-22052022
+│   ├── http://web.pzjudo.pl/strefasedziowska/przepisy-walki-judo-2018-2020
+│   ├── http://web.pzjudo.pl/strefasedziowska/przepisy-walki-u12-na-rok-2019-zatwierdzone
+│   ├── http://web.pzjudo.pl/strefasedziowska/ranking-eju-polscy-sedziowie-ostatnie-3-lata
+│   ├── http://web.pzjudo.pl/strefasedziowska/regulamin-glownej-komisji-sedziowskiej-zatwierdzony-uchwala-zarzadu-pzjudo-w-dniu-5
+│   ├── http://web.pzjudo.pl/strefasedziowska/regulamin-kolegium-sedziow-zatwierdzony-uchwala-zarzadu-pzjudo-w-dniu-5-kwietnia
+│   ├── http://web.pzjudo.pl/strefasedziowska/regulamin-sedziowski-zatwierdzony-uchwala-zarzadu-pzjudo-w-dniu-26-lutego-2016-r
+│   ├── http://web.pzjudo.pl/strefasedziowska/sedziowie-powolani-na-european-cup-juniors-w-poznaniu
+│   ├── http://web.pzjudo.pl/strefasedziowska/seminarium-dla-sedziow-i-trenerow-judo-19102022
+│   ├── http://web.pzjudo.pl/strefasedziowska/seminarium-weryfikacyjnego-sedziow-szkolenia-centralnego-polskiego-zwiazku-judo
+│   ├── http://web.pzjudo.pl/strefasedziowska/sprawozdanie-z-kursu-weryfikacyjno-szkoleniowego-dla-sedziow-szkolenia-centralnego
+│   ├── http://web.pzjudo.pl/strefasedziowska/stawki-sedziowskie-i-ryczalt-na-koszty-przejazdu
+│   ├── http://web.pzjudo.pl/strefasedziowska/struktura-organizacji-sedziowskiej-pzjudo-zatwierdzona-uchwala-zarzadu-pzjudo-w
+│   ├── http://web.pzjudo.pl/strefasedziowska/system-klasyfikacji-sedziow-2020
+│   ├── http://web.pzjudo.pl/strefasedziowska/system-klasyfikacji-sedziow-judo
+│   ├── http://web.pzjudo.pl/strefasedziowska/szkolenia-w-okregach-wytyczne-2023
+│   ├── http://web.pzjudo.pl/strefasedziowska/szkolenie-dla-trenerow-i-sedziow-pzjudo
+│   ├── http://web.pzjudo.pl/strefasedziowska/wymiana-sedziowska-i-ranking-polskich-sedziow-eju
+│   ├── http://web.pzjudo.pl/strefasedziowska/wyniki-egzaminow-na-wyzsze-stopnie-sedziowskie
+│   ├── http://web.pzjudo.pl/strefasedziowska/wytyczne-do-organizowania-kursow-sedziowskich-w-okregach-w-2021-r
+│   ├── http://web.pzjudo.pl/strefasedziowska/zestawienie-sedziow-i-ich-stopni-szkoleniowych
+│   ├── http://web.pzjudo.pl/strefasedziowska/zmiany-w-przepisach-walki-2017
+│   └── http://web.pzjudo.pl/strefasedziowska/zmiany-w-przepisach-walki-wazne-od-1012018
+├── http://web.pzjudo.pl/strefa-szkoleniowa
+│   ├── http://web.pzjudo.pl/archiwum-strefa-szkoleniowa
+│   ├── http://web.pzjudo.pl/strefa-szkoleniowa/zgrupowania-konsultacje
+│   ├── http://web.pzjudo.pl/szkoleniowa-dokumenty
+│   ├── http://web.pzjudo.pl/szkoleniowa-kadry-narodowe
+│   ├── http://web.pzjudo.pl/szkoleniowa-kalendarze
+│   ├── http://web.pzjudo.pl/szkoleniowa-powolania
+│   └── http://web.pzjudo.pl/wykaz-kadry-trenerskiej-i-wspolpracujacej-pzjudo
+├── http://web.pzjudo.pl/user/password
+├── http://web.pzjudo.pl/waldemar-legien-ryszard-zieniawa-stworzyl-polska-szkole-judo
+├── http://web.pzjudo.pl/wydarzenia/4179/mistrzostwa-polski-judo-kata-14052023-radom
+├── http://web.pzjudo.pl/wydarzenia/4186/mistrzostwa-polski-judo-weteranow-i-amatorow
+├── http://web.pzjudo.pl/zarzad-polskiego-zwiazku-judo
+└── http://web.pzjudo.pl/zawody

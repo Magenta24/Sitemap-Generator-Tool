@@ -1,0 +1,22 @@
+2023-04-26 14:29:04,198 DEBUG:Starting new HTTPS connection (1): crawler-test.com:443
+2023-04-26 14:29:04,660 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 None
+2023-04-26 14:29:05,312 DEBUG:https://crawler-test.com:443 "GET / HTTP/1.1" 200 None
+2023-04-26 14:29:05,314 ERROR:'<' not supported between instances of 'Response' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 150, in bfs_scraper
+    website_source, website_headers = self.make_request(current_node['url'])
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 455, in make_request
+    if website_req_result.status_code >= 200 and website_req_result < 400:
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'Response' and 'int'
+2023-04-26 14:29:05,315 INFO:VISITED LINKS: 1
+2023-04-26 14:29:05,315 INFO:COLLECTED LINKS: 0
+2023-04-26 14:29:05,315 INFO:QUEUED LINKS: 0
+2023-04-26 14:29:05,324 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test26042023142904-tree-graph.gv' with encoding 'utf-8'
+2023-04-26 14:29:05,324 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/crawler-test26042023142904-tree-graph.gv')
+2023-04-26 14:29:05,325 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-26 14:29:05,325 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/crawler-test26042023142904-diagram'
+2023-04-26 14:29:05,326 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'crawler-test26042023142904-diagram']
+2023-04-26 14:29:05,375 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-26 14:29:32,327 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

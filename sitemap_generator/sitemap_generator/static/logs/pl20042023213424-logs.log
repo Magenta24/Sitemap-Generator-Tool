@@ -1,0 +1,647 @@
+2023-04-20 21:34:24,478 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-20 21:34:24,625 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 21025
+2023-04-20 21:34:24,969 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 21025
+2023-04-20 21:34:24,971 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:25,040 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-20 21:34:25,066 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 84544
+2023-04-20 21:34:25,091 INFO:REQUEST TIME: 0.05
+2023-04-20 21:34:25,292 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-20 21:34:25,604 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wolna_tre%C5%9B%C4%87 HTTP/1.1" 200 None
+2023-04-20 21:34:25,695 INFO:REQUEST TIME: 0.4
+2023-04-20 21:34:25,749 INFO:SINGLE ITERATION TIME: 0.46
+2023-04-20 21:34:25,773 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Encyklopedia HTTP/1.1" 200 None
+2023-04-20 21:34:25,784 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:25,863 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-20 21:34:25,888 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Pierwsze_kroki HTTP/1.1" 200 15063
+2023-04-20 21:34:25,890 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:25,906 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:34:25,931 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii HTTP/1.1" 200 29825
+2023-04-20 21:34:25,934 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:26,029 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-20 21:34:26,054 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii HTTP/1.1" 200 12974
+2023-04-20 21:34:26,055 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:26,074 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:34:26,212 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze HTTP/1.1" 200 None
+2023-04-20 21:34:26,227 INFO:REQUEST TIME: 0.15
+2023-04-20 21:34:26,336 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-20 21:34:26,361 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne HTTP/1.1" 200 20175
+2023-04-20 21:34:26,362 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:26,416 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:34:26,440 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Technika HTTP/1.1" 200 31552
+2023-04-20 21:34:26,442 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:26,517 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-20 21:34:26,540 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Geografia HTTP/1.1" 200 321402
+2023-04-20 21:34:26,587 INFO:REQUEST TIME: 0.07
+2023-04-20 21:34:28,418 INFO:SINGLE ITERATION TIME: 1.9
+2023-04-20 21:34:28,443 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Historia HTTP/1.1" 200 21583
+2023-04-20 21:34:28,445 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:28,483 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:34:28,509 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kultura HTTP/1.1" 200 35061
+2023-04-20 21:34:28,510 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:28,601 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-20 21:34:28,624 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Spo%C5%82ecze%C5%84stwo HTTP/1.1" 200 35451
+2023-04-20 21:34:28,626 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:28,716 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-20 21:34:28,738 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Sport HTTP/1.1" 200 20065
+2023-04-20 21:34:28,739 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:28,775 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:28,798 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Religioznawstwo HTTP/1.1" 200 None
+2023-04-20 21:34:28,808 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:28,864 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-20 21:34:28,999 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Polska HTTP/1.1" 200 None
+2023-04-20 21:34:29,000 INFO:REQUEST TIME: 0.14
+2023-04-20 21:34:29,078 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-20 21:34:29,106 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Portale HTTP/1.1" 200 None
+2023-04-20 21:34:29,108 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:29,144 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:34:29,168 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Indeks_hase%C5%82 HTTP/1.1" 200 None
+2023-04-20 21:34:29,174 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:29,247 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-20 21:34:29,271 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kategorie_G%C5%82%C3%B3wne HTTP/1.1" 200 20937
+2023-04-20 21:34:29,273 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:29,488 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-20 21:34:29,510 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wielkie_Wyzwanie_Wikipedii_2023 HTTP/1.1" 200 9977
+2023-04-20 21:34:29,511 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:29,523 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:34:30,066 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Nowe_strony HTTP/1.1" 200 None
+2023-04-20 21:34:30,153 INFO:REQUEST TIME: 0.63
+2023-04-20 21:34:30,206 INFO:SINGLE ITERATION TIME: 0.68
+2023-04-20 21:34:30,229 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Photography_of_Wojciech_Zaremba.jpeg HTTP/1.1" 200 None
+2023-04-20 21:34:30,233 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:30,260 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Gauropterus_fulgidus_(Fabricius,_1787)_(16455378888).png HTTP/1.1" 200 None
+2023-04-20 21:34:30,264 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:30,287 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wojciech_Zaremba HTTP/1.1" 200 15603
+2023-04-20 21:34:30,288 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:30,313 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:30,335 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Quedius_ochropterus HTTP/1.1" 200 13662
+2023-04-20 21:34:30,336 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:30,361 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:30,383 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Lubinieckie HTTP/1.1" 200 18151
+2023-04-20 21:34:30,384 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:30,416 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:30,440 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Gauropterus_fulgidus HTTP/1.1" 200 14412
+2023-04-20 21:34:30,441 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:30,465 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:30,487 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kamienica_Pod_Czarnym_Or%C5%82em_przy_ulicy_Bia%C5%82osk%C3%B3rniczej_we_Wroc%C5%82awiu HTTP/1.1" 200 12607
+2023-04-20 21:34:30,489 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:30,508 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:34:30,529 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Edward_Peterek HTTP/1.1" 200 17824
+2023-04-20 21:34:30,530 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:30,564 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:30,587 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikiprojekt:Czy_wiesz/propozycje HTTP/1.1" 200 None
+2023-04-20 21:34:30,646 INFO:REQUEST TIME: 0.08
+2023-04-20 21:34:31,251 INFO:SINGLE ITERATION TIME: 0.69
+2023-04-20 21:34:31,273 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Jak_napisa%C4%87_nowy_artyku%C5%82 HTTP/1.1" 200 None
+2023-04-20 21:34:31,277 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:31,303 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:31,325 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Inwazja_Rosji_na_Ukrain%C4%99 HTTP/1.1" 200 163103
+2023-04-20 21:34:31,336 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:31,706 INFO:SINGLE ITERATION TIME: 0.4
+2023-04-20 21:34:31,732 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Protesty_w_Iranie_(od_2022) HTTP/1.1" 200 39033
+2023-04-20 21:34:31,734 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:31,909 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-20 21:34:31,932 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Rebelia_RSF_w_Sudanie HTTP/1.1" 200 None
+2023-04-20 21:34:31,937 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:31,989 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:34:32,012 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Mary_Quant_(1966)_(cropped).jpg HTTP/1.1" 200 None
+2023-04-20 21:34:32,016 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:32,039 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Mary_Quant HTTP/1.1" 200 16906
+2023-04-20 21:34:32,040 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:32,065 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:32,087 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Elektrownia_j%C4%85drowa_Olkiluoto HTTP/1.1" 200 16766
+2023-04-20 21:34:32,088 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:32,113 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:32,135 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Europa HTTP/1.1" 200 92902
+2023-04-20 21:34:32,142 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:32,396 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-20 21:34:32,420 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kwiecie%C5%84_2023 HTTP/1.1" 200 21933
+2023-04-20 21:34:32,422 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:32,478 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:34:32,501 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Guja%C5%84skie_Centrum_Kosmiczne HTTP/1.1" 200 25259
+2023-04-20 21:34:32,502 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:32,542 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:32,566 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jupiter_Icy_Moon_Explorer HTTP/1.1" 200 23680
+2023-04-20 21:34:32,567 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:32,615 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:34:32,638 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jowisz HTTP/1.1" 200 89563
+2023-04-20 21:34:32,644 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:32,842 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-20 21:34:32,865 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Ganimedes_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 30406
+2023-04-20 21:34:32,866 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:32,926 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:34:32,955 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kallisto_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 None
+2023-04-20 21:34:32,957 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:33,016 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-20 21:34:33,041 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Europa_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 30387
+2023-04-20 21:34:33,042 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:33,198 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-20 21:34:33,226 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Finlandia HTTP/1.1" 200 79648
+2023-04-20 21:34:33,228 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:33,423 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-20 21:34:33,445 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/NATO HTTP/1.1" 200 57825
+2023-04-20 21:34:33,449 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:33,561 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-20 21:34:33,584 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zmarli_w_kwietniu_2023 HTTP/1.1" 200 37117
+2023-04-20 21:34:33,586 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:33,682 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-20 21:34:33,713 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/L%C3%A1z%C3%A1r_Lov%C3%A1sz HTTP/1.1" 200 10728
+2023-04-20 21:34:33,714 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:33,729 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:33,752 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Ahmad_Jamal HTTP/1.1" 200 21345
+2023-04-20 21:34:33,753 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:33,795 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:34:33,817 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Murray_Melvin HTTP/1.1" 200 21090
+2023-04-20 21:34:33,818 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:33,923 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-20 21:34:33,946 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Anne_Perry HTTP/1.1" 200 16581
+2023-04-20 21:34:33,947 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:33,982 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:34,004 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jaros%C5%82aw_Br%C4%99k HTTP/1.1" 200 21994
+2023-04-20 21:34:34,005 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:34,044 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:34,067 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Dana_N%C4%9Bmcov%C3%A1 HTTP/1.1" 200 13307
+2023-04-20 21:34:34,068 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:34,086 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:34:34,109 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Michael_Lerner HTTP/1.1" 200 15610
+2023-04-20 21:34:34,111 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:34,143 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:34,166 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Aktualno%C5%9Bci HTTP/1.1" 200 30934
+2023-04-20 21:34:34,203 INFO:REQUEST TIME: 0.06
+2023-04-20 21:34:34,263 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-20 21:34:34,286 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/20_kwietnia HTTP/1.1" 200 74139
+2023-04-20 21:34:34,347 INFO:REQUEST TIME: 0.08
+2023-04-20 21:34:34,507 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-20 21:34:34,530 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Imieniny HTTP/1.1" 200 60173
+2023-04-20 21:34:34,534 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:34,880 INFO:SINGLE ITERATION TIME: 0.37
+2023-04-20 21:34:34,903 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Sara_(imi%C4%99) HTTP/1.1" 200 17154
+2023-04-20 21:34:34,904 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:34,937 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:34,960 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Agnieszka HTTP/1.1" 200 None
+2023-04-20 21:34:34,965 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:35,000 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:35,023 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Berenika_(imi%C4%99) HTTP/1.1" 200 14561
+2023-04-20 21:34:35,024 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:35,044 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:34:35,066 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Wojciech_Korfanty.PNG HTTP/1.1" 200 None
+2023-04-20 21:34:35,069 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:35,092 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:35,114 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Safetylast-1.jpg HTTP/1.1" 200 None
+2023-04-20 21:34:35,118 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:35,141 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1653 HTTP/1.1" 200 None
+2023-04-20 21:34:35,149 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:35,238 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-20 21:34:35,261 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Oliver_Cromwell HTTP/1.1" 200 35670
+2023-04-20 21:34:35,263 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:35,324 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-20 21:34:35,346 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Parlament_Kad%C5%82ubowy HTTP/1.1" 200 11016
+2023-04-20 21:34:35,347 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:35,362 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:34:35,498 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1808 HTTP/1.1" 200 None
+2023-04-20 21:34:35,510 INFO:REQUEST TIME: 0.15
+2023-04-20 21:34:35,699 INFO:SINGLE ITERATION TIME: 0.34
+2023-04-20 21:34:35,722 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Napoleon_III_Bonaparte HTTP/1.1" 200 47207
+2023-04-20 21:34:35,724 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:35,801 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-20 21:34:35,825 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1873 HTTP/1.1" 200 None
+2023-04-20 21:34:35,836 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:35,962 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-20 21:34:35,984 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wojciech_Korfanty HTTP/1.1" 200 44131
+2023-04-20 21:34:35,988 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:36,071 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-20 21:34:36,093 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Powstania_%C5%9Bl%C4%85skie HTTP/1.1" 200 26491
+2023-04-20 21:34:36,094 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:36,143 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:34:36,165 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Twierdza_Brzeska HTTP/1.1" 200 25901
+2023-04-20 21:34:36,166 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:36,206 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:36,240 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1893 HTTP/1.1" 200 None
+2023-04-20 21:34:36,248 INFO:REQUEST TIME: 0.04
+2023-04-20 21:34:36,462 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-20 21:34:36,487 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Harold_Lloyd HTTP/1.1" 200 22981
+2023-04-20 21:34:36,489 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:36,527 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:36,551 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Los_Angeles HTTP/1.1" 200 86180
+2023-04-20 21:34:36,556 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:36,758 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-20 21:34:36,782 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jeszcze_wy%C5%BCej! HTTP/1.1" 200 14675
+2023-04-20 21:34:36,783 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:36,806 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:36,829 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Film_niemy HTTP/1.1" 200 16818
+2023-04-20 21:34:36,831 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:36,855 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:36,878 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1923 HTTP/1.1" 200 None
+2023-04-20 21:34:36,903 INFO:REQUEST TIME: 0.05
+2023-04-20 21:34:37,191 INFO:SINGLE ITERATION TIME: 0.34
+2023-04-20 21:34:37,213 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Julius_Streicher HTTP/1.1" 200 24499
+2023-04-20 21:34:37,215 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:37,256 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:34:37,286 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Der_St%C3%BCrmer HTTP/1.1" 200 21178
+2023-04-20 21:34:37,287 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:37,318 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:37,341 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Mi%C4%99dzynarodowy_Trybuna%C5%82_Wojskowy_w_Norymberdze HTTP/1.1" 200 26722
+2023-04-20 21:34:37,343 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:37,385 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:34:37,406 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zbrodnia_przeciwko_ludzko%C5%9Bci HTTP/1.1" 200 18920
+2023-04-20 21:34:37,407 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:37,436 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:37,459 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1938 HTTP/1.1" 200 93782
+2023-04-20 21:34:37,464 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:37,811 INFO:SINGLE ITERATION TIME: 0.37
+2023-04-20 21:34:37,834 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Olimpiada_(film_1938) HTTP/1.1" 200 15255
+2023-04-20 21:34:37,835 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:37,858 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:37,881 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Leni_Riefenstahl HTTP/1.1" 200 25472
+2023-04-20 21:34:37,882 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:37,926 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:34:37,951 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/1943 HTTP/1.1" 200 104119
+2023-04-20 21:34:37,955 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:38,266 INFO:SINGLE ITERATION TIME: 0.34
+2023-04-20 21:34:38,296 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wojciech_G%C4%85ssowski HTTP/1.1" 200 14633
+2023-04-20 21:34:38,297 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:38,324 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:34:38,348 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Janusz_Kondratowicz HTTP/1.1" 200 16520
+2023-04-20 21:34:38,348 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:38,379 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:38,403 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Czes%C5%82aw_Grudzi%C5%84ski HTTP/1.1" 200 12320
+2023-04-20 21:34:38,404 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:38,509 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-20 21:34:38,535 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/19_kwietnia HTTP/1.1" 200 72985
+2023-04-20 21:34:38,538 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:38,705 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-20 21:34:38,728 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kalendarium_dzie%C5%84_po_dniu HTTP/1.1" 200 None
+2023-04-20 21:34:38,755 INFO:REQUEST TIME: 0.05
+2023-04-20 21:34:38,930 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-20 21:34:38,951 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/21_kwietnia HTTP/1.1" 200 69419
+2023-04-20 21:34:38,956 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:39,160 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-20 21:34:39,182 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Aft_view_of_USS_Hornet_(CV-8),_circa_in_late_1941_(NH_81313).jpg HTTP/1.1" 200 14692
+2023-04-20 21:34:39,183 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:39,216 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/USS_Hornet_(CV-8) HTTP/1.1" 200 92262
+2023-04-20 21:34:39,218 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:39,379 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-20 21:34:39,404 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Stany_Zjednoczone HTTP/1.1" 200 122549
+2023-04-20 21:34:39,411 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:39,656 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-20 21:34:39,680 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Lotniskowiec HTTP/1.1" 200 26147
+2023-04-20 21:34:39,926 INFO:REQUEST TIME: 0.27
+2023-04-20 21:34:39,961 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-20 21:34:39,984 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wyporno%C5%9B%C4%87 HTTP/1.1" 200 None
+2023-04-20 21:34:39,987 INFO:REQUEST TIME: 0.03
+2023-04-20 21:34:40,006 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:34:40,029 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Tona HTTP/1.1" 200 15019
+2023-04-20 21:34:40,030 INFO:REQUEST TIME: 0.02
+2023-04-20 21:34:40,147 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-20 21:34:40,171 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/II_wojna_%C5%9Bwiatowa HTTP/1.1" 200 160745
+2023-04-20 21:34:40,199 INFO:REQUEST TIME: 0.05
+2023-04-20 21:34:40,455 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-20 21:34:40,456 INFO:VISITED LINKS: 100
+2023-04-20 21:34:40,456 INFO:COLLECTED LINKS: 95
+2023-04-20 21:34:40,456 INFO:QUEUED LINKS: 99
+2023-04-20 21:34:40,533 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl20042023213424-tree-graph.gv' with encoding 'utf-8'
+2023-04-20 21:34:40,533 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl20042023213424-tree-graph.gv')
+2023-04-20 21:34:40,533 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-20 21:34:40,534 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl20042023213424-diagram'
+2023-04-20 21:34:40,535 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl20042023213424-diagram']
+2023-04-20 21:34:40,653 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-20 21:44:02,521 WARNING:Not Found: /favicon.ico
+2023-04-20 21:44:13,582 ERROR:Invalid URL 'www.pzjudo.pl': No scheme supplied. Perhaps you meant https://www.pzjudo.pl?
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 62, in __init__
+    source = self._crawling_session.get(url, allow_redirects=True, timeout=5)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'www.pzjudo.pl': No scheme supplied. Perhaps you meant https://www.pzjudo.pl?
+2023-04-20 21:44:27,850 ERROR:Invalid URL 'www.pzjudo.pl': No scheme supplied. Perhaps you meant https://www.pzjudo.pl?
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 62, in __init__
+    source = self._crawling_session.get(url, allow_redirects=True, timeout=5)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'www.pzjudo.pl': No scheme supplied. Perhaps you meant https://www.pzjudo.pl?
+2023-04-20 21:45:01,251 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-20 21:45:02,217 DEBUG:http://web.pzjudo.pl:80 "GET / HTTP/1.1" 200 None
+2023-04-20 21:45:03,170 DEBUG:http://web.pzjudo.pl:80 "GET / HTTP/1.1" 200 None
+2023-04-20 21:45:03,220 INFO:REQUEST TIME: 0.82
+2023-04-20 21:45:03,259 INFO:SINGLE ITERATION TIME: 0.86
+2023-04-20 21:45:03,260 ERROR:Invalid URL 'https:///kontakt': No host supplied
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 160, in bfs_scraper
+    website_req_result = self._crawling_session.get(current_node['url'],
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 445, in prepare_url
+    raise InvalidURL(f"Invalid URL {url!r}: No host supplied")
+requests.exceptions.InvalidURL: Invalid URL 'https:///kontakt': No host supplied
+2023-04-20 21:45:03,261 INFO:VISITED LINKS: 2
+2023-04-20 21:45:03,261 INFO:COLLECTED LINKS: 1
+2023-04-20 21:45:03,261 INFO:QUEUED LINKS: 49
+2023-04-20 21:45:03,287 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/web20042023214501-tree-graph.gv' with encoding 'utf-8'
+2023-04-20 21:45:03,288 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/web20042023214501-tree-graph.gv')
+2023-04-20 21:45:03,288 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-20 21:45:03,289 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/web20042023214501-diagram'
+2023-04-20 21:45:03,289 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'web20042023214501-diagram']
+2023-04-20 21:45:03,362 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-20 21:46:26,627 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-20 21:46:26,736 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 21025
+2023-04-20 21:46:26,866 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 21025
+2023-04-20 21:46:26,867 INFO:REQUEST TIME: 0.03
+2023-04-20 21:46:26,914 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:46:26,938 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 84544
+2023-04-20 21:46:26,962 INFO:REQUEST TIME: 0.05
+2023-04-20 21:46:27,213 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-20 21:46:27,234 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wolna_tre%C5%9B%C4%87 HTTP/1.1" 200 29814
+2023-04-20 21:46:27,237 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:27,292 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:46:27,315 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Encyklopedia HTTP/1.1" 200 26922
+2023-04-20 21:46:27,317 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:27,359 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:46:27,381 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Pierwsze_kroki HTTP/1.1" 200 15063
+2023-04-20 21:46:27,382 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:27,398 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:46:27,421 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii HTTP/1.1" 200 None
+2023-04-20 21:46:27,430 INFO:REQUEST TIME: 0.03
+2023-04-20 21:46:27,523 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-20 21:46:27,545 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii HTTP/1.1" 200 12974
+2023-04-20 21:46:27,546 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:27,561 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:46:27,587 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze HTTP/1.1" 200 38562
+2023-04-20 21:46:27,590 INFO:REQUEST TIME: 0.03
+2023-04-20 21:46:27,695 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-20 21:46:27,717 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne HTTP/1.1" 200 20175
+2023-04-20 21:46:27,718 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:27,766 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:46:27,788 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Technika HTTP/1.1" 200 31552
+2023-04-20 21:46:27,789 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:27,930 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-20 21:46:27,954 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Geografia HTTP/1.1" 200 321402
+2023-04-20 21:46:28,000 INFO:REQUEST TIME: 0.07
+2023-04-20 21:46:29,690 INFO:SINGLE ITERATION TIME: 1.76
+2023-04-20 21:46:29,713 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Historia HTTP/1.1" 200 21583
+2023-04-20 21:46:29,715 INFO:REQUEST TIME: 0.03
+2023-04-20 21:46:29,751 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:46:29,774 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kultura HTTP/1.1" 200 35061
+2023-04-20 21:46:29,775 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:29,873 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-20 21:46:29,893 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Spo%C5%82ecze%C5%84stwo HTTP/1.1" 200 35451
+2023-04-20 21:46:29,895 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:29,984 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-20 21:46:30,005 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Sport HTTP/1.1" 200 20065
+2023-04-20 21:46:30,006 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:30,042 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:46:30,063 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Religioznawstwo HTTP/1.1" 200 32408
+2023-04-20 21:46:30,065 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:30,118 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:46:30,139 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Polska HTTP/1.1" 200 37689
+2023-04-20 21:46:30,141 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:30,383 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-20 21:46:30,405 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Portale HTTP/1.1" 200 20034
+2023-04-20 21:46:30,406 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:30,461 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:46:30,485 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Indeks_hase%C5%82 HTTP/1.1" 200 18760
+2023-04-20 21:46:30,487 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:30,559 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-20 21:46:30,580 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kategorie_G%C5%82%C3%B3wne HTTP/1.1" 200 20937
+2023-04-20 21:46:30,581 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:30,616 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:46:30,636 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wielkie_Wyzwanie_Wikipedii_2023 HTTP/1.1" 200 9977
+2023-04-20 21:46:30,637 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:30,649 INFO:SINGLE ITERATION TIME: 0.03
+2023-04-20 21:46:31,177 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Nowe_strony HTTP/1.1" 200 None
+2023-04-20 21:46:31,346 INFO:REQUEST TIME: 0.7
+2023-04-20 21:46:31,408 INFO:SINGLE ITERATION TIME: 0.76
+2023-04-20 21:46:31,429 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Photography_of_Wojciech_Zaremba.jpeg HTTP/1.1" 200 15546
+2023-04-20 21:46:31,430 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:31,453 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Gauropterus_fulgidus_(Fabricius,_1787)_(16455378888).png HTTP/1.1" 200 16754
+2023-04-20 21:46:31,454 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:31,474 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wojciech_Zaremba HTTP/1.1" 200 15603
+2023-04-20 21:46:31,476 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:31,504 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:46:31,524 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Quedius_ochropterus HTTP/1.1" 200 13662
+2023-04-20 21:46:31,525 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:31,550 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:46:31,572 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Lubinieckie HTTP/1.1" 200 18151
+2023-04-20 21:46:31,574 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:31,606 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:46:31,628 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Gauropterus_fulgidus HTTP/1.1" 200 14412
+2023-04-20 21:46:31,630 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:31,656 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:46:31,676 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kamienica_Pod_Czarnym_Or%C5%82em_przy_ulicy_Bia%C5%82osk%C3%B3rniczej_we_Wroc%C5%82awiu HTTP/1.1" 200 12607
+2023-04-20 21:46:31,677 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:31,699 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:46:31,722 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Edward_Peterek HTTP/1.1" 200 17824
+2023-04-20 21:46:31,723 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:31,762 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:46:31,783 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikiprojekt:Czy_wiesz/propozycje HTTP/1.1" 200 144829
+2023-04-20 21:46:31,793 INFO:REQUEST TIME: 0.03
+2023-04-20 21:46:32,478 INFO:SINGLE ITERATION TIME: 0.72
+2023-04-20 21:46:32,499 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Jak_napisa%C4%87_nowy_artyku%C5%82 HTTP/1.1" 200 19339
+2023-04-20 21:46:32,501 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:32,524 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:46:32,545 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Inwazja_Rosji_na_Ukrain%C4%99 HTTP/1.1" 200 163103
+2023-04-20 21:46:32,553 INFO:REQUEST TIME: 0.03
+2023-04-20 21:46:32,864 INFO:SINGLE ITERATION TIME: 0.34
+2023-04-20 21:46:32,885 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Protesty_w_Iranie_(od_2022) HTTP/1.1" 200 39033
+2023-04-20 21:46:32,887 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:32,955 INFO:SINGLE ITERATION TIME: 0.09
+2023-04-20 21:46:32,978 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Rebelia_RSF_w_Sudanie HTTP/1.1" 200 24095
+2023-04-20 21:46:32,980 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:33,024 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:46:33,046 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Mary_Quant_(1966)_(cropped).jpg HTTP/1.1" 200 17042
+2023-04-20 21:46:33,047 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:33,067 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Mary_Quant HTTP/1.1" 200 16906
+2023-04-20 21:46:33,068 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:33,092 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:46:33,114 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Elektrownia_j%C4%85drowa_Olkiluoto HTTP/1.1" 200 16766
+2023-04-20 21:46:33,115 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:33,251 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-20 21:46:33,271 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Europa HTTP/1.1" 200 92902
+2023-04-20 21:46:33,276 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:33,452 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-20 21:46:33,473 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kwiecie%C5%84_2023 HTTP/1.1" 200 21933
+2023-04-20 21:46:33,474 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:33,531 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:46:33,556 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Guja%C5%84skie_Centrum_Kosmiczne HTTP/1.1" 200 25259
+2023-04-20 21:46:33,557 INFO:REQUEST TIME: 0.03
+2023-04-20 21:46:33,601 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:46:33,622 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jupiter_Icy_Moon_Explorer HTTP/1.1" 200 23680
+2023-04-20 21:46:33,623 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:33,661 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:46:33,685 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Jowisz HTTP/1.1" 200 89563
+2023-04-20 21:46:33,688 INFO:REQUEST TIME: 0.03
+2023-04-20 21:46:33,924 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-20 21:46:33,944 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Ganimedes_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 30406
+2023-04-20 21:46:33,946 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:34,005 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:46:34,027 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kallisto_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 29556
+2023-04-20 21:46:34,029 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:34,088 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:46:34,108 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Europa_(ksi%C4%99%C5%BCyc) HTTP/1.1" 200 30387
+2023-04-20 21:46:34,111 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:34,172 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:46:34,195 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Finlandia HTTP/1.1" 200 79648
+2023-04-20 21:46:34,197 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:34,383 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-20 21:46:34,406 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/NATO HTTP/1.1" 200 57825
+2023-04-20 21:46:34,408 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:34,579 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-20 21:46:34,603 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Zmarli_w_kwietniu_2023 HTTP/1.1" 200 37117
+2023-04-20 21:46:34,605 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:34,694 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-20 21:46:34,717 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/L%C3%A1z%C3%A1r_Lov%C3%A1sz HTTP/1.1" 200 10728
+2023-04-20 21:46:34,718 INFO:REQUEST TIME: 0.02
+2023-04-20 21:46:34,732 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-20 21:46:34,733 INFO:VISITED LINKS: 50
+2023-04-20 21:46:34,733 INFO:COLLECTED LINKS: 47
+2023-04-20 21:46:34,733 INFO:QUEUED LINKS: 49
+2023-04-20 21:46:34,759 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl20042023214626-tree-graph.gv' with encoding 'utf-8'
+2023-04-20 21:46:34,761 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl20042023214626-tree-graph.gv')
+2023-04-20 21:46:34,761 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-20 21:46:34,761 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl20042023214626-diagram'
+2023-04-20 21:46:34,762 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl20042023214626-diagram']
+2023-04-20 21:46:34,823 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-20 21:47:02,345 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-20 21:47:02,446 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 21025
+2023-04-20 21:47:02,578 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 21025
+2023-04-20 21:47:02,579 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:02,624 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:47:02,650 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 84544
+2023-04-20 21:47:02,688 INFO:REQUEST TIME: 0.06
+2023-04-20 21:47:02,869 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-20 21:47:02,892 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wolna_tre%C5%9B%C4%87 HTTP/1.1" 200 29814
+2023-04-20 21:47:02,894 INFO:REQUEST TIME: 0.02
+2023-04-20 21:47:02,950 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:47:02,982 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Encyklopedia HTTP/1.1" 200 26922
+2023-04-20 21:47:02,984 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:03,026 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:47:03,050 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Pomoc:Pierwsze_kroki HTTP/1.1" 200 15063
+2023-04-20 21:47:03,051 INFO:REQUEST TIME: 0.02
+2023-04-20 21:47:03,067 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:47:03,092 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Liczba_artyku%C5%82%C3%B3w_w_polskoj%C4%99zycznej_Wikipedii HTTP/1.1" 200 29828
+2023-04-20 21:47:03,097 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:03,279 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-20 21:47:03,308 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wyr%C3%B3%C5%BCniona_zawarto%C5%9B%C4%87_Wikipedii HTTP/1.1" 200 12974
+2023-04-20 21:47:03,309 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:03,324 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:47:03,353 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_%C5%9Bcis%C5%82e_i_przyrodnicze HTTP/1.1" 200 38562
+2023-04-20 21:47:03,362 INFO:REQUEST TIME: 0.04
+2023-04-20 21:47:03,466 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-20 21:47:03,498 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Nauki_spo%C5%82eczne_i_humanistyczne HTTP/1.1" 200 20175
+2023-04-20 21:47:03,501 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:03,549 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:47:03,579 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Technika HTTP/1.1" 200 31552
+2023-04-20 21:47:03,585 INFO:REQUEST TIME: 0.04
+2023-04-20 21:47:03,663 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-20 21:47:03,698 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Geografia HTTP/1.1" 200 321402
+2023-04-20 21:47:03,776 INFO:REQUEST TIME: 0.11
+2023-04-20 21:47:05,606 INFO:SINGLE ITERATION TIME: 1.94
+2023-04-20 21:47:05,635 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Historia HTTP/1.1" 200 21583
+2023-04-20 21:47:05,637 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:05,674 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:47:05,712 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kultura HTTP/1.1" 200 35061
+2023-04-20 21:47:05,714 INFO:REQUEST TIME: 0.04
+2023-04-20 21:47:05,801 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-20 21:47:05,824 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Spo%C5%82ecze%C5%84stwo HTTP/1.1" 200 35451
+2023-04-20 21:47:05,830 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:05,914 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-20 21:47:05,937 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Sport HTTP/1.1" 200 20065
+2023-04-20 21:47:05,940 INFO:REQUEST TIME: 0.02
+2023-04-20 21:47:05,973 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:47:05,996 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Religioznawstwo HTTP/1.1" 200 32408
+2023-04-20 21:47:06,001 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:06,054 INFO:SINGLE ITERATION TIME: 0.08
+2023-04-20 21:47:06,078 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Polska HTTP/1.1" 200 37689
+2023-04-20 21:47:06,086 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:06,171 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-20 21:47:06,196 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Portale HTTP/1.1" 200 20034
+2023-04-20 21:47:06,197 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:06,230 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:47:06,253 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Indeks_hase%C5%82 HTTP/1.1" 200 18760
+2023-04-20 21:47:06,254 INFO:REQUEST TIME: 0.02
+2023-04-20 21:47:06,325 INFO:SINGLE ITERATION TIME: 0.1
+2023-04-20 21:47:06,348 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Portal:Kategorie_G%C5%82%C3%B3wne HTTP/1.1" 200 20937
+2023-04-20 21:47:06,351 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:06,386 INFO:SINGLE ITERATION TIME: 0.06
+2023-04-20 21:47:06,410 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Wielkie_Wyzwanie_Wikipedii_2023 HTTP/1.1" 200 9977
+2023-04-20 21:47:06,411 INFO:REQUEST TIME: 0.02
+2023-04-20 21:47:06,427 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:47:06,958 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Specjalna:Nowe_strony HTTP/1.1" 200 None
+2023-04-20 21:47:07,128 INFO:REQUEST TIME: 0.7
+2023-04-20 21:47:07,515 INFO:SINGLE ITERATION TIME: 1.09
+2023-04-20 21:47:07,538 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Photography_of_Wojciech_Zaremba.jpeg HTTP/1.1" 200 15546
+2023-04-20 21:47:07,539 INFO:REQUEST TIME: 0.02
+2023-04-20 21:47:07,564 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Plik:Gauropterus_fulgidus_(Fabricius,_1787)_(16455378888).png HTTP/1.1" 200 16754
+2023-04-20 21:47:07,565 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:07,588 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wojciech_Zaremba HTTP/1.1" 200 15603
+2023-04-20 21:47:07,589 INFO:REQUEST TIME: 0.02
+2023-04-20 21:47:07,615 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:47:07,637 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Quedius_ochropterus HTTP/1.1" 200 13662
+2023-04-20 21:47:07,639 INFO:REQUEST TIME: 0.02
+2023-04-20 21:47:07,663 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:47:07,688 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Lubinieckie HTTP/1.1" 200 18151
+2023-04-20 21:47:07,688 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:07,729 INFO:SINGLE ITERATION TIME: 0.07
+2023-04-20 21:47:07,752 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Gauropterus_fulgidus HTTP/1.1" 200 14412
+2023-04-20 21:47:07,752 INFO:REQUEST TIME: 0.02
+2023-04-20 21:47:07,776 INFO:SINGLE ITERATION TIME: 0.05
+2023-04-20 21:47:07,799 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Kamienica_Pod_Czarnym_Or%C5%82em_przy_ulicy_Bia%C5%82osk%C3%B3rniczej_we_Wroc%C5%82awiu HTTP/1.1" 200 12607
+2023-04-20 21:47:07,800 INFO:REQUEST TIME: 0.02
+2023-04-20 21:47:07,821 INFO:SINGLE ITERATION TIME: 0.04
+2023-04-20 21:47:07,844 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Edward_Peterek HTTP/1.1" 200 17824
+2023-04-20 21:47:07,846 INFO:REQUEST TIME: 0.03
+2023-04-20 21:47:07,877 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 258, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-04-20 21:47:07,877 INFO:VISITED LINKS: 30
+2023-04-20 21:47:07,877 INFO:COLLECTED LINKS: 28
+2023-04-20 21:47:07,877 INFO:QUEUED LINKS: 29
+2023-04-20 21:47:07,896 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl20042023214702-tree-graph.gv' with encoding 'utf-8'
+2023-04-20 21:47:07,897 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl20042023214702-tree-graph.gv')
+2023-04-20 21:47:07,897 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-20 21:47:07,897 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl20042023214702-diagram'
+2023-04-20 21:47:07,898 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl20042023214702-diagram']
+2023-04-20 21:47:07,947 INFO:ROBOT.TXT EXLUDED LINKS NO: 0

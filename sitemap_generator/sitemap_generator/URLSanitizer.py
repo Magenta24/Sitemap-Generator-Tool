@@ -17,7 +17,7 @@ class URLSanitizer:
 
     """
 
-    docs_extensions = ['.pdf', '.docx', '.doc', '.xls', '.ppt', '.txt', '.zip']
+    docs_extensions = ['pdf', 'docx', 'doc', 'xls', 'ppt', 'txt', 'zip', 'pptx', 'csv', 'msword', 'vnd.ms-excel']
     image_extensions = ['.jpg', '.jpeg', '.gif', '.png', '.svg']
 
     @classmethod
@@ -33,7 +33,6 @@ class URLSanitizer:
         if content_type is None:
             return False
 
-        # if content_type.endswith("pdf"):
         for ext in cls.docs_extensions:
             if content_type.endswith(ext):
                 return True

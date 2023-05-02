@@ -1,0 +1,20 @@
+2023-04-26 14:59:14,235 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-26 14:59:14,354 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20322
+2023-04-26 14:59:14,548 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20322
+2023-04-26 14:59:14,550 INFO:REQUEST TIME: 0.03
+2023-04-26 14:59:14,550 ERROR:cannot unpack non-iterable NoneType object
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 150, in bfs_scraper
+    website_source, website_headers = self.make_request(current_node['url'])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+2023-04-26 14:59:14,551 INFO:VISITED LINKS: 1
+2023-04-26 14:59:14,551 INFO:COLLECTED LINKS: 0
+2023-04-26 14:59:14,551 INFO:QUEUED LINKS: 0
+2023-04-26 14:59:14,561 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl26042023145914-tree-graph.gv' with encoding 'utf-8'
+2023-04-26 14:59:14,561 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl26042023145914-tree-graph.gv')
+2023-04-26 14:59:14,561 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-26 14:59:14,562 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl26042023145914-diagram'
+2023-04-26 14:59:14,563 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl26042023145914-diagram']
+2023-04-26 14:59:14,631 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-26 14:59:44,156 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

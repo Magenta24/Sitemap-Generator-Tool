@@ -1,0 +1,10 @@
+https://www.gradescope.com/,0
+https://www.gradescope.com/reset_password,1
+https://www.gradescope.com/saml,1
+https://www.gradescope.com/pricing,1
+https://www.gradescope.com/get-a-demo,1
+https://www.gradescope.com/get_started,1
+https://www.gradescope.com/roadmap,1
+https://www.gradescope.com/tos,1
+https://www.gradescope.com/privacy,1
+https://www.gradescope.com/?utm_campaign=Gradescope%20Pricing%20Page&utm_source=hubspot-pricing-page,2

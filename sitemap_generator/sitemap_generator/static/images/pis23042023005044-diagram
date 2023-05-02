@@ -1,0 +1,6 @@
+digraph tree {
+	"https://pis.org.pl/" [label="https://pis.org.pl/", shape=egg]
+	"https://pis.org.pl/partia/wstap-do-pis" [label="https://pis.org.pl/partia/wstap-do-pis", shape=egg]
+
+	"https://pis.org.pl/" -> "https://pis.org.pl/partia/wstap-do-pis"
+}

@@ -1,0 +1,12 @@
+2023-04-24 22:06:03,001 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 22:06:03,282 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-24 22:06:03,555 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 22:06:03,850 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-24 22:06:03,979 INFO:VISITED LINKS: 0
+2023-04-24 22:06:03,979 INFO:COLLECTED LINKS: 1
+2023-04-24 22:06:04,010 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis24042023220602-tree-graph.gv' with encoding 'utf-8'
+2023-04-24 22:06:04,012 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis24042023220602-tree-graph.gv')
+2023-04-24 22:06:04,012 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-24 22:06:04,012 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis24042023220602-diagram'
+2023-04-24 22:06:04,014 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis24042023220602-diagram']
+2023-04-24 22:22:30,570 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

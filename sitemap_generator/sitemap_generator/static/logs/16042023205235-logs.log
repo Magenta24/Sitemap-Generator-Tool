@@ -1,0 +1,11 @@
+2023-04-16 20:52:35,953 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/16042023205235-tree-graph.gv' with encoding 'utf-8'
+2023-04-16 20:52:35,954 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/16042023205235-tree-graph.gv')
+2023-04-16 20:52:35,954 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-16 20:52:35,955 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/16042023205235-diagram'
+2023-04-16 20:52:35,956 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', '16042023205235-diagram']
+2023-04-16 20:52:51,637 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/16042023205251-tree-graph.gv' with encoding 'utf-8'
+2023-04-16 20:52:51,637 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/16042023205251-tree-graph.gv')
+2023-04-16 20:52:51,638 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-16 20:52:51,638 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/16042023205251-diagram'
+2023-04-16 20:52:51,639 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', '16042023205251-diagram']
+2023-04-16 20:53:48,523 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py changed, reloading.

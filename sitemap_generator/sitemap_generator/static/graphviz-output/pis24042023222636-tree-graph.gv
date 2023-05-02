@@ -1,0 +1,32 @@
+digraph tree {
+	"https://pis.org.pl/" [label="https://pis.org.pl/", shape=egg]
+	"" [label="", shape=egg]
+	"/" [label="/", shape=egg]
+	"/aktualnosci" [label="/aktualnosci", shape=egg]
+	"/aktualnosci/chcemy-razem-z-polakami-stworzyc-nowy-program" [label="/aktualnosci/chcemy-razem-z-polakami-stworzyc-nowy-program", shape=egg]
+	"/aktualnosci/mowimy-nie-dla-fitfor-55" [label="/aktualnosci/mowimy-nie-dla-fitfor-55", shape=egg]
+	"/aktualnosci/polska-jest-jedna-inwestycje-lokalne" [label="/aktualnosci/polska-jest-jedna-inwestycje-lokalne", shape=egg]
+	"/dokumenty" [label="/dokumenty", shape=egg]
+	"/kontakt" [label="/kontakt", shape=egg]
+	"/multimedia" [label="/multimedia", shape=egg]
+	"/partia" [label="/partia", shape=egg]
+	"/partia/historia-partii" [label="/partia/historia-partii", shape=egg]
+	"/partia/partia-europejskich-konserwatystow-i-reformatorow-ecr" [label="/partia/partia-europejskich-konserwatystow-i-reformatorow-ecr", shape=egg]
+	"/partia/prawo-i-sprawiedliwosc" [label="/partia/prawo-i-sprawiedliwosc", shape=egg]
+	"/partia/wstap-do-pis" [label="/partia/wstap-do-pis", shape=egg]
+
+	"https://pis.org.pl/" -> ""
+	"https://pis.org.pl/" -> "/partia/wstap-do-pis"
+	"https://pis.org.pl/" -> "/partia/partia-europejskich-konserwatystow-i-reformatorow-ecr"
+	"https://pis.org.pl/" -> "/"
+	"https://pis.org.pl/" -> "/aktualnosci"
+	"https://pis.org.pl/" -> "/partia"
+	"https://pis.org.pl/" -> "/multimedia"
+	"https://pis.org.pl/" -> "/dokumenty"
+	"https://pis.org.pl/" -> "/kontakt"
+	"https://pis.org.pl/" -> "/aktualnosci/chcemy-razem-z-polakami-stworzyc-nowy-program"
+	"https://pis.org.pl/" -> "/aktualnosci/polska-jest-jedna-inwestycje-lokalne"
+	"https://pis.org.pl/" -> "/aktualnosci/mowimy-nie-dla-fitfor-55"
+	"https://pis.org.pl/" -> "/partia/historia-partii"
+	"https://pis.org.pl/" -> "/partia/prawo-i-sprawiedliwosc"
+}

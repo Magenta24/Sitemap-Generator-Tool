@@ -1,0 +1,1908 @@
+2023-05-01 05:27:37,388 DEBUG:Starting new HTTPS connection (1): www.deviantart.com:443
+2023-05-01 05:27:38,046 DEBUG:https://www.deviantart.com:443 "GET / HTTP/1.1" 200 None
+2023-05-01 05:27:39,119 DEBUG:https://www.deviantart.com:443 "GET / HTTP/1.1" 200 None
+2023-05-01 05:27:39,590 INFO:URL NO.1ADDED: https://www.deviantart.com/shop
+2023-05-01 05:27:39,590 INFO:URL NO.2ADDED: https://www.deviantart.com/core-membership
+2023-05-01 05:27:39,590 INFO:URL NO.3ADDED: https://www.deviantart.com/join
+2023-05-01 05:27:39,590 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:27:39,590 INFO:URL NO.4ADDED: https://www.deviantart.com/about/policy/service
+2023-05-01 05:27:39,590 INFO:URL NO.5ADDED: https://www.deviantart.com/about/policy/privacy
+2023-05-01 05:27:39,590 INFO:URL NO.6ADDED: https://www.deviantart.com/
+2023-05-01 05:27:39,590 INFO:URL NO.7ADDED: https://www.deviantart.com/topic
+2023-05-01 05:27:39,590 INFO:URL NO.8ADDED: https://www.deviantart.com/polinareed/art/310323-955886119
+2023-05-01 05:27:39,590 INFO:URL NO.9ADDED: https://www.deviantart.com/polinareed
+2023-05-01 05:27:39,590 INFO:URL NO.10ADDED: https://www.deviantart.com/anatofinnstark/art/Femto-and-Zodd-BERSERK-957160961
+2023-05-01 05:27:39,590 INFO:URL NO.11ADDED: https://www.deviantart.com/anatofinnstark
+2023-05-01 05:27:39,604 INFO:URL NO.12ADDED: https://www.deviantart.com/ereyz/art/TGCF-Happy-Bunny-Year-2023-950590537
+2023-05-01 05:27:39,604 INFO:URL NO.13ADDED: https://www.deviantart.com/ereyz
+2023-05-01 05:27:39,604 INFO:URL NO.14ADDED: https://www.deviantart.com/baroquedoll/art/Gandi-z-957089427
+2023-05-01 05:27:39,604 INFO:URL NO.15ADDED: https://www.deviantart.com/baroquedoll
+2023-05-01 05:27:39,604 INFO:URL NO.16ADDED: https://www.deviantart.com/pilgrimmaiden/art/Her-hairstyle-is-perfect-956863269
+2023-05-01 05:27:39,604 INFO:URL NO.17ADDED: https://www.deviantart.com/pilgrimmaiden
+2023-05-01 05:27:39,604 INFO:URL NO.18ADDED: https://www.deviantart.com/silvermixx/art/The-wonky-house-958510395
+2023-05-01 05:27:39,604 INFO:URL NO.19ADDED: https://www.deviantart.com/silvermixx
+2023-05-01 05:27:39,604 INFO:URL NO.20ADDED: https://www.deviantart.com/bikangarts/art/JIMIN-937333452
+2023-05-01 05:27:39,604 INFO:URL NO.21ADDED: https://www.deviantart.com/bikangarts
+2023-05-01 05:27:39,604 INFO:URL NO.22ADDED: https://www.deviantart.com/castlegraphics/art/WDC-175-954709592
+2023-05-01 05:27:39,604 INFO:URL NO.23ADDED: https://www.deviantart.com/castlegraphics
+2023-05-01 05:27:39,604 INFO:URL NO.24ADDED: https://www.deviantart.com/juhaniviitanen/art/Northern-lights-night-sky-954968086
+2023-05-01 05:27:39,604 INFO:URL NO.25ADDED: https://www.deviantart.com/juhaniviitanen
+2023-05-01 05:27:39,604 INFO:URL NO.26ADDED: https://www.deviantart.com/relhom/art/Wheel-of-fortune-955729502
+2023-05-01 05:27:39,604 INFO:URL NO.27ADDED: https://www.deviantart.com/relhom
+2023-05-01 05:27:39,604 INFO:URL NO.28ADDED: https://www.deviantart.com/mermaidine/art/The-tree-and-me-959059476
+2023-05-01 05:27:39,604 INFO:URL NO.29ADDED: https://www.deviantart.com/mermaidine
+2023-05-01 05:27:39,604 INFO:URL NO.30ADDED: https://www.deviantart.com/topic/ai
+2023-05-01 05:27:39,604 INFO:URL NO.31ADDED: https://www.deviantart.com/topic/digital-art
+2023-05-01 05:27:39,604 INFO:URL NO.32ADDED: https://www.deviantart.com/topic/fan-art
+2023-05-01 05:27:39,604 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:39,604 INFO:SINGLE ITERATION TIME: 1.32
+2023-05-01 05:27:40,276 DEBUG:https://www.deviantart.com:443 "GET /shop HTTP/1.1" 200 None
+2023-05-01 05:27:40,748 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:40,748 INFO:SINGLE ITERATION TIME: 1.14
+2023-05-01 05:27:40,990 DEBUG:https://www.deviantart.com:443 "GET /core-membership HTTP/1.1" 200 None
+2023-05-01 05:27:41,235 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:41,235 INFO:SINGLE ITERATION TIME: 0.49
+2023-05-01 05:27:41,435 DEBUG:https://www.deviantart.com:443 "GET /join HTTP/1.1" 200 None
+2023-05-01 05:27:41,577 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:41,577 INFO:SINGLE ITERATION TIME: 0.34
+2023-05-01 05:27:41,735 DEBUG:https://www.deviantart.com:443 "GET /about/policy/service HTTP/1.1" 301 255
+2023-05-01 05:27:41,735 DEBUG:Starting new HTTP connection (1): www.deviantart.com:80
+2023-05-01 05:27:41,777 DEBUG:http://www.deviantart.com:80 "GET /about/policy/service/ HTTP/1.1" 301 167
+2023-05-01 05:27:41,935 DEBUG:https://www.deviantart.com:443 "GET /about/policy/service/ HTTP/1.1" 200 None
+2023-05-01 05:27:42,105 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:42,105 INFO:SINGLE ITERATION TIME: 0.53
+2023-05-01 05:27:42,249 DEBUG:https://www.deviantart.com:443 "GET /about/policy/privacy HTTP/1.1" 301 255
+2023-05-01 05:27:42,263 DEBUG:http://www.deviantart.com:80 "GET /about/policy/privacy/ HTTP/1.1" 301 167
+2023-05-01 05:27:42,705 DEBUG:https://www.deviantart.com:443 "GET /about/policy/privacy/ HTTP/1.1" 200 None
+2023-05-01 05:27:42,865 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:42,865 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:27:43,434 DEBUG:https://www.deviantart.com:443 "GET / HTTP/1.1" 200 None
+2023-05-01 05:27:43,649 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:43,649 INFO:SINGLE ITERATION TIME: 0.78
+2023-05-01 05:27:44,606 DEBUG:https://www.deviantart.com:443 "GET /topic HTTP/1.1" 200 None
+2023-05-01 05:27:44,936 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:44,936 INFO:SINGLE ITERATION TIME: 1.29
+2023-05-01 05:27:45,450 DEBUG:https://www.deviantart.com:443 "GET /polinareed/art/310323-955886119 HTTP/1.1" 200 None
+2023-05-01 05:27:45,550 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:45,550 INFO:SINGLE ITERATION TIME: 0.61
+2023-05-01 05:27:46,065 DEBUG:https://www.deviantart.com:443 "GET /polinareed HTTP/1.1" 200 None
+2023-05-01 05:27:46,151 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:46,151 INFO:SINGLE ITERATION TIME: 0.6
+2023-05-01 05:27:46,651 DEBUG:https://www.deviantart.com:443 "GET /anatofinnstark/art/Femto-and-Zodd-BERSERK-957160961 HTTP/1.1" 200 None
+2023-05-01 05:27:46,707 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:46,707 INFO:SINGLE ITERATION TIME: 0.56
+2023-05-01 05:27:47,493 DEBUG:https://www.deviantart.com:443 "GET /anatofinnstark HTTP/1.1" 200 None
+2023-05-01 05:27:47,938 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:47,938 INFO:SINGLE ITERATION TIME: 1.23
+2023-05-01 05:27:48,380 DEBUG:https://www.deviantart.com:443 "GET /ereyz/art/TGCF-Happy-Bunny-Year-2023-950590537 HTTP/1.1" 200 None
+2023-05-01 05:27:48,438 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:48,438 INFO:SINGLE ITERATION TIME: 0.5
+2023-05-01 05:27:48,867 DEBUG:https://www.deviantart.com:443 "GET /ereyz HTTP/1.1" 200 None
+2023-05-01 05:27:49,053 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:49,053 INFO:SINGLE ITERATION TIME: 0.61
+2023-05-01 05:27:49,509 DEBUG:https://www.deviantart.com:443 "GET /baroquedoll/art/Gandi-z-957089427 HTTP/1.1" 200 None
+2023-05-01 05:27:49,653 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:49,653 INFO:SINGLE ITERATION TIME: 0.6
+2023-05-01 05:27:50,110 DEBUG:https://www.deviantart.com:443 "GET /baroquedoll HTTP/1.1" 200 None
+2023-05-01 05:27:50,213 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:50,213 INFO:SINGLE ITERATION TIME: 0.56
+2023-05-01 05:27:50,717 DEBUG:https://www.deviantart.com:443 "GET /pilgrimmaiden/art/Her-hairstyle-is-perfect-956863269 HTTP/1.1" 200 None
+2023-05-01 05:27:51,173 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:51,173 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:27:51,690 DEBUG:https://www.deviantart.com:443 "GET /pilgrimmaiden HTTP/1.1" 200 None
+2023-05-01 05:27:51,891 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:51,891 INFO:SINGLE ITERATION TIME: 0.72
+2023-05-01 05:27:52,277 DEBUG:https://www.deviantart.com:443 "GET /silvermixx/art/The-wonky-house-958510395 HTTP/1.1" 200 None
+2023-05-01 05:27:52,323 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:52,323 INFO:SINGLE ITERATION TIME: 0.43
+2023-05-01 05:27:53,010 DEBUG:https://www.deviantart.com:443 "GET /silvermixx HTTP/1.1" 200 None
+2023-05-01 05:27:53,295 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:53,295 INFO:SINGLE ITERATION TIME: 0.97
+2023-05-01 05:27:53,913 DEBUG:https://www.deviantart.com:443 "GET /bikangarts/art/JIMIN-937333452 HTTP/1.1" 200 None
+2023-05-01 05:27:53,966 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:53,966 INFO:SINGLE ITERATION TIME: 0.67
+2023-05-01 05:27:54,430 DEBUG:https://www.deviantart.com:443 "GET /bikangarts HTTP/1.1" 200 None
+2023-05-01 05:27:54,543 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:54,543 INFO:SINGLE ITERATION TIME: 0.58
+2023-05-01 05:27:55,032 DEBUG:https://www.deviantart.com:443 "GET /castlegraphics/art/WDC-175-954709592 HTTP/1.1" 200 None
+2023-05-01 05:27:55,070 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:55,070 INFO:SINGLE ITERATION TIME: 0.53
+2023-05-01 05:27:55,471 DEBUG:https://www.deviantart.com:443 "GET /castlegraphics HTTP/1.1" 200 None
+2023-05-01 05:27:55,534 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:55,534 INFO:SINGLE ITERATION TIME: 0.46
+2023-05-01 05:27:56,088 DEBUG:https://www.deviantart.com:443 "GET /juhaniviitanen/art/Northern-lights-night-sky-954968086 HTTP/1.1" 200 None
+2023-05-01 05:27:56,151 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:56,151 INFO:SINGLE ITERATION TIME: 0.62
+2023-05-01 05:27:56,875 DEBUG:https://www.deviantart.com:443 "GET /juhaniviitanen HTTP/1.1" 200 None
+2023-05-01 05:27:56,991 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:56,991 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:27:57,593 DEBUG:https://www.deviantart.com:443 "GET /relhom/art/Wheel-of-fortune-955729502 HTTP/1.1" 200 None
+2023-05-01 05:27:57,725 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:57,725 INFO:SINGLE ITERATION TIME: 0.73
+2023-05-01 05:27:58,311 DEBUG:https://www.deviantart.com:443 "GET /relhom HTTP/1.1" 200 None
+2023-05-01 05:27:58,465 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:58,465 INFO:SINGLE ITERATION TIME: 0.74
+2023-05-01 05:27:59,214 DEBUG:https://www.deviantart.com:443 "GET /mermaidine/art/The-tree-and-me-959059476 HTTP/1.1" 200 None
+2023-05-01 05:27:59,283 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:27:59,283 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:27:59,970 DEBUG:https://www.deviantart.com:443 "GET /mermaidine HTTP/1.1" 200 None
+2023-05-01 05:28:00,164 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:28:00,164 INFO:SINGLE ITERATION TIME: 0.88
+2023-05-01 05:28:00,164 INFO:VISITED LINKS: 31
+2023-05-01 05:28:00,164 INFO:COLLECTED LINKS: 30
+2023-05-01 05:28:00,164 INFO:QUEUED LINKS: 32
+2023-05-01 05:28:00,201 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www01052023052737-tree-graph.gv' with encoding 'utf-8'
+2023-05-01 05:28:00,201 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www01052023052737-tree-graph.gv')
+2023-05-01 05:28:00,201 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-05-01 05:28:00,201 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www01052023052737-diagram'
+2023-05-01 05:28:00,201 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www01052023052737-diagram']
+2023-05-01 05:28:00,317 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-05-01 05:29:24,078 WARNING:Not Found: /favicon.ico
+2023-05-01 05:29:35,013 DEBUG:Starting new HTTPS connection (1): www.deviantart.com:443
+2023-05-01 05:29:35,584 DEBUG:https://www.deviantart.com:443 "GET / HTTP/1.1" 200 None
+2023-05-01 05:29:36,687 DEBUG:https://www.deviantart.com:443 "GET / HTTP/1.1" 200 None
+2023-05-01 05:29:37,142 INFO:URL NO.1ADDED: https://www.deviantart.com/shop
+2023-05-01 05:29:37,142 INFO:URL NO.2ADDED: https://www.deviantart.com/core-membership
+2023-05-01 05:29:37,142 INFO:URL NO.3ADDED: https://www.deviantart.com/join
+2023-05-01 05:29:37,142 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:29:37,142 INFO:URL NO.4ADDED: https://www.deviantart.com/about/policy/service
+2023-05-01 05:29:37,142 INFO:URL NO.5ADDED: https://www.deviantart.com/about/policy/privacy
+2023-05-01 05:29:37,142 INFO:URL NO.6ADDED: https://www.deviantart.com/
+2023-05-01 05:29:37,142 INFO:URL NO.7ADDED: https://www.deviantart.com/topic
+2023-05-01 05:29:37,142 INFO:URL NO.8ADDED: https://www.deviantart.com/polinareed/art/310323-955886119
+2023-05-01 05:29:37,142 INFO:URL NO.9ADDED: https://www.deviantart.com/polinareed
+2023-05-01 05:29:37,142 INFO:URL NO.10ADDED: https://www.deviantart.com/anatofinnstark/art/Femto-and-Zodd-BERSERK-957160961
+2023-05-01 05:29:37,142 INFO:URL NO.11ADDED: https://www.deviantart.com/anatofinnstark
+2023-05-01 05:29:37,142 INFO:URL NO.12ADDED: https://www.deviantart.com/ereyz/art/TGCF-Happy-Bunny-Year-2023-950590537
+2023-05-01 05:29:37,142 INFO:URL NO.13ADDED: https://www.deviantart.com/ereyz
+2023-05-01 05:29:37,142 INFO:URL NO.14ADDED: https://www.deviantart.com/baroquedoll/art/Gandi-z-957089427
+2023-05-01 05:29:37,142 INFO:URL NO.15ADDED: https://www.deviantart.com/baroquedoll
+2023-05-01 05:29:37,142 INFO:URL NO.16ADDED: https://www.deviantart.com/pilgrimmaiden/art/Her-hairstyle-is-perfect-956863269
+2023-05-01 05:29:37,142 INFO:URL NO.17ADDED: https://www.deviantart.com/pilgrimmaiden
+2023-05-01 05:29:37,142 INFO:URL NO.18ADDED: https://www.deviantart.com/silvermixx/art/The-wonky-house-958510395
+2023-05-01 05:29:37,142 INFO:URL NO.19ADDED: https://www.deviantart.com/silvermixx
+2023-05-01 05:29:37,142 INFO:URL NO.20ADDED: https://www.deviantart.com/bikangarts/art/JIMIN-937333452
+2023-05-01 05:29:37,142 INFO:URL NO.21ADDED: https://www.deviantart.com/bikangarts
+2023-05-01 05:29:37,142 INFO:URL NO.22ADDED: https://www.deviantart.com/castlegraphics/art/WDC-175-954709592
+2023-05-01 05:29:37,142 INFO:URL NO.23ADDED: https://www.deviantart.com/castlegraphics
+2023-05-01 05:29:37,142 INFO:URL NO.24ADDED: https://www.deviantart.com/juhaniviitanen/art/Northern-lights-night-sky-954968086
+2023-05-01 05:29:37,142 INFO:URL NO.25ADDED: https://www.deviantart.com/juhaniviitanen
+2023-05-01 05:29:37,142 INFO:URL NO.26ADDED: https://www.deviantart.com/relhom/art/Wheel-of-fortune-955729502
+2023-05-01 05:29:37,142 INFO:URL NO.27ADDED: https://www.deviantart.com/relhom
+2023-05-01 05:29:37,142 INFO:URL NO.28ADDED: https://www.deviantart.com/mermaidine/art/The-tree-and-me-959059476
+2023-05-01 05:29:37,142 INFO:URL NO.29ADDED: https://www.deviantart.com/mermaidine
+2023-05-01 05:29:37,142 INFO:URL NO.30ADDED: https://www.deviantart.com/topic/ai
+2023-05-01 05:29:37,142 INFO:URL NO.31ADDED: https://www.deviantart.com/topic/digital-art
+2023-05-01 05:29:37,157 INFO:URL NO.32ADDED: https://www.deviantart.com/topic/fan-art
+2023-05-01 05:29:37,157 INFO:URL NO.33ADDED: https://www.deviantart.com/topic/photography
+2023-05-01 05:29:37,157 INFO:URL NO.34ADDED: https://www.deviantart.com/topic/fantasy
+2023-05-01 05:29:37,157 INFO:URL NO.35ADDED: https://www.deviantart.com/topic/anime-and-manga
+2023-05-01 05:29:37,157 INFO:URL NO.36ADDED: https://www.deviantart.com/topic/resources
+2023-05-01 05:29:37,157 INFO:URL NO.37ADDED: https://www.deviantart.com/team
+2023-05-01 05:29:37,157 INFO:URL NO.38ADDED: https://www.deviantart.com/team/journal/Save-what-you-love-with-Private-Collections-959681100
+2023-05-01 05:29:37,157 INFO:URL NO.39ADDED: https://www.deviantart.com/team/journal/Honing-Your-Skills-913441987
+2023-05-01 05:29:37,157 INFO:URL NO.40ADDED: https://www.deviantart.com/team/journal/Adoptables-BETA-Buy-and-sell-unique-creations-950202820
+2023-05-01 05:29:37,157 INFO:URL NO.41ADDED: https://www.deviantart.com/team/journal/Featured-DeviantArt-Events-913398192
+2023-05-01 05:29:37,157 INFO:URL NO.42ADDED: https://www.deviantart.com/team/journal/Artist-Interviews-952619937
+2023-05-01 05:29:37,157 INFO:URL NO.43ADDED: https://www.deviantart.com/team/journal/Tutorial-Draw-Fella-with-TsaoShin-953028296
+2023-05-01 05:29:37,157 INFO:URL NO.44ADDED: https://www.deviantart.com/team/journal/Creative-Challenges-913396932
+2023-05-01 05:29:37,157 INFO:URL NO.45ADDED: https://www.deviantart.com/team/journal/Seniority-Announcement-April-2023-952750074
+2023-05-01 05:29:37,157 INFO:URL NO.46ADDED: https://www.deviantart.com/team/journal/Resources-913399317
+2023-05-01 05:29:37,157 INFO:URL NO.47ADDED: https://www.deviantart.com/team/journal/Celebrating-Deviousness-April-2023-952890110
+2023-05-01 05:29:37,157 INFO:URL NO.48ADDED: https://www.deviantart.com/burningmonk/art/Humanoids-943512719
+2023-05-01 05:29:37,157 INFO:URL NO.49ADDED: https://www.deviantart.com/burningmonk
+2023-05-01 05:29:37,157 INFO:URL NO.50ADDED: https://www.deviantart.com/lily-in-snow/art/Last-light-957500534
+2023-05-01 05:29:37,157 INFO:URL NO.51ADDED: https://www.deviantart.com/lily-in-snow
+2023-05-01 05:29:37,157 INFO:URL NO.52ADDED: https://www.deviantart.com/timf0st/art/Captain-Amelia-959846961
+2023-05-01 05:29:37,157 INFO:URL NO.53ADDED: https://www.deviantart.com/timf0st
+2023-05-01 05:29:37,157 INFO:URL NO.54ADDED: https://www.deviantart.com/lord-lavrahtheen/art/Hidden-in-the-Meander-935480503
+2023-05-01 05:29:37,157 INFO:URL NO.55ADDED: https://www.deviantart.com/lord-lavrahtheen
+2023-05-01 05:29:37,157 INFO:URL NO.56ADDED: https://www.deviantart.com/aibyou/art/Rainbow-Tanuki-ADOPT-CLOSED-953007473
+2023-05-01 05:29:37,157 INFO:URL NO.57ADDED: https://www.deviantart.com/aibyou
+2023-05-01 05:29:37,157 INFO:URL NO.58ADDED: https://www.deviantart.com/sp2pr/art/Paproc-955682056
+2023-05-01 05:29:37,157 INFO:URL NO.59ADDED: https://www.deviantart.com/sp2pr
+2023-05-01 05:29:37,157 INFO:URL NO.60ADDED: https://www.deviantart.com/stefydraw/art/Dragon-Forest-958499346
+2023-05-01 05:29:37,157 INFO:URL NO.61ADDED: https://www.deviantart.com/stefydraw
+2023-05-01 05:29:37,157 INFO:URL NO.62ADDED: https://www.deviantart.com/ashenreina/art/Me-as-Claire-Redfield-959250492
+2023-05-01 05:29:37,157 INFO:URL NO.63ADDED: https://www.deviantart.com/ashenreina
+2023-05-01 05:29:37,157 INFO:URL NO.64ADDED: https://www.deviantart.com/sandara/art/Dragon-Mountain-934423112
+2023-05-01 05:29:37,157 INFO:URL NO.65ADDED: https://www.deviantart.com/sandara
+2023-05-01 05:29:37,157 INFO:URL NO.66ADDED: https://www.deviantart.com/bozhenafuchs/art/Sunrise-over-the-city-954736024
+2023-05-01 05:29:37,157 INFO:URL NO.67ADDED: https://www.deviantart.com/bozhenafuchs
+2023-05-01 05:29:37,157 INFO:URL NO.68ADDED: https://www.deviantart.com/les-piccolo/art/PIC-5727-943061640
+2023-05-01 05:29:37,157 INFO:URL NO.69ADDED: https://www.deviantart.com/les-piccolo
+2023-05-01 05:29:37,157 INFO:URL NO.70ADDED: https://www.deviantart.com/pkohoutdotcom/art/Bridges-of-Prague-958009293
+2023-05-01 05:29:37,157 INFO:URL NO.71ADDED: https://www.deviantart.com/pkohoutdotcom
+2023-05-01 05:29:37,157 INFO:URL NO.72ADDED: https://www.deviantart.com/?cursor=MTQwYWI2MjA9MiY1OTBhY2FkMD0yNCZkMTc0YjZiYz1OJTJGQSY3ODAwOTk4MiU1QjAlNUQ9OTU5MjUwNDkyJjc4MDA5OTgyJTVCMSU1RD05MzQ0MjMxMTImNzgwMDk5ODIlNUIyJTVEPTk1NDczNjAyNCY3ODAwOTk4MiU1QjMlNUQ9OTQzMDYxNjQwJjc4MDA5OTgyJTVCNCU1RD05NTgwMDkyOTM
+2023-05-01 05:29:37,157 INFO:URL NO.73ADDED: https://www.deviantart.com/about
+2023-05-01 05:29:37,157 INFO:URL NO.74ADDED: https://www.deviantart.com/developers
+2023-05-01 05:29:37,157 INFO:URL NO.75ADDED: https://www.deviantart.com/about/policy/etiquette
+2023-05-01 05:29:37,157 INFO:URL NO.76ADDED: https://www.deviantart.com/team/journal/Careers-at-DeviantArt-855261915
+2023-05-01 05:29:37,157 INFO:URL NO.77ADDED: https://www.deviantart.com/about/policy/copyright
+2023-05-01 05:29:37,157 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:29:37,157 INFO:SINGLE ITERATION TIME: 1.24
+2023-05-01 05:29:37,860 DEBUG:https://www.deviantart.com:443 "GET /shop HTTP/1.1" 200 None
+2023-05-01 05:29:38,091 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:29:38,091 INFO:ROBOT EXCLUDED: https://www.deviantart.com/shop/search?q=Adoptables
+2023-05-01 05:29:38,091 INFO:ROBOT EXCLUDED: https://www.deviantart.com/shop/search?q=Avatar
+2023-05-01 05:29:38,091 INFO:ROBOT EXCLUDED: https://www.deviantart.com/shop/search?q=Portrait
+2023-05-01 05:29:38,091 INFO:ROBOT EXCLUDED: https://www.deviantart.com/shop/downloads/search?q=profileskins&tag=profileskins
+2023-05-01 05:29:38,091 INFO:URL NO.78ADDED: https://www.deviantart.com/arcencieldigitalart/shop
+2023-05-01 05:29:38,091 INFO:URL NO.79ADDED: https://www.deviantart.com/shop/adoptables
+2023-05-01 05:29:38,091 INFO:URL NO.80ADDED: https://www.deviantart.com/shop/downloads
+2023-05-01 05:29:38,091 INFO:URL NO.81ADDED: https://www.deviantart.com/shop/commissions
+2023-05-01 05:29:38,091 INFO:URL NO.82ADDED: https://www.deviantart.com/shop/subscriptions
+2023-05-01 05:29:38,091 INFO:URL NO.83ADDED: https://www.deviantart.com/inzaniak/art/Sky-Rider-958986186
+2023-05-01 05:29:38,091 INFO:URL NO.84ADDED: https://www.deviantart.com/inzaniak
+2023-05-01 05:29:38,091 INFO:URL NO.85ADDED: https://www.deviantart.com/starslimeadopts-ai/art/Open-090-Ai-Adopt-960472524
+2023-05-01 05:29:38,091 INFO:URL NO.86ADDED: https://www.deviantart.com/starslimeadopts-ai
+2023-05-01 05:29:38,091 INFO:URL NO.87ADDED: https://www.deviantart.com/darksealstudios/art/High-Wizard-960465453
+2023-05-01 05:29:38,091 INFO:URL NO.88ADDED: https://www.deviantart.com/darksealstudios
+2023-05-01 05:29:38,107 INFO:URL NO.89ADDED: https://www.deviantart.com/shaofaoevil/art/Chibi-Adoptable-6-960435985
+2023-05-01 05:29:38,107 INFO:URL NO.90ADDED: https://www.deviantart.com/shaofaoevil
+2023-05-01 05:29:38,107 INFO:URL NO.91ADDED: https://www.deviantart.com/orinamiai/art/126-Adoptable-Open-960410514
+2023-05-01 05:29:38,107 INFO:URL NO.92ADDED: https://www.deviantart.com/orinamiai
+2023-05-01 05:29:38,107 INFO:URL NO.93ADDED: https://www.deviantart.com/ceroticart/art/Toby-Adoptable-960401537
+2023-05-01 05:29:38,107 INFO:URL NO.94ADDED: https://www.deviantart.com/ceroticart
+2023-05-01 05:29:38,107 INFO:URL NO.95ADDED: https://www.deviantart.com/parfaitchantheningyo/art/Cute-Duck-and-Boy-Chibi-Sticker-Adoptable-960323281
+2023-05-01 05:29:38,107 INFO:URL NO.96ADDED: https://www.deviantart.com/parfaitchantheningyo
+2023-05-01 05:29:38,107 INFO:URL NO.97ADDED: https://www.deviantart.com/okamilia/art/AI-ADOPT-Idol-Heart-6-960342295
+2023-05-01 05:29:38,107 INFO:URL NO.98ADDED: https://www.deviantart.com/okamilia
+2023-05-01 05:29:38,107 INFO:URL NO.99ADDED: https://www.deviantart.com/suqarstars/art/Adopt-0023-OPEN-960117306
+2023-05-01 05:29:38,107 INFO:URL NO.100ADDED: https://www.deviantart.com/suqarstars
+2023-05-01 05:29:38,107 INFO:URL NO.101ADDED: https://www.deviantart.com/muanz/art/OPEN-Adoptable-349-Sheep-Maid-960347067
+2023-05-01 05:29:38,107 INFO:URL NO.102ADDED: https://www.deviantart.com/muanz
+2023-05-01 05:29:38,107 INFO:URL NO.103ADDED: https://www.deviantart.com/didilunestudio/art/X-23-Laura-Kinney-X-Men-959559713
+2023-05-01 05:29:38,107 INFO:URL NO.104ADDED: https://www.deviantart.com/didilunestudio
+2023-05-01 05:29:38,107 INFO:URL NO.105ADDED: https://www.deviantart.com/enlightenedspaceman/art/Peaches-Peaches-Peaches-Peaches-Peaches-3-959608941
+2023-05-01 05:29:38,107 INFO:URL NO.106ADDED: https://www.deviantart.com/enlightenedspaceman
+2023-05-01 05:29:38,107 INFO:URL NO.107ADDED: https://www.deviantart.com/jackfrost-nsfw/art/Princess-Peach-959494305
+2023-05-01 05:29:38,107 INFO:URL NO.108ADDED: https://www.deviantart.com/jackfrost-nsfw
+2023-05-01 05:29:38,107 INFO:URL NO.109ADDED: https://www.deviantart.com/doosio/art/Free-to-use-AlHaitham-Pixel-Icon-PSD-959241733
+2023-05-01 05:29:38,107 INFO:URL NO.110ADDED: https://www.deviantart.com/doosio
+2023-05-01 05:29:38,107 INFO:URL NO.111ADDED: https://www.deviantart.com/spiraloso/art/Circlos-5K-SciFi-Concept-Art-Wallpaper-959493417
+2023-05-01 05:29:38,107 INFO:URL NO.112ADDED: https://www.deviantart.com/spiraloso
+2023-05-01 05:29:38,107 INFO:URL NO.113ADDED: https://www.deviantart.com/tominconcord/art/Summer-Sunset-956580322
+2023-05-01 05:29:38,107 INFO:URL NO.114ADDED: https://www.deviantart.com/tominconcord
+2023-05-01 05:29:38,107 INFO:URL NO.115ADDED: https://www.deviantart.com/th3dutchzombi3/art/Early-Morning-on-the-Fjord-956291474
+2023-05-01 05:29:38,107 INFO:URL NO.116ADDED: https://www.deviantart.com/th3dutchzombi3
+2023-05-01 05:29:38,107 INFO:URL NO.117ADDED: https://www.deviantart.com/kiklopp/art/Sunset-Over-Hotel-Royal-Moscow-COMMERCIAL-LICENCE-958981625
+2023-05-01 05:29:38,107 INFO:URL NO.118ADDED: https://www.deviantart.com/kiklopp
+2023-05-01 05:29:38,107 INFO:URL NO.119ADDED: https://www.deviantart.com/akoukis/art/Outfit-Design-Adoptable-Romina-OPEN-957494289
+2023-05-01 05:29:38,107 INFO:URL NO.120ADDED: https://www.deviantart.com/akoukis
+2023-05-01 05:29:38,107 INFO:URL NO.121ADDED: https://www.deviantart.com/cc357/commission/How-super-Mario-1591878
+2023-05-01 05:29:38,107 INFO:URL NO.122ADDED: https://www.deviantart.com/cc357
+2023-05-01 05:29:38,107 INFO:URL NO.123ADDED: https://www.deviantart.com/momokoscarlet/commission/Pregnant-Anime-drawing-commission-1543855
+2023-05-01 05:29:38,107 INFO:URL NO.124ADDED: https://www.deviantart.com/momokoscarlet
+2023-05-01 05:29:38,107 INFO:URL NO.125ADDED: https://www.deviantart.com/qatsby/commission/The-Queen-s-Clique-Grid-1594138
+2023-05-01 05:29:38,107 INFO:URL NO.126ADDED: https://www.deviantart.com/qatsby
+2023-05-01 05:29:38,107 INFO:URL NO.127ADDED: https://www.deviantart.com/creeperswitch/commission/OC-Commissions-OPEN-1545069
+2023-05-01 05:29:38,107 INFO:URL NO.128ADDED: https://www.deviantart.com/creeperswitch
+2023-05-01 05:29:38,107 INFO:URL NO.129ADDED: https://www.deviantart.com/hubaifu/commission/Female-SFW-NSFW-Character-Fetishes-1610085
+2023-05-01 05:29:38,107 INFO:URL NO.130ADDED: https://www.deviantart.com/hubaifu
+2023-05-01 05:29:38,107 INFO:URL NO.131ADDED: https://www.deviantart.com/azureazulity/commission/Hentai-Commissions-OPEN-1-5-1572167
+2023-05-01 05:29:38,107 INFO:URL NO.132ADDED: https://www.deviantart.com/azureazulity
+2023-05-01 05:29:38,107 INFO:URL NO.133ADDED: https://www.deviantart.com/diaperdrawler/commission/ABDL-Full-Color-w-full-background-or-characters-1543497
+2023-05-01 05:29:38,107 INFO:URL NO.134ADDED: https://www.deviantart.com/diaperdrawler
+2023-05-01 05:29:38,123 INFO:URL NO.135ADDED: https://www.deviantart.com/wickedviky/commission/1-hour-fetish-RP-1585067
+2023-05-01 05:29:38,123 INFO:URL NO.136ADDED: https://www.deviantart.com/wickedviky
+2023-05-01 05:29:38,123 INFO:URL NO.137ADDED: https://www.deviantart.com/durrco-arts/commission/Fusion-Gem-Highlight-Panel-1602572
+2023-05-01 05:29:38,123 INFO:URL NO.138ADDED: https://www.deviantart.com/durrco-arts
+2023-05-01 05:29:38,123 INFO:URL NO.139ADDED: https://www.deviantart.com/fragmented-starr/commission/Vroid-Simple-Model-1534433
+2023-05-01 05:29:38,123 INFO:URL NO.140ADDED: https://www.deviantart.com/fragmented-starr
+2023-05-01 05:29:38,123 INFO:URL NO.141ADDED: https://www.deviantart.com/jackfrost-nsfw/subscriptions/958229674/deviations
+2023-05-01 05:29:38,123 INFO:URL NO.142ADDED: https://www.deviantart.com/propimol
+2023-05-01 05:29:38,123 INFO:URL NO.143ADDED: https://www.deviantart.com/propimol/subscriptions/946345085/deviations
+2023-05-01 05:29:38,123 INFO:URL NO.144ADDED: https://www.deviantart.com/tsaoshin
+2023-05-01 05:29:38,123 INFO:URL NO.145ADDED: https://www.deviantart.com/tsaoshin/subscriptions/943260698/deviations
+2023-05-01 05:29:38,123 INFO:URL NO.146ADDED: https://www.deviantart.com/ryky
+2023-05-01 05:29:38,123 INFO:URL NO.147ADDED: https://www.deviantart.com/ryky/subscriptions/890944232/deviations
+2023-05-01 05:29:38,123 INFO:URL NO.148ADDED: https://www.deviantart.com/phil-cho
+2023-05-01 05:29:38,123 INFO:URL NO.149ADDED: https://www.deviantart.com/phil-cho/subscriptions/926070908/deviations
+2023-05-01 05:29:38,123 INFO:URL NO.150ADDED: https://www.deviantart.com/athenatt
+2023-05-01 05:29:38,123 INFO:URL NO.151ADDED: https://www.deviantart.com/athenatt/subscriptions/908748940/deviations
+2023-05-01 05:29:38,123 INFO:URL NO.152ADDED: https://www.deviantart.com/era7
+2023-05-01 05:29:38,123 INFO:URL NO.153ADDED: https://www.deviantart.com/era7/subscriptions/938298568/deviations
+2023-05-01 05:29:38,123 INFO:URL NO.154ADDED: https://www.deviantart.com/all0412
+2023-05-01 05:29:38,123 INFO:URL NO.155ADDED: https://www.deviantart.com/all0412/subscriptions/890574607/deviations
+2023-05-01 05:29:38,123 INFO:URL NO.156ADDED: https://www.deviantart.com/rumcandyadopt
+2023-05-01 05:29:38,123 INFO:URL NO.157ADDED: https://www.deviantart.com/rumcandyadopt/subscriptions/908780376/deviations
+2023-05-01 05:29:38,123 INFO:URL NO.158ADDED: https://www.deviantart.com/chiwwydawg
+2023-05-01 05:29:38,123 INFO:URL NO.159ADDED: https://www.deviantart.com/chiwwydawg/subscriptions/918604192/deviations
+2023-05-01 05:29:38,123 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:29:38,123 INFO:SINGLE ITERATION TIME: 0.97
+2023-05-01 05:29:38,446 DEBUG:https://www.deviantart.com:443 "GET /core-membership HTTP/1.1" 200 None
+2023-05-01 05:29:38,678 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:29:38,693 INFO:URL NO.160ADDED: https://www.deviantart.com/erisiar/art/Camping-843924883
+2023-05-01 05:29:38,693 INFO:URL NO.161ADDED: https://www.deviantart.com/raidesart/art/Light-851485743
+2023-05-01 05:29:38,693 INFO:URL NO.162ADDED: https://www.deviantart.com/account
+2023-05-01 05:29:38,693 INFO:URL NO.163ADDED: https://www.deviantart.com/lorddoomhammer/art/Departure-679834588
+2023-05-01 05:29:38,693 INFO:SINGLE ITERATION TIME: 0.57
+2023-05-01 05:29:39,148 DEBUG:https://www.deviantart.com:443 "GET /join HTTP/1.1" 200 None
+2023-05-01 05:29:39,427 INFO:URL NO.164ADDED: https://www.deviantart.com/erinnicholls
+2023-05-01 05:29:39,427 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:29:39,427 INFO:SINGLE ITERATION TIME: 0.73
+2023-05-01 05:29:39,583 DEBUG:https://www.deviantart.com:443 "GET /about/policy/service HTTP/1.1" 301 255
+2023-05-01 05:29:39,583 DEBUG:Starting new HTTP connection (1): www.deviantart.com:80
+2023-05-01 05:29:39,680 DEBUG:http://www.deviantart.com:80 "GET /about/policy/service/ HTTP/1.1" 301 167
+2023-05-01 05:29:39,850 DEBUG:https://www.deviantart.com:443 "GET /about/policy/service/ HTTP/1.1" 200 None
+2023-05-01 05:29:39,887 INFO:URL NO.165ADDED: https://www.deviantart.com/notifications/watch
+2023-05-01 05:29:39,887 INFO:URL NO.166ADDED: https://www.deviantart.com/forum"
+2023-05-01 05:29:39,887 INFO:URL NO.167ADDED: https://www.deviantart.com/about/policy/submission
+2023-05-01 05:29:39,887 INFO:URL NO.168ADDED: https://www.deviantart.com/prints
+2023-05-01 05:29:39,887 INFO:URL NO.169ADDED: https://www.deviantart.com/about/advertising
+2023-05-01 05:29:39,887 INFO:URL NO.170ADDED: https://www.deviantart.com/muro
+2023-05-01 05:29:39,887 INFO:URL NO.171ADDED: https://www.deviantart.com/submit
+2023-05-01 05:29:39,887 INFO:SINGLE ITERATION TIME: 0.46
+2023-05-01 05:29:40,309 DEBUG:https://www.deviantart.com:443 "GET /about/policy/privacy HTTP/1.1" 301 255
+2023-05-01 05:29:40,319 DEBUG:http://www.deviantart.com:80 "GET /about/policy/privacy/ HTTP/1.1" 301 167
+2023-05-01 05:29:40,759 DEBUG:https://www.deviantart.com:443 "GET /about/policy/privacy/ HTTP/1.1" 200 None
+2023-05-01 05:29:40,906 INFO:URL NO.172ADDED: https://www.deviantart.com/settings/general
+2023-05-01 05:29:40,906 INFO:URL NO.173ADDED: https://www.deviantart.com/settings/gdpr
+2023-05-01 05:29:40,906 INFO:SINGLE ITERATION TIME: 1.02
+2023-05-01 05:29:41,743 DEBUG:https://www.deviantart.com:443 "GET / HTTP/1.1" 200 None
+2023-05-01 05:29:42,279 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:29:42,279 INFO:URL NO.174ADDED: https://www.deviantart.com/inspiredartista/favourites/89140092/community-subscriptions
+2023-05-01 05:29:42,279 INFO:URL NO.175ADDED: https://www.deviantart.com/agina
+2023-05-01 05:29:42,279 INFO:URL NO.176ADDED: https://www.deviantart.com/agina/subscriptions/910687859/deviations
+2023-05-01 05:29:42,279 INFO:URL NO.177ADDED: https://www.deviantart.com/ellicoffee
+2023-05-01 05:29:42,279 INFO:URL NO.178ADDED: https://www.deviantart.com/ellicoffee/subscriptions/935195958/deviations
+2023-05-01 05:29:42,279 INFO:URL NO.179ADDED: https://www.deviantart.com/xzenartrb
+2023-05-01 05:29:42,295 INFO:URL NO.180ADDED: https://www.deviantart.com/xzenartrb/subscriptions/895384052/deviations
+2023-05-01 05:29:42,295 INFO:URL NO.181ADDED: https://www.deviantart.com/redsinistra
+2023-05-01 05:29:42,295 INFO:URL NO.182ADDED: https://www.deviantart.com/redsinistra/subscriptions/908929936/deviations
+2023-05-01 05:29:42,295 INFO:URL NO.183ADDED: https://www.deviantart.com/trvshbxby
+2023-05-01 05:29:42,295 INFO:URL NO.184ADDED: https://www.deviantart.com/trvshbxby/subscriptions/912008795/deviations
+2023-05-01 05:29:42,295 INFO:URL NO.185ADDED: https://www.deviantart.com/painhh
+2023-05-01 05:29:42,295 INFO:URL NO.186ADDED: https://www.deviantart.com/painhh/subscriptions/918398939/deviations
+2023-05-01 05:29:42,295 INFO:URL NO.187ADDED: https://www.deviantart.com/lightspalette
+2023-05-01 05:29:42,295 INFO:URL NO.188ADDED: https://www.deviantart.com/lightspalette/subscriptions/915174460/deviations
+2023-05-01 05:29:42,295 INFO:URL NO.189ADDED: https://www.deviantart.com/crossaik
+2023-05-01 05:29:42,295 INFO:URL NO.190ADDED: https://www.deviantart.com/crossaik/subscriptions/925670036/deviations
+2023-05-01 05:29:42,295 INFO:URL NO.191ADDED: https://www.deviantart.com/kratasz
+2023-05-01 05:29:42,295 INFO:URL NO.192ADDED: https://www.deviantart.com/kratasz/subscriptions/891542485/deviations
+2023-05-01 05:29:42,295 INFO:URL NO.193ADDED: https://www.deviantart.com/exordiumfractal
+2023-05-01 05:29:42,295 INFO:URL NO.194ADDED: https://www.deviantart.com/exordiumfractal/subscriptions/917246219/deviations
+2023-05-01 05:29:42,295 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:29:42,295 INFO:SINGLE ITERATION TIME: 1.39
+2023-05-01 05:29:42,912 DEBUG:https://www.deviantart.com:443 "GET /topic HTTP/1.1" 200 None
+2023-05-01 05:29:43,366 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:29:43,366 INFO:URL NO.195ADDED: https://www.deviantart.com/topic/3d
+2023-05-01 05:29:43,366 INFO:URL NO.196ADDED: https://www.deviantart.com/topic/adoptables
+2023-05-01 05:29:43,366 INFO:URL NO.197ADDED: https://www.deviantart.com/topic/anthro
+2023-05-01 05:29:43,366 INFO:URL NO.198ADDED: https://www.deviantart.com/topic/artisan-crafts
+2023-05-01 05:29:43,366 INFO:URL NO.199ADDED: https://www.deviantart.com/topic/comics
+2023-05-01 05:29:43,366 INFO:URL NO.200ADDED: https://www.deviantart.com/topic/cosplay
+2023-05-01 05:29:43,366 INFO:URL NO.201ADDED: https://www.deviantart.com/topic/customization
+2023-05-01 05:29:43,366 INFO:URL NO.202ADDED: https://www.deviantart.com/topic/drawings-and-paintings
+2023-05-01 05:29:43,366 INFO:URL NO.203ADDED: https://www.deviantart.com/topic/emoji-and-emoticon
+2023-05-01 05:29:43,366 INFO:URL NO.204ADDED: https://www.deviantart.com/topic/fan-fiction
+2023-05-01 05:29:43,366 INFO:URL NO.205ADDED: https://www.deviantart.com/topic/fractal
+2023-05-01 05:29:43,366 INFO:URL NO.206ADDED: https://www.deviantart.com/topic/game-art
+2023-05-01 05:29:43,366 INFO:URL NO.207ADDED: https://www.deviantart.com/topic/horror
+2023-05-01 05:29:43,366 INFO:URL NO.208ADDED: https://www.deviantart.com/topic/literature
+2023-05-01 05:29:43,366 INFO:URL NO.209ADDED: https://www.deviantart.com/topic/photo-manipulation
+2023-05-01 05:29:43,366 INFO:URL NO.210ADDED: https://www.deviantart.com/topic/pixel-art
+2023-05-01 05:29:43,366 INFO:URL NO.211ADDED: https://www.deviantart.com/topic/poetry
+2023-05-01 05:29:43,366 INFO:URL NO.212ADDED: https://www.deviantart.com/topic/science-fiction
+2023-05-01 05:29:43,366 INFO:URL NO.213ADDED: https://www.deviantart.com/topic/sculpture
+2023-05-01 05:29:43,366 INFO:URL NO.214ADDED: https://www.deviantart.com/topic/stock-images
+2023-05-01 05:29:43,366 INFO:URL NO.215ADDED: https://www.deviantart.com/topic/street-art
+2023-05-01 05:29:43,366 INFO:URL NO.216ADDED: https://www.deviantart.com/topic/street-photography
+2023-05-01 05:29:43,366 INFO:URL NO.217ADDED: https://www.deviantart.com/topic/traditional-art
+2023-05-01 05:29:43,366 INFO:URL NO.218ADDED: https://www.deviantart.com/topic/tutorials
+2023-05-01 05:29:43,366 INFO:URL NO.219ADDED: https://www.deviantart.com/topic/wallpaper
+2023-05-01 05:29:43,366 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:29:43,366 INFO:SINGLE ITERATION TIME: 1.07
+2023-05-01 05:29:44,246 DEBUG:https://www.deviantart.com:443 "GET /polinareed/art/310323-955886119 HTTP/1.1" 200 None
+2023-05-01 05:29:44,686 INFO:ROBOT EXCLUDED: https://www.deviantart.com/users/login
+2023-05-01 05:29:44,686 INFO:URL NO.220ADDED: https://www.deviantart.com/team/journal/Tutorial-Draw-Pikachu-with-Ry-Spirit-898405466
+2023-05-01 05:29:44,686 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:44,686 INFO:SINGLE ITERATION TIME: 1.32
+2023-05-01 05:29:45,164 DEBUG:https://www.deviantart.com:443 "GET /polinareed HTTP/1.1" 200 None
+2023-05-01 05:29:45,616 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:45,616 INFO:SINGLE ITERATION TIME: 0.93
+2023-05-01 05:29:46,281 DEBUG:https://www.deviantart.com:443 "GET /anatofinnstark/art/Femto-and-Zodd-BERSERK-957160961 HTTP/1.1" 200 None
+2023-05-01 05:29:46,450 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:46,450 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:29:47,168 DEBUG:https://www.deviantart.com:443 "GET /anatofinnstark HTTP/1.1" 200 None
+2023-05-01 05:29:47,719 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:47,719 INFO:SINGLE ITERATION TIME: 1.27
+2023-05-01 05:29:48,311 DEBUG:https://www.deviantart.com:443 "GET /ereyz/art/TGCF-Happy-Bunny-Year-2023-950590537 HTTP/1.1" 200 None
+2023-05-01 05:29:48,363 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:48,363 INFO:SINGLE ITERATION TIME: 0.64
+2023-05-01 05:29:48,737 DEBUG:https://www.deviantart.com:443 "GET /ereyz HTTP/1.1" 200 None
+2023-05-01 05:29:48,924 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:48,924 INFO:SINGLE ITERATION TIME: 0.56
+2023-05-01 05:29:49,612 DEBUG:https://www.deviantart.com:443 "GET /baroquedoll/art/Gandi-z-957089427 HTTP/1.1" 200 None
+2023-05-01 05:29:50,049 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:50,049 INFO:SINGLE ITERATION TIME: 1.12
+2023-05-01 05:29:50,633 DEBUG:https://www.deviantart.com:443 "GET /baroquedoll HTTP/1.1" 200 None
+2023-05-01 05:29:51,298 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:51,298 INFO:SINGLE ITERATION TIME: 1.25
+2023-05-01 05:29:51,664 DEBUG:https://www.deviantart.com:443 "GET /pilgrimmaiden/art/Her-hairstyle-is-perfect-956863269 HTTP/1.1" 200 None
+2023-05-01 05:29:51,818 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:51,818 INFO:SINGLE ITERATION TIME: 0.52
+2023-05-01 05:29:52,516 DEBUG:https://www.deviantart.com:443 "GET /pilgrimmaiden HTTP/1.1" 200 None
+2023-05-01 05:29:52,970 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:52,970 INFO:SINGLE ITERATION TIME: 1.15
+2023-05-01 05:29:53,415 DEBUG:https://www.deviantart.com:443 "GET /silvermixx/art/The-wonky-house-958510395 HTTP/1.1" 200 None
+2023-05-01 05:29:53,574 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:53,574 INFO:SINGLE ITERATION TIME: 0.6
+2023-05-01 05:29:54,066 DEBUG:https://www.deviantart.com:443 "GET /silvermixx HTTP/1.1" 200 None
+2023-05-01 05:29:54,168 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:54,168 INFO:SINGLE ITERATION TIME: 0.59
+2023-05-01 05:29:54,672 DEBUG:https://www.deviantart.com:443 "GET /bikangarts/art/JIMIN-937333452 HTTP/1.1" 200 None
+2023-05-01 05:29:54,728 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:54,729 INFO:SINGLE ITERATION TIME: 0.56
+2023-05-01 05:29:55,252 DEBUG:https://www.deviantart.com:443 "GET /bikangarts HTTP/1.1" 200 None
+2023-05-01 05:29:55,352 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:55,352 INFO:SINGLE ITERATION TIME: 0.62
+2023-05-01 05:29:55,909 DEBUG:https://www.deviantart.com:443 "GET /castlegraphics/art/WDC-175-954709592 HTTP/1.1" 200 None
+2023-05-01 05:29:56,049 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:56,049 INFO:SINGLE ITERATION TIME: 0.7
+2023-05-01 05:29:56,709 DEBUG:https://www.deviantart.com:443 "GET /castlegraphics HTTP/1.1" 200 None
+2023-05-01 05:29:57,169 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:57,169 INFO:SINGLE ITERATION TIME: 1.12
+2023-05-01 05:29:57,869 DEBUG:https://www.deviantart.com:443 "GET /juhaniviitanen/art/Northern-lights-night-sky-954968086 HTTP/1.1" 200 None
+2023-05-01 05:29:58,295 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:58,295 INFO:SINGLE ITERATION TIME: 1.13
+2023-05-01 05:29:58,924 DEBUG:https://www.deviantart.com:443 "GET /juhaniviitanen HTTP/1.1" 200 None
+2023-05-01 05:29:59,149 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:59,149 INFO:SINGLE ITERATION TIME: 0.85
+2023-05-01 05:29:59,597 DEBUG:https://www.deviantart.com:443 "GET /relhom/art/Wheel-of-fortune-955729502 HTTP/1.1" 200 None
+2023-05-01 05:29:59,651 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:29:59,651 INFO:SINGLE ITERATION TIME: 0.5
+2023-05-01 05:30:00,622 DEBUG:https://www.deviantart.com:443 "GET /relhom HTTP/1.1" 200 None
+2023-05-01 05:30:00,811 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:00,811 INFO:SINGLE ITERATION TIME: 1.16
+2023-05-01 05:30:01,285 DEBUG:https://www.deviantart.com:443 "GET /mermaidine/art/The-tree-and-me-959059476 HTTP/1.1" 200 None
+2023-05-01 05:30:01,438 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:01,438 INFO:SINGLE ITERATION TIME: 0.63
+2023-05-01 05:30:01,999 DEBUG:https://www.deviantart.com:443 "GET /mermaidine HTTP/1.1" 200 None
+2023-05-01 05:30:02,184 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:02,184 INFO:SINGLE ITERATION TIME: 0.75
+2023-05-01 05:30:03,820 DEBUG:https://www.deviantart.com:443 "GET /topic/ai HTTP/1.1" 200 None
+2023-05-01 05:30:03,968 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:03,968 INFO:SINGLE ITERATION TIME: 1.78
+2023-05-01 05:30:04,554 DEBUG:https://www.deviantart.com:443 "GET /topic/digital-art HTTP/1.1" 200 None
+2023-05-01 05:30:04,607 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:04,607 INFO:SINGLE ITERATION TIME: 0.64
+2023-05-01 05:30:05,441 DEBUG:https://www.deviantart.com:443 "GET /topic/fan-art HTTP/1.1" 200 None
+2023-05-01 05:30:05,943 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:05,943 INFO:SINGLE ITERATION TIME: 1.34
+2023-05-01 05:30:06,513 DEBUG:https://www.deviantart.com:443 "GET /topic/photography HTTP/1.1" 200 None
+2023-05-01 05:30:06,576 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:06,576 INFO:SINGLE ITERATION TIME: 0.63
+2023-05-01 05:30:07,231 DEBUG:https://www.deviantart.com:443 "GET /topic/fantasy HTTP/1.1" 200 None
+2023-05-01 05:30:07,432 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:07,432 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:30:08,118 DEBUG:https://www.deviantart.com:443 "GET /topic/anime-and-manga HTTP/1.1" 200 None
+2023-05-01 05:30:08,219 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:08,219 INFO:SINGLE ITERATION TIME: 0.79
+2023-05-01 05:30:08,905 DEBUG:https://www.deviantart.com:443 "GET /topic/resources HTTP/1.1" 200 None
+2023-05-01 05:30:08,983 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:08,983 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:30:09,469 DEBUG:https://www.deviantart.com:443 "GET /team HTTP/1.1" 200 None
+2023-05-01 05:30:09,739 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:09,739 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:30:10,187 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Save-what-you-love-with-Private-Collections-959681100 HTTP/1.1" 200 None
+2023-05-01 05:30:10,388 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:10,388 INFO:SINGLE ITERATION TIME: 0.65
+2023-05-01 05:30:10,861 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Honing-Your-Skills-913441987 HTTP/1.1" 200 None
+2023-05-01 05:30:11,360 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:11,360 INFO:SINGLE ITERATION TIME: 0.97
+2023-05-01 05:30:11,861 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Adoptables-BETA-Buy-and-sell-unique-creations-950202820 HTTP/1.1" 200 None
+2023-05-01 05:30:11,915 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:11,930 INFO:SINGLE ITERATION TIME: 0.57
+2023-05-01 05:30:12,294 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Featured-DeviantArt-Events-913398192 HTTP/1.1" 200 None
+2023-05-01 05:30:12,347 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:12,347 INFO:SINGLE ITERATION TIME: 0.42
+2023-05-01 05:30:12,811 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Artist-Interviews-952619937 HTTP/1.1" 200 None
+2023-05-01 05:30:12,880 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:12,880 INFO:SINGLE ITERATION TIME: 0.53
+2023-05-01 05:30:13,382 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Tutorial-Draw-Fella-with-TsaoShin-953028296 HTTP/1.1" 200 None
+2023-05-01 05:30:13,466 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:13,466 INFO:SINGLE ITERATION TIME: 0.59
+2023-05-01 05:30:14,153 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Creative-Challenges-913396932 HTTP/1.1" 200 None
+2023-05-01 05:30:14,222 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:14,222 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:30:14,624 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Seniority-Announcement-April-2023-952750074 HTTP/1.1" 200 None
+2023-05-01 05:30:14,739 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:14,739 INFO:SINGLE ITERATION TIME: 0.52
+2023-05-01 05:30:15,125 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Resources-913399317 HTTP/1.1" 200 None
+2023-05-01 05:30:15,172 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:15,172 INFO:SINGLE ITERATION TIME: 0.43
+2023-05-01 05:30:15,558 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Celebrating-Deviousness-April-2023-952890110 HTTP/1.1" 200 None
+2023-05-01 05:30:15,589 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:15,589 INFO:SINGLE ITERATION TIME: 0.42
+2023-05-01 05:30:16,245 DEBUG:https://www.deviantart.com:443 "GET /burningmonk/art/Humanoids-943512719 HTTP/1.1" 200 None
+2023-05-01 05:30:16,345 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:16,345 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:30:17,132 DEBUG:https://www.deviantart.com:443 "GET /burningmonk HTTP/1.1" 200 None
+2023-05-01 05:30:17,611 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:17,611 INFO:SINGLE ITERATION TIME: 1.27
+2023-05-01 05:30:18,097 DEBUG:https://www.deviantart.com:443 "GET /lily-in-snow/art/Last-light-957500534 HTTP/1.1" 200 None
+2023-05-01 05:30:18,151 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:18,151 INFO:SINGLE ITERATION TIME: 0.54
+2023-05-01 05:30:18,668 DEBUG:https://www.deviantart.com:443 "GET /lily-in-snow HTTP/1.1" 200 None
+2023-05-01 05:30:18,869 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:18,869 INFO:SINGLE ITERATION TIME: 0.72
+2023-05-01 05:30:19,417 DEBUG:https://www.deviantart.com:443 "GET /timf0st/art/Captain-Amelia-959846961 HTTP/1.1" 200 None
+2023-05-01 05:30:19,471 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:19,471 INFO:SINGLE ITERATION TIME: 0.6
+2023-05-01 05:30:19,803 DEBUG:https://www.deviantart.com:443 "GET /timf0st HTTP/1.1" 200 None
+2023-05-01 05:30:19,856 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:19,856 INFO:SINGLE ITERATION TIME: 0.39
+2023-05-01 05:30:20,320 DEBUG:https://www.deviantart.com:443 "GET /lord-lavrahtheen/art/Hidden-in-the-Meander-935480503 HTTP/1.1" 200 None
+2023-05-01 05:30:20,374 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:20,389 INFO:SINGLE ITERATION TIME: 0.53
+2023-05-01 05:30:21,424 DEBUG:https://www.deviantart.com:443 "GET /lord-lavrahtheen HTTP/1.1" 200 None
+2023-05-01 05:30:21,910 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:21,910 INFO:SINGLE ITERATION TIME: 1.52
+2023-05-01 05:30:22,465 DEBUG:https://www.deviantart.com:443 "GET /aibyou/art/Rainbow-Tanuki-ADOPT-CLOSED-953007473 HTTP/1.1" 200 None
+2023-05-01 05:30:22,697 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:22,697 INFO:SINGLE ITERATION TIME: 0.79
+2023-05-01 05:30:23,183 DEBUG:https://www.deviantart.com:443 "GET /aibyou HTTP/1.1" 200 None
+2023-05-01 05:30:23,468 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:23,468 INFO:SINGLE ITERATION TIME: 0.77
+2023-05-01 05:30:24,271 DEBUG:https://www.deviantart.com:443 "GET /sp2pr/art/Paproc-955682056 HTTP/1.1" 200 None
+2023-05-01 05:30:24,556 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:24,556 INFO:SINGLE ITERATION TIME: 1.09
+2023-05-01 05:30:25,004 DEBUG:https://www.deviantart.com:443 "GET /sp2pr HTTP/1.1" 200 None
+2023-05-01 05:30:25,158 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:25,158 INFO:SINGLE ITERATION TIME: 0.6
+2023-05-01 05:30:25,622 DEBUG:https://www.deviantart.com:443 "GET /stefydraw/art/Dragon-Forest-958499346 HTTP/1.1" 200 None
+2023-05-01 05:30:25,675 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:25,675 INFO:SINGLE ITERATION TIME: 0.52
+2023-05-01 05:30:26,155 DEBUG:https://www.deviantart.com:443 "GET /stefydraw HTTP/1.1" 200 None
+2023-05-01 05:30:26,324 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:26,324 INFO:SINGLE ITERATION TIME: 0.65
+2023-05-01 05:30:26,779 DEBUG:https://www.deviantart.com:443 "GET /ashenreina/art/Me-as-Claire-Redfield-959250492 HTTP/1.1" 200 None
+2023-05-01 05:30:26,826 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:26,826 INFO:SINGLE ITERATION TIME: 0.5
+2023-05-01 05:30:27,265 DEBUG:https://www.deviantart.com:443 "GET /ashenreina HTTP/1.1" 200 None
+2023-05-01 05:30:27,327 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:27,327 INFO:SINGLE ITERATION TIME: 0.5
+2023-05-01 05:30:28,215 DEBUG:https://www.deviantart.com:443 "GET /sandara/art/Dragon-Mountain-934423112 HTTP/1.1" 200 None
+2023-05-01 05:30:28,616 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:28,616 INFO:SINGLE ITERATION TIME: 1.29
+2023-05-01 05:30:29,002 DEBUG:https://www.deviantart.com:443 "GET /sandara HTTP/1.1" 200 None
+2023-05-01 05:30:29,071 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:29,071 INFO:SINGLE ITERATION TIME: 0.45
+2023-05-01 05:30:29,635 DEBUG:https://www.deviantart.com:443 "GET /bozhenafuchs/art/Sunrise-over-the-city-954736024 HTTP/1.1" 200 None
+2023-05-01 05:30:29,688 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:29,688 INFO:SINGLE ITERATION TIME: 0.62
+2023-05-01 05:30:30,136 DEBUG:https://www.deviantart.com:443 "GET /bozhenafuchs HTTP/1.1" 200 None
+2023-05-01 05:30:30,221 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:30,221 INFO:SINGLE ITERATION TIME: 0.53
+2023-05-01 05:30:30,792 DEBUG:https://www.deviantart.com:443 "GET /les-piccolo/art/PIC-5727-943061640 HTTP/1.1" 200 None
+2023-05-01 05:30:30,970 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:30,970 INFO:SINGLE ITERATION TIME: 0.75
+2023-05-01 05:30:31,557 DEBUG:https://www.deviantart.com:443 "GET /les-piccolo HTTP/1.1" 200 None
+2023-05-01 05:30:31,880 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:31,880 INFO:SINGLE ITERATION TIME: 0.91
+2023-05-01 05:30:32,498 DEBUG:https://www.deviantart.com:443 "GET /pkohoutdotcom/art/Bridges-of-Prague-958009293 HTTP/1.1" 200 None
+2023-05-01 05:30:32,645 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:32,645 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:30:33,215 DEBUG:https://www.deviantart.com:443 "GET /pkohoutdotcom HTTP/1.1" 200 None
+2023-05-01 05:30:33,384 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:33,384 INFO:SINGLE ITERATION TIME: 0.74
+2023-05-01 05:30:33,817 DEBUG:https://www.deviantart.com:443 "GET /?cursor=MTQwYWI2MjA9MiY1OTBhY2FkMD0yNCZkMTc0YjZiYz1OJTJGQSY3ODAwOTk4MiU1QjAlNUQ9OTU5MjUwNDkyJjc4MDA5OTgyJTVCMSU1RD05MzQ0MjMxMTImNzgwMDk5ODIlNUIyJTVEPTk1NDczNjAyNCY3ODAwOTk4MiU1QjMlNUQ9OTQzMDYxNjQwJjc4MDA5OTgyJTVCNCU1RD05NTgwMDkyOTM HTTP/1.1" 200 None
+2023-05-01 05:30:33,886 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:33,886 INFO:SINGLE ITERATION TIME: 0.5
+2023-05-01 05:30:34,033 DEBUG:https://www.deviantart.com:443 "GET /about HTTP/1.1" 301 240
+2023-05-01 05:30:34,049 DEBUG:http://www.deviantart.com:80 "GET /about/ HTTP/1.1" 301 167
+2023-05-01 05:30:34,504 DEBUG:https://www.deviantart.com:443 "GET /about/ HTTP/1.1" 200 None
+2023-05-01 05:30:34,651 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:34,651 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:30:34,789 DEBUG:https://www.deviantart.com:443 "GET /developers HTTP/1.1" 301 245
+2023-05-01 05:30:34,805 DEBUG:http://www.deviantart.com:80 "GET /developers/ HTTP/1.1" 301 167
+2023-05-01 05:30:34,983 DEBUG:https://www.deviantart.com:443 "GET /developers/ HTTP/1.1" 200 None
+2023-05-01 05:30:34,990 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:34,990 INFO:SINGLE ITERATION TIME: 0.34
+2023-05-01 05:30:35,137 DEBUG:https://www.deviantart.com:443 "GET /about/policy/etiquette HTTP/1.1" 301 257
+2023-05-01 05:30:35,153 DEBUG:http://www.deviantart.com:80 "GET /about/policy/etiquette/ HTTP/1.1" 301 167
+2023-05-01 05:30:35,322 DEBUG:https://www.deviantart.com:443 "GET /about/policy/etiquette/ HTTP/1.1" 200 None
+2023-05-01 05:30:35,338 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:35,338 INFO:SINGLE ITERATION TIME: 0.35
+2023-05-01 05:30:35,808 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Careers-at-DeviantArt-855261915 HTTP/1.1" 200 None
+2023-05-01 05:30:35,971 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:35,971 INFO:SINGLE ITERATION TIME: 0.63
+2023-05-01 05:30:36,109 DEBUG:https://www.deviantart.com:443 "GET /about/policy/copyright HTTP/1.1" 301 257
+2023-05-01 05:30:36,125 DEBUG:http://www.deviantart.com:80 "GET /about/policy/copyright/ HTTP/1.1" 301 167
+2023-05-01 05:30:36,294 DEBUG:https://www.deviantart.com:443 "GET /about/policy/copyright/ HTTP/1.1" 200 None
+2023-05-01 05:30:36,310 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:36,310 INFO:SINGLE ITERATION TIME: 0.34
+2023-05-01 05:30:36,711 DEBUG:https://www.deviantart.com:443 "GET /arcencieldigitalart/shop HTTP/1.1" 200 None
+2023-05-01 05:30:36,758 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:36,758 INFO:SINGLE ITERATION TIME: 0.45
+2023-05-01 05:30:37,260 DEBUG:https://www.deviantart.com:443 "GET /shop/adoptables HTTP/1.1" 200 None
+2023-05-01 05:30:37,313 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:37,313 INFO:SINGLE ITERATION TIME: 0.56
+2023-05-01 05:30:37,815 DEBUG:https://www.deviantart.com:443 "GET /shop/downloads HTTP/1.1" 200 None
+2023-05-01 05:30:37,993 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:37,993 INFO:SINGLE ITERATION TIME: 0.68
+2023-05-01 05:30:38,379 DEBUG:https://www.deviantart.com:443 "GET /shop/commissions HTTP/1.1" 200 None
+2023-05-01 05:30:38,749 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:38,749 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:30:39,150 DEBUG:https://www.deviantart.com:443 "GET /shop/subscriptions HTTP/1.1" 200 None
+2023-05-01 05:30:39,219 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:39,219 INFO:SINGLE ITERATION TIME: 0.47
+2023-05-01 05:30:39,683 DEBUG:https://www.deviantart.com:443 "GET /inzaniak/art/Sky-Rider-958986186 HTTP/1.1" 200 None
+2023-05-01 05:30:39,837 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:39,837 INFO:SINGLE ITERATION TIME: 0.62
+2023-05-01 05:30:40,323 DEBUG:https://www.deviantart.com:443 "GET /inzaniak HTTP/1.1" 200 None
+2023-05-01 05:30:40,424 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:40,424 INFO:SINGLE ITERATION TIME: 0.59
+2023-05-01 05:30:40,856 DEBUG:https://www.deviantart.com:443 "GET /starslimeadopts-ai/art/Open-090-Ai-Adopt-960472524 HTTP/1.1" 200 None
+2023-05-01 05:30:40,957 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:40,957 INFO:SINGLE ITERATION TIME: 0.53
+2023-05-01 05:30:41,289 DEBUG:https://www.deviantart.com:443 "GET /starslimeadopts-ai HTTP/1.1" 200 None
+2023-05-01 05:30:41,489 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:41,489 INFO:SINGLE ITERATION TIME: 0.53
+2023-05-01 05:30:41,960 DEBUG:https://www.deviantart.com:443 "GET /darksealstudios/art/High-Wizard-960465453 HTTP/1.1" 200 None
+2023-05-01 05:30:42,107 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:42,107 INFO:SINGLE ITERATION TIME: 0.62
+2023-05-01 05:30:42,747 DEBUG:https://www.deviantart.com:443 "GET /darksealstudios HTTP/1.1" 200 None
+2023-05-01 05:30:42,863 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:42,863 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:30:43,333 DEBUG:https://www.deviantart.com:443 "GET /shaofaoevil/art/Chibi-Adoptable-6-960435985 HTTP/1.1" 200 None
+2023-05-01 05:30:43,380 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:43,380 INFO:SINGLE ITERATION TIME: 0.52
+2023-05-01 05:30:43,765 DEBUG:https://www.deviantart.com:443 "GET /shaofaoevil HTTP/1.1" 200 None
+2023-05-01 05:30:43,850 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:43,850 INFO:SINGLE ITERATION TIME: 0.47
+2023-05-01 05:30:44,298 DEBUG:https://www.deviantart.com:443 "GET /orinamiai/art/126-Adoptable-Open-960410514 HTTP/1.1" 200 None
+2023-05-01 05:30:44,336 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:44,336 INFO:SINGLE ITERATION TIME: 0.49
+2023-05-01 05:30:44,784 DEBUG:https://www.deviantart.com:443 "GET /orinamiai HTTP/1.1" 200 None
+2023-05-01 05:30:44,853 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:44,853 INFO:SINGLE ITERATION TIME: 0.52
+2023-05-01 05:30:45,471 DEBUG:https://www.deviantart.com:443 "GET /ceroticart/art/Toby-Adoptable-960401537 HTTP/1.1" 200 None
+2023-05-01 05:30:45,524 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:45,524 INFO:SINGLE ITERATION TIME: 0.67
+2023-05-01 05:30:46,157 DEBUG:https://www.deviantart.com:443 "GET /ceroticart HTTP/1.1" 200 None
+2023-05-01 05:30:46,289 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:46,289 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:30:46,702 DEBUG:https://www.deviantart.com:443 "GET /parfaitchantheningyo/art/Cute-Duck-and-Boy-Chibi-Sticker-Adoptable-960323281 HTTP/1.1" 200 None
+2023-05-01 05:30:46,744 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:46,744 INFO:SINGLE ITERATION TIME: 0.45
+2023-05-01 05:30:47,292 DEBUG:https://www.deviantart.com:443 "GET /parfaitchantheningyo HTTP/1.1" 200 None
+2023-05-01 05:30:47,408 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:47,408 INFO:SINGLE ITERATION TIME: 0.66
+2023-05-01 05:30:47,847 DEBUG:https://www.deviantart.com:443 "GET /okamilia/art/AI-ADOPT-Idol-Heart-6-960342295 HTTP/1.1" 200 None
+2023-05-01 05:30:47,894 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:47,894 INFO:SINGLE ITERATION TIME: 0.49
+2023-05-01 05:30:48,210 DEBUG:https://www.deviantart.com:443 "GET /okamilia HTTP/1.1" 200 None
+2023-05-01 05:30:48,449 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:48,449 INFO:SINGLE ITERATION TIME: 0.56
+2023-05-01 05:30:48,982 DEBUG:https://www.deviantart.com:443 "GET /suqarstars/art/Adopt-0023-OPEN-960117306 HTTP/1.1" 200 None
+2023-05-01 05:30:49,035 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:49,035 INFO:SINGLE ITERATION TIME: 0.59
+2023-05-01 05:30:49,537 DEBUG:https://www.deviantart.com:443 "GET /suqarstars HTTP/1.1" 200 None
+2023-05-01 05:30:49,653 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:49,653 INFO:SINGLE ITERATION TIME: 0.62
+2023-05-01 05:30:50,216 DEBUG:https://www.deviantart.com:443 "GET /muanz/art/OPEN-Adoptable-349-Sheep-Maid-960347067 HTTP/1.1" 200 None
+2023-05-01 05:30:50,270 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:50,270 INFO:SINGLE ITERATION TIME: 0.62
+2023-05-01 05:30:50,988 DEBUG:https://www.deviantart.com:443 "GET /muanz HTTP/1.1" 200 None
+2023-05-01 05:30:51,081 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:51,081 INFO:SINGLE ITERATION TIME: 0.81
+2023-05-01 05:30:51,621 DEBUG:https://www.deviantart.com:443 "GET /didilunestudio/art/X-23-Laura-Kinney-X-Men-959559713 HTTP/1.1" 200 None
+2023-05-01 05:30:51,674 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:51,674 INFO:SINGLE ITERATION TIME: 0.59
+2023-05-01 05:30:52,216 DEBUG:https://www.deviantart.com:443 "GET /didilunestudio HTTP/1.1" 200 None
+2023-05-01 05:30:52,292 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:52,292 INFO:SINGLE ITERATION TIME: 0.62
+2023-05-01 05:30:52,863 DEBUG:https://www.deviantart.com:443 "GET /enlightenedspaceman/art/Peaches-Peaches-Peaches-Peaches-Peaches-3-959608941 HTTP/1.1" 200 None
+2023-05-01 05:30:52,909 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:52,909 INFO:SINGLE ITERATION TIME: 0.62
+2023-05-01 05:30:53,850 DEBUG:https://www.deviantart.com:443 "GET /enlightenedspaceman HTTP/1.1" 200 None
+2023-05-01 05:30:53,997 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:53,997 INFO:SINGLE ITERATION TIME: 1.09
+2023-05-01 05:30:54,553 DEBUG:https://www.deviantart.com:443 "GET /jackfrost-nsfw/art/Princess-Peach-959494305 HTTP/1.1" 200 None
+2023-05-01 05:30:54,653 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:54,653 INFO:SINGLE ITERATION TIME: 0.66
+2023-05-01 05:30:55,217 DEBUG:https://www.deviantart.com:443 "GET /jackfrost-nsfw HTTP/1.1" 200 None
+2023-05-01 05:30:55,318 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:55,318 INFO:SINGLE ITERATION TIME: 0.66
+2023-05-01 05:30:55,819 DEBUG:https://www.deviantart.com:443 "GET /doosio/art/Free-to-use-AlHaitham-Pixel-Icon-PSD-959241733 HTTP/1.1" 200 None
+2023-05-01 05:30:55,872 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:55,872 INFO:SINGLE ITERATION TIME: 0.55
+2023-05-01 05:30:56,612 DEBUG:https://www.deviantart.com:443 "GET /doosio HTTP/1.1" 200 None
+2023-05-01 05:30:56,922 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:56,922 INFO:SINGLE ITERATION TIME: 1.03
+2023-05-01 05:30:57,392 DEBUG:https://www.deviantart.com:443 "GET /spiraloso/art/Circlos-5K-SciFi-Concept-Art-Wallpaper-959493417 HTTP/1.1" 200 None
+2023-05-01 05:30:57,454 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:57,454 INFO:SINGLE ITERATION TIME: 0.53
+2023-05-01 05:30:58,564 DEBUG:https://www.deviantart.com:443 "GET /spiraloso HTTP/1.1" 200 None
+2023-05-01 05:30:58,796 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:58,796 INFO:SINGLE ITERATION TIME: 1.34
+2023-05-01 05:30:59,429 DEBUG:https://www.deviantart.com:443 "GET /tominconcord/art/Summer-Sunset-956580322 HTTP/1.1" 200 None
+2023-05-01 05:30:59,498 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:30:59,498 INFO:SINGLE ITERATION TIME: 0.7
+2023-05-01 05:31:00,519 DEBUG:https://www.deviantart.com:443 "GET /tominconcord HTTP/1.1" 200 None
+2023-05-01 05:31:01,025 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:01,025 INFO:SINGLE ITERATION TIME: 1.53
+2023-05-01 05:31:01,650 DEBUG:https://www.deviantart.com:443 "GET /th3dutchzombi3/art/Early-Morning-on-the-Fjord-956291474 HTTP/1.1" 200 None
+2023-05-01 05:31:01,700 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:01,700 INFO:SINGLE ITERATION TIME: 0.68
+2023-05-01 05:31:02,145 DEBUG:https://www.deviantart.com:443 "GET /th3dutchzombi3 HTTP/1.1" 200 None
+2023-05-01 05:31:02,218 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:02,218 INFO:SINGLE ITERATION TIME: 0.52
+2023-05-01 05:31:02,909 DEBUG:https://www.deviantart.com:443 "GET /kiklopp/art/Sunset-Over-Hotel-Royal-Moscow-COMMERCIAL-LICENCE-958981625 HTTP/1.1" 200 None
+2023-05-01 05:31:03,069 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:03,069 INFO:SINGLE ITERATION TIME: 0.85
+2023-05-01 05:31:03,806 DEBUG:https://www.deviantart.com:443 "GET /kiklopp HTTP/1.1" 200 None
+2023-05-01 05:31:04,014 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:04,014 INFO:SINGLE ITERATION TIME: 0.95
+2023-05-01 05:31:04,477 DEBUG:https://www.deviantart.com:443 "GET /akoukis/art/Outfit-Design-Adoptable-Romina-OPEN-957494289 HTTP/1.1" 200 None
+2023-05-01 05:31:04,533 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:04,533 INFO:SINGLE ITERATION TIME: 0.52
+2023-05-01 05:31:04,952 DEBUG:https://www.deviantart.com:443 "GET /akoukis HTTP/1.1" 200 None
+2023-05-01 05:31:05,051 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:05,051 INFO:SINGLE ITERATION TIME: 0.52
+2023-05-01 05:31:05,403 DEBUG:https://www.deviantart.com:443 "GET /cc357/commission/How-super-Mario-1591878 HTTP/1.1" 200 None
+2023-05-01 05:31:05,436 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:05,436 INFO:SINGLE ITERATION TIME: 0.38
+2023-05-01 05:31:05,770 DEBUG:https://www.deviantart.com:443 "GET /cc357 HTTP/1.1" 200 None
+2023-05-01 05:31:05,835 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:05,835 INFO:SINGLE ITERATION TIME: 0.4
+2023-05-01 05:31:06,148 DEBUG:https://www.deviantart.com:443 "GET /momokoscarlet/commission/Pregnant-Anime-drawing-commission-1543855 HTTP/1.1" 200 None
+2023-05-01 05:31:06,183 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:06,183 INFO:SINGLE ITERATION TIME: 0.35
+2023-05-01 05:31:06,706 DEBUG:https://www.deviantart.com:443 "GET /momokoscarlet HTTP/1.1" 200 None
+2023-05-01 05:31:06,806 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:06,806 INFO:SINGLE ITERATION TIME: 0.62
+2023-05-01 05:31:07,030 DEBUG:https://www.deviantart.com:443 "GET /qatsby/commission/The-Queen-s-Clique-Grid-1594138 HTTP/1.1" 200 None
+2023-05-01 05:31:07,058 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:07,070 INFO:SINGLE ITERATION TIME: 0.26
+2023-05-01 05:31:07,464 DEBUG:https://www.deviantart.com:443 "GET /qatsby HTTP/1.1" 200 None
+2023-05-01 05:31:07,552 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:07,552 INFO:SINGLE ITERATION TIME: 0.48
+2023-05-01 05:31:07,881 DEBUG:https://www.deviantart.com:443 "GET /creeperswitch/commission/OC-Commissions-OPEN-1545069 HTTP/1.1" 200 None
+2023-05-01 05:31:07,981 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:07,981 INFO:SINGLE ITERATION TIME: 0.43
+2023-05-01 05:31:08,605 DEBUG:https://www.deviantart.com:443 "GET /creeperswitch HTTP/1.1" 200 None
+2023-05-01 05:31:08,709 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:08,709 INFO:SINGLE ITERATION TIME: 0.73
+2023-05-01 05:31:08,921 DEBUG:https://www.deviantart.com:443 "GET /hubaifu/commission/Female-SFW-NSFW-Character-Fetishes-1610085 HTTP/1.1" 200 None
+2023-05-01 05:31:08,957 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:08,957 INFO:SINGLE ITERATION TIME: 0.25
+2023-05-01 05:31:09,682 DEBUG:https://www.deviantart.com:443 "GET /hubaifu HTTP/1.1" 200 None
+2023-05-01 05:31:09,878 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:09,878 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:31:10,166 DEBUG:https://www.deviantart.com:443 "GET /azureazulity/commission/Hentai-Commissions-OPEN-1-5-1572167 HTTP/1.1" 200 None
+2023-05-01 05:31:10,206 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:10,206 INFO:SINGLE ITERATION TIME: 0.33
+2023-05-01 05:31:10,806 DEBUG:https://www.deviantart.com:443 "GET /azureazulity HTTP/1.1" 200 None
+2023-05-01 05:31:10,960 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:10,960 INFO:SINGLE ITERATION TIME: 0.75
+2023-05-01 05:31:11,299 DEBUG:https://www.deviantart.com:443 "GET /diaperdrawler/commission/ABDL-Full-Color-w-full-background-or-characters-1543497 HTTP/1.1" 200 None
+2023-05-01 05:31:11,330 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:11,330 INFO:SINGLE ITERATION TIME: 0.37
+2023-05-01 05:31:11,744 DEBUG:https://www.deviantart.com:443 "GET /diaperdrawler HTTP/1.1" 200 None
+2023-05-01 05:31:11,805 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:11,805 INFO:SINGLE ITERATION TIME: 0.48
+2023-05-01 05:31:12,072 DEBUG:https://www.deviantart.com:443 "GET /wickedviky/commission/1-hour-fetish-RP-1585067 HTTP/1.1" 200 None
+2023-05-01 05:31:12,107 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:12,107 INFO:SINGLE ITERATION TIME: 0.3
+2023-05-01 05:31:12,821 DEBUG:https://www.deviantart.com:443 "GET /wickedviky HTTP/1.1" 200 None
+2023-05-01 05:31:13,280 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:13,280 INFO:SINGLE ITERATION TIME: 1.17
+2023-05-01 05:31:13,499 DEBUG:https://www.deviantart.com:443 "GET /durrco-arts/commission/Fusion-Gem-Highlight-Panel-1602572 HTTP/1.1" 200 None
+2023-05-01 05:31:13,521 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:13,521 INFO:SINGLE ITERATION TIME: 0.24
+2023-05-01 05:31:13,970 DEBUG:https://www.deviantart.com:443 "GET /durrco-arts HTTP/1.1" 200 None
+2023-05-01 05:31:14,043 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:14,043 INFO:SINGLE ITERATION TIME: 0.52
+2023-05-01 05:31:14,273 DEBUG:https://www.deviantart.com:443 "GET /fragmented-starr/commission/Vroid-Simple-Model-1534433 HTTP/1.1" 200 None
+2023-05-01 05:31:14,300 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:14,300 INFO:SINGLE ITERATION TIME: 0.26
+2023-05-01 05:31:14,906 DEBUG:https://www.deviantart.com:443 "GET /fragmented-starr HTTP/1.1" 200 None
+2023-05-01 05:31:15,077 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:15,077 INFO:SINGLE ITERATION TIME: 0.78
+2023-05-01 05:31:15,751 DEBUG:https://www.deviantart.com:443 "GET /jackfrost-nsfw/subscriptions/958229674/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:15,850 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:15,850 INFO:SINGLE ITERATION TIME: 0.77
+2023-05-01 05:31:16,470 DEBUG:https://www.deviantart.com:443 "GET /propimol HTTP/1.1" 200 None
+2023-05-01 05:31:16,614 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:16,614 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:31:17,107 DEBUG:https://www.deviantart.com:443 "GET /propimol/subscriptions/946345085/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:17,269 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:17,269 INFO:SINGLE ITERATION TIME: 0.65
+2023-05-01 05:31:17,906 DEBUG:https://www.deviantart.com:443 "GET /tsaoshin HTTP/1.1" 200 None
+2023-05-01 05:31:18,114 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:18,114 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:31:18,547 DEBUG:https://www.deviantart.com:443 "GET /tsaoshin/subscriptions/943260698/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:18,628 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:18,628 INFO:SINGLE ITERATION TIME: 0.51
+2023-05-01 05:31:19,357 DEBUG:https://www.deviantart.com:443 "GET /ryky HTTP/1.1" 200 None
+2023-05-01 05:31:19,492 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:19,492 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:31:19,915 DEBUG:https://www.deviantart.com:443 "GET /ryky/subscriptions/890944232/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:20,050 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:20,050 INFO:SINGLE ITERATION TIME: 0.56
+2023-05-01 05:31:20,987 DEBUG:https://www.deviantart.com:443 "GET /phil-cho HTTP/1.1" 200 None
+2023-05-01 05:31:21,167 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:21,167 INFO:SINGLE ITERATION TIME: 1.12
+2023-05-01 05:31:21,989 DEBUG:https://www.deviantart.com:443 "GET /phil-cho/subscriptions/926070908/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:22,439 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:22,439 INFO:SINGLE ITERATION TIME: 1.27
+2023-05-01 05:31:23,134 DEBUG:https://www.deviantart.com:443 "GET /athenatt HTTP/1.1" 200 None
+2023-05-01 05:31:23,342 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:23,342 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:31:23,731 DEBUG:https://www.deviantart.com:443 "GET /athenatt/subscriptions/908748940/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:23,828 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:23,828 INFO:SINGLE ITERATION TIME: 0.49
+2023-05-01 05:31:24,560 DEBUG:https://www.deviantart.com:443 "GET /era7 HTTP/1.1" 200 None
+2023-05-01 05:31:24,642 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:24,642 INFO:SINGLE ITERATION TIME: 0.81
+2023-05-01 05:31:25,269 DEBUG:https://www.deviantart.com:443 "GET /era7/subscriptions/938298568/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:25,459 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:25,459 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:31:26,130 DEBUG:https://www.deviantart.com:443 "GET /all0412 HTTP/1.1" 200 None
+2023-05-01 05:31:26,641 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:26,641 INFO:SINGLE ITERATION TIME: 1.18
+2023-05-01 05:31:27,168 DEBUG:https://www.deviantart.com:443 "GET /all0412/subscriptions/890574607/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:27,248 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:27,248 INFO:SINGLE ITERATION TIME: 0.61
+2023-05-01 05:31:28,009 DEBUG:https://www.deviantart.com:443 "GET /rumcandyadopt HTTP/1.1" 200 None
+2023-05-01 05:31:28,103 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:28,103 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:31:28,419 DEBUG:https://www.deviantart.com:443 "GET /rumcandyadopt/subscriptions/908780376/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:28,459 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:28,459 INFO:SINGLE ITERATION TIME: 0.36
+2023-05-01 05:31:29,022 DEBUG:https://www.deviantart.com:443 "GET /chiwwydawg HTTP/1.1" 200 None
+2023-05-01 05:31:29,218 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:29,218 INFO:SINGLE ITERATION TIME: 0.76
+2023-05-01 05:31:29,680 DEBUG:https://www.deviantart.com:443 "GET /chiwwydawg/subscriptions/918604192/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:29,846 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:29,846 INFO:SINGLE ITERATION TIME: 0.63
+2023-05-01 05:31:30,337 DEBUG:https://www.deviantart.com:443 "GET /erisiar/art/Camping-843924883 HTTP/1.1" 200 None
+2023-05-01 05:31:30,385 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:30,389 INFO:SINGLE ITERATION TIME: 0.54
+2023-05-01 05:31:31,200 DEBUG:https://www.deviantart.com:443 "GET /raidesart/art/Light-851485743 HTTP/1.1" 200 None
+2023-05-01 05:31:31,623 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:31,624 INFO:SINGLE ITERATION TIME: 1.23
+2023-05-01 05:31:31,795 DEBUG:https://www.deviantart.com:443 "GET /account HTTP/1.1" 302 60
+2023-05-01 05:31:32,006 DEBUG:https://www.deviantart.com:443 "GET /users/login HTTP/1.1" 200 None
+2023-05-01 05:31:32,022 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:32,022 INFO:SINGLE ITERATION TIME: 0.4
+2023-05-01 05:31:32,456 DEBUG:https://www.deviantart.com:443 "GET /lorddoomhammer/art/Departure-679834588 HTTP/1.1" 200 None
+2023-05-01 05:31:32,515 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:32,515 INFO:SINGLE ITERATION TIME: 0.49
+2023-05-01 05:31:33,081 DEBUG:https://www.deviantart.com:443 "GET /erinnicholls HTTP/1.1" 200 None
+2023-05-01 05:31:33,198 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:33,198 INFO:SINGLE ITERATION TIME: 0.68
+2023-05-01 05:31:33,370 DEBUG:https://www.deviantart.com:443 "GET /notifications/watch HTTP/1.1" 302 60
+2023-05-01 05:31:33,565 DEBUG:https://www.deviantart.com:443 "GET /users/login HTTP/1.1" 200 None
+2023-05-01 05:31:33,583 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:33,583 INFO:SINGLE ITERATION TIME: 0.38
+2023-05-01 05:31:33,757 DEBUG:https://www.deviantart.com:443 "GET /forum%22 HTTP/1.1" 404 None
+2023-05-01 05:31:33,904 DEBUG:https://www.deviantart.com:443 "GET /about/policy/submission HTTP/1.1" 301 258
+2023-05-01 05:31:33,922 DEBUG:http://www.deviantart.com:80 "GET /about/policy/submission/ HTTP/1.1" 301 167
+2023-05-01 05:31:34,092 DEBUG:https://www.deviantart.com:443 "GET /about/policy/submission/ HTTP/1.1" 200 None
+2023-05-01 05:31:34,103 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:34,103 INFO:SINGLE ITERATION TIME: 0.34
+2023-05-01 05:31:34,249 DEBUG:https://www.deviantart.com:443 "GET /prints HTTP/1.1" 301 239
+2023-05-01 05:31:35,010 DEBUG:https://www.deviantart.com:443 "GET /shop HTTP/1.1" 200 None
+2023-05-01 05:31:35,407 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:35,407 INFO:SINGLE ITERATION TIME: 1.3
+2023-05-01 05:31:35,552 DEBUG:https://www.deviantart.com:443 "GET /about/advertising HTTP/1.1" 301 252
+2023-05-01 05:31:35,572 DEBUG:http://www.deviantart.com:80 "GET /about/advertising/ HTTP/1.1" 301 167
+2023-05-01 05:31:35,749 DEBUG:https://www.deviantart.com:443 "GET /about/advertising/ HTTP/1.1" 302 0
+2023-05-01 05:31:35,752 DEBUG:Starting new HTTPS connection (1): deviantartads.com:443
+2023-05-01 05:31:35,987 DEBUG:https://deviantartads.com:443 "GET / HTTP/1.1" 200 None
+2023-05-01 05:31:36,052 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:36,052 INFO:SINGLE ITERATION TIME: 0.64
+2023-05-01 05:31:36,196 DEBUG:https://www.deviantart.com:443 "GET /muro HTTP/1.1" 301 239
+2023-05-01 05:31:36,214 DEBUG:http://www.deviantart.com:80 "GET /muro/ HTTP/1.1" 301 167
+2023-05-01 05:31:36,376 DEBUG:https://www.deviantart.com:443 "GET /muro/ HTTP/1.1" 200 None
+2023-05-01 05:31:36,405 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:36,405 INFO:SINGLE ITERATION TIME: 0.35
+2023-05-01 05:31:36,550 DEBUG:https://www.deviantart.com:443 "GET /submit HTTP/1.1" 301 241
+2023-05-01 05:31:36,567 DEBUG:http://www.deviantart.com:80 "GET /submit/ HTTP/1.1" 301 167
+2023-05-01 05:31:36,725 DEBUG:https://www.deviantart.com:443 "GET /submit/ HTTP/1.1" 302 0
+2023-05-01 05:31:36,934 DEBUG:https://www.deviantart.com:443 "GET /join?joinpoint=Submit HTTP/1.1" 200 None
+2023-05-01 05:31:36,943 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:36,943 INFO:SINGLE ITERATION TIME: 0.54
+2023-05-01 05:31:37,103 DEBUG:https://www.deviantart.com:443 "GET /settings/general HTTP/1.1" 302 0
+2023-05-01 05:31:37,298 DEBUG:https://www.deviantart.com:443 "GET /users/login?referer=https%3A%2F%2Fwww.deviantart.com%2Fsettings%2Fgeneral HTTP/1.1" 200 None
+2023-05-01 05:31:37,319 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:37,319 INFO:SINGLE ITERATION TIME: 0.38
+2023-05-01 05:31:37,476 DEBUG:https://www.deviantart.com:443 "GET /settings/gdpr HTTP/1.1" 302 0
+2023-05-01 05:31:37,634 DEBUG:https://www.deviantart.com:443 "GET /settings/gdpr/ HTTP/1.1" 302 0
+2023-05-01 05:31:37,839 DEBUG:https://www.deviantart.com:443 "GET /users/login?referer=https%3A%2F%2Fwww.deviantart.com%2Fsettings%2Fgdpr%2F HTTP/1.1" 200 None
+2023-05-01 05:31:37,859 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:37,859 INFO:SINGLE ITERATION TIME: 0.54
+2023-05-01 05:31:37,873 DEBUG:https://www.deviantart.com:443 "GET /inspiredartista/favourites/89140092/community-subscriptions HTTP/1.1" 403 919
+2023-05-01 05:31:38,591 DEBUG:https://www.deviantart.com:443 "GET /agina HTTP/1.1" 200 None
+2023-05-01 05:31:38,820 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:38,820 INFO:SINGLE ITERATION TIME: 0.95
+2023-05-01 05:31:39,303 DEBUG:https://www.deviantart.com:443 "GET /agina/subscriptions/910687859/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:39,395 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:39,395 INFO:SINGLE ITERATION TIME: 0.57
+2023-05-01 05:31:39,853 DEBUG:https://www.deviantart.com:443 "GET /ellicoffee HTTP/1.1" 200 None
+2023-05-01 05:31:40,129 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:40,129 INFO:SINGLE ITERATION TIME: 0.73
+2023-05-01 05:31:40,496 DEBUG:https://www.deviantart.com:443 "GET /ellicoffee/subscriptions/935195958/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:40,531 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:40,531 INFO:SINGLE ITERATION TIME: 0.4
+2023-05-01 05:31:41,083 DEBUG:https://www.deviantart.com:443 "GET /xzenartrb HTTP/1.1" 200 None
+2023-05-01 05:31:41,176 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:41,176 INFO:SINGLE ITERATION TIME: 0.64
+2023-05-01 05:31:41,482 DEBUG:https://www.deviantart.com:443 "GET /xzenartrb/subscriptions/895384052/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:41,590 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:41,590 INFO:SINGLE ITERATION TIME: 0.41
+2023-05-01 05:31:42,153 DEBUG:https://www.deviantart.com:443 "GET /redsinistra HTTP/1.1" 200 None
+2023-05-01 05:31:42,237 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:42,237 INFO:SINGLE ITERATION TIME: 0.65
+2023-05-01 05:31:42,672 DEBUG:https://www.deviantart.com:443 "GET /redsinistra/subscriptions/908929936/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:42,715 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:42,715 INFO:SINGLE ITERATION TIME: 0.48
+2023-05-01 05:31:43,282 DEBUG:https://www.deviantart.com:443 "GET /trvshbxby HTTP/1.1" 200 None
+2023-05-01 05:31:43,352 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:43,352 INFO:SINGLE ITERATION TIME: 0.64
+2023-05-01 05:31:43,757 DEBUG:https://www.deviantart.com:443 "GET /trvshbxby/subscriptions/912008795/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:43,807 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:43,807 INFO:SINGLE ITERATION TIME: 0.46
+2023-05-01 05:31:44,231 DEBUG:https://www.deviantart.com:443 "GET /painhh HTTP/1.1" 200 None
+2023-05-01 05:31:44,512 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:44,512 INFO:SINGLE ITERATION TIME: 0.7
+2023-05-01 05:31:44,839 DEBUG:https://www.deviantart.com:443 "GET /painhh/subscriptions/918398939/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:44,925 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:44,925 INFO:SINGLE ITERATION TIME: 0.41
+2023-05-01 05:31:45,504 DEBUG:https://www.deviantart.com:443 "GET /lightspalette HTTP/1.1" 200 None
+2023-05-01 05:31:45,662 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:45,662 INFO:SINGLE ITERATION TIME: 0.74
+2023-05-01 05:31:45,941 DEBUG:https://www.deviantart.com:443 "GET /lightspalette/subscriptions/915174460/deviations HTTP/1.1" 200 None
+2023-05-01 05:31:45,980 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:45,980 INFO:SINGLE ITERATION TIME: 0.32
+2023-05-01 05:31:46,478 DEBUG:https://www.deviantart.com:443 "GET /crossaik HTTP/1.1" 200 None
+2023-05-01 05:31:46,563 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:31:46,563 INFO:SINGLE ITERATION TIME: 0.58
+2023-05-01 05:31:46,577 DEBUG:https://www.deviantart.com:443 "GET /crossaik/subscriptions/925670036/deviations HTTP/1.1" 403 919
+2023-05-01 05:31:46,592 DEBUG:https://www.deviantart.com:443 "GET /kratasz HTTP/1.1" 403 919
+2023-05-01 05:31:46,608 DEBUG:https://www.deviantart.com:443 "GET /kratasz/subscriptions/891542485/deviations HTTP/1.1" 403 919
+2023-05-01 05:31:46,625 DEBUG:https://www.deviantart.com:443 "GET /exordiumfractal HTTP/1.1" 403 919
+2023-05-01 05:31:46,642 DEBUG:https://www.deviantart.com:443 "GET /exordiumfractal/subscriptions/917246219/deviations HTTP/1.1" 403 919
+2023-05-01 05:31:46,658 DEBUG:https://www.deviantart.com:443 "GET /topic/3d HTTP/1.1" 403 919
+2023-05-01 05:31:46,675 DEBUG:https://www.deviantart.com:443 "GET /topic/adoptables HTTP/1.1" 403 919
+2023-05-01 05:31:46,695 DEBUG:https://www.deviantart.com:443 "GET /topic/anthro HTTP/1.1" 403 919
+2023-05-01 05:31:46,714 DEBUG:https://www.deviantart.com:443 "GET /topic/artisan-crafts HTTP/1.1" 403 919
+2023-05-01 05:31:46,731 DEBUG:https://www.deviantart.com:443 "GET /topic/comics HTTP/1.1" 403 919
+2023-05-01 05:31:46,751 DEBUG:https://www.deviantart.com:443 "GET /topic/cosplay HTTP/1.1" 403 919
+2023-05-01 05:31:46,769 DEBUG:https://www.deviantart.com:443 "GET /topic/customization HTTP/1.1" 403 919
+2023-05-01 05:31:46,786 DEBUG:https://www.deviantart.com:443 "GET /topic/drawings-and-paintings HTTP/1.1" 403 919
+2023-05-01 05:31:46,802 DEBUG:https://www.deviantart.com:443 "GET /topic/emoji-and-emoticon HTTP/1.1" 403 919
+2023-05-01 05:31:46,816 DEBUG:https://www.deviantart.com:443 "GET /topic/fan-fiction HTTP/1.1" 403 919
+2023-05-01 05:31:46,831 DEBUG:https://www.deviantart.com:443 "GET /topic/fractal HTTP/1.1" 403 919
+2023-05-01 05:31:46,846 DEBUG:https://www.deviantart.com:443 "GET /topic/game-art HTTP/1.1" 403 919
+2023-05-01 05:31:46,862 DEBUG:https://www.deviantart.com:443 "GET /topic/horror HTTP/1.1" 403 919
+2023-05-01 05:31:46,878 DEBUG:https://www.deviantart.com:443 "GET /topic/literature HTTP/1.1" 403 919
+2023-05-01 05:31:46,893 DEBUG:https://www.deviantart.com:443 "GET /topic/photo-manipulation HTTP/1.1" 403 919
+2023-05-01 05:31:46,908 DEBUG:https://www.deviantart.com:443 "GET /topic/pixel-art HTTP/1.1" 403 919
+2023-05-01 05:31:46,924 DEBUG:https://www.deviantart.com:443 "GET /topic/poetry HTTP/1.1" 403 919
+2023-05-01 05:31:46,940 DEBUG:https://www.deviantart.com:443 "GET /topic/science-fiction HTTP/1.1" 403 919
+2023-05-01 05:31:46,957 DEBUG:https://www.deviantart.com:443 "GET /topic/sculpture HTTP/1.1" 403 919
+2023-05-01 05:31:46,972 DEBUG:https://www.deviantart.com:443 "GET /topic/stock-images HTTP/1.1" 403 919
+2023-05-01 05:31:46,985 DEBUG:https://www.deviantart.com:443 "GET /topic/street-art HTTP/1.1" 403 919
+2023-05-01 05:31:47,000 DEBUG:https://www.deviantart.com:443 "GET /topic/street-photography HTTP/1.1" 403 919
+2023-05-01 05:31:47,014 DEBUG:https://www.deviantart.com:443 "GET /topic/traditional-art HTTP/1.1" 403 919
+2023-05-01 05:31:47,030 DEBUG:https://www.deviantart.com:443 "GET /topic/tutorials HTTP/1.1" 403 919
+2023-05-01 05:31:47,044 DEBUG:https://www.deviantart.com:443 "GET /topic/wallpaper HTTP/1.1" 403 919
+2023-05-01 05:31:47,060 DEBUG:https://www.deviantart.com:443 "GET /team/journal/Tutorial-Draw-Pikachu-with-Ry-Spirit-898405466 HTTP/1.1" 403 919
+2023-05-01 05:31:47,060 ERROR:pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 161, in bfs_scraper
+    current_node = queue.pop(0)
+                   ^^^^^^^^^^^^
+IndexError: pop from empty list
+2023-05-01 05:31:47,061 INFO:VISITED LINKS: 221
+2023-05-01 05:31:47,061 INFO:COLLECTED LINKS: 188
+2023-05-01 05:31:47,062 INFO:QUEUED LINKS: 220
+2023-05-01 05:31:47,251 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www01052023052935-tree-graph.gv' with encoding 'utf-8'
+2023-05-01 05:31:47,251 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www01052023052935-tree-graph.gv')
+2023-05-01 05:31:47,252 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-05-01 05:31:47,252 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www01052023052935-diagram'
+2023-05-01 05:31:47,253 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www01052023052935-diagram']
+2023-05-01 05:31:47,380 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-05-01 05:33:13,805 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-05-01 05:33:14,693 DEBUG:http://web.pzjudo.pl:80 "GET / HTTP/1.1" 200 None
+2023-05-01 05:33:15,712 DEBUG:http://web.pzjudo.pl:80 "GET / HTTP/1.1" 200 None
+2023-05-01 05:33:15,765 INFO:URL NO.1ADDED: http://web.pzjudo.pl/kontakt
+2023-05-01 05:33:15,765 INFO:URL NO.2ADDED: http://web.pzjudo.pl/strefa-sedziowska
+2023-05-01 05:33:15,781 INFO:URL NO.3ADDED: http://web.pzjudo.pl/strefa-szkoleniowa
+2023-05-01 05:33:15,781 INFO:URL NO.4ADDED: http://web.pzjudo.pl/pomagamy-ukrainie
+2023-05-01 05:33:15,781 INFO:URL NO.5ADDED: http://web.pzjudo.pl/informacja-o-kwalifikacjach-do-oom-koszalin-2023
+2023-05-01 05:33:15,781 INFO:URL NO.6ADDED: http://web.pzjudo.pl/komunikat-w-sprawie-zglaszania-zawodnikow-na-zawody-przez-system-judobase
+2023-05-01 05:33:15,781 INFO:URL NO.7ADDED: http://web.pzjudo.pl/licencje-polskiego-zwiazku-judo-2023
+2023-05-01 05:33:15,781 INFO:URL NO.8ADDED: http://web.pzjudo.pl/powolanie-na-ec-sarajewo-20-21052023-kn-seniorek-i-u23-kobiet
+2023-05-01 05:33:15,781 INFO:URL NO.9ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-kwiecien-3
+2023-05-01 05:33:15,781 INFO:URL NO.10ADDED: http://web.pzjudo.pl/ogolnopolska-olimpiada-mlodziezy-glubiak-i-banaszewska-ponownie-najlepsze
+2023-05-01 05:33:15,781 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:33:15,781 INFO:SINGLE ITERATION TIME: 0.95
+2023-05-01 05:33:16,615 DEBUG:http://web.pzjudo.pl:80 "GET /kontakt HTTP/1.1" 200 None
+2023-05-01 05:33:16,684 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:33:16,684 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:33:17,672 DEBUG:http://web.pzjudo.pl:80 "GET /strefa-sedziowska HTTP/1.1" 200 None
+2023-05-01 05:33:17,772 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:33:17,772 INFO:SINGLE ITERATION TIME: 1.09
+2023-05-01 05:33:18,606 DEBUG:http://web.pzjudo.pl:80 "GET /strefa-szkoleniowa HTTP/1.1" 200 None
+2023-05-01 05:33:18,606 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:33:18,606 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:33:19,439 DEBUG:http://web.pzjudo.pl:80 "GET /pomagamy-ukrainie HTTP/1.1" 200 None
+2023-05-01 05:33:19,508 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:33:19,508 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:33:20,316 DEBUG:http://web.pzjudo.pl:80 "GET /informacja-o-kwalifikacjach-do-oom-koszalin-2023 HTTP/1.1" 200 None
+2023-05-01 05:33:20,380 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:33:20,380 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:33:21,198 DEBUG:http://web.pzjudo.pl:80 "GET /komunikat-w-sprawie-zglaszania-zawodnikow-na-zawody-przez-system-judobase HTTP/1.1" 200 None
+2023-05-01 05:33:21,245 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:33:21,245 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:33:22,070 DEBUG:http://web.pzjudo.pl:80 "GET /licencje-polskiego-zwiazku-judo-2023 HTTP/1.1" 200 None
+2023-05-01 05:33:22,148 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:33:22,154 INFO:SINGLE ITERATION TIME: 0.91
+2023-05-01 05:33:22,903 DEBUG:http://web.pzjudo.pl:80 "GET /powolanie-na-ec-sarajewo-20-21052023-kn-seniorek-i-u23-kobiet HTTP/1.1" 200 None
+2023-05-01 05:33:22,957 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:33:22,957 INFO:SINGLE ITERATION TIME: 0.8
+2023-05-01 05:33:23,721 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-kwiecien-3 HTTP/1.1" 200 None
+2023-05-01 05:33:23,775 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:33:23,775 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:33:23,775 INFO:VISITED LINKS: 11
+2023-05-01 05:33:23,775 INFO:COLLECTED LINKS: 10
+2023-05-01 05:33:23,775 INFO:QUEUED LINKS: 10
+2023-05-01 05:33:23,775 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/web01052023053313-tree-graph.gv' with encoding 'utf-8'
+2023-05-01 05:33:23,775 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/web01052023053313-tree-graph.gv')
+2023-05-01 05:33:23,775 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-05-01 05:33:23,775 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/web01052023053313-diagram'
+2023-05-01 05:33:23,775 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'web01052023053313-diagram']
+2023-05-01 05:33:23,837 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-05-01 05:33:43,838 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-05-01 05:33:44,725 DEBUG:http://web.pzjudo.pl:80 "GET / HTTP/1.1" 200 None
+2023-05-01 05:33:45,659 DEBUG:http://web.pzjudo.pl:80 "GET / HTTP/1.1" 200 None
+2023-05-01 05:33:45,728 INFO:URL NO.1ADDED: http://web.pzjudo.pl/kontakt
+2023-05-01 05:33:45,728 INFO:URL NO.2ADDED: http://web.pzjudo.pl/strefa-sedziowska
+2023-05-01 05:33:45,728 INFO:URL NO.3ADDED: http://web.pzjudo.pl/strefa-szkoleniowa
+2023-05-01 05:33:45,728 INFO:URL NO.4ADDED: http://web.pzjudo.pl/pomagamy-ukrainie
+2023-05-01 05:33:45,728 INFO:URL NO.5ADDED: http://web.pzjudo.pl/informacja-o-kwalifikacjach-do-oom-koszalin-2023
+2023-05-01 05:33:45,728 INFO:URL NO.6ADDED: http://web.pzjudo.pl/komunikat-w-sprawie-zglaszania-zawodnikow-na-zawody-przez-system-judobase
+2023-05-01 05:33:45,728 INFO:URL NO.7ADDED: http://web.pzjudo.pl/licencje-polskiego-zwiazku-judo-2023
+2023-05-01 05:33:45,728 INFO:URL NO.8ADDED: http://web.pzjudo.pl/powolanie-na-ec-sarajewo-20-21052023-kn-seniorek-i-u23-kobiet
+2023-05-01 05:33:45,728 INFO:URL NO.9ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-kwiecien-3
+2023-05-01 05:33:45,728 INFO:URL NO.10ADDED: http://web.pzjudo.pl/ogolnopolska-olimpiada-mlodziezy-glubiak-i-banaszewska-ponownie-najlepsze
+2023-05-01 05:33:45,728 INFO:URL NO.11ADDED: http://web.pzjudo.pl/puchar-europy-kadetow-tomasz-jopek-swietny-turniej-w-bielsku-bialej-0
+2023-05-01 05:33:45,728 INFO:URL NO.12ADDED: http://web.pzjudo.pl/puchar-europy-kadetow-tomasz-jopek-swietny-turniej-w-bielsku-bialej
+2023-05-01 05:33:45,728 INFO:URL NO.13ADDED: http://web.pzjudo.pl/ogolnopolska-olimpiada-mlodziezy-w-czwartek-i-piatek-mistrzowska-rywalizacja-w-koszalinie
+2023-05-01 05:33:45,728 INFO:URL NO.14ADDED: http://web.pzjudo.pl/stanislaw-piechota-z-roku-na-rok-widze-coraz-wiekszy-progres
+2023-05-01 05:33:45,728 INFO:URL NO.15ADDED: http://web.pzjudo.pl/archive
+2023-05-01 05:33:45,728 INFO:URL NO.16ADDED: http://web.pzjudo.pl/biuletyn-informacji-publicznej
+2023-05-01 05:33:45,728 INFO:URL NO.17ADDED: http://web.pzjudo.pl/rodzaj-tresci/inicjatywy-klubowe
+2023-05-01 05:33:45,728 INFO:URL NO.18ADDED: http://web.pzjudo.pl/judo-czysty-sport-antydoping
+2023-05-01 05:33:45,728 INFO:URL NO.19ADDED: http://web.pzjudo.pl/edukacja
+2023-05-01 05:33:45,728 INFO:URL NO.20ADDED: http://web.pzjudo.pl/rodzaj-tresci/judo-osob-niepelnosprawnych
+2023-05-01 05:33:45,728 INFO:URL NO.21ADDED: http://web.pzjudo.pl/rodzaj-tresci/judo-weteranow
+2023-05-01 05:33:45,728 INFO:URL NO.22ADDED: http://web.pzjudo.pl/rodzaj-tresci/kata
+2023-05-01 05:33:45,728 INFO:URL NO.23ADDED: http://web.pzjudo.pl/zawody
+2023-05-01 05:33:45,728 INFO:URL NO.24ADDED: http://web.pzjudo.pl/rodzaj-tresci/ranking
+2023-05-01 05:33:45,728 INFO:URL NO.25ADDED: http://web.pzjudo.pl/polscy-medalisci-judo
+2023-05-01 05:33:45,728 INFO:URL NO.26ADDED: http://web.pzjudo.pl/baza-klubow
+2023-05-01 05:33:45,728 INFO:URL NO.27ADDED: http://web.pzjudo.pl/rodzaj-tresci/system-sportu-mlodziezowego
+2023-05-01 05:33:45,728 INFO:URL NO.28ADDED: http://web.pzjudo.pl/wydarzenia/4179/mistrzostwa-polski-judo-kata-14052023-radom
+2023-05-01 05:33:45,728 INFO:URL NO.29ADDED: http://web.pzjudo.pl/wydarzenia/4186/mistrzostwa-polski-judo-weteranow-i-amatorow
+2023-05-01 05:33:45,728 INFO:URL NO.30ADDED: http://web.pzjudo.pl/waldemar-legien-ryszard-zieniawa-stworzyl-polska-szkole-judo
+2023-05-01 05:33:45,728 INFO:URL NO.31ADDED: http://web.pzjudo.pl/european-open-w-warszawie-5-medali-polakow
+2023-05-01 05:33:45,728 INFO:URL NO.32ADDED: http://web.pzjudo.pl/european-open-w-pradze-zloty-medal-arlety-podolak
+2023-05-01 05:33:45,728 INFO:URL NO.33ADDED: http://web.pzjudo.pl/european-open-w-warszawie-bartlomiej-garbacik-i-wiktor-mrowczynski-ze-srebrnymi-medalami
+2023-05-01 05:33:45,728 INFO:URL NO.34ADDED: http://web.pzjudo.pl/european-open-w-warszawie-piotr-kuczera-i-maciej-sarnacki-poznali-rywali
+2023-05-01 05:33:45,744 INFO:URL NO.35ADDED: http://web.pzjudo.pl/galeriafoto/european-open-judo-men-02-03032019-warszawa
+2023-05-01 05:33:45,744 INFO:URL NO.36ADDED: http://web.pzjudo.pl/galeria-foto
+2023-05-01 05:33:45,744 INFO:URL NO.37ADDED: http://web.pzjudo.pl/filmy
+2023-05-01 05:33:45,744 INFO:URL NO.38ADDED: http://web.pzjudo.pl/zarzad-polskiego-zwiazku-judo
+2023-05-01 05:33:45,744 INFO:URL NO.39ADDED: http://web.pzjudo.pl/komisja-rewizyjna
+2023-05-01 05:33:45,744 INFO:URL NO.40ADDED: http://web.pzjudo.pl/komisja-dyscyplinarna
+2023-05-01 05:33:45,744 INFO:URL NO.41ADDED: http://web.pzjudo.pl/glowna-komisja-sedziowska
+2023-05-01 05:33:45,744 INFO:URL NO.42ADDED: http://web.pzjudo.pl/komisja-dan
+2023-05-01 05:33:45,744 INFO:URL NO.43ADDED: http://web.pzjudo.pl/komisja-odznaczen
+2023-05-01 05:33:45,744 INFO:URL NO.44ADDED: http://web.pzjudo.pl/rada-trenerow
+2023-05-01 05:33:45,744 INFO:URL NO.45ADDED: http://web.pzjudo.pl/informacje-z-zebrania-zarzadu
+2023-05-01 05:33:45,744 INFO:URL NO.46ADDED: http://web.pzjudo.pl/ochrona-danych-osobowych
+2023-05-01 05:33:45,744 INFO:URL NO.47ADDED: http://web.pzjudo.pl/rodzaj-tresci/bip-komisja-statutowa
+2023-05-01 05:33:45,744 INFO:URL NO.48ADDED: http://web.pzjudo.pl/rada-zawodnicza
+2023-05-01 05:33:45,744 INFO:URL NO.49ADDED: http://web.pzjudo.pl/content/historia-judo
+2023-05-01 05:33:45,744 INFO:URL NO.50ADDED: http://web.pzjudo.pl/content/historia-pzjudo
+2023-05-01 05:33:45,744 INFO:URL NO.51ADDED: http://web.pzjudo.pl/deklaracja-dostepnosci
+2023-05-01 05:33:45,744 INFO:URL NO.52ADDED: http://web.pzjudo.pl/user/password
+2023-05-01 05:33:45,744 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:33:47,095 DEBUG:http://web.pzjudo.pl:80 "GET /kontakt HTTP/1.1" 200 None
+2023-05-01 05:33:47,148 INFO:SINGLE ITERATION TIME: 1.4
+2023-05-01 05:33:48,098 DEBUG:http://web.pzjudo.pl:80 "GET /strefa-sedziowska HTTP/1.1" 200 None
+2023-05-01 05:33:48,167 INFO:URL NO.53ADDED: http://web.pzjudo.pl/strefasedziowska/odszedl-od-nas-henryk-styra
+2023-05-01 05:33:48,167 INFO:URL NO.54ADDED: http://web.pzjudo.pl/strefasedziowska/szkolenia-w-okregach-wytyczne-2023
+2023-05-01 05:33:48,167 INFO:URL NO.55ADDED: http://web.pzjudo.pl/strefasedziowska/kurs-weryfikacyjny-dla-sedziow-szkolenia-centralnego-2023
+2023-05-01 05:33:48,167 INFO:URL NO.56ADDED: http://web.pzjudo.pl/strefasedziowska/seminarium-dla-sedziow-i-trenerow-judo-19102022
+2023-05-01 05:33:48,167 INFO:URL NO.57ADDED: http://web.pzjudo.pl/strefasedziowska/aktualne-wymagania-dla-wyjezdzajacych-na-zawody-eju-tzw-covid-protokol
+2023-05-01 05:33:48,167 INFO:URL NO.58ADDED: http://web.pzjudo.pl/strefasedziowska/szkolenie-dla-trenerow-i-sedziow-pzjudo
+2023-05-01 05:33:48,167 INFO:URL NO.59ADDED: http://web.pzjudo.pl/strefasedziowska/komunikat-w-sprawie-organizacji-szkolen-w-okregach-w-2022-roku
+2023-05-01 05:33:48,167 INFO:URL NO.60ADDED: http://web.pzjudo.pl/strefasedziowska/seminarium-weryfikacyjnego-sedziow-szkolenia-centralnego-polskiego-zwiazku-judo
+2023-05-01 05:33:48,167 INFO:URL NO.61ADDED: http://web.pzjudo.pl/strefasedziowska/wyniki-egzaminow-na-wyzsze-stopnie-sedziowskie
+2023-05-01 05:33:48,167 INFO:URL NO.62ADDED: http://web.pzjudo.pl/strefasedziowska/egzamin-na-wyzsze-stopnie-sedziowskie-2021
+2023-05-01 05:33:48,167 INFO:URL NO.63ADDED: http://web.pzjudo.pl/strefasedziowska/sprawozdanie-z-kursu-weryfikacyjno-szkoleniowego-dla-sedziow-szkolenia-centralnego
+2023-05-01 05:33:48,167 INFO:URL NO.64ADDED: http://web.pzjudo.pl/strefasedziowska/wytyczne-do-organizowania-kursow-sedziowskich-w-okregach-w-2021-r
+2023-05-01 05:33:48,167 INFO:URL NO.65ADDED: http://web.pzjudo.pl/strefasedziowska/kurs-weryfikacyjny-dla-sedziow-szkolenia-centralnego-2021
+2023-05-01 05:33:48,167 INFO:URL NO.66ADDED: http://web.pzjudo.pl/strefasedziowska/eju-regulations-referees-2021
+2023-05-01 05:33:48,167 INFO:URL NO.67ADDED: http://web.pzjudo.pl/strefasedziowska/system-klasyfikacji-sedziow-2020
+2023-05-01 05:33:48,167 INFO:URL NO.68ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-weteranow
+2023-05-01 05:33:48,167 INFO:URL NO.69ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-weteranow-0
+2023-05-01 05:33:48,167 INFO:URL NO.70ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-oom-w-koszalinie
+2023-05-01 05:33:48,167 INFO:URL NO.71ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pe-juniorow-poznan
+2023-05-01 05:33:48,167 INFO:URL NO.72ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-amp-pila-1-2042023
+2023-05-01 05:33:48,167 INFO:URL NO.73ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-juniorow-10-12032023
+2023-05-01 05:33:48,167 INFO:URL NO.74ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-mlodszych-4032023-piaseczno
+2023-05-01 05:33:48,167 INFO:URL NO.75ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-eo-warszawa-0
+2023-05-01 05:33:48,167 INFO:URL NO.76ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-4022023
+2023-05-01 05:33:48,167 INFO:URL NO.77ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-ozn
+2023-05-01 05:33:48,167 INFO:URL NO.78ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-mlodszych-27112022-olesnica
+2023-05-01 05:33:48,167 INFO:URL NO.79ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-wojewodztw-warszawa
+2023-05-01 05:33:48,167 INFO:URL NO.80ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-i-juniorow-mlodszych-bytom
+2023-05-01 05:33:48,167 INFO:URL NO.81ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-mlodzikow-kielce
+2023-05-01 05:33:48,167 INFO:URL NO.82ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-turniej-nadziei-olimpijskich
+2023-05-01 05:33:48,183 INFO:URL NO.83ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-seniorow
+2023-05-01 05:33:48,183 INFO:URL NO.84ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-otwarte-mp-osob-z-niepelnosprawnoscia
+2023-05-01 05:33:48,183 INFO:URL NO.85ADDED: http://web.pzjudo.pl/strefasedziowska/informacje-organizacyjne-mistrzostwa-swiata-weteranow
+2023-05-01 05:33:48,183 INFO:URL NO.86ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-sochaczew-11092022
+2023-05-01 05:33:48,183 INFO:URL NO.87ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-seniorow-warszawa-3092022
+2023-05-01 05:33:48,183 INFO:URL NO.88ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mistrzostw-swiata-weteranow
+2023-05-01 05:33:48,183 INFO:URL NO.89ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-european-university-games
+2023-05-01 05:33:48,183 INFO:URL NO.90ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-seniorow-nowa-wies-11062022
+2023-05-01 05:33:48,183 INFO:URL NO.91ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-mlodziezy-0
+2023-05-01 05:33:48,183 INFO:URL NO.92ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-baltic-cup-4-5-62022
+2023-05-01 05:33:48,183 INFO:URL NO.93ADDED: http://web.pzjudo.pl/strefasedziowska/powolania-na-european-cup-cadets-bielsko-biala-21-22052022
+2023-05-01 05:33:48,183 INFO:URL NO.94ADDED: http://web.pzjudo.pl/strefasedziowska/sedziowie-powolani-na-european-cup-juniors-w-poznaniu
+2023-05-01 05:33:48,183 INFO:URL NO.95ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-oom-w-bialymstoku
+2023-05-01 05:33:48,183 INFO:URL NO.96ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-juniorow-rybnik-11-1303
+2023-05-01 05:33:48,183 INFO:URL NO.97ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-i-juniorow-mlodszych-piaseczno-5032022
+2023-05-01 05:33:48,183 INFO:URL NO.98ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-eo-warszawa
+2023-05-01 05:33:48,183 INFO:URL NO.99ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-i-juniorow-mlodszych-olesnica-20-21112021
+2023-05-01 05:33:48,183 INFO:URL NO.100ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-mlodszych-bytom-6112021
+2023-05-01 05:33:48,183 INFO:URL NO.101ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-pp-juniorow-sochaczew
+2023-05-01 05:33:48,183 INFO:URL NO.102ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-seniorow-i-dmp-seniorow
+2023-05-01 05:33:48,183 INFO:URL NO.103ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-mp-mlodziezy
+2023-05-01 05:33:48,183 INFO:URL NO.104ADDED: http://web.pzjudo.pl/strefasedziowska/obsada-sedziowska-oom
+2023-05-01 05:33:48,183 INFO:URL NO.105ADDED: http://web.pzjudo.pl/strefasedziowska/system-klasyfikacji-sedziow-judo
+2023-05-01 05:33:48,183 INFO:URL NO.106ADDED: http://web.pzjudo.pl/content/obsady
+2023-05-01 05:33:48,183 INFO:URL NO.107ADDED: http://web.pzjudo.pl/strefasedziowska/stawki-sedziowskie-i-ryczalt-na-koszty-przejazdu
+2023-05-01 05:33:48,183 INFO:URL NO.108ADDED: http://web.pzjudo.pl/strefasedziowska/struktura-organizacji-sedziowskiej-pzjudo-zatwierdzona-uchwala-zarzadu-pzjudo-w
+2023-05-01 05:33:48,183 INFO:URL NO.109ADDED: http://web.pzjudo.pl/strefasedziowska/regulamin-kolegium-sedziow-zatwierdzony-uchwala-zarzadu-pzjudo-w-dniu-5-kwietnia
+2023-05-01 05:33:48,183 INFO:URL NO.110ADDED: http://web.pzjudo.pl/strefasedziowska/regulamin-glownej-komisji-sedziowskiej-zatwierdzony-uchwala-zarzadu-pzjudo-w-dniu-5
+2023-05-01 05:33:48,183 INFO:URL NO.111ADDED: http://web.pzjudo.pl/strefasedziowska/regulamin-sedziowski-zatwierdzony-uchwala-zarzadu-pzjudo-w-dniu-26-lutego-2016-r
+2023-05-01 05:33:48,183 INFO:URL NO.112ADDED: http://web.pzjudo.pl/strefasedziowska/ijf-sport-and-organisation-rules-8-october-2019
+2023-05-01 05:33:48,183 INFO:URL NO.113ADDED: http://web.pzjudo.pl/strefasedziowska/przepisy-walki-u12-na-rok-2019-zatwierdzone
+2023-05-01 05:33:48,183 INFO:URL NO.114ADDED: http://web.pzjudo.pl/strefasedziowska/przepisy-walki-judo-2018-2020
+2023-05-01 05:33:48,183 INFO:URL NO.115ADDED: http://web.pzjudo.pl/strefasedziowska/zmiany-w-przepisach-walki-wazne-od-1012018
+2023-05-01 05:33:48,183 INFO:URL NO.116ADDED: http://web.pzjudo.pl/strefasedziowska/zmiany-w-przepisach-walki-2017
+2023-05-01 05:33:48,183 INFO:URL NO.117ADDED: http://web.pzjudo.pl/strefasedziowska/wymiana-sedziowska-i-ranking-polskich-sedziow-eju
+2023-05-01 05:33:48,183 INFO:URL NO.118ADDED: http://web.pzjudo.pl/strefasedziowska/lista-kontaktowa-sedziow-szkolenia-centralnego-2019
+2023-05-01 05:33:48,183 INFO:URL NO.119ADDED: http://web.pzjudo.pl/strefasedziowska/nominacje-na-zawody-eju
+2023-05-01 05:33:48,183 INFO:URL NO.120ADDED: http://web.pzjudo.pl/strefasedziowska/ranking-eju-polscy-sedziowie-ostatnie-3-lata
+2023-05-01 05:33:48,183 INFO:URL NO.121ADDED: http://web.pzjudo.pl/strefasedziowska/zestawienie-sedziow-i-ich-stopni-szkoleniowych
+2023-05-01 05:33:48,183 INFO:SINGLE ITERATION TIME: 1.03
+2023-05-01 05:33:49,017 DEBUG:http://web.pzjudo.pl:80 "GET /strefa-szkoleniowa HTTP/1.1" 200 None
+2023-05-01 05:33:49,101 INFO:URL NO.122ADDED: http://web.pzjudo.pl/szkoleniowa-kadry-narodowe
+2023-05-01 05:33:49,101 INFO:URL NO.123ADDED: http://web.pzjudo.pl/szkoleniowa-dokumenty
+2023-05-01 05:33:49,101 INFO:URL NO.124ADDED: http://web.pzjudo.pl/szkoleniowa-kalendarze
+2023-05-01 05:33:49,101 INFO:URL NO.125ADDED: http://web.pzjudo.pl/szkoleniowa-powolania
+2023-05-01 05:33:49,101 INFO:URL NO.126ADDED: http://web.pzjudo.pl/wykaz-kadry-trenerskiej-i-wspolpracujacej-pzjudo
+2023-05-01 05:33:49,101 INFO:URL NO.127ADDED: http://web.pzjudo.pl/strefa-szkoleniowa/zgrupowania-konsultacje
+2023-05-01 05:33:49,101 INFO:URL NO.128ADDED: http://web.pzjudo.pl/archiwum-strefa-szkoleniowa
+2023-05-01 05:33:49,101 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:33:49,888 DEBUG:http://web.pzjudo.pl:80 "GET /pomagamy-ukrainie HTTP/1.1" 200 None
+2023-05-01 05:33:49,942 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:33:50,691 DEBUG:http://web.pzjudo.pl:80 "GET /informacja-o-kwalifikacjach-do-oom-koszalin-2023 HTTP/1.1" 200 None
+2023-05-01 05:33:50,745 INFO:URL NO.129ADDED: http://web.pzjudo.pl/sites/default/files/default_images/logo_pzjudo_1.png
+2023-05-01 05:33:50,745 INFO:URL NO.130ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/kwalifikacje_do_oom_2023_korekta_20.03.2023_0.pdf
+2023-05-01 05:33:50,745 INFO:SINGLE ITERATION TIME: 0.8
+2023-05-01 05:33:51,525 DEBUG:http://web.pzjudo.pl:80 "GET /komunikat-w-sprawie-zglaszania-zawodnikow-na-zawody-przez-system-judobase HTTP/1.1" 200 None
+2023-05-01 05:33:51,594 INFO:URL NO.131ADDED: http://web.pzjudo.pl/karta-ijf-waznosc-karty-do-31-12-2016-oraz-wykaz-danych-do-uzyskania-licencji-ijf
+2023-05-01 05:33:51,594 INFO:SINGLE ITERATION TIME: 0.85
+2023-05-01 05:33:52,413 DEBUG:http://web.pzjudo.pl:80 "GET /licencje-polskiego-zwiazku-judo-2023 HTTP/1.1" 200 None
+2023-05-01 05:33:52,466 INFO:URL NO.132ADDED: http://web.pzjudo.pl/wykaz-dokumentow-rejestracyjnych-klubu
+2023-05-01 05:33:52,466 INFO:URL NO.133ADDED: http://web.pzjudo.pl/ankieta-klubowa
+2023-05-01 05:33:52,466 INFO:URL NO.134ADDED: http://web.pzjudo.pl/deklaracja-klubowa
+2023-05-01 05:33:52,466 INFO:URL NO.135ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/8._licencja_trenera_wniosek-2023.docx
+2023-05-01 05:33:52,466 INFO:URL NO.136ADDED: http://web.pzjudo.pl/ewidencja-i-licencje-trenerow-pz-judo-na-rok-2021
+2023-05-01 05:33:52,466 INFO:URL NO.137ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/3._wniosek-licencja-zaw._2023.pdf
+2023-05-01 05:33:52,466 INFO:URL NO.138ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2017/regulamin_zmiany_barw_klubowych_polskiego_zwiazku_judo.pdf
+2023-05-01 05:33:52,482 INFO:URL NO.139ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/1._informacje_dotyczace_licencji_w_2023_r.pdf
+2023-05-01 05:33:52,482 INFO:URL NO.140ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/2._wniosek-licencja-zaw._2023.docx
+2023-05-01 05:33:52,482 INFO:URL NO.141ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/4._wniosek_o_licencje_sedziego_2023.pdf
+2023-05-01 05:33:52,482 INFO:URL NO.142ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/5._oplaty_pz_judo_w_2023_r_0.pdf
+2023-05-01 05:33:52,482 INFO:URL NO.143ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/6._regulamin_zmiany_barw_klubowych_polskiego_zwiazku_judo.pdf
+2023-05-01 05:33:52,482 INFO:URL NO.144ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/7._normy_wynikowe_klas_sportowych.pdf
+2023-05-01 05:33:52,482 INFO:URL NO.145ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/9._licencja_trenera_wniosek-2023-zal.1.docx
+2023-05-01 05:33:52,482 INFO:URL NO.146ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/2023-_wniosek_o_licencje_zawodnika_ozn.pdf
+2023-05-01 05:33:52,482 INFO:URL NO.147ADDED: http://web.pzjudo.pl/strefa-szkoleniowa/dokumenty-do-pobrania
+2023-05-01 05:33:52,482 INFO:SINGLE ITERATION TIME: 0.89
+2023-05-01 05:33:53,300 DEBUG:http://web.pzjudo.pl:80 "GET /powolanie-na-ec-sarajewo-20-21052023-kn-seniorek-i-u23-kobiet HTTP/1.1" 200 None
+2023-05-01 05:33:53,353 INFO:URL NO.148ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/28.04_powolanie_bp_seniorek_ec_sarajewo_20-21.05.2023.pdf
+2023-05-01 05:33:53,353 INFO:URL NO.149ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/28.04_powolanie_frkf_u23_kobiet_ec_sarajewo_20-21.05.2023_0.pdf
+2023-05-01 05:33:53,353 INFO:URL NO.150ADDED: http://web.pzjudo.pl/strefa-szkoleniowa/powolania-wyjazdy
+2023-05-01 05:33:53,353 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:33:54,134 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-kwiecien-3 HTTP/1.1" 200 None
+2023-05-01 05:33:54,187 INFO:URL NO.151ADDED: http://web.pzjudo.pl/sites/default/files/zalaczniki/2023/newsletter_polada_kwiecien_2023.pdf
+2023-05-01 05:33:54,187 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:33:54,975 DEBUG:http://web.pzjudo.pl:80 "GET /ogolnopolska-olimpiada-mlodziezy-glubiak-i-banaszewska-ponownie-najlepsze HTTP/1.1" 200 None
+2023-05-01 05:33:55,021 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:33:55,837 DEBUG:http://web.pzjudo.pl:80 "GET /puchar-europy-kadetow-tomasz-jopek-swietny-turniej-w-bielsku-bialej-0 HTTP/1.1" 200 None
+2023-05-01 05:33:55,888 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:33:56,635 DEBUG:http://web.pzjudo.pl:80 "GET /puchar-europy-kadetow-tomasz-jopek-swietny-turniej-w-bielsku-bialej HTTP/1.1" 200 None
+2023-05-01 05:33:56,697 INFO:SINGLE ITERATION TIME: 0.81
+2023-05-01 05:33:57,469 DEBUG:http://web.pzjudo.pl:80 "GET /ogolnopolska-olimpiada-mlodziezy-w-czwartek-i-piatek-mistrzowska-rywalizacja-w-koszalinie HTTP/1.1" 200 None
+2023-05-01 05:33:57,522 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:33:58,287 DEBUG:http://web.pzjudo.pl:80 "GET /stanislaw-piechota-z-roku-na-rok-widze-coraz-wiekszy-progres HTTP/1.1" 200 None
+2023-05-01 05:33:58,325 INFO:SINGLE ITERATION TIME: 0.8
+2023-05-01 05:33:59,118 DEBUG:http://web.pzjudo.pl:80 "GET /archive HTTP/1.1" 200 None
+2023-05-01 05:33:59,158 INFO:URL NO.152ADDED: http://web.pzjudo.pl/archive/202304
+2023-05-01 05:33:59,158 INFO:URL NO.153ADDED: http://web.pzjudo.pl/archive/202303
+2023-05-01 05:33:59,158 INFO:URL NO.154ADDED: http://web.pzjudo.pl/archive/202302
+2023-05-01 05:33:59,158 INFO:URL NO.155ADDED: http://web.pzjudo.pl/archive/202301
+2023-05-01 05:33:59,158 INFO:URL NO.156ADDED: http://web.pzjudo.pl/archive/202212
+2023-05-01 05:33:59,158 INFO:URL NO.157ADDED: http://web.pzjudo.pl/archive/202211
+2023-05-01 05:33:59,158 INFO:URL NO.158ADDED: http://web.pzjudo.pl/archive/202210
+2023-05-01 05:33:59,158 INFO:URL NO.159ADDED: http://web.pzjudo.pl/archive/202209
+2023-05-01 05:33:59,158 INFO:URL NO.160ADDED: http://web.pzjudo.pl/archive/202208
+2023-05-01 05:33:59,158 INFO:URL NO.161ADDED: http://web.pzjudo.pl/archive/202207
+2023-05-01 05:33:59,158 INFO:URL NO.162ADDED: http://web.pzjudo.pl/archive/202206
+2023-05-01 05:33:59,158 INFO:URL NO.163ADDED: http://web.pzjudo.pl/archive/202205
+2023-05-01 05:33:59,158 INFO:URL NO.164ADDED: http://web.pzjudo.pl/archive/202204
+2023-05-01 05:33:59,158 INFO:URL NO.165ADDED: http://web.pzjudo.pl/archive/202203
+2023-05-01 05:33:59,174 INFO:URL NO.166ADDED: http://web.pzjudo.pl/archive/202202
+2023-05-01 05:33:59,174 INFO:URL NO.167ADDED: http://web.pzjudo.pl/archive/202201
+2023-05-01 05:33:59,174 INFO:URL NO.168ADDED: http://web.pzjudo.pl/archive/202112
+2023-05-01 05:33:59,174 INFO:URL NO.169ADDED: http://web.pzjudo.pl/archive/202111
+2023-05-01 05:33:59,174 INFO:URL NO.170ADDED: http://web.pzjudo.pl/archive/202110
+2023-05-01 05:33:59,174 INFO:URL NO.171ADDED: http://web.pzjudo.pl/archive/202109
+2023-05-01 05:33:59,174 INFO:URL NO.172ADDED: http://web.pzjudo.pl/archive/202108
+2023-05-01 05:33:59,174 INFO:URL NO.173ADDED: http://web.pzjudo.pl/archive/202107
+2023-05-01 05:33:59,174 INFO:URL NO.174ADDED: http://web.pzjudo.pl/archive/202106
+2023-05-01 05:33:59,174 INFO:URL NO.175ADDED: http://web.pzjudo.pl/archive/202105
+2023-05-01 05:33:59,174 INFO:URL NO.176ADDED: http://web.pzjudo.pl/archive/202104
+2023-05-01 05:33:59,174 INFO:URL NO.177ADDED: http://web.pzjudo.pl/archive/202103
+2023-05-01 05:33:59,174 INFO:URL NO.178ADDED: http://web.pzjudo.pl/archive/202102
+2023-05-01 05:33:59,174 INFO:URL NO.179ADDED: http://web.pzjudo.pl/archive/202101
+2023-05-01 05:33:59,174 INFO:URL NO.180ADDED: http://web.pzjudo.pl/archive/202012
+2023-05-01 05:33:59,174 INFO:URL NO.181ADDED: http://web.pzjudo.pl/archive/202011
+2023-05-01 05:33:59,174 INFO:URL NO.182ADDED: http://web.pzjudo.pl/archive?page=1
+2023-05-01 05:33:59,174 INFO:URL NO.183ADDED: http://web.pzjudo.pl/archive?page=2
+2023-05-01 05:33:59,174 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:33:59,945 DEBUG:http://web.pzjudo.pl:80 "GET /biuletyn-informacji-publicznej HTTP/1.1" 200 None
+2023-05-01 05:34:00,008 INFO:URL NO.184ADDED: http://web.pzjudo.pl/biuletyn-informacji-publicznej-zarzad
+2023-05-01 05:34:00,008 INFO:URL NO.185ADDED: http://web.pzjudo.pl/biuletyn-informacji-publicznej-uchwaly-zarzadu-pzjudo
+2023-05-01 05:34:00,008 INFO:URL NO.186ADDED: http://web.pzjudo.pl/biuletyn-informacji-publicznej-protokoly-zarzadu-pzjudo
+2023-05-01 05:34:00,008 INFO:URL NO.187ADDED: http://web.pzjudo.pl/biuletyn-informacji-publicznej-zamowienia-i-konkursy
+2023-05-01 05:34:00,008 INFO:URL NO.188ADDED: http://web.pzjudo.pl/biuletyn-informacji-publicznej-kongres
+2023-05-01 05:34:00,008 INFO:URL NO.189ADDED: http://web.pzjudo.pl/biuletyn-informacji-publicznej-protokoly-z-walnego-zgromadzenia
+2023-05-01 05:34:00,008 INFO:URL NO.190ADDED: http://web.pzjudo.pl/biuletyn-informacji-publicznej-komisja-rewizyjna
+2023-05-01 05:34:00,008 INFO:URL NO.191ADDED: http://web.pzjudo.pl/biuletyn-informacji-publicznej-komisja-statutowa
+2023-05-01 05:34:00,023 INFO:SINGLE ITERATION TIME: 0.85
+2023-05-01 05:34:00,833 DEBUG:http://web.pzjudo.pl:80 "GET /rodzaj-tresci/inicjatywy-klubowe HTTP/1.1" 200 None
+2023-05-01 05:34:00,895 INFO:URL NO.192ADDED: http://web.pzjudo.pl/camp-judo-z-mistrzem-marianem-talajem-w-chelmie-17092022
+2023-05-01 05:34:00,895 INFO:URL NO.193ADDED: http://web.pzjudo.pl/brother-olympic-camp-gwiazdy-igrzysk-z-lukasem-krpalek
+2023-05-01 05:34:00,895 INFO:URL NO.194ADDED: http://web.pzjudo.pl/ii-mistrzostwa-mazowsza-w-judo-mastersow-amatorow
+2023-05-01 05:34:00,895 INFO:URL NO.195ADDED: http://web.pzjudo.pl/camp-treningowy-po-turnieju-w-olesnicy
+2023-05-01 05:34:00,895 INFO:URL NO.196ADDED: http://web.pzjudo.pl/inicjatywy-klubowe
+2023-05-01 05:34:00,895 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:34:01,783 DEBUG:http://web.pzjudo.pl:80 "GET /judo-czysty-sport-antydoping HTTP/1.1" 200 None
+2023-05-01 05:34:01,867 INFO:URL NO.197ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-marzec-4
+2023-05-01 05:34:01,867 INFO:URL NO.198ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-luty-3
+2023-05-01 05:34:01,867 INFO:URL NO.199ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-styczen-3
+2023-05-01 05:34:01,867 INFO:URL NO.200ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-grudzien-3
+2023-05-01 05:34:01,867 INFO:URL NO.201ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-listopad-2
+2023-05-01 05:34:01,867 INFO:URL NO.202ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-pazdziernik-3
+2023-05-01 05:34:01,867 INFO:URL NO.203ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-wrzesien-1
+2023-05-01 05:34:01,867 INFO:URL NO.204ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-sierpien-4
+2023-05-01 05:34:01,867 INFO:URL NO.205ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-lipiec-2
+2023-05-01 05:34:01,867 INFO:URL NO.206ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-czerwiec-3
+2023-05-01 05:34:01,867 INFO:URL NO.207ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-maj-2
+2023-05-01 05:34:01,867 INFO:URL NO.208ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-kwiecien-2
+2023-05-01 05:34:01,867 INFO:URL NO.209ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-marzec-3
+2023-05-01 05:34:01,867 INFO:URL NO.210ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-luty-2
+2023-05-01 05:34:01,867 INFO:URL NO.211ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-styczen-2
+2023-05-01 05:34:01,867 INFO:URL NO.212ADDED: http://web.pzjudo.pl/newsletter-polada-listopad
+2023-05-01 05:34:01,867 INFO:URL NO.213ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-pazdziernik-2
+2023-05-01 05:34:01,867 INFO:URL NO.214ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-wrzesien-0
+2023-05-01 05:34:01,867 INFO:URL NO.215ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-sierpien-3
+2023-05-01 05:34:01,867 INFO:URL NO.216ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-lipiec-1
+2023-05-01 05:34:01,867 INFO:URL NO.217ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-czerwiec-2
+2023-05-01 05:34:01,867 INFO:URL NO.218ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-maj-1
+2023-05-01 05:34:01,867 INFO:URL NO.219ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-kwiecien-1
+2023-05-01 05:34:01,867 INFO:URL NO.220ADDED: http://web.pzjudo.pl/newsletter-polskiej-agencji-antydopingowej-marzec-2
+2023-05-01 05:34:01,867 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:01,867 INFO:SINGLE ITERATION TIME: 0.97
+2023-05-01 05:34:02,732 DEBUG:http://web.pzjudo.pl:80 "GET /edukacja HTTP/1.1" 200 None
+2023-05-01 05:34:02,786 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:02,786 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:34:03,658 DEBUG:http://web.pzjudo.pl:80 "GET /rodzaj-tresci/judo-osob-niepelnosprawnych HTTP/1.1" 200 None
+2023-05-01 05:34:03,736 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:03,736 INFO:SINGLE ITERATION TIME: 0.95
+2023-05-01 05:34:04,522 DEBUG:http://web.pzjudo.pl:80 "GET /rodzaj-tresci/judo-weteranow HTTP/1.1" 200 None
+2023-05-01 05:34:04,576 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:04,576 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:34:05,410 DEBUG:http://web.pzjudo.pl:80 "GET /rodzaj-tresci/kata HTTP/1.1" 200 None
+2023-05-01 05:34:05,479 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:05,479 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:34:06,250 DEBUG:http://web.pzjudo.pl:80 "GET /zawody HTTP/1.1" 200 None
+2023-05-01 05:34:06,297 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:06,313 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:34:07,131 DEBUG:http://web.pzjudo.pl:80 "GET /rodzaj-tresci/ranking HTTP/1.1" 200 None
+2023-05-01 05:34:07,200 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:07,200 INFO:SINGLE ITERATION TIME: 0.89
+2023-05-01 05:34:07,972 DEBUG:http://web.pzjudo.pl:80 "GET /polscy-medalisci-judo HTTP/1.1" 200 None
+2023-05-01 05:34:08,019 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:08,019 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:34:08,753 DEBUG:http://web.pzjudo.pl:80 "GET /baza-klubow HTTP/1.1" 200 None
+2023-05-01 05:34:08,806 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:08,806 INFO:SINGLE ITERATION TIME: 0.79
+2023-05-01 05:34:09,577 DEBUG:http://web.pzjudo.pl:80 "GET /rodzaj-tresci/system-sportu-mlodziezowego HTTP/1.1" 200 None
+2023-05-01 05:34:09,608 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:09,608 INFO:SINGLE ITERATION TIME: 0.8
+2023-05-01 05:34:10,464 DEBUG:http://web.pzjudo.pl:80 "GET /wydarzenia/4179/mistrzostwa-polski-judo-kata-14052023-radom HTTP/1.1" 200 None
+2023-05-01 05:34:10,527 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:10,527 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:34:11,361 DEBUG:http://web.pzjudo.pl:80 "GET /wydarzenia/4186/mistrzostwa-polski-judo-weteranow-i-amatorow HTTP/1.1" 200 None
+2023-05-01 05:34:11,414 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:11,414 INFO:SINGLE ITERATION TIME: 0.89
+2023-05-01 05:34:12,418 DEBUG:http://web.pzjudo.pl:80 "GET /waldemar-legien-ryszard-zieniawa-stworzyl-polska-szkole-judo HTTP/1.1" 200 None
+2023-05-01 05:34:12,418 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:12,418 INFO:SINGLE ITERATION TIME: 1.0
+2023-05-01 05:34:13,251 DEBUG:http://web.pzjudo.pl:80 "GET /european-open-w-warszawie-5-medali-polakow HTTP/1.1" 200 None
+2023-05-01 05:34:13,305 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:13,305 INFO:SINGLE ITERATION TIME: 0.89
+2023-05-01 05:34:14,092 DEBUG:http://web.pzjudo.pl:80 "GET /european-open-w-pradze-zloty-medal-arlety-podolak HTTP/1.1" 200 None
+2023-05-01 05:34:14,139 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:14,139 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:34:14,926 DEBUG:http://web.pzjudo.pl:80 "GET /european-open-w-warszawie-bartlomiej-garbacik-i-wiktor-mrowczynski-ze-srebrnymi-medalami HTTP/1.1" 200 None
+2023-05-01 05:34:14,979 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:14,979 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:34:15,798 DEBUG:http://web.pzjudo.pl:80 "GET /european-open-w-warszawie-piotr-kuczera-i-maciej-sarnacki-poznali-rywali HTTP/1.1" 200 None
+2023-05-01 05:34:15,844 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:15,860 INFO:SINGLE ITERATION TIME: 0.88
+2023-05-01 05:34:16,779 DEBUG:http://web.pzjudo.pl:80 "GET /galeriafoto/european-open-judo-men-02-03032019-warszawa HTTP/1.1" 200 None
+2023-05-01 05:34:16,832 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:16,832 INFO:SINGLE ITERATION TIME: 0.97
+2023-05-01 05:34:17,704 DEBUG:http://web.pzjudo.pl:80 "GET /galeria-foto HTTP/1.1" 200 None
+2023-05-01 05:34:17,766 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:17,766 INFO:SINGLE ITERATION TIME: 0.93
+2023-05-01 05:34:18,591 DEBUG:http://web.pzjudo.pl:80 "GET /filmy HTTP/1.1" 200 None
+2023-05-01 05:34:18,669 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:18,669 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:34:19,526 DEBUG:http://web.pzjudo.pl:80 "GET /zarzad-polskiego-zwiazku-judo HTTP/1.1" 200 None
+2023-05-01 05:34:19,588 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:19,588 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:34:20,413 DEBUG:http://web.pzjudo.pl:80 "GET /komisja-rewizyjna HTTP/1.1" 200 None
+2023-05-01 05:34:20,460 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:20,460 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:34:21,246 DEBUG:http://web.pzjudo.pl:80 "GET /komisja-dyscyplinarna HTTP/1.1" 200 None
+2023-05-01 05:34:21,293 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:21,293 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:34:22,134 DEBUG:http://web.pzjudo.pl:80 "GET /glowna-komisja-sedziowska HTTP/1.1" 200 None
+2023-05-01 05:34:22,181 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:22,181 INFO:SINGLE ITERATION TIME: 0.89
+2023-05-01 05:34:23,021 DEBUG:http://web.pzjudo.pl:80 "GET /komisja-dan HTTP/1.1" 200 None
+2023-05-01 05:34:23,084 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:23,084 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:34:23,871 DEBUG:http://web.pzjudo.pl:80 "GET /komisja-odznaczen HTTP/1.1" 200 None
+2023-05-01 05:34:23,926 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:23,926 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:34:24,774 DEBUG:http://web.pzjudo.pl:80 "GET /rada-trenerow HTTP/1.1" 200 None
+2023-05-01 05:34:24,827 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:24,827 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:34:25,614 DEBUG:http://web.pzjudo.pl:80 "GET /informacje-z-zebrania-zarzadu HTTP/1.1" 200 None
+2023-05-01 05:34:25,661 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:25,661 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:34:26,495 DEBUG:http://web.pzjudo.pl:80 "GET /ochrona-danych-osobowych HTTP/1.1" 200 None
+2023-05-01 05:34:26,549 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:26,549 INFO:SINGLE ITERATION TIME: 0.89
+2023-05-01 05:34:27,436 DEBUG:http://web.pzjudo.pl:80 "GET /rodzaj-tresci/bip-komisja-statutowa HTTP/1.1" 200 None
+2023-05-01 05:34:27,498 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:27,498 INFO:SINGLE ITERATION TIME: 0.95
+2023-05-01 05:34:28,370 DEBUG:http://web.pzjudo.pl:80 "GET /rada-zawodnicza HTTP/1.1" 200 None
+2023-05-01 05:34:28,401 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:28,401 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:34:29,172 DEBUG:http://web.pzjudo.pl:80 "GET /content/historia-judo HTTP/1.1" 200 None
+2023-05-01 05:34:29,226 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:29,226 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:34:30,028 DEBUG:http://web.pzjudo.pl:80 "GET /content/historia-pzjudo HTTP/1.1" 200 None
+2023-05-01 05:34:30,091 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:30,091 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:34:30,893 DEBUG:http://web.pzjudo.pl:80 "GET /deklaracja-dostepnosci HTTP/1.1" 200 None
+2023-05-01 05:34:30,947 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:30,947 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:34:31,734 DEBUG:http://web.pzjudo.pl:80 "GET /user/password HTTP/1.1" 200 None
+2023-05-01 05:34:31,780 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:31,780 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:34:32,683 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/odszedl-od-nas-henryk-styra HTTP/1.1" 200 None
+2023-05-01 05:34:32,737 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:32,737 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:34:33,587 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/szkolenia-w-okregach-wytyczne-2023 HTTP/1.1" 200 None
+2023-05-01 05:34:33,640 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:33,640 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:34:34,505 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/kurs-weryfikacyjny-dla-sedziow-szkolenia-centralnego-2023 HTTP/1.1" 200 None
+2023-05-01 05:34:34,558 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:34,558 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:34:35,424 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/seminarium-dla-sedziow-i-trenerow-judo-19102022 HTTP/1.1" 200 None
+2023-05-01 05:34:35,477 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:35,477 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:34:36,249 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/aktualne-wymagania-dla-wyjezdzajacych-na-zawody-eju-tzw-covid-protokol HTTP/1.1" 200 None
+2023-05-01 05:34:36,295 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:36,295 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:34:37,152 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/szkolenie-dla-trenerow-i-sedziow-pzjudo HTTP/1.1" 200 None
+2023-05-01 05:34:37,198 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:37,198 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:34:38,022 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/komunikat-w-sprawie-organizacji-szkolen-w-okregach-w-2022-roku HTTP/1.1" 200 None
+2023-05-01 05:34:38,086 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:38,086 INFO:SINGLE ITERATION TIME: 0.89
+2023-05-01 05:34:38,873 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/seminarium-weryfikacyjnego-sedziow-szkolenia-centralnego-polskiego-zwiazku-judo HTTP/1.1" 200 None
+2023-05-01 05:34:38,920 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:38,920 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:34:39,707 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/wyniki-egzaminow-na-wyzsze-stopnie-sedziowskie HTTP/1.1" 200 None
+2023-05-01 05:34:39,776 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:39,776 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:34:40,541 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/egzamin-na-wyzsze-stopnie-sedziowskie-2021 HTTP/1.1" 200 None
+2023-05-01 05:34:40,594 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:40,594 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:34:41,344 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/sprawozdanie-z-kursu-weryfikacyjno-szkoleniowego-dla-sedziow-szkolenia-centralnego HTTP/1.1" 200 None
+2023-05-01 05:34:41,397 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:41,397 INFO:SINGLE ITERATION TIME: 0.8
+2023-05-01 05:34:42,162 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/wytyczne-do-organizowania-kursow-sedziowskich-w-okregach-w-2021-r HTTP/1.1" 200 None
+2023-05-01 05:34:42,200 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:42,200 INFO:SINGLE ITERATION TIME: 0.8
+2023-05-01 05:34:43,034 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/kurs-weryfikacyjny-dla-sedziow-szkolenia-centralnego-2021 HTTP/1.1" 200 None
+2023-05-01 05:34:43,087 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:43,087 INFO:SINGLE ITERATION TIME: 0.89
+2023-05-01 05:34:43,890 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/eju-regulations-referees-2021 HTTP/1.1" 200 None
+2023-05-01 05:34:43,952 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:43,952 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:34:44,724 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/system-klasyfikacji-sedziow-2020 HTTP/1.1" 200 None
+2023-05-01 05:34:44,793 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:44,793 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:34:45,544 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-mp-weteranow HTTP/1.1" 200 None
+2023-05-01 05:34:45,595 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:45,595 INFO:SINGLE ITERATION TIME: 0.8
+2023-05-01 05:34:46,345 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-mp-weteranow-0 HTTP/1.1" 200 None
+2023-05-01 05:34:46,398 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:46,398 INFO:SINGLE ITERATION TIME: 0.8
+2023-05-01 05:34:47,179 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-oom-w-koszalinie HTTP/1.1" 200 None
+2023-05-01 05:34:47,216 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:47,216 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:34:47,988 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pe-juniorow-poznan HTTP/1.1" 200 None
+2023-05-01 05:34:48,050 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:48,050 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:34:48,853 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-amp-pila-1-2042023 HTTP/1.1" 200 None
+2023-05-01 05:34:48,922 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:48,922 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:34:49,671 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-mp-juniorow-10-12032023 HTTP/1.1" 200 None
+2023-05-01 05:34:49,740 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:49,740 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:34:50,496 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-juniorow-mlodszych-4032023-piaseczno HTTP/1.1" 200 None
+2023-05-01 05:34:50,543 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:50,543 INFO:SINGLE ITERATION TIME: 0.8
+2023-05-01 05:34:51,314 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-eo-warszawa-0 HTTP/1.1" 200 None
+2023-05-01 05:34:51,361 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:51,361 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:34:52,179 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-juniorow-4022023 HTTP/1.1" 200 None
+2023-05-01 05:34:52,217 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:52,217 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:34:52,982 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-ozn HTTP/1.1" 200 None
+2023-05-01 05:34:53,048 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:53,048 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:34:53,900 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-juniorow-mlodszych-27112022-olesnica HTTP/1.1" 200 None
+2023-05-01 05:34:53,969 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:53,969 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:34:54,772 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-mp-wojewodztw-warszawa HTTP/1.1" 200 None
+2023-05-01 05:34:54,825 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:54,825 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:34:55,627 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-juniorow-i-juniorow-mlodszych-bytom HTTP/1.1" 200 None
+2023-05-01 05:34:55,674 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:55,674 INFO:SINGLE ITERATION TIME: 0.85
+2023-05-01 05:34:56,461 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-mp-mlodzikow-kielce HTTP/1.1" 200 None
+2023-05-01 05:34:56,492 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:56,492 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:34:57,279 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-turniej-nadziei-olimpijskich HTTP/1.1" 200 None
+2023-05-01 05:34:57,332 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:57,332 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:34:58,081 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-mp-seniorow HTTP/1.1" 200 None
+2023-05-01 05:34:58,119 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:58,119 INFO:SINGLE ITERATION TIME: 0.79
+2023-05-01 05:34:58,915 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-otwarte-mp-osob-z-niepelnosprawnoscia HTTP/1.1" 200 None
+2023-05-01 05:34:58,952 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:58,952 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:34:59,771 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/informacje-organizacyjne-mistrzostwa-swiata-weteranow HTTP/1.1" 200 None
+2023-05-01 05:34:59,824 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:34:59,824 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:35:00,805 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-juniorow-sochaczew-11092022 HTTP/1.1" 200 None
+2023-05-01 05:35:00,859 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:00,859 INFO:SINGLE ITERATION TIME: 1.03
+2023-05-01 05:35:01,716 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-seniorow-warszawa-3092022 HTTP/1.1" 200 None
+2023-05-01 05:35:01,761 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:01,761 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:35:02,664 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-mistrzostw-swiata-weteranow HTTP/1.1" 200 None
+2023-05-01 05:35:02,711 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:02,711 INFO:SINGLE ITERATION TIME: 0.95
+2023-05-01 05:35:03,551 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-european-university-games HTTP/1.1" 200 None
+2023-05-01 05:35:03,614 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:03,614 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:35:04,533 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-seniorow-nowa-wies-11062022 HTTP/1.1" 200 None
+2023-05-01 05:35:04,570 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:04,570 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:35:05,468 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-mp-mlodziezy-0 HTTP/1.1" 200 None
+2023-05-01 05:35:05,532 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:05,532 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:35:06,368 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-baltic-cup-4-5-62022 HTTP/1.1" 200 None
+2023-05-01 05:35:06,436 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:06,436 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:35:07,222 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/powolania-na-european-cup-cadets-bielsko-biala-21-22052022 HTTP/1.1" 200 None
+2023-05-01 05:35:07,269 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:07,269 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:35:08,073 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/sedziowie-powolani-na-european-cup-juniors-w-poznaniu HTTP/1.1" 200 None
+2023-05-01 05:35:08,125 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:08,125 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:35:08,981 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-oom-w-bialymstoku HTTP/1.1" 200 None
+2023-05-01 05:35:09,049 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:09,049 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:35:09,850 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-mp-juniorow-rybnik-11-1303 HTTP/1.1" 200 None
+2023-05-01 05:35:09,900 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:09,900 INFO:SINGLE ITERATION TIME: 0.85
+2023-05-01 05:35:10,662 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-juniorow-i-juniorow-mlodszych-piaseczno-5032022 HTTP/1.1" 200 None
+2023-05-01 05:35:10,710 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:10,710 INFO:SINGLE ITERATION TIME: 0.81
+2023-05-01 05:35:11,526 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-eo-warszawa HTTP/1.1" 200 None
+2023-05-01 05:35:11,567 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:11,567 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:35:12,328 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-juniorow-i-juniorow-mlodszych-olesnica-20-21112021 HTTP/1.1" 200 None
+2023-05-01 05:35:12,380 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:12,380 INFO:SINGLE ITERATION TIME: 0.81
+2023-05-01 05:35:13,155 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-juniorow-mlodszych-bytom-6112021 HTTP/1.1" 200 None
+2023-05-01 05:35:13,195 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:13,195 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:35:14,024 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-pp-juniorow-sochaczew HTTP/1.1" 200 None
+2023-05-01 05:35:14,093 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:14,093 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:35:15,242 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-mp-seniorow-i-dmp-seniorow HTTP/1.1" 200 None
+2023-05-01 05:35:15,254 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:15,254 INFO:SINGLE ITERATION TIME: 1.16
+2023-05-01 05:35:16,266 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-mp-mlodziezy HTTP/1.1" 200 None
+2023-05-01 05:35:16,330 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:16,330 INFO:SINGLE ITERATION TIME: 1.08
+2023-05-01 05:35:17,102 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/obsada-sedziowska-oom HTTP/1.1" 200 None
+2023-05-01 05:35:17,150 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:17,150 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:35:17,925 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/system-klasyfikacji-sedziow-judo HTTP/1.1" 200 None
+2023-05-01 05:35:17,971 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:17,971 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:35:18,753 DEBUG:http://web.pzjudo.pl:80 "GET /content/obsady HTTP/1.1" 200 None
+2023-05-01 05:35:18,797 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:18,797 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:35:19,617 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/stawki-sedziowskie-i-ryczalt-na-koszty-przejazdu HTTP/1.1" 200 None
+2023-05-01 05:35:19,681 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:19,681 INFO:SINGLE ITERATION TIME: 0.88
+2023-05-01 05:35:20,472 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/struktura-organizacji-sedziowskiej-pzjudo-zatwierdzona-uchwala-zarzadu-pzjudo-w HTTP/1.1" 200 None
+2023-05-01 05:35:20,515 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:20,515 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:35:21,301 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/regulamin-kolegium-sedziow-zatwierdzony-uchwala-zarzadu-pzjudo-w-dniu-5-kwietnia HTTP/1.1" 200 None
+2023-05-01 05:35:21,356 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:21,367 INFO:SINGLE ITERATION TIME: 0.85
+2023-05-01 05:35:22,489 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/regulamin-glownej-komisji-sedziowskiej-zatwierdzony-uchwala-zarzadu-pzjudo-w-dniu-5 HTTP/1.1" 200 None
+2023-05-01 05:35:22,489 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:22,489 INFO:SINGLE ITERATION TIME: 1.12
+2023-05-01 05:35:23,328 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/regulamin-sedziowski-zatwierdzony-uchwala-zarzadu-pzjudo-w-dniu-26-lutego-2016-r HTTP/1.1" 200 None
+2023-05-01 05:35:23,372 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:23,372 INFO:SINGLE ITERATION TIME: 0.88
+2023-05-01 05:35:24,211 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/ijf-sport-and-organisation-rules-8-october-2019 HTTP/1.1" 200 None
+2023-05-01 05:35:24,287 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:24,287 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:35:25,089 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/przepisy-walki-u12-na-rok-2019-zatwierdzone HTTP/1.1" 200 None
+2023-05-01 05:35:25,139 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:25,139 INFO:SINGLE ITERATION TIME: 0.85
+2023-05-01 05:35:25,953 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/przepisy-walki-judo-2018-2020 HTTP/1.1" 200 None
+2023-05-01 05:35:26,008 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:26,008 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:35:26,857 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/zmiany-w-przepisach-walki-wazne-od-1012018 HTTP/1.1" 200 None
+2023-05-01 05:35:26,989 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:26,989 INFO:SINGLE ITERATION TIME: 0.98
+2023-05-01 05:35:27,801 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/zmiany-w-przepisach-walki-2017 HTTP/1.1" 200 None
+2023-05-01 05:35:27,856 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:27,856 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:35:28,627 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/wymiana-sedziowska-i-ranking-polskich-sedziow-eju HTTP/1.1" 200 None
+2023-05-01 05:35:28,682 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:28,682 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:35:29,486 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/lista-kontaktowa-sedziow-szkolenia-centralnego-2019 HTTP/1.1" 200 None
+2023-05-01 05:35:29,552 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:29,552 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:35:30,356 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/nominacje-na-zawody-eju HTTP/1.1" 200 None
+2023-05-01 05:35:30,422 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:30,422 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:35:31,229 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/ranking-eju-polscy-sedziowie-ostatnie-3-lata HTTP/1.1" 200 None
+2023-05-01 05:35:31,271 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:31,271 INFO:SINGLE ITERATION TIME: 0.85
+2023-05-01 05:35:32,075 DEBUG:http://web.pzjudo.pl:80 "GET /strefasedziowska/zestawienie-sedziow-i-ich-stopni-szkoleniowych HTTP/1.1" 200 None
+2023-05-01 05:35:32,174 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:32,174 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:35:33,045 DEBUG:http://web.pzjudo.pl:80 "GET /szkoleniowa-kadry-narodowe HTTP/1.1" 200 None
+2023-05-01 05:35:33,089 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:33,089 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:35:33,917 DEBUG:http://web.pzjudo.pl:80 "GET /szkoleniowa-dokumenty HTTP/1.1" 200 None
+2023-05-01 05:35:33,983 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:33,983 INFO:SINGLE ITERATION TIME: 0.89
+2023-05-01 05:35:34,762 DEBUG:http://web.pzjudo.pl:80 "GET /szkoleniowa-kalendarze HTTP/1.1" 200 None
+2023-05-01 05:35:34,817 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:34,817 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:35:35,996 DEBUG:http://web.pzjudo.pl:80 "GET /szkoleniowa-powolania HTTP/1.1" 200 None
+2023-05-01 05:35:36,129 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:36,129 INFO:SINGLE ITERATION TIME: 1.31
+2023-05-01 05:35:36,911 DEBUG:http://web.pzjudo.pl:80 "GET /wykaz-kadry-trenerskiej-i-wspolpracujacej-pzjudo HTTP/1.1" 200 None
+2023-05-01 05:35:36,962 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:36,962 INFO:SINGLE ITERATION TIME: 0.83
+2023-05-01 05:35:37,733 DEBUG:http://web.pzjudo.pl:80 "GET /strefa-szkoleniowa/zgrupowania-konsultacje HTTP/1.1" 200 None
+2023-05-01 05:35:37,799 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:37,799 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:35:38,713 DEBUG:http://web.pzjudo.pl:80 "GET /archiwum-strefa-szkoleniowa HTTP/1.1" 200 None
+2023-05-01 05:35:38,779 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:38,779 INFO:SINGLE ITERATION TIME: 0.98
+2023-05-01 05:35:38,851 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/default_images/logo_pzjudo_1.png HTTP/1.1" 200 22579
+2023-05-01 05:35:39,330 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:39,407 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/kwalifikacje_do_oom_2023_korekta_20.03.2023_0.pdf HTTP/1.1" 200 140786
+2023-05-01 05:35:39,627 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:40,449 DEBUG:http://web.pzjudo.pl:80 "GET /karta-ijf-waznosc-karty-do-31-12-2016-oraz-wykaz-danych-do-uzyskania-licencji-ijf HTTP/1.1" 200 None
+2023-05-01 05:35:40,526 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:40,526 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:35:41,276 DEBUG:http://web.pzjudo.pl:80 "GET /wykaz-dokumentow-rejestracyjnych-klubu HTTP/1.1" 200 None
+2023-05-01 05:35:41,331 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:41,331 INFO:SINGLE ITERATION TIME: 0.81
+2023-05-01 05:35:42,080 DEBUG:http://web.pzjudo.pl:80 "GET /ankieta-klubowa HTTP/1.1" 200 None
+2023-05-01 05:35:42,124 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:42,124 INFO:SINGLE ITERATION TIME: 0.79
+2023-05-01 05:35:42,897 DEBUG:http://web.pzjudo.pl:80 "GET /deklaracja-klubowa HTTP/1.1" 200 None
+2023-05-01 05:35:42,963 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:42,963 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:35:43,117 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/8._licencja_trenera_wniosek-2023.docx HTTP/1.1" 200 92950
+2023-05-01 05:35:43,557 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:44,296 DEBUG:http://web.pzjudo.pl:80 "GET /ewidencja-i-licencje-trenerow-pz-judo-na-rok-2021 HTTP/1.1" 200 None
+2023-05-01 05:35:44,351 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:44,351 INFO:SINGLE ITERATION TIME: 0.79
+2023-05-01 05:35:44,395 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/3._wniosek-licencja-zaw._2023.pdf HTTP/1.1" 200 249033
+2023-05-01 05:35:44,679 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:44,728 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2017/regulamin_zmiany_barw_klubowych_polskiego_zwiazku_judo.pdf HTTP/1.1" 200 1860139
+2023-05-01 05:35:45,263 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:45,329 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/1._informacje_dotyczace_licencji_w_2023_r.pdf HTTP/1.1" 200 704601
+2023-05-01 05:35:45,549 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:45,604 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/2._wniosek-licencja-zaw._2023.docx HTTP/1.1" 200 83342
+2023-05-01 05:35:45,802 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:45,850 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/4._wniosek_o_licencje_sedziego_2023.pdf HTTP/1.1" 200 290289
+2023-05-01 05:35:45,946 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:45,990 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/5._oplaty_pz_judo_w_2023_r_0.pdf HTTP/1.1" 200 601981
+2023-05-01 05:35:46,155 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:46,214 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/6._regulamin_zmiany_barw_klubowych_polskiego_zwiazku_judo.pdf HTTP/1.1" 200 1860139
+2023-05-01 05:35:46,639 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:46,716 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/7._normy_wynikowe_klas_sportowych.pdf HTTP/1.1" 200 364939
+2023-05-01 05:35:46,826 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:46,881 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/9._licencja_trenera_wniosek-2023-zal.1.docx HTTP/1.1" 200 112975
+2023-05-01 05:35:46,947 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:47,013 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/2023-_wniosek_o_licencje_zawodnika_ozn.pdf HTTP/1.1" 200 226196
+2023-05-01 05:35:47,079 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:48,017 DEBUG:http://web.pzjudo.pl:80 "GET /strefa-szkoleniowa/dokumenty-do-pobrania HTTP/1.1" 200 None
+2023-05-01 05:35:48,083 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:48,083 INFO:SINGLE ITERATION TIME: 0.99
+2023-05-01 05:35:48,128 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/28.04_powolanie_bp_seniorek_ec_sarajewo_20-21.05.2023.pdf HTTP/1.1" 200 810399
+2023-05-01 05:35:48,424 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:48,481 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/28.04_powolanie_frkf_u23_kobiet_ec_sarajewo_20-21.05.2023_0.pdf HTTP/1.1" 200 811695
+2023-05-01 05:35:48,657 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:49,524 DEBUG:http://web.pzjudo.pl:80 "GET /strefa-szkoleniowa/powolania-wyjazdy HTTP/1.1" 200 None
+2023-05-01 05:35:49,590 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:49,590 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:35:49,634 DEBUG:http://web.pzjudo.pl:80 "GET /sites/default/files/zalaczniki/2023/newsletter_polada_kwiecien_2023.pdf HTTP/1.1" 200 10058988
+2023-05-01 05:35:51,372 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-05-01 05:35:52,361 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202304 HTTP/1.1" 200 None
+2023-05-01 05:35:52,433 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:52,433 INFO:SINGLE ITERATION TIME: 0.95
+2023-05-01 05:35:53,260 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202303 HTTP/1.1" 200 None
+2023-05-01 05:35:53,315 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:53,315 INFO:SINGLE ITERATION TIME: 0.88
+2023-05-01 05:35:54,172 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202302 HTTP/1.1" 200 None
+2023-05-01 05:35:54,267 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:54,267 INFO:SINGLE ITERATION TIME: 0.95
+2023-05-01 05:35:55,123 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202301 HTTP/1.1" 200 None
+2023-05-01 05:35:55,222 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:55,222 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:35:56,160 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202212 HTTP/1.1" 200 None
+2023-05-01 05:35:56,215 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:56,215 INFO:SINGLE ITERATION TIME: 0.99
+2023-05-01 05:35:57,125 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202211 HTTP/1.1" 200 None
+2023-05-01 05:35:57,213 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:57,213 INFO:SINGLE ITERATION TIME: 1.0
+2023-05-01 05:35:58,106 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202210 HTTP/1.1" 200 None
+2023-05-01 05:35:58,172 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:58,172 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:35:59,025 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202209 HTTP/1.1" 200 None
+2023-05-01 05:35:59,093 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:35:59,093 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:36:00,039 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202208 HTTP/1.1" 200 None
+2023-05-01 05:36:00,101 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:00,101 INFO:SINGLE ITERATION TIME: 1.01
+2023-05-01 05:36:01,209 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202207 HTTP/1.1" 200 None
+2023-05-01 05:36:01,231 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:01,231 INFO:SINGLE ITERATION TIME: 1.13
+2023-05-01 05:36:02,121 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202206 HTTP/1.1" 200 None
+2023-05-01 05:36:02,188 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:02,188 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:36:03,086 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202205 HTTP/1.1" 200 None
+2023-05-01 05:36:03,149 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:03,149 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:36:04,033 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202204 HTTP/1.1" 200 None
+2023-05-01 05:36:04,093 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:04,093 INFO:SINGLE ITERATION TIME: 0.94
+2023-05-01 05:36:04,989 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202203 HTTP/1.1" 200 None
+2023-05-01 05:36:05,049 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:05,049 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:36:05,911 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202202 HTTP/1.1" 200 None
+2023-05-01 05:36:05,964 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:05,964 INFO:SINGLE ITERATION TIME: 0.91
+2023-05-01 05:36:06,878 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202201 HTTP/1.1" 200 None
+2023-05-01 05:36:06,946 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:06,946 INFO:SINGLE ITERATION TIME: 0.98
+2023-05-01 05:36:07,858 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202112 HTTP/1.1" 200 None
+2023-05-01 05:36:07,956 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:07,956 INFO:SINGLE ITERATION TIME: 1.01
+2023-05-01 05:36:08,891 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202111 HTTP/1.1" 200 None
+2023-05-01 05:36:08,971 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:08,971 INFO:SINGLE ITERATION TIME: 1.01
+2023-05-01 05:36:09,848 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202110 HTTP/1.1" 200 None
+2023-05-01 05:36:09,908 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:09,908 INFO:SINGLE ITERATION TIME: 0.94
+2023-05-01 05:36:10,763 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202109 HTTP/1.1" 200 None
+2023-05-01 05:36:10,817 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:10,817 INFO:SINGLE ITERATION TIME: 0.91
+2023-05-01 05:36:11,812 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202108 HTTP/1.1" 200 None
+2023-05-01 05:36:11,892 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:11,892 INFO:SINGLE ITERATION TIME: 1.08
+2023-05-01 05:36:12,798 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202107 HTTP/1.1" 200 None
+2023-05-01 05:36:12,861 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:12,861 INFO:SINGLE ITERATION TIME: 0.97
+2023-05-01 05:36:13,771 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202106 HTTP/1.1" 200 None
+2023-05-01 05:36:13,829 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:13,829 INFO:SINGLE ITERATION TIME: 0.97
+2023-05-01 05:36:14,786 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202105 HTTP/1.1" 200 None
+2023-05-01 05:36:14,859 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:14,859 INFO:SINGLE ITERATION TIME: 1.03
+2023-05-01 05:36:15,704 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202104 HTTP/1.1" 200 None
+2023-05-01 05:36:15,763 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:15,763 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:36:16,661 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202103 HTTP/1.1" 200 None
+2023-05-01 05:36:16,727 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:16,727 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:36:17,575 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202102 HTTP/1.1" 200 None
+2023-05-01 05:36:17,631 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:17,631 INFO:SINGLE ITERATION TIME: 0.9
+2023-05-01 05:36:18,497 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202101 HTTP/1.1" 200 None
+2023-05-01 05:36:18,555 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:18,555 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:36:19,445 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202012 HTTP/1.1" 200 None
+2023-05-01 05:36:19,513 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:19,513 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:36:20,403 DEBUG:http://web.pzjudo.pl:80 "GET /archive/202011 HTTP/1.1" 200 None
+2023-05-01 05:36:20,517 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:20,517 INFO:SINGLE ITERATION TIME: 1.0
+2023-05-01 05:36:21,352 DEBUG:http://web.pzjudo.pl:80 "GET /archive?page=1 HTTP/1.1" 200 None
+2023-05-01 05:36:21,407 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:21,411 INFO:SINGLE ITERATION TIME: 0.89
+2023-05-01 05:36:22,299 DEBUG:http://web.pzjudo.pl:80 "GET /archive?page=2 HTTP/1.1" 200 None
+2023-05-01 05:36:22,371 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:22,371 INFO:SINGLE ITERATION TIME: 0.96
+2023-05-01 05:36:23,222 DEBUG:http://web.pzjudo.pl:80 "GET /biuletyn-informacji-publicznej-zarzad HTTP/1.1" 200 None
+2023-05-01 05:36:23,279 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:23,279 INFO:SINGLE ITERATION TIME: 0.91
+2023-05-01 05:36:24,194 DEBUG:http://web.pzjudo.pl:80 "GET /biuletyn-informacji-publicznej-uchwaly-zarzadu-pzjudo HTTP/1.1" 200 None
+2023-05-01 05:36:24,277 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:24,277 INFO:SINGLE ITERATION TIME: 1.0
+2023-05-01 05:36:25,102 DEBUG:http://web.pzjudo.pl:80 "GET /biuletyn-informacji-publicznej-protokoly-zarzadu-pzjudo HTTP/1.1" 200 None
+2023-05-01 05:36:25,151 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:25,151 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:36:26,171 DEBUG:http://web.pzjudo.pl:80 "GET /biuletyn-informacji-publicznej-zamowienia-i-konkursy HTTP/1.1" 200 None
+2023-05-01 05:36:26,251 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:26,251 INFO:SINGLE ITERATION TIME: 1.1
+2023-05-01 05:36:27,105 DEBUG:http://web.pzjudo.pl:80 "GET /biuletyn-informacji-publicznej-kongres HTTP/1.1" 200 None
+2023-05-01 05:36:27,189 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:27,189 INFO:SINGLE ITERATION TIME: 0.94
+2023-05-01 05:36:28,058 DEBUG:http://web.pzjudo.pl:80 "GET /biuletyn-informacji-publicznej-protokoly-z-walnego-zgromadzenia HTTP/1.1" 200 None
+2023-05-01 05:36:28,137 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:28,137 INFO:SINGLE ITERATION TIME: 0.95
+2023-05-01 05:36:28,936 DEBUG:http://web.pzjudo.pl:80 "GET /biuletyn-informacji-publicznej-komisja-rewizyjna HTTP/1.1" 200 None
+2023-05-01 05:36:29,076 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:29,080 INFO:SINGLE ITERATION TIME: 0.94
+2023-05-01 05:36:29,893 DEBUG:http://web.pzjudo.pl:80 "GET /biuletyn-informacji-publicznej-komisja-statutowa HTTP/1.1" 200 None
+2023-05-01 05:36:29,947 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:29,947 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:36:30,771 DEBUG:http://web.pzjudo.pl:80 "GET /camp-judo-z-mistrzem-marianem-talajem-w-chelmie-17092022 HTTP/1.1" 200 None
+2023-05-01 05:36:30,815 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:30,815 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:36:31,661 DEBUG:http://web.pzjudo.pl:80 "GET /brother-olympic-camp-gwiazdy-igrzysk-z-lukasem-krpalek HTTP/1.1" 200 None
+2023-05-01 05:36:31,747 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:31,747 INFO:SINGLE ITERATION TIME: 0.93
+2023-05-01 05:36:32,546 DEBUG:http://web.pzjudo.pl:80 "GET /ii-mistrzostwa-mazowsza-w-judo-mastersow-amatorow HTTP/1.1" 200 None
+2023-05-01 05:36:32,604 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:32,604 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:36:33,364 DEBUG:http://web.pzjudo.pl:80 "GET /camp-treningowy-po-turnieju-w-olesnicy HTTP/1.1" 200 None
+2023-05-01 05:36:33,419 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:33,419 INFO:SINGLE ITERATION TIME: 0.81
+2023-05-01 05:36:34,225 DEBUG:http://web.pzjudo.pl:80 "GET /inicjatywy-klubowe HTTP/1.1" 200 None
+2023-05-01 05:36:34,279 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:34,279 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:36:35,041 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-marzec-4 HTTP/1.1" 200 None
+2023-05-01 05:36:35,093 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:35,093 INFO:SINGLE ITERATION TIME: 0.81
+2023-05-01 05:36:35,823 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-luty-3 HTTP/1.1" 200 None
+2023-05-01 05:36:35,866 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:35,866 INFO:SINGLE ITERATION TIME: 0.77
+2023-05-01 05:36:36,782 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-styczen-3 HTTP/1.1" 200 None
+2023-05-01 05:36:36,790 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:36,790 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:36:37,554 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-grudzien-3 HTTP/1.1" 200 None
+2023-05-01 05:36:37,594 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:37,594 INFO:SINGLE ITERATION TIME: 0.8
+2023-05-01 05:36:38,353 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-listopad-2 HTTP/1.1" 200 None
+2023-05-01 05:36:38,410 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:38,410 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:36:39,226 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-pazdziernik-3 HTTP/1.1" 200 None
+2023-05-01 05:36:39,279 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:39,279 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:36:40,147 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-wrzesien-1 HTTP/1.1" 200 None
+2023-05-01 05:36:40,199 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:40,199 INFO:SINGLE ITERATION TIME: 0.92
+2023-05-01 05:36:41,019 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-sierpien-4 HTTP/1.1" 200 None
+2023-05-01 05:36:41,087 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:41,087 INFO:SINGLE ITERATION TIME: 0.89
+2023-05-01 05:36:41,899 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-lipiec-2 HTTP/1.1" 200 None
+2023-05-01 05:36:41,959 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:41,959 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:36:42,721 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-czerwiec-3 HTTP/1.1" 200 None
+2023-05-01 05:36:42,777 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:42,777 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:36:43,621 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-maj-2 HTTP/1.1" 200 None
+2023-05-01 05:36:43,689 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:43,689 INFO:SINGLE ITERATION TIME: 0.91
+2023-05-01 05:36:44,501 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-kwiecien-2 HTTP/1.1" 200 None
+2023-05-01 05:36:44,565 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:44,565 INFO:SINGLE ITERATION TIME: 0.88
+2023-05-01 05:36:45,368 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-marzec-3 HTTP/1.1" 200 None
+2023-05-01 05:36:45,424 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:45,424 INFO:SINGLE ITERATION TIME: 0.86
+2023-05-01 05:36:46,236 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-luty-2 HTTP/1.1" 200 None
+2023-05-01 05:36:46,308 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:46,308 INFO:SINGLE ITERATION TIME: 0.88
+2023-05-01 05:36:47,104 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-styczen-2 HTTP/1.1" 200 None
+2023-05-01 05:36:47,160 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:47,160 INFO:SINGLE ITERATION TIME: 0.85
+2023-05-01 05:36:47,956 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polada-listopad HTTP/1.1" 200 None
+2023-05-01 05:36:48,004 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:48,004 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:36:48,781 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-pazdziernik-2 HTTP/1.1" 200 None
+2023-05-01 05:36:48,841 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:48,841 INFO:SINGLE ITERATION TIME: 0.84
+2023-05-01 05:36:49,598 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-wrzesien-0 HTTP/1.1" 200 None
+2023-05-01 05:36:49,658 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:49,658 INFO:SINGLE ITERATION TIME: 0.82
+2023-05-01 05:36:50,481 DEBUG:http://web.pzjudo.pl:80 "GET /newsletter-polskiej-agencji-antydopingowej-sierpien-3 HTTP/1.1" 200 None
+2023-05-01 05:36:50,526 INFO:MAX NUMBER OF NODES: 10 REACHED.
+2023-05-01 05:36:50,526 INFO:SINGLE ITERATION TIME: 0.87
+2023-05-01 05:36:50,526 INFO:VISITED LINKS: 217
+2023-05-01 05:36:50,526 INFO:COLLECTED LINKS: 200
+2023-05-01 05:36:50,526 INFO:QUEUED LINKS: 220
+2023-05-01 05:36:50,626 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/web01052023053343-tree-graph.gv' with encoding 'utf-8'
+2023-05-01 05:36:50,626 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/web01052023053343-tree-graph.gv')
+2023-05-01 05:36:50,626 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-05-01 05:36:50,626 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/web01052023053343-diagram'
+2023-05-01 05:36:50,626 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'web01052023053343-diagram']
+2023-05-01 05:36:50,736 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-05-01 05:36:51,331 WARNING:Not Found: /favicon.ico

@@ -1,0 +1,23 @@
+2023-04-24 22:28:33,911 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 22:28:34,204 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-24 22:28:34,437 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 22:28:34,773 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-24 22:28:34,881 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 22:28:35,136 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-24 22:28:35,358 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 22:28:35,594 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-24 22:28:35,636 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 22:28:36,497 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-24 22:28:36,652 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 22:28:36,868 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-24 22:28:36,998 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-24 22:28:37,053 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 22:28:37,339 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-24 22:28:37,435 INFO:VISITED LINKS: 0
+2023-04-24 22:28:37,435 INFO:COLLECTED LINKS: 6
+2023-04-24 22:28:37,457 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis24042023222833-tree-graph.gv' with encoding 'utf-8'
+2023-04-24 22:28:37,458 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis24042023222833-tree-graph.gv')
+2023-04-24 22:28:37,458 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-24 22:28:37,459 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis24042023222833-diagram'
+2023-04-24 22:28:37,461 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis24042023222833-diagram']
+2023-04-24 22:34:43,151 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://www.wp.pl/</loc>
+      <lastmod/>
+      <depth>0</depth>
+   </url>
+   <url>
+      <loc>https://www.wp.pl/static.html</loc>
+      <lastmod/>
+      <depth>1</depth>
+   </url>
+   <url>
+      <loc>https://www.wp.pl/?_device=mobile</loc>
+      <lastmod/>
+      <depth>2</depth>
+   </url>
+   <url>
+      <loc>https://www.wp.pl/?_device=desktop</loc>
+      <lastmod/>
+      <depth>3</depth>
+   </url>
+</urlset>

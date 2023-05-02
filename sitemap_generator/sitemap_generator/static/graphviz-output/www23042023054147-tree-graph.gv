@@ -1,0 +1,22 @@
+digraph tree {
+	"https://www.geeksforgeeks.org/" [label="https://www.geeksforgeeks.org/", shape=egg]
+	"https://www.geeksforgeeks.org/array-data-structure" [label="https://www.geeksforgeeks.org/array-data-structure", shape=egg]
+	"https://www.geeksforgeeks.org/binary-search-tree-data-structure" [label="https://www.geeksforgeeks.org/binary-search-tree-data-structure", shape=egg]
+	"https://www.geeksforgeeks.org/binary-tree-data-structure" [label="https://www.geeksforgeeks.org/binary-tree-data-structure", shape=egg]
+	"https://www.geeksforgeeks.org/data-structures/linked-list" [label="https://www.geeksforgeeks.org/data-structures/linked-list", shape=egg]
+	"https://www.geeksforgeeks.org/hashing-data-structure" [label="https://www.geeksforgeeks.org/hashing-data-structure", shape=egg]
+	"https://www.geeksforgeeks.org/heap-data-structure" [label="https://www.geeksforgeeks.org/heap-data-structure", shape=egg]
+	"https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial" [label="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial", shape=egg]
+	"https://www.geeksforgeeks.org/queue-data-structure" [label="https://www.geeksforgeeks.org/queue-data-structure", shape=egg]
+	"https://www.geeksforgeeks.org/stack-data-structure" [label="https://www.geeksforgeeks.org/stack-data-structure", shape=egg]
+
+	"https://www.geeksforgeeks.org/" -> "https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial"
+	"https://www.geeksforgeeks.org/" -> "https://www.geeksforgeeks.org/array-data-structure"
+	"https://www.geeksforgeeks.org/" -> "https://www.geeksforgeeks.org/data-structures/linked-list"
+	"https://www.geeksforgeeks.org/" -> "https://www.geeksforgeeks.org/stack-data-structure"
+	"https://www.geeksforgeeks.org/" -> "https://www.geeksforgeeks.org/queue-data-structure"
+	"https://www.geeksforgeeks.org/" -> "https://www.geeksforgeeks.org/binary-tree-data-structure"
+	"https://www.geeksforgeeks.org/" -> "https://www.geeksforgeeks.org/binary-search-tree-data-structure"
+	"https://www.geeksforgeeks.org/" -> "https://www.geeksforgeeks.org/heap-data-structure"
+	"https://www.geeksforgeeks.org/" -> "https://www.geeksforgeeks.org/hashing-data-structure"
+}

@@ -1,0 +1,6 @@
+2023-04-16 20:56:22,174 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/16042023205622-tree-graph.gv' with encoding 'utf-8'
+2023-04-16 20:56:22,175 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/16042023205622-tree-graph.gv')
+2023-04-16 20:56:22,175 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-16 20:56:22,176 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/16042023205622-diagram'
+2023-04-16 20:56:22,176 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', '16042023205622-diagram']
+2023-04-16 20:56:34,983 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py changed, reloading.

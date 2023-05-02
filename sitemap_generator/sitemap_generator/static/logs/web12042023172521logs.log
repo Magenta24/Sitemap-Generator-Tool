@@ -1,0 +1,47 @@
+2023-04-12 17:25:21,130 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-12 17:25:21,978 DEBUG:http://web.pzjudo.pl:80 "GET / HTTP/1.1" 200 None
+2023-04-12 17:25:22,958 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-12 17:25:23,791 DEBUG:http://web.pzjudo.pl:80 "GET / HTTP/1.1" 200 None
+2023-04-12 17:25:23,829 INFO:REQUEST TIME: 0.87
+2023-04-12 17:25:23,855 INFO:SINGLE ITERATION TIME: 0.9
+2023-04-12 17:25:23,856 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-12 17:25:24,701 DEBUG:http://web.pzjudo.pl:80 "GET /kontakt HTTP/1.1" 200 None
+2023-04-12 17:25:24,775 INFO:REQUEST TIME: 0.92
+2023-04-12 17:25:24,783 INFO:SINGLE ITERATION TIME: 0.93
+2023-04-12 17:25:24,785 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-12 17:25:25,803 DEBUG:http://web.pzjudo.pl:80 "GET /strefa-sedziowska HTTP/1.1" 200 None
+2023-04-12 17:25:25,879 INFO:REQUEST TIME: 1.1
+2023-04-12 17:25:25,902 INFO:SINGLE ITERATION TIME: 1.12
+2023-04-12 17:25:25,904 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-12 17:25:26,698 DEBUG:http://web.pzjudo.pl:80 "GET /strefa-szkoleniowa HTTP/1.1" 200 None
+2023-04-12 17:25:26,735 INFO:REQUEST TIME: 0.83
+2023-04-12 17:25:26,743 INFO:SINGLE ITERATION TIME: 0.84
+2023-04-12 17:25:26,745 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-12 17:25:27,529 DEBUG:http://web.pzjudo.pl:80 "GET /pomagamy-ukrainie HTTP/1.1" 200 None
+2023-04-12 17:25:27,585 INFO:REQUEST TIME: 0.84
+2023-04-12 17:25:27,608 INFO:SINGLE ITERATION TIME: 0.86
+2023-04-12 17:25:27,610 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-12 17:25:28,462 DEBUG:http://web.pzjudo.pl:80 "GET /informacja-o-kwalifikacjach-do-oom-koszalin-2023 HTTP/1.1" 200 None
+2023-04-12 17:25:28,506 INFO:REQUEST TIME: 0.9
+2023-04-12 17:25:28,512 INFO:SINGLE ITERATION TIME: 0.9
+2023-04-12 17:25:28,514 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-12 17:25:29,333 DEBUG:http://web.pzjudo.pl:80 "GET /komunikat-w-sprawie-zglaszania-zawodnikow-na-zawody-przez-system-judobase HTTP/1.1" 200 None
+2023-04-12 17:25:29,378 INFO:REQUEST TIME: 0.87
+2023-04-12 17:25:29,385 INFO:SINGLE ITERATION TIME: 0.87
+2023-04-12 17:25:29,386 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-12 17:25:30,229 DEBUG:http://web.pzjudo.pl:80 "GET /licencje-polskiego-zwiazku-judo-2023 HTTP/1.1" 200 None
+2023-04-12 17:25:30,301 INFO:REQUEST TIME: 0.92
+2023-04-12 17:25:30,312 INFO:SINGLE ITERATION TIME: 0.93
+2023-04-12 17:25:30,314 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-12 17:25:31,145 DEBUG:http://web.pzjudo.pl:80 "GET /zuzanna-banaszewska-najlepszy-turniej-i-najwiekszy-sukces HTTP/1.1" 200 None
+2023-04-12 17:25:31,202 INFO:REQUEST TIME: 0.89
+2023-04-12 17:25:31,209 INFO:SINGLE ITERATION TIME: 0.9
+2023-04-12 17:25:31,210 DEBUG:Starting new HTTP connection (1): web.pzjudo.pl:80
+2023-04-12 17:25:32,013 DEBUG:http://web.pzjudo.pl:80 "GET /polacy-rozpoczeli-camp-na-wegrzech HTTP/1.1" 200 None
+2023-04-12 17:25:32,051 INFO:REQUEST TIME: 0.84
+2023-04-12 17:25:32,071 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/web12042023172521-tree-graph.gv' with encoding 'utf-8'
+2023-04-12 17:25:32,072 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/web12042023172521-tree-graph.gv')
+2023-04-12 17:25:32,072 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-12 17:25:32,072 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/web12042023172521-diagram'
+2023-04-12 17:25:32,073 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'web12042023172521-diagram']
+2023-04-12 17:26:27,534 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\Logging.py changed, reloading.

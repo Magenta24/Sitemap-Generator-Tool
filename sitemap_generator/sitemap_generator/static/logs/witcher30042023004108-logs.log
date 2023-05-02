@@ -1,0 +1,648 @@
+2023-04-30 00:41:08,407 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:41:08,662 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Witcher_Wiki HTTP/1.1" 200 62250
+2023-04-30 00:41:08,792 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:41:08,862 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Witcher_Wiki HTTP/1.1" 200 62250
+2023-04-30 00:41:08,996 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:41:09,070 DEBUG:https://witcher.fandom.com:443 "GET / HTTP/1.1" 301 20
+2023-04-30 00:41:09,090 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Witcher_Wiki HTTP/1.1" 200 62250
+2023-04-30 00:41:09,210 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:41:10,107 DEBUG:https://witcher.fandom.com:443 "GET /f HTTP/1.1" 200 240846
+2023-04-30 00:41:10,262 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:10,264 DEBUG:Starting new HTTP connection (1): witcher.fandom.com:80
+2023-04-30 00:41:10,451 DEBUG:http://witcher.fandom.com:80 "GET /wiki/Witcher_Wiki HTTP/1.1" 301 62249
+2023-04-30 00:41:10,487 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:41:10,577 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Witcher_Wiki HTTP/1.1" 200 62250
+2023-04-30 00:41:10,729 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:10,729 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:10,731 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:41:11,104 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Special:AllMaps HTTP/1.1" 200 45073
+2023-04-30 00:41:11,191 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:11,191 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:11,193 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:41:11,422 DEBUG:https://witcher.fandom.com:443 "GET /Blog:Recent_posts HTTP/1.1" 301 94
+2023-04-30 00:41:12,475 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Blog:Recent_posts HTTP/1.1" 200 64224
+2023-04-30 00:41:12,621 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:12,621 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:12,623 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:41:12,730 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Category:Games HTTP/1.1" 200 51491
+2023-04-30 00:41:12,810 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:12,810 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:12,812 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:41:12,895 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Witcher_(game) HTTP/1.1" 200 66757
+2023-04-30 00:41:13,012 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,012 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,014 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:41:13,090 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Witcher_2:_Assassins_of_Kings HTTP/1.1" 200 67583
+2023-04-30 00:41:13,245 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,246 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,248 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:41:13,330 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Witcher_3:_Wild_Hunt HTTP/1.1" 200 70430
+2023-04-30 00:41:13,436 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,436 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,445 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,446 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,446 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,446 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,446 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,474 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:41:13,484 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,484 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,484 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,485 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,485 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,510 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:41:13,522 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,522 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,522 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,523 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,523 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,551 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:41:13,562 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,562 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,562 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,563 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,563 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,579 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:41:13,588 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,588 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,589 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,589 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,589 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,597 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Stygies_VIII
+2023-04-30 00:41:13,597 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Stygies_VIII
+2023-04-30 00:41:13,598 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Karen5464
+2023-04-30 00:41:13,598 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Karen5464
+2023-04-30 00:41:13,598 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wagwan_piffting23
+2023-04-30 00:41:13,599 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wagwan_piffting23
+2023-04-30 00:41:13,599 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinyana7
+2023-04-30 00:41:13,599 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinyana7
+2023-04-30 00:41:13,600 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:GrandMaddox95
+2023-04-30 00:41:13,600 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:GrandMaddox95
+2023-04-30 00:41:13,600 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:KylaraE
+2023-04-30 00:41:13,600 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:KylaraE
+2023-04-30 00:41:13,601 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:SMiki55
+2023-04-30 00:41:13,601 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:SMiki55
+2023-04-30 00:41:13,601 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Kyle12ellis
+2023-04-30 00:41:13,602 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Kyle12ellis
+2023-04-30 00:41:13,602 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Mechemik
+2023-04-30 00:41:13,602 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Mechemik
+2023-04-30 00:41:13,603 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Mechemik
+2023-04-30 00:41:13,603 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Mechemik
+2023-04-30 00:41:13,603 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinkachu
+2023-04-30 00:41:13,603 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinkachu
+2023-04-30 00:41:13,604 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Bobjosh175
+2023-04-30 00:41:13,604 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Bobjosh175
+2023-04-30 00:41:13,605 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,605 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,605 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:41:13,605 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:41:13,606 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinkachu
+2023-04-30 00:41:13,606 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinkachu
+2023-04-30 00:41:13,606 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:41:13,606 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:41:13,607 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:41:13,607 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:41:13,607 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:41:13,607 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:41:13,608 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,608 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,608 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Witnessme
+2023-04-30 00:41:13,609 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Witnessme
+2023-04-30 00:41:13,609 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Witnessme
+2023-04-30 00:41:13,609 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Witnessme
+2023-04-30 00:41:13,609 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,610 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,610 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,610 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,610 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,611 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,611 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,611 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,612 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,612 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,612 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,612 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,613 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,613 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,613 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,613 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,614 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,614 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:41:13,614 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Magic713
+2023-04-30 00:41:13,615 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Magic713
+2023-04-30 00:41:13,615 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,615 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,616 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Ragnarrock
+2023-04-30 00:41:13,616 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Ragnarrock
+2023-04-30 00:41:13,616 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,616 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,617 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,617 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,617 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Drewf0
+2023-04-30 00:41:13,617 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Drewf0
+2023-04-30 00:41:13,618 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,618 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,618 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,619 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,619 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,619 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,620 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,620 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,620 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,620 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,621 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,621 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,621 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,621 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,622 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:EvilChrisPriestly
+2023-04-30 00:41:13,622 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:EvilChrisPriestly
+2023-04-30 00:41:13,622 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:STARHOUND
+2023-04-30 00:41:13,623 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:STARHOUND
+2023-04-30 00:41:13,623 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Raylan13
+2023-04-30 00:41:13,623 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Raylan13
+2023-04-30 00:41:13,624 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Knakveey
+2023-04-30 00:41:13,624 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Knakveey
+2023-04-30 00:41:13,624 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,624 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,625 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,625 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,625 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,625 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:41:13,636 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,636 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,636 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,636 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,637 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,655 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,656 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,656 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,656 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,656 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,725 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:UserLogin
+2023-04-30 00:41:13,726 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:WantedPages
+2023-04-30 00:41:13,727 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:41:13,730 INFO:ROBOT EXCLUDED: http://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,730 INFO:ROBOT EXCLUDED: http://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,738 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,738 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,739 INFO:ROBOT EXCLUDED: http://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,739 INFO:ROBOT EXCLUDED: http://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,760 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Shuipzv3
+2023-04-30 00:41:13,760 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Mechemik
+2023-04-30 00:41:13,761 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:One.pretorius
+2023-04-30 00:41:13,761 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pintg
+2023-04-30 00:41:13,761 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Exploiteddna
+2023-04-30 00:41:13,761 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Iseeonlydarkness
+2023-04-30 00:41:13,761 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,763 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,764 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,772 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,773 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,773 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,773 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,773 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,830 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:UserLogin
+2023-04-30 00:41:13,830 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:WantedPages
+2023-04-30 00:41:13,832 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:41:13,834 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,835 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,843 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,843 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,844 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:41:13,844 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:41:13,844 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:41:13,907 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:UserLogin
+2023-04-30 00:41:13,908 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:WantedPages
+2023-04-30 00:41:13,909 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:41:13,911 INFO:VISITED LINKS: 10
+2023-04-30 00:41:13,911 INFO:COLLECTED LINKS: 20
+2023-04-30 00:41:13,936 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/witcher30042023004108-tree-graph.gv' with encoding 'utf-8'
+2023-04-30 00:41:13,936 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/witcher30042023004108-tree-graph.gv')
+2023-04-30 00:41:13,936 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-30 00:41:13,937 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/witcher30042023004108-diagram'
+2023-04-30 00:41:13,938 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'witcher30042023004108-diagram']
+2023-04-30 00:42:24,872 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:24,998 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Witcher_Wiki HTTP/1.1" 200 62250
+2023-04-30 00:42:25,123 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:25,199 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Witcher_Wiki HTTP/1.1" 200 62250
+2023-04-30 00:42:25,347 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:25,423 DEBUG:https://witcher.fandom.com:443 "GET / HTTP/1.1" 301 20
+2023-04-30 00:42:25,446 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Witcher_Wiki HTTP/1.1" 200 62250
+2023-04-30 00:42:25,574 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:27,281 DEBUG:https://witcher.fandom.com:443 "GET /f HTTP/1.1" 200 240846
+2023-04-30 00:42:27,465 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:27,467 DEBUG:Starting new HTTP connection (1): witcher.fandom.com:80
+2023-04-30 00:42:27,521 DEBUG:http://witcher.fandom.com:80 "GET /wiki/Witcher_Wiki HTTP/1.1" 301 62249
+2023-04-30 00:42:27,554 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:27,636 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Witcher_Wiki HTTP/1.1" 200 62250
+2023-04-30 00:42:27,901 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:27,901 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:27,903 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:28,222 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Special:AllMaps HTTP/1.1" 200 45072
+2023-04-30 00:42:28,283 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:28,283 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:28,285 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:28,364 DEBUG:https://witcher.fandom.com:443 "GET /Blog:Recent_posts HTTP/1.1" 301 94
+2023-04-30 00:42:29,469 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Blog:Recent_posts HTTP/1.1" 200 64226
+2023-04-30 00:42:29,582 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:29,582 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:29,584 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:29,663 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Category:Games HTTP/1.1" 200 51491
+2023-04-30 00:42:29,744 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:29,744 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:29,746 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:29,818 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Witcher_(game) HTTP/1.1" 200 66757
+2023-04-30 00:42:29,936 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:29,936 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:29,938 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:30,011 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Witcher_2:_Assassins_of_Kings HTTP/1.1" 200 67583
+2023-04-30 00:42:30,116 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:30,117 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:30,119 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:30,208 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Witcher_3:_Wild_Hunt HTTP/1.1" 200 70430
+2023-04-30 00:42:30,374 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:30,374 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:30,376 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:30,493 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Hearts_of_Stone HTTP/1.1" 200 61806
+2023-04-30 00:42:30,620 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:30,620 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:30,628 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:30,628 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:30,629 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:30,629 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:30,629 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:30,650 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:30,654 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:30,868 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Blood_and_Wine HTTP/1.1" 200 67151
+2023-04-30 00:42:30,972 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:30,972 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:30,981 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:30,981 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:30,981 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:30,981 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:30,981 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:31,006 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:31,010 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:31,253 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Witcher_series HTTP/1.1" 301 20
+2023-04-30 00:42:31,276 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Witcher_series HTTP/1.1" 200 61338
+2023-04-30 00:42:31,373 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:31,373 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:31,381 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:31,382 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:31,382 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:31,382 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:31,382 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:31,407 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:31,411 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:31,490 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Sword_of_Destiny HTTP/1.1" 200 64045
+2023-04-30 00:42:31,589 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:31,589 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:31,597 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:31,597 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:31,598 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:31,598 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:31,598 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:31,621 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:31,624 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:31,844 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Last_Wish HTTP/1.1" 200 67195
+2023-04-30 00:42:31,957 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:31,957 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:31,965 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:31,965 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:31,965 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:31,966 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:31,966 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:31,992 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:31,996 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:32,074 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Blood_of_Elves HTTP/1.1" 200 65658
+2023-04-30 00:42:32,261 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:32,262 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:32,270 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:32,271 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:32,271 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:32,271 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:32,271 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:32,302 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:32,305 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:32,534 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Time_of_Contempt HTTP/1.1" 200 65678
+2023-04-30 00:42:32,630 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:32,630 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:32,638 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:32,638 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:32,639 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:32,639 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:32,639 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:32,665 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:32,669 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:32,781 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Baptism_of_Fire HTTP/1.1" 200 64408
+2023-04-30 00:42:32,872 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:32,872 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:32,880 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:32,880 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:32,881 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:32,881 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:32,881 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:32,904 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:32,908 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:33,339 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Tower_of_the_Swallow HTTP/1.1" 200 62213
+2023-04-30 00:42:33,443 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:33,444 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:33,451 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:33,451 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:33,452 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:33,452 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:33,452 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:33,474 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:33,477 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:33,560 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Lady_of_the_Lake HTTP/1.1" 200 65718
+2023-04-30 00:42:33,653 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:33,653 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:33,661 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:33,661 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:33,662 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:33,662 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:33,662 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:33,685 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:33,688 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:33,762 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Season_of_Storms HTTP/1.1" 200 60956
+2023-04-30 00:42:33,852 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:33,853 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:33,860 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:33,861 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:33,861 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:33,861 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:33,861 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:33,883 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:33,887 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:33,957 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Gwent:_The_Witcher_Card_Game HTTP/1.1" 200 73224
+2023-04-30 00:42:34,076 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:34,076 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:34,083 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:34,083 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:34,084 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:34,084 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:34,084 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:34,109 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:34,112 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:34,196 DEBUG:https://witcher.fandom.com:443 "GET /wiki/GWENT:_Rogue_Mage HTTP/1.1" 200 57929
+2023-04-30 00:42:34,378 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:34,378 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:34,386 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:34,387 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:34,387 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:34,387 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:34,387 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:34,404 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:34,407 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:34,623 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Thronebreaker:_The_Witcher_Tales HTTP/1.1" 200 62550
+2023-04-30 00:42:34,709 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:34,709 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:34,716 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:34,716 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:34,716 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:34,717 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:34,717 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:34,734 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:34,737 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:34,961 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Witcher:_Monster_Slayer HTTP/1.1" 200 55468
+2023-04-30 00:42:35,038 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:35,039 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:35,045 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,046 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,046 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,046 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:35,046 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:35,059 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:35,062 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:35,142 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Witcher_Adventure_Game HTTP/1.1" 200 59761
+2023-04-30 00:42:35,231 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:35,232 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:35,239 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,239 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,239 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,239 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:35,240 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:35,259 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:35,262 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:35,367 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Witcher_Role-Playing_Game HTTP/1.1" 200 59273
+2023-04-30 00:42:35,464 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:35,464 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:35,471 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,471 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,472 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,472 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:35,472 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:35,489 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:35,492 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:35,567 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Wied%C5%BAmin:_Gra_Wyobra%C5%BAni HTTP/1.1" 200 58876
+2023-04-30 00:42:35,654 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:35,654 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:35,661 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,662 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,662 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,662 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:35,662 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:35,681 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:35,684 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:35,760 DEBUG:https://witcher.fandom.com:443 "GET /wiki/Wied%C5%BAmin:_Przygodowa_Gra_Karciana HTTP/1.1" 200 55014
+2023-04-30 00:42:35,836 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:35,836 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:35,843 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,843 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,843 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:35,843 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:35,843 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:35,858 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:35,861 DEBUG:Starting new HTTPS connection (1): witcher.fandom.com:443
+2023-04-30 00:42:36,086 DEBUG:https://witcher.fandom.com:443 "GET /wiki/The_Witcher_Battle_Arena HTTP/1.1" 200 60843
+2023-04-30 00:42:36,290 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,291 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,297 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,297 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,298 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,298 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,298 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,318 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:36,326 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,326 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,326 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,326 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,327 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,352 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:36,360 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,360 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,361 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,361 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,361 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,386 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:36,397 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,397 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,398 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,398 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,398 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,425 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:36,434 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,434 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,435 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,435 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,435 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,448 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:36,457 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,458 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,458 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,458 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,458 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,466 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Stygies_VIII
+2023-04-30 00:42:36,466 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Stygies_VIII
+2023-04-30 00:42:36,466 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Karen5464
+2023-04-30 00:42:36,467 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Karen5464
+2023-04-30 00:42:36,467 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wagwan_piffting23
+2023-04-30 00:42:36,467 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wagwan_piffting23
+2023-04-30 00:42:36,468 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinyana7
+2023-04-30 00:42:36,468 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinyana7
+2023-04-30 00:42:36,468 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:GrandMaddox95
+2023-04-30 00:42:36,469 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:GrandMaddox95
+2023-04-30 00:42:36,469 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:KylaraE
+2023-04-30 00:42:36,469 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:KylaraE
+2023-04-30 00:42:36,470 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:SMiki55
+2023-04-30 00:42:36,470 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:SMiki55
+2023-04-30 00:42:36,470 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Kyle12ellis
+2023-04-30 00:42:36,470 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Kyle12ellis
+2023-04-30 00:42:36,471 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Mechemik
+2023-04-30 00:42:36,471 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Mechemik
+2023-04-30 00:42:36,471 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Mechemik
+2023-04-30 00:42:36,472 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Mechemik
+2023-04-30 00:42:36,472 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinkachu
+2023-04-30 00:42:36,472 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinkachu
+2023-04-30 00:42:36,473 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Bobjosh175
+2023-04-30 00:42:36,473 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Bobjosh175
+2023-04-30 00:42:36,474 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,474 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,474 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:42:36,474 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:42:36,475 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinkachu
+2023-04-30 00:42:36,475 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pinkachu
+2023-04-30 00:42:36,475 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:42:36,475 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:42:36,476 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:42:36,476 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:42:36,476 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:42:36,477 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Wereducki
+2023-04-30 00:42:36,477 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,477 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,478 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Witnessme
+2023-04-30 00:42:36,478 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Witnessme
+2023-04-30 00:42:36,478 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Witnessme
+2023-04-30 00:42:36,478 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Witnessme
+2023-04-30 00:42:36,479 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,479 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,479 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,479 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,480 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,480 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,480 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,481 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,481 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,481 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,482 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,482 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,482 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,482 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,483 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,483 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,483 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,484 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:AnuChemicalCo
+2023-04-30 00:42:36,484 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Magic713
+2023-04-30 00:42:36,484 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Magic713
+2023-04-30 00:42:36,484 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,485 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,485 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Ragnarrock
+2023-04-30 00:42:36,485 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Ragnarrock
+2023-04-30 00:42:36,486 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,486 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,486 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,486 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,487 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Drewf0
+2023-04-30 00:42:36,487 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Drewf0
+2023-04-30 00:42:36,487 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,487 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,488 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,488 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,488 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,489 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,490 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,490 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,490 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,490 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,491 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,491 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,491 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,491 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,492 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:EvilChrisPriestly
+2023-04-30 00:42:36,492 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:EvilChrisPriestly
+2023-04-30 00:42:36,492 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:STARHOUND
+2023-04-30 00:42:36,492 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:STARHOUND
+2023-04-30 00:42:36,493 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Raylan13
+2023-04-30 00:42:36,493 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Raylan13
+2023-04-30 00:42:36,493 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Knakveey
+2023-04-30 00:42:36,494 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Knakveey
+2023-04-30 00:42:36,494 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,494 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,495 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,495 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,495 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,495 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:TheBlueRogue
+2023-04-30 00:42:36,503 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,504 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,504 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,504 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,504 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,520 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,520 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,520 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,520 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,521 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,578 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:UserLogin
+2023-04-30 00:42:36,578 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:WantedPages
+2023-04-30 00:42:36,579 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:36,582 INFO:ROBOT EXCLUDED: http://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,582 INFO:ROBOT EXCLUDED: http://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,590 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,590 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,591 INFO:ROBOT EXCLUDED: http://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,591 INFO:ROBOT EXCLUDED: http://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,615 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Shuipzv3
+2023-04-30 00:42:36,615 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Mechemik
+2023-04-30 00:42:36,616 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:One.pretorius
+2023-04-30 00:42:36,616 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Pintg
+2023-04-30 00:42:36,616 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Exploiteddna
+2023-04-30 00:42:36,616 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/User:Iseeonlydarkness
+2023-04-30 00:42:36,616 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,619 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,619 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,625 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,626 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,626 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,626 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,626 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,686 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:UserLogin
+2023-04-30 00:42:36,687 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:WantedPages
+2023-04-30 00:42:36,688 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:36,691 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,691 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,697 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,698 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,698 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Search
+2023-04-30 00:42:36,698 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:AllPages
+2023-04-30 00:42:36,698 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Community
+2023-04-30 00:42:36,751 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:UserLogin
+2023-04-30 00:42:36,751 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:WantedPages
+2023-04-30 00:42:36,753 INFO:ROBOT EXCLUDED: https://witcher.fandom.com/wiki/Special:Categories
+2023-04-30 00:42:36,755 INFO:VISITED LINKS: 30
+2023-04-30 00:42:36,755 INFO:COLLECTED LINKS: 60
+2023-04-30 00:42:36,772 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/witcher30042023004224-tree-graph.gv' with encoding 'utf-8'
+2023-04-30 00:42:36,773 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/witcher30042023004224-tree-graph.gv')
+2023-04-30 00:42:36,773 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-30 00:42:36,773 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/witcher30042023004224-diagram'
+2023-04-30 00:42:36,774 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'witcher30042023004224-diagram']
+2023-04-30 04:17:12,941 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\Logging.py changed, reloading.

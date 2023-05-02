@@ -1,0 +1,42 @@
+2023-04-25 01:01:22,051 DEBUG:Starting new HTTPS connection (1): en.wikipedia.org:443
+2023-04-25 01:01:22,167 DEBUG:https://en.wikipedia.org:443 "GET / HTTP/1.1" 301 0
+2023-04-25 01:01:22,198 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Main_Page HTTP/1.1" 200 21120
+2023-04-25 01:01:22,298 DEBUG:https://en.wikipedia.org:443 "GET / HTTP/1.1" 301 0
+2023-04-25 01:01:22,327 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Main_Page HTTP/1.1" 200 21120
+2023-04-25 01:01:22,329 INFO:REQUEST TIME: 0.06
+2023-04-25 01:01:22,502 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-25 01:01:22,530 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Main_Page HTTP/1.1" 200 21120
+2023-04-25 01:01:22,534 INFO:REQUEST TIME: 0.03
+2023-04-25 01:01:22,626 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-25 01:01:22,656 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Wikipedia:Contents HTTP/1.1" 200 73045
+2023-04-25 01:01:22,680 INFO:REQUEST TIME: 0.05
+2023-04-25 01:01:24,391 INFO:SINGLE ITERATION TIME: 1.76
+2023-04-25 01:01:24,419 DEBUG:https://en.wikipedia.org:443 "GET /wiki/Portal:Current_events HTTP/1.1" 200 55540
+2023-04-25 01:01:24,424 INFO:REQUEST TIME: 0.03
+2023-04-25 01:01:24,697 INFO:VISITED LINKS: 4
+2023-04-25 01:01:24,697 INFO:COLLECTED LINKS: 4
+2023-04-25 01:01:24,697 INFO:QUEUED LINKS: 1803
+2023-04-25 01:01:30,419 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/en25042023010122-tree-graph.gv' with encoding 'utf-8'
+2023-04-25 01:01:30,421 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/en25042023010122-tree-graph.gv')
+2023-04-25 01:01:30,421 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-25 01:01:30,422 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/en25042023010122-diagram'
+2023-04-25 01:01:30,429 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'en25042023010122-diagram']
+2023-04-25 01:01:32,673 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-25 01:18:52,192 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-25 01:18:52,286 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20615
+2023-04-25 01:18:52,668 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20615
+2023-04-25 01:18:52,670 INFO:REQUEST TIME: 0.03
+2023-04-25 01:18:52,753 INFO:SINGLE ITERATION TIME: 0.11
+2023-04-25 01:18:52,778 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia HTTP/1.1" 200 84778
+2023-04-25 01:18:52,803 INFO:REQUEST TIME: 0.05
+2023-04-25 01:18:53,058 INFO:VISITED LINKS: 2
+2023-04-25 01:18:53,058 INFO:COLLECTED LINKS: 2
+2023-04-25 01:18:53,058 INFO:QUEUED LINKS: 176
+2023-04-25 01:18:53,270 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl25042023011852-tree-graph.gv' with encoding 'utf-8'
+2023-04-25 01:18:53,271 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl25042023011852-tree-graph.gv')
+2023-04-25 01:18:53,271 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-25 01:18:53,271 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl25042023011852-diagram'
+2023-04-25 01:18:53,273 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl25042023011852-diagram']
+2023-04-25 01:18:53,400 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-25 01:18:53,887 WARNING:Not Found: /favicon.ico
+2023-04-25 01:36:46,690 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

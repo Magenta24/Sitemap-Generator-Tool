@@ -1,0 +1,1843 @@
+2023-04-24 21:38:48,583 DEBUG:Starting new HTTPS connection (1): www.fluentcpp.com:443
+2023-04-24 21:38:49,122 DEBUG:https://www.fluentcpp.com:443 "GET / HTTP/1.1" 406 226
+2023-04-24 21:38:49,123 ERROR:can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 68, in __init__
+    self._logs.log_exception(("ERROR CODE: " + source.status_code + "."))
+                              ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "int") to str
+2023-04-24 21:38:49,730 WARNING:Not Found: /favicon.ico
+2023-04-24 21:39:28,484 DEBUG:Starting new HTTPS connection (1): www.fluentcpp.com:443
+2023-04-24 21:39:28,926 DEBUG:https://www.fluentcpp.com:443 "GET / HTTP/1.1" 406 226
+2023-04-24 21:39:28,927 ERROR:can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 68, in __init__
+    self._logs.log_exception(("ERROR CODE: " + source.status_code + "."))
+                              ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "int") to str
+2023-04-24 21:39:29,435 WARNING:Not Found: /favicon.ico
+2023-04-24 21:42:27,619 DEBUG:Starting new HTTPS connection (1): www.aquaspeed.com.pl:443
+2023-04-24 21:42:28,152 DEBUG:https://www.aquaspeed.com.pl:443 "GET / HTTP/1.1" 200 32509
+2023-04-24 21:42:28,634 DEBUG:https://www.aquaspeed.com.pl:443 "GET / HTTP/1.1" 200 32509
+2023-04-24 21:42:28,671 INFO:REQUEST TIME: 0.13
+2023-04-24 21:42:28,789 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:42:28,944 DEBUG:https://www.aquaspeed.com.pl:443 "GET /searching.php HTTP/1.1" 200 29910
+2023-04-24 21:42:28,982 INFO:REQUEST TIME: 0.19
+2023-04-24 21:42:29,021 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:42:29,899 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_KOBIETA-278.html HTTP/1.1" 200 41430
+2023-04-24 21:42:29,969 INFO:REQUEST TIME: 0.95
+2023-04-24 21:42:30,122 INFO:SINGLE ITERATION TIME: 1.1
+2023-04-24 21:42:30,713 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_KOBIETA_Stroje-plywackie-damskie-492.html HTTP/1.1" 200 37634
+2023-04-24 21:42:30,750 INFO:REQUEST TIME: 0.63
+2023-04-24 21:42:30,848 INFO:SINGLE ITERATION TIME: 0.72
+2023-04-24 21:42:31,293 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_KOBIETA_Stroje-plywackie-damskie_Stroje-plywackie-damskie-jednoczeciowe-490.html HTTP/1.1" 200 34638
+2023-04-24 21:42:31,364 INFO:REQUEST TIME: 0.52
+2023-04-24 21:42:31,423 INFO:SINGLE ITERATION TIME: 0.57
+2023-04-24 21:42:31,819 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_KOBIETA_Stroje-plywackie-damskie_Stroje-plywackie-damskie-dwuczesciowe-491.html HTTP/1.1" 200 32318
+2023-04-24 21:42:31,856 INFO:REQUEST TIME: 0.43
+2023-04-24 21:42:31,899 INFO:SINGLE ITERATION TIME: 0.48
+2023-04-24 21:42:32,311 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_KOBIETA_Stroje-plywackie-damskie_Stroje-plywackie-damskie-treningowe-282.html HTTP/1.1" 200 32992
+2023-04-24 21:42:32,351 INFO:REQUEST TIME: 0.45
+2023-04-24 21:42:32,408 INFO:SINGLE ITERATION TIME: 0.51
+2023-04-24 21:42:32,739 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_KOBIETA_Stroje-plywackie-damskie_Stroje-plywackie-damskie-z-nogawka-281.html HTTP/1.1" 200 31144
+2023-04-24 21:42:32,775 INFO:REQUEST TIME: 0.37
+2023-04-24 21:42:32,828 INFO:SINGLE ITERATION TIME: 0.42
+2023-04-24 21:42:33,379 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_KOBIETA_Stroje-plywackie-damskie_Stroje-plywackie-damskie-z-miseczkami-280.html HTTP/1.1" 200 35192
+2023-04-24 21:42:33,452 INFO:REQUEST TIME: 0.62
+2023-04-24 21:42:33,523 INFO:SINGLE ITERATION TIME: 0.69
+2023-04-24 21:42:33,918 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_KOBIETA_Stroje-plywackie-damskie_Stroje-kapielowe-plazowe-damskie-283.html HTTP/1.1" 200 32747
+2023-04-24 21:42:33,955 INFO:REQUEST TIME: 0.43
+2023-04-24 21:42:34,085 INFO:SINGLE ITERATION TIME: 0.56
+2023-04-24 21:42:34,454 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_KOBIETA_Damskie-szorty-kapielowe-516.html HTTP/1.1" 200 31596
+2023-04-24 21:42:34,494 INFO:REQUEST TIME: 0.41
+2023-04-24 21:42:34,554 INFO:SINGLE ITERATION TIME: 0.47
+2023-04-24 21:42:35,110 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_KOBIETA_Klapki-basenowe-damskie-493.html HTTP/1.1" 200 35386
+2023-04-24 21:42:35,182 INFO:REQUEST TIME: 0.63
+2023-04-24 21:42:35,271 INFO:SINGLE ITERATION TIME: 0.72
+2023-04-24 21:42:36,242 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_MEZCZYZNA-297.html HTTP/1.1" 200 43276
+2023-04-24 21:42:36,318 INFO:REQUEST TIME: 1.05
+2023-04-24 21:42:36,538 INFO:SINGLE ITERATION TIME: 1.27
+2023-04-24 21:42:37,473 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_MEZCZYZNA_Stroje-plywackie-dla-mezczyzn-381.html HTTP/1.1" 200 40917
+2023-04-24 21:42:37,544 INFO:REQUEST TIME: 1.01
+2023-04-24 21:42:37,689 INFO:SINGLE ITERATION TIME: 1.15
+2023-04-24 21:42:38,306 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_MEZCZYZNA_Stroje-plywackie-dla-mezczyzn_Spodenki-plywackie-meskie-299.html HTTP/1.1" 200 37572
+2023-04-24 21:42:38,378 INFO:REQUEST TIME: 0.69
+2023-04-24 21:42:38,476 INFO:SINGLE ITERATION TIME: 0.79
+2023-04-24 21:42:38,804 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_MEZCZYZNA_Stroje-plywackie-dla-mezczyzn_Spodenki-plywackie-meskie-Jammer-494.html HTTP/1.1" 200 32587
+2023-04-24 21:42:38,882 INFO:REQUEST TIME: 0.41
+2023-04-24 21:42:38,927 INFO:SINGLE ITERATION TIME: 0.45
+2023-04-24 21:42:39,321 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_MEZCZYZNA_Stroje-plywackie-dla-mezczyzn_Slipy-kapielowe-meskie-300.html HTTP/1.1" 200 32402
+2023-04-24 21:42:39,397 INFO:REQUEST TIME: 0.47
+2023-04-24 21:42:39,444 INFO:SINGLE ITERATION TIME: 0.52
+2023-04-24 21:42:39,896 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_MEZCZYZNA_Stroje-plywackie-dla-mezczyzn_Szorty-kapielowe-meskie-301.html HTTP/1.1" 200 34720
+2023-04-24 21:42:39,969 INFO:REQUEST TIME: 0.52
+2023-04-24 21:42:40,039 INFO:SINGLE ITERATION TIME: 0.59
+2023-04-24 21:42:40,448 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_MEZCZYZNA_Klapki-basenowe-meskie-495.html HTTP/1.1" 200 34513
+2023-04-24 21:42:40,519 INFO:REQUEST TIME: 0.48
+2023-04-24 21:42:40,589 INFO:SINGLE ITERATION TIME: 0.55
+2023-04-24 21:42:41,250 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_DZIECKO-274.html HTTP/1.1" 200 39861
+2023-04-24 21:42:41,325 INFO:REQUEST TIME: 0.74
+2023-04-24 21:42:41,543 INFO:SINGLE ITERATION TIME: 0.95
+2023-04-24 21:42:41,941 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_DZIECKO_Stroje-plywackie-dziewczece-276.html HTTP/1.1" 200 33885
+2023-04-24 21:42:42,012 INFO:REQUEST TIME: 0.47
+2023-04-24 21:42:42,068 INFO:SINGLE ITERATION TIME: 0.52
+2023-04-24 21:42:42,450 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_DZIECKO_Stroje-plazowe-dziewczece-396.html HTTP/1.1" 200 31660
+2023-04-24 21:42:42,487 INFO:REQUEST TIME: 0.42
+2023-04-24 21:42:42,524 INFO:SINGLE ITERATION TIME: 0.46
+2023-04-24 21:42:42,900 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_DZIECKO_Spodenki-plywackie-chlopiece-275.html HTTP/1.1" 200 33292
+2023-04-24 21:42:42,937 INFO:REQUEST TIME: 0.41
+2023-04-24 21:42:42,990 INFO:SINGLE ITERATION TIME: 0.46
+2023-04-24 21:42:43,333 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_DZIECKO_Szorty-plazowe-chlopiece-277.html HTTP/1.1" 200 33384
+2023-04-24 21:42:43,369 INFO:REQUEST TIME: 0.38
+2023-04-24 21:42:43,420 INFO:SINGLE ITERATION TIME: 0.43
+2023-04-24 21:42:43,882 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_DZIECKO_Dzieciece-klapki-na-basen-515.html HTTP/1.1" 200 33944
+2023-04-24 21:42:43,921 INFO:REQUEST TIME: 0.5
+2023-04-24 21:42:43,979 INFO:SINGLE ITERATION TIME: 0.56
+2023-04-24 21:42:46,241 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA-284.html HTTP/1.1" 200 None
+2023-04-24 21:42:46,353 INFO:REQUEST TIME: 2.37
+2023-04-24 21:42:47,013 INFO:SINGLE ITERATION TIME: 3.03
+2023-04-24 21:42:48,463 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Okulary-plywackie-285.html HTTP/1.1" 200 49567
+2023-04-24 21:42:48,537 INFO:REQUEST TIME: 1.52
+2023-04-24 21:42:48,973 INFO:SINGLE ITERATION TIME: 1.96
+2023-04-24 21:42:49,759 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Okulary-plywackie_Okulary-plywackie-dla-doroslych-289.html HTTP/1.1" 200 40152
+2023-04-24 21:42:49,830 INFO:REQUEST TIME: 0.86
+2023-04-24 21:42:49,960 INFO:SINGLE ITERATION TIME: 0.99
+2023-04-24 21:42:50,570 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Okulary-plywackie_Okulary-plywackie-dla-dzieci-290.html HTTP/1.1" 200 38099
+2023-04-24 21:42:50,609 INFO:REQUEST TIME: 0.65
+2023-04-24 21:42:50,705 INFO:SINGLE ITERATION TIME: 0.74
+2023-04-24 21:42:51,141 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Okulary-plywackie_Okulary-plywackie-do-triathlonu-291.html HTTP/1.1" 200 34570
+2023-04-24 21:42:51,179 INFO:REQUEST TIME: 0.47
+2023-04-24 21:42:51,238 INFO:SINGLE ITERATION TIME: 0.53
+2023-04-24 21:42:51,672 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Okulary-plywackie_Okulary-plywackie-z-wymiennym-noskiem-293.html HTTP/1.1" 200 34216
+2023-04-24 21:42:51,711 INFO:REQUEST TIME: 0.47
+2023-04-24 21:42:51,768 INFO:SINGLE ITERATION TIME: 0.53
+2023-04-24 21:42:52,532 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Okulary-plywackie_Okulary-plywackie-jednobrylowe-292.html HTTP/1.1" 200 40183
+2023-04-24 21:42:52,575 INFO:REQUEST TIME: 0.81
+2023-04-24 21:42:52,730 INFO:SINGLE ITERATION TIME: 0.96
+2023-04-24 21:42:53,110 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Okulary-plywackie_Okulary-plywackie-korekcyjne-294.html HTTP/1.1" 200 32362
+2023-04-24 21:42:53,147 INFO:REQUEST TIME: 0.42
+2023-04-24 21:42:53,189 INFO:SINGLE ITERATION TIME: 0.46
+2023-04-24 21:42:53,519 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Okulary-plywackie_Okulary-szwedki-295.html HTTP/1.1" 200 31052
+2023-04-24 21:42:53,559 INFO:REQUEST TIME: 0.37
+2023-04-24 21:42:53,609 INFO:SINGLE ITERATION TIME: 0.42
+2023-04-24 21:42:54,060 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Okulary-plywackie_Gogle-plywackie-296.html HTTP/1.1" 200 33598
+2023-04-24 21:42:54,097 INFO:REQUEST TIME: 0.49
+2023-04-24 21:42:54,160 INFO:SINGLE ITERATION TIME: 0.55
+2023-04-24 21:42:54,574 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Okulary-plywackie_Akcesoria-do-okularow-plywackich-489.html HTTP/1.1" 200 31312
+2023-04-24 21:42:54,611 INFO:REQUEST TIME: 0.45
+2023-04-24 21:42:54,647 INFO:SINGLE ITERATION TIME: 0.49
+2023-04-24 21:42:55,481 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Czepki-plywackie-286.html HTTP/1.1" 200 40470
+2023-04-24 21:42:55,553 INFO:REQUEST TIME: 0.91
+2023-04-24 21:42:55,707 INFO:SINGLE ITERATION TIME: 1.06
+2023-04-24 21:42:56,090 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Czepki-plywackie_Czepki-plywackie-dla-dzieci-311.html HTTP/1.1" 200 33024
+2023-04-24 21:42:56,127 INFO:REQUEST TIME: 0.42
+2023-04-24 21:42:56,180 INFO:SINGLE ITERATION TIME: 0.47
+2023-04-24 21:42:56,627 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Czepki-plywackie_Czepki-plywackie-na-dlugie-wlosy-498.html HTTP/1.1" 200 32680
+2023-04-24 21:42:56,665 INFO:REQUEST TIME: 0.48
+2023-04-24 21:42:56,877 INFO:SINGLE ITERATION TIME: 0.7
+2023-04-24 21:42:57,488 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Czepki-plywackie_Czepki-plywackie-silikonowe-307.html HTTP/1.1" 200 37380
+2023-04-24 21:42:57,559 INFO:REQUEST TIME: 0.68
+2023-04-24 21:42:57,654 INFO:SINGLE ITERATION TIME: 0.78
+2023-04-24 21:42:58,183 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Czepki-plywackie_Czepki-plywackie-latexowe-308.html HTTP/1.1" 200 33843
+2023-04-24 21:42:58,255 INFO:REQUEST TIME: 0.6
+2023-04-24 21:42:58,336 INFO:SINGLE ITERATION TIME: 0.68
+2023-04-24 21:42:58,755 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Czepki-plywackie_Czepki-plywackie-materialowe-309.html HTTP/1.1" 200 31819
+2023-04-24 21:42:58,792 INFO:REQUEST TIME: 0.46
+2023-04-24 21:42:58,827 INFO:SINGLE ITERATION TIME: 0.49
+2023-04-24 21:42:59,232 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Czepki-plywackie_Czepki-plywackie-powlekane-350.html HTTP/1.1" 200 32053
+2023-04-24 21:42:59,274 INFO:REQUEST TIME: 0.45
+2023-04-24 21:42:59,317 INFO:SINGLE ITERATION TIME: 0.49
+2023-04-24 21:43:00,624 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Obuwie-basenowe-i-plazowe-287.html HTTP/1.1" 200 47725
+2023-04-24 21:43:00,699 INFO:REQUEST TIME: 1.38
+2023-04-24 21:43:00,947 INFO:SINGLE ITERATION TIME: 1.63
+2023-04-24 21:43:01,953 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Obuwie-basenowe-i-plazowe_Klapki-basenowe-337.html HTTP/1.1" 200 40151
+2023-04-24 21:43:02,026 INFO:REQUEST TIME: 1.08
+2023-04-24 21:43:02,162 INFO:SINGLE ITERATION TIME: 1.21
+2023-04-24 21:43:02,935 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Obuwie-basenowe-i-plazowe_Buty-do-wody-338.html HTTP/1.1" 200 39463
+2023-04-24 21:43:03,010 INFO:REQUEST TIME: 0.85
+2023-04-24 21:43:03,133 INFO:SINGLE ITERATION TIME: 0.97
+2023-04-24 21:43:03,520 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Obuwie-basenowe-i-plazowe_Skarpetki-basenowe-474.html HTTP/1.1" 200 32492
+2023-04-24 21:43:03,556 INFO:REQUEST TIME: 0.42
+2023-04-24 21:43:03,598 INFO:SINGLE ITERATION TIME: 0.46
+2023-04-24 21:43:04,283 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-nauki-plywania-288.html HTTP/1.1" 200 39104
+2023-04-24 21:43:04,358 INFO:REQUEST TIME: 0.76
+2023-04-24 21:43:04,464 INFO:SINGLE ITERATION TIME: 0.86
+2023-04-24 21:43:05,421 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-snorkelingu-i-nurkowania-303.html HTTP/1.1" 200 44003
+2023-04-24 21:43:05,495 INFO:REQUEST TIME: 1.03
+2023-04-24 21:43:05,764 INFO:SINGLE ITERATION TIME: 1.3
+2023-04-24 21:43:06,508 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-snorkelingu-i-nurkowania_Maski-do-nurkowania-319.html HTTP/1.1" 200 37893
+2023-04-24 21:43:06,582 INFO:REQUEST TIME: 0.82
+2023-04-24 21:43:06,686 INFO:SINGLE ITERATION TIME: 0.92
+2023-04-24 21:43:07,099 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-snorkelingu-i-nurkowania_Fajki-do-nurkowania-320.html HTTP/1.1" 200 32363
+2023-04-24 21:43:07,137 INFO:REQUEST TIME: 0.45
+2023-04-24 21:43:07,179 INFO:SINGLE ITERATION TIME: 0.49
+2023-04-24 21:43:07,721 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-snorkelingu-i-nurkowania_Pletwy-do-snorkelingu-321.html HTTP/1.1" 200 35999
+2023-04-24 21:43:07,794 INFO:REQUEST TIME: 0.62
+2023-04-24 21:43:07,879 INFO:SINGLE ITERATION TIME: 0.7
+2023-04-24 21:43:08,320 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-snorkelingu-i-nurkowania_Zestawy-do-nurkowania-maska-fajka-356.html HTTP/1.1" 200 33448
+2023-04-24 21:43:08,393 INFO:REQUEST TIME: 0.51
+2023-04-24 21:43:08,455 INFO:SINGLE ITERATION TIME: 0.58
+2023-04-24 21:43:09,238 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-treningu-plywackiego-306.html HTTP/1.1" 200 41380
+2023-04-24 21:43:09,313 INFO:REQUEST TIME: 0.86
+2023-04-24 21:43:09,463 INFO:SINGLE ITERATION TIME: 1.01
+2023-04-24 21:43:09,915 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-treningu-plywackiego_Pletwy-treningowe-do-plywania-459.html HTTP/1.1" 200 34043
+2023-04-24 21:43:09,988 INFO:REQUEST TIME: 0.52
+2023-04-24 21:43:10,048 INFO:SINGLE ITERATION TIME: 0.58
+2023-04-24 21:43:10,527 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-treningu-plywackiego_Deski-do-plywania-460.html HTTP/1.1" 200 35071
+2023-04-24 21:43:10,598 INFO:REQUEST TIME: 0.55
+2023-04-24 21:43:10,668 INFO:SINGLE ITERATION TIME: 0.62
+2023-04-24 21:43:11,108 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-treningu-plywackiego_Wioselka-plywackie-461.html HTTP/1.1" 200 32910
+2023-04-24 21:43:11,148 INFO:REQUEST TIME: 0.48
+2023-04-24 21:43:11,208 INFO:SINGLE ITERATION TIME: 0.54
+2023-04-24 21:43:11,572 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-treningu-plywackiego_Fajki-czolowe-plywackie-462.html HTTP/1.1" 200 31827
+2023-04-24 21:43:11,610 INFO:REQUEST TIME: 0.4
+2023-04-24 21:43:11,647 INFO:SINGLE ITERATION TIME: 0.44
+2023-04-24 21:43:12,037 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-treningu-plywackiego_Zaciski-do-nosa-i-zatyczki-do-uszu-463.html HTTP/1.1" 200 33067
+2023-04-24 21:43:12,109 INFO:REQUEST TIME: 0.46
+2023-04-24 21:43:12,163 INFO:SINGLE ITERATION TIME: 0.51
+2023-04-24 21:43:12,212 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-do-aqua-aerobiku-304.html HTTP/1.1" 429 394
+2023-04-24 21:43:12,212 INFO:REQUEST TIME: 0.05
+2023-04-24 21:43:12,259 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Torby-i-worki-plywackie-333.html HTTP/1.1" 429 394
+2023-04-24 21:43:12,260 INFO:REQUEST TIME: 0.05
+2023-04-24 21:43:12,307 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Reczniki-szybkoschnace-334.html HTTP/1.1" 429 394
+2023-04-24 21:43:12,307 INFO:REQUEST TIME: 0.05
+2023-04-24 21:43:12,371 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-nadmuchiwane-305.html HTTP/1.1" 429 394
+2023-04-24 21:43:12,371 INFO:REQUEST TIME: 0.06
+2023-04-24 21:43:12,431 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-nadmuchiwane_Rekawki-do-plywania-339.html HTTP/1.1" 429 394
+2023-04-24 21:43:12,432 INFO:REQUEST TIME: 0.06
+2023-04-24 21:43:12,484 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-nadmuchiwane_Kola-do-plywania-340.html HTTP/1.1" 429 394
+2023-04-24 21:43:12,484 INFO:REQUEST TIME: 0.05
+2023-04-24 21:43:12,534 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-nadmuchiwane_Kamizelki-do-plywania-341.html HTTP/1.1" 429 394
+2023-04-24 21:43:12,534 INFO:REQUEST TIME: 0.05
+2023-04-24 21:43:12,584 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-nadmuchiwane_Siedziska-do-plywania-342.html HTTP/1.1" 429 394
+2023-04-24 21:43:12,584 INFO:REQUEST TIME: 0.05
+2023-04-24 21:43:12,635 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-nadmuchiwane_Dmuchane-pilki-do-wody-343.html HTTP/1.1" 429 394
+2023-04-24 21:43:12,636 INFO:REQUEST TIME: 0.05
+2023-04-24 21:43:12,688 DEBUG:https://www.aquaspeed.com.pl:443 "GET /pol_m_AKCESORIA_Akcesoria-nadmuchiwane_Dmuchane-zwierzeta-do-wody-344.html HTTP/1.1" 429 394
+2023-04-24 21:43:12,689 INFO:REQUEST TIME: 0.05
+2023-04-24 21:43:12,690 INFO:VISITED LINKS: 70
+2023-04-24 21:43:12,690 INFO:COLLECTED LINKS: 69
+2023-04-24 21:43:12,690 INFO:QUEUED LINKS: 75
+2023-04-24 21:43:12,889 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www24042023214227-tree-graph.gv' with encoding 'utf-8'
+2023-04-24 21:43:12,890 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/www24042023214227-tree-graph.gv')
+2023-04-24 21:43:12,891 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-24 21:43:12,892 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/www24042023214227-diagram'
+2023-04-24 21:43:12,894 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'www24042023214227-diagram']
+2023-04-24 21:43:13,165 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-24 21:43:14,611 WARNING:Not Found: /favicon.ico
+2023-04-24 21:44:46,010 WARNING:Not Found: /favicon.ico
+2023-04-24 21:44:57,926 DEBUG:Starting new HTTPS connection (1): www.aquaspeed.com.pl:443
+2023-04-24 21:44:58,112 DEBUG:https://www.aquaspeed.com.pl:443 "GET / HTTP/1.1" 429 394
+2023-04-24 21:44:58,114 ERROR:can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 68, in __init__
+    self._logs.log_exception(("ERROR CODE: " + source.status_code + "."))
+                              ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "int") to str
+2023-04-24 21:44:58,684 WARNING:Not Found: /favicon.ico
+2023-04-24 21:46:10,158 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 21:46:10,444 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-24 21:46:10,669 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 21:46:10,929 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-24 21:46:10,981 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/-tree-graph.gv' with encoding 'utf-8'
+2023-04-24 21:46:10,981 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/-tree-graph.gv')
+2023-04-24 21:46:10,982 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-24 21:46:10,982 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/-diagram'
+2023-04-24 21:46:10,983 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', '-diagram']
+2023-04-24 21:46:11,133 ERROR:Internal Server Error: /scrap/
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\graphviz\backend\execute.py", line 91, in run_check
+    proc.check_returncode()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 502, in check_returncode
+    raise CalledProcessError(self.returncode, self.args, self.stdout,
+subprocess.CalledProcessError: Command '[WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', '-diagram']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\views.py", line 73, in scrap
+    links = ss1.dfs_scraper()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py", line 402, in dfs_scraper
+    self._url_tree.tree_to_svg()
+  File "C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\URLTree.py", line 53, in tree_to_svg
+    dot.render((filepath_base + '-diagram'), format='svg', directory=django_settings.MEDIA_ROOT)
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\graphviz\_tools.py", line 171, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\graphviz\rendering.py", line 122, in render
+    rendered = self._render(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\graphviz\_tools.py", line 171, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\graphviz\backend\rendering.py", line 324, in render
+    execute.run_check(cmd,
+  File "C:\Users\pyjte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\graphviz\backend\execute.py", line 93, in run_check
+    raise CalledProcessError(*e.args)
+graphviz.backend.execute.CalledProcessError: Command '[WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', '-diagram']' returned non-zero exit status 1. [stderr: b"Error: dot: option -d unrecognized\r\n\r\nUsage: dot [-Vv?] [-(GNE)name=val] [-(KTlso)<val>] <dot files>\r\n(additional options for neato)    [-x] [-n<v>]\r\n(additional options for fdp)      [-L(gO)] [-L(nUCT)<val>]\r\n(additional options for memtest)  [-m<v>]\r\n(additional options for config)  [-cv]\r\n\r\n -V          - Print version and exit\r\n -v          - Enable verbose mode \r\n -Gname=val  - Set graph attribute 'name' to 'val'\r\n -Nname=val  - Set node attribute 'name' to 'val'\r\n -Ename=val  - Set edge attribute 'name' to 'val'\r\n -Tv         - Set output format to 'v'\r\n -Kv         - Set layout engine to 'v' (overrides default based on command name)\r\n -lv         - Use external library 'v'\r\n -ofile      - Write output to 'file'\r\n -O          - Automatically generate an output filename based on the input filename with a .'format' appended. (Causes all -ofile options to be ignored.) \r\n -P          - Internally generate a graph of the current plugins. \r\n -q[l]       - Set level of message suppression (=1)\r\n -s[v]       - Scale input by 'v' (=72)\r\n -y          - Invert y coordinate in output\r\n\r\n -n[v]       - No layout mode 'v' (=1)\r\n -x          - Reduce graph\r\n\r\n -Lg         - Don't use grid\r\n -LO         - Use old attractive force\r\n -Ln<i>      - Set number of iterations to i\r\n -LU<i>      - Set unscaled factor to i\r\n -LC<v>      - Set overlap expansion factor to v\r\n -LT[*]<v>   - Set temperature (temperature factor) to v\r\n\r\n -m          - Memory test (Observe no growth with top. Kill when done.)\r\n -m[v]       - Memory test - v iterations.\r\n\r\n -c          - Configure plugins (Writes $prefix/lib/graphviz/config \r\n               with available plugin information.  Needs write privilege.)\r\n -?          - Print usage and exit\r\n"]
+2023-04-24 21:47:14,343 WARNING:Not Found: /favicon.ico
+2023-04-24 21:47:17,320 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-24 21:47:17,597 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-24 21:47:17,995 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-24 21:47:18,038 INFO:REQUEST TIME: 0.2
+2023-04-24 21:47:18,228 INFO:SINGLE ITERATION TIME: 0.39
+2023-04-24 21:47:18,375 DEBUG:https://pis.org.pl:443 "GET /partia/wstap-do-pis HTTP/1.1" 200 None
+2023-04-24 21:47:18,514 INFO:REQUEST TIME: 0.28
+2023-04-24 21:47:18,603 INFO:SINGLE ITERATION TIME: 0.37
+2023-04-24 21:47:18,750 DEBUG:https://pis.org.pl:443 "GET /partia/partia-europejskich-konserwatystow-i-reformatorow-ecr HTTP/1.1" 200 None
+2023-04-24 21:47:18,758 INFO:REQUEST TIME: 0.15
+2023-04-24 21:47:18,790 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:47:19,468 DEBUG:https://pis.org.pl:443 "GET /aktualnosci HTTP/1.1" 200 None
+2023-04-24 21:47:19,571 INFO:REQUEST TIME: 0.78
+2023-04-24 21:47:19,630 INFO:SINGLE ITERATION TIME: 0.84
+2023-04-24 21:47:19,733 DEBUG:https://pis.org.pl:443 "GET /partia HTTP/1.1" 302 596
+2023-04-24 21:47:19,868 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-24 21:47:19,876 INFO:REQUEST TIME: 0.24
+2023-04-24 21:47:19,922 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-24 21:47:20,100 DEBUG:https://pis.org.pl:443 "GET /multimedia HTTP/1.1" 200 None
+2023-04-24 21:47:20,110 INFO:REQUEST TIME: 0.19
+2023-04-24 21:47:20,163 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:47:20,297 DEBUG:https://pis.org.pl:443 "GET /dokumenty HTTP/1.1" 200 None
+2023-04-24 21:47:20,303 INFO:REQUEST TIME: 0.14
+2023-04-24 21:47:20,349 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:47:20,472 DEBUG:https://pis.org.pl:443 "GET /kontakt HTTP/1.1" 200 None
+2023-04-24 21:47:20,479 INFO:REQUEST TIME: 0.13
+2023-04-24 21:47:20,512 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-24 21:47:20,698 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/xiii-rocznica-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-24 21:47:20,711 INFO:REQUEST TIME: 0.2
+2023-04-24 21:47:20,775 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-24 21:47:20,957 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bedziemy-bronic-interesow-polskiej-wsi HTTP/1.1" 200 None
+2023-04-24 21:47:20,967 INFO:REQUEST TIME: 0.19
+2023-04-24 21:47:21,027 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-24 21:47:21,213 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/sila-polskiej-wsi HTTP/1.1" 200 None
+2023-04-24 21:47:21,227 INFO:REQUEST TIME: 0.2
+2023-04-24 21:47:21,296 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-24 21:47:21,452 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/pozbywamy-sie-zaleznosci-od-rosji-i-niemiec HTTP/1.1" 200 None
+2023-04-24 21:47:21,461 INFO:REQUEST TIME: 0.16
+2023-04-24 21:47:21,514 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:47:21,667 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/rzad-pis-dba-o-interesy-i-dobro-polski HTTP/1.1" 200 None
+2023-04-24 21:47:21,678 INFO:REQUEST TIME: 0.16
+2023-04-24 21:47:21,713 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:47:21,877 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/oglaszam-mobilizacje-zjednoczonej-prawicy HTTP/1.1" 200 None
+2023-04-24 21:47:21,889 INFO:REQUEST TIME: 0.18
+2023-04-24 21:47:21,939 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:47:22,093 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/jestem-gleboko-przekonany-ze-zwyciestwo-przyjdzie HTTP/1.1" 200 None
+2023-04-24 21:47:22,103 INFO:REQUEST TIME: 0.16
+2023-04-24 21:47:22,145 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:47:22,306 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/chcemy-razem-z-polakami-stworzyc-nowy-program HTTP/1.1" 200 None
+2023-04-24 21:47:22,317 INFO:REQUEST TIME: 0.17
+2023-04-24 21:47:22,360 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:47:22,499 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/polska-jest-jedna-inwestycje-lokalne HTTP/1.1" 200 None
+2023-04-24 21:47:22,511 INFO:REQUEST TIME: 0.15
+2023-04-24 21:47:22,542 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:47:22,697 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/mowimy-nie-dla-fitfor-55 HTTP/1.1" 200 None
+2023-04-24 21:47:22,710 INFO:REQUEST TIME: 0.17
+2023-04-24 21:47:22,742 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:47:22,883 DEBUG:https://pis.org.pl:443 "GET /partia/historia-partii HTTP/1.1" 200 None
+2023-04-24 21:47:22,889 INFO:REQUEST TIME: 0.15
+2023-04-24 21:47:22,944 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:47:23,076 DEBUG:https://pis.org.pl:443 "GET /partia/prawo-i-sprawiedliwosc HTTP/1.1" 200 None
+2023-04-24 21:47:23,083 INFO:REQUEST TIME: 0.14
+2023-04-24 21:47:23,122 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:47:23,245 DEBUG:https://pis.org.pl:443 "GET /zgoda-na-newsletter HTTP/1.1" 200 None
+2023-04-24 21:47:23,252 INFO:REQUEST TIME: 0.13
+2023-04-24 21:47:23,406 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-24 21:47:24,507 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie HTTP/1.1" 200 None
+2023-04-24 21:47:24,672 INFO:REQUEST TIME: 1.26
+2023-04-24 21:47:24,739 INFO:SINGLE ITERATION TIME: 1.33
+2023-04-24 21:47:24,869 DEBUG:https://pis.org.pl:443 "GET /partia/struktury HTTP/1.1" 200 None
+2023-04-24 21:47:24,873 INFO:REQUEST TIME: 0.13
+2023-04-24 21:47:24,972 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:47:25,127 DEBUG:https://pis.org.pl:443 "GET /partia/law-and-justice HTTP/1.1" 200 None
+2023-04-24 21:47:25,140 INFO:REQUEST TIME: 0.17
+2023-04-24 21:47:25,189 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:47:25,325 DEBUG:https://pis.org.pl:443 "GET /partia/droit-et-justice HTTP/1.1" 200 None
+2023-04-24 21:47:25,328 INFO:REQUEST TIME: 0.14
+2023-04-24 21:47:25,381 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:47:25,526 DEBUG:https://pis.org.pl:443 "GET /partia/ley-y-justicia HTTP/1.1" 200 None
+2023-04-24 21:47:25,536 INFO:REQUEST TIME: 0.16
+2023-04-24 21:47:25,579 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:47:25,705 DEBUG:https://pis.org.pl:443 "GET /partia/diritto-e-giustizia HTTP/1.1" 200 None
+2023-04-24 21:47:25,712 INFO:REQUEST TIME: 0.13
+2023-04-24 21:47:25,790 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:47:25,979 DEBUG:https://pis.org.pl:443 "GET /partia/recht-und-gerechtigkeit HTTP/1.1" 200 None
+2023-04-24 21:47:25,980 INFO:REQUEST TIME: 0.15
+2023-04-24 21:47:26,378 INFO:SINGLE ITERATION TIME: 0.48
+2023-04-24 21:47:26,611 DEBUG:https://pis.org.pl:443 "GET /partia/jog-es-igazsagossag HTTP/1.1" 200 None
+2023-04-24 21:47:26,612 INFO:REQUEST TIME: 0.14
+2023-04-24 21:47:26,676 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-24 21:47:26,808 DEBUG:https://pis.org.pl:443 "GET /partia/pravo-spravedlnost HTTP/1.1" 200 None
+2023-04-24 21:47:26,814 INFO:REQUEST TIME: 0.14
+2023-04-24 21:47:26,881 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:47:27,018 DEBUG:https://pis.org.pl:443 "GET /partia/pravo-spravodlivost HTTP/1.1" 200 None
+2023-04-24 21:47:27,025 INFO:REQUEST TIME: 0.14
+2023-04-24 21:47:27,101 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:47:27,230 DEBUG:https://pis.org.pl:443 "GET /partia/wzor-skladki-czlonkowskiej HTTP/1.1" 200 None
+2023-04-24 21:47:27,239 INFO:REQUEST TIME: 0.14
+2023-04-24 21:47:27,292 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:47:27,422 DEBUG:https://pis.org.pl:443 "GET /partia/wzor-darowizny HTTP/1.1" 200 None
+2023-04-24 21:47:27,430 INFO:REQUEST TIME: 0.14
+2023-04-24 21:47:27,464 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:47:27,712 DEBUG:https://pis.org.pl:443 "GET /multimedia/materialy-wideo HTTP/1.1" 200 None
+2023-04-24 21:47:27,758 INFO:REQUEST TIME: 0.29
+2023-04-24 21:47:27,830 INFO:SINGLE ITERATION TIME: 0.36
+2023-04-24 21:47:28,042 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec HTTP/1.1" 200 None
+2023-04-24 21:47:28,050 INFO:REQUEST TIME: 0.22
+2023-04-24 21:47:28,102 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-24 21:47:28,225 DEBUG:https://pis.org.pl:443 "GET /polityka-cookies HTTP/1.1" 200 None
+2023-04-24 21:47:28,234 INFO:REQUEST TIME: 0.13
+2023-04-24 21:47:28,265 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-24 21:47:28,390 DEBUG:https://pis.org.pl:443 "GET /polityka-prywatnosci HTTP/1.1" 200 None
+2023-04-24 21:47:28,394 INFO:REQUEST TIME: 0.13
+2023-04-24 21:47:28,424 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-24 21:47:28,570 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/dolnoslaskie HTTP/1.1" 200 None
+2023-04-24 21:47:28,614 INFO:REQUEST TIME: 0.19
+2023-04-24 21:47:28,663 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:47:28,818 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie HTTP/1.1" 200 None
+2023-04-24 21:47:28,840 INFO:REQUEST TIME: 0.18
+2023-04-24 21:47:28,896 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:47:29,058 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie HTTP/1.1" 200 None
+2023-04-24 21:47:29,076 INFO:REQUEST TIME: 0.18
+2023-04-24 21:47:29,124 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:47:29,264 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie HTTP/1.1" 200 None
+2023-04-24 21:47:29,274 INFO:REQUEST TIME: 0.15
+2023-04-24 21:47:29,323 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:47:29,481 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie HTTP/1.1" 200 None
+2023-04-24 21:47:29,489 INFO:REQUEST TIME: 0.17
+2023-04-24 21:47:29,536 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:47:29,676 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/malopolskie HTTP/1.1" 200 None
+2023-04-24 21:47:29,683 INFO:REQUEST TIME: 0.15
+2023-04-24 21:47:29,848 INFO:SINGLE ITERATION TIME: 0.31
+2023-04-24 21:47:29,989 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/mazowieckie HTTP/1.1" 200 None
+2023-04-24 21:47:30,033 INFO:REQUEST TIME: 0.18
+2023-04-24 21:47:30,083 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:47:30,232 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie HTTP/1.1" 200 None
+2023-04-24 21:47:30,253 INFO:REQUEST TIME: 0.17
+2023-04-24 21:47:30,303 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:47:30,464 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie HTTP/1.1" 200 None
+2023-04-24 21:47:30,475 INFO:REQUEST TIME: 0.17
+2023-04-24 21:47:30,526 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:47:30,697 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie HTTP/1.1" 200 None
+2023-04-24 21:47:30,699 INFO:REQUEST TIME: 0.17
+2023-04-24 21:47:30,765 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:47:30,922 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/pomorskie HTTP/1.1" 200 None
+2023-04-24 21:47:30,934 INFO:REQUEST TIME: 0.17
+2023-04-24 21:47:30,994 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:47:31,144 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/slaskie HTTP/1.1" 200 None
+2023-04-24 21:47:31,147 INFO:REQUEST TIME: 0.15
+2023-04-24 21:47:31,196 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:47:31,356 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie HTTP/1.1" 200 None
+2023-04-24 21:47:31,370 INFO:REQUEST TIME: 0.17
+2023-04-24 21:47:31,428 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:47:31,614 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie HTTP/1.1" 200 None
+2023-04-24 21:47:31,621 INFO:REQUEST TIME: 0.19
+2023-04-24 21:47:31,681 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-24 21:47:31,838 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/wielkopolskie HTTP/1.1" 200 None
+2023-04-24 21:47:31,852 INFO:REQUEST TIME: 0.17
+2023-04-24 21:47:31,898 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:47:32,043 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie HTTP/1.1" 200 None
+2023-04-24 21:47:32,056 INFO:REQUEST TIME: 0.16
+2023-04-24 21:47:32,109 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:47:32,202 DEBUG:https://pis.org.pl:443 "GET /document/archive/download/291 HTTP/1.1" 200 None
+2023-04-24 21:47:32,294 INFO:REQUEST TIME: 0.18
+2023-04-24 21:47:32,960 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:33,072 DEBUG:https://pis.org.pl:443 "GET /document/archive/download/122 HTTP/1.1" 200 None
+2023-04-24 21:47:33,460 INFO:REQUEST TIME: 0.48
+2023-04-24 21:47:34,112 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:34,230 DEBUG:Starting new HTTP connection (1): pis.org.pl:80
+2023-04-24 21:47:34,329 DEBUG:http://pis.org.pl:80 "GET /pliki/ECRp-ReykyavikDeclaration.pdf HTTP/1.1" 301 602
+2023-04-24 21:47:34,375 DEBUG:https://pis.org.pl:443 "GET /pliki/ECRp-ReykyavikDeclaration.pdf HTTP/1.1" 200 233072
+2023-04-24 21:47:34,425 INFO:REQUEST TIME: 0.2
+2023-04-24 21:47:34,494 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:34,660 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/ii-kongres-malych-i-srednich-miast HTTP/1.1" 200 None
+2023-04-24 21:47:34,672 INFO:REQUEST TIME: 0.17
+2023-04-24 21:47:34,724 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:47:34,868 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/atom-gwarantem-energetycznym-dla-polski HTTP/1.1" 200 None
+2023-04-24 21:47:34,880 INFO:REQUEST TIME: 0.16
+2023-04-24 21:47:34,917 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:47:35,087 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/sojusz-polska-usa-rosnie-w-sile HTTP/1.1" 200 None
+2023-04-24 21:47:35,102 INFO:REQUEST TIME: 0.18
+2023-04-24 21:47:35,142 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:47:35,281 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/wielkanocne-zyczenia-prezesa-j-kaczynskiego HTTP/1.1" 200 None
+2023-04-24 21:47:35,298 INFO:REQUEST TIME: 0.15
+2023-04-24 21:47:35,335 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:47:35,481 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/program-obchodow-xiii-rocznicy-katastrofy-smolenskiej HTTP/1.1" 200 None
+2023-04-24 21:47:35,490 INFO:REQUEST TIME: 0.16
+2023-04-24 21:47:35,528 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:47:35,693 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/ksztaltujemy-obraz-europy-na-przyszlosc HTTP/1.1" 200 None
+2023-04-24 21:47:35,706 INFO:REQUEST TIME: 0.18
+2023-04-24 21:47:35,758 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:47:35,909 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/wspieramy-osoby-z-niepelnosprawnosciami HTTP/1.1" 200 None
+2023-04-24 21:47:35,933 INFO:REQUEST TIME: 0.18
+2023-04-24 21:47:35,965 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:47:36,678 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=2 HTTP/1.1" 200 None
+2023-04-24 21:47:36,769 INFO:REQUEST TIME: 0.8
+2023-04-24 21:47:36,829 INFO:SINGLE ITERATION TIME: 0.86
+2023-04-24 21:47:37,634 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=1 HTTP/1.1" 200 None
+2023-04-24 21:47:37,740 INFO:REQUEST TIME: 0.91
+2023-04-24 21:47:37,792 INFO:SINGLE ITERATION TIME: 0.96
+2023-04-24 21:47:38,494 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=3 HTTP/1.1" 200 None
+2023-04-24 21:47:38,606 INFO:REQUEST TIME: 0.81
+2023-04-24 21:47:38,767 INFO:SINGLE ITERATION TIME: 0.97
+2023-04-24 21:47:39,427 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=4 HTTP/1.1" 200 None
+2023-04-24 21:47:39,547 INFO:REQUEST TIME: 0.78
+2023-04-24 21:47:39,606 INFO:SINGLE ITERATION TIME: 0.84
+2023-04-24 21:47:40,282 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=5 HTTP/1.1" 200 None
+2023-04-24 21:47:40,380 INFO:REQUEST TIME: 0.77
+2023-04-24 21:47:40,438 INFO:SINGLE ITERATION TIME: 0.83
+2023-04-24 21:47:41,145 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=208 HTTP/1.1" 200 None
+2023-04-24 21:47:41,236 INFO:REQUEST TIME: 0.8
+2023-04-24 21:47:41,286 INFO:SINGLE ITERATION TIME: 0.85
+2023-04-24 21:47:41,334 DEBUG:https://pis.org.pl:443 "GET /templates/frontend/dev/images/gallery/gallery-1.jpg HTTP/1.1" 200 64868
+2023-04-24 21:47:41,381 INFO:REQUEST TIME: 0.09
+2023-04-24 21:47:41,399 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:41,447 DEBUG:https://pis.org.pl:443 "GET /templates/frontend/dev/images/gallery/gallery-3.jpg HTTP/1.1" 200 114697
+2023-04-24 21:47:41,493 INFO:REQUEST TIME: 0.09
+2023-04-24 21:47:41,518 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:41,567 DEBUG:https://pis.org.pl:443 "GET /templates/frontend/dev/images/gallery/gallery-4.jpg HTTP/1.1" 200 302319
+2023-04-24 21:47:41,618 INFO:REQUEST TIME: 0.1
+2023-04-24 21:47:41,682 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:41,736 DEBUG:https://pis.org.pl:443 "GET /templates/frontend/dev/images/gallery/gallery-5.jpg HTTP/1.1" 200 149019
+2023-04-24 21:47:41,749 INFO:REQUEST TIME: 0.06
+2023-04-24 21:47:41,780 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:41,830 DEBUG:https://pis.org.pl:443 "GET /templates/frontend/dev/images/gallery/gallery-6.jpg HTTP/1.1" 200 119799
+2023-04-24 21:47:41,839 INFO:REQUEST TIME: 0.06
+2023-04-24 21:47:41,868 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:41,918 DEBUG:https://pis.org.pl:443 "GET /templates/frontend/dev/images/gallery/gallery-7.jpg HTTP/1.1" 200 219020
+2023-04-24 21:47:41,935 INFO:REQUEST TIME: 0.06
+2023-04-24 21:47:41,980 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:42,031 DEBUG:https://pis.org.pl:443 "GET /templates/frontend/dev/images/gallery/gallery-8.jpg HTTP/1.1" 200 89717
+2023-04-24 21:47:42,039 INFO:REQUEST TIME: 0.05
+2023-04-24 21:47:42,060 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:42,109 DEBUG:https://pis.org.pl:443 "GET /templates/frontend/dev/images/gallery/gallery-10.jpg HTTP/1.1" 200 211149
+2023-04-24 21:47:42,127 INFO:REQUEST TIME: 0.06
+2023-04-24 21:47:42,174 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:42,226 DEBUG:https://pis.org.pl:443 "GET /templates/frontend/dev/images/gallery/gallery-11.jpg HTTP/1.1" 200 369560
+2023-04-24 21:47:42,256 INFO:REQUEST TIME: 0.08
+2023-04-24 21:47:42,339 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:42,472 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3015 HTTP/1.1" 200 None
+2023-04-24 21:47:42,480 INFO:REQUEST TIME: 0.13
+2023-04-24 21:47:42,517 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:47:42,636 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3014 HTTP/1.1" 200 None
+2023-04-24 21:47:42,641 INFO:REQUEST TIME: 0.12
+2023-04-24 21:47:42,675 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-24 21:47:42,807 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3013 HTTP/1.1" 200 None
+2023-04-24 21:47:42,816 INFO:REQUEST TIME: 0.14
+2023-04-24 21:47:42,860 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:47:43,005 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3012 HTTP/1.1" 200 None
+2023-04-24 21:47:43,016 INFO:REQUEST TIME: 0.16
+2023-04-24 21:47:43,048 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:47:43,179 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3011 HTTP/1.1" 200 None
+2023-04-24 21:47:43,188 INFO:REQUEST TIME: 0.14
+2023-04-24 21:47:43,234 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:47:43,380 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3010 HTTP/1.1" 200 None
+2023-04-24 21:47:43,395 INFO:REQUEST TIME: 0.16
+2023-04-24 21:47:43,434 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:47:43,546 DEBUG:https://pis.org.pl:443 "GET /media/download/b3fc82bf3436d4be39d780d2eccc2f7eec3b1e12.zip HTTP/1.1" 200 None
+2023-04-24 21:47:43,555 INFO:REQUEST TIME: 0.12
+2023-04-24 21:47:43,570 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:43,679 DEBUG:https://pis.org.pl:443 "GET /media/download/fd06082181cb724668e8c61aedbb7e9fbf538dca.pdf HTTP/1.1" 200 None
+2023-04-24 21:47:43,790 INFO:REQUEST TIME: 0.22
+2023-04-24 21:47:44,089 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:44,224 DEBUG:https://pis.org.pl:443 "GET /media/download/03f5524a8d59adaa743ab52d8a309b380c7bc12a.zip HTTP/1.1" 200 None
+2023-04-24 21:47:44,366 INFO:REQUEST TIME: 0.25
+2023-04-24 21:47:44,555 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:44,680 DEBUG:https://pis.org.pl:443 "GET /media/download/07ace84c8e448c7d2216f038bc311b817ea81ed8.zip HTTP/1.1" 200 None
+2023-04-24 21:47:49,427 INFO:REQUEST TIME: 4.86
+2023-04-24 21:47:51,375 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:51,848 DEBUG:https://pis.org.pl:443 "GET /document/archive/download/2359 HTTP/1.1" 200 None
+2023-04-24 21:47:57,099 INFO:REQUEST TIME: 5.41
+2023-04-24 21:47:59,042 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:47:59,592 DEBUG:https://pis.org.pl:443 "GET /document/archive/download/2358 HTTP/1.1" 200 None
+2023-04-24 21:48:03,034 INFO:REQUEST TIME: 3.6
+2023-04-24 21:48:04,895 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:48:05,394 DEBUG:https://pis.org.pl:443 "GET /document/archive/download/1698 HTTP/1.1" 200 None
+2023-04-24 21:48:09,231 INFO:REQUEST TIME: 3.98
+2023-04-24 21:48:10,837 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:48:11,292 DEBUG:https://pis.org.pl:443 "GET /document/archive/download/1496 HTTP/1.1" 200 None
+2023-04-24 21:48:15,457 INFO:REQUEST TIME: 4.32
+2023-04-24 21:48:16,543 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:48:16,921 DEBUG:https://pis.org.pl:443 "GET /document/archive/download/1393 HTTP/1.1" 200 None
+2023-04-24 21:48:44,711 INFO:REQUEST TIME: 27.94
+2023-04-24 21:48:49,527 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:48:51,228 DEBUG:https://pis.org.pl:443 "GET /dokumenty?page=2 HTTP/1.1" 200 None
+2023-04-24 21:48:51,247 INFO:REQUEST TIME: 0.16
+2023-04-24 21:48:51,303 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:48:51,462 DEBUG:https://pis.org.pl:443 "GET /dokumenty?page=1 HTTP/1.1" 200 None
+2023-04-24 21:48:51,476 INFO:REQUEST TIME: 0.17
+2023-04-24 21:48:51,545 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:48:51,717 DEBUG:https://pis.org.pl:443 "GET /biura HTTP/1.1" 200 None
+2023-04-24 21:48:51,738 INFO:REQUEST TIME: 0.19
+2023-04-24 21:48:51,794 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-24 21:48:51,903 DEBUG:https://pis.org.pl:443 "GET /%5C HTTP/1.1" 404 None
+2023-04-24 21:48:51,907 INFO:REQUEST TIME: 0.11
+2023-04-24 21:48:51,924 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-24 21:48:52,064 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/najwiekszy-program-budowy-drog-na-kwote-ponad-290-mld-zl HTTP/1.1" 200 None
+2023-04-24 21:48:52,072 INFO:REQUEST TIME: 0.15
+2023-04-24 21:48:52,109 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:48:52,277 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/prawo-i-sprawiedliwosc-dba-o-polakow HTTP/1.1" 200 None
+2023-04-24 21:48:52,295 INFO:REQUEST TIME: 0.19
+2023-04-24 21:48:52,332 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:48:52,478 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/polska-rosnie-w-sile HTTP/1.1" 200 None
+2023-04-24 21:48:52,486 INFO:REQUEST TIME: 0.15
+2023-04-24 21:48:52,540 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:48:52,716 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bezpieczenstwo-w-europie-stale-sie-umacnia HTTP/1.1" 200 None
+2023-04-24 21:48:52,725 INFO:REQUEST TIME: 0.18
+2023-04-24 21:48:52,769 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:48:52,920 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/polska-ostrzegala-przed-polityka-putina HTTP/1.1" 200 None
+2023-04-24 21:48:52,927 INFO:REQUEST TIME: 0.16
+2023-04-24 21:48:52,963 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:48:53,116 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/nie-ma-trojmorza-bez-wolnej-i-suwerennej-ukrainy HTTP/1.1" 200 None
+2023-04-24 21:48:53,131 INFO:REQUEST TIME: 0.17
+2023-04-24 21:48:53,167 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:48:53,345 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/polsko-czeskie-porozumienia-o-wspolpracy HTTP/1.1" 200 None
+2023-04-24 21:48:53,362 INFO:REQUEST TIME: 0.19
+2023-04-24 21:48:53,399 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:48:53,541 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/pracujemy-razem-w-kierunku-przyszlosci HTTP/1.1" 200 None
+2023-04-24 21:48:53,548 INFO:REQUEST TIME: 0.15
+2023-04-24 21:48:53,585 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:48:53,735 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/cala-ue-odejdzie-od-rosyjskiej-ropy HTTP/1.1" 200 None
+2023-04-24 21:48:53,746 INFO:REQUEST TIME: 0.16
+2023-04-24 21:48:53,789 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:48:53,897 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/7 HTTP/1.1" 500 None
+2023-04-24 21:48:53,902 INFO:REQUEST TIME: 0.11
+2023-04-24 21:48:54,030 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:48:54,155 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/8/1 HTTP/1.1" 500 None
+2023-04-24 21:48:54,156 INFO:REQUEST TIME: 0.13
+2023-04-24 21:48:54,171 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-24 21:48:54,294 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/9 HTTP/1.1" 500 None
+2023-04-24 21:48:54,326 INFO:REQUEST TIME: 0.15
+2023-04-24 21:48:54,343 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:48:54,451 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/10/1 HTTP/1.1" 500 None
+2023-04-24 21:48:54,456 INFO:REQUEST TIME: 0.11
+2023-04-24 21:48:54,470 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-24 21:48:54,578 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/11 HTTP/1.1" 500 None
+2023-04-24 21:48:54,583 INFO:REQUEST TIME: 0.11
+2023-04-24 21:48:54,596 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-24 21:48:54,708 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/12/1 HTTP/1.1" 500 None
+2023-04-24 21:48:54,713 INFO:REQUEST TIME: 0.12
+2023-04-24 21:48:54,726 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-24 21:48:54,832 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/13 HTTP/1.1" 500 None
+2023-04-24 21:48:54,835 INFO:REQUEST TIME: 0.11
+2023-04-24 21:48:54,851 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-24 21:48:54,959 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/14/1 HTTP/1.1" 500 None
+2023-04-24 21:48:54,963 INFO:REQUEST TIME: 0.11
+2023-04-24 21:48:54,977 INFO:SINGLE ITERATION TIME: 0.13
+2023-04-24 21:48:55,095 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/15 HTTP/1.1" 500 None
+2023-04-24 21:48:55,101 INFO:REQUEST TIME: 0.12
+2023-04-24 21:48:55,115 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-24 21:48:55,235 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/16/1 HTTP/1.1" 500 None
+2023-04-24 21:48:55,242 INFO:REQUEST TIME: 0.13
+2023-04-24 21:48:55,255 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-24 21:48:55,378 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/17 HTTP/1.1" 500 None
+2023-04-24 21:48:55,384 INFO:REQUEST TIME: 0.13
+2023-04-24 21:48:55,400 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-24 21:48:55,528 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/18/1 HTTP/1.1" 500 None
+2023-04-24 21:48:55,528 INFO:REQUEST TIME: 0.13
+2023-04-24 21:48:55,541 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-24 21:48:55,670 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/19 HTTP/1.1" 500 None
+2023-04-24 21:48:55,675 INFO:REQUEST TIME: 0.13
+2023-04-24 21:48:55,688 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-24 21:48:55,806 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/20/1 HTTP/1.1" 500 None
+2023-04-24 21:48:55,810 INFO:REQUEST TIME: 0.12
+2023-04-24 21:48:55,827 INFO:SINGLE ITERATION TIME: 0.14
+2023-04-24 21:48:55,958 DEBUG:https://pis.org.pl:443 "GET /historia/partii/single/21 HTTP/1.1" 500 None
+2023-04-24 21:48:55,968 INFO:REQUEST TIME: 0.14
+2023-04-24 21:48:55,982 INFO:SINGLE ITERATION TIME: 0.15
+2023-04-24 21:48:56,149 DEBUG:https://pis.org.pl:443 "GET /osoba/jaroslaw_kaczynski_1 HTTP/1.1" 200 None
+2023-04-24 21:48:56,165 INFO:REQUEST TIME: 0.18
+2023-04-24 21:48:56,197 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:48:56,346 DEBUG:https://pis.org.pl:443 "GET /osoba/beata_szydlo_1 HTTP/1.1" 200 None
+2023-04-24 21:48:56,355 INFO:REQUEST TIME: 0.16
+2023-04-24 21:48:56,398 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:48:56,548 DEBUG:https://pis.org.pl:443 "GET /osoba/mateusz_morawiecki HTTP/1.1" 200 None
+2023-04-24 21:48:56,559 INFO:REQUEST TIME: 0.16
+2023-04-24 21:48:56,595 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:48:56,744 DEBUG:https://pis.org.pl:443 "GET /osoba/joachim_brudzinski HTTP/1.1" 200 None
+2023-04-24 21:48:56,758 INFO:REQUEST TIME: 0.16
+2023-04-24 21:48:56,791 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:48:56,938 DEBUG:https://pis.org.pl:443 "GET /osoba/antoni_macierewicz_1 HTTP/1.1" 200 None
+2023-04-24 21:48:56,945 INFO:REQUEST TIME: 0.15
+2023-04-24 21:48:56,982 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:48:57,126 DEBUG:https://pis.org.pl:443 "GET /osoba/mariusz_blaszczak HTTP/1.1" 200 None
+2023-04-24 21:48:57,148 INFO:REQUEST TIME: 0.17
+2023-04-24 21:48:57,185 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:48:57,362 DEBUG:https://pis.org.pl:443 "GET /osoba/mariusz_kaminski_1 HTTP/1.1" 200 None
+2023-04-24 21:48:57,386 INFO:REQUEST TIME: 0.2
+2023-04-24 21:48:57,421 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:48:57,577 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/prezydium_partii HTTP/1.1" 200 None
+2023-04-24 21:48:57,596 INFO:REQUEST TIME: 0.17
+2023-04-24 21:48:57,637 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:48:57,824 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/rada_polityczna HTTP/1.1" 200 None
+2023-04-24 21:48:57,838 INFO:REQUEST TIME: 0.2
+2023-04-24 21:48:58,009 INFO:SINGLE ITERATION TIME: 0.37
+2023-04-24 21:48:58,153 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/komitet_polityczny HTTP/1.1" 200 None
+2023-04-24 21:48:58,159 INFO:REQUEST TIME: 0.15
+2023-04-24 21:48:58,217 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:48:58,356 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/sekretarz_generalny HTTP/1.1" 200 None
+2023-04-24 21:48:58,372 INFO:REQUEST TIME: 0.15
+2023-04-24 21:48:58,406 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:48:58,605 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/poslowie_kp_pis HTTP/1.1" 200 None
+2023-04-24 21:48:58,617 INFO:REQUEST TIME: 0.21
+2023-04-24 21:48:58,917 INFO:SINGLE ITERATION TIME: 0.51
+2023-04-24 21:48:59,073 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/senatorowie_kp_pis HTTP/1.1" 200 None
+2023-04-24 21:48:59,086 INFO:REQUEST TIME: 0.17
+2023-04-24 21:48:59,154 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:48:59,304 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/poslowie_do_parlamentu_europejskiego HTTP/1.1" 200 None
+2023-04-24 21:48:59,310 INFO:REQUEST TIME: 0.15
+2023-04-24 21:48:59,361 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:48:59,519 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/komisja_etyki HTTP/1.1" 200 None
+2023-04-24 21:48:59,528 INFO:REQUEST TIME: 0.17
+2023-04-24 21:48:59,563 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:48:59,789 DEBUG:https://pis.org.pl:443 "GET /multimedia/materialy-wideo?page=2 HTTP/1.1" 200 None
+2023-04-24 21:48:59,802 INFO:REQUEST TIME: 0.24
+2023-04-24 21:48:59,853 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-24 21:49:00,108 DEBUG:https://pis.org.pl:443 "GET /multimedia/materialy-wideo?page=1 HTTP/1.1" 200 None
+2023-04-24 21:49:00,123 INFO:REQUEST TIME: 0.27
+2023-04-24 21:49:00,175 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-24 21:49:00,396 DEBUG:https://pis.org.pl:443 "GET /multimedia/materialy-wideo?page=3 HTTP/1.1" 200 None
+2023-04-24 21:49:00,408 INFO:REQUEST TIME: 0.23
+2023-04-24 21:49:00,459 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-24 21:49:00,686 DEBUG:https://pis.org.pl:443 "GET /multimedia/materialy-wideo?page=4 HTTP/1.1" 200 None
+2023-04-24 21:49:00,701 INFO:REQUEST TIME: 0.24
+2023-04-24 21:49:00,752 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-24 21:49:00,970 DEBUG:https://pis.org.pl:443 "GET /multimedia/materialy-wideo?page=5 HTTP/1.1" 200 None
+2023-04-24 21:49:00,982 INFO:REQUEST TIME: 0.23
+2023-04-24 21:49:01,039 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-24 21:49:01,299 DEBUG:https://pis.org.pl:443 "GET /multimedia/materialy-wideo?page=74 HTTP/1.1" 200 None
+2023-04-24 21:49:01,323 INFO:REQUEST TIME: 0.28
+2023-04-24 21:49:01,370 INFO:SINGLE ITERATION TIME: 0.33
+2023-04-24 21:49:01,501 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3009 HTTP/1.1" 200 None
+2023-04-24 21:49:01,509 INFO:REQUEST TIME: 0.14
+2023-04-24 21:49:01,540 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:49:01,675 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3008 HTTP/1.1" 200 None
+2023-04-24 21:49:01,686 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:01,716 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:01,839 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3007 HTTP/1.1" 200 None
+2023-04-24 21:49:01,846 INFO:REQUEST TIME: 0.13
+2023-04-24 21:49:01,876 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-24 21:49:01,999 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3006 HTTP/1.1" 200 None
+2023-04-24 21:49:02,011 INFO:REQUEST TIME: 0.13
+2023-04-24 21:49:02,042 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:49:02,164 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3005 HTTP/1.1" 200 None
+2023-04-24 21:49:02,169 INFO:REQUEST TIME: 0.13
+2023-04-24 21:49:02,198 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-24 21:49:02,321 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec/3004 HTTP/1.1" 200 None
+2023-04-24 21:49:02,332 INFO:REQUEST TIME: 0.13
+2023-04-24 21:49:02,366 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:49:02,573 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec?page=2 HTTP/1.1" 200 None
+2023-04-24 21:49:02,585 INFO:REQUEST TIME: 0.22
+2023-04-24 21:49:02,628 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-24 21:49:02,827 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec?page=1 HTTP/1.1" 200 None
+2023-04-24 21:49:02,859 INFO:REQUEST TIME: 0.23
+2023-04-24 21:49:02,903 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-24 21:49:03,090 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec?page=3 HTTP/1.1" 200 None
+2023-04-24 21:49:03,105 INFO:REQUEST TIME: 0.2
+2023-04-24 21:49:03,151 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-24 21:49:03,373 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec?page=4 HTTP/1.1" 200 None
+2023-04-24 21:49:03,377 INFO:REQUEST TIME: 0.22
+2023-04-24 21:49:03,424 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-24 21:49:03,631 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec?page=5 HTTP/1.1" 200 None
+2023-04-24 21:49:03,652 INFO:REQUEST TIME: 0.23
+2023-04-24 21:49:03,843 INFO:SINGLE ITERATION TIME: 0.42
+2023-04-24 21:49:03,995 DEBUG:https://pis.org.pl:443 "GET /multimedia/galerie-zdjec?page=45 HTTP/1.1" 200 None
+2023-04-24 21:49:04,002 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:04,032 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:04,140 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne HTTP/1.1" 500 None
+2023-04-24 21:49:04,146 INFO:REQUEST TIME: 0.11
+2023-04-24 21:49:04,158 INFO:SINGLE ITERATION TIME: 0.12
+2023-04-24 21:49:04,303 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/dolnoslaskie/wroclaw_3/gorowski HTTP/1.1" 200 None
+2023-04-24 21:49:04,314 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:04,359 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:04,524 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/dolnoslaskie/wroclaw_3/milicki HTTP/1.1" 200 None
+2023-04-24 21:49:04,536 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:04,578 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:04,742 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/dolnoslaskie/wroclaw_3/olesnicki HTTP/1.1" 200 None
+2023-04-24 21:49:04,757 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:04,812 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:49:04,988 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/dolnoslaskie/wroclaw_3/olawski HTTP/1.1" 200 None
+2023-04-24 21:49:05,010 INFO:REQUEST TIME: 0.2
+2023-04-24 21:49:05,087 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-24 21:49:05,234 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/dolnoslaskie/wroclaw_3/strzelinski HTTP/1.1" 200 None
+2023-04-24 21:49:05,243 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:05,287 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:05,436 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/dolnoslaskie/wroclaw_3/sredzki_1 HTTP/1.1" 200 None
+2023-04-24 21:49:05,445 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:05,487 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:05,630 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/dolnoslaskie/wroclaw_3/trzebnicki HTTP/1.1" 200 None
+2023-04-24 21:49:05,637 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:05,686 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:06,592 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/dolnoslaskie/wroclaw_3/wolowski HTTP/1.1" 200 None
+2023-04-24 21:49:06,608 INFO:REQUEST TIME: 0.92
+2023-04-24 21:49:06,650 INFO:SINGLE ITERATION TIME: 0.96
+2023-04-24 21:49:06,844 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/dolnoslaskie/wroclaw_3/wroclaw HTTP/1.1" 200 None
+2023-04-24 21:49:06,860 INFO:REQUEST TIME: 0.21
+2023-04-24 21:49:06,933 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-24 21:49:07,099 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/dolnoslaskie/wroclaw_3/wroclawski HTTP/1.1" 200 None
+2023-04-24 21:49:07,109 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:07,171 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:49:07,317 DEBUG:https://pis.org.pl:443 "GET /osoba/miroslawa_stachowiak_rozecka HTTP/1.1" 200 None
+2023-04-24 21:49:07,335 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:07,373 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:07,518 DEBUG:https://pis.org.pl:443 "GET /osoba/marcin_krzyzanowski HTTP/1.1" 200 None
+2023-04-24 21:49:07,527 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:07,556 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:07,699 DEBUG:https://pis.org.pl:443 "GET /osoba/rafal_rajczakowski HTTP/1.1" 200 None
+2023-04-24 21:49:07,705 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:07,734 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:07,885 DEBUG:https://pis.org.pl:443 "GET /osoba/maciej_muszynski HTTP/1.1" 200 None
+2023-04-24 21:49:07,897 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:07,926 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:08,060 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/aleksandrowski HTTP/1.1" 200 None
+2023-04-24 21:49:08,067 INFO:REQUEST TIME: 0.14
+2023-04-24 21:49:08,108 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:08,271 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/brodnicki HTTP/1.1" 200 None
+2023-04-24 21:49:08,283 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:08,328 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:08,468 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/chelminski HTTP/1.1" 200 None
+2023-04-24 21:49:08,474 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:08,518 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:08,660 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/golubsko_dobrzynski HTTP/1.1" 200 None
+2023-04-24 21:49:08,681 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:08,721 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:08,892 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/grudziadz HTTP/1.1" 200 None
+2023-04-24 21:49:08,921 INFO:REQUEST TIME: 0.2
+2023-04-24 21:49:09,099 INFO:SINGLE ITERATION TIME: 0.38
+2023-04-24 21:49:09,262 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/grudziadzki HTTP/1.1" 200 None
+2023-04-24 21:49:09,278 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:09,318 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:09,486 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/lipnowski HTTP/1.1" 200 None
+2023-04-24 21:49:09,503 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:09,556 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:49:09,715 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/radziejowski HTTP/1.1" 200 None
+2023-04-24 21:49:09,718 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:09,761 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:09,902 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/rypinski HTTP/1.1" 200 None
+2023-04-24 21:49:09,909 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:09,948 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:10,136 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/torun HTTP/1.1" 200 None
+2023-04-24 21:49:10,145 INFO:REQUEST TIME: 0.2
+2023-04-24 21:49:10,191 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:49:10,344 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/torunski HTTP/1.1" 200 None
+2023-04-24 21:49:10,352 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:10,396 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:10,543 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/wabrzeski HTTP/1.1" 200 None
+2023-04-24 21:49:10,551 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:10,593 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:10,733 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/wloclawek HTTP/1.1" 200 None
+2023-04-24 21:49:10,740 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:10,790 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:10,947 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/kujawsko-pomorskie/torun_5/wloclawski HTTP/1.1" 200 None
+2023-04-24 21:49:10,949 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:10,991 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:11,132 DEBUG:https://pis.org.pl:443 "GET /osoba/marzenna_drab HTTP/1.1" 404 None
+2023-04-24 21:49:11,141 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:11,153 INFO:SINGLE ITERATION TIME: 0.16
+2023-04-24 21:49:11,304 DEBUG:https://pis.org.pl:443 "GET /osoba/wojciech_klabun HTTP/1.1" 200 None
+2023-04-24 21:49:11,312 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:11,339 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:11,493 DEBUG:https://pis.org.pl:443 "GET /osoba/arkadiusz_stefaniak HTTP/1.1" 200 None
+2023-04-24 21:49:11,494 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:11,527 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:11,681 DEBUG:https://pis.org.pl:443 "GET /osoba/anna_mackowska HTTP/1.1" 200 None
+2023-04-24 21:49:11,689 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:11,720 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:11,897 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/bialski HTTP/1.1" 200 None
+2023-04-24 21:49:11,911 INFO:REQUEST TIME: 0.19
+2023-04-24 21:49:11,946 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:49:12,101 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/biala_podlaska HTTP/1.1" 200 None
+2023-04-24 21:49:12,105 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:12,141 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:12,313 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/bilgorajski HTTP/1.1" 200 None
+2023-04-24 21:49:12,322 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:12,413 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-24 21:49:12,560 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/chelm HTTP/1.1" 200 None
+2023-04-24 21:49:12,569 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:12,614 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:12,763 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/chelmski HTTP/1.1" 200 None
+2023-04-24 21:49:12,778 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:12,847 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:49:13,008 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/hrubieszowski HTTP/1.1" 200 None
+2023-04-24 21:49:13,018 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:13,077 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:49:13,241 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/krasnostawski HTTP/1.1" 200 None
+2023-04-24 21:49:13,249 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:13,422 INFO:SINGLE ITERATION TIME: 0.34
+2023-04-24 21:49:13,566 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/parczewski HTTP/1.1" 200 None
+2023-04-24 21:49:13,575 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:13,610 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:13,756 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/radzynski HTTP/1.1" 200 None
+2023-04-24 21:49:13,772 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:13,808 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:14,004 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/tomaszowski HTTP/1.1" 200 None
+2023-04-24 21:49:14,012 INFO:REQUEST TIME: 0.2
+2023-04-24 21:49:14,112 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-24 21:49:14,278 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/wlodawski HTTP/1.1" 200 None
+2023-04-24 21:49:14,287 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:14,337 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:14,502 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/zamojski_1 HTTP/1.1" 200 None
+2023-04-24 21:49:14,511 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:14,582 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:49:14,736 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubelskie/chelm_7/zamosc HTTP/1.1" 200 None
+2023-04-24 21:49:14,748 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:14,791 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:14,954 DEBUG:https://pis.org.pl:443 "GET /osoba/jacek_sasin HTTP/1.1" 200 None
+2023-04-24 21:49:14,972 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:15,000 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:15,149 DEBUG:https://pis.org.pl:443 "GET /osoba/grzegorz_tchorzewski HTTP/1.1" 200 None
+2023-04-24 21:49:15,159 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:15,190 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:15,337 DEBUG:https://pis.org.pl:443 "GET /osoba/piotr_zegadlo HTTP/1.1" 200 None
+2023-04-24 21:49:15,345 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:15,375 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:15,538 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/gorzowski HTTP/1.1" 200 None
+2023-04-24 21:49:15,544 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:15,598 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:15,783 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/gorzow_wielkopolski HTTP/1.1" 200 None
+2023-04-24 21:49:15,794 INFO:REQUEST TIME: 0.2
+2023-04-24 21:49:15,865 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-24 21:49:16,020 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/krosnienski_1 HTTP/1.1" 200 None
+2023-04-24 21:49:16,028 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:16,072 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:16,228 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/miedzyrzecki HTTP/1.1" 200 None
+2023-04-24 21:49:16,236 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:16,284 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:16,432 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/nowosolski HTTP/1.1" 200 None
+2023-04-24 21:49:16,442 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:16,502 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:16,648 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/slubicki HTTP/1.1" 200 None
+2023-04-24 21:49:16,657 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:16,707 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:16,874 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/strzelecko_drezdenecki HTTP/1.1" 200 None
+2023-04-24 21:49:16,876 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:16,929 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:17,082 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/sulecinski HTTP/1.1" 200 None
+2023-04-24 21:49:17,105 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:17,152 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:17,331 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/swiebodzinski HTTP/1.1" 200 None
+2023-04-24 21:49:17,332 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:17,833 INFO:SINGLE ITERATION TIME: 0.65
+2023-04-24 21:49:18,018 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/wschowski HTTP/1.1" 200 None
+2023-04-24 21:49:18,060 INFO:REQUEST TIME: 0.22
+2023-04-24 21:49:18,138 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-24 21:49:18,289 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/zielona_gora HTTP/1.1" 200 None
+2023-04-24 21:49:18,296 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:18,365 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:49:18,524 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/zielonogorski HTTP/1.1" 200 None
+2023-04-24 21:49:18,538 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:18,600 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:49:18,783 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/zaganski HTTP/1.1" 200 None
+2023-04-24 21:49:18,796 INFO:REQUEST TIME: 0.19
+2023-04-24 21:49:18,882 INFO:SINGLE ITERATION TIME: 0.28
+2023-04-24 21:49:19,049 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lubuskie/zielona_gora_8/zarski HTTP/1.1" 200 None
+2023-04-24 21:49:19,052 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:19,118 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:49:19,305 DEBUG:https://pis.org.pl:443 "GET /osoba/marek_ast HTTP/1.1" 200 None
+2023-04-24 21:49:19,314 INFO:REQUEST TIME: 0.2
+2023-04-24 21:49:19,344 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:19,494 DEBUG:https://pis.org.pl:443 "GET /osoba/grzegorz_mackowiak HTTP/1.1" 200 None
+2023-04-24 21:49:19,501 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:19,532 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:19,680 DEBUG:https://pis.org.pl:443 "GET /osoba/michal_zienkiewicz HTTP/1.1" 200 None
+2023-04-24 21:49:19,685 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:19,719 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:19,910 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/kutnowski HTTP/1.1" 200 None
+2023-04-24 21:49:19,926 INFO:REQUEST TIME: 0.21
+2023-04-24 21:49:19,969 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-24 21:49:20,128 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/laski HTTP/1.1" 200 None
+2023-04-24 21:49:20,134 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:20,185 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:20,336 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/leczycki HTTP/1.1" 200 None
+2023-04-24 21:49:20,423 INFO:REQUEST TIME: 0.24
+2023-04-24 21:49:20,461 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-24 21:49:20,621 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/lowicki HTTP/1.1" 200 None
+2023-04-24 21:49:20,631 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:20,685 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:20,841 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/pabianicki HTTP/1.1" 200 None
+2023-04-24 21:49:20,847 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:20,896 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:21,042 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/pajeczanski HTTP/1.1" 200 None
+2023-04-24 21:49:21,049 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:21,104 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:21,244 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/poddebicki HTTP/1.1" 200 None
+2023-04-24 21:49:21,252 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:21,290 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:21,439 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/sieradzki HTTP/1.1" 200 None
+2023-04-24 21:49:21,447 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:21,510 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:21,653 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/wielunski HTTP/1.1" 200 None
+2023-04-24 21:49:21,661 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:21,713 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:21,861 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/wieruszowski HTTP/1.1" 200 None
+2023-04-24 21:49:21,868 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:22,035 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-24 21:49:22,196 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/zdunskowolski HTTP/1.1" 200 None
+2023-04-24 21:49:22,204 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:22,254 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:22,418 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/lodzkie/sieradz_11/zgierski HTTP/1.1" 200 None
+2023-04-24 21:49:22,426 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:22,520 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-24 21:49:22,660 DEBUG:https://pis.org.pl:443 "GET /osoba/grzegorz_schreiber HTTP/1.1" 200 None
+2023-04-24 21:49:22,667 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:22,695 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:22,839 DEBUG:https://pis.org.pl:443 "GET /osoba/sebastian_bulak HTTP/1.1" 200 None
+2023-04-24 21:49:22,845 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:22,876 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:23,049 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/malopolskie/tarnow_15/bochenski HTTP/1.1" 200 None
+2023-04-24 21:49:23,059 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:23,135 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-24 21:49:23,285 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/malopolskie/tarnow_15/brzeski_1 HTTP/1.1" 200 None
+2023-04-24 21:49:23,299 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:23,352 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:23,497 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/malopolskie/tarnow_15/dabrowski HTTP/1.1" 200 None
+2023-04-24 21:49:23,504 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:23,556 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:23,702 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/malopolskie/tarnow_15/proszowicki HTTP/1.1" 200 None
+2023-04-24 21:49:23,710 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:23,767 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:23,936 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/malopolskie/tarnow_15/tarnowski HTTP/1.1" 200 None
+2023-04-24 21:49:23,939 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:24,033 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-24 21:49:24,196 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/malopolskie/tarnow_15/tarnow HTTP/1.1" 200 None
+2023-04-24 21:49:24,197 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:24,289 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-24 21:49:24,463 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/malopolskie/tarnow_15/wielicki HTTP/1.1" 200 None
+2023-04-24 21:49:24,562 INFO:REQUEST TIME: 0.27
+2023-04-24 21:49:24,673 INFO:SINGLE ITERATION TIME: 0.38
+2023-04-24 21:49:24,851 DEBUG:https://pis.org.pl:443 "GET /osoba/wieslaw_krajewski HTTP/1.1" 200 None
+2023-04-24 21:49:24,856 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:24,920 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:49:25,081 DEBUG:https://pis.org.pl:443 "GET /osoba/dariusz_pietruszka HTTP/1.1" 200 None
+2023-04-24 21:49:25,089 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:25,123 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:25,271 DEBUG:https://pis.org.pl:443 "GET /osoba/mateusz_janiczek HTTP/1.1" 200 None
+2023-04-24 21:49:25,279 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:25,309 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:25,476 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/mazowieckie/warszawa_20/grodziski_1 HTTP/1.1" 200 None
+2023-04-24 21:49:25,483 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:25,539 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:49:25,707 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/mazowieckie/warszawa_20/legionowski HTTP/1.1" 200 None
+2023-04-24 21:49:25,708 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:25,759 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:25,912 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/mazowieckie/warszawa_20/nowodworski_1 HTTP/1.1" 200 None
+2023-04-24 21:49:25,914 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:26,078 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-24 21:49:26,229 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/mazowieckie/warszawa_20/otwocki HTTP/1.1" 200 None
+2023-04-24 21:49:26,272 INFO:REQUEST TIME: 0.19
+2023-04-24 21:49:26,338 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-24 21:49:26,487 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/mazowieckie/warszawa_20/piaseczynski HTTP/1.1" 200 None
+2023-04-24 21:49:26,497 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:26,547 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:26,698 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/mazowieckie/warszawa_20/pruszkowski HTTP/1.1" 200 None
+2023-04-24 21:49:26,705 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:26,768 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:26,935 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/mazowieckie/warszawa_20/warszawski_zachodni HTTP/1.1" 200 None
+2023-04-24 21:49:26,944 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:27,008 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:49:27,168 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/mazowieckie/warszawa_20/wolominski HTTP/1.1" 200 None
+2023-04-24 21:49:27,176 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:27,296 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-24 21:49:27,448 DEBUG:https://pis.org.pl:443 "GET /osoba/michal_proszynski HTTP/1.1" 200 None
+2023-04-24 21:49:27,454 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:27,484 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:27,641 DEBUG:https://pis.org.pl:443 "GET /osoba/michal_szpadrowski HTTP/1.1" 200 None
+2023-04-24 21:49:27,649 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:27,678 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:27,817 DEBUG:https://pis.org.pl:443 "GET /osoba/lukasz_golebiowski HTTP/1.1" 200 None
+2023-04-24 21:49:27,834 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:27,877 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:28,024 DEBUG:https://pis.org.pl:443 "GET /osoba/piotr_milowanski HTTP/1.1" 200 None
+2023-04-24 21:49:28,032 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:28,063 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:28,210 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/brzeski HTTP/1.1" 200 None
+2023-04-24 21:49:28,226 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:28,261 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:28,416 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/glubczycki HTTP/1.1" 200 None
+2023-04-24 21:49:28,421 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:28,463 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:28,619 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/kedzierzynsko_kozielski HTTP/1.1" 200 None
+2023-04-24 21:49:28,626 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:28,672 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:28,814 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/kluczborski HTTP/1.1" 200 None
+2023-04-24 21:49:28,819 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:28,856 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:29,000 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/krapkowicki HTTP/1.1" 200 None
+2023-04-24 21:49:29,006 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:29,041 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:29,188 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/namyslowski HTTP/1.1" 200 None
+2023-04-24 21:49:29,199 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:29,235 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:29,378 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/nyski HTTP/1.1" 200 None
+2023-04-24 21:49:29,386 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:29,434 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:29,585 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/oleski HTTP/1.1" 200 None
+2023-04-24 21:49:29,586 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:29,624 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:29,769 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/opole HTTP/1.1" 200 None
+2023-04-24 21:49:29,777 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:29,817 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:29,985 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/opolski HTTP/1.1" 200 None
+2023-04-24 21:49:29,993 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:30,163 INFO:SINGLE ITERATION TIME: 0.35
+2023-04-24 21:49:30,311 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/prudnicki HTTP/1.1" 200 None
+2023-04-24 21:49:30,313 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:30,348 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:30,508 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/opolskie/opole_21/strzelecki HTTP/1.1" 200 None
+2023-04-24 21:49:30,515 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:30,552 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:30,713 DEBUG:https://pis.org.pl:443 "GET /osoba/violetta_porowska HTTP/1.1" 200 None
+2023-04-24 21:49:30,720 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:30,748 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:30,902 DEBUG:https://pis.org.pl:443 "GET /osoba/janusz_strzalka HTTP/1.1" 200 None
+2023-04-24 21:49:30,910 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:30,939 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:31,101 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/debicki HTTP/1.1" 200 None
+2023-04-24 21:49:31,109 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:31,179 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:49:31,336 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/kolbuszowski HTTP/1.1" 200 None
+2023-04-24 21:49:31,343 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:31,382 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:31,531 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/lezajski HTTP/1.1" 200 None
+2023-04-24 21:49:31,539 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:31,578 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:31,734 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/lancucki HTTP/1.1" 200 None
+2023-04-24 21:49:31,735 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:31,793 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:31,954 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/mielecki HTTP/1.1" 200 None
+2023-04-24 21:49:31,960 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:32,050 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-24 21:49:32,199 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/nizanski HTTP/1.1" 200 None
+2023-04-24 21:49:32,206 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:32,247 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:32,420 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/ropczycko_sedziszowski HTTP/1.1" 200 None
+2023-04-24 21:49:32,427 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:32,470 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:32,616 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/rzeszowski HTTP/1.1" 200 None
+2023-04-24 21:49:32,623 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:32,696 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:32,849 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/rzeszow HTTP/1.1" 200 None
+2023-04-24 21:49:32,856 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:32,929 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:49:33,083 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/stalowowolski HTTP/1.1" 200 None
+2023-04-24 21:49:33,091 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:33,132 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:33,277 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/strzyzowski HTTP/1.1" 200 None
+2023-04-24 21:49:33,282 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:33,346 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:33,503 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/tarnobrzeg HTTP/1.1" 200 None
+2023-04-24 21:49:33,509 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:33,549 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:33,705 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podkarpackie/rzeszow_23/tarnobrzeski HTTP/1.1" 200 None
+2023-04-24 21:49:33,713 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:33,748 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:33,892 DEBUG:https://pis.org.pl:443 "GET /osoba/wladyslaw_ortyl HTTP/1.1" 200 None
+2023-04-24 21:49:33,900 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:33,935 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:34,377 DEBUG:https://pis.org.pl:443 "GET /osoba/antoni_bladek_1 HTTP/1.1" 200 None
+2023-04-24 21:49:34,378 INFO:REQUEST TIME: 0.44
+2023-04-24 21:49:34,833 INFO:SINGLE ITERATION TIME: 0.79
+2023-04-24 21:49:35,003 DEBUG:https://pis.org.pl:443 "GET /osoba/andrzej_paniw HTTP/1.1" 200 None
+2023-04-24 21:49:35,008 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:35,048 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:35,204 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/augustowski HTTP/1.1" 200 None
+2023-04-24 21:49:35,211 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:35,250 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:35,394 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/bialostocki HTTP/1.1" 200 None
+2023-04-24 21:49:35,401 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:35,448 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:35,597 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/bialystok HTTP/1.1" 200 None
+2023-04-24 21:49:35,609 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:35,647 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:35,799 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/bielski HTTP/1.1" 200 None
+2023-04-24 21:49:35,806 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:35,845 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:36,000 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/grajewski HTTP/1.1" 200 None
+2023-04-24 21:49:36,007 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:36,049 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:36,194 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/hajnowski HTTP/1.1" 200 None
+2023-04-24 21:49:36,201 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:36,237 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:36,396 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/kolnenski HTTP/1.1" 200 None
+2023-04-24 21:49:36,397 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:36,430 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:36,573 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/lomza HTTP/1.1" 200 None
+2023-04-24 21:49:36,581 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:36,617 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:36,761 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/lomzynski HTTP/1.1" 200 None
+2023-04-24 21:49:36,769 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:36,804 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:36,946 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/moniecki HTTP/1.1" 200 None
+2023-04-24 21:49:36,953 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:36,988 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:37,139 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/sejnenski HTTP/1.1" 200 None
+2023-04-24 21:49:37,146 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:37,179 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:37,326 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/siemiatycki HTTP/1.1" 200 None
+2023-04-24 21:49:37,333 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:37,369 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:37,530 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/sokolski HTTP/1.1" 200 None
+2023-04-24 21:49:37,537 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:37,570 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:37,711 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/suwalski HTTP/1.1" 200 None
+2023-04-24 21:49:37,718 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:37,753 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:37,895 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/suwalki HTTP/1.1" 200 None
+2023-04-24 21:49:37,902 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:37,936 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:38,098 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/wysokomazowiecki HTTP/1.1" 200 None
+2023-04-24 21:49:38,109 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:38,145 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:38,301 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/podlaskie/bialystok_24/zambrowski HTTP/1.1" 200 None
+2023-04-24 21:49:38,313 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:38,354 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:38,503 DEBUG:https://pis.org.pl:443 "GET /osoba/dariusz_piontkowski HTTP/1.1" 200 None
+2023-04-24 21:49:38,505 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:38,534 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:38,684 DEBUG:https://pis.org.pl:443 "GET /osoba/wojciech_nierodzik HTTP/1.1" 200 None
+2023-04-24 21:49:38,685 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:38,715 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:38,866 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/pomorskie/slupsk_26/bytowski HTTP/1.1" 200 None
+2023-04-24 21:49:38,874 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:38,927 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:39,084 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/pomorskie/slupsk_26/chojnicki HTTP/1.1" 200 None
+2023-04-24 21:49:39,092 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:39,136 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:39,298 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/pomorskie/slupsk_26/czluchowski HTTP/1.1" 200 None
+2023-04-24 21:49:39,315 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:39,362 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:39,508 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/pomorskie/slupsk_26/leborski HTTP/1.1" 200 None
+2023-04-24 21:49:39,521 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:39,695 INFO:SINGLE ITERATION TIME: 0.33
+2023-04-24 21:49:39,845 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/pomorskie/slupsk_26/slupsk HTTP/1.1" 200 None
+2023-04-24 21:49:39,855 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:39,900 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:40,048 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/pomorskie/slupsk_26/slupski HTTP/1.1" 200 None
+2023-04-24 21:49:40,055 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:40,095 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:40,261 DEBUG:https://pis.org.pl:443 "GET /osoba/aleksander_mrowczynski HTTP/1.1" 200 None
+2023-04-24 21:49:40,270 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:40,299 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:40,444 DEBUG:https://pis.org.pl:443 "GET /osoba/mariusz_luczyk HTTP/1.1" 200 None
+2023-04-24 21:49:40,453 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:40,482 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:40,657 DEBUG:https://pis.org.pl:443 "GET /osoba/robert_kujawski HTTP/1.1" 200 None
+2023-04-24 21:49:40,670 INFO:REQUEST TIME: 0.19
+2023-04-24 21:49:40,699 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:40,850 DEBUG:https://pis.org.pl:443 "GET /osoba/jacek_zabiegly HTTP/1.1" 200 None
+2023-04-24 21:49:40,859 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:40,889 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:41,030 DEBUG:https://pis.org.pl:443 "GET /osoba/tadeusz_bobrowski HTTP/1.1" 200 None
+2023-04-24 21:49:41,037 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:41,066 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:41,206 DEBUG:https://pis.org.pl:443 "GET /osoba/beata_izylowska HTTP/1.1" 200 None
+2023-04-24 21:49:41,220 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:41,249 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:41,396 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/slaskie/sosnowiec_32/bedzinski HTTP/1.1" 200 None
+2023-04-24 21:49:41,405 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:41,453 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:41,612 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/slaskie/sosnowiec_32/dabrowa_gornicza HTTP/1.1" 200 None
+2023-04-24 21:49:41,621 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:41,662 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:41,809 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/slaskie/sosnowiec_32/jaworzno HTTP/1.1" 200 None
+2023-04-24 21:49:41,816 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:41,858 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:42,051 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/slaskie/sosnowiec_32/sosnowiec HTTP/1.1" 200 None
+2023-04-24 21:49:42,060 INFO:REQUEST TIME: 0.2
+2023-04-24 21:49:42,100 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:49:42,250 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/slaskie/sosnowiec_32/zawiercianski HTTP/1.1" 200 None
+2023-04-24 21:49:42,256 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:42,305 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:42,450 DEBUG:https://pis.org.pl:443 "GET /osoba/ewa_malik HTTP/1.1" 200 None
+2023-04-24 21:49:42,458 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:42,489 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:42,632 DEBUG:https://pis.org.pl:443 "GET /osoba/jacek_dudek HTTP/1.1" 200 None
+2023-04-24 21:49:42,640 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:42,668 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:42,841 DEBUG:https://pis.org.pl:443 "GET /osoba/dariusz_chajduga HTTP/1.1" 200 None
+2023-04-24 21:49:42,866 INFO:REQUEST TIME: 0.2
+2023-04-24 21:49:42,896 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:49:43,039 DEBUG:https://pis.org.pl:443 "GET /osoba/kamil_jaszczak HTTP/1.1" 200 None
+2023-04-24 21:49:43,046 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:43,073 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:43,234 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/buski HTTP/1.1" 200 None
+2023-04-24 21:49:43,241 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:43,281 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:43,428 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/jedrzejowski HTTP/1.1" 200 None
+2023-04-24 21:49:43,436 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:43,475 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:43,620 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/kazimierski HTTP/1.1" 200 None
+2023-04-24 21:49:43,627 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:43,678 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:43,848 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/kielce HTTP/1.1" 200 None
+2023-04-24 21:49:43,850 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:43,897 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:44,042 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/kielecki HTTP/1.1" 200 None
+2023-04-24 21:49:44,052 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:44,220 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-24 21:49:44,384 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/konecki HTTP/1.1" 200 None
+2023-04-24 21:49:44,392 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:44,444 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:44,593 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/opatowski HTTP/1.1" 200 None
+2023-04-24 21:49:44,599 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:44,644 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:44,800 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/ostrowiecki HTTP/1.1" 200 None
+2023-04-24 21:49:44,801 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:44,842 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:45,005 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/pinczowski HTTP/1.1" 200 None
+2023-04-24 21:49:45,013 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:45,050 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:45,211 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/sandomierski HTTP/1.1" 200 None
+2023-04-24 21:49:45,219 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:45,272 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:45,420 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/skarzyski HTTP/1.1" 200 None
+2023-04-24 21:49:45,426 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:45,476 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:45,635 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/starachowicki HTTP/1.1" 200 None
+2023-04-24 21:49:45,642 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:45,698 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:45,849 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/staszowski HTTP/1.1" 200 None
+2023-04-24 21:49:45,857 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:45,900 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:46,046 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/swietokrzyskie/kielce_33/wloszczowski HTTP/1.1" 200 None
+2023-04-24 21:49:46,052 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:46,097 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:46,239 DEBUG:https://pis.org.pl:443 "GET /osoba/krzysztof_lipiec HTTP/1.1" 200 None
+2023-04-24 21:49:46,244 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:46,272 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:46,416 DEBUG:https://pis.org.pl:443 "GET /osoba/andrzej_prus HTTP/1.1" 200 None
+2023-04-24 21:49:46,424 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:46,451 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:46,590 DEBUG:https://pis.org.pl:443 "GET /osoba/magdalena_zielen HTTP/1.1" 200 None
+2023-04-24 21:49:46,596 INFO:REQUEST TIME: 0.14
+2023-04-24 21:49:46,625 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:49:46,785 DEBUG:https://pis.org.pl:443 "GET /osoba/daniel_walas HTTP/1.1" 200 None
+2023-04-24 21:49:46,792 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:46,828 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:46,991 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/elcki HTTP/1.1" 200 None
+2023-04-24 21:49:46,996 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:47,033 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:47,199 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/gizycki_1 HTTP/1.1" 200 None
+2023-04-24 21:49:47,206 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:47,241 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:47,384 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/goldapski HTTP/1.1" 200 None
+2023-04-24 21:49:47,392 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:47,429 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:47,574 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/ketrzynski HTTP/1.1" 200 None
+2023-04-24 21:49:47,581 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:47,617 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:47,758 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/mragowski HTTP/1.1" 200 None
+2023-04-24 21:49:47,764 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:47,801 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:47,959 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/nidzicki HTTP/1.1" 200 None
+2023-04-24 21:49:47,963 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:47,999 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:48,153 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/olecki HTTP/1.1" 200 None
+2023-04-24 21:49:48,158 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:48,304 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-24 21:49:48,447 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/olsztyn HTTP/1.1" 200 None
+2023-04-24 21:49:48,453 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:48,489 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:48,646 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/olsztynski HTTP/1.1" 200 None
+2023-04-24 21:49:48,650 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:48,687 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:48,831 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/piski HTTP/1.1" 200 None
+2023-04-24 21:49:48,839 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:48,875 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:49,024 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/szczycienski HTTP/1.1" 200 None
+2023-04-24 21:49:49,030 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:49,067 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:49,221 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/warminsko-mazurskie/olsztyn_35/wegorzewski HTTP/1.1" 200 None
+2023-04-24 21:49:49,228 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:49,264 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:49,410 DEBUG:https://pis.org.pl:443 "GET /osoba/jerzy_szmit HTTP/1.1" 200 None
+2023-04-24 21:49:49,418 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:49,446 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:49,594 DEBUG:https://pis.org.pl:443 "GET /osoba/radoslaw_marcin_nojman HTTP/1.1" 200 None
+2023-04-24 21:49:49,600 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:49,627 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:49,769 DEBUG:https://pis.org.pl:443 "GET /osoba/dariusz_rudnik HTTP/1.1" 200 None
+2023-04-24 21:49:49,774 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:49,802 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:49:49,949 DEBUG:https://pis.org.pl:443 "GET /osoba/marcin_sliwinski HTTP/1.1" 200 None
+2023-04-24 21:49:49,957 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:49,987 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:50,236 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/wielkopolskie/poznan_39/poznanski HTTP/1.1" 200 None
+2023-04-24 21:49:50,237 INFO:REQUEST TIME: 0.25
+2023-04-24 21:49:50,301 INFO:SINGLE ITERATION TIME: 0.31
+2023-04-24 21:49:50,464 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/wielkopolskie/poznan_39/poznan HTTP/1.1" 200 None
+2023-04-24 21:49:50,470 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:50,528 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:49:50,665 DEBUG:https://pis.org.pl:443 "GET /osoba/szymon_szynkowski_vel_sek HTTP/1.1" 200 None
+2023-04-24 21:49:50,672 INFO:REQUEST TIME: 0.14
+2023-04-24 21:49:50,701 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:49:50,853 DEBUG:https://pis.org.pl:443 "GET /osoba/joanna_szczechowska HTTP/1.1" 200 None
+2023-04-24 21:49:50,860 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:50,890 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:51,046 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie/szczecin_41/goleniowski HTTP/1.1" 200 None
+2023-04-24 21:49:51,054 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:51,100 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:51,249 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie/szczecin_41/gryficki HTTP/1.1" 200 None
+2023-04-24 21:49:51,256 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:51,296 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:51,447 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie/szczecin_41/gryfinski HTTP/1.1" 200 None
+2023-04-24 21:49:51,453 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:51,506 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:51,657 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie/szczecin_41/kamienski HTTP/1.1" 200 None
+2023-04-24 21:49:51,665 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:51,705 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:51,853 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie/szczecin_41/lobeski HTTP/1.1" 200 None
+2023-04-24 21:49:51,861 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:51,903 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:52,052 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie/szczecin_41/mysliborski HTTP/1.1" 200 None
+2023-04-24 21:49:52,059 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:52,111 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:52,266 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie/szczecin_41/policki HTTP/1.1" 200 None
+2023-04-24 21:49:52,273 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:52,314 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:52,468 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie/szczecin_41/pyrzycki HTTP/1.1" 200 None
+2023-04-24 21:49:52,473 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:52,607 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-24 21:49:52,760 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie/szczecin_41/stargardzki HTTP/1.1" 200 None
+2023-04-24 21:49:52,834 INFO:REQUEST TIME: 0.23
+2023-04-24 21:49:52,896 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-24 21:49:53,051 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie/szczecin_41/szczecin_1 HTTP/1.1" 200 None
+2023-04-24 21:49:53,059 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:53,108 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:53,256 DEBUG:https://pis.org.pl:443 "GET /partia/struktury-organizacyjne-temp/struktury-organizacyjne/zachodniopomorskie/szczecin_41/swinoujscie HTTP/1.1" 200 None
+2023-04-24 21:49:53,261 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:53,299 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:53,448 DEBUG:https://pis.org.pl:443 "GET /osoba/leszek_dobrzynski_1 HTTP/1.1" 200 None
+2023-04-24 21:49:53,458 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:53,486 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:53,639 DEBUG:https://pis.org.pl:443 "GET /osoba/witold_witkowski HTTP/1.1" 200 None
+2023-04-24 21:49:53,646 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:53,674 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:53,831 DEBUG:https://pis.org.pl:443 "GET /osoba/dariusz_klos HTTP/1.1" 200 None
+2023-04-24 21:49:53,842 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:53,872 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:54,031 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/po-chce-ograniczac-prawa-obywateli HTTP/1.1" 200 None
+2023-04-24 21:49:54,039 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:54,073 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:54,237 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/przyszlosc-to-polska-1 HTTP/1.1" 200 None
+2023-04-24 21:49:54,245 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:54,292 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:54,451 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/13-emerytura-bedzie-wyplacana-po-raz-piaty HTTP/1.1" 200 None
+2023-04-24 21:49:54,459 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:54,492 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:54,646 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/nie-daj-sie-oszukac-po HTTP/1.1" 200 None
+2023-04-24 21:49:54,655 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:54,685 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:54,851 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/wprowadzamy-kluczowe-ulatwienia HTTP/1.1" 200 None
+2023-04-24 21:49:54,859 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:54,892 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:55,039 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/donald-tusk-trwa-w-klamstwie HTTP/1.1" 200 None
+2023-04-24 21:49:55,046 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:55,076 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:55,217 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/wzmacniamy-polski-przemysl-zbrojeniowy HTTP/1.1" 200 None
+2023-04-24 21:49:55,225 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:55,254 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:55,447 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/sila-polskiego-pieniadza HTTP/1.1" 200 None
+2023-04-24 21:49:55,457 INFO:REQUEST TIME: 0.2
+2023-04-24 21:49:55,504 INFO:SINGLE ITERATION TIME: 0.25
+2023-04-24 21:49:55,673 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/kultura-tworzy-tozsamosc-narodu HTTP/1.1" 200 None
+2023-04-24 21:49:55,681 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:55,727 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:55,874 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/prawo-i-sprawiedliwosc-dba-o-dobro-narodu HTTP/1.1" 200 None
+2023-04-24 21:49:55,913 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:55,944 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:49:56,088 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/dbamy-o-polskie-sprawy HTTP/1.1" 200 None
+2023-04-24 21:49:56,096 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:56,128 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:56,265 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/z-jakiej-paki-tusk HTTP/1.1" 200 None
+2023-04-24 21:49:56,279 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:56,315 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:56,463 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/chronimy-polakow HTTP/1.1" 200 None
+2023-04-24 21:49:56,473 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:56,511 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:56,688 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/polska-rosnie-w-sile-1 HTTP/1.1" 200 None
+2023-04-24 21:49:56,787 INFO:REQUEST TIME: 0.28
+2023-04-24 21:49:56,834 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-24 21:49:57,007 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bezpieczna-polska-to-nasz-priorytet-1 HTTP/1.1" 200 None
+2023-04-24 21:49:57,050 INFO:REQUEST TIME: 0.22
+2023-04-24 21:49:57,098 INFO:SINGLE ITERATION TIME: 0.26
+2023-04-24 21:49:57,239 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/rzad-pis-odwrocil-wektory-polityczne-wobec-rosji HTTP/1.1" 200 None
+2023-04-24 21:49:57,247 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:57,279 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:57,430 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/rada-ministrow-przyjela-program-pierwsze-mieszkanie HTTP/1.1" 200 None
+2023-04-24 21:49:57,436 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:57,577 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-24 21:49:57,762 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/jestem-jedna-z-was HTTP/1.1" 200 None
+2023-04-24 21:49:57,806 INFO:REQUEST TIME: 0.23
+2023-04-24 21:49:57,846 INFO:SINGLE ITERATION TIME: 0.27
+2023-04-24 21:49:58,026 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/bronimy-wartosci HTTP/1.1" 200 None
+2023-04-24 21:49:58,035 INFO:REQUEST TIME: 0.19
+2023-04-24 21:49:58,076 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:49:58,243 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/przyszlosc-to-polska HTTP/1.1" 200 None
+2023-04-24 21:49:58,252 INFO:REQUEST TIME: 0.18
+2023-04-24 21:49:58,287 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:49:58,446 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/wizyta-w-arabii-saudyjskiej HTTP/1.1" 200 None
+2023-04-24 21:49:58,459 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:58,490 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:58,638 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/stabilne-finanse-publiczne HTTP/1.1" 200 None
+2023-04-24 21:49:58,645 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:58,688 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:58,837 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/po-chce-decydowac-o-naszej-wolnosci HTTP/1.1" 200 None
+2023-04-24 21:49:58,848 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:58,878 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:59,034 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/nie-zgadzamy-sie-z-zalozeniami-projektu-c40 HTTP/1.1" 200 None
+2023-04-24 21:49:59,041 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:59,077 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:59,231 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/rzad-pis-wspiera-i-dba-o-seniorow HTTP/1.1" 200 None
+2023-04-24 21:49:59,238 INFO:REQUEST TIME: 0.16
+2023-04-24 21:49:59,268 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:49:59,409 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/365-dni-wojny-na-ukrainie HTTP/1.1" 200 None
+2023-04-24 21:49:59,414 INFO:REQUEST TIME: 0.15
+2023-04-24 21:49:59,445 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:49:59,612 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/zwyciestwo-ukrainy-gwarantem-pokoju HTTP/1.1" 200 None
+2023-04-24 21:49:59,617 INFO:REQUEST TIME: 0.17
+2023-04-24 21:49:59,647 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:49:59,828 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/spotkanie-premiera-m-morawieckiego-z-prezydentem-usa-j-bidenem HTTP/1.1" 200 None
+2023-04-24 21:49:59,833 INFO:REQUEST TIME: 0.19
+2023-04-24 21:49:59,870 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:50:00,167 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/wywiad-z-prezesem-pis-jaroslawem-kaczynskim-15 HTTP/1.1" 200 None
+2023-04-24 21:50:00,179 INFO:REQUEST TIME: 0.31
+2023-04-24 21:50:00,209 INFO:SINGLE ITERATION TIME: 0.34
+2023-04-24 21:50:00,422 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/donald-tusk-dalej-milczy HTTP/1.1" 200 None
+2023-04-24 21:50:00,424 INFO:REQUEST TIME: 0.22
+2023-04-24 21:50:00,454 INFO:SINGLE ITERATION TIME: 0.24
+2023-04-24 21:50:00,614 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/wzmacniamy-polski-potencjal-zbrojeniowy-1 HTTP/1.1" 200 None
+2023-04-24 21:50:00,622 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:00,658 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:00,823 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/straz-pozarna-nasza-chluba-narodowa HTTP/1.1" 200 None
+2023-04-24 21:50:00,832 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:00,868 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:50:01,013 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/sojusz-nato-rosnie-w-sile HTTP/1.1" 200 None
+2023-04-24 21:50:01,020 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:01,053 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:01,199 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/wazne-rozmowy-na-radzie-europejskiej HTTP/1.1" 200 None
+2023-04-24 21:50:01,210 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:01,240 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:01,379 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/najwazniejszy-jest-rozwoj-polski HTTP/1.1" 200 None
+2023-04-24 21:50:01,385 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:01,414 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:50:01,559 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/klamstwa-tuska HTTP/1.1" 200 None
+2023-04-24 21:50:01,566 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:01,599 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:02,370 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=6 HTTP/1.1" 200 None
+2023-04-24 21:50:02,518 INFO:REQUEST TIME: 0.92
+2023-04-24 21:50:02,563 INFO:SINGLE ITERATION TIME: 0.96
+2023-04-24 21:50:02,711 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/rosja-nie-moze-zwyciezyc HTTP/1.1" 200 None
+2023-04-24 21:50:02,718 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:02,749 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:02,919 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/tusk-znaczy-bieda HTTP/1.1" 200 None
+2023-04-24 21:50:02,927 INFO:REQUEST TIME: 0.18
+2023-04-24 21:50:02,966 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:50:03,122 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/11-pytanie-do-donalda-tuska HTTP/1.1" 200 None
+2023-04-24 21:50:03,137 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:03,173 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:50:03,330 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/silna-armia-bezpieczna-polska HTTP/1.1" 200 None
+2023-04-24 21:50:03,338 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:03,370 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:03,533 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/jestesmy-swiadkami-gigantycznej-afery-w-pe HTTP/1.1" 200 None
+2023-04-24 21:50:03,539 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:03,663 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-24 21:50:03,821 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/edukacja-we-wspolczesnym-swiecie HTTP/1.1" 200 None
+2023-04-24 21:50:03,863 INFO:REQUEST TIME: 0.2
+2023-04-24 21:50:03,897 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:50:04,052 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/wspieramy-polski-przemysl HTTP/1.1" 200 None
+2023-04-24 21:50:04,059 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:04,102 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:04,247 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/10-pytan-do-donalda-tuska HTTP/1.1" 200 None
+2023-04-24 21:50:04,253 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:04,285 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:04,441 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/wegla-w-polsce-nie-brakuje HTTP/1.1" 200 None
+2023-04-24 21:50:04,447 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:04,478 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:04,628 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/nie-dla-euro-w-polsce HTTP/1.1" 200 None
+2023-04-24 21:50:04,631 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:04,662 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:04,802 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/rzad-pis-wspiera-samorzady HTTP/1.1" 200 None
+2023-04-24 21:50:04,811 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:04,844 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:04,982 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/beata-szydlo-o-raporcie-komisji-specjalnej HTTP/1.1" 200 None
+2023-04-24 21:50:04,989 INFO:REQUEST TIME: 0.14
+2023-04-24 21:50:05,020 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:05,731 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=7 HTTP/1.1" 200 None
+2023-04-24 21:50:05,823 INFO:REQUEST TIME: 0.8
+2023-04-24 21:50:05,870 INFO:SINGLE ITERATION TIME: 0.85
+2023-04-24 21:50:06,034 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/pis-na-czele-sondazu-tns-polska HTTP/1.1" 200 None
+2023-04-24 21:50:06,040 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:06,072 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:06,211 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/polska-ma-ogromy-potencjal HTTP/1.1" 200 None
+2023-04-24 21:50:06,217 INFO:REQUEST TIME: 0.14
+2023-04-24 21:50:06,247 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:50:06,413 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/szydlobus-rusza-w-polske HTTP/1.1" 200 None
+2023-04-24 21:50:06,425 INFO:REQUEST TIME: 0.18
+2023-04-24 21:50:06,456 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:50:06,614 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/beata-szydlo-spotkajmy-sie-w-drodze HTTP/1.1" 200 None
+2023-04-24 21:50:06,622 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:06,663 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:50:06,822 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/jesli-pis-zwyciezy-wybory-premierem-bedzie-beata-szydlo HTTP/1.1" 200 None
+2023-04-24 21:50:06,836 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:06,868 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:07,627 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=207 HTTP/1.1" 200 None
+2023-04-24 21:50:07,744 INFO:REQUEST TIME: 0.88
+2023-04-24 21:50:07,793 INFO:SINGLE ITERATION TIME: 0.93
+2023-04-24 21:50:08,564 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=204 HTTP/1.1" 200 None
+2023-04-24 21:50:08,703 INFO:REQUEST TIME: 0.91
+2023-04-24 21:50:08,752 INFO:SINGLE ITERATION TIME: 0.96
+2023-04-24 21:50:09,449 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=205 HTTP/1.1" 200 None
+2023-04-24 21:50:09,554 INFO:REQUEST TIME: 0.8
+2023-04-24 21:50:09,599 INFO:SINGLE ITERATION TIME: 0.85
+2023-04-24 21:50:10,360 DEBUG:https://pis.org.pl:443 "GET /aktualnosci?page=206 HTTP/1.1" 200 None
+2023-04-24 21:50:10,512 INFO:REQUEST TIME: 0.91
+2023-04-24 21:50:10,561 INFO:SINGLE ITERATION TIME: 0.96
+2023-04-24 21:50:10,667 DEBUG:https://pis.org.pl:443 "GET /document/archive/download/20 HTTP/1.1" 200 None
+2023-04-24 21:50:26,066 INFO:REQUEST TIME: 15.5
+2023-04-24 21:50:28,183 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:50:29,014 DEBUG:https://pis.org.pl:443 "GET /document/archive/download/513 HTTP/1.1" 200 None
+2023-04-24 21:50:41,346 INFO:REQUEST TIME: 12.49
+2023-04-24 21:50:43,473 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:50:44,330 DEBUG:https://pis.org.pl:443 "GET /document/archive/download/127 HTTP/1.1" 200 None
+2023-04-24 21:50:46,328 INFO:REQUEST TIME: 2.16
+2023-04-24 21:50:46,928 DEBUG:Encoding detection: Unable to determine any suitable charset.
+2023-04-24 21:50:47,199 DEBUG:https://pis.org.pl:443 "GET /biura?page=2 HTTP/1.1" 200 None
+2023-04-24 21:50:47,207 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:47,271 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:50:47,412 DEBUG:https://pis.org.pl:443 "GET /biura?page=1 HTTP/1.1" 200 None
+2023-04-24 21:50:47,420 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:47,465 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:47,617 DEBUG:https://pis.org.pl:443 "GET /biura?page=3 HTTP/1.1" 200 None
+2023-04-24 21:50:47,625 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:47,670 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:50:47,813 DEBUG:https://pis.org.pl:443 "GET /biura?page=4 HTTP/1.1" 200 None
+2023-04-24 21:50:47,820 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:47,854 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:47,997 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/przyjeto-9-pakiet-sankcji-dla-rosji HTTP/1.1" 200 None
+2023-04-24 21:50:48,022 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:48,170 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-24 21:50:48,336 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/chcemy-aby-polska-trwala HTTP/1.1" 200 None
+2023-04-24 21:50:48,354 INFO:REQUEST TIME: 0.18
+2023-04-24 21:50:48,390 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:50:48,540 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/realizujemy-obiecany-program HTTP/1.1" 200 None
+2023-04-24 21:50:48,548 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:48,589 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:48,737 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/zrobimy-wszystko-zeby-zwyciezyc HTTP/1.1" 200 None
+2023-04-24 21:50:48,745 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:48,785 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:48,940 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/polska-grupa-zbrojeniowa-gwarantem-bezpieczenstwa-naszej-ojczyzny HTTP/1.1" 200 None
+2023-04-24 21:50:48,952 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:48,981 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:49,134 DEBUG:https://pis.org.pl:443 "GET /aktualnosci/szosty-pakiet-sankcji-zostal-uzgodniony HTTP/1.1" 200 None
+2023-04-24 21:50:49,143 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:49,177 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:49,373 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/prezydium_partii?type=list HTTP/1.1" 200 None
+2023-04-24 21:50:49,375 INFO:REQUEST TIME: 0.2
+2023-04-24 21:50:49,409 INFO:SINGLE ITERATION TIME: 0.23
+2023-04-24 21:50:50,023 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/prezydium_partii?type=box HTTP/1.1" 200 None
+2023-04-24 21:50:50,029 INFO:REQUEST TIME: 0.62
+2023-04-24 21:50:50,067 INFO:SINGLE ITERATION TIME: 0.66
+2023-04-24 21:50:50,216 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/rada_polityczna?type=list HTTP/1.1" 200 None
+2023-04-24 21:50:50,223 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:50,358 INFO:SINGLE ITERATION TIME: 0.29
+2023-04-24 21:50:50,528 DEBUG:https://pis.org.pl:443 "GET /partia/wladze-ludzie/rada_polityczna?type=box HTTP/1.1" 200 None
+2023-04-24 21:50:50,543 INFO:REQUEST TIME: 0.18
+2023-04-24 21:50:50,676 INFO:SINGLE ITERATION TIME: 0.32
+2023-04-24 21:50:50,826 DEBUG:https://pis.org.pl:443 "GET /osoba/andrzej_aleksandrowicz HTTP/1.1" 200 None
+2023-04-24 21:50:50,827 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:50,862 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:51,003 DEBUG:https://pis.org.pl:443 "GET /osoba/jerzy_bauer HTTP/1.1" 200 None
+2023-04-24 21:50:51,008 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:51,038 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:51,188 DEBUG:https://pis.org.pl:443 "GET /osoba/andrzej_betkowski HTTP/1.1" 200 None
+2023-04-24 21:50:51,195 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:51,223 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:51,363 DEBUG:https://pis.org.pl:443 "GET /osoba/stefania_biernat HTTP/1.1" 200 None
+2023-04-24 21:50:51,370 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:51,399 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:51,549 DEBUG:https://pis.org.pl:443 "GET /osoba/piotr_blazewicz HTTP/1.1" 200 None
+2023-04-24 21:50:51,561 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:51,589 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:51,750 DEBUG:https://pis.org.pl:443 "GET /osoba/adam_bogrycewicz HTTP/1.1" 200 None
+2023-04-24 21:50:51,762 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:51,790 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:51,957 DEBUG:https://pis.org.pl:443 "GET /osoba/marek_boguslawski HTTP/1.1" 200 None
+2023-04-24 21:50:51,962 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:52,000 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:50:52,159 DEBUG:https://pis.org.pl:443 "GET /osoba/henryk_carewicz HTTP/1.1" 200 None
+2023-04-24 21:50:52,165 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:52,192 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:52,354 DEBUG:https://pis.org.pl:443 "GET /osoba/jaroslaw_chmielewski HTTP/1.1" 200 None
+2023-04-24 21:50:52,361 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:52,389 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:52,530 DEBUG:https://pis.org.pl:443 "GET /osoba/krzysztof_chojnacki HTTP/1.1" 200 None
+2023-04-24 21:50:52,536 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:52,564 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:50:52,704 DEBUG:https://pis.org.pl:443 "GET /osoba/dawid_chrobak HTTP/1.1" 200 None
+2023-04-24 21:50:52,714 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:52,741 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:52,889 DEBUG:https://pis.org.pl:443 "GET /osoba/jan_chrzaszcz HTTP/1.1" 200 None
+2023-04-24 21:50:52,898 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:53,045 INFO:SINGLE ITERATION TIME: 0.3
+2023-04-24 21:50:53,198 DEBUG:https://pis.org.pl:443 "GET /osoba/piotr_czarnynoga HTTP/1.1" 200 None
+2023-04-24 21:50:53,206 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:53,235 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:53,386 DEBUG:https://pis.org.pl:443 "GET /osoba/dariusz_czechowski HTTP/1.1" 200 None
+2023-04-24 21:50:53,394 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:53,422 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:53,564 DEBUG:https://pis.org.pl:443 "GET /osoba/wladyslaw_dajczak HTTP/1.1" 200 None
+2023-04-24 21:50:53,571 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:53,601 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:53,757 DEBUG:https://pis.org.pl:443 "GET /osoba/roman_dambek HTTP/1.1" 200 None
+2023-04-24 21:50:53,769 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:53,802 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:53,954 DEBUG:https://pis.org.pl:443 "GET /osoba/sylwester_dabrowski HTTP/1.1" 200 None
+2023-04-24 21:50:53,961 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:53,991 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:54,147 DEBUG:https://pis.org.pl:443 "GET /osoba/dariusz_drelich HTTP/1.1" 200 None
+2023-04-24 21:50:54,154 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:54,182 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:54,335 DEBUG:https://pis.org.pl:443 "GET /osoba/kazimierz_drzazga HTTP/1.1" 200 None
+2023-04-24 21:50:54,342 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:54,371 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:54,546 DEBUG:https://pis.org.pl:443 "GET /osoba/zbigniew_duda HTTP/1.1" 200 None
+2023-04-24 21:50:54,561 INFO:REQUEST TIME: 0.19
+2023-04-24 21:50:54,591 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:50:54,736 DEBUG:https://pis.org.pl:443 "GET /osoba/dariusz_figura HTTP/1.1" 200 None
+2023-04-24 21:50:54,743 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:54,771 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:54,914 DEBUG:https://pis.org.pl:443 "GET /osoba/marcin_fijolek HTTP/1.1" 200 None
+2023-04-24 21:50:54,924 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:54,961 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:55,108 DEBUG:https://pis.org.pl:443 "GET /osoba/zdzislaw_filip HTTP/1.1" 200 None
+2023-04-24 21:50:55,115 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:55,146 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:55,300 DEBUG:https://pis.org.pl:443 "GET /osoba/jan_frania HTTP/1.1" 200 None
+2023-04-24 21:50:55,336 INFO:REQUEST TIME: 0.19
+2023-04-24 21:50:55,364 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:50:55,536 DEBUG:https://pis.org.pl:443 "GET /osoba/miroslaw_gebski HTTP/1.1" 200 None
+2023-04-24 21:50:55,543 INFO:REQUEST TIME: 0.18
+2023-04-24 21:50:55,577 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:50:55,733 DEBUG:https://pis.org.pl:443 "GET /osoba/renata_godyn_swedziol HTTP/1.1" 200 None
+2023-04-24 21:50:55,746 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:55,774 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:55,916 DEBUG:https://pis.org.pl:443 "GET /osoba/pawel_grzybowski HTTP/1.1" 200 None
+2023-04-24 21:50:55,924 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:55,961 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:56,110 DEBUG:https://pis.org.pl:443 "GET /osoba/wieslaw_holaczuk HTTP/1.1" 200 None
+2023-04-24 21:50:56,118 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:56,148 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:56,321 DEBUG:https://pis.org.pl:443 "GET /osoba/andrzej_hutnik HTTP/1.1" 200 None
+2023-04-24 21:50:56,329 INFO:REQUEST TIME: 0.18
+2023-04-24 21:50:56,357 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:50:56,496 DEBUG:https://pis.org.pl:443 "GET /osoba/miroslaw_jamrozy HTTP/1.1" 200 None
+2023-04-24 21:50:56,503 INFO:REQUEST TIME: 0.14
+2023-04-24 21:50:56,531 INFO:SINGLE ITERATION TIME: 0.17
+2023-04-24 21:50:56,674 DEBUG:https://pis.org.pl:443 "GET /osoba/andrzej_jaroch HTTP/1.1" 200 None
+2023-04-24 21:50:56,680 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:56,711 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:56,857 DEBUG:https://pis.org.pl:443 "GET /osoba/cezary_jurkiewicz HTTP/1.1" 200 None
+2023-04-24 21:50:56,865 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:56,894 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:57,035 DEBUG:https://pis.org.pl:443 "GET /osoba/jaroslaw_jurzak HTTP/1.1" 200 None
+2023-04-24 21:50:57,042 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:57,072 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:57,227 DEBUG:https://pis.org.pl:443 "GET /osoba/kamil_kalinka HTTP/1.1" 200 None
+2023-04-24 21:50:57,242 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:57,270 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:57,413 DEBUG:https://pis.org.pl:443 "GET /osoba/artur_kaminski HTTP/1.1" 200 None
+2023-04-24 21:50:57,420 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:57,453 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:57,609 DEBUG:https://pis.org.pl:443 "GET /osoba/dariusz_kaskow HTTP/1.1" 200 None
+2023-04-24 21:50:57,615 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:57,646 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:57,803 DEBUG:https://pis.org.pl:443 "GET /osoba/marcin_kazimierczuk HTTP/1.1" 200 None
+2023-04-24 21:50:57,809 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:57,837 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:57,989 DEBUG:https://pis.org.pl:443 "GET /osoba/wojciech_komarzynski HTTP/1.1" 200 None
+2023-04-24 21:50:57,996 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:58,025 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:58,182 DEBUG:https://pis.org.pl:443 "GET /osoba/magdalena_kopacz HTTP/1.1" 200 None
+2023-04-24 21:50:58,195 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:58,226 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:58,376 DEBUG:https://pis.org.pl:443 "GET /osoba/marcin_kosiorek HTTP/1.1" 200 None
+2023-04-24 21:50:58,382 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:58,411 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:58,564 DEBUG:https://pis.org.pl:443 "GET /osoba/jakub_kowalski HTTP/1.1" 200 None
+2023-04-24 21:50:58,575 INFO:REQUEST TIME: 0.16
+2023-04-24 21:50:58,604 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:50:58,795 DEBUG:https://pis.org.pl:443 "GET /osoba/pawel_koziol HTTP/1.1" 200 None
+2023-04-24 21:50:58,796 INFO:REQUEST TIME: 0.19
+2023-04-24 21:50:58,918 INFO:SINGLE ITERATION TIME: 0.31
+2023-04-24 21:50:59,063 DEBUG:https://pis.org.pl:443 "GET /osoba/jaroslaw_kresa HTTP/1.1" 200 None
+2023-04-24 21:50:59,071 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:59,099 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:59,244 DEBUG:https://pis.org.pl:443 "GET /osoba/grzegorz_krukowski HTTP/1.1" 200 None
+2023-04-24 21:50:59,251 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:59,285 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:59,443 DEBUG:https://pis.org.pl:443 "GET /osoba/helena_krupska HTTP/1.1" 200 None
+2023-04-24 21:50:59,454 INFO:REQUEST TIME: 0.17
+2023-04-24 21:50:59,482 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:50:59,625 DEBUG:https://pis.org.pl:443 "GET /osoba/wojciech_kudelski HTTP/1.1" 200 None
+2023-04-24 21:50:59,632 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:59,660 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:59,800 DEBUG:https://pis.org.pl:443 "GET /osoba/roman_kulczycki HTTP/1.1" 200 None
+2023-04-24 21:50:59,807 INFO:REQUEST TIME: 0.15
+2023-04-24 21:50:59,839 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:50:59,996 DEBUG:https://pis.org.pl:443 "GET /osoba/wioletta_kulpa HTTP/1.1" 200 None
+2023-04-24 21:51:00,014 INFO:REQUEST TIME: 0.18
+2023-04-24 21:51:00,054 INFO:SINGLE ITERATION TIME: 0.21
+2023-04-24 21:51:00,218 DEBUG:https://pis.org.pl:443 "GET /osoba/zbigniew_kurzelewski HTTP/1.1" 200 None
+2023-04-24 21:51:00,244 INFO:REQUEST TIME: 0.19
+2023-04-24 21:51:00,274 INFO:SINGLE ITERATION TIME: 0.22
+2023-04-24 21:51:00,437 DEBUG:https://pis.org.pl:443 "GET /osoba/mateusz_kutrzeba HTTP/1.1" 200 None
+2023-04-24 21:51:00,446 INFO:REQUEST TIME: 0.17
+2023-04-24 21:51:00,476 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:51:00,634 DEBUG:https://pis.org.pl:443 "GET /osoba/karolina_lewkowicz HTTP/1.1" 200 None
+2023-04-24 21:51:00,644 INFO:REQUEST TIME: 0.17
+2023-04-24 21:51:00,672 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:51:00,830 DEBUG:https://pis.org.pl:443 "GET /osoba/zbigniew_linkowski HTTP/1.1" 200 None
+2023-04-24 21:51:00,838 INFO:REQUEST TIME: 0.16
+2023-04-24 21:51:00,867 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:51:01,021 DEBUG:https://pis.org.pl:443 "GET /osoba/krzysztof_maciejczyk HTTP/1.1" 200 None
+2023-04-24 21:51:01,039 INFO:REQUEST TIME: 0.17
+2023-04-24 21:51:01,067 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:51:01,213 DEBUG:https://pis.org.pl:443 "GET /osoba/grzegorz_mackiewicz HTTP/1.1" 200 None
+2023-04-24 21:51:01,223 INFO:REQUEST TIME: 0.15
+2023-04-24 21:51:01,251 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:51:01,396 DEBUG:https://pis.org.pl:443 "GET /osoba/grzegorz_macko HTTP/1.1" 200 None
+2023-04-24 21:51:01,404 INFO:REQUEST TIME: 0.15
+2023-04-24 21:51:01,435 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:51:01,584 DEBUG:https://pis.org.pl:443 "GET /osoba/tomasz_stefan_madras HTTP/1.1" 200 None
+2023-04-24 21:51:01,591 INFO:REQUEST TIME: 0.16
+2023-04-24 21:51:01,619 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:51:01,773 DEBUG:https://pis.org.pl:443 "GET /osoba/waldemar_marciniak HTTP/1.1" 200 None
+2023-04-24 21:51:01,783 INFO:REQUEST TIME: 0.16
+2023-04-24 21:51:01,820 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:51:01,974 DEBUG:https://pis.org.pl:443 "GET /osoba/jaroslaw_margielski HTTP/1.1" 200 None
+2023-04-24 21:51:01,980 INFO:REQUEST TIME: 0.16
+2023-04-24 21:51:02,009 INFO:SINGLE ITERATION TIME: 0.19
+2023-04-24 21:51:02,160 DEBUG:https://pis.org.pl:443 "GET /osoba/przemyslaw_maslanka HTTP/1.1" 200 None
+2023-04-24 21:51:02,167 INFO:REQUEST TIME: 0.16
+2023-04-24 21:51:02,194 INFO:SINGLE ITERATION TIME: 0.18
+2023-04-24 21:51:02,349 DEBUG:https://pis.org.pl:443 "GET /osoba/grazyna_matyszczak HTTP/1.1" 200 None
+2023-04-24 21:51:02,369 INFO:REQUEST TIME: 0.17
+2023-04-24 21:51:02,400 INFO:SINGLE ITERATION TIME: 0.2
+2023-04-24 21:51:02,400 INFO:VISITED LINKS: 515
+2023-04-24 21:51:02,400 INFO:COLLECTED LINKS: 500
+2023-04-24 21:51:02,400 INFO:QUEUED LINKS: 549
+2023-04-24 21:51:02,839 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis24042023214717-tree-graph.gv' with encoding 'utf-8'
+2023-04-24 21:51:02,840 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis24042023214717-tree-graph.gv')
+2023-04-24 21:51:02,840 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-24 21:51:02,841 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis24042023214717-diagram'
+2023-04-24 21:51:02,847 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis24042023214717-diagram']
+2023-04-24 21:51:03,264 INFO:ROBOT.TXT EXLUDED LINKS NO: 0
+2023-04-24 21:51:04,392 WARNING:Not Found: /favicon.ico
+2023-04-24 21:51:42,748 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

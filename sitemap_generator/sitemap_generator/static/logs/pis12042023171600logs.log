@@ -1,0 +1,19 @@
+2023-04-12 17:16:00,303 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-12 17:16:00,774 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-12 17:16:01,314 DEBUG:Starting new HTTPS connection (1): pis.org.pl:443
+2023-04-12 17:16:01,610 DEBUG:https://pis.org.pl:443 "GET / HTTP/1.1" 200 None
+2023-04-12 17:16:01,687 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis12042023171600-tree-graph.gv' with encoding 'utf-8'
+2023-04-12 17:16:01,688 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pis12042023171600-tree-graph.gv')
+2023-04-12 17:16:01,689 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-12 17:16:01,690 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pis12042023171600-diagram'
+2023-04-12 17:16:01,691 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pis12042023171600-diagram']
+2023-04-12 17:17:41,278 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:17:41,429 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20270
+2023-04-12 17:17:41,659 DEBUG:Starting new HTTPS connection (1): pl.wikipedia.org:443
+2023-04-12 17:17:41,790 DEBUG:https://pl.wikipedia.org:443 "GET /wiki/Wikipedia:Strona_g%C5%82%C3%B3wna HTTP/1.1" 200 20270
+2023-04-12 17:17:41,817 DEBUG:read 'C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl12042023171741-tree-graph.gv' with encoding 'utf-8'
+2023-04-12 17:17:41,818 DEBUG:.save(skip_existing=None) skip writing Source.from_file('C:/Users/pyjte/Desktop/Uni_Leeds/Year 3/Final Project/repo/final-project-site-map-generator-tool/sitemap_generator/sitemap_generator/static/graphviz-output/pl12042023171741-tree-graph.gv')
+2023-04-12 17:17:41,818 DEBUG:os.makedirs('C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images')
+2023-04-12 17:17:41,818 DEBUG:write lines to 'C:\\Users\\pyjte\\Desktop\\Uni_Leeds\\Year 3\\Final Project\\repo\\final-project-site-map-generator-tool\\sitemap_generator\\sitemap_generator/static/images/pl12042023171741-diagram'
+2023-04-12 17:17:41,819 DEBUG:run [WindowsPath('dot'), '-Kdot', '-Tsvg', '-O', 'pl12042023171741-diagram']
+2023-04-12 17:20:00,755 INFO:C:\Users\pyjte\Desktop\Uni_Leeds\Year 3\Final Project\repo\final-project-site-map-generator-tool\sitemap_generator\sitemap_generator\SiteScraper.py changed, reloading.

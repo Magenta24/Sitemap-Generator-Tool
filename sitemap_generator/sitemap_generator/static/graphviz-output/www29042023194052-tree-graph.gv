@@ -1,0 +1,22 @@
+digraph tree {
+	"https://www.bdz.bg/en" [label="https://www.bdz.bg/en", shape=egg]
+	"https://www.bdz.bg/en/stats" [label="https://www.bdz.bg/en/stats", shape=egg]
+	"https://www.bdz.bg/en/c/information-and-contacts" [label="https://www.bdz.bg/en/c/information-and-contacts", shape=egg]
+	"https://www.bdz.bg/en/a/eco-passenger" [label="https://www.bdz.bg/en/a/eco-passenger", shape=egg]
+	"https://www.bdz.bg/bg/a/eco-passenger" [label="https://www.bdz.bg/bg/a/eco-passenger", shape=egg]
+	"https://www.bdz.bg/bg" [label="https://www.bdz.bg/bg", shape=egg]
+	"https://www.bdz.bg/bg/stats" [label="https://www.bdz.bg/bg/stats", shape=egg]
+	"https://www.bdz.bg/bg/c/za-nas" [label="https://www.bdz.bg/bg/c/za-nas", shape=egg]
+	"https://www.bdz.bg/bg/c/live-updates" [label="https://www.bdz.bg/bg/c/live-updates", shape=egg]
+	"https://www.bdz.bg/bg/contact-form" [label="https://www.bdz.bg/bg/contact-form", shape=egg]
+
+	"https://www.bdz.bg/en" -> "https://www.bdz.bg/en/stats"
+	"https://www.bdz.bg/en/stats" -> "https://www.bdz.bg/en/c/information-and-contacts"
+	"https://www.bdz.bg/en/c/information-and-contacts" -> "https://www.bdz.bg/en/a/eco-passenger"
+	"https://www.bdz.bg/en/a/eco-passenger" -> "https://www.bdz.bg/bg/a/eco-passenger"
+	"https://www.bdz.bg/bg/a/eco-passenger" -> "https://www.bdz.bg/bg"
+	"https://www.bdz.bg/bg" -> "https://www.bdz.bg/bg/stats"
+	"https://www.bdz.bg/bg/stats" -> "https://www.bdz.bg/bg/c/za-nas"
+	"https://www.bdz.bg/bg/c/za-nas" -> "https://www.bdz.bg/bg/c/live-updates"
+	"https://www.bdz.bg/bg/c/live-updates" -> "https://www.bdz.bg/bg/contact-form"
+}

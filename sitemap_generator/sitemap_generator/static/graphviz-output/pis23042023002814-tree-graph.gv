@@ -1,0 +1,3 @@
+digraph tree {
+	"https://pis.org.pl/" [label="https://pis.org.pl/", shape=egg]
+}

@@ -1,0 +1,10 @@
+https://witcher.fandom.com/wiki/Witcher_Wiki
+└── https://witcher.fandom.com
+    └── https://witcher.fandom.com/f
+        └── http://witcher.fandom.com/wiki/Witcher_Wiki
+            └── https://witcher.fandom.com/wiki/Special:AllMaps
+                └── https://witcher.fandom.com/Blog:Recent_posts
+                    └── https://witcher.fandom.com/wiki/Category:Games
+                        └── https://witcher.fandom.com/wiki/The_Witcher_(game)
+                            └── https://witcher.fandom.com/wiki/The_Witcher_2:_Assassins_of_Kings
+                                └── https://witcher.fandom.com/wiki/The_Witcher_3:_Wild_Hunt
