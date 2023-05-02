@@ -43,6 +43,51 @@ pip install -r requirements.txt
 ![Found images](/screenshots/found-images.PNG "Found images")
 ![Search engine results](/screenshots/search-engine.PNG "Search Engine results")
 
+## External materials
+Following software was during development of the project:
+
+- **Django**.
+Python web framework.<br>
+Official website: https://www.djangoproject.com/ <br><br>
+
+- **OpenSeaDragon**.
+JavaScript framework for creating zoomable pictures.<br>
+Official website: https://openseadragon.github.io/ <br><br>
+
+- **Graphviz**.
+Open source graph visualization software.<br>
+Official website: https://graphviz.org/ <br><br>
+
+- **requests**.
+Python HTTP library.<br>
+GitHub repository: https://github.com/psf/requests <br>
+Documentation: https://requests.readthedocs.io/en/latest/ <br><br>
+
+- **treelib**.
+Python module providing tree data structure implementation.<br>
+GitHub repository: https://github.com/caesar0301/treelib <br>
+Documentation: https://treelib.readthedocs.io/en/latest/ <br><br>
+
+- **urllib**.
+Python package for working with URLs.<br>
+GitHub repository: https://github.com/python/cpython/tree/3.11/Lib/urllib/ <br>
+Documentation: https://docs.python.org/3/library/urllib.html <br><br>
+
+- **robotspy**.
+Python package implementing Robots Exclusion Protocol parser.<br>
+GitHub repository: https://github.com/andreburgaud/robotspy <br>
+Documentation: https://pypi.org/project/robotspy/ <br><br>
+
+- **multiprocessing**.
+Python package for spawning processes to support parallelism.<br>
+GitHub repository: https://github.com/python/cpython/tree/3.11/Lib/multiprocessing/ <br>
+Documentation: https://docs.python.org/3/library/multiprocessing.html <br><br>
+
+- **Tailwind CSS**.
+Open source frontend framework.<br>
+Official website: https://tailwindcss.com/
+
+
 ## License
 Copyright (c) 2011-2017 GitHub Inc.
 
